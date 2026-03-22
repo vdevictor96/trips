@@ -384,21 +384,22 @@ html, body {
 /* ── MAP MARKERS ────────────────────── */
 .marker-icon {
   display: flex; align-items: center; justify-content: center;
-  width: 30px; height: 40px;
+  width: 32px; height: 32px;
   border-radius: 50% 50% 50% 0;
   transform: rotate(-45deg);
   color: #fff; font-weight: 800; font-size: 12px;
   font-family: 'DM Sans', sans-serif;
   border: 2.5px solid #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,.4);
-  transition: width .2s, height .2s, font-size .2s;
+  transition: transform .2s, font-size .2s;
 }
 .marker-icon span {
   transform: rotate(45deg);
+  display: flex; align-items: center; justify-content: center;
 }
 .marker-icon.active {
-  width: 38px; height: 50px;
-  font-size: 14px;
+  transform: rotate(-45deg) scale(1.35);
+  font-size: 13px;
   border-width: 3px;
   filter: drop-shadow(0 0 6px rgba(255,255,255,.5));
 }
@@ -406,10 +407,10 @@ html, body {
 /* ── PLACE NUMBER BADGE ────────────── */
 .place-number {
   display: inline-flex; align-items: center; justify-content: center;
-  width: 22px; height: 22px;
+  width: 20px; height: 20px;
   border-radius: 50% 50% 50% 0;
   transform: rotate(-45deg);
-  color: #fff; font-weight: 800; font-size: 11px;
+  color: #fff; font-weight: 800; font-size: 10px;
   margin-right: 6px;
   vertical-align: middle;
   flex-shrink: 0;
@@ -441,6 +442,51 @@ html, body {
 .leaflet-popup-tip { background: #fff; }
 .leaflet-popup-content { font-size: 13px; line-height: 1.5; }
 .leaflet-popup-content a { color: #2563eb; }
+
+/* ── LOVE FOOTER ───────────────────── */
+#love-footer {
+  position: fixed;
+  right: 14px; bottom: 10px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-style: italic;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  background: rgba(26,26,46,.85);
+  border: 1px solid rgba(100,100,120,.45);
+  box-shadow: 0 3px 10px rgba(0,0,0,.25);
+  color: var(--text-dim);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  user-select: none;
+  cursor: pointer;
+  transition: all 180ms ease;
+  z-index: 1200;
+}
+#love-footer:hover {
+  transform: translateY(-2px);
+  color: var(--text);
+  border-color: rgba(240,194,122,.5);
+}
+.floating-heart {
+  position: fixed;
+  left: 0; top: 0;
+  transform: translate(-50%, -50%);
+  font-size: 1.35rem;
+  line-height: 1;
+  color: #cf4c78;
+  text-shadow: 0 0 12px rgba(255,255,255,.9);
+  pointer-events: none;
+  z-index: 9999;
+  will-change: transform, opacity;
+  animation: float-heart-up 1400ms ease-out forwards;
+}
+@keyframes float-heart-up {
+  0%   { opacity: 0; transform: translate(-50%,-50%) scale(.7) rotate(0deg); }
+  20%  { opacity: 1; }
+  100% { opacity: 0; transform: translate(calc(-50% + var(--heart-dx,-28px)), calc(-50% - var(--heart-rise,460px))) scale(1.35) rotate(var(--heart-rot,-12deg)); }
+}
 </style>
 </head>
 <body>
@@ -472,6 +518,8 @@ html, body {
     <div class="sheet-body" id="sheetBody"></div>
   </div>
 </div>
+
+<div id="love-footer">Powered by love of Víctor &lt;4</div>
 
 <script>
 // ═══════════════════════════════════════════════════════════════════
@@ -641,7 +689,7 @@ function buildMarkers() {
     const hotelIcon = L.divIcon({
       className:'',
       html:`<div class="marker-icon" style="background:#4b7bec;"><span>H</span></div>`,
-      iconSize:[30,40], iconAnchor:[15,40]
+      iconSize:[32,32], iconAnchor:[16,32]
     });
     L.marker([trip.hotel.lat, trip.hotel.lng], {icon:hotelIcon})
       .bindPopup(`<b>🏨 ${trip.hotel.name}</b><br>Hotel base`)
@@ -654,7 +702,7 @@ function buildMarkers() {
       const icon = L.divIcon({
         className:'',
         html:`<div class="marker-icon" style="background:${day.color};"><span>${idx+1}</span></div>`,
-        iconSize:[30,40], iconAnchor:[15,40]
+        iconSize:[32,32], iconAnchor:[16,32]
       });
       const gmapLink = `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`;
       const popup = `<b>${p.name}</b><br><span style="color:${day.color};font-weight:700">${p.time}</span> · ${p.dur}<br>${p.desc}<br><a href="${gmapLink}" target="_blank" style="color:#34a853">📍 Google Maps</a>${p.link ? ' · <a href="'+p.link+'" target="_blank">Más info →</a>' : ''}`;
@@ -696,7 +744,7 @@ function buildMarkers() {
       const icon = L.divIcon({
         className:'',
         html:`<div class="marker-icon" style="background:#666;opacity:.7;"><span>✕</span></div>`,
-        iconSize:[30,40], iconAnchor:[15,40]
+        iconSize:[32,32], iconAnchor:[16,32]
       });
       const gmapLink = `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`;
       const popup = `<b>${p.name}</b><br><span style="color:#999">${p.reason}</span><br>${p.desc}<br><a href="${gmapLink}" target="_blank" style="color:#34a853">📍 Google Maps</a>${p.link ? ' · <a href="'+p.link+'" target="_blank">Web →</a>' : ''}`;
@@ -1038,6 +1086,72 @@ document.getElementById('backBtn').addEventListener('click', goBack);
 window.addEventListener('hashchange', () => {
   const hash = location.hash.replace('#','');
   if (!hash && trip) goBack();
+});
+
+// ═══════════════════════════════════════════════════════════════════
+// LOVE FOOTER EASTER EGG
+// ═══════════════════════════════════════════════════════════════════
+
+const HEART_BURST_COLORS = ['#ff4f8a','#ff6ca7','#ff9f45','#ffd166','#8bd3ff','#8e9bff','#c27bff','#7bd88f'];
+let footerClickTimestamps = [];
+let lastFooterBurstAt = 0;
+
+function spawnFloatingHeart(opts) {
+  const h = document.createElement('div');
+  h.className = 'floating-heart';
+  h.textContent = '\u2665';
+  h.style.left = opts.x + 'px';
+  h.style.top = opts.y + 'px';
+  h.style.color = opts.color;
+  h.style.fontSize = opts.sizeRem + 'rem';
+  h.style.animationDuration = opts.durationMs + 'ms';
+  h.style.setProperty('--heart-dx', opts.driftX + 'px');
+  h.style.setProperty('--heart-rise', opts.rise + 'px');
+  h.style.setProperty('--heart-rot', opts.rotate + 'deg');
+  h.addEventListener('animationend', () => h.remove());
+  document.body.appendChild(h);
+}
+
+document.getElementById('love-footer').addEventListener('click', () => {
+  const footer = document.getElementById('love-footer');
+  const rect = footer.getBoundingClientRect();
+  // Single heart
+  spawnFloatingHeart({
+    x: Math.round(rect.left + rect.width / 2),
+    y: Math.round(rect.top + 4),
+    color: '#db4f80',
+    sizeRem: 1.35,
+    driftX: (Math.random() * 90) - 75,
+    rise: Math.max(Math.floor(window.innerHeight * 0.65), 320),
+    rotate: (Math.random() * 28) - 14,
+    durationMs: 1400,
+  });
+  // Check for rapid-click burst
+  const now = Date.now();
+  footerClickTimestamps.push(now);
+  footerClickTimestamps = footerClickTimestamps.filter(ts => now - ts <= 1800);
+  if (footerClickTimestamps.length >= 5 && now - lastFooterBurstAt > 1200) {
+    lastFooterBurstAt = now;
+    footerClickTimestamps = [];
+    for (let i = 0; i < 48; i++) {
+      setTimeout(() => {
+        let x = i < 16
+          ? rect.left + rect.width / 2 + (Math.random() * 240 - 120)
+          : Math.random() * window.innerWidth;
+        x = Math.max(10, Math.min(window.innerWidth - 10, x));
+        spawnFloatingHeart({
+          x: Math.round(x),
+          y: Math.round(window.innerHeight - (Math.random() * 70 + 8)),
+          color: HEART_BURST_COLORS[Math.floor(Math.random() * HEART_BURST_COLORS.length)],
+          sizeRem: 0.8 + Math.random() * 1.1,
+          driftX: (Math.random() * 220) - 110,
+          rise: Math.floor(window.innerHeight * (0.55 + Math.random() * 0.45)),
+          rotate: (Math.random() * 50) - 25,
+          durationMs: 1000 + Math.floor(Math.random() * 900),
+        });
+      }, Math.floor(Math.random() * 420));
+    }
+  }
 });
 
 // ═══════════════════════════════════════════════════════════════════
