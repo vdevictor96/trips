@@ -250,6 +250,15 @@ html, body {
 .place-desc a {
   color: var(--accent); text-decoration: underline;
 }
+.place-links {
+  display: flex; gap: 10px; margin-top: 6px; font-size: 12px; font-weight: 600;
+}
+.place-links a {
+  color: var(--accent); text-decoration: none;
+  display: flex; align-items: center; gap: 3px;
+}
+.place-links a:hover { text-decoration: underline; }
+.place-links .gmaps-link { color: #34a853; }
 .place-tag {
   display: inline-block;
   padding: 2px 8px;
@@ -541,7 +550,8 @@ DAYS.forEach(day => {
       html:`<div class="marker-icon" style="background:${day.color};">${idx+1}</div>`,
       iconSize:[32,32], iconAnchor:[16,16]
     });
-    const popup = `<b>${p.name}</b><br><span style="color:${day.color};font-weight:700">${p.time}</span> · ${p.dur}<br>${p.desc}${p.link ? '<br><a href="'+p.link+'" target="_blank">Más info →</a>' : ''}`;
+    const gmapLink = `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`;
+    const popup = `<b>${p.name}</b><br><span style="color:${day.color};font-weight:700">${p.time}</span> · ${p.dur}<br>${p.desc}<br><a href="${gmapLink}" target="_blank" style="color:#34a853">📍 Google Maps</a>${p.link ? ' · <a href="'+p.link+'" target="_blank">Más info →</a>' : ''}`;
     L.marker([p.lat, p.lng], {icon})
       .bindPopup(popup, {maxWidth:260})
       .addTo(group);
@@ -624,11 +634,16 @@ function renderContent(id) {
         tagsHtml += `<span class="place-tag ${t}">${labels[t]||t}</span> `;
       });
     }
+    const gmapUrl = `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`;
     html += `
       <div class="place-card" data-day="${day.id}" data-id="${p.id}" data-lat="${p.lat}" data-lng="${p.lng}">
         <div class="place-time">${p.time} · ${p.dur}</div>
         <div class="place-name">${p.name}</div>
-        <div class="place-desc">${p.desc}${p.link ? ' <a href="'+p.link+'" target="_blank">Web →</a>' : ''}</div>
+        <div class="place-desc">${p.desc}</div>
+        <div class="place-links">
+          <a class="gmaps-link" href="${gmapUrl}" target="_blank">📍 Google Maps</a>
+          ${p.link ? '<a href="'+p.link+'" target="_blank">🔗 Web</a>' : ''}
+        </div>
         ${tagsHtml}
       </div>`;
   });
