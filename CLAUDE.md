@@ -63,7 +63,19 @@ Cada archivo `trips/{id}.json` sigue este esquema:
     "transport": [{ "label": "...", "value": "..." }],
     "food": [{ "label": "...", "value": "..." }],
     "reservas": [{ "label": "...", "value": "..." }]
-  }
+  },
+  "discarded": [
+    {
+      "id": "d.1",
+      "name": "Nombre del sitio",
+      "lat": 0.0,
+      "lng": 0.0,
+      "desc": "Descripción del sitio descartado.",
+      "reason": "Motivo por el que se descartó",
+      "tags": [],
+      "link": "https://web-oficial.com"
+    }
+  ]
 }
 ```
 

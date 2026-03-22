@@ -111,5 +111,19 @@
       { "label": "Meatballs for the People", "value": "<a href=\"https://meatball.se/\" target=\"_blank\">Reservar cena → Sáb 4 abr noche</a>" },
       { "label": "Paradox Museum", "value": "Con Fever — Sáb 4 abr mañana" }
     ]
-  }
+  },
+  "discarded": [
+    { "id": "d.1", "name": "Skansen", "lat": 59.3266, "lng": 18.1051, "desc": "Museo al aire libre con edificios históricos suecos, zoo nórdico y artesanía tradicional. El más grande de Escandinavia.", "reason": "Requiere medio día completo", "tags": [], "link": "https://www.skansen.se" },
+    { "id": "d.2", "name": "ABBA The Museum", "lat": 59.3250, "lng": 18.0964, "desc": "Museo interactivo sobre la banda ABBA. Karaoke, vestuarios originales, estudio de grabación virtual.", "reason": "Museo extra, fuera de prioridades", "tags": [], "link": "https://abbathemuseum.com/en/" },
+    { "id": "d.3", "name": "Museo Vasa", "lat": 59.3280, "lng": 18.0914, "desc": "Barco de guerra del siglo XVII rescatado del fondo del mar. Uno de los museos más visitados de Escandinavia.", "reason": "Museo extra (opcional)", "tags": [], "link": "https://www.vasamuseet.se/en" },
+    { "id": "d.4", "name": "Museo Nobel", "lat": 59.3252, "lng": 18.0708, "desc": "Historia de los Premios Nobel y sus laureados. Ubicado en Stortorget, Gamla Stan.", "reason": "Museo extra", "tags": [], "link": "https://www.nobelprizemuseum.se/en/" },
+    { "id": "d.5", "name": "Fotografiska", "lat": 59.3173, "lng": 18.0842, "desc": "Museo de fotografía contemporánea en antiguo edificio industrial. Vistas al agua desde la cafetería.", "reason": "Museo extra", "tags": [], "link": "https://fotografiska.com/sto" },
+    { "id": "d.6", "name": "Vikingaliv", "lat": 59.3266, "lng": 18.0951, "desc": "Museo vikingo interactivo con paseo en barca por la era vikinga. En Djurgården.", "reason": "Museo extra", "tags": [], "link": "https://thevikingmuseum.com/en/" },
+    { "id": "d.7", "name": "Palacio de Drottningholm", "lat": 59.3217, "lng": 17.8863, "desc": "Residencia real. Patrimonio UNESCO. Jardines barrocos y teatro del siglo XVIII. A 45 min en barco o metro+bus.", "reason": "Muy lejos, requiere medio día", "tags": [], "link": "https://www.kungahuset.se/drottningholmpalace" },
+    { "id": "d.8", "name": "Gröna Lund", "lat": 59.3207, "lng": 18.0913, "desc": "Parque de atracciones histórico (1883) en Djurgården. Montañas rusas, conciertos en verano.", "reason": "No encaja en perfil del viaje", "tags": [], "link": "https://www.gronalund.com/en" },
+    { "id": "d.9", "name": "Långholmen", "lat": 59.3210, "lng": 18.0281, "desc": "Isla tranquila con antigua prisión convertida en hotel/hostel. Playas, senderos y naturaleza.", "reason": "Lejos del plan principal", "tags": [] },
+    { "id": "d.10", "name": "Riddarholmskyrkan", "lat": 59.3247, "lng": 18.0646, "desc": "Iglesia medieval del siglo XIII en Riddarholmen. Panteón de reyes suecos. Torre de hierro calado.", "reason": "Cerrada temporalmente", "tags": [] },
+    { "id": "d.11", "name": "Biblioteca Pública (Stadsbiblioteket)", "lat": 59.3436, "lng": 18.0546, "desc": "Obra maestra de Gunnar Asplund (1928). Rotonda interior cilíndrica espectacular con paredes de libros.", "reason": "Cerrada hasta otoño 2027 por reforma", "tags": [] },
+    { "id": "d.12", "name": "Hornstulls Marknad", "lat": 59.3200, "lng": 18.0200, "desc": "Mercadillo al aire libre con vintage, artesanía y comida callejera. Ambiente local de fin de semana.", "reason": "Abre 11 abril — viaje es antes (2-6 abril)", "tags": [] }
+  ]
 }

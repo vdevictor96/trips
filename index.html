@@ -357,6 +357,12 @@ html, body {
   background: rgba(165,94,234,.15);
   color: #a55eea;
 }
+.place-tag.descartado {
+  background: rgba(138,138,154,.15);
+  color: var(--text-dim);
+}
+.place-card[data-day="discarded"] { border-left-color: #666; }
+.place-card[data-day="discarded"] .place-time { display: none; }
 
 /* ── INFO TAB ───────────────────────── */
 .info-section { margin-bottom: 20px; }
@@ -523,8 +529,11 @@ async function loadTrip(tripId) {
   // Build tabs
   buildTabs();
 
-  // Build search index
+  // Build search index (includes discarded)
   allPlaces = trip.days.flatMap(d => d.places.map(p => ({...p, dayId:d.id, dayTab:d.tab, dayColor:d.color})));
+  if (trip.discarded && trip.discarded.length) {
+    allPlaces.push(...trip.discarded.map(p => ({...p, dayId:'discarded', dayTab:'Descartados', dayColor:'#666'})));
+  }
   setupSearch();
 
   // Render first day
@@ -622,6 +631,22 @@ function buildMarkers() {
     markerLayers[day.id] = group;
     group.addTo(map);
   });
+
+  // Discarded markers (gray, hidden by default)
+  if (trip.discarded && trip.discarded.length) {
+    const group = L.layerGroup();
+    trip.discarded.forEach(p => {
+      const icon = L.divIcon({
+        className:'',
+        html:`<div class="marker-icon" style="background:#666;opacity:.7;">✕</div>`,
+        iconSize:[32,32], iconAnchor:[16,16]
+      });
+      const gmapLink = `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`;
+      const popup = `<b>${p.name}</b><br><span style="color:#999">${p.reason}</span><br>${p.desc}<br><a href="${gmapLink}" target="_blank" style="color:#34a853">📍 Google Maps</a>${p.link ? ' · <a href="'+p.link+'" target="_blank">Web →</a>' : ''}`;
+      L.marker([p.lat, p.lng], {icon}).bindPopup(popup, {maxWidth:260}).addTo(group);
+    });
+    markerLayers['discarded'] = group;
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════════
@@ -635,6 +660,9 @@ function buildTabs() {
     ...trip.days.map(d => ({id:d.id, label:d.tab})),
     {id:'info', label:'ℹ️ Info útil'}
   ];
+  if (trip.discarded && trip.discarded.length) {
+    tabsData.push({id:'discarded', label:'🗑️ Descartados'});
+  }
   tabsData.forEach(t => {
     const btn = document.createElement('button');
     btn.className = 'day-tab' + (t.id === trip.days[0].id ? ' active' : '');
@@ -659,9 +687,20 @@ function selectDay(id) {
       map.removeLayer(markerLayers[d.id]);
     }
   });
+  // Discarded markers
+  if (markerLayers['discarded']) {
+    if (id === 'discarded') {
+      markerLayers['discarded'].addTo(map);
+    } else {
+      map.removeLayer(markerLayers['discarded']);
+    }
+  }
 
   // Fit bounds
-  if (id !== 'info') {
+  if (id === 'discarded' && trip.discarded && trip.discarded.length) {
+    const bounds = L.latLngBounds(trip.discarded.map(p => [p.lat, p.lng]));
+    map.fitBounds(bounds, {padding:[60,40], maxZoom:13});
+  } else if (id !== 'info' && id !== 'discarded') {
     const day = trip.days.find(d => d.id === id);
     const bounds = L.latLngBounds(day.places.map(p => [p.lat, p.lng]));
     map.fitBounds(bounds, {padding:[60,40], maxZoom:14});
@@ -691,10 +730,8 @@ function makeDirectionsURL(places) {
 
 function renderContent(id) {
   const sheetBody = document.getElementById('sheetBody');
-  if (id === 'info') {
-    renderInfo();
-    return;
-  }
+  if (id === 'info') { renderInfo(); return; }
+  if (id === 'discarded') { renderDiscarded(); return; }
   const day = trip.days.find(d => d.id === id);
   let html = `<h2 class="day-header">${day.title}</h2>`;
   html += `<p class="day-subtitle">${day.subtitle}</p>`;
@@ -768,6 +805,38 @@ function renderInfo() {
   html += `</div>`;
 
   sheetBody.innerHTML = html;
+}
+
+function renderDiscarded() {
+  const sheetBody = document.getElementById('sheetBody');
+  if (!trip.discarded || !trip.discarded.length) return;
+  let html = `<h2 class="day-header">Sitios descartados</h2>
+    <p class="day-subtitle">Sitios investigados pero no incluidos en el plan. Toca para ver en el mapa.</p>`;
+
+  trip.discarded.forEach(p => {
+    const gmapUrl = `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`;
+    html += `
+      <div class="place-card" data-day="discarded" data-id="${p.id}" data-lat="${p.lat}" data-lng="${p.lng}">
+        <div class="place-name">${p.name}</div>
+        <div class="place-desc">${p.desc}</div>
+        <div class="place-links">
+          <a class="gmaps-link" href="${gmapUrl}" target="_blank">📍 Google Maps</a>
+          ${p.link ? '<a href="'+p.link+'" target="_blank">🔗 Web</a>' : ''}
+        </div>
+        <span class="place-tag descartado">🚫 ${p.reason}</span>
+      </div>`;
+  });
+
+  sheetBody.innerHTML = html;
+
+  document.querySelectorAll('.place-card[data-day="discarded"]').forEach(card => {
+    card.addEventListener('click', e => {
+      if (e.target.tagName === 'A') return;
+      const lat = parseFloat(card.dataset.lat);
+      const lng = parseFloat(card.dataset.lng);
+      map.flyTo([lat, lng], 16, {duration: 0.8});
+    });
+  });
 }
 
 // ═══════════════════════════════════════════════════════════════════
