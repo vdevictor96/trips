@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Estocolmo Abril 2026 — Itinerario completo</name>
+    <description><![CDATA[
+      <b>Viaje a Estocolmo — 2-6 abril 2026</b><br/>
+      Pareja (Víctor + 1)<br/>
+      Hotel: Scandic Go Upplandsgatan<br/><br/>
+      12 capas: 4 días de itinerario + 8 capas temáticas.<br/>
+      Para Google My Maps: importar cada KML de capa por separado.
+    ]]></description>
+    <Style id="style_hotel">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="style_dia1">
+      <IconStyle>
+        <color>ff00aaff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="style_dia2">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="style_dia3">
+      <IconStyle>
+        <color>ff0055ff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="style_dia4">
+      <IconStyle>
+        <color>ffff00aa</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="style_mirador">
+      <IconStyle>
+        <color>ff00ddff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="style_comida">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="style_spa">
+      <IconStyle>
+        <color>ffff88ff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="style_paseo">
+      <IconStyle>
+        <color>ff00aa00</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="style_ferry">
+      <IconStyle>
+        <color>ffff8800</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="style_museo">
+      <IconStyle>
+        <color>ffaa00aa</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="style_descartado">
+      <IconStyle>
+        <color>ff888888</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+    <Folder>
+      <name>🏨 Hotel Base</name>
+      <Placemark>
+        <name>🏨 Scandic Go Upplandsgatan (Hotel Base)</name>
+        <description><![CDATA[<b>Hotel base del viaje</b><br/>📅 Check-in: 2 abril 2026 ~18:00<br/>📅 Check-out: 6 abril 2026 ~09:00<br/>📍 Upplandsgatan, Norrmalm, Estocolmo<br/><br/>Zona céntrica, a pie de Drottninggatan y T-Centralen.]]></description>
+        <styleUrl>#style_hotel</styleUrl>
+        <Point>
+          <coordinates>18.0623,59.3417,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>📅 Día 1 — Jue 2 abril — Llegada + Gamla Stan</name>
+      <Placemark>
+        <name>1.1 🏛️ Caramella</name>
+        <description><![CDATA[<b>Tienda de chuches tradicional sueca</b><br/>📅 Día 1 — Jueves 2 abril<br/>🕐 ~18:45 — 10 min<br/>📝 Primera parada al entrar en Gamla Stan. Chuches artesanales.]]></description>
+        <styleUrl>#style_dia1</styleUrl>
+        <Point>
+          <coordinates>18.072,59.3248,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1.2 📸 Stortorget</name>
+        <description><![CDATA[<b>Plaza principal de Gamla Stan</b><br/>📅 Día 1 — Jueves 2 abril<br/>🕐 ~19:00 — 15 min<br/>📝 Hilera de casas coloridas icónicas. Luz de atardecer ideal para fotos.<br/>🌅 Sunset: 19:34]]></description>
+        <styleUrl>#style_dia1</styleUrl>
+        <Point>
+          <coordinates>18.0711,59.3253,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1.3 ⛪ Catedral de San Nicolás</name>
+        <description><![CDATA[<b>Storkyrkan — Catedral gótica de ladrillo</b><br/>📅 Día 1 — Jueves 2 abril<br/>🕐 ~19:15 — 15 min<br/>📝 Catedral más antigua de Estocolmo. Estatua de San Jorge y el Dragón.]]></description>
+        <styleUrl>#style_dia1</styleUrl>
+        <Point>
+          <coordinates>18.0714,59.3256,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1.4 👑 Palacio Real (exterior)</name>
+        <description><![CDATA[<b>Kungliga Slottet — Palacio Real de Suecia</b><br/>📅 Día 1 — Jueves 2 abril<br/>🕐 ~19:30 — 15 min<br/>📝 Exterior al atardecer. El cambio de guardia es los sábados a las 12:15.<br/>🔗 <a href='https://www.kungligaslotten.se/english/royal-palace.html'>Web oficial</a>]]></description>
+        <styleUrl>#style_dia1</styleUrl>
+        <Point>
+          <coordinates>18.0706,59.3267,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1.5 🏛️ Riksdag (Parlamento)</name>
+        <description><![CDATA[<b>Parlamento sueco — exterior</b><br/>📅 Día 1 — Jueves 2 abril<br/>🕐 ~19:45 — 10 min<br/>📝 Edificio en isla propia entre Gamla Stan y Norrmalm. Bonito desde el puente.]]></description>
+        <styleUrl>#style_dia1</styleUrl>
+        <Point>
+          <coordinates>18.0655,59.3271,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1.6 🚶 Skeppsbron</name>
+        <description><![CDATA[<b>Paseo marítimo de Gamla Stan</b><br/>📅 Día 1 — Jueves 2 abril<br/>🕐 ~20:00 — 20 min<br/>📝 Paseo junto al agua con vistas a Djurgården y Skeppsholmen.]]></description>
+        <styleUrl>#style_dia1</styleUrl>
+        <Point>
+          <coordinates>18.0741,59.3243,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1.7 🛍️ Drottninggatan</name>
+        <description><![CDATA[<b>Calle principal peatonal</b><br/>📅 Día 1 — Jueves 2 abril<br/>🕐 ~20:30 — 15 min<br/>📝 Camino de vuelta al hotel. Tiendas, ambiente nocturno.]]></description>
+        <styleUrl>#style_dia1</styleUrl>
+        <Point>
+          <coordinates>18.063,59.334,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1.8 🔷 Sergels Torg</name>
+        <description><![CDATA[<b>Plaza Sergel — obelisco de cristal</b><br/>📅 Día 1 — Jueves 2 abril<br/>🕐 ~20:45 — 10 min<br/>📝 Plaza icónica iluminada por la noche. Centro neurálgico de la ciudad.]]></description>
+        <styleUrl>#style_dia1</styleUrl>
+        <Point>
+          <coordinates>18.0632,59.3328,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>📅 Día 2 — Vie 3 abril — Vaxholm + Östermalm + Moderna</name>
+      <Placemark>
+        <name>2.1 ⛴️ Strömkajen (embarque ferry)</name>
+        <description><![CDATA[<b>Puerto de salida ferry a Vaxholm</b><br/>📅 Día 2 — Viernes 3 abril<br/>🕐 ~09:15 — embarque 09:30<br/>📝 Ferry línea 83 (Waxholmsbolaget). Incluido en billete SL. Trayecto ~1h.<br/>App recomendada: 'Res i Sthlm' para horarios en tiempo real.<br/>🔗 <a href='https://waxholmsbolaget.se/in-english'>Waxholmsbolaget</a>]]></description>
+        <styleUrl>#style_dia2</styleUrl>
+        <Point>
+          <coordinates>18.0742,59.3308,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2.2 🏝️ Vaxholm</name>
+        <description><![CDATA[<b>Isla del archipiélago — excursión de medio día</b><br/>📅 Día 2 — Viernes 3 abril<br/>🕐 ~10:30–13:00 — 2.5h<br/>📝 Pueblo pesquero con casitas de madera de colores, fortaleza, puerto.<br/>Pasear, comer algo local, disfrutar del ambiente marítimo.<br/>Ferry de vuelta ~13:00 → llegada Strömkajen ~14:00.]]></description>
+        <styleUrl>#style_dia2</styleUrl>
+        <Point>
+          <coordinates>18.3567,59.4024,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2.3 🚶 Strandvägen</name>
+        <description><![CDATA[<b>Paseo elegante junto al agua</b><br/>📅 Día 2 — Viernes 3 abril<br/>🕐 ~14:15 — 30 min<br/>📝 Boulevard señorial con barcos amarrados. Empieza justo donde llega el ferry.]]></description>
+        <styleUrl>#style_dia2</styleUrl>
+        <Point>
+          <coordinates>18.0831,59.3326,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2.4 🎭 Dramaten (fachada)</name>
+        <description><![CDATA[<b>Teatro Real Dramático — fachada Art Nouveau</b><br/>📅 Día 2 — Viernes 3 abril<br/>🕐 ~14:45 — 10 min<br/>📝 Al final de Strandvägen. Fachada impresionante.]]></description>
+        <styleUrl>#style_dia2</styleUrl>
+        <Point>
+          <coordinates>18.0738,59.3322,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2.5 🌸 Kungsträdgården</name>
+        <description><![CDATA[<b>Parque con cerezos en flor (abril)</b><br/>📅 Día 2 — Viernes 3 abril<br/>🕐 ~15:00 — 25 min<br/>📝 En abril los cerezos japoneses florecen. Uno de los momentos más bonitos del año.]]></description>
+        <styleUrl>#style_dia2</styleUrl>
+        <Point>
+          <coordinates>18.0719,59.3315,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2.6 🌳 Humlegården</name>
+        <description><![CDATA[<b>Parque tranquilo en Östermalm</b><br/>📅 Día 2 — Viernes 3 abril<br/>🕐 ~15:30 — 20 min<br/>📝 Parque con estatua de Linneo. Zona residencial elegante.]]></description>
+        <styleUrl>#style_dia2</styleUrl>
+        <Point>
+          <coordinates>18.074,59.3372,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2.7 🛍️ Biblioteksgatan</name>
+        <description><![CDATA[<b>Calle de tiendas de lujo</b><br/>📅 Día 2 — Viernes 3 abril<br/>🕐 ~16:00 — 20 min<br/>📝 Equivalente sueco de una calle comercial premium.]]></description>
+        <styleUrl>#style_dia2</styleUrl>
+        <Point>
+          <coordinates>18.0725,59.3365,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2.8 🍽️ Östermalm Food Hall</name>
+        <description><![CDATA[<b>Mercado gastronómico desde 1880</b><br/>📅 Día 2 — Viernes 3 abril<br/>🕐 ~16:30 — 40 min (merienda)<br/>📝 Mercado cubierto con puestos de marisco, quesos, dulces. Probar algo local.<br/>Lun-Jue 9:30-19 / Vie 9:30-20 / Sáb 9:30-18.<br/>🔗 <a href='https://ostermalmsfoodhall.se/'>Web oficial</a>]]></description>
+        <styleUrl>#style_dia2</styleUrl>
+        <Point>
+          <coordinates>18.08,59.3352,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2.9 🍬 BUBS Godis Butik</name>
+        <description><![CDATA[<b>Tienda de chuches moderna</b><br/>📅 Día 2 — Viernes 3 abril<br/>🕐 ~17:15 — 15 min<br/>📝 Chuches suecas modernas. De camino a Skeppsholmen.]]></description>
+        <styleUrl>#style_dia2</styleUrl>
+        <Point>
+          <coordinates>18.0631,59.332,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2.10 🏝️ Skeppsholmen</name>
+        <description><![CDATA[<b>Isleta con puente de corona dorada</b><br/>📅 Día 2 — Viernes 3 abril<br/>🕐 ~17:50 — 10 min<br/>📝 Puente de hierro del s.XIX con corona dorada. Vistas a Gamla Stan.]]></description>
+        <styleUrl>#style_dia2</styleUrl>
+        <Point>
+          <coordinates>18.0844,59.3266,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2.11 🎨 Moderna Museet ⭐</name>
+        <description><![CDATA[<b>Museo de arte contemporáneo — GRATIS viernes 18-20h</b><br/>📅 Día 2 — Viernes 3 abril<br/>🕐 18:00–20:00 — 2h<br/>⭐ PRIORIDAD ABSOLUTA<br/>📝 Entrada gratuita viernes de 18 a 20h (excepto exposición Picasso).<br/>¡Tirarse por el tobogán interior!<br/>🔗 <a href='https://www.modernamuseet.se/stockholm/en/'>Web oficial</a>]]></description>
+        <styleUrl>#style_dia2</styleUrl>
+        <Point>
+          <coordinates>18.0861,59.325,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>📅 Día 3 — Sáb 4 abril — SkyView + Södermalm + Miradores</name>
+      <Placemark>
+        <name>3.1 🔭 SkyView (Avicii Arena) ⭐</name>
+        <description><![CDATA[<b>Vistas panorámicas desde esfera de cristal</b><br/>📅 Día 3 — Sábado 4 abril<br/>🕐 10:00 — 30 min<br/>⭐ OBLIGATORIO — Solo posible a las 10:00 con Fever<br/>📝 Ascensor-esfera sobre la Avicii Arena (antiguo Globen).<br/>🔗 <a href='https://skyview.ebiljett.nu/TimeBooking/ChoosenAmountOfPeople?number=4'>Reservar entradas</a>]]></description>
+        <styleUrl>#style_dia3</styleUrl>
+        <Point>
+          <coordinates>18.0001,59.2964,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3.2 🤯 Paradox Museum ⭐</name>
+        <description><![CDATA[<b>Museo de ilusiones y paradojas</b><br/>📅 Día 3 — Sábado 4 abril<br/>🕐 ~11:00 — 1h 15 min<br/>⭐ OBLIGATORIO — Con Fever<br/>📝 Museo interactivo con ilusiones ópticas, fotos divertidas.]]></description>
+        <styleUrl>#style_dia3</styleUrl>
+        <Point>
+          <coordinates>18.0613,59.3322,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3.3 👑 Cambio de Guardia — Palacio Real</name>
+        <description><![CDATA[<b>Cambio de guardia — Sábados 12:15</b><br/>📅 Día 3 — Sábado 4 abril<br/>🕐 12:15 — 30 min<br/>📝 Ceremonia militar con banda. Llegar 10-15 min antes para buen sitio.<br/>Domingos y festivos: 13:15 en su lugar.]]></description>
+        <styleUrl>#style_dia3</styleUrl>
+        <Point>
+          <coordinates>18.0706,59.3267,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3.4 🏘️ Nytorget</name>
+        <description><![CDATA[<b>Callejuela con casitas — Södermalm este</b><br/>📅 Día 3 — Sábado 4 abril<br/>🕐 ~14:00 — 45 min<br/>📝 Barrio hipster, cafeterías, tiendas vintage. Callejear sin prisa.]]></description>
+        <styleUrl>#style_dia3</styleUrl>
+        <Point>
+          <coordinates>18.0723,59.314,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3.5 🏙️ Medborgarplatsen</name>
+        <description><![CDATA[<b>Plaza central de Södermalm</b><br/>📅 Día 3 — Sábado 4 abril<br/>🕐 ~14:45 — 30 min<br/>📝 Plaza animada, bares y ambiente local.]]></description>
+        <styleUrl>#style_dia3</styleUrl>
+        <Point>
+          <coordinates>18.0673,59.3145,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3.6 🌿 Mariatorget</name>
+        <description><![CDATA[<b>Parquecillo tranquilo en Södermalm</b><br/>📅 Día 3 — Sábado 4 abril<br/>🕐 ~15:30 — 20 min<br/>📝 Pequeño parque con fuente. Zona residencial bonita.]]></description>
+        <styleUrl>#style_dia3</styleUrl>
+        <Point>
+          <coordinates>18.0503,59.3173,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3.7 🌅 Monteliusvägen</name>
+        <description><![CDATA[<b>Mirador — paseo panorámico</b><br/>📅 Día 3 — Sábado 4 abril<br/>🕐 ~17:30 — 30 min<br/>🌅 MIRADOR ATARDECER<br/>📝 Sendero peatonal elevado con vistas espectaculares al Ayuntamiento y lago Mälaren.]]></description>
+        <styleUrl>#style_dia3</styleUrl>
+        <Point>
+          <coordinates>18.049,59.32,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3.8 🌅 Skinnarviksberget</name>
+        <description><![CDATA[<b>Punto natural más alto de la ciudad</b><br/>📅 Día 3 — Sábado 4 abril<br/>🕐 ~18:15 — 45 min<br/>🌅 MEJOR MIRADOR — ATARDECER<br/>📝 El mejor mirador de Estocolmo. Roca grande donde sentarse.<br/>Llevar algo de beber para disfrutar del sunset (19:38).]]></description>
+        <styleUrl>#style_dia3</styleUrl>
+        <Point>
+          <coordinates>18.042,59.3193,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3.9 🌅 Mariaberget</name>
+        <description><![CDATA[<b>Mirador — vista panorámica del otro lado</b><br/>📅 Día 3 — Sábado 4 abril<br/>🕐 ~19:00 — 30 min<br/>🌅 Sunset: 19:38<br/>📝 Vista complementaria a Skinnarviksberget. Luz dorada.]]></description>
+        <styleUrl>#style_dia3</styleUrl>
+        <Point>
+          <coordinates>18.047,59.321,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3.10 🍽️ Meatballs for the People</name>
+        <description><![CDATA[<b>Restaurante de albóndigas suecas</b><br/>📅 Día 3 — Sábado 4 abril<br/>🕐 ~20:00 — 1h<br/>📝 Especialidad: albóndigas suecas con diferentes salsas.<br/>⚠️ RESERVAR con antelación.<br/>🔗 <a href='https://meatball.se/'>Web oficial</a>]]></description>
+        <styleUrl>#style_dia3</styleUrl>
+        <Point>
+          <coordinates>18.056,59.3168,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>📅 Día 4 — Dom 5 abril — Djurgården + Ayuntamiento + Spa</name>
+      <Placemark>
+        <name>4.1 🌿 Blå Porten (entrada Djurgården)</name>
+        <description><![CDATA[<b>Puerta de entrada a Djurgården</b><br/>📅 Día 4 — Domingo 5 abril<br/>🕐 ~09:50<br/>📝 Punto de inicio del recorrido por la isla verde. Tranvía 7 desde Norrmalmstorg.]]></description>
+        <styleUrl>#style_dia4</styleUrl>
+        <Point>
+          <coordinates>18.1025,59.3283,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4.2 🌊 Djurgårdsbrunnsviken</name>
+        <description><![CDATA[<b>Paseo por el canal de Djurgården</b><br/>📅 Día 4 — Domingo 5 abril<br/>🕐 ~10:00 — 1h<br/>📝 Canal con agua tranquila, naturaleza, cisnes. Paseo muy relajante.]]></description>
+        <styleUrl>#style_dia4</styleUrl>
+        <Point>
+          <coordinates>18.11,59.327,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4.3 🌹 Rosendals Trädgård</name>
+        <description><![CDATA[<b>Jardín + café ecológico</b><br/>📅 Día 4 — Domingo 5 abril<br/>🕐 ~11:00 — 45 min<br/>📝 Jardín botánico con invernadero, café con pasteles caseros. Fika sueca perfecta.<br/>🔗 <a href='https://www.rosendalstradgard.se/'>Web oficial</a>]]></description>
+        <styleUrl>#style_dia4</styleUrl>
+        <Point>
+          <coordinates>18.1103,59.324,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4.4 🏛️ Museo Nórdico (fachada)</name>
+        <description><![CDATA[<b>Edificio monumental — solo fachada</b><br/>📅 Día 4 — Domingo 5 abril<br/>🕐 ~11:45 — 10 min (de paso)<br/>📝 Edificio impresionante estilo renacentista. Foto exterior.]]></description>
+        <styleUrl>#style_dia4</styleUrl>
+        <Point>
+          <coordinates>18.0963,59.3282,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4.5 🚶 Norr Mälarstrand</name>
+        <description><![CDATA[<b>Paseo por orillas del lago Mälaren</b><br/>📅 Día 4 — Domingo 5 abril<br/>🕐 ~14:00 — 40 min<br/>📝 Paseo tranquilo con barcos-casa amarrados. Vistas al Ayuntamiento.]]></description>
+        <styleUrl>#style_dia4</styleUrl>
+        <Point>
+          <coordinates>18.043,59.325,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4.6 🏰 Ayuntamiento (exterior)</name>
+        <description><![CDATA[<b>Stadshuset — Ayuntamiento de Estocolmo</b><br/>📅 Día 4 — Domingo 5 abril<br/>🕐 ~14:45 — 30 min<br/>📝 Edificio de ladrillo rojo con torre. Lugar de entrega de Premios Nobel.<br/>Muy fotogénico desde el agua (Norr Mälarstrand).]]></description>
+        <styleUrl>#style_dia4</styleUrl>
+        <Point>
+          <coordinates>18.0541,59.3274,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4.7 🧖 The Nest Spa ⭐</name>
+        <description><![CDATA[<b>Circuito de spa — 2h 15min</b><br/>📅 Día 4 — Domingo 5 abril<br/>🕐 17:00–19:15<br/>⭐ OBLIGATORIO — Reservar con antelación<br/>📝 ~40€/persona. En Downtown Camper hotel.<br/>🔗 <a href='https://boka.se/systems/ypb9hxr9/quickbooking?articleId=p38hy629&companyName=Thenestwellness'>Reservar</a>]]></description>
+        <styleUrl>#style_dia4</styleUrl>
+        <Point>
+          <coordinates>18.0699,59.3283,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>🌅 Miradores</name>
+      <Placemark>
+        <name>🌅 Monteliusvägen</name>
+        <description><![CDATA[Sendero elevado con vistas al Ayuntamiento y Mälaren.<br/>📅 Día 3 — Sáb 4 abril ~17:30<br/>Tip: primero de los 3 miradores en ruta.]]></description>
+        <styleUrl>#style_mirador</styleUrl>
+        <Point>
+          <coordinates>18.049,59.32,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>🌅 Skinnarviksberget (TOP 1)</name>
+        <description><![CDATA[Punto natural más alto de la ciudad. Roca para sentarse.<br/>📅 Día 3 — Sáb 4 abril ~18:15<br/>🌅 Sunset 19:38 — Llevar algo de beber.]]></description>
+        <styleUrl>#style_mirador</styleUrl>
+        <Point>
+          <coordinates>18.042,59.3193,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>🌅 Mariaberget</name>
+        <description><![CDATA[Vista panorámica complementaria.<br/>📅 Día 3 — Sáb 4 abril ~19:00<br/>Luz dorada al atardecer.]]></description>
+        <styleUrl>#style_mirador</styleUrl>
+        <Point>
+          <coordinates>18.047,59.321,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>🔭 SkyView (Avicii Arena)</name>
+        <description><![CDATA[Vista 360° desde esfera de cristal sobre el Globen.<br/>📅 Día 3 — Sáb 4 abril 10:00]]></description>
+        <styleUrl>#style_mirador</styleUrl>
+        <Point>
+          <coordinates>18.0001,59.2964,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>🍽️ Comida y Dulces</name>
+      <Placemark>
+        <name>🍽️ Östermalm Food Hall</name>
+        <description><![CDATA[Mercado gastronómico desde 1880. Marisco, quesos, dulces.<br/>📅 Día 2 — Vie 3 abril ~16:30 (merienda).<br/>🔗 <a href='https://ostermalmsfoodhall.se/'>Web</a>]]></description>
+        <styleUrl>#style_comida</styleUrl>
+        <Point>
+          <coordinates>18.08,59.3352,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>🍽️ Meatballs for the People</name>
+        <description><![CDATA[Restaurante de albóndigas suecas.<br/>📅 Día 3 — Sáb 4 abril ~20:00.<br/>⚠️ Reservar.<br/>🔗 <a href='https://meatball.se/'>Web</a>]]></description>
+        <styleUrl>#style_comida</styleUrl>
+        <Point>
+          <coordinates>18.056,59.3168,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>🍬 BUBS Godis Butik</name>
+        <description><![CDATA[Tienda de chuches modernas suecas.<br/>📅 Día 2 — Vie 3 abril ~17:15.]]></description>
+        <styleUrl>#style_comida</styleUrl>
+        <Point>
+          <coordinates>18.0631,59.332,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>🍬 Caramella</name>
+        <description><![CDATA[Tienda de chuches tradicionales en Gamla Stan.<br/>📅 Día 1 — Jue 2 abril ~18:45.]]></description>
+        <styleUrl>#style_comida</styleUrl>
+        <Point>
+          <coordinates>18.072,59.3248,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>🌹 Rosendals Trädgård (café)</name>
+        <description><![CDATA[Café ecológico en jardín botánico. Fika sueca perfecta.<br/>📅 Día 4 — Dom 5 abril ~11:00.]]></description>
+        <styleUrl>#style_comida</styleUrl>
+        <Point>
+          <coordinates>18.1103,59.324,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>🧖 Spa</name>
+      <Placemark>
+        <name>🧖 The Nest Spa</name>
+        <description><![CDATA[Circuito spa 2h 15min — ~40€/persona.<br/>📅 Día 4 — Dom 5 abril 17:00–19:15.<br/>En Downtown Camper hotel.<br/>🔗 <a href='https://boka.se/systems/ypb9hxr9/quickbooking?articleId=p38hy629&companyName=Thenestwellness'>Reservar</a>]]></description>
+        <styleUrl>#style_spa</styleUrl>
+        <Point>
+          <coordinates>18.0699,59.3283,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>🚶 Paseos y Parques</name>
+      <Placemark>
+        <name>🚶 Strandvägen</name>
+        <description><![CDATA[Paseo elegante junto al agua. Barcos, edificios señoriales.<br/>📅 Día 2 — Vie 3 abril ~14:15.]]></description>
+        <styleUrl>#style_paseo</styleUrl>
+        <Point>
+          <coordinates>18.0831,59.3326,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>🚶 Norr Mälarstrand</name>
+        <description><![CDATA[Paseo por orillas del lago Mälaren. Barcos-casa.<br/>📅 Día 4 — Dom 5 abril ~14:00.]]></description>
+        <styleUrl>#style_paseo</styleUrl>
+        <Point>
+          <coordinates>18.043,59.325,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>🚶 Skeppsbron</name>
+        <description><![CDATA[Paseo marítimo de Gamla Stan.<br/>📅 Día 1 — Jue 2 abril ~20:00.]]></description>
+        <styleUrl>#style_paseo</styleUrl>
+        <Point>
+          <coordinates>18.0741,59.3243,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>🚶 Djurgårdsbrunnsviken</name>
+        <description><![CDATA[Canal de Djurgården, naturaleza, cisnes.<br/>📅 Día 4 — Dom 5 abril ~10:00.]]></description>
+        <styleUrl>#style_paseo</styleUrl>
+        <Point>
+          <coordinates>18.11,59.327,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>🚶 Drottninggatan</name>
+        <description><![CDATA[Calle principal peatonal. Tiendas y ambiente.<br/>📅 Día 1 — Jue 2 abril ~20:30.]]></description>
+        <styleUrl>#style_paseo</styleUrl>
+        <Point>
+          <coordinates>18.063,59.334,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>🌸 Kungsträdgården</name>
+        <description><![CDATA[Parque con cerezos en flor en abril.<br/>📅 Día 2 — Vie 3 abril ~15:00.]]></description>
+        <styleUrl>#style_paseo</styleUrl>
+        <Point>
+          <coordinates>18.0719,59.3315,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>⛴️ Archipiélago (Ferry)</name>
+      <Placemark>
+        <name>⛴️ Strömkajen (embarque)</name>
+        <description><![CDATA[Puerto de salida ferry a Vaxholm.<br/>Ferry línea 83 (Waxholmsbolaget). Incluido en billete SL.<br/>Salidas cada ~30 min por la mañana. Trayecto ~1h.<br/>App: 'Res i Sthlm'.<br/>🔗 <a href='https://waxholmsbolaget.se/in-english'>Waxholmsbolaget</a>]]></description>
+        <styleUrl>#style_ferry</styleUrl>
+        <Point>
+          <coordinates>18.0742,59.3308,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⛴️ Vaxholm (destino)</name>
+        <description><![CDATA[Isla del archipiélago. Casitas de madera, fortaleza, puerto pesquero.<br/>~2.5h de visita recomendadas.]]></description>
+        <styleUrl>#style_ferry</styleUrl>
+        <Point>
+          <coordinates>18.3567,59.4024,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>🏛️ Museos y Atracciones</name>
+      <Placemark>
+        <name>🎨 Moderna Museet</name>
+        <description><![CDATA[Museo de arte contemporáneo. GRATIS viernes 18-20h.<br/>📅 Día 2 — Vie 3 abril 18:00–20:00.<br/>¡Tirarse por el tobogán!<br/>🔗 <a href='https://www.modernamuseet.se/stockholm/en/'>Web</a>]]></description>
+        <styleUrl>#style_museo</styleUrl>
+        <Point>
+          <coordinates>18.0861,59.325,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>🤯 Paradox Museum</name>
+        <description><![CDATA[Museo de ilusiones y paradojas. Con Fever.<br/>📅 Día 3 — Sáb 4 abril ~11:00.]]></description>
+        <styleUrl>#style_museo</styleUrl>
+        <Point>
+          <coordinates>18.0613,59.3322,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>🔭 SkyView (Avicii Arena)</name>
+        <description><![CDATA[Vistas panorámicas desde esfera de cristal.<br/>📅 Día 3 — Sáb 4 abril 10:00.<br/>🔗 <a href='https://skyview.ebiljett.nu/TimeBooking/ChoosenAmountOfPeople?number=4'>Reservar</a>]]></description>
+        <styleUrl>#style_museo</styleUrl>
+        <Point>
+          <coordinates>18.0001,59.2964,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>⬜ Descartados (no visitar)</name>
+      <Placemark>
+        <name>⬜ Skansen</name>
+        <description><![CDATA[Requiere medio día — descartado.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.1039,59.327,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ Museo ABBA</name>
+        <description><![CDATA[Museo extra — descartado.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.0917,59.3241,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ Wikingermuseum</name>
+        <description><![CDATA[Museo extra — descartado.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.0919,59.3058,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ Museo Nobel</name>
+        <description><![CDATA[Museo extra — descartado.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.0709,59.3253,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ Palacio Drottningholm</name>
+        <description><![CDATA[Muy lejos, medio día — descartado.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>17.8867,59.3217,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ Fotografiska</name>
+        <description><![CDATA[Museo extra — descartado.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.0856,59.3178,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ Gröna Lund</name>
+        <description><![CDATA[Parque de atracciones — no encaja.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.0964,59.3233,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ Långholmen</name>
+        <description><![CDATA[Lejos del plan — descartado.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.03,59.32,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ Museo Nórdico (interior)</name>
+        <description><![CDATA[Solo fachada exterior.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.0963,59.3282,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ Riddarholmskyrkan</name>
+        <description><![CDATA[Cerrada temporalmente.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.0644,59.3237,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ Biblioteca Pública</name>
+        <description><![CDATA[Cerrada hasta otoño 2027.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.0547,59.3433,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ Hornstulls Marknad</name>
+        <description><![CDATA[Abre 11 abril — llegáis antes.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.035,59.3167,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ IKEA City</name>
+        <description><![CDATA[Opcional — descartado.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.0636,59.3324,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ ICEBAR Stockholm</name>
+        <description><![CDATA[Cerrado + overpriced.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.0582,59.3425,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ Museo Vasa</name>
+        <description><![CDATA[Museo extra — descartado.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.0913,59.328,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ Museo Nacional</name>
+        <description><![CDATA[Museo extra — descartado. Gratis jueves 17-20h.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.0776,59.3289,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ Danderydsgatan</name>
+        <description><![CDATA[Muy al norte — descartado.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.059,59.355,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>⬜ Munkbrohamnen</name>
+        <description><![CDATA[Zona de baño — no encaja en abril.]]></description>
+        <styleUrl>#style_descartado</styleUrl>
+        <Point>
+          <coordinates>18.065,59.323,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
