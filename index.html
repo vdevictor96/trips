@@ -917,19 +917,33 @@ function renderOverview() {
 
   trip.days.forEach(d => {
     html += `
-      <div class="place-card" data-day="${d.id}" style="border-left-color:${d.color};cursor:pointer;">
+      <div class="place-card overview-card" data-nav="${d.id}" style="border-left-color:${d.color};cursor:pointer;">
         <div class="place-time" style="color:${d.color}">Día ${d.id} · ${d.places.length} sitios</div>
         <div class="place-name">${d.title}</div>
         <div class="place-desc" style="color:var(--text-dim)">${d.subtitle}</div>
       </div>`;
   });
 
+  html += `
+    <div class="place-card overview-card" data-nav="info" style="border-left-color:var(--blue);cursor:pointer;">
+      <div class="place-time" style="color:var(--blue)">ℹ️ Info útil</div>
+      <div class="place-name">Transporte, comida, reservas</div>
+    </div>`;
+
+  if (trip.discarded && trip.discarded.length) {
+    html += `
+      <div class="place-card overview-card" data-nav="discarded" style="border-left-color:#666;cursor:pointer;">
+        <div class="place-time" style="color:#999">🗑️ Descartados · ${trip.discarded.length} sitios</div>
+        <div class="place-name">Sitios investigados pero no incluidos</div>
+      </div>`;
+  }
+
   sheetBody.innerHTML = html;
 
-  // Click on overview card → select that day
-  sheetBody.querySelectorAll('.place-card[data-day]').forEach(card => {
+  sheetBody.querySelectorAll('.overview-card[data-nav]').forEach(card => {
     card.addEventListener('click', () => {
-      selectDay(parseInt(card.dataset.day));
+      const nav = card.dataset.nav;
+      selectDay(nav === 'info' || nav === 'discarded' ? nav : parseInt(nav));
     });
   });
 }
