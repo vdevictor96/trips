@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#1a1a2e">
+<title>Estocolmo 2026</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0f0f1a;
+  --surface: #1a1a2e;
+  --surface2: #222240;
+  --text: #e8e6e3;
+  --text-dim: #8a8a9a;
+  --accent: #f0c27a;
+  --accent2: #fc5c65;
+  --day1: #f7b731;
+  --day2: #26de81;
+  --day3: #fc5c65;
+  --day4: #a55eea;
+  --blue: #4b7bec;
+  --radius: 14px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+* { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+
+html, body {
+  height: 100%; width: 100%;
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  overflow: hidden;
+}
+
+/* ── LAYOUT ─────────────────────────── */
+.app {
+  display: flex; flex-direction: column;
+  height: 100%;
+}
+
+#map {
+  flex: 1; min-height: 0;
+  z-index: 1;
+}
+
+/* ── BOTTOM SHEET ───────────────────── */
+.sheet {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  z-index: 1000;
+  background: var(--surface);
+  border-radius: 22px 22px 0 0;
+  transition: transform .35s cubic-bezier(.4,0,.2,1);
+  max-height: 70vh;
+  display: flex; flex-direction: column;
+  box-shadow: 0 -8px 40px rgba(0,0,0,.5);
+}
+
+.sheet.collapsed { transform: translateY(calc(100% - 140px - var(--safe-bottom))); }
+.sheet.expanded  { transform: translateY(0); }
+
+.sheet-handle {
+  display: flex; justify-content: center; padding: 10px 0 4px;
+  cursor: grab; flex-shrink: 0;
+}
+.sheet-handle span {
+  width: 40px; height: 4px;
+  background: #444; border-radius: 4px;
+}
+
+/* ── DAY TABS ───────────────────────── */
+.day-tabs {
+  display: flex; gap: 6px;
+  padding: 4px 16px 10px;
+  overflow-x: auto; flex-shrink: 0;
+  scrollbar-width: none;
+}
+.day-tabs::-webkit-scrollbar { display:none; }
+
+.day-tab {
+  flex-shrink: 0;
+  padding: 8px 16px;
+  border-radius: 24px;
+  border: 1.5px solid #333;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 13px; font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
+  cursor: pointer;
+  transition: all .2s;
+  white-space: nowrap;
+}
+.day-tab.active {
+  background: var(--accent);
+  color: #111;
+  border-color: var(--accent);
+}
+.day-tab[data-day="1"].active { background: var(--day1); border-color: var(--day1); }
+.day-tab[data-day="2"].active { background: var(--day2); border-color: var(--day2); color:#111; }
+.day-tab[data-day="3"].active { background: var(--day3); border-color: var(--day3); }
+.day-tab[data-day="4"].active { background: var(--day4); border-color: var(--day4); }
+.day-tab[data-day="info"].active { background: var(--blue); border-color: var(--blue); }
+
+/* ── SHEET CONTENT ──────────────────── */
+.sheet-body {
+  overflow-y: auto; flex: 1;
+  padding: 0 16px 120px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.day-header {
+  font-family: 'DM Serif Display', serif;
+  font-size: 22px;
+  margin: 4px 0 4px;
+  color: var(--text);
+  line-height: 1.2;
+}
+.day-subtitle {
+  font-size: 13px; color: var(--text-dim);
+  margin-bottom: 14px;
+}
+
+/* ── DIRECTIONS BUTTON ──────────────── */
+.directions-btn {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  width: 100%;
+  padding: 14px 20px;
+  border-radius: var(--radius);
+  border: none;
+  background: linear-gradient(135deg, #4285f4, #34a853);
+  color: #fff;
+  font-size: 15px; font-weight: 700;
+  font-family: 'DM Sans', sans-serif;
+  cursor: pointer;
+  margin-bottom: 16px;
+  text-decoration: none;
+  transition: transform .15s, box-shadow .15s;
+  box-shadow: 0 4px 20px rgba(66,133,244,.3);
+}
+.directions-btn:active { transform: scale(.97); }
+.directions-btn svg { width:20px; height:20px; fill:#fff; }
+
+/* ── PLACE CARDS ────────────────────── */
+.place-card {
+  background: var(--surface2);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  border-left: 4px solid var(--accent);
+  cursor: pointer;
+  transition: background .2s;
+}
+.place-card:active { background: #2a2a4a; }
+
+.place-card[data-day="1"] { border-left-color: var(--day1); }
+.place-card[data-day="2"] { border-left-color: var(--day2); }
+.place-card[data-day="3"] { border-left-color: var(--day3); }
+.place-card[data-day="4"] { border-left-color: var(--day4); }
+
+.place-time {
+  font-size: 12px; font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  margin-bottom: 2px;
+}
+.place-card[data-day="1"] .place-time { color: var(--day1); }
+.place-card[data-day="2"] .place-time { color: var(--day2); }
+.place-card[data-day="3"] .place-time { color: var(--day3); }
+.place-card[data-day="4"] .place-time { color: var(--day4); }
+
+.place-name {
+  font-weight: 700; font-size: 15px;
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+.place-desc {
+  font-size: 13px; color: var(--text-dim);
+  line-height: 1.5;
+}
+.place-desc a {
+  color: var(--accent); text-decoration: underline;
+}
+.place-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 11px; font-weight: 600;
+  margin-top: 6px;
+  background: rgba(240,194,122,.15);
+  color: var(--accent);
+}
+.place-tag.obligatorio {
+  background: rgba(252,92,101,.15);
+  color: var(--accent2);
+}
+.place-tag.gratis {
+  background: rgba(38,222,129,.15);
+  color: var(--day2);
+}
+.place-tag.reservar {
+  background: rgba(165,94,234,.15);
+  color: var(--day4);
+}
+
+/* ── INFO TAB ───────────────────────── */
+.info-section { margin-bottom: 20px; }
+.info-section h3 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 17px; margin-bottom: 8px;
+  color: var(--accent);
+}
+.info-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #2a2a3a;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.info-item:last-child { border:none; }
+.info-item strong { color: var(--text); }
+
+/* ── MAP MARKERS ────────────────────── */
+.marker-icon {
+  display: flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  color: #fff; font-weight: 800; font-size: 13px;
+  font-family: 'DM Sans', sans-serif;
+  border: 2.5px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,.4);
+}
+
+/* ── RESPONSIVE ─────────────────────── */
+@media (min-width: 768px) {
+  .sheet { max-width: 420px; left: 16px; right: auto; }
+  .sheet.collapsed { transform: translateY(calc(100% - 160px)); }
+}
+
+/* ── LEAFLET OVERRIDES ──────────────── */
+.leaflet-control-zoom { border-radius: 12px!important; overflow:hidden; }
+.leaflet-control-zoom a {
+  background: var(--surface)!important;
+  color: var(--text)!important;
+  border-color: #333!important;
+  width: 36px!important; height: 36px!important;
+  line-height: 36px!important; font-size: 18px!important;
+}
+.leaflet-popup-content-wrapper {
+  background: var(--surface); color: var(--text);
+  border-radius: var(--radius); font-family: 'DM Sans';
+  box-shadow: 0 8px 30px rgba(0,0,0,.5);
+}
+.leaflet-popup-tip { background: var(--surface); }
+.leaflet-popup-content { font-size: 13px; line-height: 1.5; }
+.leaflet-popup-content a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="app">
+  <div id="map"></div>
+  <div class="sheet collapsed" id="sheet">
+    <div class="sheet-handle" id="sheetHandle"><span></span></div>
+    <div class="day-tabs" id="dayTabs"></div>
+    <div class="sheet-body" id="sheetBody"></div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════════════════
+// DATA
+// ═══════════════════════════════════════════════════════════════════
+
+const HOTEL = { lat:59.3417, lng:18.0623, name:"Scandic Go Upplandsgatan" };
+
+const DAYS = [
+  {
+    id: 1,
+    tab: "Día 1 · Jue 2",
+    title: "Llegada + Gamla Stan",
+    subtitle: "Jueves 2 abril · Llegada 17h · Plan suave · 🌅 Sunset 19:34",
+    color: "#f7b731",
+    places: [
+      { id:"1.1", time:"18:45", dur:"10 min", name:"Caramella", lat:59.3248, lng:18.0720,
+        desc:"Tienda de chuches tradicional sueca en Gamla Stan.", tags:[] },
+      { id:"1.2", time:"19:00", dur:"15 min", name:"Stortorget", lat:59.3253, lng:18.0711,
+        desc:"Plaza principal de Gamla Stan. Casas coloridas icónicas. Luz de atardecer ideal para fotos.", tags:[] },
+      { id:"1.3", time:"19:15", dur:"15 min", name:"Catedral de San Nicolás", lat:59.3256, lng:18.0714,
+        desc:"Storkyrkan — Catedral gótica de ladrillo, la más antigua de Estocolmo.", tags:[] },
+      { id:"1.4", time:"19:30", dur:"15 min", name:"Palacio Real (exterior)", lat:59.3267, lng:18.0706,
+        desc:"Kungliga Slottet. Exterior al atardecer. Cambio de guardia → sábados 12:15.",
+        tags:[], link:"https://www.kungligaslotten.se/english/royal-palace.html" },
+      { id:"1.5", time:"19:45", dur:"10 min", name:"Riksdag (Parlamento)", lat:59.3271, lng:18.0655,
+        desc:"Parlamento sueco. Bonito desde el puente, entre Gamla Stan y Norrmalm.", tags:[] },
+      { id:"1.6", time:"20:00", dur:"20 min", name:"Skeppsbron", lat:59.3243, lng:18.0741,
+        desc:"Paseo marítimo de Gamla Stan con vistas a Djurgården y Skeppsholmen.", tags:[] },
+      { id:"1.7", time:"20:30", dur:"15 min", name:"Drottninggatan", lat:59.3340, lng:18.0630,
+        desc:"Calle principal peatonal. Tiendas y ambiente nocturno, camino al hotel.", tags:[] },
+      { id:"1.8", time:"20:45", dur:"10 min", name:"Sergels Torg", lat:59.3328, lng:18.0632,
+        desc:"Plaza icónica con obelisco de cristal. Espectacular iluminada de noche.", tags:[] },
+    ]
+  },
+  {
+    id: 2,
+    tab: "Día 2 · Vie 3",
+    title: "Vaxholm + Östermalm + Moderna",
+    subtitle: "Viernes 3 abril · Ferry mañana · Moderna GRATIS 18-20h · 🌅 Sunset 19:36",
+    color: "#26de81",
+    places: [
+      { id:"2.1", time:"09:30", dur:"1h (ferry)", name:"Strömkajen → Ferry Vaxholm", lat:59.3308, lng:18.0742,
+        desc:"Ferry línea 83 (Waxholmsbolaget). Incluido en billete SL. ~1h de trayecto. App: 'Res i Sthlm'.",
+        tags:[], link:"https://waxholmsbolaget.se/in-english" },
+      { id:"2.2", time:"10:30", dur:"2.5h", name:"Vaxholm", lat:59.4024, lng:18.3567,
+        desc:"Pueblo del archipiélago. Casitas de madera, fortaleza, puerto pesquero. Ferry vuelta ~13:00.", tags:[] },
+      { id:"2.3", time:"14:15", dur:"30 min", name:"Strandvägen", lat:59.3326, lng:18.0831,
+        desc:"Paseo elegante junto al agua. Empieza justo donde llega el ferry.", tags:[] },
+      { id:"2.4", time:"14:45", dur:"10 min", name:"Dramaten (fachada)", lat:59.3322, lng:18.0738,
+        desc:"Teatro Real Dramático — fachada Art Nouveau impresionante.", tags:[] },
+      { id:"2.5", time:"15:00", dur:"25 min", name:"Kungsträdgården", lat:59.3315, lng:18.0719,
+        desc:"Parque con cerezos en flor en abril. Uno de los momentos más bonitos del año.", tags:[] },
+      { id:"2.6", time:"15:30", dur:"20 min", name:"Humlegården", lat:59.3372, lng:18.0740,
+        desc:"Parque tranquilo con estatua de Linneo. Zona residencial elegante.", tags:[] },
+      { id:"2.7", time:"16:00", dur:"20 min", name:"Biblioteksgatan", lat:59.3365, lng:18.0725,
+        desc:"Calle de tiendas de lujo.", tags:[] },
+      { id:"2.8", time:"16:30", dur:"40 min", name:"Östermalm Food Hall", lat:59.3352, lng:18.0800,
+        desc:"Mercado gastronómico desde 1880. Marisco, quesos, dulces. ¡Merienda aquí!",
+        tags:[], link:"https://ostermalmsfoodhall.se/" },
+      { id:"2.9", time:"17:15", dur:"15 min", name:"BUBS Godis Butik", lat:59.3320, lng:18.0631,
+        desc:"Tienda de chuches modernas suecas. De camino a Skeppsholmen.", tags:[] },
+      { id:"2.10", time:"17:50", dur:"10 min", name:"Skeppsholmen", lat:59.3266, lng:18.0844,
+        desc:"Isleta con puente de hierro s.XIX y corona dorada. Vistas a Gamla Stan.", tags:[] },
+      { id:"2.11", time:"18:00", dur:"2h", name:"Moderna Museet ⭐", lat:59.3250, lng:18.0861,
+        desc:"GRATIS viernes 18-20h (excepto expo Picasso). ¡Tirarse por el tobogán interior!",
+        tags:["obligatorio","gratis"], link:"https://www.modernamuseet.se/stockholm/en/" },
+    ]
+  },
+  {
+    id: 3,
+    tab: "Día 3 · Sáb 4",
+    title: "SkyView + Södermalm + Miradores",
+    subtitle: "Sábado 4 abril · SkyView 10h · Cambio guardia 12:15 · 🌅 Sunset 19:38",
+    color: "#fc5c65",
+    places: [
+      { id:"3.1", time:"10:00", dur:"30 min", name:"SkyView (Avicii Arena) ⭐", lat:59.2964, lng:18.0001,
+        desc:"Vista 360° desde esfera de cristal. Solo posible a las 10:00 con Fever. Metro línea verde → Globen.",
+        tags:["obligatorio","reservar"], link:"https://skyview.ebiljett.nu/TimeBooking/ChoosenAmountOfPeople?number=4" },
+      { id:"3.2", time:"11:00", dur:"1h 15min", name:"Paradox Museum ⭐", lat:59.3322, lng:18.0613,
+        desc:"Museo de ilusiones y paradojas. Fotos divertidas. Con Fever.",
+        tags:["obligatorio"] },
+      { id:"3.3", time:"12:15", dur:"30 min", name:"Cambio de Guardia — Palacio", lat:59.3267, lng:18.0706,
+        desc:"Ceremonia militar con banda. Llegar 10-15 min antes. Sáb 12:15 / Dom 13:15.", tags:[] },
+      { id:"3.4", time:"14:00", dur:"45 min", name:"Nytorget", lat:59.3140, lng:18.0723,
+        desc:"Callejuela con casitas en Södermalm este. Barrio hipster, cafés, tiendas vintage.", tags:[] },
+      { id:"3.5", time:"14:45", dur:"30 min", name:"Medborgarplatsen", lat:59.3145, lng:18.0673,
+        desc:"Plaza central animada de Södermalm.", tags:[] },
+      { id:"3.6", time:"15:30", dur:"20 min", name:"Mariatorget", lat:59.3173, lng:18.0503,
+        desc:"Parquecillo tranquilo con fuente. Zona residencial bonita.", tags:[] },
+      { id:"3.7", time:"17:30", dur:"30 min", name:"Monteliusvägen 🌅", lat:59.3200, lng:18.0490,
+        desc:"Sendero elevado con vistas espectaculares al Ayuntamiento y lago Mälaren.", tags:["mirador"] },
+      { id:"3.8", time:"18:15", dur:"45 min", name:"Skinnarviksberget 🌅", lat:59.3193, lng:18.0420,
+        desc:"Punto natural MÁS ALTO de la ciudad. Roca para sentarse. Llevar algo de beber para el sunset.", tags:["mirador"] },
+      { id:"3.9", time:"19:00", dur:"30 min", name:"Mariaberget 🌅", lat:59.3210, lng:18.0470,
+        desc:"Mirador complementario. Luz dorada al atardecer (sunset 19:38).", tags:["mirador"] },
+      { id:"3.10", time:"20:00", dur:"1h", name:"Meatballs for the People", lat:59.3168, lng:18.0560,
+        desc:"Restaurante de albóndigas suecas con diferentes salsas. ⚠️ RESERVAR.",
+        tags:["reservar"], link:"https://meatball.se/" },
+    ]
+  },
+  {
+    id: 4,
+    tab: "Día 4 · Dom 5",
+    title: "Djurgården + Ayuntamiento + Spa",
+    subtitle: "Domingo 5 abril · Naturaleza + relax · Última noche · 🌅 Sunset 19:41",
+    color: "#a55eea",
+    places: [
+      { id:"4.1", time:"09:50", dur:"—", name:"Blå Porten (entrada Djurgården)", lat:59.3283, lng:18.1025,
+        desc:"Puerta de entrada a la isla verde. Tranvía 7 desde Norrmalmstorg.", tags:[] },
+      { id:"4.2", time:"10:00", dur:"1h", name:"Djurgårdsbrunnsviken", lat:59.3270, lng:18.1100,
+        desc:"Paseo por el canal. Agua tranquila, naturaleza, cisnes. Muy relajante.", tags:[] },
+      { id:"4.3", time:"11:00", dur:"45 min", name:"Rosendals Trädgård", lat:59.3240, lng:18.1103,
+        desc:"Jardín botánico + café ecológico con pasteles caseros. Fika sueca perfecta.",
+        tags:[], link:"https://www.rosendalstradgard.se/" },
+      { id:"4.4", time:"12:00", dur:"10 min", name:"Museo Nórdico (fachada)", lat:59.3282, lng:18.0963,
+        desc:"Edificio monumental estilo renacentista. Solo foto exterior, de paso.", tags:[] },
+      { id:"4.5", time:"14:00", dur:"40 min", name:"Norr Mälarstrand", lat:59.3250, lng:18.0430,
+        desc:"Paseo por orillas del lago Mälaren. Barcos-casa amarrados. Vistas al Ayuntamiento.", tags:[] },
+      { id:"4.6", time:"14:45", dur:"30 min", name:"Ayuntamiento (exterior)", lat:59.3274, lng:18.0541,
+        desc:"Stadshuset — ladrillo rojo con torre. Lugar de entrega Premios Nobel. Muy fotogénico desde el agua.", tags:[] },
+      { id:"4.7", time:"17:00", dur:"2h 15min", name:"The Nest Spa ⭐", lat:59.3283, lng:18.0699,
+        desc:"Circuito spa 2h 15min — ~40€/persona. En Downtown Camper hotel.",
+        tags:["obligatorio","reservar"], link:"https://boka.se/systems/ypb9hxr9/quickbooking?articleId=p38hy629&companyName=Thenestwellness" },
+    ]
+  }
+];
+
+const INFO = {
+  transport: [
+    { label:"Aeropuerto → Centro", value:"Flixbus 7€ ~45min / Arlanda Express 30€ (15€ joven) ~18min" },
+    { label:"Metro (T-bana)", value:"Billete SL válido para metro, bus, ferry, tranvía" },
+    { label:"Ferry Vaxholm", value:"Línea 83 desde Strömkajen. Incluido en SL. ~1h." },
+    { label:"Tranvía 7", value:"Norrmalmstorg → Djurgården (parada Blå Porten)" },
+  ],
+  food: [
+    { label:"Kardemummabulle", value:"Roll de cardamomo" },
+    { label:"Kanelbulle", value:"Cinnamon roll sueco" },
+    { label:"Semla", value:"Bollo relleno de pasta de almendra y nata, con cardamomo" },
+    { label:"Tunnbrödsrulle", value:"Hot dog sueco" },
+    { label:"Kroppkakor", value:"Dumplings suecos con carne" },
+    { label:"Smørrebrød", value:"Sándwich abierto sobre pan de centeno (danés pero común)" },
+    { label:"Albóndigas suecas", value:"En Meatballs for the People — Día 3 cena" },
+  ],
+  reservas: [
+    { label:"SkyView", value:'<a href="https://skyview.ebiljett.nu/TimeBooking/ChoosenAmountOfPeople?number=4" target="_blank">Reservar → Sáb 4 abr 10:00</a>' },
+    { label:"The Nest Spa", value:'<a href="https://boka.se/systems/ypb9hxr9/quickbooking?articleId=p38hy629&companyName=Thenestwellness" target="_blank">Reservar → Dom 5 abr ~17:00</a>' },
+    { label:"Meatballs for the People", value:'<a href="https://meatball.se/" target="_blank">Reservar cena → Sáb 4 abr noche</a>' },
+    { label:"Paradox Museum", value:"Con Fever — Sáb 4 abr mañana" },
+  ]
+};
+
+// Google Directions URLs (walking mode)
+function makeDirectionsURL(places) {
+  const pts = places.map(p => `${p.lat},${p.lng}`);
+  const origin = pts[0];
+  const dest = pts[pts.length - 1];
+  const waypoints = pts.slice(1, -1).join('|');
+  let url = `https://www.google.com/maps/dir/?api=1&origin=${origin}&destination=${dest}&travelmode=walking`;
+  if (waypoints) url += `&waypoints=${waypoints}`;
+  return url;
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// MAP SETUP
+// ═══════════════════════════════════════════════════════════════════
+
+const map = L.map('map', {
+  center: [59.325, 18.07],
+  zoom: 13,
+  zoomControl: true,
+  attributionControl: false,
+});
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  maxZoom: 19,
+}).addTo(map);
+
+const markerLayers = {};
+const dayColors = { 1:"#f7b731", 2:"#26de81", 3:"#fc5c65", 4:"#a55eea" };
+
+// Hotel marker
+const hotelIcon = L.divIcon({
+  className:'',
+  html:`<div class="marker-icon" style="background:#4b7bec;">H</div>`,
+  iconSize:[32,32], iconAnchor:[16,16]
+});
+L.marker([HOTEL.lat, HOTEL.lng], {icon:hotelIcon})
+  .bindPopup(`<b>🏨 ${HOTEL.name}</b><br>Hotel base`)
+  .addTo(map);
+
+DAYS.forEach(day => {
+  const group = L.layerGroup();
+  day.places.forEach((p, idx) => {
+    const icon = L.divIcon({
+      className:'',
+      html:`<div class="marker-icon" style="background:${day.color};">${idx+1}</div>`,
+      iconSize:[32,32], iconAnchor:[16,16]
+    });
+    const popup = `<b>${p.name}</b><br><span style="color:${day.color};font-weight:700">${p.time}</span> · ${p.dur}<br>${p.desc}${p.link ? '<br><a href="'+p.link+'" target="_blank">Más info →</a>' : ''}`;
+    L.marker([p.lat, p.lng], {icon})
+      .bindPopup(popup, {maxWidth:260})
+      .addTo(group);
+  });
+  markerLayers[day.id] = group;
+  group.addTo(map);
+});
+
+// ═══════════════════════════════════════════════════════════════════
+// UI
+// ═══════════════════════════════════════════════════════════════════
+
+const sheet = document.getElementById('sheet');
+const sheetBody = document.getElementById('sheetBody');
+const dayTabs = document.getElementById('dayTabs');
+let activeDay = 1;
+
+// Build tabs
+const tabsData = [
+  ...DAYS.map(d => ({id:d.id, label:d.tab})),
+  {id:'info', label:'ℹ️ Info útil'}
+];
+
+tabsData.forEach(t => {
+  const btn = document.createElement('button');
+  btn.className = 'day-tab' + (t.id === 1 ? ' active' : '');
+  btn.dataset.day = t.id;
+  btn.textContent = t.label;
+  btn.onclick = () => selectDay(t.id);
+  dayTabs.appendChild(btn);
+});
+
+function selectDay(id) {
+  activeDay = id;
+  document.querySelectorAll('.day-tab').forEach(t => t.classList.toggle('active', t.dataset.day == id));
+
+  // Show/hide markers
+  DAYS.forEach(d => {
+    if (id === 'info') {
+      markerLayers[d.id].addTo(map);
+    } else if (d.id === id) {
+      markerLayers[d.id].addTo(map);
+    } else {
+      map.removeLayer(markerLayers[d.id]);
+    }
+  });
+
+  // Fit bounds
+  if (id !== 'info') {
+    const day = DAYS.find(d => d.id === id);
+    const bounds = L.latLngBounds(day.places.map(p => [p.lat, p.lng]));
+    map.fitBounds(bounds, {padding:[60,40], maxZoom:14});
+  } else {
+    map.setView([59.325, 18.07], 13);
+  }
+
+  renderContent(id);
+  sheet.classList.remove('collapsed');
+  sheet.classList.add('expanded');
+}
+
+function renderContent(id) {
+  if (id === 'info') {
+    renderInfo();
+    return;
+  }
+  const day = DAYS.find(d => d.id === id);
+  let html = `<h2 class="day-header">${day.title}</h2>`;
+  html += `<p class="day-subtitle">${day.subtitle}</p>`;
+  html += `<a class="directions-btn" href="${makeDirectionsURL(day.places)}" target="_blank">
+    <svg viewBox="0 0 24 24"><path d="M22.43 10.59l-9.01-9.01c-.75-.75-2.07-.76-2.83 0l-9.01 9.01c-.77.76-.77 2.07 0 2.83l9.01 9.01c.38.38.88.57 1.41.57.53 0 1.03-.19 1.41-.57l9.01-9.01c.79-.76.79-2.08.01-2.83zm-7.93.41V14h-3v-2.5H8.5v-3h3V6l4.5 4.5-1.5.5z"/></svg>
+    Abrir ruta del día en Google Maps
+  </a>`;
+
+  day.places.forEach(p => {
+    let tagsHtml = '';
+    if (p.tags) {
+      p.tags.forEach(t => {
+        const labels = {obligatorio:'⭐ Obligatorio', gratis:'🆓 Gratis', reservar:'📞 Reservar', mirador:'🌅 Mirador'};
+        tagsHtml += `<span class="place-tag ${t}">${labels[t]||t}</span> `;
+      });
+    }
+    html += `
+      <div class="place-card" data-day="${day.id}" data-lat="${p.lat}" data-lng="${p.lng}">
+        <div class="place-time">${p.time} · ${p.dur}</div>
+        <div class="place-name">${p.name}</div>
+        <div class="place-desc">${p.desc}${p.link ? ' <a href="'+p.link+'" target="_blank">Web →</a>' : ''}</div>
+        ${tagsHtml}
+      </div>`;
+  });
+
+  sheetBody.innerHTML = html;
+
+  // Click to fly to place
+  document.querySelectorAll('.place-card').forEach(card => {
+    card.addEventListener('click', e => {
+      if (e.target.tagName === 'A') return;
+      const lat = parseFloat(card.dataset.lat);
+      const lng = parseFloat(card.dataset.lng);
+      map.flyTo([lat, lng], 16, {duration: 0.8});
+    });
+  });
+}
+
+function renderInfo() {
+  let html = `<h2 class="day-header">Info práctica</h2>
+    <p class="day-subtitle">Transporte, comida, reservas</p>`;
+
+  html += `<div class="info-section"><h3>🚌 Transporte</h3>`;
+  INFO.transport.forEach(i => html += `<div class="info-item"><strong>${i.label}:</strong> ${i.value}</div>`);
+  html += `</div>`;
+
+  html += `<div class="info-section"><h3>📞 Reservas pendientes</h3>`;
+  INFO.reservas.forEach(i => html += `<div class="info-item"><strong>${i.label}:</strong> ${i.value}</div>`);
+  html += `</div>`;
+
+  html += `<div class="info-section"><h3>🍽️ Comida típica a probar</h3>`;
+  INFO.food.forEach(i => html += `<div class="info-item"><strong>${i.label}</strong> — ${i.value}</div>`);
+  html += `</div>`;
+
+  html += `<div class="info-section"><h3>📅 Resumen de días</h3>`;
+  DAYS.forEach(d => {
+    html += `<div class="info-item"><strong style="color:${d.color}">Día ${d.id}:</strong> ${d.title}<br><span style="color:var(--text-dim);font-size:12px">${d.subtitle}</span></div>`;
+  });
+  html += `</div>`;
+
+  sheetBody.innerHTML = html;
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// SHEET GESTURES
+// ═══════════════════════════════════════════════════════════════════
+
+const handle = document.getElementById('sheetHandle');
+handle.addEventListener('click', () => {
+  sheet.classList.toggle('collapsed');
+  sheet.classList.toggle('expanded');
+});
+
+let touchStartY = 0;
+handle.addEventListener('touchstart', e => { touchStartY = e.touches[0].clientY; }, {passive:true});
+handle.addEventListener('touchend', e => {
+  const dy = e.changedTouches[0].clientY - touchStartY;
+  if (dy > 40) { sheet.classList.add('collapsed'); sheet.classList.remove('expanded'); }
+  if (dy < -40) { sheet.classList.remove('collapsed'); sheet.classList.add('expanded'); }
+}, {passive:true});
+
+// Initialize
+renderContent(1);
+setTimeout(() => map.invalidateSize(), 100);
+</script>
+</body>
+</html>
