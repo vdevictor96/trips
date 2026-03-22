@@ -1,0 +1,14 @@
+{
+  "trips": [
+    {
+      "id": "estocolmo-2026",
+      "title": "Estocolmo 2026",
+      "emoji": "🇸🇪",
+      "city": "Estocolmo",
+      "country": "Suecia",
+      "dates": "2-6 abril 2026",
+      "days": 4,
+      "places": 41
+    }
+  ]
+}
