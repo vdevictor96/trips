@@ -77,7 +77,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount, inject } from 'vue'
 import { useTripStore } from '../stores/trip.js'
 import { useGooglePlaces } from '../composables/useGooglePlaces.js'
 import { useToast } from '../composables/useToast.js'
@@ -85,6 +85,7 @@ import { useToast } from '../composables/useToast.js'
 const store = useTripStore()
 const { isAvailable, searchPlaces } = useGooglePlaces()
 const { show } = useToast()
+const mapApi = inject('mapApi')
 const emit = defineEmits(['selectPlace', 'flyTo'])
 
 const query = ref('')
@@ -111,6 +112,7 @@ function setMode(m) {
   mode.value = m
   googleResults.value = []
   googleSearched.value = false
+  mapApi?.clearSearchMarkers()
   if (query.value.trim()) onInput()
 }
 
@@ -132,6 +134,8 @@ async function searchGoogle(q) {
   googleResults.value = await searchPlaces(q, lat, lng)
   googleLoading.value = false
   googleSearched.value = true
+  // Show search pins on map
+  if (googleResults.value.length) mapApi?.showSearchMarkers(googleResults.value)
 }
 
 function isAlreadyInTrip(result) {
@@ -174,6 +178,7 @@ function addGooglePlace(result) {
   showResults.value = false
   addingPlace.value = null
   googleResults.value = []
+  mapApi?.clearSearchMarkers()
 }
 
 function selectLocalResult(match) {
@@ -186,6 +191,7 @@ function onOutsideClick(e) {
   if (!e.target.closest('.search-container')) {
     showResults.value = false
     addingPlace.value = null
+    mapApi?.clearSearchMarkers()
   }
 }
 

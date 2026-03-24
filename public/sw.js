@@ -10,7 +10,7 @@ const APP_SHELL = [
 ]
 
 // Patterns for runtime caching strategies
-const TILE_PATTERN = /^https:\/\/[abc]\.basemaps\.cartocdn\.com\//
+const GOOGLE_API_PATTERN = /^https:\/\/(maps|.*\.googleapis|.*\.gstatic)\.com\/(maps|.*\/maps)/
 const FONT_PATTERN = /^https:\/\/fonts\.(googleapis|gstatic)\.com\//
 const TRIP_DATA_PATTERN = new RegExp('^' + self.location.origin + BASE.replace(/\//g, '\\/') + 'trips\\/')
 
@@ -37,11 +37,8 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const url = event.request.url
 
-  // Map tiles — cache first, then network (tiles don't change)
-  if (TILE_PATTERN.test(url)) {
-    event.respondWith(cacheFirst(event.request))
-    return
-  }
+  // Google Maps API — don't intercept (let Google handle its own caching)
+  if (GOOGLE_API_PATTERN.test(url)) return
 
   // Google Fonts — cache first (versioned URLs)
   if (FONT_PATTERN.test(url)) {

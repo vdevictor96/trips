@@ -1,98 +1,218 @@
-import { ref, watch, nextTick } from 'vue'
+import { ref } from 'vue'
 import { useTripStore } from '../stores/trip.js'
-import L from 'leaflet'
-import 'leaflet/dist/leaflet.css'
+import { loadLibrary, isGoogleAvailable } from './googleLoader.js'
 
+// Dark map style
+const DARK_STYLE = [
+  { elementType: 'geometry', stylers: [{ color: '#212121' }] },
+  { elementType: 'labels.text.fill', stylers: [{ color: '#757575' }] },
+  { elementType: 'labels.text.stroke', stylers: [{ color: '#212121' }] },
+  { featureType: 'administrative.country', elementType: 'labels.text.fill', stylers: [{ color: '#9e9e9e' }] },
+  { featureType: 'administrative.locality', elementType: 'labels.text.fill', stylers: [{ color: '#bdbdbd' }] },
+  { featureType: 'poi', elementType: 'labels.text.fill', stylers: [{ color: '#757575' }] },
+  { featureType: 'poi.park', elementType: 'geometry', stylers: [{ color: '#181818' }] },
+  { featureType: 'poi.park', elementType: 'labels.text.fill', stylers: [{ color: '#616161' }] },
+  { featureType: 'road', elementType: 'geometry.fill', stylers: [{ color: '#2c2c2c' }] },
+  { featureType: 'road', elementType: 'labels.text.fill', stylers: [{ color: '#8a8a8a' }] },
+  { featureType: 'road.arterial', elementType: 'geometry', stylers: [{ color: '#373737' }] },
+  { featureType: 'road.highway', elementType: 'geometry', stylers: [{ color: '#3c3c3c' }] },
+  { featureType: 'road.highway.controlled_access', elementType: 'geometry', stylers: [{ color: '#4e4e4e' }] },
+  { featureType: 'road.local', elementType: 'labels.text.fill', stylers: [{ color: '#616161' }] },
+  { featureType: 'transit', elementType: 'labels.text.fill', stylers: [{ color: '#757575' }] },
+  { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#000000' }] },
+  { featureType: 'water', elementType: 'labels.text.fill', stylers: [{ color: '#3d3d3d' }] },
+]
+
+// Shared Google Maps URL builder (exported for PlaceCard etc.)
 export function buildGmapUrl(place) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name)}+@${place.lat},${place.lng}`
 }
 
+// Popup HTML builder
 function buildPopupHtml(place, color) {
   const gmapLink = buildGmapUrl(place)
   return `<b>${place.name}</b><br><span style="color:${color};font-weight:700">${place.time || ''}</span>${place.dur ? ' · ' + place.dur : ''}${place.desc ? '<br>' + place.desc : ''}<br><a href="${gmapLink}" target="_blank" style="color:#34a853">📍 Google Maps</a>${place.link ? ' · <a href="' + place.link + '" target="_blank">Más info →</a>' : ''}`
 }
 
+// HtmlMarker class — created after Google Maps API loads
+let HtmlMarkerClass = null
+
+function ensureHtmlMarkerClass() {
+  if (HtmlMarkerClass) return
+
+  HtmlMarkerClass = class extends google.maps.OverlayView {
+    constructor(position, html, id) {
+      super()
+      this._position = new google.maps.LatLng(position.lat, position.lng)
+      this._html = html
+      this._id = id
+      this._div = null
+      this._clickHandler = null
+      this._visible = true
+    }
+
+    onAdd() {
+      this._div = document.createElement('div')
+      this._div.className = 'gmap-marker-wrapper'
+      this._div.innerHTML = this._html
+      this._div.addEventListener('click', (e) => {
+        e.stopPropagation()
+        if (this._clickHandler) this._clickHandler()
+      })
+      if (!this._visible) this._div.style.display = 'none'
+      this.getPanes().overlayMouseTarget.appendChild(this._div)
+    }
+
+    draw() {
+      if (!this._div) return
+      const projection = this.getProjection()
+      if (!projection) return
+      const pos = projection.fromLatLngToDivPixel(this._position)
+      if (pos) {
+        this._div.style.left = (pos.x - 16) + 'px'
+        this._div.style.top = (pos.y - 32) + 'px'
+      }
+    }
+
+    onRemove() {
+      this._div?.parentElement?.removeChild(this._div)
+      this._div = null
+    }
+
+    onClick(handler) {
+      this._clickHandler = handler
+      return this
+    }
+
+    setVisible(visible) {
+      this._visible = visible
+      if (this._div) this._div.style.display = visible ? '' : 'none'
+    }
+
+    getElement() {
+      return this._div
+    }
+
+    getPosition() {
+      return this._position
+    }
+  }
+}
+
 export function useMap() {
   const store = useTripStore()
   const map = ref(null)
-  const markerLayers = ref({})
+  const markersByDay = ref({})
   const markerById = ref({})
+  const searchMarkers = ref([])
+  const hotelMarker = ref(null)
+  let infoWindow = null
 
-  function initMap(el) {
-    if (map.value) { map.value.remove(); map.value = null }
-    markerLayers.value = {}
-    markerById.value = {}
+  async function initMap(el) {
+    if (map.value) destroyMap()
 
-    map.value = L.map(el, {
-      center: store.trip.mapCenter,
-      zoom: store.trip.mapZoom,
-      zoomControl: true,
-      attributionControl: false,
-    })
+    if (!isGoogleAvailable()) {
+      el.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--text-dim);font-size:14px;text-align:center;padding:20px;">Configura VITE_GOOGLE_API_KEY para ver el mapa</div>'
+      return
+    }
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-      maxZoom: 19,
-    }).addTo(map.value)
+    try {
+      await loadLibrary('maps')
+      ensureHtmlMarkerClass()
 
-    setTimeout(() => map.value?.invalidateSize(), 100)
+      const [lat, lng] = store.trip.mapCenter
+
+      map.value = new google.maps.Map(el, {
+        center: { lat, lng },
+        zoom: store.trip.mapZoom,
+        styles: DARK_STYLE,
+        disableDefaultUI: true,
+        zoomControl: true,
+        zoomControlOptions: {
+          position: google.maps.ControlPosition.RIGHT_CENTER,
+        },
+        clickableIcons: true,
+        gestureHandling: 'greedy',
+      })
+
+      infoWindow = new google.maps.InfoWindow({ maxWidth: 280 })
+
+      // Close info window when clicking empty map area
+      map.value.addListener('click', () => {
+        infoWindow.close()
+      })
+    } catch (e) {
+      console.error('Failed to init Google Maps:', e)
+      el.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--text-dim);font-size:14px;text-align:center;padding:20px;">Error cargando Google Maps</div>'
+    }
   }
 
   function buildMarkers(onMarkerClick) {
     if (!map.value || !store.trip) return
-    // Clear existing
-    Object.values(markerLayers.value).forEach(g => map.value.removeLayer(g))
-    markerLayers.value = {}
-    markerById.value = {}
+    clearAllMarkers()
 
     // Hotel
     if (store.trip.hotel) {
-      const hotelIcon = L.divIcon({
-        className: '',
-        html: '<div class="marker-icon" style="background:#4b7bec;"><span>H</span></div>',
-        iconSize: [32, 32], iconAnchor: [16, 32]
+      const html = '<div class="marker-icon" style="background:#4b7bec;"><span>H</span></div>'
+      const marker = new HtmlMarkerClass(
+        { lat: store.trip.hotel.lat, lng: store.trip.hotel.lng },
+        html, 'hotel'
+      )
+      marker.onClick(() => {
+        infoWindow.setContent(`<b>🏨 ${store.trip.hotel.name}</b><br>Hotel base`)
+        infoWindow.setPosition(marker.getPosition())
+        infoWindow.open(map.value)
       })
-      L.marker([store.trip.hotel.lat, store.trip.hotel.lng], { icon: hotelIcon })
-        .bindPopup(`<b>🏨 ${store.trip.hotel.name}</b><br>Hotel base`)
-        .addTo(map.value)
+      marker.setMap(map.value)
+      hotelMarker.value = marker
     }
 
     // Day markers
     store.trip.days.forEach(day => {
-      const group = L.layerGroup()
+      const dayMarkers = []
       day.places.forEach((p, idx) => {
-        const icon = L.divIcon({
-          className: '',
-          html: `<div class="marker-icon" style="background:${day.color};"><span>${idx + 1}</span></div>`,
-          iconSize: [32, 32], iconAnchor: [16, 32]
-        })
-        const popup = buildPopupHtml(p, day.color)
-        const marker = L.marker([p.lat, p.lng], { icon })
-          .bindPopup(popup, { maxWidth: 260 })
-          .addTo(group)
-        markerById.value[p.id] = marker
-
-        marker.on('click', () => {
+        const html = `<div class="marker-icon" style="background:${day.color};"><span>${idx + 1}</span></div>`
+        const marker = new HtmlMarkerClass({ lat: p.lat, lng: p.lng }, html, p.id)
+        marker.onClick(() => {
           if (onMarkerClick) onMarkerClick(day.id, p.id)
         })
+        marker.setMap(map.value)
+        dayMarkers.push(marker)
+        markerById.value[p.id] = marker
       })
-      markerLayers.value[day.id] = group
-      group.addTo(map.value)
+      markersByDay.value[day.id] = dayMarkers
     })
 
     // Discarded markers
     if (store.trip.discarded?.length) {
-      const group = L.layerGroup()
+      const discardedMarkers = []
       store.trip.discarded.forEach(p => {
-        const icon = L.divIcon({
-          className: '',
-          html: '<div class="marker-icon" style="background:#666;opacity:.7;"><span>✕</span></div>',
-          iconSize: [32, 32], iconAnchor: [16, 32]
+        const html = '<div class="marker-icon" style="background:#666;opacity:.7;"><span>✕</span></div>'
+        const marker = new HtmlMarkerClass({ lat: p.lat, lng: p.lng }, html, p.id)
+        marker.onClick(() => {
+          const gmapLink = buildGmapUrl(p)
+          infoWindow.setContent(
+            `<b>${p.name}</b><br><span style="color:#999">${p.reason || ''}</span>${p.desc ? '<br>' + p.desc : ''}<br><a href="${gmapLink}" target="_blank" style="color:#34a853">📍 Google Maps</a>${p.link ? ' · <a href="' + p.link + '" target="_blank">Web →</a>' : ''}`
+          )
+          infoWindow.setPosition(marker.getPosition())
+          infoWindow.open(map.value)
         })
-        const gmapLink = buildGmapUrl(p)
-        const popup = `<b>${p.name}</b><br><span style="color:#999">${p.reason}</span><br>${p.desc}<br><a href="${gmapLink}" target="_blank" style="color:#34a853">📍 Google Maps</a>${p.link ? ' · <a href="' + p.link + '" target="_blank">Web →</a>' : ''}`
-        L.marker([p.lat, p.lng], { icon }).bindPopup(popup, { maxWidth: 260 }).addTo(group)
+        marker.setMap(map.value)
+        discardedMarkers.push(marker)
       })
-      markerLayers.value['discarded'] = group
+      markersByDay.value['discarded'] = discardedMarkers
+    }
+  }
+
+  function clearAllMarkers() {
+    Object.values(markersByDay.value).forEach(markers => {
+      markers.forEach(m => m.setMap(null))
+    })
+    markersByDay.value = {}
+    markerById.value = {}
+    if (hotelMarker.value) {
+      hotelMarker.value.setMap(null)
+      hotelMarker.value = null
     }
   }
 
@@ -100,90 +220,142 @@ export function useMap() {
     if (!map.value || !store.trip) return
 
     store.trip.days.forEach(d => {
-      const layer = markerLayers.value[d.id]
-      if (!layer) return
-      if (dayId === null || dayId === 'info') {
-        layer.addTo(map.value)
-      } else if (d.id === dayId) {
-        layer.addTo(map.value)
-      } else {
-        map.value.removeLayer(layer)
-      }
+      const markers = markersByDay.value[d.id]
+      if (!markers) return
+      const visible = dayId === null || dayId === 'info' || d.id === dayId
+      markers.forEach(m => m.setVisible(visible))
     })
 
-    // Discarded
-    const discardedLayer = markerLayers.value['discarded']
-    if (discardedLayer) {
-      if (dayId === 'discarded') {
-        discardedLayer.addTo(map.value)
-      } else {
-        map.value.removeLayer(discardedLayer)
-      }
+    const discardedMarkers = markersByDay.value['discarded']
+    if (discardedMarkers) {
+      const visible = dayId === 'discarded'
+      discardedMarkers.forEach(m => m.setVisible(visible))
     }
   }
 
   function fitBounds(dayId) {
     if (!map.value || !store.trip) return
 
+    let places = []
     if (dayId === null) {
-      const allPts = store.trip.days.flatMap(d => d.places.map(p => [p.lat, p.lng]))
-      if (allPts.length) map.value.fitBounds(L.latLngBounds(allPts), { padding: [60, 40], maxZoom: 13 })
+      places = store.trip.days.flatMap(d => d.places)
     } else if (dayId === 'discarded' && store.trip.discarded?.length) {
-      const bounds = L.latLngBounds(store.trip.discarded.map(p => [p.lat, p.lng]))
-      map.value.fitBounds(bounds, { padding: [60, 40], maxZoom: 13 })
-    } else if (dayId !== 'info' && dayId !== 'discarded') {
+      places = store.trip.discarded
+    } else if (dayId !== 'info' && dayId !== 'discarded' && dayId !== 'notes') {
       const day = store.trip.days.find(d => d.id === dayId)
-      if (day?.places.length) {
-        const bounds = L.latLngBounds(day.places.map(p => [p.lat, p.lng]))
-        map.value.fitBounds(bounds, { padding: [60, 40], maxZoom: 14 })
-      }
-    } else {
-      map.value.setView(store.trip.mapCenter, store.trip.mapZoom)
+      places = day?.places || []
     }
+
+    if (!places.length) {
+      map.value.setCenter({ lat: store.trip.mapCenter[0], lng: store.trip.mapCenter[1] })
+      map.value.setZoom(store.trip.mapZoom)
+      return
+    }
+
+    const bounds = new google.maps.LatLngBounds()
+    places.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }))
+    map.value.fitBounds(bounds, { top: 60, right: 40, bottom: 40, left: 40 })
+
+    // Prevent over-zoom for single/nearby places
+    const listener = google.maps.event.addListener(map.value, 'idle', () => {
+      if (map.value.getZoom() > 16) map.value.setZoom(16)
+      google.maps.event.removeListener(listener)
+    })
   }
 
   function flyTo(lat, lng, zoom = 16) {
-    map.value?.flyTo([lat, lng], zoom, { duration: 0.8 })
+    if (!map.value) return
+    map.value.panTo({ lat, lng })
+    if (map.value.getZoom() < zoom) map.value.setZoom(zoom)
   }
 
   function activateMarker(placeId) {
     // Deactivate previous
     if (store.activeMarkerId) {
       const prev = markerById.value[store.activeMarkerId]
-      if (prev?._icon) prev._icon.querySelector('.marker-icon')?.classList.remove('active')
+      if (prev?.getElement()) {
+        prev.getElement().querySelector('.marker-icon')?.classList.remove('active')
+      }
     }
     // Activate new
     if (placeId) {
       const marker = markerById.value[placeId]
-      if (marker?._icon) marker._icon.querySelector('.marker-icon')?.classList.add('active')
+      if (marker?.getElement()) {
+        marker.getElement().querySelector('.marker-icon')?.classList.add('active')
+      }
     }
     store.setActiveMarker(placeId)
   }
 
   function openPopup(placeId) {
     const marker = markerById.value[placeId]
-    if (marker) marker.openPopup()
+    if (!marker || !map.value) return
+
+    // Find the place data to build popup content
+    let place = null
+    let color = '#fff'
+    for (const day of (store.trip?.days || [])) {
+      const found = day.places.find(p => p.id === placeId)
+      if (found) {
+        place = found
+        color = day.color
+        break
+      }
+    }
+    if (!place) return
+
+    infoWindow.setContent(buildPopupHtml(place, color))
+    infoWindow.setPosition(marker.getPosition())
+    infoWindow.open(map.value)
   }
 
   function refreshMarkerPopup(placeId, place, dayColor) {
-    const marker = markerById.value[placeId]
-    if (!marker) return
-    marker.setPopupContent(buildPopupHtml(place, dayColor))
+    // If the info window is currently showing this place, update it
+    // The next time openPopup is called it will use fresh data
+    // No need to update the overlay marker itself since it's just a colored pin
   }
 
   function destroyMap() {
-    if (map.value) { map.value.remove(); map.value = null }
-    markerLayers.value = {}
-    markerById.value = {}
+    clearAllMarkers()
+    clearSearchMarkers()
+    if (infoWindow) { infoWindow.close(); infoWindow = null }
+    map.value = null
   }
 
   function invalidateSize() {
-    setTimeout(() => map.value?.invalidateSize(), 100)
+    if (map.value) {
+      google.maps.event.trigger(map.value, 'resize')
+    }
+  }
+
+  // Search result markers
+  function showSearchMarkers(results) {
+    clearSearchMarkers()
+    if (!map.value) return
+
+    results.forEach((r, i) => {
+      const html = `<div class="marker-icon search-pin" style="background:#ea4335;"><span>${i + 1}</span></div>`
+      const marker = new HtmlMarkerClass({ lat: r.lat, lng: r.lng }, html, `search-${i}`)
+      marker.onClick(() => {
+        infoWindow.setContent(
+          `<b>${r.name}</b>${r.address ? '<br><span style="color:#666;font-size:12px">' + r.address + '</span>' : ''}${r.rating ? '<br>⭐ ' + r.rating.toFixed(1) : ''}`
+        )
+        infoWindow.setPosition(marker.getPosition())
+        infoWindow.open(map.value)
+      })
+      marker.setMap(map.value)
+      searchMarkers.value.push(marker)
+    })
+  }
+
+  function clearSearchMarkers() {
+    searchMarkers.value.forEach(m => m.setMap(null))
+    searchMarkers.value = []
   }
 
   return {
     map,
-    markerLayers,
+    markersByDay,
     markerById,
     initMap,
     buildMarkers,
@@ -195,5 +367,7 @@ export function useMap() {
     refreshMarkerPopup,
     destroyMap,
     invalidateSize,
+    showSearchMarkers,
+    clearSearchMarkers,
   }
 }

@@ -413,23 +413,23 @@ html, body {
   .sheet.collapsed { transform: translateY(calc(100% - 160px)); }
 }
 
-/* ── LEAFLET OVERRIDES ──────────────── */
-.leaflet-control-zoom { border-radius: 12px!important; overflow:hidden; }
-.leaflet-control-zoom a {
-  background: #fff!important;
-  color: #333!important;
-  border-color: #ccc!important;
-  width: 36px!important; height: 36px!important;
-  line-height: 36px!important; font-size: 18px!important;
+/* ── GOOGLE MAPS OVERRIDES ─────────── */
+.gmap-marker-wrapper {
+  position: absolute;
+  cursor: pointer;
 }
-.leaflet-popup-content-wrapper {
-  background: #fff; color: #222;
-  border-radius: var(--radius); font-family: 'DM Sans';
-  box-shadow: 0 4px 20px rgba(0,0,0,.15);
+.gm-style-iw {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 13px !important;
+  line-height: 1.5 !important;
 }
-.leaflet-popup-tip { background: #fff; }
-.leaflet-popup-content { font-size: 13px; line-height: 1.5; }
-.leaflet-popup-content a { color: #2563eb; }
+.gm-style-iw a { color: #2563eb; }
+.gm-style-iw-d { overflow: auto !important; }
+.search-pin { animation: search-pin-drop .3s ease-out; }
+@keyframes search-pin-drop {
+  from { opacity: 0; transform: rotate(-45deg) translateY(-10px); }
+  to { opacity: 1; transform: rotate(-45deg) translateY(0); }
+}
 
 /* ── LOVE FOOTER ───────────────────── */
 #love-footer {

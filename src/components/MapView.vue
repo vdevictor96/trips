@@ -11,8 +11,8 @@ const mapEl = ref(null)
 const mapApi = inject('mapApi')
 const onMarkerClick = inject('onMarkerClick')
 
-onMounted(() => {
-  mapApi.initMap(mapEl.value)
+onMounted(async () => {
+  await mapApi.initMap(mapEl.value)
   mapApi.buildMarkers(onMarkerClick)
   mapApi.updateVisibleLayers(store.activeDay)
   mapApi.fitBounds(store.activeDay)

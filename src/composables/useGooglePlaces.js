@@ -1,6 +1,6 @@
 import { ref } from 'vue'
+import { loadLibrary, isGoogleAvailable as checkAvailable } from './googleLoader.js'
 
-const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY || ''
 const placesLib = ref(null)
 const loading = ref(false)
 const loadError = ref(false)
@@ -10,9 +10,8 @@ const detailsCache = {}
 
 async function ensureLoaded() {
   if (placesLib.value) return true
-  if (loadError.value || !API_KEY) return false
+  if (loadError.value || !checkAvailable()) return false
   if (loading.value) {
-    // Wait for in-flight load
     await new Promise(resolve => {
       const check = setInterval(() => {
         if (placesLib.value || loadError.value) { clearInterval(check); resolve() }
@@ -23,9 +22,7 @@ async function ensureLoaded() {
 
   loading.value = true
   try {
-    const { Loader } = await import('@googlemaps/js-api-loader')
-    const loader = new Loader({ apiKey: API_KEY, version: 'weekly' })
-    placesLib.value = await loader.importLibrary('places')
+    placesLib.value = await loadLibrary('places')
     return true
   } catch (e) {
     console.warn('Google Places API failed to load:', e)
@@ -38,7 +35,7 @@ async function ensureLoaded() {
 
 export function useGooglePlaces() {
   function isAvailable() {
-    return !!API_KEY
+    return checkAvailable()
   }
 
   async function searchPlaces(query, lat, lng, radius = 10000) {
@@ -131,7 +128,6 @@ export function useGooglePlaces() {
   }
 
   async function findPlaceByNameAndLocation(name, lat, lng) {
-    // Try to find a Google Place matching a place in our trip (for linking)
     const results = await searchPlaces(name, lat, lng, 500)
     if (results.length > 0) return results[0]
     return null
