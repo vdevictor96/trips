@@ -22,17 +22,9 @@
           :day="store.currentDay"
           @fly-to="handleFlyTo"
           @activate-marker="handleActivateMarker"
-          @show-detail="handleShowDetail"
         />
       </template>
     </BottomSheet>
-
-    <!-- Place detail panel -->
-    <PlaceDetail
-      :place="detailPlace"
-      :day="detailDay"
-      @close="detailPlace = null; detailDay = null"
-    />
 
     <!-- Toast notifications -->
     <ToastNotification />
@@ -52,7 +44,6 @@ import InfoPanel from './InfoPanel.vue'
 import DiscardedPanel from './DiscardedPanel.vue'
 import NotesPanel from './NotesPanel.vue'
 import DayContent from './DayContent.vue'
-import PlaceDetail from './PlaceDetail.vue'
 import ToastNotification from './ToastNotification.vue'
 
 const emit = defineEmits(['back'])
@@ -60,8 +51,6 @@ const emit = defineEmits(['back'])
 const store = useTripStore()
 const mapViewRef = ref(null)
 const sheetRef = ref(null)
-const detailPlace = ref(null)
-const detailDay = ref(null)
 
 // Provide map functions to children
 const mapApi = useMap()
@@ -107,11 +96,6 @@ function handleFlyTo(lat, lng, placeId) {
 
 function handleActivateMarker(placeId) {
   mapApi.activateMarker(placeId)
-}
-
-function handleShowDetail(place, day) {
-  detailPlace.value = place
-  detailDay.value = day
 }
 
 // Marker click handler

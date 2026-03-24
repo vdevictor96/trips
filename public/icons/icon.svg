@@ -1,15 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="96" fill="#1a1a2e"/>
-  <g transform="translate(256,240)">
-    <!-- Map pin -->
-    <path d="M0-120 C-55-120-100-75-100-20 C-100,40 0,130 0,130 C0,130 100,40 100-20 C100-75 55-120 0-120Z" fill="#f0c27a" opacity="0.9"/>
-    <circle cx="0" cy="-20" r="35" fill="#1a1a2e"/>
-    <!-- Plane inside pin -->
-    <path d="M0-40 L12-15 L5-15 L5,5 L12,5 L0,20 L-12,5 L-5,5 L-5-15 L-12-15Z" fill="#f0c27a"/>
+  <rect width="512" height="512" rx="108" fill="#1a1a2e"/>
+  <!-- Globe circle -->
+  <circle cx="256" cy="220" r="130" fill="none" stroke="#f0c27a" stroke-width="8" opacity="0.25"/>
+  <ellipse cx="256" cy="220" rx="65" ry="130" fill="none" stroke="#f0c27a" stroke-width="6" opacity="0.2"/>
+  <line x1="126" y1="220" x2="386" y2="220" stroke="#f0c27a" stroke-width="5" opacity="0.18"/>
+  <!-- Map pin -->
+  <g transform="translate(256,210)">
+    <path d="M0-105 C-50-105-90-65-90-15 C-90,40 0,115 0,115 C0,115 90,40 90-15 C90-65 50-105 0-105Z" fill="#f0c27a"/>
+    <circle cx="0" cy="-15" r="32" fill="#1a1a2e"/>
+    <!-- Plane silhouette -->
+    <g fill="#f0c27a" transform="translate(0,-15) scale(0.9)">
+      <path d="M0-22L8-6 28-6 28,0 8,12 8,20 0,26-8,20-8,12-28,0-28-6-8-6Z"/>
+    </g>
   </g>
-  <!-- Small dots for itinerary -->
-  <circle cx="160" cy="400" r="10" fill="#f7b731" opacity="0.7"/>
-  <circle cx="220" cy="410" r="10" fill="#26de81" opacity="0.7"/>
-  <circle cx="280" cy="395" r="10" fill="#fc5c65" opacity="0.7"/>
-  <circle cx="340" cy="405" r="10" fill="#a55eea" opacity="0.7"/>
+  <!-- Route dots -->
+  <circle cx="140" cy="395" r="12" fill="#f7b731"/>
+  <circle cx="208" cy="405" r="12" fill="#26de81"/>
+  <circle cx="276" cy="392" r="12" fill="#fc5c65"/>
+  <circle cx="344" cy="402" r="12" fill="#a55eea"/>
+  <!-- Connecting dotted line -->
+  <line x1="152" y1="397" x2="332" y2="400" stroke="#8a8a9a" stroke-width="2" stroke-dasharray="6,6" opacity="0.4"/>
 </svg>

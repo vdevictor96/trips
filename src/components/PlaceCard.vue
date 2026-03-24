@@ -62,9 +62,10 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, inject } from 'vue'
 import { useTripStore } from '../stores/trip.js'
 import { useToast } from '../composables/useToast.js'
+import { buildGmapUrl } from '../composables/useMap.js'
 import PlaceEditor from './PlaceEditor.vue'
 
 const props = defineProps({
@@ -73,7 +74,8 @@ const props = defineProps({
   index: { type: Number, required: true },
 })
 
-const emit = defineEmits(['flyTo', 'activateMarker', 'showDetail'])
+const emit = defineEmits(['flyTo', 'activateMarker'])
+const mapApi = inject('mapApi')
 const store = useTripStore()
 const { showUndo } = useToast()
 const editing = ref(false)
@@ -106,20 +108,24 @@ const tagLabels = {
   mirador: '🌅 Mirador',
 }
 
-const gmapUrl = computed(() =>
-  `https://www.google.com/maps/search/?api=1&query=${props.place.lat},${props.place.lng}`
-)
+const gmapUrl = computed(() => buildGmapUrl(props.place))
 
 function handleClick(e) {
   if (e.target.tagName === 'A' || e.target.closest('.edit-btn') || e.target.closest('.place-editor') || e.target.closest('.drag-handle') || e.target.closest('.move-menu') || editing.value || showMoveMenu.value) return
   emit('flyTo', props.place.lat, props.place.lng, props.place.id)
   emit('activateMarker', props.place.id)
-  emit('showDetail', props.place, props.day)
+  setTimeout(() => mapApi?.openPopup(props.place.id), 850)
 }
 
 function handleSave(updates) {
+  const prev = { name: props.place.name, desc: props.place.desc, time: props.place.time, dur: props.place.dur, link: props.place.link, tags: [...(props.place.tags || [])] }
   store.updatePlace(props.day.id, props.place.id, updates)
+  mapApi?.refreshMarkerPopup(props.place.id, props.place, props.day.color)
   editing.value = false
+  showUndo(`"${updates.name}" editado`, () => {
+    store.updatePlace(props.day.id, props.place.id, prev)
+    mapApi?.refreshMarkerPopup(props.place.id, props.place, props.day.color)
+  })
 }
 
 function handleRemove() {

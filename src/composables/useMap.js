@@ -3,6 +3,15 @@ import { useTripStore } from '../stores/trip.js'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 
+export function buildGmapUrl(place) {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name)}+@${place.lat},${place.lng}`
+}
+
+function buildPopupHtml(place, color) {
+  const gmapLink = buildGmapUrl(place)
+  return `<b>${place.name}</b><br><span style="color:${color};font-weight:700">${place.time || ''}</span>${place.dur ? ' · ' + place.dur : ''}${place.desc ? '<br>' + place.desc : ''}<br><a href="${gmapLink}" target="_blank" style="color:#34a853">📍 Google Maps</a>${place.link ? ' · <a href="' + place.link + '" target="_blank">Más info →</a>' : ''}`
+}
+
 export function useMap() {
   const store = useTripStore()
   const map = ref(null)
@@ -56,8 +65,7 @@ export function useMap() {
           html: `<div class="marker-icon" style="background:${day.color};"><span>${idx + 1}</span></div>`,
           iconSize: [32, 32], iconAnchor: [16, 32]
         })
-        const gmapLink = `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`
-        const popup = `<b>${p.name}</b><br><span style="color:${day.color};font-weight:700">${p.time}</span> · ${p.dur}<br>${p.desc}<br><a href="${gmapLink}" target="_blank" style="color:#34a853">📍 Google Maps</a>${p.link ? ' · <a href="' + p.link + '" target="_blank">Más info →</a>' : ''}`
+        const popup = buildPopupHtml(p, day.color)
         const marker = L.marker([p.lat, p.lng], { icon })
           .bindPopup(popup, { maxWidth: 260 })
           .addTo(group)
@@ -80,7 +88,7 @@ export function useMap() {
           html: '<div class="marker-icon" style="background:#666;opacity:.7;"><span>✕</span></div>',
           iconSize: [32, 32], iconAnchor: [16, 32]
         })
-        const gmapLink = `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`
+        const gmapLink = buildGmapUrl(p)
         const popup = `<b>${p.name}</b><br><span style="color:#999">${p.reason}</span><br>${p.desc}<br><a href="${gmapLink}" target="_blank" style="color:#34a853">📍 Google Maps</a>${p.link ? ' · <a href="' + p.link + '" target="_blank">Web →</a>' : ''}`
         L.marker([p.lat, p.lng], { icon }).bindPopup(popup, { maxWidth: 260 }).addTo(group)
       })
@@ -152,6 +160,17 @@ export function useMap() {
     store.setActiveMarker(placeId)
   }
 
+  function openPopup(placeId) {
+    const marker = markerById.value[placeId]
+    if (marker) marker.openPopup()
+  }
+
+  function refreshMarkerPopup(placeId, place, dayColor) {
+    const marker = markerById.value[placeId]
+    if (!marker) return
+    marker.setPopupContent(buildPopupHtml(place, dayColor))
+  }
+
   function destroyMap() {
     if (map.value) { map.value.remove(); map.value = null }
     markerLayers.value = {}
@@ -172,6 +191,8 @@ export function useMap() {
     fitBounds,
     flyTo,
     activateMarker,
+    openPopup,
+    refreshMarkerPopup,
     destroyMap,
     invalidateSize,
   }

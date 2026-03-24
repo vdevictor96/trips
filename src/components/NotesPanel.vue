@@ -123,9 +123,15 @@ function startEditById(id) {
 }
 
 function saveEdit(note) {
+  const prev = { title: note.title, desc: note.desc, link: note.link }
   store.updateNote(note.id, { title: form.title, desc: form.desc, link: form.link })
   isNewNote.value = false
   editingId.value = null
+  if (!isNewNote.value || prev.title || prev.desc) {
+    showUndo('Nota editada', () => {
+      store.updateNote(note.id, prev)
+    })
+  }
 }
 
 function cancelEdit(note) {

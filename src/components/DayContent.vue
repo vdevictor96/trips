@@ -12,6 +12,7 @@
       ghost-class="place-card-ghost"
       :animation="150"
       group="places"
+      @start="onDragStart"
       @end="onDragEnd"
     >
       <template #item="{ element, index }">
@@ -21,7 +22,6 @@
           :index="index"
           @fly-to="(lat, lng, id) => emit('flyTo', lat, lng, id)"
           @activate-marker="(id) => emit('activateMarker', id)"
-          @show-detail="(place, day) => emit('showDetail', place, day)"
         />
       </template>
     </draggable>
@@ -29,8 +29,9 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useTripStore } from '../stores/trip.js'
+import { useToast } from '../composables/useToast.js'
 import draggable from 'vuedraggable'
 import PlaceCard from './PlaceCard.vue'
 import DirectionsButton from './DirectionsButton.vue'
@@ -39,8 +40,10 @@ const props = defineProps({
   day: { type: Object, default: null },
 })
 
-const emit = defineEmits(['flyTo', 'activateMarker', 'showDetail'])
+const emit = defineEmits(['flyTo', 'activateMarker'])
 const store = useTripStore()
+const { showUndo } = useToast()
+const prevOrder = ref(null)
 
 const dayPlaces = computed({
   get: () => props.day?.places || [],
@@ -49,7 +52,17 @@ const dayPlaces = computed({
   }
 })
 
+function onDragStart() {
+  prevOrder.value = props.day ? [...props.day.places] : null
+}
+
 function onDragEnd() {
-  // Reorder is handled by the v-model setter
+  if (!prevOrder.value || !props.day) return
+  const saved = [...prevOrder.value]
+  const dayId = props.day.id
+  showUndo('Orden actualizado', () => {
+    store.reorderPlaces(dayId, saved)
+  })
+  prevOrder.value = null
 }
 </script>
