@@ -29,7 +29,7 @@
 </template>
 
 <script setup>
-import { computed, ref } from 'vue'
+import { computed, ref, inject } from 'vue'
 import { useTripStore } from '../stores/trip.js'
 import { useToast } from '../composables/useToast.js'
 import draggable from 'vuedraggable'
@@ -43,6 +43,7 @@ const props = defineProps({
 const emit = defineEmits(['flyTo', 'activateMarker'])
 const store = useTripStore()
 const { showUndo } = useToast()
+const rebuildMarkers = inject('rebuildMarkers')
 const prevOrder = ref(null)
 
 const dayPlaces = computed({
@@ -60,8 +61,10 @@ function onDragEnd() {
   if (!prevOrder.value || !props.day) return
   const saved = [...prevOrder.value]
   const dayId = props.day.id
+  rebuildMarkers?.()
   showUndo('Orden actualizado', () => {
     store.reorderPlaces(dayId, saved)
+    rebuildMarkers?.()
   })
   prevOrder.value = null
 }

@@ -120,4 +120,10 @@ function onMarkerClick(dayId, placeId) {
 }
 
 provide('onMarkerClick', onMarkerClick)
+
+function rebuildMarkers() {
+  mapApi.buildMarkers(onMarkerClick)
+  mapApi.updateVisibleLayers(store.activeDay)
+}
+provide('rebuildMarkers', rebuildMarkers)
 </script>

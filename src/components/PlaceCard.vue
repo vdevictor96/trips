@@ -76,6 +76,7 @@ const props = defineProps({
 
 const emit = defineEmits(['flyTo', 'activateMarker'])
 const mapApi = inject('mapApi')
+const rebuildMarkers = inject('rebuildMarkers')
 const store = useTripStore()
 const { showUndo } = useToast()
 const editing = ref(false)
@@ -92,11 +93,13 @@ function handleMove(targetDayId) {
   const movedPlace = { ...props.place }
   store.movePlace(fromDayId, targetDayId, fromIndex, targetDay.places.length)
   showMoveMenu.value = false
+  rebuildMarkers?.()
   showUndo(`"${movedPlace.name}" → Día ${targetDayId}`, () => {
     const newDay = store.trip.days.find(d => d.id === targetDayId)
     const newIdx = newDay.places.findIndex(p => p.lat === movedPlace.lat && p.lng === movedPlace.lng)
     if (newIdx !== -1) {
       store.movePlace(targetDayId, fromDayId, newIdx, Math.min(fromIndex, store.trip.days.find(d => d.id === fromDayId).places.length))
+      rebuildMarkers?.()
     }
   })
 }
@@ -134,12 +137,13 @@ function handleRemove() {
   const index = props.index
   store.removePlace(dayId, props.place.id)
   editing.value = false
+  rebuildMarkers?.()
   showUndo(`"${removedPlace.name}" eliminado`, () => {
-    // Restore at the same position
     const day = store.trip.days.find(d => d.id === dayId)
     if (day) {
       day.places.splice(index, 0, removedPlace)
       store.reorderPlaces(dayId, [...day.places])
+      rebuildMarkers?.()
     }
   })
 }
