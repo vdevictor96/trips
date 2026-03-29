@@ -1,6 +1,7 @@
 <template>
   <TripSelector v-if="!store.trip" />
   <TripViewer v-else @back="handleBack" />
+  <ThemeToggle />
   <LoveFooter />
 </template>
 
@@ -9,6 +10,7 @@ import { onMounted, watch } from 'vue'
 import { useTripStore } from './stores/trip.js'
 import TripSelector from './components/TripSelector.vue'
 import TripViewer from './components/TripViewer.vue'
+import ThemeToggle from './components/ThemeToggle.vue'
 import LoveFooter from './components/LoveFooter.vue'
 
 const store = useTripStore()

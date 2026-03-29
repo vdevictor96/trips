@@ -1,6 +1,7 @@
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 import { useTripStore } from '../stores/trip.js'
 import { loadLibrary, isGoogleAvailable } from './googleLoader.js'
+import { isDark } from './useTheme.js'
 
 // Map styles
 const LIGHT_STYLE = [] // Google's default
@@ -33,7 +34,7 @@ export function buildGmapUrl(place) {
 // Popup HTML builder
 function buildPopupHtml(place, color) {
   const gmapLink = buildGmapUrl(place)
-  return `<b>${place.name}</b><br><span style="color:${color};font-weight:700">${place.time || ''}</span>${place.dur ? ' · ' + place.dur : ''}${place.desc ? '<br><span class="iw-desc">' + place.desc + '</span>' : ''}<br><a href="${gmapLink}" target="_blank" class="gmaps-link">📍 Google Maps</a>${place.link ? ' · <a href="' + place.link + '" target="_blank">Más info →</a>' : ''}`
+  return `<div class="iw-custom"><b>${place.name}</b><br><span class="iw-time" style="--iw-time-color:${color}">${place.time || ''}</span>${place.dur ? ' · ' + place.dur : ''}${place.desc ? '<br><span class="iw-desc">' + place.desc + '</span>' : ''}<br><a href="${gmapLink}" target="_blank" class="gmaps-link">📍 Google Maps</a>${place.link ? ' · <a href="' + place.link + '" target="_blank">Más info →</a>' : ''}</div>`
 }
 
 // HtmlMarker class — created after Google Maps API loads
@@ -109,8 +110,6 @@ export function useMap() {
   const searchMarkers = ref([])
   const hotelMarker = ref(null)
   let infoWindow = null
-  let themeMediaQuery = null
-  let themeChangeHandler = null
 
   async function initMap(el) {
     if (map.value) destroyMap()
@@ -125,13 +124,11 @@ export function useMap() {
       ensureHtmlMarkerClass()
 
       const [lat, lng] = store.trip.mapCenter
-      themeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
-      const isDark = themeMediaQuery.matches
 
       map.value = new google.maps.Map(el, {
         center: { lat, lng },
         zoom: store.trip.mapZoom,
-        styles: isDark ? DARK_STYLE : LIGHT_STYLE,
+        styles: isDark.value ? DARK_STYLE : LIGHT_STYLE,
         disableDefaultUI: true,
         zoomControl: true,
         zoomControlOptions: {
@@ -140,12 +137,6 @@ export function useMap() {
         clickableIcons: true,
         gestureHandling: 'greedy',
       })
-
-      // Listen for system theme changes
-      themeChangeHandler = (e) => {
-        if (map.value) map.value.setOptions({ styles: e.matches ? DARK_STYLE : LIGHT_STYLE })
-      }
-      themeMediaQuery.addEventListener('change', themeChangeHandler)
 
       infoWindow = new google.maps.InfoWindow({ maxWidth: 280 })
 
@@ -171,7 +162,7 @@ export function useMap() {
         html, 'hotel'
       )
       marker.onClick(() => {
-        infoWindow.setContent(`<b>🏨 ${store.trip.hotel.name}</b><br>Hotel base`)
+        infoWindow.setContent(`<div class="iw-custom"><b>🏨 ${store.trip.hotel.name}</b><br>Hotel base</div>`)
         infoWindow.setPosition(marker.getPosition())
         infoWindow.open(map.value)
       })
@@ -204,7 +195,7 @@ export function useMap() {
         marker.onClick(() => {
           const gmapLink = buildGmapUrl(p)
           infoWindow.setContent(
-            `<b>${p.name}</b><br><span class="iw-desc">${p.reason || ''}</span>${p.desc ? '<br><span class="iw-desc">' + p.desc + '</span>' : ''}<br><a href="${gmapLink}" target="_blank" class="gmaps-link">📍 Google Maps</a>${p.link ? ' · <a href="' + p.link + '" target="_blank">Web →</a>' : ''}`
+            `<div class="iw-custom"><b>${p.name}</b><br><span class="iw-desc">${p.reason || ''}</span>${p.desc ? '<br><span class="iw-desc">' + p.desc + '</span>' : ''}<br><a href="${gmapLink}" target="_blank" class="gmaps-link">📍 Google Maps</a>${p.link ? ' · <a href="' + p.link + '" target="_blank">Web →</a>' : ''}</div>`
           )
           infoWindow.setPosition(marker.getPosition())
           infoWindow.open(map.value)
@@ -327,15 +318,15 @@ export function useMap() {
     // No need to update the overlay marker itself since it's just a colored pin
   }
 
+  // React to theme changes on the map
+  watch(isDark, (dark) => {
+    if (map.value) map.value.setOptions({ styles: dark ? DARK_STYLE : LIGHT_STYLE })
+  })
+
   function destroyMap() {
     clearAllMarkers()
     clearSearchMarkers()
     if (infoWindow) { infoWindow.close(); infoWindow = null }
-    if (themeMediaQuery && themeChangeHandler) {
-      themeMediaQuery.removeEventListener('change', themeChangeHandler)
-      themeMediaQuery = null
-      themeChangeHandler = null
-    }
     map.value = null
   }
 
@@ -355,7 +346,7 @@ export function useMap() {
       const marker = new HtmlMarkerClass({ lat: r.lat, lng: r.lng }, html, `search-${i}`)
       marker.onClick(() => {
         infoWindow.setContent(
-          `<b>${r.name}</b>${r.address ? '<br><span class="iw-desc">' + r.address + '</span>' : ''}${r.rating ? '<br>⭐ ' + r.rating.toFixed(1) : ''}`
+          `<div class="iw-custom"><b>${r.name}</b>${r.address ? '<br><span class="iw-desc">' + r.address + '</span>' : ''}${r.rating ? '<br>⭐ ' + r.rating.toFixed(1) : ''}</div>`
         )
         infoWindow.setPosition(marker.getPosition())
         infoWindow.open(map.value)
@@ -377,7 +368,7 @@ export function useMap() {
       `<option value="${d.id}">Día ${d.id}</option>`
     ).join('')
 
-    const html = `<div class="iw-search-result">
+    const html = `<div class="iw-custom iw-search-result">
       <b>${result.name}</b>
       ${result.rating ? '<br>⭐ ' + result.rating.toFixed(1) + (result.ratingCount ? ' <span class="iw-desc">(' + result.ratingCount + ')</span>' : '') : ''}
       ${result.address ? '<br><span class="iw-desc">' + result.address + '</span>' : ''}

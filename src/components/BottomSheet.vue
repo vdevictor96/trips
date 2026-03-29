@@ -47,6 +47,7 @@ onMounted(() => {
   let dragging = false
   let touchInBody = false
   let ignoreTouch = false
+  let decidedScroll = false // true = let browser scroll, don't drag
 
   function isInteractive(target) {
     return target.closest('input, textarea, select, a, button, .drag-handle')
@@ -59,27 +60,41 @@ onMounted(() => {
     startY = e.touches[0].clientY
     startTime = Date.now()
     dragging = false
+    decidedScroll = false
     touchInBody = !!(body && body.contains(e.target))
   }, { passive: true })
 
   sheet.addEventListener('touchmove', e => {
-    if (ignoreTouch) return
+    if (ignoreTouch || decidedScroll) return
     const dy = e.touches[0].clientY - startY
 
     if (!dragging) {
-      if (Math.abs(dy) < 8) return
+      if (Math.abs(dy) < 6) return
 
-      // Touch started inside body and sheet is expanded:
-      // only hijack for drag-down when body is scrolled to top
-      if (touchInBody && isExpanded) {
-        if (dy <= 0) return // scrolling up inside content — let browser handle
-        if (body.scrollTop > 1) return // body has scroll room above — let browser scroll
+      // When collapsed: always drag the sheet (no body scrolling)
+      if (!isExpanded) {
+        dragging = true
+        if (body) body.style.overflowY = 'hidden'
+        sheet.style.transition = 'none'
       }
-
-      dragging = true
-      if (body) body.style.overflowY = 'hidden'
-      sheet.style.transition = 'none'
+      // When expanded and touch in body:
+      else if (touchInBody) {
+        if (dy <= 0) { decidedScroll = true; return } // scrolling up — let browser
+        if (body.scrollTop > 1) { decidedScroll = true; return } // not at top — let browser
+        // At top and dragging down → hijack as sheet drag
+        dragging = true
+        if (body) body.style.overflowY = 'hidden'
+        sheet.style.transition = 'none'
+      }
+      // Expanded but touch outside body (handle, tabs, search area)
+      else {
+        dragging = true
+        if (body) body.style.overflowY = 'hidden'
+        sheet.style.transition = 'none'
+      }
     }
+
+    e.preventDefault()
 
     // Clamp direction: expanded only drags down, collapsed only drags up
     let clampedDy = dy
@@ -94,7 +109,7 @@ onMounted(() => {
     sheet.style.transform = isExpanded
       ? `translateY(${dampened}px)`
       : `translateY(calc(100% - 140px - var(--safe-bottom) + ${dampened}px))`
-  }, { passive: true })
+  }, { passive: false })
 
   sheet.addEventListener('touchend', e => {
     if (ignoreTouch) { ignoreTouch = false; return }

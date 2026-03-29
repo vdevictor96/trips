@@ -39,11 +39,12 @@ App web estática (GitHub Pages) para visualizar itinerarios de viaje con mapa i
 - **Busqueda local → click en resultado** → sheet se expande, mapa se centra, card se resalta
 
 ### Tema claro/oscuro
-- Sigue automaticamente el tema del sistema via `prefers-color-scheme`
-- CSS variables en `src/styles/main.css` para todos los colores de la app
-- Mapa Google Maps cambia entre DARK_STYLE y LIGHT_STYLE via `matchMedia` listener
+- Toggle manual con 3 modos: Claro, Sistema (default), Oscuro — componente `ThemeToggle.vue`
+- Preferencia guardada en `localStorage` (`theme-preference`). Composable singleton: `useTheme.js`
+- CSS variables en `src/styles/main.css` via `[data-theme="dark"]` en `<html>`
+- Mapa Google Maps cambia entre DARK_STYLE y LIGHT_STYLE reactivamente via `isDark` computed
 - InfoWindows usan variables CSS (`--infowindow-bg`, `--infowindow-text`, etc.)
-- No hay toggle manual — siempre sigue al sistema
+- Script inline en `index.html` aplica el tema antes del render para evitar flash
 
 ## Estructura
 
