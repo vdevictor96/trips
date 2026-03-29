@@ -355,8 +355,9 @@ export function useMap() {
       const html = `<div class="marker-icon search-pin" style="background:#ea4335;"><span>${i + 1}</span></div>`
       const marker = new HtmlMarkerClass({ lat: r.lat, lng: r.lng }, html, `search-${i}`)
       marker.onClick(() => {
+        const gmapLink = buildGmapUrl(r)
         infoWindow.setContent(
-          `<div class="iw-custom"><b>${r.name}</b>${r.address ? '<br><span class="iw-desc">' + r.address + '</span>' : ''}${r.rating ? '<br>⭐ ' + r.rating.toFixed(1) : ''}</div>`
+          `<div class="iw-custom"><b>${r.name}</b>${r.address ? '<br><span class="iw-desc">' + r.address + '</span>' : ''}${r.rating ? '<br>⭐ ' + r.rating.toFixed(1) : ''}<br><a href="${gmapLink}" target="_blank" class="gmaps-link">📍 Google Maps</a></div>`
         )
         infoWindow.setPosition(marker.getPosition())
         infoWindow.open(map.value)
@@ -378,10 +379,12 @@ export function useMap() {
       `<option value="${d.id}">Día ${d.id}</option>`
     ).join('')
 
+    const gmapLink = buildGmapUrl(result)
     const html = `<div class="iw-custom iw-search-result">
       <b>${result.name}</b>
       ${result.rating ? '<br>⭐ ' + result.rating.toFixed(1) + (result.ratingCount ? ' <span class="iw-desc">(' + result.ratingCount + ')</span>' : '') : ''}
       ${result.address ? '<br><span class="iw-desc">' + result.address + '</span>' : ''}
+      <br><a href="${gmapLink}" target="_blank" class="gmaps-link">📍 Google Maps</a>
       <div class="iw-add-form">
         <select id="iw-day-select">${dayOptions}</select>
         <button id="iw-add-btn">+ Añadir</button>
