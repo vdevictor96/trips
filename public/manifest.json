@@ -1,6 +1,6 @@
 {
-  "name": "Nuestros Viajes",
-  "short_name": "Viajes",
+  "name": "Nuestros viajes",
+  "short_name": "viajes",
   "description": "Itinerarios de viaje con mapa interactivo",
   "start_url": "/trips/",
   "scope": "/trips/",
