@@ -56,12 +56,8 @@ onMounted(() => {
 
   // --- Touch events (mobile) ---
   sheet.addEventListener('touchstart', e => {
-    const interactive = isInteractive(e.target)
-    // When expanded, fully ignore interactive elements (let them work normally)
-    if (interactive && isExpanded) { ignoreTouch = true; return }
-    // When collapsed, track the touch but remember it started on interactive
     ignoreTouch = false
-    touchOnInteractive = interactive
+    touchOnInteractive = isInteractive(e.target)
     startY = e.touches[0].clientY
     startTime = Date.now()
     dragging = false
@@ -98,6 +94,7 @@ onMounted(() => {
         dragging = true
         if (body) body.style.overflowY = 'hidden'
         sheet.style.transition = 'none'
+        if (touchOnInteractive) document.activeElement?.blur?.()
       }
     }
 
