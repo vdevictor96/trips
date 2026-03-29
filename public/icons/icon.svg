@@ -1,23 +1,139 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="108" fill="#1a1a2e"/>
-  <!-- Globe circle -->
-  <circle cx="256" cy="220" r="130" fill="none" stroke="#f0c27a" stroke-width="8" opacity="0.25"/>
-  <ellipse cx="256" cy="220" rx="65" ry="130" fill="none" stroke="#f0c27a" stroke-width="6" opacity="0.2"/>
-  <line x1="126" y1="220" x2="386" y2="220" stroke="#f0c27a" stroke-width="5" opacity="0.18"/>
-  <!-- Map pin -->
-  <g transform="translate(256,210)">
-    <path d="M0-105 C-50-105-90-65-90-15 C-90,40 0,115 0,115 C0,115 90,40 90-15 C90-65 50-105 0-105Z" fill="#f0c27a"/>
-    <circle cx="0" cy="-15" r="32" fill="#1a1a2e"/>
-    <!-- Plane silhouette -->
-    <g fill="#f0c27a" transform="translate(0,-15) scale(0.9)">
-      <path d="M0-22L8-6 28-6 28,0 8,12 8,20 0,26-8,20-8,12-28,0-28-6-8-6Z"/>
+  <defs>
+    <!-- Background gradient: teal -> electric blue -> purple -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00d2ff"/>
+      <stop offset="50%" stop-color="#3a7bd5"/>
+      <stop offset="100%" stop-color="#7b2ff7"/>
+    </linearGradient>
+    <!-- Pin gradient: coral -> orange -> gold -->
+    <linearGradient id="pinGrad" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#ff6b6b"/>
+      <stop offset="50%" stop-color="#ff8e42"/>
+      <stop offset="100%" stop-color="#ffd93d"/>
+    </linearGradient>
+    <!-- Pin inner circle highlight -->
+    <radialGradient id="pinInner" cx="0.4" cy="0.35" r="0.6">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#e8f4fd" stop-opacity="0.85"/>
+    </radialGradient>
+    <!-- Globe glow -->
+    <radialGradient id="globeGlow" cx="0.5" cy="0.42" r="0.45">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Pin shadow -->
+    <filter id="pinShadow" x="-20%" y="-10%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+    <!-- Dot glow -->
+    <filter id="dotGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Route dash pattern -->
+    <linearGradient id="routeGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f7b731"/>
+      <stop offset="33%" stop-color="#26de81"/>
+      <stop offset="66%" stop-color="#fc5c65"/>
+      <stop offset="100%" stop-color="#a55eea"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)"/>
+
+  <!-- Subtle pattern overlay for texture -->
+  <rect width="512" height="512" rx="108" fill="url(#globeGlow)"/>
+
+  <!-- Globe -->
+  <g opacity="0.9">
+    <!-- Globe main circle -->
+    <circle cx="256" cy="225" r="135" fill="none" stroke="white" stroke-width="4" opacity="0.3"/>
+
+    <!-- Meridians (vertical ellipses) -->
+    <ellipse cx="256" cy="225" rx="135" ry="135" fill="none" stroke="white" stroke-width="2.5" opacity="0.2"/>
+    <ellipse cx="256" cy="225" rx="90" ry="135" fill="none" stroke="white" stroke-width="2" opacity="0.22"/>
+    <ellipse cx="256" cy="225" rx="45" ry="135" fill="none" stroke="white" stroke-width="1.8" opacity="0.2"/>
+
+    <!-- Parallels (horizontal lines clipped to globe) -->
+    <clipPath id="globeClip">
+      <circle cx="256" cy="225" r="133"/>
+    </clipPath>
+    <g clip-path="url(#globeClip)">
+      <line x1="100" y1="160" x2="412" y2="160" stroke="white" stroke-width="1.8" opacity="0.18"/>
+      <line x1="100" y1="195" x2="412" y2="195" stroke="white" stroke-width="1.8" opacity="0.2"/>
+      <line x1="100" y1="225" x2="412" y2="225" stroke="white" stroke-width="2.5" opacity="0.25"/>
+      <line x1="100" y1="255" x2="412" y2="255" stroke="white" stroke-width="1.8" opacity="0.2"/>
+      <line x1="100" y1="290" x2="412" y2="290" stroke="white" stroke-width="1.8" opacity="0.18"/>
+
+      <!-- Simplified continents / land shapes for extra character -->
+      <!-- North America-ish blob -->
+      <path d="M185,155 Q175,170 180,185 Q190,200 210,195 Q225,188 230,175 Q228,160 215,152 Q200,148 185,155Z" fill="white" opacity="0.1"/>
+      <!-- Europe-ish blob -->
+      <path d="M275,155 Q265,165 270,180 Q280,190 295,185 Q305,175 300,162 Q290,150 275,155Z" fill="white" opacity="0.1"/>
+      <!-- South America-ish blob -->
+      <path d="M215,240 Q205,260 210,285 Q218,310 230,320 Q240,315 238,290 Q235,260 225,245 Q220,238 215,240Z" fill="white" opacity="0.1"/>
+      <!-- Africa-ish blob -->
+      <path d="M280,210 Q270,230 272,260 Q278,290 290,305 Q300,295 298,265 Q296,235 290,215 Q285,208 280,210Z" fill="white" opacity="0.1"/>
     </g>
   </g>
-  <!-- Route dots -->
-  <circle cx="140" cy="395" r="12" fill="#f7b731"/>
-  <circle cx="208" cy="405" r="12" fill="#26de81"/>
-  <circle cx="276" cy="392" r="12" fill="#fc5c65"/>
-  <circle cx="344" cy="402" r="12" fill="#a55eea"/>
-  <!-- Connecting dotted line -->
-  <line x1="152" y1="397" x2="332" y2="400" stroke="#8a8a9a" stroke-width="2" stroke-dasharray="6,6" opacity="0.4"/>
+
+  <!-- Map pin with shadow -->
+  <g filter="url(#pinShadow)" transform="translate(256,215)">
+    <!-- Pin body -->
+    <path d="M0-108 C-52-108 -94-68 -94-18 C-94,42 0,120 0,120 C0,120 94,42 94-18 C94-68 52-108 0-108Z" fill="url(#pinGrad)"/>
+    <!-- Pin highlight / shine -->
+    <path d="M-30-90 C-60-75 -75-40 -72-10 C-70,5 -60,5 -55,-10 C-48,-45 -30,-70 -10,-85 C0,-90 -15,-95 -30,-90Z" fill="white" opacity="0.25"/>
+    <!-- Inner circle -->
+    <circle cx="0" cy="-18" r="36" fill="url(#pinInner)"/>
+    <!-- Compass rose inside pin -->
+    <g transform="translate(0,-18)" opacity="0.7">
+      <!-- N/S/E/W points -->
+      <polygon points="0,-24 4,-8 -4,-8" fill="#3a7bd5"/>
+      <polygon points="0,24 4,8 -4,8" fill="#7b2ff7" opacity="0.6"/>
+      <polygon points="24,0 8,4 8,-4" fill="#ff8e42" opacity="0.6"/>
+      <polygon points="-24,0 -8,4 -8,-4" fill="#ff8e42" opacity="0.6"/>
+      <!-- Center dot -->
+      <circle cx="0" cy="0" r="3.5" fill="#ff6b6b"/>
+      <!-- Diagonal ticks -->
+      <line x1="-6" y1="-6" x2="-14" y2="-14" stroke="#3a7bd5" stroke-width="1.5" opacity="0.4"/>
+      <line x1="6" y1="-6" x2="14" y2="-14" stroke="#3a7bd5" stroke-width="1.5" opacity="0.4"/>
+      <line x1="-6" y1="6" x2="-14" y2="14" stroke="#7b2ff7" stroke-width="1.5" opacity="0.4"/>
+      <line x1="6" y1="6" x2="14" y2="14" stroke="#7b2ff7" stroke-width="1.5" opacity="0.4"/>
+    </g>
+  </g>
+
+  <!-- Small plane silhouette flying around the globe -->
+  <g transform="translate(348, 130) rotate(25)" opacity="0.85">
+    <path d="M0,0 L-6,-3 L-18,2 L-18,0 L-6,-5 L0,-16 L3,-16 L1,-5 L11,-1 L11,2 L1,-2 L0,8 L5,10 L5,12 L-1,10 L-3,16 L-5,16 L-4,10 L-10,12 L-10,10 L-5,8 L-4,0Z" fill="white" transform="scale(2.2)"/>
+  </g>
+
+  <!-- Plane trail (dashed arc) -->
+  <path d="M340,145 Q380,100 370,78" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.4"/>
+
+  <!-- Route dots at bottom -->
+  <g filter="url(#dotGlow)">
+    <!-- Connecting curved path -->
+    <path d="M140,400 Q170,415 210,408 Q245,398 278,396 Q310,398 345,406" fill="none" stroke="url(#routeGrad)" stroke-width="2.5" stroke-dasharray="6,5" opacity="0.5"/>
+
+    <!-- Yellow dot -->
+    <circle cx="140" cy="400" r="14" fill="#f7b731"/>
+    <circle cx="140" cy="400" r="7" fill="white" opacity="0.35"/>
+
+    <!-- Green dot -->
+    <circle cx="210" cy="408" r="14" fill="#26de81"/>
+    <circle cx="210" cy="408" r="7" fill="white" opacity="0.35"/>
+
+    <!-- Red dot -->
+    <circle cx="278" cy="396" r="14" fill="#fc5c65"/>
+    <circle cx="278" cy="396" r="7" fill="white" opacity="0.35"/>
+
+    <!-- Purple dot -->
+    <circle cx="345" cy="406" r="14" fill="#a55eea"/>
+    <circle cx="345" cy="406" r="7" fill="white" opacity="0.35"/>
+  </g>
 </svg>

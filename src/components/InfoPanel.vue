@@ -33,7 +33,7 @@
     </div>
 
     <!-- Persistence controls -->
-    <div class="info-section" style="margin-top:24px; padding-top:16px; border-top:1px solid #333;">
+    <div class="info-section" style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border);">
       <h3>💾 Datos del viaje</h3>
       <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:8px;">
         <button class="editor-btn save" @click="store.exportTrip()" style="font-size:12px; padding:6px 12px;">

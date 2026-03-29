@@ -47,7 +47,7 @@
           :key="result.googlePlaceId"
           class="search-result-item google-result"
         >
-          <div class="google-result-info" @click="showAddMenu(result)">
+          <div class="google-result-info" @click="handleGoogleResultClick(result)">
             <div class="google-result-name">
               {{ result.name }}
               <span v-if="isAlreadyInTrip(result)" class="google-result-badge">Ya añadido</span>
@@ -59,13 +59,6 @@
               </span>
               <span class="google-result-address">{{ result.address }}</span>
             </div>
-          </div>
-          <!-- Day picker for adding -->
-          <div v-if="addingPlace === result.googlePlaceId && !isAlreadyInTrip(result)" class="google-result-add">
-            <select v-model="selectedDayId" class="day-select">
-              <option v-for="d in store.trip.days" :key="d.id" :value="d.id">Día {{ d.id }}</option>
-            </select>
-            <button class="add-btn" @click="addGooglePlace(result)">+ Añadir</button>
           </div>
         </div>
         <div v-if="!googleLoading && query && !googleResults.length && googleSearched" class="search-result-item" style="color:var(--text-dim)">
@@ -80,13 +73,11 @@
 import { ref, computed, onMounted, onBeforeUnmount, inject } from 'vue'
 import { useTripStore } from '../stores/trip.js'
 import { useGooglePlaces } from '../composables/useGooglePlaces.js'
-import { useToast } from '../composables/useToast.js'
 
 const store = useTripStore()
 const { isAvailable, searchPlaces } = useGooglePlaces()
-const { show } = useToast()
 const mapApi = inject('mapApi')
-const emit = defineEmits(['selectPlace', 'flyTo'])
+const emit = defineEmits(['selectPlace', 'flyTo', 'previewSearchResult'])
 
 const query = ref('')
 const showResults = ref(false)
@@ -95,8 +86,6 @@ const mode = ref('local')
 const googleResults = ref([])
 const googleLoading = ref(false)
 const googleSearched = ref(false)
-const addingPlace = ref(null)
-const selectedDayId = ref(null)
 
 const googleAvailable = isAvailable()
 
@@ -148,37 +137,11 @@ function isAlreadyInTrip(result) {
   })
 }
 
-function showAddMenu(result) {
+function handleGoogleResultClick(result) {
   if (isAlreadyInTrip(result)) return
-  addingPlace.value = addingPlace.value === result.googlePlaceId ? null : result.googlePlaceId
-  if (!selectedDayId.value && store.trip?.days.length) {
-    selectedDayId.value = store.activeDay && typeof store.activeDay === 'number'
-      ? store.activeDay
-      : store.trip.days[0].id
-  }
-}
-
-function addGooglePlace(result) {
-  const place = {
-    name: result.name,
-    lat: result.lat,
-    lng: result.lng,
-    desc: result.editorial || result.address,
-    time: '',
-    dur: '',
-    tags: [],
-    link: '',
-    googlePlaceId: result.googlePlaceId,
-  }
-  store.addPlace(selectedDayId.value, place)
-  show(`${result.name} añadido a Día ${selectedDayId.value}`)
-  emit('flyTo', result.lat, result.lng)
-
-  query.value = ''
+  emit('previewSearchResult', result)
   showResults.value = false
-  addingPlace.value = null
-  googleResults.value = []
-  mapApi?.clearSearchMarkers()
+  query.value = ''
 }
 
 function selectLocalResult(match) {
@@ -190,7 +153,6 @@ function selectLocalResult(match) {
 function onOutsideClick(e) {
   if (!e.target.closest('.search-container')) {
     showResults.value = false
-    addingPlace.value = null
     mapApi?.clearSearchMarkers()
   }
 }
@@ -211,7 +173,7 @@ onBeforeUnmount(() => {
 .search-mode-toggle button {
   flex: 1;
   padding: 6px 12px;
-  border: 1.5px solid #333;
+  border: 1.5px solid var(--border);
   background: transparent;
   color: var(--text-dim);
   font-size: 12px;
@@ -230,7 +192,7 @@ onBeforeUnmount(() => {
 .search-mode-toggle button.active {
   background: var(--accent);
   border-color: var(--accent);
-  color: #111;
+  color: var(--bg);
 }
 
 .google-result {
@@ -272,33 +234,4 @@ onBeforeUnmount(() => {
   max-width: 200px;
 }
 
-.google-result-add {
-  display: flex;
-  gap: 6px;
-  margin-top: 8px;
-  align-items: center;
-}
-.day-select {
-  flex: 1;
-  padding: 6px 8px;
-  border-radius: 6px;
-  border: 1.5px solid #444;
-  background: var(--bg);
-  color: var(--text);
-  font-size: 12px;
-  font-family: 'DM Sans', sans-serif;
-}
-.add-btn {
-  padding: 6px 14px;
-  border-radius: 6px;
-  border: none;
-  background: var(--accent);
-  color: #111;
-  font-size: 12px;
-  font-weight: 700;
-  font-family: 'DM Sans', sans-serif;
-  cursor: pointer;
-  white-space: nowrap;
-}
-.add-btn:active { transform: scale(.97); }
 </style>

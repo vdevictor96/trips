@@ -39,7 +39,7 @@ function tabActiveStyle(tab) {
   return {
     background: tab.color,
     borderColor: tab.color,
-    color: '#111'
+    color: 'var(--bg)'
   }
 }
 </script>

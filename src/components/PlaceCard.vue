@@ -32,7 +32,7 @@
         v-for="d in otherDays"
         :key="d.id"
         class="move-day-pill"
-        :style="{ background: d.color, color: '#111' }"
+        :style="{ background: d.color, color: 'var(--bg)' }"
         @click="handleMove(d.id)"
       >
         Día {{ d.id }}

@@ -7,7 +7,7 @@
     </button>
     <BottomSheet ref="sheetRef">
       <template #search>
-        <PlaceSearch @select-place="handlePlaceSelect" @fly-to="handleFlyTo" />
+        <PlaceSearch @select-place="handlePlaceSelect" @fly-to="handleFlyTo" @preview-search-result="handlePreviewSearchResult" />
       </template>
       <template #tabs>
         <DayTabs @select-day="handleDaySelect" />
@@ -45,10 +45,12 @@ import DiscardedPanel from './DiscardedPanel.vue'
 import NotesPanel from './NotesPanel.vue'
 import DayContent from './DayContent.vue'
 import ToastNotification from './ToastNotification.vue'
+import { useToast } from '../composables/useToast.js'
 
 const emit = defineEmits(['back'])
 
 const store = useTripStore()
+const { show } = useToast()
 const mapViewRef = ref(null)
 const sheetRef = ref(null)
 
@@ -92,10 +94,29 @@ function handlePlaceSelect(place) {
 function handleFlyTo(lat, lng, placeId) {
   mapApi.flyTo(lat, lng)
   if (placeId) mapApi.activateMarker(placeId)
+  sheetRef.value?.collapse()
 }
 
 function handleActivateMarker(placeId) {
   mapApi.activateMarker(placeId)
+}
+
+function handlePreviewSearchResult(result) {
+  sheetRef.value?.collapse()
+  mapApi.flyTo(result.lat, result.lng, 16)
+  mapApi.openSearchResultInfoWindow(result, store.trip.days, (dayId) => {
+    const place = {
+      name: result.name,
+      lat: result.lat, lng: result.lng,
+      desc: result.editorial || result.address,
+      time: '', dur: '', tags: [], link: '',
+      googlePlaceId: result.googlePlaceId,
+    }
+    store.addPlace(dayId, place)
+    show(`${result.name} añadido a Día ${dayId}`)
+    mapApi.clearSearchMarkers()
+    rebuildMarkers()
+  })
 }
 
 // Marker click handler
@@ -104,8 +125,9 @@ function onMarkerClick(dayId, placeId) {
     store.setActiveDay(dayId)
     mapApi.updateVisibleLayers(dayId)
   }
-  // Don't expand sheet — just highlight the card so it doesn't block the map on mobile
+  // Open popup and highlight card — sheet stays as-is so map is visible
   mapApi.activateMarker(placeId)
+  mapApi.openPopup(placeId)
 
   nextTick(() => {
     setTimeout(() => {

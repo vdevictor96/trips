@@ -9,7 +9,7 @@
       class="place-card"
       :data-day="'discarded'"
       :data-id="p.id"
-      style="border-left-color:#666;"
+      style="border-left-color:var(--text-dim);"
       @click="handleClick(p, $event)"
     >
       <div class="place-name">{{ p.name }}</div>

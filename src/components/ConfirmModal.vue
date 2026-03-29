@@ -34,7 +34,7 @@ defineEmits(['confirm', 'cancel'])
   position: fixed;
   inset: 0;
   z-index: 9999;
-  background: rgba(0, 0, 0, 0.6);
+  background: var(--overlay-bg);
   backdrop-filter: blur(4px);
   display: flex;
   align-items: center;
@@ -98,7 +98,7 @@ defineEmits(['confirm', 'cancel'])
 
 .confirm-btn.primary {
   background: var(--accent);
-  color: #111;
+  color: var(--bg);
 }
 
 .confirm-btn.danger {

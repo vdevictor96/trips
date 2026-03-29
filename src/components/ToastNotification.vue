@@ -36,13 +36,13 @@ const { toasts, dismiss, handleUndo } = useToast()
   gap: 8px;
   padding: 12px 16px;
   border-radius: 12px;
-  background: #2a2a4a;
+  background: var(--surface2);
   color: var(--text);
   font-size: 13px;
   font-weight: 500;
-  box-shadow: 0 4px 20px rgba(0,0,0,.4);
+  box-shadow: 0 4px 20px var(--shadow-color);
   pointer-events: all;
-  border: 1px solid #3a3a5a;
+  border: 1px solid var(--border);
 }
 
 .toast-message {

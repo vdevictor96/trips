@@ -27,10 +27,10 @@
     <div
       v-if="store.trip.discarded?.length"
       class="place-card overview-card"
-      style="border-left-color:#666; cursor:pointer;"
+      style="border-left-color:var(--text-dim); cursor:pointer;"
       @click="emit('navigate', 'discarded')"
     >
-      <div class="place-time" style="color:#999">🗑️ Descartados · {{ store.trip.discarded.length }} sitios</div>
+      <div class="place-time" style="color:var(--text-dim)">🗑️ Descartados · {{ store.trip.discarded.length }} sitios</div>
       <div class="place-name">Sitios investigados pero no incluidos</div>
     </div>
   </div>

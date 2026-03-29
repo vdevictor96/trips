@@ -1,5 +1,5 @@
 <template>
-  <div class="place-editor" @click.stop style="margin-top:12px; padding-top:12px; border-top:1px solid #333;">
+  <div class="place-editor" @click.stop style="margin-top:12px; padding-top:12px; border-top:1px solid var(--border);">
     <div class="editor-field">
       <label>Nombre</label>
       <input v-model="form.name" type="text" class="editor-input" />
@@ -96,7 +96,7 @@ function confirmRemove() {
 .tag-toggle {
   padding: 4px 10px;
   border-radius: 6px;
-  border: 1.5px solid #444;
+  border: 1.5px solid var(--border);
   background: transparent;
   color: var(--text-dim);
   font-size: 11px;
