@@ -1,7 +1,7 @@
 <template>
   <div class="trip-selector">
     <div class="trip-selector-header">
-      <h1>Mis Viajes</h1>
+      <h1>Nuestros Viajes</h1>
       <p>Selecciona un destino</p>
     </div>
     <div class="trip-grid">

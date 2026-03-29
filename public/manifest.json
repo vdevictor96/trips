@@ -1,5 +1,5 @@
 {
-  "name": "Mis Viajes",
+  "name": "Nuestros Viajes",
   "short_name": "Viajes",
   "description": "Itinerarios de viaje con mapa interactivo",
   "start_url": "/trips/",

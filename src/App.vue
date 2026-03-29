@@ -27,7 +27,7 @@ onMounted(async () => {
 
 function handleBack() {
   store.unloadTrip()
-  document.title = 'Mis Viajes'
+  document.title = 'Nuestros Viajes'
   location.hash = ''
 }
 
