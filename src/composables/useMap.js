@@ -110,6 +110,7 @@ export function useMap() {
   const searchMarkers = ref([])
   const hotelMarker = ref(null)
   let infoWindow = null
+  let poiClickHandler = null
 
   async function initMap(el) {
     if (map.value) destroyMap()
@@ -140,8 +141,13 @@ export function useMap() {
 
       infoWindow = new google.maps.InfoWindow({ maxWidth: 280 })
 
-      // Close info window when clicking empty map area
-      map.value.addListener('click', () => {
+      // Map click: close InfoWindow or intercept native POI clicks
+      map.value.addListener('click', (e) => {
+        if (e.placeId && poiClickHandler) {
+          e.stop() // prevent Google's default POI InfoWindow
+          poiClickHandler(e.placeId, { lat: e.latLng.lat(), lng: e.latLng.lng() })
+          return
+        }
         infoWindow.close()
       })
     } catch (e) {
@@ -318,6 +324,10 @@ export function useMap() {
     // No need to update the overlay marker itself since it's just a colored pin
   }
 
+  function onPoiClick(handler) {
+    poiClickHandler = handler
+  }
+
   // React to theme changes on the map
   watch(isDark, (dark) => {
     if (map.value) map.value.setOptions({ styles: dark ? DARK_STYLE : LIGHT_STYLE })
@@ -412,5 +422,6 @@ export function useMap() {
     showSearchMarkers,
     clearSearchMarkers,
     openSearchResultInfoWindow,
+    onPoiClick,
   }
 }

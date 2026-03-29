@@ -46,11 +46,13 @@ import NotesPanel from './NotesPanel.vue'
 import DayContent from './DayContent.vue'
 import ToastNotification from './ToastNotification.vue'
 import { useToast } from '../composables/useToast.js'
+import { useGooglePlaces } from '../composables/useGooglePlaces.js'
 
 const emit = defineEmits(['back'])
 
 const store = useTripStore()
 const { show } = useToast()
+const { getPlaceDetails } = useGooglePlaces()
 const mapViewRef = ref(null)
 const sheetRef = ref(null)
 
@@ -148,4 +150,27 @@ function rebuildMarkers() {
   mapApi.updateVisibleLayers(store.activeDay)
 }
 provide('rebuildMarkers', rebuildMarkers)
+
+// Handle native Google Maps POI clicks — show add-to-day form
+mapApi.onPoiClick(async (googlePlaceId, latLng) => {
+  const details = await getPlaceDetails(googlePlaceId)
+  const result = details
+    ? { name: details.name, lat: details.lat || latLng.lat, lng: details.lng || latLng.lng, address: details.address, rating: details.rating, ratingCount: details.ratingCount, editorial: details.editorial, googlePlaceId }
+    : { name: 'Ubicación', lat: latLng.lat, lng: latLng.lng, address: '', rating: null, ratingCount: 0, editorial: '', googlePlaceId }
+
+  mapApi.flyTo(result.lat, result.lng, 16)
+  mapApi.openSearchResultInfoWindow(result, store.trip.days, (dayId) => {
+    const place = {
+      name: result.name,
+      lat: result.lat, lng: result.lng,
+      desc: result.editorial || result.address,
+      time: '', dur: '', tags: [],
+      link: details?.website || '',
+      googlePlaceId,
+    }
+    store.addPlace(dayId, place)
+    show(`${result.name} añadido a Día ${dayId}`)
+    rebuildMarkers()
+  })
+})
 </script>
