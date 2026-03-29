@@ -118,26 +118,9 @@ export function useGooglePlaces() {
     }
   }
 
-  function getPhotoUrl(photoObj, maxWidth = 400) {
-    if (!photoObj) return null
-    try {
-      return photoObj.getURI({ maxWidth })
-    } catch {
-      return null
-    }
-  }
-
-  async function findPlaceByNameAndLocation(name, lat, lng) {
-    const results = await searchPlaces(name, lat, lng, 500)
-    if (results.length > 0) return results[0]
-    return null
-  }
-
   return {
     isAvailable,
     searchPlaces,
     getPlaceDetails,
-    getPhotoUrl,
-    findPlaceByNameAndLocation,
   }
 }
