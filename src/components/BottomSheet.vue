@@ -47,6 +47,7 @@ onMounted(() => {
   let dragging = false
   let touchInBody = false
   let ignoreTouch = false
+  let touchOnInteractive = false
   let decidedScroll = false // true = let browser scroll, don't drag
 
   function isInteractive(target) {
@@ -55,8 +56,12 @@ onMounted(() => {
 
   // --- Touch events (mobile) ---
   sheet.addEventListener('touchstart', e => {
-    if (isInteractive(e.target)) { ignoreTouch = true; return }
+    const interactive = isInteractive(e.target)
+    // When expanded, fully ignore interactive elements (let them work normally)
+    if (interactive && isExpanded) { ignoreTouch = true; return }
+    // When collapsed, track the touch but remember it started on interactive
     ignoreTouch = false
+    touchOnInteractive = interactive
     startY = e.touches[0].clientY
     startTime = Date.now()
     dragging = false
@@ -76,6 +81,8 @@ onMounted(() => {
         dragging = true
         if (body) body.style.overflowY = 'hidden'
         sheet.style.transition = 'none'
+        // Blur focused input so keyboard doesn't interfere with drag
+        if (touchOnInteractive) document.activeElement?.blur?.()
       }
       // When expanded and touch in body:
       else if (touchInBody) {
@@ -120,12 +127,15 @@ onMounted(() => {
     sheet.style.transform = ''
 
     if (!dragging) {
+      // Tap on interactive element when collapsed — let browser handle (focus input, etc.)
+      if (touchOnInteractive) { touchOnInteractive = false; return }
       // Tap on handle toggles
       if (e.target.closest('.sheet-handle')) toggle()
       return
     }
 
     dragging = false
+    touchOnInteractive = false
     const dy = e.changedTouches[0].clientY - startY
     const elapsed = Date.now() - startTime
     const velocity = Math.abs(dy) / elapsed // px/ms
