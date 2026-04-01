@@ -136,6 +136,9 @@ export const useTripStore = defineStore('trip', () => {
     // Start real-time sync listener
     initSync(tripId, (remoteData) => {
       if (!trip.value) return
+      // Don't overwrite with older version (race condition: Firebase
+      // sends stale data before pushEdits updates it)
+      if ((trip.value._v || 0) > (remoteData._v || 0)) return
       _applyDefaults(remoteData)
       trip.value = remoteData
       saveEdits() // cache locally too
