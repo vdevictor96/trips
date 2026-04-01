@@ -46,7 +46,15 @@ La app carga datos: Firebase → localStorage → JSON estático. Para que los c
 4. Commit y push
 
 ### Al editar un viaje existente
-1. Editar `trips/{id}.json`
-2. Incrementar `_v`
-3. Copiar a `public/trips/{id}.json`
-4. Commit y push
+1. **Descargar primero la versión de Firebase** (fuente de verdad — puede tener reordenaciones/edits del usuario desde la app):
+   ```bash
+   curl -s "https://trips-c56f5-default-rtdb.europe-west1.firebasedatabase.app/trips/{id}/data.json" > /tmp/firebase-current.json
+   ```
+2. Usar la versión de Firebase como BASE — aplicar cambios sobre ella, no sobre el JSON local
+3. Incrementar `_v`
+4. Escribir a `trips/{id}.json` y copiar a `public/trips/{id}.json`
+5. **Subir a Firebase directamente** (no esperar al deploy):
+   ```bash
+   curl -s -X PUT "https://trips-c56f5-default-rtdb.europe-west1.firebasedatabase.app/trips/{id}/data.json" -d @trips/{id}.json
+   ```
+6. Commit y push

@@ -1,144 +1,791 @@
 {
-  "_v": 1,
-  "id": "estocolmo-2026",
-  "title": "Estocolmo 2026",
-  "emoji": "🇸🇪",
+  "_v": 2,
   "city": "Estocolmo",
   "country": "Suecia",
   "dates": "2-6 abril 2026",
-  "mapCenter": [59.325, 18.07],
-  "mapZoom": 13,
-  "hotel": {
-    "lat": 59.3363,
-    "lng": 18.0550,
-    "name": "Scandic Go Upplandsgatan"
-  },
-  "dayColors": ["#f7b731", "#26de81", "#fc5c65", "#a55eea"],
+  "dayColors": [
+    "#f7b731",
+    "#26de81",
+    "#fc5c65",
+    "#a55eea"
+  ],
   "days": [
     {
+      "color": "#f7b731",
       "id": 1,
-      "tab": "Día 1 · Jue 2",
-      "title": "Llegada + Norrmalm + Gamla Stan",
+      "places": [
+        {
+          "desc": "Calle principal peatonal. Weekday (Drottninggatan 63) — tienda de ropa sueca (cierra 19h). 5 min andando desde el hotel al sur.",
+          "dur": "15 min",
+          "id": "1.1",
+          "lat": 59.3345,
+          "link": "https://www.weekday.com",
+          "lng": 18.06,
+          "name": "Drottninggatan + Weekday",
+          "time": "18:15"
+        },
+        {
+          "desc": "Tienda de chuches suecas. Slöjdgatan 9, junto a Hötorget. Jue abierto hasta 19:30 — tiempo de sobra. 2 min andando.",
+          "dur": "10 min",
+          "id": "1.2",
+          "lat": 59.3341,
+          "lng": 18.0622,
+          "name": "Caramella",
+          "time": "18:35"
+        },
+        {
+          "desc": "Plaza icónica con obelisco de cristal. 3 min andando al sur.",
+          "dur": "10 min",
+          "id": "1.3",
+          "lat": 59.3328,
+          "lng": 18.0632,
+          "name": "Sergels Torg",
+          "time": "18:50"
+        },
+        {
+          "desc": "Grandes almacenes de lujo (como El Corte Inglés escandinavo). Cerrado a esta hora, solo fachada. 5 min andando al este.",
+          "dur": "10 min",
+          "id": "1.4",
+          "lat": 59.3332,
+          "lng": 18.0692,
+          "name": "NK Stockholm (fachada)",
+          "time": "19:05"
+        },
+        {
+          "desc": "Kungliga Slottet. Exterior al atardecer. Cambio de guardia → sábados 12:15. 2 min andando.",
+          "dur": "20 min",
+          "id": "1.5",
+          "lat": 59.3267,
+          "link": "https://www.kungligaslotten.se/english/royal-palace.html",
+          "lng": 18.0706,
+          "name": "Palacio Real (exterior)",
+          "time": "20:00"
+        },
+        {
+          "desc": "Storkyrkan — Catedral gótica de ladrillo, la más antigua de Estocolmo. Solo exterior a esta hora (cierra visitantes 17h). 1 min andando.",
+          "dur": "15 min",
+          "id": "1.6",
+          "lat": 59.3256,
+          "link": "https://www.svenskakyrkan.se/stockholmsdomkyrkoforsamling/visiting",
+          "lng": 18.0714,
+          "name": "Catedral de San Nicolás",
+          "time": "19:45"
+        },
+        {
+          "desc": "Plaza principal de Gamla Stan. Casas coloridas icónicas. Luz de atardecer ideal para fotos. 15 min andando al sur cruzando a Gamla Stan.",
+          "dur": "15 min",
+          "id": "1.7",
+          "lat": 59.3253,
+          "lng": 18.0711,
+          "name": "Stortorget",
+          "time": "19:30"
+        },
+        {
+          "desc": "Paseo marítimo de Gamla Stan con vistas a Djurgården y Skeppsholmen. 5 min andando al este. Después buscar cena (~1h) en Gamla Stan o de vuelta por Norrmalm. Vuelta hotel ~25 min por Drottninggatan.",
+          "dur": "20 min",
+          "id": "1.8",
+          "lat": 59.3243,
+          "lng": 18.0741,
+          "name": "Skeppsbron",
+          "time": "20:40"
+        },
+        {
+          "desc": "Parlamento sueco. Bonito desde el puente, entre Gamla Stan y Norrmalm. 5 min andando desde Palacio.",
+          "dur": "10 min",
+          "id": "1.9",
+          "lat": 59.3271,
+          "lng": 18.0655,
+          "name": "Riksdag (Parlamento)",
+          "time": "20:25"
+        }
+      ],
       "subtitle": "Jueves 2 abril · Llegada 17h · Plan suave · 🌅 Sunset 19:34",
-      "places": [
-        { "id": "1.1", "time": "18:15", "dur": "15 min", "name": "Drottninggatan + Weekday", "lat": 59.3345, "lng": 18.0600, "desc": "Calle principal peatonal. Weekday (Drottninggatan 63) — tienda de ropa sueca (cierra 19h). 5 min andando desde el hotel al sur.", "tags": [], "link": "https://www.weekday.com" },
-        { "id": "1.2", "time": "18:35", "dur": "10 min", "name": "Caramella", "lat": 59.3341, "lng": 18.0622, "desc": "Tienda de chuches suecas. Slöjdgatan 9, junto a Hötorget. Jue abierto hasta 19:30 — tiempo de sobra. 2 min andando.", "tags": [] },
-        { "id": "1.3", "time": "18:50", "dur": "10 min", "name": "Sergels Torg", "lat": 59.3328, "lng": 18.0632, "desc": "Plaza icónica con obelisco de cristal. 3 min andando al sur.", "tags": [] },
-        { "id": "1.4", "time": "19:05", "dur": "10 min", "name": "NK Stockholm (fachada)", "lat": 59.3332, "lng": 18.0692, "desc": "Grandes almacenes de lujo (como El Corte Inglés escandinavo). Cerrado a esta hora, solo fachada. 5 min andando al este.", "tags": [] },
-        { "id": "1.5", "time": "19:30", "dur": "15 min", "name": "Stortorget", "lat": 59.3253, "lng": 18.0711, "desc": "Plaza principal de Gamla Stan. Casas coloridas icónicas. Luz de atardecer ideal para fotos. 15 min andando al sur cruzando a Gamla Stan.", "tags": [] },
-        { "id": "1.6", "time": "19:45", "dur": "15 min", "name": "Catedral de San Nicolás", "lat": 59.3256, "lng": 18.0714, "desc": "Storkyrkan — Catedral gótica de ladrillo, la más antigua de Estocolmo. Solo exterior a esta hora (cierra visitantes 17h). 1 min andando.", "tags": [], "link": "https://www.svenskakyrkan.se/stockholmsdomkyrkoforsamling/visiting" },
-        { "id": "1.7", "time": "20:00", "dur": "20 min", "name": "Palacio Real (exterior)", "lat": 59.3267, "lng": 18.0706, "desc": "Kungliga Slottet. Exterior al atardecer. Cambio de guardia → sábados 12:15. 2 min andando.", "tags": [], "link": "https://www.kungligaslotten.se/english/royal-palace.html" },
-        { "id": "1.8", "time": "20:25", "dur": "10 min", "name": "Riksdag (Parlamento)", "lat": 59.3271, "lng": 18.0655, "desc": "Parlamento sueco. Bonito desde el puente, entre Gamla Stan y Norrmalm. 5 min andando desde Palacio.", "tags": [] },
-        { "id": "1.9", "time": "20:40", "dur": "20 min", "name": "Skeppsbron", "lat": 59.3243, "lng": 18.0741, "desc": "Paseo marítimo de Gamla Stan con vistas a Djurgården y Skeppsholmen. 5 min andando al este. Después buscar cena (~1h) en Gamla Stan o de vuelta por Norrmalm. Vuelta hotel ~25 min por Drottninggatan.", "tags": [] }
-      ]
+      "tab": "Día 1 · Jue 2",
+      "title": "Llegada + Norrmalm + Gamla Stan"
     },
     {
+      "color": "#26de81",
       "id": 2,
+      "places": [
+        {
+          "desc": "Ferry línea 83 (Waxholmsbolaget). Incluido en billete SL. ~1h de trayecto. ⚠️ Viernes Santo = horario domingo (primera salida 10:00). Desayuno ~08:30 cerca del hotel (~1h), salir ~09:30, andar 20 min a Strömkajen.",
+          "dur": "1h (ferry)",
+          "id": "2.1",
+          "lat": 59.3308,
+          "link": "https://waxholmsbolaget.se/in-english",
+          "lng": 18.0742,
+          "name": "Strömkajen → Ferry Vaxholm",
+          "time": "10:00"
+        },
+        {
+          "desc": "Pueblo del archipiélago. Casitas de madera, fortaleza, puerto pesquero. Buen sitio para fika si no desayunasteis bien. Coger ferry de vuelta ~13:00. Llega a Strömkajen ~14:00.",
+          "dur": "2h",
+          "id": "2.2",
+          "lat": 59.4024,
+          "lng": 18.3567,
+          "name": "Vaxholm",
+          "time": "11:00"
+        },
+        {
+          "desc": "Paseo elegante junto al agua. Empieza justo donde llega el ferry en Strömkajen. 5 min andando.",
+          "dur": "15 min",
+          "id": "2.3",
+          "lat": 59.3326,
+          "lng": 18.077,
+          "name": "Strandvägen",
+          "time": "14:15"
+        },
+        {
+          "desc": "Mercado gastronómico desde 1880. COMIDA aquí — marisco, quesos, dulces. ⚠️ Viernes Santo cierra 17h (en vez de 19h). A las 14:30 hay tiempo de sobra. 5 min andando.",
+          "dur": "1h 15min",
+          "id": "2.4",
+          "lat": 59.3352,
+          "link": "https://ostermalmsfoodhall.se/",
+          "lng": 18.08,
+          "name": "Östermalm Food Hall",
+          "time": "14:30"
+        },
+        {
+          "desc": "Teatro Real Dramático — fachada Art Nouveau impresionante. 10 min andando al oeste.",
+          "dur": "15 min",
+          "id": "2.5",
+          "lat": 59.3333,
+          "link": "https://www.dramaten.se/en",
+          "lng": 18.077,
+          "name": "Dramaten (fachada)",
+          "time": "15:50"
+        },
+        {
+          "desc": "Parque con cerezos en flor en abril. Uniqlo (Hamngatan 27) justo al lado — ⚠️ posiblemente cerrado (Viernes Santo). Si está abierto, entrar. 5 min andando.",
+          "dur": "25 min",
+          "id": "2.6",
+          "lat": 59.3315,
+          "lng": 18.0719,
+          "name": "Kungsträdgården + Uniqlo",
+          "time": "16:10"
+        },
+        {
+          "desc": "Parque tranquilo con estatua de Linneo. Zona residencial elegante. 5 min andando al norte.",
+          "dur": "15 min",
+          "id": "2.7",
+          "lat": 59.3372,
+          "lng": 18.074,
+          "name": "Humlegården",
+          "time": "16:25"
+        },
+        {
+          "desc": "Calle de tiendas de lujo. ⚠️ Viernes Santo: tiendas probablemente cerradas, solo paseo por la calle. 2 min andando desde Humlegården.",
+          "dur": "15 min",
+          "id": "2.8",
+          "lat": 59.3365,
+          "lng": 18.0725,
+          "name": "Biblioteksgatan",
+          "time": "16:40"
+        },
+        {
+          "id": "2.9",
+          "time": "17:00",
+          "dur": "50 min",
+          "name": "Merienda café Norrmalm",
+          "lat": 59.334,
+          "lng": 18.063,
+          "desc": "Buscar café con calma por Norrmalm/Drottninggatan antes de Moderna.",
+          "tags": []
+        },
+        {
+          "desc": "⚠️ Viernes Santo abierto 10-20h (horario extendido). GRATIS viernes 18-20h (no confirmado en festivos, podría requerir entrada). Excepto expo Picasso (termina 5 abril). ¡Tirarse por el tobogán interior! 25 min andando via Skeppsholmen (puente de hierro con corona dorada).",
+          "dur": "2h",
+          "id": "2.10",
+          "lat": 59.325,
+          "link": "https://www.modernamuseet.se/stockholm/en/",
+          "lng": 18.0861,
+          "name": "Moderna Museet ⭐",
+          "tags": [
+            "obligatorio",
+            "gratis"
+          ],
+          "time": "18:00"
+        },
+        {
+          "desc": "Cine histórico de 1923 (Gunnar Asplund). Drottninggatan 82. ~25-30 min andando desde Moderna — salir a las 19:50 para llegar. Timing muy justo. Si no vais al cine: cena tranquila por Norrmalm y vuelta al hotel.",
+          "dur": "2h",
+          "id": "2.11",
+          "lat": 59.3356,
+          "link": "https://bioskandia.se/",
+          "lng": 18.06,
+          "name": "Bio Skandia (opcional)",
+          "time": "20:30"
+        }
+      ],
+      "subtitle": "Viernes 3 abril · ⚠️ Viernes Santo (Långfredagen) · Moderna 10-20h · 🌅 Sunset 19:36",
       "tab": "Día 2 · Vie 3",
-      "title": "Vaxholm + Östermalm + Moderna",
-      "subtitle": "Viernes 3 abril · Ferry mañana · Moderna GRATIS 18-20h · 🌅 Sunset 19:36",
-      "places": [
-        { "id": "2.1", "time": "09:30", "dur": "1h (ferry)", "name": "Strömkajen → Ferry Vaxholm", "lat": 59.3308, "lng": 18.0742, "desc": "Ferry línea 83 (Waxholmsbolaget). Incluido en billete SL. ~1h de trayecto. Desayuno ~08:00 cerca del hotel (~30 min rápido), salir ~08:30, andar 20 min a Strömkajen. Alternativa: desayunar en Vaxholm.", "tags": [], "link": "https://waxholmsbolaget.se/in-english" },
-        { "id": "2.2", "time": "10:30", "dur": "2h", "name": "Vaxholm", "lat": 59.4024, "lng": 18.3567, "desc": "Pueblo del archipiélago. Casitas de madera, fortaleza, puerto pesquero. Buen sitio para fika si no desayunasteis bien. Coger ferry de vuelta ~12:30. Llega a Strömkajen ~13:30.", "tags": [] },
-        { "id": "2.3", "time": "14:00", "dur": "15 min", "name": "Strandvägen", "lat": 59.3326, "lng": 18.0770, "desc": "Paseo elegante junto al agua. Empieza justo donde llega el ferry en Strömkajen. 5 min andando. Después buscar sitio para comer (~1.5h en zona Östermalm/Strandvägen).", "tags": [] },
-        { "id": "2.4", "time": "15:50", "dur": "15 min", "name": "Dramaten (fachada)", "lat": 59.3333, "lng": 18.0770, "desc": "Teatro Real Dramático — fachada Art Nouveau impresionante. 10 min andando al oeste.", "tags": [], "link": "https://www.dramaten.se/en" },
-        { "id": "2.5", "time": "16:05", "dur": "25 min", "name": "Kungsträdgården + Uniqlo", "lat": 59.3315, "lng": 18.0719, "desc": "Parque con cerezos en flor en abril. Uniqlo King's Garden (Hamngatan 27) justo al lado. 5 min andando.", "tags": [] },
-        { "id": "2.6", "time": "16:35", "dur": "15 min", "name": "Humlegården", "lat": 59.3372, "lng": 18.0740, "desc": "Parque tranquilo con estatua de Linneo. Zona residencial elegante. 5 min andando al norte.", "tags": [] },
-        { "id": "2.7", "time": "16:55", "dur": "15 min", "name": "Biblioteksgatan", "lat": 59.3365, "lng": 18.0725, "desc": "Calle de tiendas de lujo. 2 min andando desde Humlegården.", "tags": [] },
-        { "id": "2.8", "time": "17:15", "dur": "45 min", "name": "Östermalm Food Hall", "lat": 59.3352, "lng": 18.0800, "desc": "Mercado gastronómico desde 1880. Marisco, quesos, dulces. ¡Merienda aquí! Sentarse con calma. Vie cierra 19h. 5 min andando al este.", "tags": [], "link": "https://ostermalmsfoodhall.se/" },
-        { "id": "2.9", "time": "18:00", "dur": "2h", "name": "Moderna Museet ⭐", "lat": 59.3250, "lng": 18.0861, "desc": "GRATIS viernes 18-20h (excepto expo Picasso, que termina 5 abril). ¡Tirarse por el tobogán interior! 25 min andando via Skeppsholmen (puente de hierro con corona dorada).", "tags": ["obligatorio", "gratis"], "link": "https://www.modernamuseet.se/stockholm/en/" },
-        { "id": "2.10", "time": "20:30", "dur": "2h", "name": "Bio Skandia (opcional)", "lat": 59.3356, "lng": 18.0600, "desc": "Cine histórico de 1923 (Gunnar Asplund). Drottninggatan 82. ~25-30 min andando desde Moderna — salir a las 19:50 para llegar. Timing muy justo. Si no vais al cine: cena tranquila por Norrmalm y vuelta al hotel.", "tags": [], "link": "https://bioskandia.se/" }
-      ]
+      "title": "Vaxholm + Östermalm + Moderna"
     },
     {
+      "color": "#fc5c65",
       "id": 3,
-      "tab": "Día 3 · Sáb 4",
-      "title": "Gamla Stan de día + Södermalm + Miradores",
-      "subtitle": "Sábado 4 abril · Cambio guardia 12:15 · Södermalm shops · 🌅 Sunset 19:38",
       "places": [
-        { "id": "3.1", "time": "10:00", "dur": "25 min", "name": "The Science Fiction Bookstore", "lat": 59.3243, "lng": 18.0697, "desc": "Librería de ciencia ficción, cómics, juegos y manga. Västerlånggatan 48, Gamla Stan. Abre 10:00 sábados. Desayuno ~08:30 cerca del hotel (~1h), salir ~09:30, 25 min andando.", "tags": [], "link": "https://www.sfbok.se" },
-        { "id": "3.2", "time": "10:30", "dur": "20 min", "name": "Stortorget (de día)", "lat": 59.3253, "lng": 18.0711, "desc": "Revisitar de día — visto de noche el Día 1. Casas coloridas con luz natural. 2 min andando.", "tags": [] },
-        { "id": "3.3", "time": "10:55", "dur": "1h 10min", "name": "Callejear Gamla Stan", "lat": 59.3250, "lng": 18.0700, "desc": "Explorar callejuelas sin prisa. Posicionarse cerca del Palacio para el cambio de guardia a las 12:15.", "tags": [] },
-        { "id": "3.4", "time": "12:15", "dur": "30 min", "name": "Cambio de Guardia — Palacio", "lat": 59.3267, "lng": 18.0706, "desc": "Ceremonia militar. Sáb 12:15 (lluvia o sol). Antes del 23 abril: formato simplificado sin banda completa. ⛈️ Si llueve fuerte: ver brevemente y refugiarse para comer. 2 min desde Stortorget.", "tags": [] },
-        { "id": "3.5", "time": "12:50", "dur": "2h", "name": "Comida en Gamla Stan", "lat": 59.3250, "lng": 18.0710, "desc": "Pausa para comer sin prisa (2h si llueve — esperar lo peor del tiempo dentro). Restaurantes en callejuelas de Gamla Stan o cerca de Stortorget. Previsión: lluvia 12-16h.", "tags": [] },
-        { "id": "3.6", "time": "15:00", "dur": "15 min", "name": "Katarina Elevator", "lat": 59.3199, "lng": 18.0732, "desc": "Ascensor histórico (1881), vistas panorámicas. 20 SEK. 15 min andando via Slussen. ⛈️ Opcional si llueve: vistas malas con lluvia y los miradores de la tarde son mejores. Ir directo a las tiendas.", "tags": [] },
-        { "id": "3.7", "time": "15:20", "dur": "10 min", "name": "Mäster Mikaels Gata", "lat": 59.3173, "lng": 18.0797, "desc": "Calle empedrada con casitas de madera de colores (1729). 5 min andando al sur. ⛈️ Opcional si llueve: menos encanto mojado. Pasar rápido o saltar.", "tags": [] },
-        { "id": "3.8", "time": "15:35", "dur": "15 min", "name": "The English Bookshop", "lat": 59.3128, "lng": 18.0812, "desc": "Librería pequeña y encantadora con libros en inglés. Södermannagatan 22. Sáb 11-16h. 7 min andando al sur a SoFo. Interior — perfecto si llueve.", "tags": [], "link": "https://bookshop.se/" },
-        { "id": "3.9", "time": "15:50", "dur": "20 min", "name": "Grandpa Södermannagatan ⭐", "lat": 59.3128, "lng": 18.0810, "desc": "Tienda vintage obligatoria. Ropa, zapatos, accesorios, diseño. Södermannagatan 21 — puerta con puerta con English Bookshop. Sáb 11-17h. Interior — perfecto si llueve.", "tags": ["obligatorio"] },
-        { "id": "3.10", "time": "16:15", "dur": "15 min", "name": "HOPE Götgatan", "lat": 59.3176, "lng": 18.0730, "desc": "Marca de moda fashion sueca (cara). Götgatan 34. Sáb 11-18h. 5 min andando al noroeste, de camino a Nytorget/Medborgarplatsen. Interior.", "tags": [], "link": "https://hope-sthlm.com" },
-        { "id": "3.11", "time": "16:35", "dur": "15 min", "name": "Nytorget", "lat": 59.3122, "lng": 18.0834, "desc": "Barrio hipster de Södermalm este. Cafés, tiendas vintage, casitas con encanto. 5 min andando desde HOPE.", "tags": [] },
-        { "id": "3.12", "time": "16:55", "dur": "10 min", "name": "Medborgarplatsen", "lat": 59.3148, "lng": 18.0720, "desc": "Plaza central animada de Södermalm. 5 min andando al oeste.", "tags": [] },
-        { "id": "3.13", "time": "17:10", "dur": "50 min", "name": "Merienda + Mariatorget", "lat": 59.3182, "lng": 18.0632, "desc": "Buscar café con calma por Mariatorget. Parquecillo tranquilo con fuente. 8 min andando al oeste.", "tags": [] },
-        { "id": "3.14", "time": "18:05", "dur": "25 min", "name": "Monteliusvägen 🌅", "lat": 59.3208, "lng": 18.0604, "desc": "Sendero elevado con vistas espectaculares al Ayuntamiento y lago Mälaren. 10 min andando al norte.", "tags": ["mirador"] },
-        { "id": "3.15", "time": "18:35", "dur": "35 min", "name": "Skinnarviksberget 🌅", "lat": 59.3199, "lng": 18.0508, "desc": "Punto natural MÁS ALTO de la ciudad. Roca para sentarse con vistas panorámicas. Llevar algo de beber para el sunset (19:38). 10 min andando al oeste.", "tags": ["mirador"] },
-        { "id": "3.16", "time": "19:15", "dur": "20 min", "name": "Mariaberget 🌅", "lat": 59.3207, "lng": 18.0587, "desc": "Mirador complementario. Luz dorada al atardecer. Sunset 19:38 — quedarse a disfrutarlo. 5 min andando.", "tags": ["mirador"] },
-        { "id": "3.17", "time": "20:15", "dur": "1h 30min", "name": "Meatballs for the People", "lat": 59.3146, "lng": 18.0814, "desc": "Restaurante de albóndigas suecas con diferentes salsas. ⚠️ RESERVAR para 20:15-20:30 (25 min andando desde miradores). Nytorgsgatan 30.", "tags": ["reservar"], "link": "https://meatball.se/book-a-table" }
-      ]
+        {
+          "desc": "Librería de ciencia ficción, cómics, juegos y manga. Västerlånggatan 48, Gamla Stan. Abre 10:00 sábados. Desayuno ~08:30 cerca del hotel (~1h), salir ~09:30, 25 min andando.",
+          "dur": "25 min",
+          "id": "3.1",
+          "lat": 59.3243,
+          "link": "https://www.sfbok.se",
+          "lng": 18.0697,
+          "name": "The Science Fiction Bookstore",
+          "time": "10:00"
+        },
+        {
+          "desc": "Revisitar de día — visto de noche el Día 1. Casas coloridas con luz natural. 2 min andando.",
+          "dur": "20 min",
+          "id": "3.2",
+          "lat": 59.3253,
+          "lng": 18.0711,
+          "name": "Stortorget (de día)",
+          "time": "10:30"
+        },
+        {
+          "desc": "Explorar callejuelas sin prisa. Posicionarse cerca del Palacio para el cambio de guardia a las 12:15.",
+          "dur": "1h 10min",
+          "id": "3.3",
+          "lat": 59.325,
+          "lng": 18.07,
+          "name": "Callejear Gamla Stan",
+          "time": "10:55"
+        },
+        {
+          "desc": "Ceremonia militar. Sáb 12:15 (lluvia o sol). Antes del 23 abril: formato simplificado sin banda completa. ⛈️ Si llueve fuerte: ver brevemente y refugiarse para comer. 2 min desde Stortorget.",
+          "dur": "30 min",
+          "id": "3.4",
+          "lat": 59.3267,
+          "lng": 18.0706,
+          "name": "Cambio de Guardia — Palacio",
+          "time": "12:15"
+        },
+        {
+          "desc": "Pausa para comer sin prisa (2h si llueve — esperar lo peor del tiempo dentro). Restaurantes en callejuelas de Gamla Stan o cerca de Stortorget. Previsión: lluvia 12-16h.",
+          "dur": "2h",
+          "id": "3.5",
+          "lat": 59.325,
+          "lng": 18.071,
+          "name": "Comida en Gamla Stan",
+          "time": "12:50"
+        },
+        {
+          "desc": "Ascensor histórico (1881), vistas panorámicas. 20 SEK. 15 min andando via Slussen. ⛈️ Opcional si llueve: vistas malas con lluvia y los miradores de la tarde son mejores. Ir directo a las tiendas.",
+          "dur": "15 min",
+          "id": "3.6",
+          "lat": 59.3199,
+          "lng": 18.0732,
+          "name": "Katarina Elevator",
+          "time": "15:00"
+        },
+        {
+          "desc": "Marca de moda fashion sueca (cara). Götgatan 34. Sáb 11-18h. 5 min andando al noroeste, de camino a Nytorget/Medborgarplatsen. Interior.",
+          "dur": "15 min",
+          "id": "3.7",
+          "lat": 59.3176,
+          "link": "https://hope-sthlm.com",
+          "lng": 18.073,
+          "name": "HOPE Götgatan",
+          "time": "16:15"
+        },
+        {
+          "desc": "Calle empedrada con casitas de madera de colores (1729). 5 min andando al sur. ⛈️ Opcional si llueve: menos encanto mojado. Pasar rápido o saltar.",
+          "dur": "10 min",
+          "id": "3.8",
+          "lat": 59.3173,
+          "lng": 18.0797,
+          "name": "Mäster Mikaels Gata",
+          "time": "15:20"
+        },
+        {
+          "desc": "Librería pequeña y encantadora con libros en inglés. Södermannagatan 22. Sáb 11-16h. Påskafton no es festivo oficial — horario normal probable, confirmar antes. Interior — perfecto si llueve.",
+          "dur": "15 min",
+          "id": "3.9",
+          "lat": 59.3128,
+          "link": "https://bookshop.se/",
+          "lng": 18.0812,
+          "name": "The English Bookshop",
+          "time": "15:35"
+        },
+        {
+          "desc": "Tienda vintage obligatoria. Ropa, zapatos, accesorios, diseño. Södermannagatan 21 — puerta con puerta con English Bookshop. Sáb 11-17h. Interior — perfecto si llueve.",
+          "dur": "20 min",
+          "id": "3.10",
+          "lat": 59.3128,
+          "lng": 18.081,
+          "name": "Grandpa Södermannagatan ⭐",
+          "tags": [
+            "obligatorio"
+          ],
+          "time": "15:50"
+        },
+        {
+          "desc": "Barrio hipster de Södermalm este. Cafés, tiendas vintage, casitas con encanto. 5 min andando desde HOPE.",
+          "dur": "15 min",
+          "id": "3.11",
+          "lat": 59.3122,
+          "lng": 18.0834,
+          "name": "Nytorget",
+          "time": "16:35"
+        },
+        {
+          "desc": "Plaza central animada de Södermalm. 5 min andando al oeste.",
+          "dur": "10 min",
+          "id": "3.12",
+          "lat": 59.3148,
+          "lng": 18.072,
+          "name": "Medborgarplatsen",
+          "time": "16:55"
+        },
+        {
+          "desc": "Buscar café con calma por Mariatorget. Parquecillo tranquilo con fuente. 8 min andando al oeste.",
+          "dur": "50 min",
+          "id": "3.13",
+          "lat": 59.3182,
+          "lng": 18.0632,
+          "name": "Merienda + Mariatorget",
+          "time": "17:10"
+        },
+        {
+          "desc": "Punto natural MÁS ALTO de la ciudad. Roca para sentarse con vistas panorámicas. Llevar algo de beber para el sunset (19:38). 10 min andando al oeste.",
+          "dur": "35 min",
+          "id": "3.14",
+          "lat": 59.3199,
+          "lng": 18.0508,
+          "name": "Skinnarviksberget 🌅",
+          "tags": [
+            "mirador"
+          ],
+          "time": "18:35"
+        },
+        {
+          "desc": "Sendero elevado con vistas espectaculares al Ayuntamiento y lago Mälaren. 10 min andando al norte.",
+          "dur": "25 min",
+          "id": "3.15",
+          "lat": 59.3208,
+          "lng": 18.0604,
+          "name": "Monteliusvägen 🌅",
+          "tags": [
+            "mirador"
+          ],
+          "time": "18:05"
+        },
+        {
+          "desc": "Mirador complementario. Luz dorada al atardecer. Sunset 19:38 — quedarse a disfrutarlo. 5 min andando.",
+          "dur": "20 min",
+          "id": "3.16",
+          "lat": 59.3207,
+          "lng": 18.0587,
+          "name": "Mariaberget 🌅",
+          "tags": [
+            "mirador"
+          ],
+          "time": "19:15"
+        },
+        {
+          "desc": "Restaurante de albóndigas suecas con diferentes salsas. ⚠️ RESERVAR para 20:15-20:30 (25 min andando desde miradores). Nytorgsgatan 30.",
+          "dur": "1h 30min",
+          "id": "3.17",
+          "lat": 59.3146,
+          "link": "https://meatball.se/book-a-table",
+          "lng": 18.0814,
+          "name": "Meatballs for the People",
+          "tags": [
+            "reservar"
+          ],
+          "time": "20:15"
+        }
+      ],
+      "subtitle": "Sábado 4 abril · Påskafton (Sábado de Pascua) · Cambio guardia 12:15 · 🌅 Sunset 19:38",
+      "tab": "Día 3 · Sáb 4",
+      "title": "Gamla Stan de día + Södermalm + Miradores"
     },
     {
+      "color": "#a55eea",
       "id": 4,
-      "tab": "Día 4 · Dom 5",
-      "title": "Metro Art + Djurgården + Paradox + Ayuntamiento",
-      "subtitle": "Domingo 5 abril · Metro Art mañana · Paradox tarde · Última noche · 🌅 Sunset 19:41",
       "places": [
-        { "id": "4.1", "time": "09:40", "dur": "8 min", "name": "Odenplan — Metro Art", "lat": 59.3430, "lng": 18.0488, "desc": "Desayuno ~08:30 cerca del hotel (~1h). 10 min andando desde hotel. Instalación de arcoíris en el techo. Primera parada de la ruta Metro Art.", "tags": [] },
-        { "id": "4.2", "time": "09:52", "dur": "8 min", "name": "Tekniska högskolan — Metro Art", "lat": 59.3459, "lng": 18.0702, "desc": "Línea roja, 2 min de trayecto. Tema de ciencia y tecnología.", "tags": [] },
-        { "id": "4.3", "time": "10:04", "dur": "10 min", "name": "Stadion — Metro Art", "lat": 59.3431, "lng": 18.0811, "desc": "Línea roja, 2 min. Arcoíris gigante pintado en la roca.", "tags": [] },
-        { "id": "4.4", "time": "10:20", "dur": "10 min", "name": "T-Centralen — Metro Art ⭐", "lat": 59.3315, "lng": 18.0580, "desc": "Línea roja vuelta, 6 min. Plataforma línea azul: hojas azules sobre roca viva (Per Olof Ultvedt). La más icónica.", "tags": ["obligatorio"] },
-        { "id": "4.5", "time": "10:34", "dur": "8 min", "name": "Kungsträdgården — Metro Art", "lat": 59.3308, "lng": 18.0723, "desc": "Línea azul este, 2 min. Esculturas y arte colorido. Final de línea.", "tags": [] },
-        { "id": "4.6", "time": "10:48", "dur": "8 min", "name": "Rådhuset — Metro Art", "lat": 59.3303, "lng": 18.0420, "desc": "Vuelta a T-Centralen + línea azul oeste, 2 min. Roca natural teñida de rojo-naranja. Sensación de cueva.", "tags": [] },
-        { "id": "4.7", "time": "11:00", "dur": "5 min", "name": "Västra Skogen — Metro Art", "lat": 59.3475, "lng": 18.0039, "desc": "Línea azul norte, 5 min. Decoración geométrica.", "tags": [] },
-        { "id": "4.8", "time": "11:10", "dur": "10 min", "name": "Solna Centrum — Metro Art", "lat": 59.3584, "lng": 18.0004, "desc": "Línea azul, 3 min. Famoso mural de bosque verde con cielo rojo. Una de las más espectaculares.", "tags": [] },
-        { "id": "4.9", "time": "11:50", "dur": "—", "name": "Blå Porten (entrada Djurgården)", "lat": 59.3254, "lng": 18.0966, "desc": "Metro Solna → T-Centralen (~10 min). Andar a Norrmalmstorg, tranvía 7 (~20 min). Puerta de entrada a la isla verde.", "tags": [] },
-        { "id": "4.10", "time": "12:00", "dur": "45 min", "name": "Djurgårdsbrunnsviken", "lat": 59.3280, "lng": 18.1089, "desc": "Paseo por el canal. Agua tranquila, naturaleza, cisnes. Muy relajante.", "tags": [] },
-        { "id": "4.11", "time": "13:00", "dur": "30 min", "name": "Ekotemplet / Lusthuset", "lat": 59.3187, "lng": 18.1078, "desc": "Pabellón histórico en los jardines de Waldemarsudde. Arquitectura sueca con materiales naturales. 15 min andando al este.", "tags": [] },
-        { "id": "4.12", "time": "13:40", "dur": "1h 30min", "name": "Rosendals Trädgård", "lat": 59.3276, "lng": 18.1151, "desc": "Jardín botánico + café ecológico con pasteles caseros. COMIDA aquí. Café abierto 11-16h, almuerzos hasta 15h. 10 min andando.", "tags": [], "link": "https://www.rosendalstradgard.se/" },
-        { "id": "4.13", "time": "15:20", "dur": "10 min", "name": "Museo Nórdico (fachada)", "lat": 59.3282, "lng": 18.0963, "desc": "Edificio monumental estilo renacentista. Solo foto exterior, de paso. 15 min andando al oeste.", "tags": [] },
-        { "id": "4.14", "time": "15:50", "dur": "15 min", "name": "BUBS Godis Butik", "lat": 59.3358, "lng": 18.0715, "desc": "Tienda de chuches modernas suecas. Norrlandsgatan 21. ⚠️ Domingos cierra 17h — visitarlo ANTES del Paradox. 5 min desde Norrmalmstorg (parada tram).", "tags": [], "link": "https://www.bubs.se/bubs-sthlm/" },
-        { "id": "4.15", "time": "16:15", "dur": "1h", "name": "Paradox Museum ⭐", "lat": 59.3344, "lng": 18.0634, "desc": "Museo de ilusiones y paradojas. Fotos divertidas. Con Fever. Sergelgatan 20 (Hötorget). Dom 10-19h, última entrada 18h. 8 min andando desde BUBS.", "tags": ["obligatorio"], "link": "https://paradoxmuseum.com/stockholm/en/" },
-        { "id": "4.16", "time": "17:20", "dur": "50 min", "name": "Merienda zona Norrmalm", "lat": 59.3340, "lng": 18.0630, "desc": "Buscar café con calma por Norrmalm/Drottninggatan. Última merienda del viaje.", "tags": [] },
-        { "id": "4.17", "time": "18:15", "dur": "30 min", "name": "Norr Mälarstrand", "lat": 59.3265, "lng": 18.0480, "desc": "Paseo por orillas del lago Mälaren. Barcos-casa amarrados. Vistas al Ayuntamiento. 15 min andando al oeste. Después buscar cena (~1.5h) — última noche.", "tags": [] },
-        { "id": "4.18", "time": "18:50", "dur": "25 min", "name": "Ayuntamiento (exterior)", "lat": 59.3274, "lng": 18.0541, "desc": "Stadshuset — ladrillo rojo con torre. Lugar de entrega Premios Nobel. Golden hour (sunset 19:41). 10 min andando.", "tags": [] }
-      ]
+        {
+          "desc": "Desayuno ~08:30 cerca del hotel (~1h). 10 min andando desde hotel. Instalación de arcoíris en el techo. Primera parada de la ruta Metro Art.",
+          "dur": "8 min",
+          "id": "4.1",
+          "lat": 59.343,
+          "lng": 18.0488,
+          "name": "Odenplan — Metro Art",
+          "time": "09:40"
+        },
+        {
+          "desc": "Línea roja, 2 min de trayecto. Tema de ciencia y tecnología.",
+          "dur": "8 min",
+          "id": "4.2",
+          "lat": 59.3459,
+          "lng": 18.0702,
+          "name": "Tekniska högskolan — Metro Art",
+          "time": "09:52"
+        },
+        {
+          "desc": "Línea roja, 2 min. Arcoíris gigante pintado en la roca.",
+          "dur": "10 min",
+          "id": "4.3",
+          "lat": 59.3431,
+          "lng": 18.0811,
+          "name": "Stadion — Metro Art",
+          "time": "10:04"
+        },
+        {
+          "desc": "Línea roja vuelta, 6 min. Plataforma línea azul: hojas azules sobre roca viva (Per Olof Ultvedt). La más icónica.",
+          "dur": "10 min",
+          "id": "4.4",
+          "lat": 59.3315,
+          "lng": 18.058,
+          "name": "T-Centralen — Metro Art ⭐",
+          "tags": [
+            "obligatorio"
+          ],
+          "time": "10:20"
+        },
+        {
+          "desc": "Línea azul este, 2 min. Esculturas y arte colorido. Final de línea.",
+          "dur": "8 min",
+          "id": "4.5",
+          "lat": 59.3308,
+          "lng": 18.0723,
+          "name": "Kungsträdgården — Metro Art",
+          "time": "10:34"
+        },
+        {
+          "desc": "Vuelta a T-Centralen + línea azul oeste, 2 min. Roca natural teñida de rojo-naranja. Sensación de cueva.",
+          "dur": "8 min",
+          "id": "4.6",
+          "lat": 59.3303,
+          "lng": 18.042,
+          "name": "Rådhuset — Metro Art",
+          "time": "10:48"
+        },
+        {
+          "desc": "Línea azul norte, 5 min. Decoración geométrica.",
+          "dur": "5 min",
+          "id": "4.7",
+          "lat": 59.3475,
+          "lng": 18.0039,
+          "name": "Västra Skogen — Metro Art",
+          "time": "11:00"
+        },
+        {
+          "desc": "Línea azul, 3 min. Famoso mural de bosque verde con cielo rojo. Una de las más espectaculares.",
+          "dur": "10 min",
+          "id": "4.8",
+          "lat": 59.3584,
+          "lng": 18.0004,
+          "name": "Solna Centrum — Metro Art",
+          "time": "11:10"
+        },
+        {
+          "desc": "Edificio monumental estilo renacentista. Solo foto exterior, de paso. 15 min andando al oeste.",
+          "dur": "10 min",
+          "id": "4.9",
+          "lat": 59.3282,
+          "lng": 18.0963,
+          "name": "Museo Nórdico (fachada)",
+          "time": "15:20"
+        },
+        {
+          "desc": "Metro Solna → T-Centralen (~10 min). Andar a Norrmalmstorg, tranvía 7 (~20 min). Puerta de entrada a la isla verde.",
+          "dur": "—",
+          "id": "4.10",
+          "lat": 59.3254,
+          "lng": 18.0966,
+          "name": "Blå Porten (entrada Djurgården)",
+          "time": "11:50"
+        },
+        {
+          "desc": "Paseo por el canal. Agua tranquila, naturaleza, cisnes. Muy relajante.",
+          "dur": "45 min",
+          "id": "4.11",
+          "lat": 59.328,
+          "lng": 18.1089,
+          "name": "Djurgårdsbrunnsviken",
+          "time": "12:00"
+        },
+        {
+          "desc": "Jardín botánico + café ecológico con pasteles caseros. COMIDA aquí. Café abierto 11-16h, almuerzos hasta 15h. 10 min andando.",
+          "dur": "1h 30min",
+          "id": "4.12",
+          "lat": 59.3276,
+          "link": "https://www.rosendalstradgard.se/",
+          "lng": 18.1151,
+          "name": "Rosendals Trädgård",
+          "time": "13:40"
+        },
+        {
+          "desc": "Pabellón histórico en los jardines de Waldemarsudde. Arquitectura sueca con materiales naturales. 15 min andando al este.",
+          "dur": "30 min",
+          "id": "4.13",
+          "lat": 59.3187,
+          "lng": 18.1078,
+          "name": "Ekotemplet / Lusthuset",
+          "time": "13:00"
+        },
+        {
+          "desc": "Tienda de chuches modernas suecas. Norrlandsgatan 21. Domingo Pascua abierto 12-17h (confirmado). ⚠️ Visitarlo ANTES del Paradox. 5 min desde Norrmalmstorg (parada tram).",
+          "dur": "15 min",
+          "id": "4.14",
+          "lat": 59.3358,
+          "link": "https://www.bubs.se/bubs-sthlm/",
+          "lng": 18.0715,
+          "name": "BUBS Godis Butik",
+          "time": "15:50"
+        },
+        {
+          "desc": "Museo de ilusiones y paradojas. Fotos divertidas. Con Fever. Sergelgatan 20 (Hötorget). Dom 10-19h, última entrada 18h. 8 min andando desde BUBS.",
+          "dur": "1h",
+          "id": "4.15",
+          "lat": 59.3344,
+          "link": "https://paradoxmuseum.com/stockholm/en/",
+          "lng": 18.0634,
+          "name": "Paradox Museum ⭐",
+          "tags": [
+            "obligatorio"
+          ],
+          "time": "16:15"
+        },
+        {
+          "desc": "Buscar café con calma por Norrmalm/Drottninggatan. Última merienda del viaje.",
+          "dur": "50 min",
+          "id": "4.16",
+          "lat": 59.334,
+          "lng": 18.063,
+          "name": "Merienda zona Norrmalm",
+          "time": "17:20"
+        },
+        {
+          "desc": "Paseo por orillas del lago Mälaren. Barcos-casa amarrados. Vistas al Ayuntamiento. 15 min andando al oeste. Después buscar cena (~1.5h) — última noche.",
+          "dur": "30 min",
+          "id": "4.17",
+          "lat": 59.3265,
+          "lng": 18.048,
+          "name": "Norr Mälarstrand",
+          "time": "18:15"
+        },
+        {
+          "desc": "Stadshuset — ladrillo rojo con torre. Lugar de entrega Premios Nobel. Golden hour (sunset 19:41). 10 min andando.",
+          "dur": "25 min",
+          "id": "4.18",
+          "lat": 59.3274,
+          "lng": 18.0541,
+          "name": "Ayuntamiento (exterior)",
+          "time": "18:50"
+        }
+      ],
+      "subtitle": "Domingo 5 abril · 🐣 Domingo de Pascua · Metro Art mañana · Paradox tarde · 🌅 Sunset 19:41",
+      "tab": "Día 4 · Dom 5",
+      "title": "Metro Art + Djurgården + Paradox + Ayuntamiento"
     }
   ],
+  "discarded": [
+    {
+      "desc": "Museo al aire libre con edificios históricos suecos, zoo nórdico y artesanía tradicional. El más grande de Escandinavia.",
+      "id": "d.1",
+      "lat": 59.3266,
+      "link": "https://www.skansen.se",
+      "lng": 18.1051,
+      "name": "Skansen",
+      "reason": "Requiere medio día completo"
+    },
+    {
+      "desc": "Museo interactivo sobre la banda ABBA. Karaoke, vestuarios originales, estudio de grabación virtual.",
+      "id": "d.2",
+      "lat": 59.325,
+      "link": "https://abbathemuseum.com/en/",
+      "lng": 18.0964,
+      "name": "ABBA The Museum",
+      "reason": "Museo extra, fuera de prioridades"
+    },
+    {
+      "desc": "Barco de guerra del siglo XVII rescatado del fondo del mar. Uno de los museos más visitados de Escandinavia.",
+      "id": "d.3",
+      "lat": 59.328,
+      "link": "https://www.vasamuseet.se/en",
+      "lng": 18.0914,
+      "name": "Museo Vasa",
+      "reason": "Museo extra (opcional)"
+    },
+    {
+      "desc": "Historia de los Premios Nobel y sus laureados. Ubicado en Stortorget, Gamla Stan.",
+      "id": "d.4",
+      "lat": 59.3252,
+      "link": "https://www.nobelprizemuseum.se/en/",
+      "lng": 18.0708,
+      "name": "Museo Nobel",
+      "reason": "Museo extra"
+    },
+    {
+      "desc": "Museo de fotografía contemporánea en antiguo edificio industrial. Vistas al agua desde la cafetería.",
+      "id": "d.5",
+      "lat": 59.3173,
+      "link": "https://fotografiska.com/sto",
+      "lng": 18.0842,
+      "name": "Fotografiska",
+      "reason": "Museo extra"
+    },
+    {
+      "desc": "Museo vikingo interactivo con paseo en barca por la era vikinga. En Djurgården.",
+      "id": "d.6",
+      "lat": 59.3266,
+      "link": "https://thevikingmuseum.com/en/",
+      "lng": 18.0951,
+      "name": "Vikingaliv",
+      "reason": "Museo extra"
+    },
+    {
+      "desc": "Residencia real. Patrimonio UNESCO. Jardines barrocos y teatro del siglo XVIII. A 45 min en barco o metro+bus.",
+      "id": "d.7",
+      "lat": 59.3217,
+      "link": "https://www.kungahuset.se/drottningholmpalace",
+      "lng": 17.8863,
+      "name": "Palacio de Drottningholm",
+      "reason": "Muy lejos, requiere medio día"
+    },
+    {
+      "desc": "Parque de atracciones histórico (1883) en Djurgården. Montañas rusas, conciertos en verano.",
+      "id": "d.8",
+      "lat": 59.3231,
+      "link": "https://www.gronalund.com/en",
+      "lng": 18.0967,
+      "name": "Gröna Lund",
+      "reason": "No encaja en perfil del viaje"
+    },
+    {
+      "desc": "Isla tranquila con antigua prisión convertida en hotel/hostel. Playas, senderos y naturaleza.",
+      "id": "d.9",
+      "lat": 59.321,
+      "lng": 18.0281,
+      "name": "Långholmen",
+      "reason": "Lejos del plan principal"
+    },
+    {
+      "desc": "Iglesia medieval del siglo XIII en Riddarholmen. Panteón de reyes suecos. Torre de hierro calado.",
+      "id": "d.10",
+      "lat": 59.3247,
+      "lng": 18.0646,
+      "name": "Riddarholmskyrkan",
+      "reason": "Cerrada temporalmente"
+    },
+    {
+      "desc": "Obra maestra de Gunnar Asplund (1928). Rotonda interior cilíndrica espectacular con paredes de libros.",
+      "id": "d.11",
+      "lat": 59.3436,
+      "lng": 18.0546,
+      "name": "Biblioteca Pública (Stadsbiblioteket)",
+      "reason": "Cerrada hasta otoño 2027 por reforma"
+    },
+    {
+      "desc": "Mercadillo al aire libre con vintage, artesanía y comida callejera. Ambiente local de fin de semana.",
+      "id": "d.12",
+      "lat": 59.3156,
+      "lng": 18.0339,
+      "name": "Hornstulls Marknad",
+      "reason": "Abre 11 abril — viaje es antes (2-6 abril)"
+    },
+    {
+      "desc": "Vista 360° desde esfera de cristal sobre la Avicii Arena.",
+      "id": "d.13",
+      "lat": 59.2936,
+      "link": "https://skyview.ebiljett.nu/",
+      "lng": 18.0833,
+      "name": "SkyView (Avicii Arena)",
+      "reason": "Eliminado: requiere metro al sur (Globen), rompe principio walking-first"
+    },
+    {
+      "desc": "Circuito spa 2h15min en Downtown Camper hotel. ~40€/persona.",
+      "id": "d.14",
+      "lat": 59.3283,
+      "link": "https://boka.se/systems/ypb9hxr9/quickbooking?articleId=p38hy629&companyName=Thenestwellness",
+      "lng": 18.0699,
+      "name": "The Nest Spa",
+      "reason": "Eliminado del plan"
+    }
+  ],
+  "emoji": "🇸🇪",
+  "hotel": {
+    "lat": 59.3363,
+    "lng": 18.055,
+    "name": "Scandic Go Upplandsgatan"
+  },
+  "id": "estocolmo-2026",
   "info": {
-    "transport": [
-      { "label": "Aeropuerto → Centro", "value": "Flixbus 7€ ~45min / Arlanda Express 30€ (15€ joven) ~18min" },
-      { "label": "Metro (T-bana)", "value": "Billete SL válido para metro, bus, ferry, tranvía. Frecuencia: cada 5-10 min en zona centro" },
-      { "label": "Ferry Vaxholm", "value": "Línea 83 desde Strömkajen. Incluido en SL. ~1h. Consultar horarios en app 'Res i Sthlm'" },
-      { "label": "Tranvía 7", "value": "Norrmalmstorg → Djurgården (parada Blå Porten). ~20 min. Incluido en SL" },
-      { "label": "Metro Art", "value": "Ruta Dom mañana: Odenplan → Tekniska → Stadion → T-Centralen → Kungsträdgården → Rådhuset → Västra Skogen → Solna Centrum. ~1.5h total." }
-    ],
     "food": [
-      { "label": "Kardemummabulle", "value": "Roll de cardamomo" },
-      { "label": "Kanelbulle", "value": "Cinnamon roll sueco" },
-      { "label": "Semla", "value": "Bollo relleno de pasta de almendra y nata, con cardamomo" },
-      { "label": "Tunnbrödsrulle", "value": "Hot dog sueco" },
-      { "label": "Kroppkakor", "value": "Dumplings suecos con carne" },
-      { "label": "Smørrebrød", "value": "Sándwich abierto sobre pan de centeno (danés pero común)" },
-      { "label": "Albóndigas suecas", "value": "En Meatballs for the People — Día 3 cena" }
+      {
+        "label": "Kardemummabulle",
+        "value": "Roll de cardamomo"
+      },
+      {
+        "label": "Kanelbulle",
+        "value": "Cinnamon roll sueco"
+      },
+      {
+        "label": "Semla",
+        "value": "Bollo relleno de pasta de almendra y nata, con cardamomo"
+      },
+      {
+        "label": "Tunnbrödsrulle",
+        "value": "Hot dog sueco"
+      },
+      {
+        "label": "Kroppkakor",
+        "value": "Dumplings suecos con carne"
+      },
+      {
+        "label": "Smørrebrød",
+        "value": "Sándwich abierto sobre pan de centeno (danés pero común)"
+      },
+      {
+        "label": "Albóndigas suecas",
+        "value": "En Meatballs for the People — Día 3 cena"
+      }
     ],
     "reservas": [
-      { "label": "Meatballs for the People", "value": "<a href=\"https://meatball.se/book-a-table\" target=\"_blank\">Reservar cena 20:15-20:30 → Sáb 4 abr noche</a>" },
-      { "label": "Paradox Museum", "value": "Con Fever — Dom 5 abr tarde ~16:15 (última entrada 18h)" },
-      { "label": "Bio Skandia (opcional)", "value": "<a href=\"https://bioskandia.se/\" target=\"_blank\">Sinners → Vie 3 abr 20:30</a> (alternativa: Zita Bio)" }
+      {
+        "label": "Meatballs for the People",
+        "value": "<a href=\"https://meatball.se/book-a-table\" target=\"_blank\">Reservar cena 20:15-20:30 → Sáb 4 abr noche</a>"
+      },
+      {
+        "label": "Paradox Museum",
+        "value": "Con Fever — Dom 5 abr tarde ~16:15 (última entrada 18h)"
+      },
+      {
+        "label": "Bio Skandia (opcional)",
+        "value": "<a href=\"https://bioskandia.se/\" target=\"_blank\">Sinners → Vie 3 abr 20:30</a> (alternativa: Zita Bio)"
+      }
+    ],
+    "transport": [
+      {
+        "label": "Aeropuerto → Centro",
+        "value": "Flixbus 7€ ~45min / Arlanda Express 30€ (15€ joven) ~18min"
+      },
+      {
+        "label": "Metro (T-bana)",
+        "value": "Billete SL válido para metro, bus, ferry, tranvía. Frecuencia: cada 5-10 min en zona centro"
+      },
+      {
+        "label": "Ferry Vaxholm",
+        "value": "Línea 83 desde Strömkajen. Incluido en SL. ~1h. Consultar horarios en app 'Res i Sthlm'"
+      },
+      {
+        "label": "Tranvía 7",
+        "value": "Norrmalmstorg → Djurgården (parada Blå Porten). ~20 min. Incluido en SL"
+      },
+      {
+        "label": "Metro Art",
+        "value": "Ruta Dom mañana: Odenplan → Tekniska → Stadion → T-Centralen → Kungsträdgården → Rådhuset → Västra Skogen → Solna Centrum. ~1.5h total."
+      }
     ]
   },
-  "discarded": [
-    { "id": "d.1", "name": "Skansen", "lat": 59.3266, "lng": 18.1051, "desc": "Museo al aire libre con edificios históricos suecos, zoo nórdico y artesanía tradicional. El más grande de Escandinavia.", "reason": "Requiere medio día completo", "tags": [], "link": "https://www.skansen.se" },
-    { "id": "d.2", "name": "ABBA The Museum", "lat": 59.3250, "lng": 18.0964, "desc": "Museo interactivo sobre la banda ABBA. Karaoke, vestuarios originales, estudio de grabación virtual.", "reason": "Museo extra, fuera de prioridades", "tags": [], "link": "https://abbathemuseum.com/en/" },
-    { "id": "d.3", "name": "Museo Vasa", "lat": 59.3280, "lng": 18.0914, "desc": "Barco de guerra del siglo XVII rescatado del fondo del mar. Uno de los museos más visitados de Escandinavia.", "reason": "Museo extra (opcional)", "tags": [], "link": "https://www.vasamuseet.se/en" },
-    { "id": "d.4", "name": "Museo Nobel", "lat": 59.3252, "lng": 18.0708, "desc": "Historia de los Premios Nobel y sus laureados. Ubicado en Stortorget, Gamla Stan.", "reason": "Museo extra", "tags": [], "link": "https://www.nobelprizemuseum.se/en/" },
-    { "id": "d.5", "name": "Fotografiska", "lat": 59.3173, "lng": 18.0842, "desc": "Museo de fotografía contemporánea en antiguo edificio industrial. Vistas al agua desde la cafetería.", "reason": "Museo extra", "tags": [], "link": "https://fotografiska.com/sto" },
-    { "id": "d.6", "name": "Vikingaliv", "lat": 59.3266, "lng": 18.0951, "desc": "Museo vikingo interactivo con paseo en barca por la era vikinga. En Djurgården.", "reason": "Museo extra", "tags": [], "link": "https://thevikingmuseum.com/en/" },
-    { "id": "d.7", "name": "Palacio de Drottningholm", "lat": 59.3217, "lng": 17.8863, "desc": "Residencia real. Patrimonio UNESCO. Jardines barrocos y teatro del siglo XVIII. A 45 min en barco o metro+bus.", "reason": "Muy lejos, requiere medio día", "tags": [], "link": "https://www.kungahuset.se/drottningholmpalace" },
-    { "id": "d.8", "name": "Gröna Lund", "lat": 59.3231, "lng": 18.0967, "desc": "Parque de atracciones histórico (1883) en Djurgården. Montañas rusas, conciertos en verano.", "reason": "No encaja en perfil del viaje", "tags": [], "link": "https://www.gronalund.com/en" },
-    { "id": "d.9", "name": "Långholmen", "lat": 59.3210, "lng": 18.0281, "desc": "Isla tranquila con antigua prisión convertida en hotel/hostel. Playas, senderos y naturaleza.", "reason": "Lejos del plan principal", "tags": [] },
-    { "id": "d.10", "name": "Riddarholmskyrkan", "lat": 59.3247, "lng": 18.0646, "desc": "Iglesia medieval del siglo XIII en Riddarholmen. Panteón de reyes suecos. Torre de hierro calado.", "reason": "Cerrada temporalmente", "tags": [] },
-    { "id": "d.11", "name": "Biblioteca Pública (Stadsbiblioteket)", "lat": 59.3436, "lng": 18.0546, "desc": "Obra maestra de Gunnar Asplund (1928). Rotonda interior cilíndrica espectacular con paredes de libros.", "reason": "Cerrada hasta otoño 2027 por reforma", "tags": [] },
-    { "id": "d.12", "name": "Hornstulls Marknad", "lat": 59.3156, "lng": 18.0339, "desc": "Mercadillo al aire libre con vintage, artesanía y comida callejera. Ambiente local de fin de semana.", "reason": "Abre 11 abril — viaje es antes (2-6 abril)", "tags": [] },
-    { "id": "d.13", "name": "SkyView (Avicii Arena)", "lat": 59.2936, "lng": 18.0833, "desc": "Vista 360° desde esfera de cristal sobre la Avicii Arena.", "reason": "Eliminado: requiere metro al sur (Globen), rompe principio walking-first", "tags": [], "link": "https://skyview.ebiljett.nu/" },
-    { "id": "d.14", "name": "The Nest Spa", "lat": 59.3283, "lng": 18.0699, "desc": "Circuito spa 2h15min en Downtown Camper hotel. ~40€/persona.", "reason": "Eliminado del plan", "tags": [], "link": "https://boka.se/systems/ypb9hxr9/quickbooking?articleId=p38hy629&companyName=Thenestwellness" }
-  ]
+  "mapCenter": [
+    59.325,
+    18.07
+  ],
+  "mapZoom": 13,
+  "title": "Estocolmo 2026"
 }
