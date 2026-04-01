@@ -66,6 +66,7 @@ Cada archivo `trips/{id}.json` sigue este esquema:
 
 ```json
 {
+  "_v": 1,
   "id": "ciudad-año",
   "title": "Ciudad Año",
   "emoji": "🇪🇸",
@@ -177,8 +178,21 @@ Cada archivo `trips/{id}.json` sigue este esquema:
 - `food`: comida típica local que probar
 - `reservas`: sitios que requieren reserva con enlaces y fechas
 
+### Versionado y sincronización (`_v`)
+- Cada JSON de viaje tiene un campo `_v` (versión incremental)
+- **SIEMPRE incrementar `_v` al editar un JSON de viaje desde git** (esto es lo que hace que el deploy gane sobre Firebase)
+- La app carga datos con prioridad: si el JSON estático tiene `_v` mayor que Firebase → usa el estático y lo sube a Firebase automáticamente
+- Si Firebase tiene `_v` igual o mayor → usa Firebase (edits hechos desde la app)
+- **Ambos archivos `trips/` y `public/trips/` deben estar sincronizados** — copiar siempre tras editar
+
 ### Al crear un viaje nuevo
-1. Crear `trips/{id}.json` con el esquema completo
+1. Crear `trips/{id}.json` con el esquema completo (incluir `"_v": 1`)
 2. Actualizar `trips/index.json` añadiendo el viaje al array `trips`
-3. Opcionalmente crear `assets/{id}/` con documentos de contexto
+3. Copiar a `public/trips/` para mantener sincronizado
 4. Commit y push a main para desplegar en GitHub Pages
+
+### Al editar un viaje existente
+1. Editar `trips/{id}.json`
+2. **Incrementar `_v`** (ej: `"_v": 2` → `"_v": 3`)
+3. Copiar a `public/trips/{id}.json`
+4. Commit y push — la app detectará la nueva versión y actualizará Firebase automáticamente

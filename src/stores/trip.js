@@ -100,19 +100,35 @@ export const useTripStore = defineStore('trip', () => {
   }
 
   async function loadTrip(tripId) {
-    // Priority: Firebase → localStorage → static JSON
-    const remote = await fetchRemote(tripId)
-    if (remote) {
-      trip.value = _applyDefaults(remote)
-    } else {
-      const edits = loadEdits(tripId)
-      if (edits) {
-        trip.value = _applyDefaults(edits)
+    // Fetch static JSON (deployed) and Firebase in parallel
+    const [remote, staticData] = await Promise.all([
+      fetchRemote(tripId),
+      fetch(`${import.meta.env.BASE_URL}trips/${tripId}.json`)
+        .then(r => r.json()).catch(() => null)
+    ])
+
+    let source
+    if (remote && staticData) {
+      // Deploy wins if _v is higher (git edits bump _v)
+      const staticV = staticData._v || 0
+      const remoteV = remote._v || 0
+      if (staticV > remoteV) {
+        source = staticData
+        // Sync deploy version to Firebase so all devices get it
+        pushEdits(tripId, staticData)
       } else {
-        const res = await fetch(`${import.meta.env.BASE_URL}trips/${tripId}.json`)
-        trip.value = _applyDefaults(await res.json())
+        source = remote
       }
+    } else if (remote) {
+      source = remote
+    } else {
+      source = loadEdits(tripId) || staticData
     }
+
+    if (!source) throw new Error('No trip data available')
+
+    trip.value = _applyDefaults(source)
+    saveEdits() // cache locally
 
     activeDay.value = trip.value.days[0]?.id ?? null
     activeMarkerId.value = null
