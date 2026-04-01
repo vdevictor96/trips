@@ -229,6 +229,27 @@ export const useTripStore = defineStore('trip', () => {
     debouncedSave()
   }
 
+  // Info items (transport, food, reservas)
+  function addInfoItem(section, item = { label: '', value: '' }) {
+    if (!trip.value.info) trip.value.info = {}
+    if (!trip.value.info[section]) trip.value.info[section] = []
+    trip.value.info[section].push({ ...item })
+    debouncedSave()
+    return trip.value.info[section].length - 1
+  }
+
+  function updateInfoItem(section, index, updates) {
+    if (!trip.value.info?.[section]?.[index]) return
+    Object.assign(trip.value.info[section][index], updates)
+    debouncedSave()
+  }
+
+  function removeInfoItem(section, index) {
+    if (!trip.value.info?.[section]) return
+    trip.value.info[section].splice(index, 1)
+    debouncedSave()
+  }
+
   async function resetToOriginal() {
     if (!trip.value) return
     const tripId = trip.value.id
@@ -268,5 +289,8 @@ export const useTripStore = defineStore('trip', () => {
     clearEdits,
     resetToOriginal,
     exportTrip,
+    addInfoItem,
+    updateInfoItem,
+    removeInfoItem,
   }
 })

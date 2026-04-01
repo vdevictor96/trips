@@ -3,26 +3,23 @@
     <h2 class="day-header">Info práctica</h2>
     <p class="day-subtitle">Transporte, comida, reservas</p>
 
-    <div v-if="store.trip.info.transport?.length" class="info-section">
-      <h3>🚌 Transporte</h3>
-      <div v-for="(item, i) in store.trip.info.transport" :key="'t'+i" class="info-item">
-        <strong>{{ item.label }}:</strong> <span v-html="item.value"></span>
-      </div>
-    </div>
+    <InfoSection
+      title="🚌 Transporte"
+      section="transport"
+      separator=":"
+    />
 
-    <div v-if="store.trip.info.reservas?.length" class="info-section">
-      <h3>📞 Reservas pendientes</h3>
-      <div v-for="(item, i) in store.trip.info.reservas" :key="'r'+i" class="info-item">
-        <strong>{{ item.label }}:</strong> <span v-html="item.value"></span>
-      </div>
-    </div>
+    <InfoSection
+      title="📞 Reservas pendientes"
+      section="reservas"
+      separator=":"
+    />
 
-    <div v-if="store.trip.info.food?.length" class="info-section">
-      <h3>🍽️ Comida típica a probar</h3>
-      <div v-for="(item, i) in store.trip.info.food" :key="'f'+i" class="info-item">
-        <strong>{{ item.label }}</strong> — <span v-html="item.value"></span>
-      </div>
-    </div>
+    <InfoSection
+      title="🍽️ Comida típica a probar"
+      section="food"
+      separator=" —"
+    />
 
     <div class="info-section">
       <h3>📅 Resumen de días</h3>
@@ -61,6 +58,7 @@
 import { ref } from 'vue'
 import { useTripStore } from '../stores/trip.js'
 import ConfirmModal from './ConfirmModal.vue'
+import InfoSection from './InfoSection.vue'
 
 const store = useTripStore()
 const showResetModal = ref(false)
