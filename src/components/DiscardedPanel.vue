@@ -30,7 +30,9 @@ const store = useTripStore()
 const emit = defineEmits(['flyTo'])
 
 function gmapUrl(p) {
-  return `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`
+  const city = store.trip?.city
+  const q = city ? `${p.name}, ${city}` : p.name
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`
 }
 
 function handleClick(p, e) {

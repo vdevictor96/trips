@@ -26,8 +26,12 @@ Para CADA lugar del itinerario:
 - **Miradores** siempre al atardecer
 - Incluir **tiempos de desplazamiento** realistas entre sitios
 - Asignar **duraciones** realistas a cada visita
-- Incluir huecos para desayuno (45-60min) y merienda (30-45min)
-- Ritmo suave: salir 8-9h, volver 21-22h
+- Incluir huecos para desayuno (1h), comida (1.5-2h) y merienda (1h obligatoria)
+- Ritmo suave: salir 8:30-9:00h, volver 21-22h
+- Walking-first: priorizar rutas a pie, evitar metro a las 16h (hora punta)
+- Regla día/noche: sitios exteriores vistos de noche deben revisitarse de día (excepto miradores/interiores)
+- Hotel como referencia: primer lugar del día incluye indicaciones desde el hotel
+- Max 10 waypoints por enlace Google Maps — dividir en múltiples enlaces si hay más
 
 ### 4. Generar el JSON
 Lee el archivo CLAUDE.md del proyecto para ver el esquema exacto. Genera:

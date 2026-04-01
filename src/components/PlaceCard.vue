@@ -111,7 +111,7 @@ const tagLabels = {
   mirador: '🌅 Mirador',
 }
 
-const gmapUrl = computed(() => buildGmapUrl(props.place))
+const gmapUrl = computed(() => buildGmapUrl(props.place, store.trip?.city))
 
 function handleClick(e) {
   if (e.target.tagName === 'A' || e.target.closest('.edit-btn') || e.target.closest('.place-editor') || e.target.closest('.drag-handle') || e.target.closest('.move-menu') || editing.value || showMoveMenu.value) return

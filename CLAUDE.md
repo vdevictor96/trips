@@ -139,8 +139,34 @@ Cada archivo `trips/{id}.json` sigue este esquema:
 - Optimizar rutas por zonas geográficas (no zigzaguear)
 - Miradores → siempre al atardecer (incluir hora de sunset en subtitle)
 - Incluir tiempos realistas de desplazamiento entre sitios
-- Ritmo suave: 8-9h de inicio, 21-22h de vuelta
-- Reservar 45-60min para desayuno, 30-45min para merienda
+- Ritmo suave: inicio 8:30-9:00h, vuelta 21:00-22:00h
+
+### Tiempos de comidas (obligatorio)
+- **Desayuno**: 1h mínimo (15-20 min encontrar sitio + 40-45 min comer)
+- **Comida**: 1.5h mínimo, 2h si es posible
+- **Merienda**: 1h obligatoria cada día (15-20 min encontrar sitio + 40-45 min merendar)
+
+### Planificación de rutas
+
+#### Principio walking-first
+- Priorizar rutas a pie siempre que sea posible. Solo usar transporte público cuando sea imprescindible (ferry, Metro Art, distancias >40 min a pie)
+- Evitar metro a las 16h (hora punta)
+- Cada día empieza desde el hotel — el hotel es el punto de referencia para calcular rutas eficientes
+
+#### Enlaces Google Maps
+- Máximo 10 waypoints por enlace (limitación de Google Maps)
+- Si un día tiene >9 lugares, dividir en múltiples enlaces
+- El primer lugar de cada día debe incluir en `desc` cómo llegar desde el hotel
+
+#### Regla día/noche
+- Los sitios exteriores vistos de noche deben revisitarse de día en otro momento del viaje
+- No aplica a: miradores (son para atardecer), sitios interiores, tiendas
+- Ejemplo: Gamla Stan visitada la primera noche → volver a pasear de día otro día
+
+#### Buffers de desplazamiento
+- Estimar ~70m/min caminando en ciudad (ritmo suave de pareja)
+- Añadir 5 min de margen a cada estimación de caminata
+- Los tiempos de metro/tranvía incluyen: caminar a estación + espera (~3 min) + trayecto + caminar desde estación
 
 ### Colores de días
 - 4 días: `["#f7b731", "#26de81", "#fc5c65", "#a55eea"]`

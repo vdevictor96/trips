@@ -3,7 +3,7 @@
     <h2 class="day-header">{{ day.title }}</h2>
     <p class="day-subtitle">{{ day.subtitle }}</p>
 
-    <DirectionsButton :places="day.places" />
+    <DirectionsButton :places="day.places" :hotel="store.trip?.hotel" :city="store.trip?.city" />
 
     <draggable
       v-model="dayPlaces"

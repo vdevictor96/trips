@@ -27,13 +27,14 @@ const DARK_STYLE = [
 ]
 
 // Shared Google Maps URL builder (exported for PlaceCard etc.)
-export function buildGmapUrl(place) {
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name)}+@${place.lat},${place.lng}`
+export function buildGmapUrl(place, city) {
+  const q = city ? `${place.name}, ${city}` : place.name
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`
 }
 
 // Popup HTML builder
-function buildPopupHtml(place, color) {
-  const gmapLink = buildGmapUrl(place)
+function buildPopupHtml(place, color, city) {
+  const gmapLink = buildGmapUrl(place, city)
   return `<div class="iw-custom"><b>${place.name}</b><br><span class="iw-time" style="--iw-time-color:${color}">${place.time || ''}</span>${place.dur ? ' · ' + place.dur : ''}${place.desc ? '<br><span class="iw-desc">' + place.desc + '</span>' : ''}<br><a href="${gmapLink}" target="_blank" class="gmaps-link">📍 Google Maps</a>${place.link ? ' · <a href="' + place.link + '" target="_blank">Más info →</a>' : ''}</div>`
 }
 
@@ -199,7 +200,7 @@ export function useMap() {
         const html = '<div class="marker-icon" style="background:#666;opacity:.7;"><span>✕</span></div>'
         const marker = new HtmlMarkerClass({ lat: p.lat, lng: p.lng }, html, p.id)
         marker.onClick(() => {
-          const gmapLink = buildGmapUrl(p)
+          const gmapLink = buildGmapUrl(p, store.trip?.city)
           infoWindow.setContent(
             `<div class="iw-custom"><b>${p.name}</b><br><span class="iw-desc">${p.reason || ''}</span>${p.desc ? '<br><span class="iw-desc">' + p.desc + '</span>' : ''}<br><a href="${gmapLink}" target="_blank" class="gmaps-link">📍 Google Maps</a>${p.link ? ' · <a href="' + p.link + '" target="_blank">Web →</a>' : ''}</div>`
           )
@@ -313,7 +314,7 @@ export function useMap() {
     }
     if (!place) return
 
-    infoWindow.setContent(buildPopupHtml(place, color))
+    infoWindow.setContent(buildPopupHtml(place, color, store.trip?.city))
     infoWindow.setPosition(marker.getPosition())
     infoWindow.open(map.value)
   }
@@ -355,7 +356,7 @@ export function useMap() {
       const html = `<div class="marker-icon search-pin" style="background:#ea4335;"><span>${i + 1}</span></div>`
       const marker = new HtmlMarkerClass({ lat: r.lat, lng: r.lng }, html, `search-${i}`)
       marker.onClick(() => {
-        const gmapLink = buildGmapUrl(r)
+        const gmapLink = buildGmapUrl(r, store.trip?.city)
         infoWindow.setContent(
           `<div class="iw-custom"><b>${r.name}</b>${r.address ? '<br><span class="iw-desc">' + r.address + '</span>' : ''}${r.rating ? '<br>⭐ ' + r.rating.toFixed(1) : ''}<br><a href="${gmapLink}" target="_blank" class="gmaps-link">📍 Google Maps</a></div>`
         )
@@ -379,7 +380,7 @@ export function useMap() {
       `<option value="${d.id}">Día ${d.id}</option>`
     ).join('')
 
-    const gmapLink = buildGmapUrl(result)
+    const gmapLink = buildGmapUrl(result, store.trip?.city)
     const html = `<div class="iw-custom iw-search-result">
       <b>${result.name}</b>
       ${result.rating ? '<br>⭐ ' + result.rating.toFixed(1) + (result.ratingCount ? ' <span class="iw-desc">(' + result.ratingCount + ')</span>' : '') : ''}

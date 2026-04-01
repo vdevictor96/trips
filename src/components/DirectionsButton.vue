@@ -19,9 +19,11 @@ import { useDirections } from '../composables/useDirections.js'
 
 const props = defineProps({
   places: { type: Array, required: true },
+  hotel: { type: Object, default: null },
+  city: { type: String, default: '' },
 })
 
 const { getDirectionsURLs } = useDirections()
 
-const routes = computed(() => getDirectionsURLs(props.places))
+const routes = computed(() => getDirectionsURLs(props.places, props.hotel, props.city))
 </script>
