@@ -21,7 +21,7 @@
       "subtitle": "Jueves 2 abril · Llegada 17h · Plan suave · 🌅 Sunset 19:34",
       "places": [
         { "id": "1.1", "time": "18:15", "dur": "15 min", "name": "Drottninggatan + Weekday", "lat": 59.3345, "lng": 18.0600, "desc": "Calle principal peatonal. Weekday (Drottninggatan 63) — tienda de ropa sueca (cierra 19h). 5 min andando desde el hotel al sur.", "tags": [], "link": "https://www.weekday.com" },
-        { "id": "1.2", "time": "18:35", "dur": "10 min", "name": "Caramella", "lat": 59.3341, "lng": 18.0622, "desc": "Tienda de chuches suecas. Slöjdgatan 9, junto a Hötorget. 2 min andando.", "tags": [] },
+        { "id": "1.2", "time": "18:35", "dur": "10 min", "name": "Caramella", "lat": 59.3341, "lng": 18.0622, "desc": "Tienda de chuches suecas. Slöjdgatan 9, junto a Hötorget. Jue abierto hasta 19:30 — tiempo de sobra. 2 min andando.", "tags": [] },
         { "id": "1.3", "time": "18:50", "dur": "10 min", "name": "Sergels Torg", "lat": 59.3328, "lng": 18.0632, "desc": "Plaza icónica con obelisco de cristal. 3 min andando al sur.", "tags": [] },
         { "id": "1.4", "time": "19:05", "dur": "10 min", "name": "NK Stockholm (fachada)", "lat": 59.3332, "lng": 18.0692, "desc": "Grandes almacenes de lujo (como El Corte Inglés escandinavo). Cerrado a esta hora, solo fachada. 5 min andando al este.", "tags": [] },
         { "id": "1.5", "time": "19:30", "dur": "15 min", "name": "Stortorget", "lat": 59.3253, "lng": 18.0711, "desc": "Plaza principal de Gamla Stan. Casas coloridas icónicas. Luz de atardecer ideal para fotos. 15 min andando al sur cruzando a Gamla Stan.", "tags": [] },
@@ -37,16 +37,16 @@
       "title": "Vaxholm + Östermalm + Moderna",
       "subtitle": "Viernes 3 abril · Ferry mañana · Moderna GRATIS 18-20h · 🌅 Sunset 19:36",
       "places": [
-        { "id": "2.1", "time": "09:30", "dur": "1h (ferry)", "name": "Strömkajen → Ferry Vaxholm", "lat": 59.3308, "lng": 18.0742, "desc": "Ferry línea 83 (Waxholmsbolaget). Incluido en billete SL. ~1h de trayecto. Salir del hotel ~08:15, andar 20 min a Strömkajen (o metro a Kungsträdgården + 10 min andando).", "tags": [], "link": "https://waxholmsbolaget.se/in-english" },
-        { "id": "2.2", "time": "10:30", "dur": "2h", "name": "Vaxholm", "lat": 59.4024, "lng": 18.3567, "desc": "Pueblo del archipiélago. Casitas de madera, fortaleza, puerto pesquero. Coger ferry de vuelta ~12:30. Llega a Strömkajen ~13:30.", "tags": [] },
+        { "id": "2.1", "time": "09:30", "dur": "1h (ferry)", "name": "Strömkajen → Ferry Vaxholm", "lat": 59.3308, "lng": 18.0742, "desc": "Ferry línea 83 (Waxholmsbolaget). Incluido en billete SL. ~1h de trayecto. Desayuno ~08:00 cerca del hotel (~30 min rápido), salir ~08:30, andar 20 min a Strömkajen. Alternativa: desayunar en Vaxholm.", "tags": [], "link": "https://waxholmsbolaget.se/in-english" },
+        { "id": "2.2", "time": "10:30", "dur": "2h", "name": "Vaxholm", "lat": 59.4024, "lng": 18.3567, "desc": "Pueblo del archipiélago. Casitas de madera, fortaleza, puerto pesquero. Buen sitio para fika si no desayunasteis bien. Coger ferry de vuelta ~12:30. Llega a Strömkajen ~13:30.", "tags": [] },
         { "id": "2.3", "time": "14:00", "dur": "15 min", "name": "Strandvägen", "lat": 59.3326, "lng": 18.0770, "desc": "Paseo elegante junto al agua. Empieza justo donde llega el ferry en Strömkajen. 5 min andando. Después buscar sitio para comer (~1.5h en zona Östermalm/Strandvägen).", "tags": [] },
         { "id": "2.4", "time": "15:50", "dur": "15 min", "name": "Dramaten (fachada)", "lat": 59.3333, "lng": 18.0770, "desc": "Teatro Real Dramático — fachada Art Nouveau impresionante. 10 min andando al oeste.", "tags": [], "link": "https://www.dramaten.se/en" },
         { "id": "2.5", "time": "16:05", "dur": "25 min", "name": "Kungsträdgården + Uniqlo", "lat": 59.3315, "lng": 18.0719, "desc": "Parque con cerezos en flor en abril. Uniqlo King's Garden (Hamngatan 27) justo al lado. 5 min andando.", "tags": [] },
         { "id": "2.6", "time": "16:35", "dur": "15 min", "name": "Humlegården", "lat": 59.3372, "lng": 18.0740, "desc": "Parque tranquilo con estatua de Linneo. Zona residencial elegante. 5 min andando al norte.", "tags": [] },
         { "id": "2.7", "time": "16:55", "dur": "15 min", "name": "Biblioteksgatan", "lat": 59.3365, "lng": 18.0725, "desc": "Calle de tiendas de lujo. 2 min andando desde Humlegården.", "tags": [] },
-        { "id": "2.8", "time": "17:15", "dur": "45 min", "name": "Östermalm Food Hall", "lat": 59.3352, "lng": 18.0800, "desc": "Mercado gastronómico desde 1880. Marisco, quesos, dulces. ¡Merienda aquí! Sentarse con calma. 5 min andando al este.", "tags": [], "link": "https://ostermalmsfoodhall.se/" },
+        { "id": "2.8", "time": "17:15", "dur": "45 min", "name": "Östermalm Food Hall", "lat": 59.3352, "lng": 18.0800, "desc": "Mercado gastronómico desde 1880. Marisco, quesos, dulces. ¡Merienda aquí! Sentarse con calma. Vie cierra 19h. 5 min andando al este.", "tags": [], "link": "https://ostermalmsfoodhall.se/" },
         { "id": "2.9", "time": "18:00", "dur": "2h", "name": "Moderna Museet ⭐", "lat": 59.3250, "lng": 18.0861, "desc": "GRATIS viernes 18-20h (excepto expo Picasso, que termina 5 abril). ¡Tirarse por el tobogán interior! 25 min andando via Skeppsholmen (puente de hierro con corona dorada).", "tags": ["obligatorio", "gratis"], "link": "https://www.modernamuseet.se/stockholm/en/" },
-        { "id": "2.10", "time": "20:30", "dur": "2h", "name": "Bio Skandia (opcional)", "lat": 59.3356, "lng": 18.0600, "desc": "Cine histórico de 1923 (Gunnar Asplund). Drottninggatan 82. ~25-30 min andando desde Moderna — salir a las 19:50 para llegar. Timing muy justo. Alternativa: Zita Bio.", "tags": [], "link": "https://bioskandia.se/" }
+        { "id": "2.10", "time": "20:30", "dur": "2h", "name": "Bio Skandia (opcional)", "lat": 59.3356, "lng": 18.0600, "desc": "Cine histórico de 1923 (Gunnar Asplund). Drottninggatan 82. ~25-30 min andando desde Moderna — salir a las 19:50 para llegar. Timing muy justo. Si no vais al cine: cena tranquila por Norrmalm y vuelta al hotel.", "tags": [], "link": "https://bioskandia.se/" }
       ]
     },
     {
@@ -55,7 +55,7 @@
       "title": "Gamla Stan de día + Södermalm + Miradores",
       "subtitle": "Sábado 4 abril · Cambio guardia 12:15 · Södermalm shops · 🌅 Sunset 19:38",
       "places": [
-        { "id": "3.1", "time": "10:00", "dur": "25 min", "name": "The Science Fiction Bookstore", "lat": 59.3243, "lng": 18.0697, "desc": "Librería de ciencia ficción, cómics, juegos y manga. Västerlånggatan 48, Gamla Stan. Abre 10:00 sábados. 25 min andando desde hotel (salir ~09:30).", "tags": [], "link": "https://www.sfbok.se" },
+        { "id": "3.1", "time": "10:00", "dur": "25 min", "name": "The Science Fiction Bookstore", "lat": 59.3243, "lng": 18.0697, "desc": "Librería de ciencia ficción, cómics, juegos y manga. Västerlånggatan 48, Gamla Stan. Abre 10:00 sábados. Desayuno ~08:30 cerca del hotel (~1h), salir ~09:30, 25 min andando.", "tags": [], "link": "https://www.sfbok.se" },
         { "id": "3.2", "time": "10:30", "dur": "20 min", "name": "Stortorget (de día)", "lat": 59.3253, "lng": 18.0711, "desc": "Revisitar de día — visto de noche el Día 1. Casas coloridas con luz natural. 2 min andando.", "tags": [] },
         { "id": "3.3", "time": "10:55", "dur": "1h 10min", "name": "Callejear Gamla Stan", "lat": 59.3250, "lng": 18.0700, "desc": "Explorar callejuelas sin prisa. Posicionarse cerca del Palacio para el cambio de guardia a las 12:15.", "tags": [] },
         { "id": "3.4", "time": "12:15", "dur": "30 min", "name": "Cambio de Guardia — Palacio", "lat": 59.3267, "lng": 18.0706, "desc": "Ceremonia militar. Sáb 12:15 (lluvia o sol). Antes del 23 abril: formato simplificado sin banda completa. ⛈️ Si llueve fuerte: ver brevemente y refugiarse para comer. 2 min desde Stortorget.", "tags": [] },
@@ -80,7 +80,7 @@
       "title": "Metro Art + Djurgården + Paradox + Ayuntamiento",
       "subtitle": "Domingo 5 abril · Metro Art mañana · Paradox tarde · Última noche · 🌅 Sunset 19:41",
       "places": [
-        { "id": "4.1", "time": "09:40", "dur": "8 min", "name": "Odenplan — Metro Art", "lat": 59.3430, "lng": 18.0488, "desc": "10 min andando desde el hotel. Instalación de arcoíris en el techo. Primera parada de la ruta Metro Art.", "tags": [] },
+        { "id": "4.1", "time": "09:40", "dur": "8 min", "name": "Odenplan — Metro Art", "lat": 59.3430, "lng": 18.0488, "desc": "Desayuno ~08:30 cerca del hotel (~1h). 10 min andando desde hotel. Instalación de arcoíris en el techo. Primera parada de la ruta Metro Art.", "tags": [] },
         { "id": "4.2", "time": "09:52", "dur": "8 min", "name": "Tekniska högskolan — Metro Art", "lat": 59.3459, "lng": 18.0702, "desc": "Línea roja, 2 min de trayecto. Tema de ciencia y tecnología.", "tags": [] },
         { "id": "4.3", "time": "10:04", "dur": "10 min", "name": "Stadion — Metro Art", "lat": 59.3431, "lng": 18.0811, "desc": "Línea roja, 2 min. Arcoíris gigante pintado en la roca.", "tags": [] },
         { "id": "4.4", "time": "10:20", "dur": "10 min", "name": "T-Centralen — Metro Art ⭐", "lat": 59.3315, "lng": 18.0580, "desc": "Línea roja vuelta, 6 min. Plataforma línea azul: hojas azules sobre roca viva (Per Olof Ultvedt). La más icónica.", "tags": ["obligatorio"] },
