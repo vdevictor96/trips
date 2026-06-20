@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "trips": {
+      "$tripId": {
+        "data": {
+          ".read": true,
+          ".write": "auth != null"
+        },
+        "lastModified": {
+          ".read": true,
+          ".write": "auth != null"
+        }
+      }
+    }
+  }
+}
