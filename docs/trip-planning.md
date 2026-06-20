@@ -1,5 +1,15 @@
 # Planificación de viajes — Esquema y reglas
 
+## Perfil de viajeros
+
+Preferencias transversales del viajero — aplican a **todos los viajes** salvo que se indique lo contrario.
+
+- **En pareja, ritmo suave y relajado.**
+- **Walking-first**: priorizar ir a pie; transporte público solo si es imprescindible (detalle en § Planificación de rutas).
+- **Horario del día**: salir 8:30-9:00h, volver 21:00-22:00h.
+- **Miradores → siempre al atardecer.**
+- **Regla día/noche**: todo lo exterior que se vea de noche debe revisitarse de día en otro momento del viaje. No aplica a miradores (son para atardecer), sitios interiores ni tiendas.
+
 ## Esquema JSON de un viaje
 
 Cada archivo `trips/{id}.json` sigue este esquema:
@@ -80,7 +90,6 @@ Cada archivo `trips/{id}.json` sigue este esquema:
 - Optimizar rutas por zonas geográficas (no zigzaguear)
 - Miradores → siempre al atardecer (incluir hora de sunset en subtitle)
 - Incluir tiempos realistas de desplazamiento entre sitios
-- Ritmo suave: inicio 8:30-9:00h, vuelta 21:00-22:00h
 
 ### Tiempos de comidas (obligatorio)
 - **Desayuno**: 1h mínimo (15-20 min encontrar sitio + 40-45 min comer). Anotar en desc del primer sitio del día.
@@ -96,13 +105,13 @@ Cada archivo `trips/{id}.json` sigue este esquema:
 - Cada día empieza desde el hotel — el hotel es el punto de referencia para calcular rutas eficientes
 
 #### Enlaces Google Maps
+- **El primer punto de la ruta es siempre el hotel.** `getDirectionsURLs()` (`src/composables/useDirections.js`) antepone el hotel como origen de cada ruta —y como origen de la primera parte cuando se divide en varias—, ocupando 1 de los 10 waypoints. Por eso **todo viaje debe definir `hotel` con `name`, `lat` y `lng`** en el JSON; sin `hotel`, la ruta arrancaría desde el primer lugar del día.
 - Máximo 10 waypoints por enlace (limitación de Google Maps)
 - Si un día tiene >9 lugares, dividir en múltiples enlaces
 - El primer lugar de cada día debe incluir en `desc` cómo llegar desde el hotel
 
 #### Regla día/noche
-- Los sitios exteriores vistos de noche deben revisitarse de día en otro momento del viaje
-- No aplica a: miradores (son para atardecer), sitios interiores, tiendas
+- Regla completa en **§ Perfil de viajeros** (inicio del documento).
 - Ejemplo: Gamla Stan visitada la primera noche → volver a pasear de día otro día
 
 #### Buffers de desplazamiento
