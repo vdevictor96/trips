@@ -103,6 +103,52 @@ function ensureHtmlMarkerClass() {
   }
 }
 
+// "My location" control icon (Material "my_location")
+const LOCATE_ICON = '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 8a4 4 0 100 8 4 4 0 000-8zm8.94 3A9 9 0 0013 3.06V1h-2v2.06A9 9 0 003.06 11H1v2h2.06A9 9 0 0011 20.94V23h2v-2.06A9 9 0 0020.94 13H23v-2zM12 19a7 7 0 110-14 7 7 0 010 14z"/></svg>'
+
+// User-location dot overlay — centered on the point (unlike the teardrop markers)
+let LocationDotClass = null
+
+function ensureLocationDotClass() {
+  if (LocationDotClass) return
+
+  LocationDotClass = class extends google.maps.OverlayView {
+    constructor(position) {
+      super()
+      this._position = new google.maps.LatLng(position.lat, position.lng)
+      this._div = null
+    }
+
+    setPosition(position) {
+      this._position = new google.maps.LatLng(position.lat, position.lng)
+      this.draw()
+    }
+
+    onAdd() {
+      this._div = document.createElement('div')
+      this._div.className = 'user-location-dot'
+      this._div.innerHTML = '<div class="user-location-pulse"></div><div class="user-location-core"></div>'
+      this.getPanes().overlayLayer.appendChild(this._div)
+    }
+
+    draw() {
+      if (!this._div) return
+      const projection = this.getProjection()
+      if (!projection) return
+      const pos = projection.fromLatLngToDivPixel(this._position)
+      if (pos) {
+        this._div.style.left = pos.x + 'px'
+        this._div.style.top = pos.y + 'px'
+      }
+    }
+
+    onRemove() {
+      this._div?.parentElement?.removeChild(this._div)
+      this._div = null
+    }
+  }
+}
+
 export function useMap() {
   const store = useTripStore()
   const map = ref(null)
@@ -112,6 +158,13 @@ export function useMap() {
   const hotelMarker = ref(null)
   let infoWindow = null
   let poiClickHandler = null
+
+  // Geolocation ("locate me") state
+  let userLocationDot = null
+  let accuracyCircle = null
+  let locationWatchId = null
+  let locateButton = null
+  let didCenterOnUser = false
 
   async function initMap(el) {
     if (map.value) destroyMap()
@@ -124,6 +177,7 @@ export function useMap() {
     try {
       await loadLibrary('maps')
       ensureHtmlMarkerClass()
+      ensureLocationDotClass()
 
       const [lat, lng] = store.trip.mapCenter
 
@@ -151,6 +205,10 @@ export function useMap() {
         }
         infoWindow.close()
       })
+
+      // "My location" control (like Google Maps), under the zoom controls
+      locateButton = createLocateButton()
+      map.value.controls[google.maps.ControlPosition.RIGHT_CENTER].push(locateButton)
     } catch (e) {
       console.error('Failed to init Google Maps:', e)
       el.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--text-dim);font-size:14px;text-align:center;padding:20px;">Error cargando Google Maps</div>'
@@ -329,6 +387,100 @@ export function useMap() {
     poiClickHandler = handler
   }
 
+  // ── Geolocation: show & track the user's position, like Google Maps ──
+  function createLocateButton() {
+    const btn = document.createElement('button')
+    btn.type = 'button'
+    btn.className = 'map-locate-btn'
+    btn.title = 'Mostrar mi ubicación'
+    btn.setAttribute('aria-label', 'Mostrar mi ubicación')
+    btn.innerHTML = LOCATE_ICON
+    btn.addEventListener('click', locateUser)
+    return btn
+  }
+
+  function locateUser() {
+    if (!map.value) return
+    if (!('geolocation' in navigator)) {
+      flashLocateError()
+      return
+    }
+    locateButton?.classList.add('locating')
+    didCenterOnUser = false
+
+    const opts = { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+    // One-shot fix to recenter quickly, then keep watching for live updates.
+    navigator.geolocation.getCurrentPosition(onPosition, onPositionError, opts)
+    if (locationWatchId === null) {
+      locationWatchId = navigator.geolocation.watchPosition(onPosition, onPositionError, {
+        enableHighAccuracy: true, maximumAge: 5000,
+      })
+    }
+  }
+
+  function onPosition(pos) {
+    const { latitude, longitude, accuracy } = pos.coords
+    updateUserLocation(latitude, longitude, accuracy)
+    locateButton?.classList.remove('locating')
+    locateButton?.classList.add('located')
+    if (!didCenterOnUser) {
+      didCenterOnUser = true
+      flyTo(latitude, longitude, 15)
+    }
+  }
+
+  function onPositionError(err) {
+    locateButton?.classList.remove('locating', 'located')
+    if (err.code === err.PERMISSION_DENIED && locationWatchId !== null) {
+      navigator.geolocation.clearWatch(locationWatchId)
+      locationWatchId = null
+    }
+    flashLocateError()
+  }
+
+  function flashLocateError() {
+    if (!locateButton) return
+    locateButton.classList.add('error')
+    setTimeout(() => locateButton?.classList.remove('error'), 1500)
+  }
+
+  function updateUserLocation(lat, lng, accuracy) {
+    if (!map.value) return
+    ensureLocationDotClass()
+
+    if (!userLocationDot) {
+      userLocationDot = new LocationDotClass({ lat, lng })
+      userLocationDot.setMap(map.value)
+    } else {
+      userLocationDot.setPosition({ lat, lng })
+    }
+
+    if (!accuracyCircle) {
+      accuracyCircle = new google.maps.Circle({
+        map: map.value,
+        center: { lat, lng },
+        radius: accuracy,
+        strokeColor: '#4285F4', strokeOpacity: 0.4, strokeWeight: 1,
+        fillColor: '#4285F4', fillOpacity: 0.12,
+        clickable: false, zIndex: 1,
+      })
+    } else {
+      accuracyCircle.setCenter({ lat, lng })
+      accuracyCircle.setRadius(accuracy)
+    }
+  }
+
+  function clearUserLocation() {
+    if (locationWatchId !== null) {
+      navigator.geolocation.clearWatch(locationWatchId)
+      locationWatchId = null
+    }
+    if (userLocationDot) { userLocationDot.setMap(null); userLocationDot = null }
+    if (accuracyCircle) { accuracyCircle.setMap(null); accuracyCircle = null }
+    locateButton = null
+    didCenterOnUser = false
+  }
+
   // React to theme changes on the map
   watch(isDark, (dark) => {
     if (map.value) map.value.setOptions({ styles: dark ? DARK_STYLE : LIGHT_STYLE })
@@ -337,6 +489,7 @@ export function useMap() {
   function destroyMap() {
     clearAllMarkers()
     clearSearchMarkers()
+    clearUserLocation()
     if (infoWindow) { infoWindow.close(); infoWindow = null }
     map.value = null
   }
