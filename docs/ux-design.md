@@ -17,6 +17,7 @@
 - Click en marker: abre InfoWindow con datos propios (nombre, hora, descripcion, enlaces) + resalta card en la lista
 - InfoWindows usan HTML vanilla (no Vue) — requieren evento `domready` para añadir listeners
 - Un solo InfoWindow compartido (se reutiliza, no se crean multiples)
+- El enlace "📍 Google Maps" (cards, InfoWindows y descartados) lo genera la función compartida `buildGmapUrl()` en `useMap.js`: query por texto `nombre, ciudad` (nunca `@coordenadas`) y, si el lugar tiene `googlePlaceId`, `&query_place_id` para seleccionar el sitio exacto. Detalle y cómo obtener el ID en `docs/trip-planning.md` § Enlaces Google Maps
 
 ## Flujos de interaccion
 - **Click en card de la lista** → sheet se colapsa, mapa se centra en el lugar, marker se activa, InfoWindow se abre tras 850ms

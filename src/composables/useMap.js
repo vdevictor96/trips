@@ -29,7 +29,11 @@ const DARK_STYLE = [
 // Shared Google Maps URL builder (exported for PlaceCard etc.)
 export function buildGmapUrl(place, city) {
   const q = city ? `${place.name}, ${city}` : place.name
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`
+  let url = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`
+  // If we have the Google Place ID (places added from the app), pass it so
+  // Maps selects the exact place instead of guessing from the text query.
+  if (place.googlePlaceId) url += `&query_place_id=${encodeURIComponent(place.googlePlaceId)}`
+  return url
 }
 
 // Popup HTML builder

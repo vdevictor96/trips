@@ -47,7 +47,8 @@ Cada archivo `trips/{id}.json` sigue este esquema:
           "lng": 0.0,
           "desc": "Descripción breve en español.",
           "tags": ["obligatorio", "gratis", "reservar", "mirador"],
-          "link": "https://web-oficial.com"
+          "link": "https://web-oficial.com",
+          "googlePlaceId": "ChIJ... (opcional, ver § Enlaces Google Maps)"
         }
       ]
     }
@@ -85,6 +86,7 @@ Cada archivo `trips/{id}.json` sigue este esquema:
 - `desc`: 1-2 frases breves en español. Incluir horario del sitio si es relevante, notas de opcionalidad, y contexto de comidas/meriendas en sitios adyacentes
 - `link`: web oficial siempre que exista (buscar)
 - `tags`: array de strings — usar: `obligatorio`, `gratis`, `reservar`, `mirador`
+- `googlePlaceId` (opcional): Place ID de Google para que el botón "📍 Google Maps" seleccione el sitio exacto en vez de adivinar por el nombre (ver § Enlaces Google Maps)
 
 ### Organización por días
 - Optimizar rutas por zonas geográficas (no zigzaguear)
@@ -106,9 +108,19 @@ Cada archivo `trips/{id}.json` sigue este esquema:
 
 #### Enlaces Google Maps
 - **El primer punto de la ruta es siempre el hotel.** `getDirectionsURLs()` (`src/composables/useDirections.js`) antepone el hotel como origen de cada ruta —y como origen de la primera parte cuando se divide en varias—, ocupando 1 de los 10 waypoints. Por eso **todo viaje debe definir `hotel` con `name`, `lat` y `lng`** en el JSON; sin `hotel`, la ruta arrancaría desde el primer lugar del día.
-- Máximo 10 waypoints por enlace (limitación de Google Maps)
+- Máximo 10 waypoints por enlace de ruta (limitación de Google Maps)
 - Si un día tiene >9 lugares, dividir en múltiples enlaces
 - El primer lugar de cada día debe incluir en `desc` cómo llegar desde el hotel
+
+##### Botón "📍 Google Maps" por sitio (selección exacta)
+El enlace de cada lugar lo construye **una sola función compartida** — `buildGmapUrl()` en
+`src/composables/useMap.js` — así que cualquier viaje nuevo hereda el comportamiento sin tocar
+nada por viaje. La usan las cards, los descartados y los InfoWindows del mapa.
+
+- Por defecto genera `https://www.google.com/maps/search/?api=1&query=<nombre>, <ciudad>` (**texto, nunca `@coordenadas`**). El query por texto puede caer en el sitio equivocado cuando el nombre es ambiguo.
+- Si el lugar tiene `googlePlaceId`, se añade `&query_place_id=<id>` y Maps **selecciona el sitio exacto** (no adivina). Si el ID fuese inválido, Maps cae de vuelta al query de texto, así que es seguro.
+- Los lugares **añadidos desde la app** (búsqueda Google o clic en un POI del mapa) ya guardan `googlePlaceId` automáticamente.
+- Para lugares **escritos a mano en el JSON**, `googlePlaceId` es opcional pero recomendado en sitios con nombre ambiguo. Cómo obtenerlo: buscar el sitio en [Place ID Finder](https://developers.google.com/maps/documentation/places/web-service/place-id) (empieza por `ChIJ...`). Sin él, el botón sigue funcionando con el query de texto.
 
 #### Regla día/noche
 - Regla completa en **§ Perfil de viajeros** (inicio del documento).
