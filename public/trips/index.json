@@ -9,6 +9,16 @@
       "dates": "2-6 abril 2026",
       "days": 4,
       "places": 54
+    },
+    {
+      "id": "nueva-york-2026",
+      "title": "Nueva York 2026",
+      "emoji": "🇺🇸",
+      "city": "Nueva York",
+      "country": "Estados Unidos",
+      "dates": "4-12 julio 2026",
+      "days": 9,
+      "places": 71
     }
   ]
 }
