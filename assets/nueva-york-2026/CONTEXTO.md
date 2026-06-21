@@ -181,5 +181,5 @@ Cada uno marcado también inline con `⚠️ PENDIENTE` en la nota de su sitio (
 **Menores (ruta / pulido):**
 6. **D2 · zigzag Central Park** (Belvedere→Sheep Meadow→Strawberry vuelve atrás). Orden más limpio posible, pero Bethesda pronto = verlo vacío (compensa).
 7. **Huecos de 5 min** con caminata ~12 min: D4 Times Sq→Grand Central, D5 Grove/Bedford→Meatpacking, D6 Pebble Beach→Promenade. Optimistas, buffer ~0.
-8. 🔴 **PROBLEMA REAL · D6 · Cine no disponible jue 9.** Cartelera 2026 confirmada: Movies With A View proyecta jue 2, 16, 23 y 30 jul. **Ninguna cae en el viaje (4-12 jul)** y el jue 9 está saltado (semana del 4 jul). Hay que sustituir la noche del D6: otro ciclo de cine al aire libre que caiga ese jueves, o noche de Brooklyn (BBP + Time Out + atardecer) sin peli. POR DECIDIR.
+8. ✅ **CONFIRMADO · D6 · Cine jue 9.** Movies With A View SÍ proyecta el jue 9 jul 2026: "When Harry Met Sally", 18:00-23:00, Harbor View Lawn (Pier 1) — confirmado por la página oficial del evento (screenshot de la compañera). (Una búsqueda web previa devolvió un listado incompleto que omitía el 9 → era erróneo.) Encaja con la nota de Katz's Deli (escena de la peli). Sin cambios al plan.
 9. **Posible falta**: un show de Broadway (no hay noche libre; lotería del día si interesa).

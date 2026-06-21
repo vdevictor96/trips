@@ -601,7 +601,7 @@
           "name": "🎬 Movies With A View (Pier 1)",
           "lat": 40.7015,
           "lng": -73.9969,
-          "desc": "Cine al aire libre en Pier 1 (Harbor View Lawn): 'When Harry Met Sally' al atardecer, con el skyline de fondo. Césped abre 18:00, peli al ponerse el sol (~20:30), GRATIS. Picnic/cena en el césped. ⚠️ PENDIENTE (problema real): Movies With A View 2026 NO proyecta el jue 9 jul. Fechas confirmadas: jue 2, 16, 23, 30 jul — ninguna cae en el viaje (4-12 jul) y el jue 9 está saltado. Hay que sustituir esta noche: otro ciclo de cine al aire libre que sí caiga ese jueves, o tarde-noche de Brooklyn (BBP, Time Out Market, atardecer) sin peli.",
+          "desc": "Cine al aire libre en Pier 1 (Harbor View Lawn): 'When Harry Met Sally' al atardecer, con el skyline de fondo (✔ confirmado: jue 9 jul 2026, 18:00-23:00). Césped abre 18:00, peli al ponerse el sol (~20:30), GRATIS y por orden de llegada → llegad pronto a coger sitio. Picnic/cena en el césped. Noche larga (volvéis ~22:30). Y la peli tiene la mítica escena del Katz's Deli (ver Info).",
           "tags": ["gratis"]
         }
       ]
@@ -855,7 +855,6 @@
       { "label": "🟠 Reservas urgentes (hoy 21 jun)", "value": "Kayak BBP abre reserva ~25 jun (en 4 días) y vuela. SUMMIT, Mets, AMNH, Met y Whitney: reservar esta semana." },
       { "label": "🟡 D2 · Zigzag en Central Park", "value": "El orden Belvedere→Sheep Meadow→Strawberry Fields hace ida-y-vuelta norte-sur. Reordenable, pero Bethesda pronto = verlo vacío (compensa)." },
       { "label": "🟡 Huecos de 5-10 min", "value": "D4 Times Sq→Grand Central, D5 Grove/Bedford→Meatpacking, D6 Pebble Beach→Promenade: caminata de ~12-15 min con buffer casi 0. Optimistas pero no rompen nada." },
-      { "label": "🔴 D6 · Cine NO disponible el jue 9", "value": "Confirmado: Movies With A View 2026 proyecta jue 2, 16, 23 y 30 jul — <b>ninguna cae en el viaje (4-12 jul)</b> y el jue 9 está saltado. Hay que sustituir la noche del D6: otro ciclo al aire libre que caiga ese jueves, o noche de Brooklyn (BBP + Time Out + atardecer) sin peli. <a href='https://www.brooklynpaper.com/brooklyn-bridge-park-movies-with-a-view-2026/' target='_blank'>fuente</a>" },
       { "label": "🟡 Posible falta: Broadway", "value": "No hay noche libre (todas con miradores/cine/béisbol). Si interesa, la lotería del día es la vía sin reventar el plan." }
     ]
   },
