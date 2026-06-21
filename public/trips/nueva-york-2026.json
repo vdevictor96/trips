@@ -1,5 +1,5 @@
 {
-  "_v": 9,
+  "_v": 10,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -812,6 +812,16 @@
         },
         {
           "id": "9.4",
+          "time": "10:15",
+          "dur": "20 min",
+          "name": "🏢 Empire State (opcional)",
+          "lat": 40.7484,
+          "lng": -73.9857,
+          "desc": "🏢 OPCIONAL. Rascacielos Art Déco de 1931 (34th/5ª Av), ~8 manzanas al norte de Madison Square Park. NO subimos (el mirador de pago es el SUMMIT; desde el Empire no se ve el propio Empire). Es solo pasar por su base y, si queréis, asomaros al vestíbulo Art Déco (gratis, espectacular). ⚠️ Desvío de ~40 min ida y vuelta y el domingo el margen al aeropuerto va JUSTO → hacedlo solo si salís antes del hotel o acortáis Strand. Si no, lo veréis igual de lejos desde el SUMMIT y desde Flatiron.",
+          "tags": []
+        },
+        {
+          "id": "9.5",
           "time": "10:25",
           "dur": "40 min",
           "name": "Union Square",
@@ -821,7 +831,7 @@
           "tags": ["gratis"]
         },
         {
-          "id": "9.5",
+          "id": "9.6",
           "time": "11:15",
           "dur": "1 h",
           "name": "Strand Book Store",
@@ -859,21 +869,13 @@
       { "label": "⚪ Si cambiáis default", "value": "Statue City Cruises (pisar la isla ~25,50 $; corona con meses). Octavos MetLife 5 jul = entrada FIFA." }
     ],
     "pendientes": [
+      { "label": "🟠 D9 (dom) · Empire State opcional", "value": "Añadido a la lista del domingo como OPCIONAL (vestíbulo Art Déco gratis; NO subimos, el mirador es el SUMMIT). Es un desvío de ~40 min desde Madison Square Park (sube a la 34th y vuelve) y choca con el margen JUSTO al aeropuerto (salir del hotel ≤12:15 para el vuelo 16:45). A decidir el día: solo si salís antes o acortáis Strand; si no, se ve de lejos desde el SUMMIT y Flatiron." },
       { "label": "🟠 Reservas urgentes (hoy 21 jun)", "value": "Kayak BBP abre reserva ~25 jun (en 4 días) y vuela. SUMMIT, Mets, AMNH, Met y Whitney: reservar esta semana." },
       { "label": "🟡 Huecos de 5-10 min", "value": "D6 Pebble Beach→Promenade: caminata ~15 min con buffer ~10 min. Optimista pero no rompe nada. (Los de D4 Times Sq→Grand Central y D5 Grove/Bedford→Meatpacking ya se corrigieron al reordenar.)" },
       { "label": "🟡 Posible falta: Broadway", "value": "No hay noche libre (todas con miradores/cine/béisbol). Si interesa, la lotería del día es la vía sin reventar el plan." }
     ]
   },
   "discarded": [
-    {
-      "id": "d.1",
-      "name": "Empire State Building",
-      "lat": 40.7484,
-      "lng": -73.9857,
-      "desc": "Rascacielos art déco de 1931, el mirador clásico de Nueva York.",
-      "reason": "Mirador de pago elegido = SUMMIT; desde el Empire no ves el propio Empire.",
-      "link": "https://www.esbnyc.com/"
-    },
     {
       "id": "d.2",
       "name": "Top of the Rock",
