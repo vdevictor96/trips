@@ -87,7 +87,7 @@
           "name": "Central Park — Sheep Meadow",
           "lat": 40.7716,
           "lng": -73.9745,
-          "desc": "Gran pradera sin tráfico (antaño pastaban ovejas de verdad), llena de gente tomando el sol y de picnic con el skyline asomando entre los árboles. Para tumbarse un rato si apetece — opcional según el ritmo.",
+          "desc": "Gran pradera sin tráfico (antaño pastaban ovejas de verdad), llena de gente tomando el sol y de picnic con el skyline asomando entre los árboles. Para tumbarse un rato si apetece — opcional según el ritmo. ⚠️ PENDIENTE (ruta menor): el orden Belvedere→Sheep Meadow→Strawberry Fields hace un zigzag norte-sur; se podría reordenar, pero Bethesda pronto = verlo vacío compensa.",
           "tags": ["gratis"]
         },
         {
@@ -359,7 +359,7 @@
           "name": "Grand Central + Chrysler",
           "lat": 40.7527,
           "lng": -73.9773,
-          "desc": "Vestíbulo monumental de Grand Central (techo con constelaciones, gratis). Saliendo, la aguja art déco del Chrysler Building enfrente (exterior).",
+          "desc": "Vestíbulo monumental de Grand Central (techo con constelaciones, gratis). Saliendo, la aguja art déco del Chrysler Building enfrente (exterior). ⚠️ PENDIENTE (hueco justo): de Times Square a aquí hay ~12 min andando y el plan deja solo 5 min de margen.",
           "tags": ["gratis"]
         },
         {
@@ -439,7 +439,7 @@
           "name": "Meatpacking District",
           "lat": 40.7403,
           "lng": -74.0069,
-          "desc": "Barrio de antiguos mataderos reconvertido: adoquines, boutiques y galerías. Junto al inicio de la High Line.",
+          "desc": "Barrio de antiguos mataderos reconvertido: adoquines, boutiques y galerías. Junto al inicio de la High Line. ⚠️ PENDIENTE (hueco justo): de Grove/Bedford a aquí hay ~12 min andando y el plan deja solo 5 min de margen.",
           "tags": []
         },
         {
@@ -550,7 +550,7 @@
           "name": "Brooklyn Heights Promenade",
           "lat": 40.696,
           "lng": -73.9974,
-          "desc": "Paseo elevado con vistas al skyline de Manhattan y el puente. Calles de casas señoriales (brownstones).",
+          "desc": "Paseo elevado con vistas al skyline de Manhattan y el puente. Calles de casas señoriales (brownstones). ⚠️ PENDIENTE (hueco justo): de Pebble Beach a aquí hay ~15 min andando cuesta arriba y el plan deja solo 10 min de margen.",
           "tags": ["gratis"]
         },
         {

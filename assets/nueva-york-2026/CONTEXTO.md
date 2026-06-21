@@ -167,7 +167,7 @@ Confirmaciones rápidas de las notas de cada POI:
 3. **Abierto**: día del cuarto del Mundial (vie/sáb) · pisar Liberty Island (opcional).
 
 ### 🔧 Hallazgos del repaso día-a-día (21 jun 2026) — POR RESOLVER
-Marcados también inline en la nota de cada sitio con `⚠️ PENDIENTE`. Pendientes de decisión / feedback del compañero.
+Cada uno marcado también inline con `⚠️ PENDIENTE` en la nota de su sitio (salvo el nº 9 Broadway, que no tiene un punto propio y vive solo aquí). Pendientes de decisión / feedback del compañero.
 
 **Críticos (rompen el plan tal cual):**
 1. **D3 · 9/11 "gratis lunes" es FALSO en mañana.** Confirmado: gratis solo **lun 17:30–19:00** (tickets web 7:00). El plan lo visita 11:00–13:30 = **de pago ~33 $**. → Decidir: (a) pagar y dejar la mañana [recomendado], (b) solo fuentes gratis por fuera, (c) reestructurar a la franja 17:30–19:00 (solo 90 min, choca con ferry atardecer). [src](https://freetoursbyfoot.com/911-museum-tickets/)
