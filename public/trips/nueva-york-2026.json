@@ -1,5 +1,5 @@
 {
-  "_v": 6,
+  "_v": 7,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -268,7 +268,7 @@
       "id": 4,
       "tab": "Día 4 · Mar 7",
       "title": "AMNH + MoMA + Midtown",
-      "subtitle": "Martes 7 julio · 2 museos (AC) · Fan Village Mundial · 🌅 SUMMIT · 🌃 Times Square de noche",
+      "subtitle": "Martes 7 julio · 2 museos (AC) · Fan Village Mundial · 🌅 SUMMIT · 🌃 Times Square día y noche",
       "places": [
         {
           "id": "4.1",
@@ -345,7 +345,17 @@
         {
           "id": "4.8",
           "time": "17:30",
-          "dur": "1 h",
+          "dur": "15 min",
+          "name": "Times Square (de día)",
+          "lat": 40.7589,
+          "lng": -73.9851,
+          "desc": "Vistazo con luz, de paso: desde la 5ª Av son ~8 min al oeste. De día es gentío y pantallas sin brillar (la gracia es la versión nocturna de luego), pero ya lo cruzáis y veis la escala. Después, 2 manzanas al sur hasta Bryant Park.",
+          "tags": []
+        },
+        {
+          "id": "4.9",
+          "time": "18:00",
+          "dur": "45 min",
           "name": "Bryant Park + NYPL + azotea SNFL",
           "lat": 40.7539,
           "lng": -73.9839,
@@ -353,8 +363,8 @@
           "tags": ["gratis"]
         },
         {
-          "id": "4.9",
-          "time": "18:45",
+          "id": "4.10",
+          "time": "18:55",
           "dur": "45 min",
           "name": "Grand Central + Chrysler",
           "lat": 40.7527,
@@ -363,7 +373,7 @@
           "tags": ["gratis"]
         },
         {
-          "id": "4.10",
+          "id": "4.11",
           "time": "19:50",
           "dur": "1 h",
           "name": "🌅 SUMMIT One Vanderbilt",
@@ -374,13 +384,13 @@
           "link": "https://summitov.com/"
         },
         {
-          "id": "4.11",
+          "id": "4.12",
           "time": "21:05",
           "dur": "35 min",
           "name": "🌃 Times Square (de noche)",
           "lat": 40.7589,
           "lng": -73.9851,
-          "desc": "El cruce de luces y pantallas — su momento es DE NOCHE, así que se ve al bajar del SUMMIT (~12 min andando al oeste por la 42nd, ya oscuro). Subidón de carteles luminosos y gentío; cena rápida por la zona (slice, etc.). Luego metro N/Q/R/W directo a Union Square → hotel ~22:00. Si venís fundidos del día, un paseo rápido y para casa.",
+          "desc": "Ahora con TODO encendido — su momento. Se ve al bajar del SUMMIT (~12 min al oeste por la 42nd, ya oscuro); de día ya lo cruzasteis, esto es otra cosa. Cena rápida por la zona (slice, etc.) y metro N/Q/R/W directo a Union Square → hotel ~22:00. Si venís fundidos, un paseo rápido y para casa.",
           "tags": []
         }
       ]
