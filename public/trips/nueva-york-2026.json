@@ -1,5 +1,5 @@
 {
-  "_v": 5,
+  "_v": 6,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -268,7 +268,7 @@
       "id": 4,
       "tab": "Día 4 · Mar 7",
       "title": "AMNH + MoMA + Midtown",
-      "subtitle": "Martes 7 julio · 2 museos (AC) · Fan Village Mundial · 🌅 SUMMIT 20:29",
+      "subtitle": "Martes 7 julio · 2 museos (AC) · Fan Village Mundial · 🌅 SUMMIT · 🌃 Times Square de noche",
       "places": [
         {
           "id": "4.1",
@@ -345,7 +345,7 @@
         {
           "id": "4.8",
           "time": "17:30",
-          "dur": "45 min",
+          "dur": "1 h",
           "name": "Bryant Park + NYPL + azotea SNFL",
           "lat": 40.7539,
           "lng": -73.9839,
@@ -354,34 +354,34 @@
         },
         {
           "id": "4.9",
-          "time": "18:30",
-          "dur": "40 min",
-          "name": "Times Square",
-          "lat": 40.7589,
-          "lng": -73.9851,
-          "desc": "El cruce de luces y pantallas. Animado de día y de noche; si lo queréis a tope de noche, podéis volver tras el SUMMIT (4 manzanas).",
-          "tags": []
-        },
-        {
-          "id": "4.10",
-          "time": "19:15",
-          "dur": "30 min",
+          "time": "18:45",
+          "dur": "45 min",
           "name": "Grand Central + Chrysler",
           "lat": 40.7527,
           "lng": -73.9773,
-          "desc": "Vestíbulo monumental de Grand Central (techo con constelaciones, gratis). Saliendo, la aguja art déco del Chrysler Building enfrente (exterior). ⚠️ PENDIENTE (hueco justo): de Times Square a aquí hay ~12 min andando y el plan deja solo 5 min de margen.",
+          "desc": "Vestíbulo monumental de Grand Central (techo con constelaciones, gratis). Saliendo, la aguja art déco del Chrysler Building enfrente (exterior).",
           "tags": ["gratis"]
         },
         {
-          "id": "4.11",
+          "id": "4.10",
           "time": "19:50",
           "dur": "1 h",
           "name": "🌅 SUMMIT One Vanderbilt",
           "lat": 40.753,
           "lng": -73.9785,
-          "desc": "Mirador inmersivo de espejos en One Vanderbilt (al lado de Grand Central). Reservad franja de atardecer (se agotan). El Ascent (ascensor de cristal) cuesta aparte — saltable. Cena después → hotel ~21:30.",
+          "desc": "Mirador inmersivo de espejos en One Vanderbilt (al lado de Grand Central). Reservad franja de atardecer (se agotan). El Ascent (ascensor de cristal) cuesta aparte — saltable. Cena rápida por Midtown y luego Times Square de noche.",
           "tags": ["obligatorio", "reservar", "mirador"],
           "link": "https://summitov.com/"
+        },
+        {
+          "id": "4.11",
+          "time": "21:05",
+          "dur": "35 min",
+          "name": "🌃 Times Square (de noche)",
+          "lat": 40.7589,
+          "lng": -73.9851,
+          "desc": "El cruce de luces y pantallas — su momento es DE NOCHE, así que se ve al bajar del SUMMIT (~12 min andando al oeste por la 42nd, ya oscuro). Subidón de carteles luminosos y gentío; cena rápida por la zona (slice, etc.). Luego metro N/Q/R/W directo a Union Square → hotel ~22:00. Si venís fundidos del día, un paseo rápido y para casa.",
+          "tags": []
         }
       ]
     },
@@ -851,7 +851,7 @@
     ],
     "pendientes": [
       { "label": "🟠 Reservas urgentes (hoy 21 jun)", "value": "Kayak BBP abre reserva ~25 jun (en 4 días) y vuela. SUMMIT, Mets, AMNH, Met y Whitney: reservar esta semana." },
-      { "label": "🟡 Huecos de 5-10 min", "value": "D4 Times Sq→Grand Central, D6 Pebble Beach→Promenade: caminata de ~12-15 min con buffer casi 0. Optimistas pero no rompen nada. (El de D5 ya se corrigió al reordenar el miércoles.)" },
+      { "label": "🟡 Huecos de 5-10 min", "value": "D6 Pebble Beach→Promenade: caminata ~15 min con buffer ~10 min. Optimista pero no rompe nada. (Los de D4 Times Sq→Grand Central y D5 Grove/Bedford→Meatpacking ya se corrigieron al reordenar.)" },
       { "label": "🟡 Posible falta: Broadway", "value": "No hay noche libre (todas con miradores/cine/béisbol). Si interesa, la lotería del día es la vía sin reventar el plan." }
     ]
   },
