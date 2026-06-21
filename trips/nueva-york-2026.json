@@ -1,5 +1,5 @@
 {
-  "_v": 8,
+  "_v": 9,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -520,7 +520,7 @@
           "name": "🌅 Little Island",
           "lat": 40.7419,
           "lng": -74.0103,
-          "desc": "Parque flotante sobre tulipas de hormigón en el Hudson. Atardecer sobre el río (el sol se pone al oeste, sobre Nueva Jersey). Puede pedir pase gratis con hora en horas punta — verificar. Vuelta al hotel.",
+          "desc": "Parque flotante sobre tulipas de hormigón en el Hudson. Atardecer sobre el río (el sol se pone al oeste, sobre Nueva Jersey). ✅ Entrada SIEMPRE gratis: nada que reservar ni pagar. En verano puede pedir un pase con hora a partir de mediodía, pero también es gratis y se saca online el mismo día. Vuelta al hotel.",
           "tags": ["gratis", "mirador"],
           "link": "https://littleisland.org/"
         }
@@ -853,10 +853,9 @@
       { "label": "🟠 AMNH (mar 7)", "value": "Ticket con hora; en verano se llena." },
       { "label": "🟠 Met (dom 5)", "value": "Ticket con hora. 30 $ / 17 $ est.; vale 3 días + Cloisters." },
       { "label": "🟠 Whitney (mié 8)", "value": "Ticket con hora (el de 22 entra gratis por ser ≤25)." },
-      { "label": "🟠 Little Island (mié 8)", "value": "Posible pase GRATIS con hora en horas punta — verificar para la fecha." },
       { "label": "🟠 MoMA (pendiente)", "value": "Si finalmente entra (D4): ticket con hora." },
       { "label": "✅ 9/11 (lun 6)", "value": "Decidido: NO entramos al museo, solo las fuentes del memorial (gratis). Sin reserva." },
-      { "label": "🟢 Sin reserva", "value": "Broadway (lotería el día), fan zones Mundial, Movies With A View, Staten Island Ferry, Smorgasburg, CitiBike, tranvía Roosevelt Island, NYC Ferry/Red Hook, veleros." },
+      { "label": "🟢 Sin reserva", "value": "Little Island (gratis siempre), Broadway (lotería el día), fan zones Mundial, Movies With A View, Staten Island Ferry, Smorgasburg, CitiBike, tranvía Roosevelt Island, NYC Ferry/Red Hook, veleros." },
       { "label": "⚪ Si cambiáis default", "value": "Statue City Cruises (pisar la isla ~25,50 $; corona con meses). Octavos MetLife 5 jul = entrada FIFA." }
     ],
     "pendientes": [

@@ -162,7 +162,7 @@ Confirmaciones rápidas de las notas de cada POI:
 - **`trips/nueva-york-2026.json` construido y validado**: 9 días, 71 sitios, coords en rango, horas en orden, sin IDs duplicados. Comidas, miradores al atardecer y hotel como primer waypoint. Descartados (18) en la sección `discarded`.
 
 ### Pendiente 🔲
-1. **Reservas**: 9/11 (lun 6, ver punto crítico abajo) · SUMMIT (franja atardecer) · Mets (vie 10) · AMNH/Met/Whitney (hora) · kayak BBP (se abre ~25 jun) · Little Island (verificar pase) · Broadway (lotería del día).
+1. **Reservas**: 9/11 (lun 6, ver punto crítico abajo) · SUMMIT (franja atardecer) · Mets (vie 10) · AMNH/Met/Whitney (hora) · kayak BBP (se abre ~25 jun) · Broadway (lotería del día). *(Little Island: entrada siempre gratis, nada que reservar — confirmado por compañera; el posible pase con hora de verano también es gratis.)*
 2. **Publicar** (cuando se confirme): subir `_v`, añadir a `trips/index.json` y copiar a `public/trips/`. Ahora es **WIP local, sin publicar** (`_v` = 1).
 3. **Abierto**: día del cuarto del Mundial (vie/sáb) · pisar Liberty Island (opcional).
 
