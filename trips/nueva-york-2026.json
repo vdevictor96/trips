@@ -1,5 +1,5 @@
 {
-  "_v": 10,
+  "_v": 11,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -319,7 +319,7 @@
           "name": "Rockefeller Center + Telemundo Fan Village",
           "lat": 40.7587,
           "lng": -73.9788,
-          "desc": "Plaza de Rockefeller + los Channel Gardens. Durante el Mundial, la pista de hielo es el Telemundo Fan Village (pantallas, ambiente, gratis). El mirador Top of the Rock no hace falta: el vuestro es SUMMIT.",
+          "desc": "Plaza de Rockefeller + los Channel Gardens. Durante el Mundial, la pista de hielo es el Telemundo Fan Village (pantallas, ambiente, gratis). Top of the Rock: pasáis por su puerta (la entrada al mirador está aquí mismo) — no subimos, el vuestro es SUMMIT, pero el edificio Art Déco y la plaza ya los veis de paso.",
           "tags": ["gratis"]
         },
         {
@@ -693,6 +693,16 @@
         },
         {
           "id": "8.2",
+          "time": "09:10",
+          "dur": "10 min",
+          "name": "Cortlandt Alley",
+          "lat": 40.7184,
+          "lng": -74.0019,
+          "desc": "Callejón angosto con pinta del viejo Nueva York (escaleras de incendios, set de mil pelis y series), entre Franklin y White St junto a Canal. Foto rápida de paso, justo al sur de SoHo antes de virar hacia NoLita. Gratis.",
+          "tags": ["gratis"]
+        },
+        {
+          "id": "8.3",
           "time": "09:30",
           "dur": "40 min",
           "name": "NoLita — Elizabeth St Garden + Prince St Pizza",
@@ -702,7 +712,7 @@
           "tags": []
         },
         {
-          "id": "8.3",
+          "id": "8.4",
           "time": "10:10",
           "dur": "20 min",
           "name": "Basílica de St. Patrick's Old Cathedral",
@@ -713,7 +723,7 @@
           "link": "https://oldcathedral.org/"
         },
         {
-          "id": "8.4",
+          "id": "8.5",
           "time": "10:35",
           "dur": "20 min",
           "name": "Little Italy (Mulberry St)",
@@ -723,7 +733,7 @@
           "tags": []
         },
         {
-          "id": "8.5",
+          "id": "8.6",
           "time": "11:00",
           "dur": "1 h",
           "name": "Chinatown (Mott, Doyers, Columbus Park)",
@@ -733,7 +743,17 @@
           "tags": []
         },
         {
-          "id": "8.6",
+          "id": "8.7",
+          "time": "12:00",
+          "dur": "10 min",
+          "name": "Freeman Alley",
+          "lat": 40.7222,
+          "lng": -73.992,
+          "desc": "Callejón sin salida cubierto de arte urbano y grafitis (al fondo, el restaurante Freeman's), saliendo de Rivington St junto a Bowery. Foto rápida en el borde NoLita/LES, justo de camino de Chinatown a Essex Market. Gratis.",
+          "tags": ["gratis"]
+        },
+        {
+          "id": "8.8",
           "time": "12:15",
           "dur": "1.5 h",
           "name": "LES — Essex Market + Orchard St (comida)",
@@ -743,7 +763,7 @@
           "tags": []
         },
         {
-          "id": "8.7",
+          "id": "8.9",
           "time": "14:00",
           "dur": "40 min",
           "name": "Williamsburg Bridge (a pie)",
@@ -753,7 +773,7 @@
           "tags": ["gratis"]
         },
         {
-          "id": "8.8",
+          "id": "8.10",
           "time": "14:45",
           "dur": "3.5 h",
           "name": "Williamsburg — Bedford Ave + Smorgasburg",
@@ -763,7 +783,7 @@
           "tags": []
         },
         {
-          "id": "8.9",
+          "id": "8.11",
           "time": "18:30",
           "dur": "2 h",
           "name": "🌅 Domino Park + North 5th St Pier",
@@ -1003,24 +1023,8 @@
       "lat": 40.7497,
       "lng": -73.9712,
       "desc": "Atrio-jardín interior gratis cerca de la ONU (43rd St).",
-      "reason": "Menor; solo laborables; fuera de ruta.",
+      "reason": "Menor; solo laborables y cierra ~18h (el D4 pasa cerca a las 19:05 → cerrado); fuera de ruta.",
       "link": "https://www.fordfoundation.org/"
-    },
-    {
-      "id": "d.18",
-      "name": "Freeman Alley",
-      "lat": 40.7222,
-      "lng": -73.992,
-      "desc": "Callejón sin salida cubierto de arte urbano en el LES.",
-      "reason": "Menor; el D8 ya recorre el LES."
-    },
-    {
-      "id": "d.19",
-      "name": "Cortlandt Alley",
-      "lat": 40.7184,
-      "lng": -74.0019,
-      "desc": "Callejón con aspecto del viejo NY, set de cine (Tribeca/Chinatown).",
-      "reason": "Menor; de paso por Chinatown."
     }
   ]
 }
