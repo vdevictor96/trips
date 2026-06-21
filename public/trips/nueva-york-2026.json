@@ -1,5 +1,5 @@
 {
-  "_v": 3,
+  "_v": 4,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -52,17 +52,37 @@
         },
         {
           "id": "2.2",
-          "time": "08:40",
+          "time": "08:25",
+          "dur": "20 min",
+          "name": "Central Park — Sheep Meadow",
+          "lat": 40.7716,
+          "lng": -73.9745,
+          "desc": "Gran pradera sin tráfico (antaño pastaban ovejas de verdad) con el skyline asomando entre los árboles. A primera hora, tranquila; para tumbarse un rato si apetece (opcional). ℹ️ Va al principio a propósito: el orden de la mañana sube sin rodeos (sur→oeste→centro→Met) para evitar el zigzag de bajar y volver a subir — ~1,5 km menos a pie que el orden anterior.",
+          "tags": ["gratis"]
+        },
+        {
+          "id": "2.3",
+          "time": "08:50",
+          "dur": "25 min",
+          "name": "Central Park — Strawberry Fields y Dakota",
+          "lat": 40.7755,
+          "lng": -73.9749,
+          "desc": "Memorial a John Lennon: el mosaico 'Imagine' rodeado de jardín, casi siempre con alguien tocando sus canciones. Enfrente, el edificio Dakota (1 W 72nd, exterior), donde vivió y fue asesinado en 1980 (y fachada de 'La semilla del diablo'). Lado oeste del parque.",
+          "tags": ["gratis"]
+        },
+        {
+          "id": "2.4",
+          "time": "09:20",
           "dur": "30 min",
           "name": "⭐ Central Park — Bethesda Terrace y Fuente",
           "lat": 40.7741,
           "lng": -73.9711,
-          "desc": "Por The Mall (alameda de olmos) hasta la terraza y la fuente Bethesda, el 'Ángel de las Aguas' — el corazón monumental del parque y su rincón más fotográfico. Bajad a la arcada inferior a ver el techo de azulejos Minton; detrás, The Lake con sus barcas de remo. A esta hora, vacío y fresco.",
+          "desc": "Por The Mall (alameda de olmos) hasta la terraza y la fuente Bethesda, el 'Ángel de las Aguas' — el corazón monumental del parque y su rincón más fotográfico. Bajad a la arcada inferior a ver el techo de azulejos Minton; detrás, The Lake con sus barcas de remo. A media mañana de domingo aún está tranquilo.",
           "tags": ["gratis", "obligatorio"]
         },
         {
-          "id": "2.3",
-          "time": "09:15",
+          "id": "2.5",
+          "time": "09:55",
           "dur": "25 min",
           "name": "Central Park — Bow Bridge y The Lake",
           "lat": 40.7758,
@@ -71,33 +91,13 @@
           "tags": ["gratis"]
         },
         {
-          "id": "2.4",
-          "time": "09:45",
+          "id": "2.6",
+          "time": "10:25",
           "dur": "25 min",
           "name": "Central Park — Belvedere Castle",
           "lat": 40.7794,
           "lng": -73.9691,
-          "desc": "Pequeño castillo victoriano (1869) sobre Vista Rock — una 'folly' que hoy alberga la estación meteorológica del parque. Subid a sus terrazas para las vistas del Turtle Pond y el Great Lawn. Gratis.",
-          "tags": ["gratis"]
-        },
-        {
-          "id": "2.5",
-          "time": "10:15",
-          "dur": "20 min",
-          "name": "Central Park — Sheep Meadow",
-          "lat": 40.7716,
-          "lng": -73.9745,
-          "desc": "Gran pradera sin tráfico (antaño pastaban ovejas de verdad), llena de gente tomando el sol y de picnic con el skyline asomando entre los árboles. Para tumbarse un rato si apetece — opcional según el ritmo. ⚠️ PENDIENTE (ruta menor): el orden Belvedere→Sheep Meadow→Strawberry Fields hace un zigzag norte-sur; se podría reordenar, pero Bethesda pronto = verlo vacío compensa.",
-          "tags": ["gratis"]
-        },
-        {
-          "id": "2.6",
-          "time": "10:45",
-          "dur": "25 min",
-          "name": "Central Park — Strawberry Fields y Dakota",
-          "lat": 40.7755,
-          "lng": -73.9749,
-          "desc": "Memorial a John Lennon: el mosaico 'Imagine' rodeado de jardín, casi siempre con alguien tocando sus canciones. Enfrente, el edificio Dakota (1 W 72nd, exterior), donde vivió y fue asesinado en 1980 (y fachada de 'La semilla del diablo'). Lado oeste del parque.",
+          "desc": "Pequeño castillo victoriano (1869) sobre Vista Rock — una 'folly' que hoy alberga la estación meteorológica del parque. Subid a sus terrazas para las vistas del Turtle Pond y el Great Lawn. Gratis. Desde aquí cruzáis al este, directo al Met.",
           "tags": ["gratis"]
         },
         {
@@ -817,7 +817,7 @@
           "name": "Strand Book Store",
           "lat": 40.7332,
           "lng": -73.992,
-          "desc": "'18 millas de libros' (abre ~11h domingo). Después: check-out, recoger maletas y salir ~12:30 al JFK — AirTrain + metro (~75 min, ~11 $) o taxi (~50 min, ~70 $). Vuelo 16:45. ⚠️ PENDIENTE: margen justo — Strand cierra 12:15 + maletas → salida real ~12:45-13:00; con vuelo internacional 16:45 quedan ~2,5 h. Mejor recortar Strand o salir 12:15.",
+          "desc": "'18 millas de libros' (abre ~11h domingo). ⚠️ OJO CON EL TIEMPO: para un vuelo internacional a las 16:45 hay que estar en JFK ~3 h antes (≈13:45). Plan: visita corta a Strand y salir del hotel hacia JFK NO más tarde de las 12:15-12:30 (check-out + maletas antes). AirTrain + metro (~75 min, ~11 $) o taxi (~50 min, ~70 $). Saliendo a esa hora llegáis con ~2,5 h: justo pero válido — no lo apuréis más (si vais sobrados de ganas de libros, mejor acortar Strand que arriesgar el vuelo).",
           "tags": []
         }
       ]
@@ -850,9 +850,7 @@
       { "label": "⚪ Si cambiáis default", "value": "Statue City Cruises (pisar la isla ~25,50 $; corona con meses). Octavos MetLife 5 jul = entrada FIFA." }
     ],
     "pendientes": [
-      { "label": "🟠 D9 · Margen al aeropuerto", "value": "Strand cierra 12:15 + maletas → salida real ~12:45-13:00; con vuelo internacional 16:45 quedan ~2,5 h. Mejor recortar Strand o salir 12:15." },
       { "label": "🟠 Reservas urgentes (hoy 21 jun)", "value": "Kayak BBP abre reserva ~25 jun (en 4 días) y vuela. SUMMIT, Mets, AMNH, Met y Whitney: reservar esta semana." },
-      { "label": "🟡 D2 · Zigzag en Central Park", "value": "El orden Belvedere→Sheep Meadow→Strawberry Fields hace ida-y-vuelta norte-sur. Reordenable, pero Bethesda pronto = verlo vacío (compensa)." },
       { "label": "🟡 Huecos de 5-10 min", "value": "D4 Times Sq→Grand Central, D5 Grove/Bedford→Meatpacking, D6 Pebble Beach→Promenade: caminata de ~12-15 min con buffer casi 0. Optimistas pero no rompen nada." },
       { "label": "🟡 Posible falta: Broadway", "value": "No hay noche libre (todas con miradores/cine/béisbol). Si interesa, la lotería del día es la vía sin reventar el plan." }
     ]

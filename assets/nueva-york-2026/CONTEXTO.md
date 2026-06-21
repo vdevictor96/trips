@@ -175,11 +175,11 @@ Cada uno marcado también inline con `⚠️ PENDIENTE` en la nota de su sitio (
 
 **Medios:**
 3. ✅ **RESUELTO · D8 · NoLita 09:30.** Falso problema: el Elizabeth Street Garden (el motivo de la parada) fue salvado en 2025 y ahora es parque municipal abierto **8-20h** → a las 9:30 está abierto. Solo Prince St Pizza abre más tarde (slice para otro momento). Nota corregida.
-4. **D9 · margen al aeropuerto justo**: Strand cierra 12:15 + maletas → salida real ~12:45–13:00; vuelo internacional 16:45 deja ~2,5 h. Recortar Strand o salir 12:15.
+4. ✅ **RESUELTO (info en la tarjeta) · D9 · margen al aeropuerto.** Decisión: salir del hotel hacia JFK no más tarde de las 12:15-12:30 (vuelo internacional 16:45 → estar en JFK ≈13:45). Da ~2,5 h: justo pero válido. Escrito en la nota de Strand (9.5).
 5. **Reservas urgentes (hoy 21 jun)**: kayak BBP abre ~25 jun (4 días); SUMMIT/Mets/AMNH/Met/Whitney esta semana.
 
 **Menores (ruta / pulido):**
-6. **D2 · zigzag Central Park** (Belvedere→Sheep Meadow→Strawberry vuelve atrás). Orden más limpio posible, pero Bethesda pronto = verlo vacío (compensa).
+6. ✅ **RESUELTO (reordenado) · D2 · zigzag Central Park.** Medido con coords: el orden anterior = ~3,97 km entre paradas; reordenado a Pond→Sheep Meadow→Strawberry Fields→Bethesda→Bow Bridge→Belvedere→Met = ~2,46 km (~1,5 km / ~18 min menos; elimina el backtrack Belvedere→Sheep Meadow y el cruce largo Strawberry→Met). Bethesda pasa a ~09:20 (domingo, sigue tranquilo). Info en la nota de Sheep Meadow (2.2).
 7. **Huecos de 5 min** con caminata ~12 min: D4 Times Sq→Grand Central, D5 Grove/Bedford→Meatpacking, D6 Pebble Beach→Promenade. Optimistas, buffer ~0.
 8. ✅ **CONFIRMADO · D6 · Cine jue 9.** Movies With A View SÍ proyecta el jue 9 jul 2026: "When Harry Met Sally", 18:00-23:00, Harbor View Lawn (Pier 1) — confirmado por la página oficial del evento (screenshot de la compañera). (Una búsqueda web previa devolvió un listado incompleto que omitía el 9 → era erróneo.) Encaja con la nota de Katz's Deli (escena de la peli). Sin cambios al plan.
 9. **Posible falta**: un show de Broadway (no hay noche libre; lotería del día si interesa).
