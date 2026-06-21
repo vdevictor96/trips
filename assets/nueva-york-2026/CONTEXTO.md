@@ -174,12 +174,12 @@ Cada uno marcado también inline con `⚠️ PENDIENTE` en la nota de su sitio (
 2. **D1 · punto de fuegos no encaja con 2026.** Confirmado: en 2026 (50 aniv.) el lanzamiento cambia a **Seaport / Puente de Brooklyn (bajo East River)** + **bajo Hudson**, ~21:25. Stuyvesant Cove (~23rd St) queda ~3 km al norte → vista lejana/tapada. Con llegada 18:55 JFK (+ inmigración) no se llega a los buenos sitios sur (se llenan desde 16:00). → Gestionar expectativas / buscar punto del East River con vista despejada al SUR. [src](https://www.july4th.com/posts/macys-annual-fourth-of-july-fireworks-show)
 
 **Medios:**
-3. **D8 · NoLita 09:30**: Elizabeth St Garden y Prince St Pizza abren ~11:00 → cerrados a esa hora.
+3. ✅ **RESUELTO · D8 · NoLita 09:30.** Falso problema: el Elizabeth Street Garden (el motivo de la parada) fue salvado en 2025 y ahora es parque municipal abierto **8-20h** → a las 9:30 está abierto. Solo Prince St Pizza abre más tarde (slice para otro momento). Nota corregida.
 4. **D9 · margen al aeropuerto justo**: Strand cierra 12:15 + maletas → salida real ~12:45–13:00; vuelo internacional 16:45 deja ~2,5 h. Recortar Strand o salir 12:15.
 5. **Reservas urgentes (hoy 21 jun)**: kayak BBP abre ~25 jun (4 días); SUMMIT/Mets/AMNH/Met/Whitney esta semana.
 
 **Menores (ruta / pulido):**
 6. **D2 · zigzag Central Park** (Belvedere→Sheep Meadow→Strawberry vuelve atrás). Orden más limpio posible, pero Bethesda pronto = verlo vacío (compensa).
 7. **Huecos de 5 min** con caminata ~12 min: D4 Times Sq→Grand Central, D5 Grove/Bedford→Meatpacking, D6 Pebble Beach→Promenade. Optimistas, buffer ~0.
-8. **D6 · Movies With A View 2026 + título de la peli** sin confirmar (cartelera se publica más tarde; jue 9 = día correcto del ciclo).
+8. 🔴 **PROBLEMA REAL · D6 · Cine no disponible jue 9.** Cartelera 2026 confirmada: Movies With A View proyecta jue 2, 16, 23 y 30 jul. **Ninguna cae en el viaje (4-12 jul)** y el jue 9 está saltado (semana del 4 jul). Hay que sustituir la noche del D6: otro ciclo de cine al aire libre que caiga ese jueves, o noche de Brooklyn (BBP + Time Out + atardecer) sin peli. POR DECIDIR.
 9. **Posible falta**: un show de Broadway (no hay noche libre; lotería del día si interesa).

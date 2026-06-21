@@ -601,7 +601,7 @@
           "name": "🎬 Movies With A View (Pier 1)",
           "lat": 40.7015,
           "lng": -73.9969,
-          "desc": "Cine al aire libre en Pier 1 (Harbor View Lawn): 'When Harry Met Sally' al atardecer, con el skyline de fondo. Césped abre 18:00, peli al ponerse el sol (~20:30), GRATIS. Picnic/cena en el césped. Noche larga (volvéis ~22:30). ⚠️ PENDIENTE: el ciclo 2026 y el título de la peli aún sin confirmar (cartelera se publica más cerca de la fecha; jueves = día correcto del ciclo).",
+          "desc": "Cine al aire libre en Pier 1 (Harbor View Lawn): 'When Harry Met Sally' al atardecer, con el skyline de fondo. Césped abre 18:00, peli al ponerse el sol (~20:30), GRATIS. Picnic/cena en el césped. ⚠️ PENDIENTE (problema real): Movies With A View 2026 NO proyecta el jue 9 jul. Fechas confirmadas: jue 2, 16, 23, 30 jul — ninguna cae en el viaje (4-12 jul) y el jue 9 está saltado. Hay que sustituir esta noche: otro ciclo de cine al aire libre que sí caiga ese jueves, o tarde-noche de Brooklyn (BBP, Time Out Market, atardecer) sin peli.",
           "tags": ["gratis"]
         }
       ]
@@ -688,7 +688,7 @@
           "name": "NoLita — Elizabeth St Garden + Prince St Pizza",
           "lat": 40.7228,
           "lng": -73.9952,
-          "desc": "Elizabeth Street Garden (jardín-galería de esculturas) y Prince Street Pizza (la slice icónica). Calles con encanto. ⚠️ PENDIENTE: a las 09:30 ni el jardín ni la pizzería están abiertos (abren ~11:00) → se ven por fuera; valorar reordenar o ajustar expectativas.",
+          "desc": "Elizabeth Street Garden: un acre escondido de estatuas y vegetación, de lo más bonito del barrio — salvado de la demolición en 2025 y ahora parque municipal, abierto 8-20h (a las 9:30 ya está abierto, ✔ verificado). Calles con encanto del NoLita de camino. Prince Street Pizza (la slice icónica) abre más tarde por la mañana → dejadla para otro momento si pasáis.",
           "tags": []
         },
         {
@@ -851,12 +851,11 @@
     ],
     "pendientes": [
       { "label": "🔴 D1 · Punto de los fuegos", "value": "En 2026 (50 aniv.) el lanzamiento se mueve al Seaport / Puente de Brooklyn (bajo East River) + bajo Hudson. Stuyvesant Cove queda ~3 km al norte → vista lejana y quizá tapada. Con llegada 18:55 a JFK no se llega a los buenos sitios sur (se llenan desde las 16:00). <b>A decidir:</b> punto del East River con vista despejada al sur, o asumir vista lejana. <a href='https://www.july4th.com/posts/macys-annual-fourth-of-july-fireworks-show' target='_blank'>fuente</a>" },
-      { "label": "🟠 D8 · NoLita a las 09:30", "value": "Elizabeth St Garden y Prince St Pizza abren ~11:00 → a esa hora se ven por fuera. Valorar reordenar o ajustar expectativas." },
       { "label": "🟠 D9 · Margen al aeropuerto", "value": "Strand cierra 12:15 + maletas → salida real ~12:45-13:00; con vuelo internacional 16:45 quedan ~2,5 h. Mejor recortar Strand o salir 12:15." },
       { "label": "🟠 Reservas urgentes (hoy 21 jun)", "value": "Kayak BBP abre reserva ~25 jun (en 4 días) y vuela. SUMMIT, Mets, AMNH, Met y Whitney: reservar esta semana." },
       { "label": "🟡 D2 · Zigzag en Central Park", "value": "El orden Belvedere→Sheep Meadow→Strawberry Fields hace ida-y-vuelta norte-sur. Reordenable, pero Bethesda pronto = verlo vacío (compensa)." },
       { "label": "🟡 Huecos de 5-10 min", "value": "D4 Times Sq→Grand Central, D5 Grove/Bedford→Meatpacking, D6 Pebble Beach→Promenade: caminata de ~12-15 min con buffer casi 0. Optimistas pero no rompen nada." },
-      { "label": "🟡 D6 · Cine 'Movies With A View'", "value": "El ciclo 2026 y el título de la peli aún sin confirmar (cartelera se publica más cerca de la fecha; jueves = día correcto)." },
+      { "label": "🔴 D6 · Cine NO disponible el jue 9", "value": "Confirmado: Movies With A View 2026 proyecta jue 2, 16, 23 y 30 jul — <b>ninguna cae en el viaje (4-12 jul)</b> y el jue 9 está saltado. Hay que sustituir la noche del D6: otro ciclo al aire libre que caiga ese jueves, o noche de Brooklyn (BBP + Time Out + atardecer) sin peli. <a href='https://www.brooklynpaper.com/brooklyn-bridge-park-movies-with-a-view-2026/' target='_blank'>fuente</a>" },
       { "label": "🟡 Posible falta: Broadway", "value": "No hay noche libre (todas con miradores/cine/béisbol). Si interesa, la lotería del día es la vía sin reventar el plan." }
     ]
   },
