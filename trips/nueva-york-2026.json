@@ -1,5 +1,5 @@
 {
-  "_v": 4,
+  "_v": 5,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -389,7 +389,7 @@
       "id": 5,
       "tab": "Día 5 · Mié 8",
       "title": "West Village + Hudson",
-      "subtitle": "Miércoles 8 julio · Met cerrado · Whitney · High Line · 🌅 Little Island 20:29",
+      "subtitle": "Miércoles 8 julio · Met cerrado · High Line de mañana · Whitney en el pico (AC) · 🌅 Little Island 20:29",
       "places": [
         {
           "id": "5.1",
@@ -444,54 +444,54 @@
         },
         {
           "id": "5.6",
-          "time": "10:10",
+          "time": "10:20",
           "dur": "30 min",
           "name": "Meatpacking District",
           "lat": 40.7403,
           "lng": -74.0069,
-          "desc": "Barrio de antiguos mataderos reconvertido: adoquines, boutiques y galerías. Junto al inicio de la High Line. ⚠️ PENDIENTE (hueco justo): de Grove/Bedford a aquí hay ~12 min andando y el plan deja solo 5 min de margen.",
+          "desc": "Barrio de antiguos mataderos reconvertido: adoquines, boutiques y galerías. Junto al inicio de la High Line.",
           "tags": []
         },
         {
           "id": "5.7",
-          "time": "10:45",
-          "dur": "2 h",
-          "name": "Whitney Museum of American Art",
-          "lat": 40.7396,
-          "lng": -74.0089,
-          "desc": "Arte americano (Hopper, O'Keeffe) con terrazas que miran al Hudson y la High Line. Abre 10:30. ~30 $ (el de 22 GRATIS por ser ≤25). ~2h con AC en el pico de calor.",
-          "tags": ["reservar"],
-          "link": "https://whitney.org/"
-        },
-        {
-          "id": "5.8",
-          "time": "13:00",
-          "dur": "1 h",
-          "name": "Chelsea Market (comida)",
-          "lat": 40.7425,
-          "lng": -74.0061,
-          "desc": "Mercado gastronómico cubierto (antigua fábrica Nabisco) con AC. Comida rápida entre puestos.",
-          "tags": []
-        },
-        {
-          "id": "5.9",
-          "time": "14:15",
+          "time": "10:55",
           "dur": "1 h",
           "name": "High Line",
           "lat": 40.746,
           "lng": -74.0058,
-          "desc": "Parque elevado sobre antiguas vías, con jardines y vistas. Caminá hacia el norte (Gansevoort → Hudson Yards). Llevad agua: tiene poca sombra.",
+          "desc": "Parque elevado sobre antiguas vías, con jardines y vistas. Caminá hacia el norte (Gansevoort → Hudson Yards). Ahora a media mañana, antes del pico de calor; aun así tiene poca sombra, llevad agua.",
           "tags": ["gratis"]
         },
         {
-          "id": "5.10",
-          "time": "15:30",
+          "id": "5.8",
+          "time": "12:00",
           "dur": "1 h",
           "name": "Hudson Yards (Vessel)",
           "lat": 40.7538,
           "lng": -74.0022,
-          "desc": "Final norte de la High Line: el Vessel (estructura en panal, exterior) y el centro comercial. El mirador Edge es de pago (opcional; vuestro mirador es SUMMIT).",
+          "desc": "Final norte de la High Line: el Vessel (estructura en panal, exterior — no se sube desde 2021) y el centro comercial (The Shops), refugio de AC al empezar el calor. El mirador Edge es de pago (opcional; vuestro mirador es SUMMIT).",
           "tags": []
+        },
+        {
+          "id": "5.9",
+          "time": "13:25",
+          "dur": "1 h",
+          "name": "Chelsea Market (comida)",
+          "lat": 40.7425,
+          "lng": -74.0061,
+          "desc": "Mercado gastronómico cubierto (antigua fábrica Nabisco) con AC. Comida entre puestos. Desde Hudson Yards bajad en metro A/C/E (con AC) o paseo de ~20 min.",
+          "tags": []
+        },
+        {
+          "id": "5.10",
+          "time": "14:40",
+          "dur": "2 h",
+          "name": "Whitney Museum of American Art",
+          "lat": 40.7396,
+          "lng": -74.0089,
+          "desc": "Arte americano (Hopper, O'Keeffe) con terrazas que miran al Hudson y la High Line. Abre 10:30 (mié hasta 18:00). El de 22 entra GRATIS a diario por ser ≤25 (reservad pase con hora); el de 29 ~30 $. ~2h con AC en pleno pico de calor.",
+          "tags": ["reservar"],
+          "link": "https://whitney.org/"
         },
         {
           "id": "5.11",
@@ -851,7 +851,7 @@
     ],
     "pendientes": [
       { "label": "🟠 Reservas urgentes (hoy 21 jun)", "value": "Kayak BBP abre reserva ~25 jun (en 4 días) y vuela. SUMMIT, Mets, AMNH, Met y Whitney: reservar esta semana." },
-      { "label": "🟡 Huecos de 5-10 min", "value": "D4 Times Sq→Grand Central, D5 Grove/Bedford→Meatpacking, D6 Pebble Beach→Promenade: caminata de ~12-15 min con buffer casi 0. Optimistas pero no rompen nada." },
+      { "label": "🟡 Huecos de 5-10 min", "value": "D4 Times Sq→Grand Central, D6 Pebble Beach→Promenade: caminata de ~12-15 min con buffer casi 0. Optimistas pero no rompen nada. (El de D5 ya se corrigió al reordenar el miércoles.)" },
       { "label": "🟡 Posible falta: Broadway", "value": "No hay noche libre (todas con miradores/cine/béisbol). Si interesa, la lotería del día es la vía sin reventar el plan." }
     ]
   },
