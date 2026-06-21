@@ -1,4 +1,4 @@
-const CACHE_NAME = 'trips-v2'
+const CACHE_NAME = 'trips-v3'
 const BASE = '/trips/'
 
 // App shell — cached on install

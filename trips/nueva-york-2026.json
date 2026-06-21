@@ -1,19 +1,32 @@
 {
-  "_v": 13,
+  "_v": 14,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
   "city": "Nueva York",
   "country": "Estados Unidos",
   "dates": "4-12 julio 2026",
-  "mapCenter": [40.74, -73.98],
+  "mapCenter": [
+    40.74,
+    -73.98
+  ],
   "mapZoom": 12,
   "hotel": {
     "lat": 40.7349,
     "lng": -73.9846,
     "name": "Hotel 17 – Extended Stay"
   },
-  "dayColors": ["#f7b731", "#26de81", "#fc5c65", "#a55eea", "#4b7bec", "#fd9644", "#2bcbba", "#eb3b5a", "#778ca3"],
+  "dayColors": [
+    "#f7b731",
+    "#26de81",
+    "#fc5c65",
+    "#a55eea",
+    "#4b7bec",
+    "#fd9644",
+    "#2bcbba",
+    "#eb3b5a",
+    "#778ca3"
+  ],
   "days": [
     {
       "id": 1,
@@ -29,7 +42,9 @@
           "lat": 40.7332,
           "lng": -73.974,
           "desc": "Desde JFK al hotel: taxi/Uber (~70 $, 45-60 min) o AirTrain + metro (~11 $, ~75 min); con la inmigración de un vuelo internacional contad con llegar ~21:00-21:30. Dejáis maletas y bajáis al paseo del East River (12 min). ✅ Decidido (lo tranquilo): en 2026 (50 aniversario) los fuegos se lanzan lejos al sur (Seaport / Puente de Brooklyn + bajo Hudson), así que desde aquí se ven DE LEJOS y sin agobios. Plan: paseo del East River a la altura de Stuyvesant Cove (~20th-23rd), mirando recto al SUR por el canal abierto del río — veréis los disparos altos sobre los puentes. Evitáis el barullo de las zonas oficiales del sur (se petan y la policía cierra accesos). Los petardazos bajos pueden quedar tapados por los puentes; los grandes aéreos se ven. Si un tramo del paseo está cortado, id al punto abierto más cercano. Si a las 21:25 seguís de camino, sin estrés. Cena rápida cerca de Union Square; a dormir pronto (mañana 7:30).",
-          "tags": ["gratis"],
+          "tags": [
+            "gratis"
+          ],
           "link": "https://www.macys.com/s/fireworks/"
         }
       ]
@@ -48,7 +63,9 @@
           "lat": 40.7669,
           "lng": -73.9737,
           "desc": "Desde el hotel: metro N/R/W o 4/5/6 a la 59th St (~20 min). Desayuno rápido antes (bagel cerca del hotel o en la 5ª Av). Entráis por la esquina SE del parque: The Pond y el puentecito de piedra Gapstow, uno de los reflejos del skyline más fotografiados. Vacío y fresco a primera hora; al lado quedan Grand Army Plaza y el hotel The Plaza.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "2.2",
@@ -58,7 +75,9 @@
           "lat": 40.7716,
           "lng": -73.9745,
           "desc": "Gran pradera sin tráfico (antaño pastaban ovejas de verdad) con el skyline asomando entre los árboles. A primera hora, tranquila; para tumbarse un rato si apetece (opcional). ℹ️ Va al principio a propósito: el orden de la mañana sube sin rodeos (sur→oeste→centro→Met) para evitar el zigzag de bajar y volver a subir — ~1,5 km menos a pie que el orden anterior.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "2.3",
@@ -68,7 +87,9 @@
           "lat": 40.7755,
           "lng": -73.9749,
           "desc": "Memorial a John Lennon: el mosaico 'Imagine' rodeado de jardín, casi siempre con alguien tocando sus canciones. Enfrente, el edificio Dakota (1 W 72nd, exterior), donde vivió y fue asesinado en 1980 (y fachada de 'La semilla del diablo'). Lado oeste del parque.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "2.4",
@@ -78,7 +99,10 @@
           "lat": 40.7741,
           "lng": -73.9711,
           "desc": "Por The Mall (alameda de olmos) hasta la terraza y la fuente Bethesda, el 'Ángel de las Aguas' — el corazón monumental del parque y su rincón más fotográfico. Bajad a la arcada inferior a ver el techo de azulejos Minton; detrás, The Lake con sus barcas de remo. A media mañana de domingo aún está tranquilo.",
-          "tags": ["gratis", "obligatorio"]
+          "tags": [
+            "gratis",
+            "obligatorio"
+          ]
         },
         {
           "id": "2.5",
@@ -88,7 +112,9 @@
           "lat": 40.7758,
           "lng": -73.9718,
           "desc": "El puente de hierro fundido más romántico de NY (1862) sobre The Lake, escenario de mil películas. De camino cruzáis The Ramble, un bosquecillo de senderos con sombra y pájaros donde apetece perderse un rato. Gran punto de fotos.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "2.6",
@@ -98,7 +124,9 @@
           "lat": 40.7794,
           "lng": -73.9691,
           "desc": "Pequeño castillo victoriano (1869) sobre Vista Rock — una 'folly' que hoy alberga la estación meteorológica del parque. Subid a sus terrazas para las vistas del Turtle Pond y el Great Lawn. Gratis. Desde aquí cruzáis al este, directo al Met.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "2.7",
@@ -108,7 +136,10 @@
           "lat": 40.7794,
           "lng": -73.9634,
           "desc": "Uno de los grandes museos del mundo. Cruzáis al lado este (comida rápida antes en un carrito/deli junto al museo). Imprescindibles: el Templo de Dendur (Egipto), la pintura europea, las armaduras y la azotea Cantor (vistas del parque, solo verano). Enorme y con AC en el pico de calor (~3h; imposible verlo todo, id a lo que os tire). 30 $ / 17 $ con carné de estudiante; vale 3 días e incluye The Cloisters. Dom 10-17h, reservad hora.",
-          "tags": ["obligatorio", "reservar"],
+          "tags": [
+            "obligatorio",
+            "reservar"
+          ],
           "link": "https://www.metmuseum.org/"
         },
         {
@@ -119,7 +150,9 @@
           "lat": 40.783,
           "lng": -73.959,
           "desc": "5 min al norte. El museo en espiral blanca de Frank Lloyd Wright (1959), una obra maestra en sí: por dentro se baja una rampa helicoidal. Lo vemos por fuera (el edificio es lo icónico); entrar es opcional si os sobra tiempo y os va el arte moderno.",
-          "tags": ["gratis"],
+          "tags": [
+            "gratis"
+          ],
           "link": "https://www.guggenheim.org/"
         },
         {
@@ -140,7 +173,10 @@
           "lat": 40.7524,
           "lng": -73.9581,
           "desc": "Tranvía aéreo (teleférico urbano) desde la 2ª Av/59th sobre el East River — acepta OMNY (2,90 $, cuenta para el tope) y el trayecto ya es la atracción. Paseáis la isla hasta Southpoint Park, el FDR Four Freedoms Park (memorial de Louis Kahn) y las ruinas góticas del viejo hospital de viruela. Atardecer con el skyline de Manhattan enfrente (el sol se pone tras la ciudad; Four Freedoms cierra 19:00). ⚠️ El tranvía se peta al atardecer, sobre todo a la VUELTA (todos salen a la vez): subid en tranvía (la experiencia y las vistas) y VOLVED EN METRO F (estación Roosevelt Island, directo bajo el río, también OMNY) para esquivar la cola. Las vistas del atardecer son desde la isla (Southpoint), no desde el tranvía, así que no perdéis nada. Cena → hotel ~21:30.",
-          "tags": ["gratis", "mirador"],
+          "tags": [
+            "gratis",
+            "mirador"
+          ],
           "link": "https://rioc.ny.gov/302/Tram"
         }
       ]
@@ -159,7 +195,9 @@
           "lat": 40.7036,
           "lng": -74.0161,
           "desc": "Desde el hotel: metro 4/5 a Bowling Green (~20 min). Desayuno rápido antes. Parque en la punta sur con vistas al puerto y a la Estatua a lo lejos. Empezáis en el fresco de la mañana.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "3.2",
@@ -169,7 +207,9 @@
           "lat": 40.7056,
           "lng": -74.0136,
           "desc": "El toro de Wall St (Bowling Green) y, a un paso, la 'Fearless Girl' frente a la Bolsa (Broad St). Foto rápida; suele haber cola para el toro.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "3.3",
@@ -179,7 +219,9 @@
           "lat": 40.7072,
           "lng": -74.0103,
           "desc": "Corazón financiero: Federal Hall (escalinata con la estatua de Washington, gratis), la fachada de la Bolsa (NYSE) y, subiendo Broadway, Trinity Church (iglesia neogótica, gratis).",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "3.4",
@@ -199,7 +241,9 @@
           "lat": 40.7116,
           "lng": -74.0112,
           "desc": "Estación-centro comercial de Calatrava: esqueleto blanco espectacular. Interior con AC, de paso al 9/11.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "3.6",
@@ -209,7 +253,10 @@
           "lat": 40.7115,
           "lng": -74.0136,
           "desc": "Las dos fuentes en las huellas de las torres (North & South Pool), con los nombres grabados en bronce, son GRATIS y son lo imprescindible aquí. ✅ Decidido: NO entramos al museo (de pago ~33 $; el 'gratis lunes' es solo 17:30-19:00) → veis las fuentes, el Oculus al lado y seguís. El día queda más corto y relajado.",
-          "tags": ["obligatorio", "gratis"],
+          "tags": [
+            "obligatorio",
+            "gratis"
+          ],
           "link": "https://www.911memorial.org/"
         },
         {
@@ -230,7 +277,9 @@
           "lat": 40.7132,
           "lng": -74.0041,
           "desc": "No os bajáis: cogéis el 6 sentido centro en Brooklyn Bridge–City Hall y, en el giro de retorno, veis por la ventana la antigua estación de 1904 (azulejos, vidrieras). Gratis con vuestro billete.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "3.9",
@@ -240,7 +289,9 @@
           "lat": 40.7059,
           "lng": -74.0028,
           "desc": "Puerto histórico en el East River (Pier 15-17). Del 3 al 8 jul, grandes veleros del Sail4th 250 atracados (250 aniv. de EE. UU.). Pier 17 tiene azotea con vistas al Brooklyn Bridge; el Tin Building (food hall, AC) sirve de refugio del calor.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "3.10",
@@ -250,7 +301,9 @@
           "lat": 40.7034,
           "lng": -74.0088,
           "desc": "Parque elevado escondido sobre 55 Water St: césped, dunas de hierba alta y un rincón tranquilo con vistas al East River, casi siempre vacío. Se entra por unas escaleras/ascensor discretos entre los rascacielos (fácil pasar de largo). Parada de 20 min de camino al ferry, aprovechando el hueco de la tarde.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "3.11",
@@ -260,7 +313,10 @@
           "lat": 40.7014,
           "lng": -74.0131,
           "desc": "Ferry GRATIS desde Whitehall (5 min al sur del Seaport). Ida: lado derecho (Estatua); vuelta: izquierda (skyline). ~50 min ida y vuelta. Día corto: a las 17:30 termináis pronto (cena → hotel ~19:30). Si preferís luz de atardecer pleno, podéis empujar la salida a ~19:45 (entonces volvéis más tarde).",
-          "tags": ["gratis", "mirador"]
+          "tags": [
+            "gratis",
+            "mirador"
+          ]
         }
       ]
     },
@@ -278,7 +334,9 @@
           "lat": 40.7681,
           "lng": -73.9819,
           "desc": "Desde el hotel: metro a Columbus Circle (~20 min). Desayuno rápido. Plaza con la columna de Colón en la esquina SO de Central Park; empieza el Upper West Side.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "4.2",
@@ -288,7 +346,9 @@
           "lat": 40.7725,
           "lng": -73.9835,
           "desc": "Plaza del gran complejo de artes escénicas (la fuente y la Metropolitan Opera). Foto rápida de camino al museo.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "4.3",
@@ -298,7 +358,10 @@
           "lat": 40.7813,
           "lng": -73.9741,
           "desc": "Subís por el UWS (paseo + desayuno si no antes). Abre 10:00. Dinosaurios, la ballena azul, gemas, planetario. ~28 $ con hora reservada. ~2h con AC.",
-          "tags": ["obligatorio", "reservar"],
+          "tags": [
+            "obligatorio",
+            "reservar"
+          ],
           "link": "https://www.amnh.org/"
         },
         {
@@ -309,7 +372,10 @@
           "lat": 40.7615,
           "lng": -73.9779,
           "desc": "Bajáis a Midtown (metro B/D ~15 min). Comida rápida antes. Arte moderno top (Van Gogh 'Noche estrellada', Picasso, Warhol). 30 $ / 14 $ est., hora reservada. ~2h con AC — 2º museo seguido, pero ambos caen en el pico de calor.",
-          "tags": ["obligatorio", "reservar"],
+          "tags": [
+            "obligatorio",
+            "reservar"
+          ],
           "link": "https://www.moma.org/"
         },
         {
@@ -320,7 +386,9 @@
           "lat": 40.7587,
           "lng": -73.9788,
           "desc": "Plaza de Rockefeller + los Channel Gardens. Durante el Mundial, la pista de hielo es el Telemundo Fan Village (pantallas, ambiente, gratis). Top of the Rock: pasáis por su puerta (la entrada al mirador está aquí mismo) — no subimos, el vuestro es SUMMIT, pero el edificio Art Déco y la plaza ya los veis de paso.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "4.6",
@@ -330,7 +398,9 @@
           "lat": 40.7586,
           "lng": -73.9764,
           "desc": "Catedral neogótica en la 5ª Av, enfrente de Rockefeller. Entrada gratis.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "4.7",
@@ -360,7 +430,9 @@
           "lat": 40.7539,
           "lng": -73.9839,
           "desc": "Parque-oasis tras la Biblioteca Pública (NYPL): entrad a ver la Rose Reading Room (gratis). Al lado, la azotea pública gratis de la biblioteca SNFL (455 5ª Av) con vistas. Merienda rápida en el parque.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "4.10",
@@ -370,7 +442,9 @@
           "lat": 40.7527,
           "lng": -73.9773,
           "desc": "Vestíbulo monumental de Grand Central (techo con constelaciones, gratis). Saliendo, la aguja art déco del Chrysler Building enfrente (exterior).",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "4.11",
@@ -380,7 +454,11 @@
           "lat": 40.753,
           "lng": -73.9785,
           "desc": "Mirador inmersivo de espejos en One Vanderbilt (al lado de Grand Central). Reservad franja de atardecer (se agotan). El Ascent (ascensor de cristal) cuesta aparte — saltable. Cena rápida por Midtown y luego Times Square de noche.",
-          "tags": ["obligatorio", "reservar", "mirador"],
+          "tags": [
+            "obligatorio",
+            "reservar",
+            "mirador"
+          ],
           "link": "https://summitov.com/"
         },
         {
@@ -409,7 +487,9 @@
           "lat": 40.7308,
           "lng": -73.9973,
           "desc": "Desde el hotel: andando o metro a la 8th St (~15 min). Desayuno rápido. El arco y la fuente, corazón bohemio de Greenwich Village.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "5.2",
@@ -429,7 +509,9 @@
           "lat": 40.7345,
           "lng": -73.9994,
           "desc": "Antiguo juzgado neogótico de 1877, hoy biblioteca pública — de los edificios más bonitos de NY. El jardín gratis de detrás abre 10h (mar-dom, temporada abr-oct); a esta hora se ve el edificio por fuera.",
-          "tags": ["gratis"],
+          "tags": [
+            "gratis"
+          ],
           "link": "https://www.nypl.org/locations/jefferson-market"
         },
         {
@@ -440,7 +522,9 @@
           "lat": 40.7339,
           "lng": -74.0022,
           "desc": "Calles arboladas del West Village. Christopher St y el Stonewall Inn (cuna del movimiento LGTBQ+, 1969). Paseo a la sombra en el fresco de la mañana.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "5.5",
@@ -450,7 +534,9 @@
           "lat": 40.732,
           "lng": -74.0056,
           "desc": "La esquina más fotogénica del Village: el edificio de 'Friends' (90 Bedford, exterior) y la casa más estrecha de NY (75½ Bedford, 2,9 m de ancho).",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "5.6",
@@ -470,7 +556,9 @@
           "lat": 40.746,
           "lng": -74.0058,
           "desc": "Parque elevado sobre antiguas vías, con jardines y vistas. Caminá hacia el norte (Gansevoort → Hudson Yards). Ahora a media mañana, antes del pico de calor; aun así tiene poca sombra, llevad agua.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "5.8",
@@ -500,7 +588,9 @@
           "lat": 40.7396,
           "lng": -74.0089,
           "desc": "Arte americano (Hopper, O'Keeffe) con terrazas que miran al Hudson y la High Line. Abre 10:30 (mié hasta 18:00). El de 22 entra GRATIS a diario por ser ≤25 (reservad pase con hora); el de 29 ~30 $. ~2h con AC en pleno pico de calor.",
-          "tags": ["reservar"],
+          "tags": [
+            "reservar"
+          ],
           "link": "https://whitney.org/"
         },
         {
@@ -511,7 +601,9 @@
           "lat": 40.7436,
           "lng": -74.0106,
           "desc": "Bajáis por el Hudson River Park. Pier 57 tiene azotea pública GRATIS con césped y vistas al río. Paseo + cena temprana junto al agua.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "5.12",
@@ -521,7 +613,10 @@
           "lat": 40.7419,
           "lng": -74.0103,
           "desc": "Parque flotante sobre tulipas de hormigón en el Hudson. Atardecer sobre el río (el sol se pone al oeste, sobre Nueva Jersey). ✅ Entrada SIEMPRE gratis: nada que reservar ni pagar. En verano puede pedir un pase con hora a partir de mediodía, pero también es gratis y se saca online el mismo día. Vuelta al hotel.",
-          "tags": ["gratis", "mirador"],
+          "tags": [
+            "gratis",
+            "mirador"
+          ],
           "link": "https://littleisland.org/"
         }
       ]
@@ -540,7 +635,9 @@
           "lat": 40.7061,
           "lng": -73.9969,
           "desc": "Desde el hotel: metro 4/5/6 a Brooklyn Bridge–City Hall (~15 min). Cruzáis el puente A PIE (~35 min) en el fresco de la mañana, con las mejores vistas y luz.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "6.2",
@@ -550,7 +647,9 @@
           "lat": 40.7029,
           "lng": -73.9904,
           "desc": "La foto icónica: el puente de Manhattan enmarcado entre los edificios, en Washington St esq. Water St. Jane's Carousel (tiovivo de 1922 en pabellón de cristal) y los almacenes Empire Stores.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "6.3",
@@ -560,7 +659,9 @@
           "lat": 40.7036,
           "lng": -73.9904,
           "desc": "Orilla de cantos rodados en el extremo este de Brooklyn Bridge Park: los dos puentes (Brooklyn y Manhattan) + One WTC en una sola foto. Está dentro de DUMBO, al pie de Main St.",
-          "tags": ["gratis"],
+          "tags": [
+            "gratis"
+          ],
           "link": "https://brooklynbridgepark.org/places-to-see/pebble-beach/"
         },
         {
@@ -571,7 +672,9 @@
           "lat": 40.696,
           "lng": -73.9974,
           "desc": "Paseo elevado con vistas al skyline de Manhattan y el puente. Calles de casas señoriales (brownstones). ⚠️ PENDIENTE (hueco justo): de Pebble Beach a aquí hay ~15 min andando cuesta arriba y el plan deja solo 10 min de margen.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "6.5",
@@ -581,7 +684,9 @@
           "lat": 40.6759,
           "lng": -74.0156,
           "desc": "B61 bus (~20 min) hasta Red Hook (barrio costero industrial-bohemio, adoquines). En Louis Valentino Jr Park, la vista de cara más cercana a la Estatua desde tierra. Comida: Red Hook Lobster Pound / key lime pie. Mediodía expuesto pero con brisa del agua — llevad agua.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "6.6",
@@ -601,7 +706,10 @@
           "lat": 40.6996,
           "lng": -73.9988,
           "desc": "Kayak GRATIS en Brooklyn Bridge Park (Pier 2), turnos de 20 min con chaleco. ⚠️ Reservar 2 semanas antes (se abre ~25 jun).",
-          "tags": ["gratis", "reservar"],
+          "tags": [
+            "gratis",
+            "reservar"
+          ],
           "link": "https://www.bbpboathouse.org/"
         },
         {
@@ -612,7 +720,9 @@
           "lat": 40.7015,
           "lng": -73.9969,
           "desc": "Cine al aire libre en Pier 1 (Harbor View Lawn): 'When Harry Met Sally' al atardecer, con el skyline de fondo (✔ confirmado: jue 9 jul 2026, 18:00-23:00). Césped abre 18:00, peli al ponerse el sol (~20:30), GRATIS y por orden de llegada → llegad pronto a coger sitio. Picnic/cena en el césped. Noche larga (volvéis ~22:30). Y la peli tiene la mítica escena del Katz's Deli (ver Info).",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         }
       ]
     },
@@ -630,7 +740,9 @@
           "lat": 40.747,
           "lng": -73.9583,
           "desc": "Desde el hotel: línea 7 (~30 min). Parque junto al East River en Long Island City: las viejas grúas (gantries), el cartel 'Pepsi-Cola' y las MEJORES vistas del skyline de Midtown desde el agua. Fresco de la mañana.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "7.2",
@@ -640,7 +752,9 @@
           "lat": 40.7428,
           "lng": -73.9617,
           "desc": "Justo al sur, parque moderno con más skyline y zonas verdes junto al agua.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "7.3",
@@ -660,7 +774,9 @@
           "lat": 40.7459,
           "lng": -73.8453,
           "desc": "Línea 7 hasta Mets–Willets Point (~20 min). El gran parque de las Exposiciones Universales: la Unisphere (globo de acero de 1964). Expuesto al sol — la Unisphere es foto rápida; el Queens Museum (Panorama de NY, AC) sirve de refugio del calor.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "7.5",
@@ -670,7 +786,9 @@
           "lat": 40.7571,
           "lng": -73.8458,
           "desc": "Al lado de la Unisphere. Mets vs Boston Red Sox, 19:10 (el atardecer cae durante el partido). Cena en el estadio. Noche larga (2ª excepción). Vuelta en la 7 / LIRR.",
-          "tags": ["reservar"],
+          "tags": [
+            "reservar"
+          ],
           "link": "https://www.mlb.com/mets/ballpark"
         }
       ]
@@ -699,7 +817,9 @@
           "lat": 40.7184,
           "lng": -74.0019,
           "desc": "Callejón angosto con pinta del viejo Nueva York (escaleras de incendios, set de mil pelis y series), entre Franklin y White St junto a Canal. Foto rápida de paso, justo al sur de SoHo antes de virar hacia NoLita. Gratis.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "8.3",
@@ -719,7 +839,9 @@
           "lat": 40.7237,
           "lng": -73.9948,
           "desc": "La catedral 'vieja' de 1815 (≠ la de la 5ª Av del D4): basílica restaurada y dos cementerios amurallados, raros en Manhattan. En plena ruta de NoLita (Mott/Prince). El tour de catacumbas a la luz de velas es de pago/reserva (jue-lun), opcional.",
-          "tags": ["gratis"],
+          "tags": [
+            "gratis"
+          ],
           "link": "https://oldcathedral.org/"
         },
         {
@@ -750,7 +872,9 @@
           "lat": 40.7222,
           "lng": -73.992,
           "desc": "Callejón sin salida cubierto de arte urbano y grafitis (al fondo, el restaurante Freeman's), saliendo de Rivington St junto a Bowery. Foto rápida en el borde NoLita/LES, justo de camino de Chinatown a Essex Market. Gratis.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "8.8",
@@ -770,7 +894,9 @@
           "lat": 40.7137,
           "lng": -73.9718,
           "desc": "Cruzáis el puente de Williamsburg A PIE (desde Delancey, ~30 min) hacia Brooklyn, sin metro y con vistas. A media tarde (más fresco).",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "8.10",
@@ -790,7 +916,10 @@
           "lat": 40.7144,
           "lng": -73.9677,
           "desc": "Paseo marítimo de Williamsburg (antigua refinería Domino) y el North 5th Street Pier. Atardecer con el skyline de Manhattan enfrente. Vuelta en metro L (Bedford Av → Union Sq, directo al hotel).",
-          "tags": ["gratis", "mirador"]
+          "tags": [
+            "gratis",
+            "mirador"
+          ]
         }
       ]
     },
@@ -818,7 +947,9 @@
           "lat": 40.7411,
           "lng": -73.9897,
           "desc": "El icónico edificio triangular en la confluencia de Broadway y la 5ª Av. Foto.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "9.3",
@@ -828,7 +959,9 @@
           "lat": 40.7424,
           "lng": -73.9876,
           "desc": "Parque con la Shake Shack ORIGINAL y, al lado, Eataly (mercado italiano). Buen sitio para un último bocado.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "9.4",
@@ -848,7 +981,9 @@
           "lat": 40.7359,
           "lng": -73.9911,
           "desc": "Plaza con mucho ambiente en el corazón del centro. ⚠️ El greenmarket de productores es lun/mié/vie/sáb → el domingo 12 no hay mercado, pero la plaza y el trasiego siguen mereciendo el paseo.",
-          "tags": ["gratis"]
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "9.6",
@@ -865,36 +1000,297 @@
   ],
   "info": {
     "transport": [
-      { "label": "JFK → Manhattan", "value": "Taxi/Uber ~70 $ (45-60 min) · AirTrain + metro ~11 $ (~75 min)" },
-      { "label": "Metro/bus (OMNY)", "value": "Contactless, 3 $/viaje, tope semanal 35 $ (gratis tras 12 viajes en 7 días, por tarjeta). Sin MetroCard." },
-      { "label": "Ferries", "value": "Staten Island Ferry gratis (Estatua) · NYC Ferry ~4,50-5 $ (Red Hook) · IKEA ferry gratis (findes)" },
-      { "label": "A pie", "value": "Walking-first. Metro (con AC) permitido para cruzar ciudad en el pico de calor (~13-16h)." }
-    ],
-    "food": [
-      { "label": "Rápido / puestos", "value": "Pizza (Joe's, Prince St, 1 Dollar), bagels, hot dogs (Gray's Papaya), food halls (Chelsea Market, Time Out, Essex Market)" },
-      { "label": "Katz's Delicatessen (LES · opcional)", "value": "EL deli histórico de NY: pastrami y sándwiches enormes (~28 $), suele haber cola. Es donde se rodó la escena de 'When Harry Met Sally' (vuestra peli del cine del jue 9). 205 E Houston St (Houston/Ludlow), en pleno LES del D8 (sáb 11) — sentaos aquí si queréis UN deli como Dios manda; si no, Essex Market al lado es más rápido. Findes abierto 24h." },
-      { "label": "Smorgasburg", "value": "Mercado gastronómico al aire libre — sábados en Williamsburg" },
-      { "label": "Dulces", "value": "Cinnamon rolls, donut Krispy Kreme (con el 'Hot Light' rojo encendido), cheesecake" }
+      {
+        "label": "JFK → Manhattan",
+        "value": "Taxi/Uber ~70 $ (45-60 min) · AirTrain + metro ~11 $ (~75 min)"
+      },
+      {
+        "label": "Metro/bus (OMNY)",
+        "value": "Contactless, 3 $/viaje, tope semanal 35 $ (gratis tras 12 viajes en 7 días, por tarjeta). Sin MetroCard."
+      },
+      {
+        "label": "Ferries",
+        "value": "Staten Island Ferry gratis (Estatua) · NYC Ferry ~4,50-5 $ (Red Hook) · IKEA ferry gratis (findes)"
+      },
+      {
+        "label": "A pie",
+        "value": "Walking-first. Metro (con AC) permitido para cruzar ciudad en el pico de calor (~13-16h)."
+      }
     ],
     "reservas": [
-      { "label": "🔴 Kayak BBP Pier 2 (jue 9)", "value": "GRATIS. La reserva se abre EXACTAMENTE 2 semanas antes → ~25 jun. Vuela. 17-19h.", "link": "https://www.bbpboathouse.org/" },
-      { "label": "🔴 SUMMIT One Vanderbilt (mar 7)", "value": "Entrada con hora; las franjas de atardecer se agotan → reservar pronto." },
-      { "label": "🔴 Mets vs Red Sox (vie 10)", "value": "19:10 Citi Field. Comprar ya (serie popular)." },
-      { "label": "🟠 AMNH (mar 7)", "value": "Ticket con hora; en verano se llena." },
-      { "label": "🟠 Met (dom 5)", "value": "Ticket con hora. 30 $ / 17 $ est.; vale 3 días + Cloisters." },
-      { "label": "🟠 Whitney (mié 8)", "value": "Ticket con hora (el de 22 entra gratis por ser ≤25)." },
-      { "label": "🟠 MoMA (pendiente)", "value": "Si finalmente entra (D4): ticket con hora." },
-      { "label": "✅ 9/11 (lun 6)", "value": "Decidido: NO entramos al museo, solo las fuentes del memorial (gratis). Sin reserva." },
-      { "label": "🟢 Sin reserva", "value": "Little Island (gratis siempre), Broadway (lotería el día), fan zones Mundial, Movies With A View, Staten Island Ferry, Smorgasburg, CitiBike, tranvía Roosevelt Island, NYC Ferry/Red Hook, veleros." },
-      { "label": "⚪ Si cambiáis default", "value": "Statue City Cruises (pisar la isla ~25,50 $; corona con meses). Octavos MetLife 5 jul = entrada FIFA." }
+      {
+        "label": "🔴 Kayak BBP Pier 2 (jue 9)",
+        "value": "GRATIS. La reserva se abre EXACTAMENTE 2 semanas antes → ~25 jun. Vuela. 17-19h.",
+        "link": "https://www.bbpboathouse.org/"
+      },
+      {
+        "label": "🔴 SUMMIT One Vanderbilt (mar 7)",
+        "value": "Entrada con hora; las franjas de atardecer se agotan → reservar pronto."
+      },
+      {
+        "label": "🔴 Mets vs Red Sox (vie 10)",
+        "value": "19:10 Citi Field. Comprar ya (serie popular)."
+      },
+      {
+        "label": "🟠 AMNH (mar 7)",
+        "value": "Ticket con hora; en verano se llena."
+      },
+      {
+        "label": "🟠 Met (dom 5)",
+        "value": "Ticket con hora. 30 $ / 17 $ est.; vale 3 días + Cloisters."
+      },
+      {
+        "label": "🟠 Whitney (mié 8)",
+        "value": "Ticket con hora (el de 22 entra gratis por ser ≤25)."
+      },
+      {
+        "label": "🟠 MoMA (pendiente)",
+        "value": "Si finalmente entra (D4): ticket con hora."
+      },
+      {
+        "label": "✅ 9/11 (lun 6)",
+        "value": "Decidido: NO entramos al museo, solo las fuentes del memorial (gratis). Sin reserva."
+      },
+      {
+        "label": "🟢 Sin reserva",
+        "value": "Little Island (gratis siempre), Broadway (lotería el día), fan zones Mundial, Movies With A View, Staten Island Ferry, Smorgasburg, CitiBike, tranvía Roosevelt Island, NYC Ferry/Red Hook, veleros."
+      },
+      {
+        "label": "⚪ Si cambiáis default",
+        "value": "Statue City Cruises (pisar la isla ~25,50 $; corona con meses). Octavos MetLife 5 jul = entrada FIFA."
+      }
     ],
     "pendientes": [
-      { "label": "🟠 D9 (dom) · Empire State opcional", "value": "Añadido a la lista del domingo como OPCIONAL (vestíbulo Art Déco gratis; NO subimos, el mirador es el SUMMIT). Es un desvío de ~40 min desde Madison Square Park (sube a la 34th y vuelve) y choca con el margen JUSTO al aeropuerto (salir del hotel ≤12:15 para el vuelo 16:45). A decidir el día: solo si salís antes o acortáis Strand; si no, se ve de lejos desde el SUMMIT y Flatiron." },
-      { "label": "🟠 Reservas urgentes (hoy 21 jun)", "value": "Kayak BBP abre reserva ~25 jun (en 4 días) y vuela. SUMMIT, Mets, AMNH, Met y Whitney: reservar esta semana." },
-      { "label": "🟡 Huecos de 5-10 min", "value": "D6 Pebble Beach→Promenade: caminata ~15 min con buffer ~10 min. Optimista pero no rompe nada. (Los de D4 Times Sq→Grand Central y D5 Grove/Bedford→Meatpacking ya se corrigieron al reordenar.)" },
-      { "label": "🟠 Broadway (lotería del día) — decidir matinée vs noche", "value": "SÍ queremos probar la lotería del día (barata ~30-50 $/persona, es POR función → vale también para matinée). Día recomendado: MIÉRCOLES 8 (lunes dark = sin teatro; jue/vie ya son noches tardías; sábado sería alternativa pero dropea Smorgasburg/Williamsburg). FALTA DECIDIR el tipo de función y según eso se dropea distinto: ① NOCHE (~19-20h, el sorteo se resuelve por la TARDE) → dropear 🌅 Little Island + Pier 57 (toda la tarde-noche del Hudson); contra: serían 3 noches tardías SEGUIDAS (mié teatro + jue cine + vie béisbol). ② MATINÉE (~14h, el sorteo se resuelve por la MAÑANA, así sabéis si toca ANTES de comprometer la tarde) → dropear el Whitney (museo, el de 22 entra gratis) + Chelsea Market (bloque de mediodía); MANTENÉIS el atardecer de Little Island; a favor: cero noche tardía y AC en el pico de calor. Si no toca la lotería, se sigue el plan normal sin perder nada." }
+      {
+        "label": "🟠 D9 (dom) · Empire State opcional",
+        "value": "Añadido a la lista del domingo como OPCIONAL (vestíbulo Art Déco gratis; NO subimos, el mirador es el SUMMIT). Es un desvío de ~40 min desde Madison Square Park (sube a la 34th y vuelve) y choca con el margen JUSTO al aeropuerto (salir del hotel ≤12:15 para el vuelo 16:45). A decidir el día: solo si salís antes o acortáis Strand; si no, se ve de lejos desde el SUMMIT y Flatiron."
+      },
+      {
+        "label": "🟠 Reservas urgentes (hoy 21 jun)",
+        "value": "Kayak BBP abre reserva ~25 jun (en 4 días) y vuela. SUMMIT, Mets, AMNH, Met y Whitney: reservar esta semana."
+      },
+      {
+        "label": "🟡 Huecos de 5-10 min",
+        "value": "D6 Pebble Beach→Promenade: caminata ~15 min con buffer ~10 min. Optimista pero no rompe nada. (Los de D4 Times Sq→Grand Central y D5 Grove/Bedford→Meatpacking ya se corrigieron al reordenar.)"
+      },
+      {
+        "label": "🟠 Broadway (lotería del día) — decidir matinée vs noche",
+        "value": "SÍ queremos probar la lotería del día (barata ~30-50 $/persona, es POR función → vale también para matinée). Día recomendado: MIÉRCOLES 8 (lunes dark = sin teatro; jue/vie ya son noches tardías; sábado sería alternativa pero dropea Smorgasburg/Williamsburg). FALTA DECIDIR el tipo de función y según eso se dropea distinto: ① NOCHE (~19-20h, el sorteo se resuelve por la TARDE) → dropear 🌅 Little Island + Pier 57 (toda la tarde-noche del Hudson); contra: serían 3 noches tardías SEGUIDAS (mié teatro + jue cine + vie béisbol). ② MATINÉE (~14h, el sorteo se resuelve por la MAÑANA, así sabéis si toca ANTES de comprometer la tarde) → dropear el Whitney (museo, el de 22 entra gratis) + Chelsea Market (bloque de mediodía); MANTENÉIS el atardecer de Little Island; a favor: cero noche tardía y AC en el pico de calor. Si no toca la lotería, se sigue el plan normal sin perder nada."
+      }
     ]
   },
+  "restaurants": [
+    {
+      "id": "r.1",
+      "name": "Tal Bagels",
+      "cat": "🥯 Bagels",
+      "lat": 40.7779,
+      "lng": -73.9568,
+      "desc": "Cadena fiable de bagels (UES, 1228 Lexington · varias sucursales)."
+    },
+    {
+      "id": "r.2",
+      "name": "Leon's Bagels",
+      "cat": "🥯 Bagels",
+      "lat": 40.727,
+      "lng": -74.0003,
+      "desc": "SoHo (169 Thompson St). También en Mulberry St y John St."
+    },
+    {
+      "id": "r.3",
+      "name": "Apollo Bagels",
+      "cat": "🥯 Bagels",
+      "lat": 40.7288,
+      "lng": -73.9848,
+      "desc": "East Village (242 E 10th St). Mucha fama, suele haber cola."
+    },
+    {
+      "id": "r.4",
+      "name": "Joe's Pizza",
+      "cat": "🍕 Pizza",
+      "lat": 40.7305,
+      "lng": -74.0027,
+      "desc": "Clásico de porción. Cadena; el original (flagship) en 7 Carmine St, Greenwich Village."
+    },
+    {
+      "id": "r.5",
+      "name": "Prince Street Pizza",
+      "cat": "🍕 Pizza",
+      "lat": 40.7228,
+      "lng": -73.9943,
+      "desc": "Nolita (27 Prince St). Famosa por la 'pepperoni cup'."
+    },
+    {
+      "id": "r.6",
+      "name": "1 Dollar Pizza",
+      "cat": "🍕 Pizza",
+      "lat": 40.7287,
+      "lng": -73.9886,
+      "desc": "Porción a ~1 $. Concepto de varias sucursales (tipo 2 Bros / 99¢); pin orientativo en St Marks Pl."
+    },
+    {
+      "id": "r.7",
+      "name": "Hamburger America",
+      "cat": "🍔 Burgers",
+      "lat": 40.728,
+      "lng": -74.0025,
+      "desc": "51 MacDougal St (SoHo). Smash burgers al estilo clásico."
+    },
+    {
+      "id": "r.8",
+      "name": "7th Street Burger",
+      "cat": "🍔 Burgers",
+      "lat": 40.7264,
+      "lng": -73.9847,
+      "desc": "Cadena en expansión; el original en 91 E 7th St (East Village)."
+    },
+    {
+      "id": "r.9",
+      "name": "Smashy Burger",
+      "cat": "🍔 Burgers",
+      "lat": 40.736,
+      "lng": -73.989,
+      "desc": "42 Union Square East (Union Square)."
+    },
+    {
+      "id": "r.10",
+      "name": "Gotham Burger Social Club",
+      "cat": "🍔 Burgers",
+      "lat": 40.72,
+      "lng": -73.9876,
+      "desc": "131 Essex St (Lower East Side). Smash burger original del LES."
+    },
+    {
+      "id": "r.11",
+      "name": "Shake Shack (Upper West Side)",
+      "cat": "🍔 Burgers",
+      "lat": 40.78,
+      "lng": -73.9762,
+      "desc": "Cadena · 366 Columbus Ave (@77), a un paso del AMNH (D2)."
+    },
+    {
+      "id": "r.12",
+      "name": "Smorgasburg Williamsburg",
+      "cat": "🏬 Mercados y food halls",
+      "lat": 40.7219,
+      "lng": -73.9627,
+      "desc": "Mercado gastronómico al aire libre — solo SÁBADOS en Williamsburg (encaja con el D8)."
+    },
+    {
+      "id": "r.13",
+      "name": "Chelsea Market",
+      "cat": "🏬 Mercados y food halls",
+      "lat": 40.7425,
+      "lng": -74.0061,
+      "desc": "Ya en el plan (D5, mié). Mercado cubierto con muchos puestos."
+    },
+    {
+      "id": "r.14",
+      "name": "Time Out Market",
+      "cat": "🏬 Mercados y food halls",
+      "lat": 40.7027,
+      "lng": -73.9906,
+      "desc": "DUMBO (Brooklyn), 55 Water St. Azotea con vistas al puente de Brooklyn."
+    },
+    {
+      "id": "r.15",
+      "name": "Essex Market",
+      "cat": "🏬 Mercados y food halls",
+      "lat": 40.7186,
+      "lng": -73.9881,
+      "desc": "Lower East Side (88 Essex St). Rápido, justo al lado de Katz's (D8)."
+    },
+    {
+      "id": "r.16",
+      "name": "Brookfield Place",
+      "cat": "🏬 Mercados y food halls",
+      "lat": 40.7128,
+      "lng": -74.0151,
+      "desc": "Financial District. Hudson Eats con vistas al río."
+    },
+    {
+      "id": "r.17",
+      "name": "Katz's Delicatessen",
+      "cat": "🥩 Delis clásicos",
+      "lat": 40.7223,
+      "lng": -73.9874,
+      "desc": "EL deli histórico: pastrami, sándwiches enormes (~28 $), suele haber cola. Aquí se rodó la escena de 'When Harry Met Sally' (vuestra peli del cine del jue 9). 205 E Houston St, en pleno LES del D8 (sáb 11). Findes abierto 24h."
+    },
+    {
+      "id": "r.18",
+      "name": "Roberta's",
+      "cat": "🥩 Delis clásicos",
+      "lat": 40.705,
+      "lng": -73.9335,
+      "desc": "Pizza icónica de Brooklyn (Bushwick, 261 Moore St)."
+    },
+    {
+      "id": "r.19",
+      "name": "Gray's Papaya",
+      "cat": "🌭 Imprescindibles NY",
+      "lat": 40.7787,
+      "lng": -73.9819,
+      "desc": "Perritos calientes baratos, abierto siempre. 2090 Broadway (@72, UWS)."
+    },
+    {
+      "id": "r.20",
+      "name": "Lexington Candy Shop",
+      "cat": "🌭 Imprescindibles NY",
+      "lat": 40.7777,
+      "lng": -73.9572,
+      "desc": "Luncheonette de 1925 (1226 Lexington, UES). Desayuno americano, pancakes."
+    },
+    {
+      "id": "r.21",
+      "name": "Starbucks Reserve Roastery",
+      "cat": "☕ Café y dulces",
+      "lat": 40.7416,
+      "lng": -74.005,
+      "desc": "La tienda insignia (Meatpacking, 61 Ninth Ave) — es el Starbucks 'icónico' que merece la pena; evitad las horas punta."
+    },
+    {
+      "id": "r.22",
+      "name": "Sunday Morning",
+      "cat": "☕ Café y dulces",
+      "lat": 40.7227,
+      "lng": -73.981,
+      "desc": "Cinnamon rolls (10 tipos al día). East Village (29 Ave B); también en NoMad (11 W 25th)."
+    },
+    {
+      "id": "r.23",
+      "name": "Krispy Kreme",
+      "cat": "☕ Café y dulces",
+      "lat": 40.7596,
+      "lng": -73.9846,
+      "desc": "Times Square (1601 Broadway). Con el cartel rojo 'Hot Light' encendido, donut glaseado recién hecho gratis."
+    },
+    {
+      "id": "r.24",
+      "name": "Tim Hortons",
+      "cat": "☕ Café y dulces",
+      "lat": 40.7657,
+      "lng": -73.9846,
+      "desc": "Cadena canadiense (café + donuts). 936 8th Ave; varias en Manhattan (Penn Station, Times Sq)."
+    },
+    {
+      "id": "r.25",
+      "name": "Desayuno americano",
+      "cat": "💡 Ideas sueltas",
+      "desc": "Pancakes, huevos, beicon… (Lexington Candy Shop encaja bien)."
+    },
+    {
+      "id": "r.26",
+      "name": "Picnic en un parque",
+      "cat": "💡 Ideas sueltas",
+      "desc": "Comprar en un deli/mercado y comer en Central Park, Bryant Park, etc."
+    },
+    {
+      "id": "r.27",
+      "name": "Buscar recomendaciones locales",
+      "cat": "💡 Ideas sueltas",
+      "desc": "Evitar trampas para turistas."
+    }
+  ],
   "discarded": [
     {
       "id": "d.2",

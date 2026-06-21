@@ -16,6 +16,7 @@
         <OverviewPanel v-if="store.activeDay === null" @navigate="handleDaySelect" />
         <InfoPanel v-else-if="store.activeDay === 'info'" />
         <DiscardedPanel v-else-if="store.activeDay === 'discarded'" @fly-to="handleFlyTo" />
+        <RestaurantsPanel v-else-if="store.activeDay === 'restaurants'" @fly-to="handleFlyTo" />
         <NotesPanel v-else-if="store.activeDay === 'notes'" />
         <DayContent
           v-else
@@ -42,6 +43,7 @@ import DayTabs from './DayTabs.vue'
 import OverviewPanel from './OverviewPanel.vue'
 import InfoPanel from './InfoPanel.vue'
 import DiscardedPanel from './DiscardedPanel.vue'
+import RestaurantsPanel from './RestaurantsPanel.vue'
 import NotesPanel from './NotesPanel.vue'
 import DayContent from './DayContent.vue'
 import ToastNotification from './ToastNotification.vue'

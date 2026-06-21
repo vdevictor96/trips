@@ -28,6 +28,11 @@ export const useTripStore = defineStore('trip', () => {
         ...p, dayId: 'discarded', dayTab: 'Descartados', dayColor: '#666'
       })))
     }
+    if (trip.value.restaurants?.length) {
+      places.push(...trip.value.restaurants
+        .filter(p => p.lat != null && p.lng != null)
+        .map(p => ({ ...p, dayId: 'restaurants', dayTab: 'Restaurantes', dayColor: '#e67e22' })))
+    }
     return places
   })
 

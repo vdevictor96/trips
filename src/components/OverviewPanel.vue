@@ -21,7 +21,17 @@
       @click="emit('navigate', 'info')"
     >
       <div class="place-time" style="color:var(--blue)">ℹ️ Info útil</div>
-      <div class="place-name">Transporte, comida, reservas</div>
+      <div class="place-name">Transporte, reservas, por resolver</div>
+    </div>
+
+    <div
+      v-if="store.trip.restaurants?.length"
+      class="place-card overview-card"
+      style="border-left-color:#e67e22; cursor:pointer;"
+      @click="emit('navigate', 'restaurants')"
+    >
+      <div class="place-time" style="color:#e67e22">🍴 Restaurantes · {{ store.trip.restaurants.length }} ideas</div>
+      <div class="place-name">Sitios para comer (mapa con markers)</div>
     </div>
 
     <div

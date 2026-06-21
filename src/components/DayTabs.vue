@@ -25,6 +25,9 @@ const tabs = computed(() => {
   if (!store.trip) return []
   const t = store.trip.days.map(d => ({ id: d.id, label: d.tab, color: d.color }))
   t.push({ id: 'info', label: 'ℹ️ Info útil', color: null })
+  if (store.trip.restaurants?.length) {
+    t.push({ id: 'restaurants', label: '🍴 Restaurantes', color: null })
+  }
   if (store.trip.discarded?.length) {
     t.push({ id: 'discarded', label: '🗑️ Descartados', color: null })
   }
