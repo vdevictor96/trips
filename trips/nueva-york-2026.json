@@ -149,7 +149,7 @@
       "id": 3,
       "tab": "Día 3 · Lun 6",
       "title": "Bajo Manhattan + Puerto",
-      "subtitle": "Lunes 6 julio · 9/11 (⚠️ gratis solo 17:30-19:00) · veleros Sail4th · 🌅 ferry Estatua",
+      "subtitle": "Lunes 6 julio · día corto · 9/11 fuentes (sin museo) · veleros Sail4th · 🌅 ferry Estatua",
       "places": [
         {
           "id": "3.1",
@@ -204,27 +204,27 @@
         {
           "id": "3.6",
           "time": "11:00",
-          "dur": "2.5 h",
-          "name": "⭐ 9/11 Memorial y Museo",
+          "dur": "40 min",
+          "name": "⭐ 9/11 Memorial (fuentes)",
           "lat": 40.7115,
           "lng": -74.0136,
-          "desc": "Las dos fuentes en las huellas de las torres son GRATIS. El museo es de pago (~33 $). ~2h con AC en el pico de calor. ⚠️ PENDIENTE: el 'gratis los lunes' es solo de 17:30 a 19:00 (no por la mañana), así que esta visita de las 11:00 sería de pago. Decidir: pagar y dejar la mañana, o ajustar.",
-          "tags": ["obligatorio", "reservar"],
+          "desc": "Las dos fuentes en las huellas de las torres (North & South Pool), con los nombres grabados en bronce, son GRATIS y son lo imprescindible aquí. ✅ Decidido: NO entramos al museo (de pago ~33 $; el 'gratis lunes' es solo 17:30-19:00) → veis las fuentes, el Oculus al lado y seguís. El día queda más corto y relajado.",
+          "tags": ["obligatorio", "gratis"],
           "link": "https://www.911memorial.org/"
         },
         {
           "id": "3.7",
-          "time": "13:30",
-          "dur": "45 min",
+          "time": "12:00",
+          "dur": "1 h",
           "name": "Brookfield Place (comida)",
           "lat": 40.7129,
           "lng": -74.0153,
-          "desc": "Food hall (Hudson Eats) con AC y vistas al puerto. Comida rápida.",
+          "desc": "Food hall (Hudson Eats) con AC y vistas al puerto. Comida con calma — hoy el día va sobrado de tiempo.",
           "tags": []
         },
         {
           "id": "3.8",
-          "time": "14:30",
+          "time": "13:15",
           "dur": "30 min",
           "name": "Old City Hall Station (bucle del 6)",
           "lat": 40.7132,
@@ -234,8 +234,8 @@
         },
         {
           "id": "3.9",
-          "time": "15:15",
-          "dur": "2 h",
+          "time": "14:15",
+          "dur": "2.5 h",
           "name": "South Street Seaport + veleros Sail4th",
           "lat": 40.7059,
           "lng": -74.0028,
@@ -244,12 +244,12 @@
         },
         {
           "id": "3.10",
-          "time": "17:45",
+          "time": "17:30",
           "dur": "1.5 h",
           "name": "🌅 Staten Island Ferry (Estatua)",
           "lat": 40.7014,
           "lng": -74.0131,
-          "desc": "Ferry GRATIS desde Whitehall (5 min al sur del Seaport). Ida: lado derecho (Estatua); vuelta: izquierda (skyline). A última hora la Estatua tiene buena luz (si queréis el atardecer pleno, salida ~19:45). ~50 min ida y vuelta. Cena después → hotel.",
+          "desc": "Ferry GRATIS desde Whitehall (5 min al sur del Seaport). Ida: lado derecho (Estatua); vuelta: izquierda (skyline). ~50 min ida y vuelta. Día corto: a las 17:30 termináis pronto (cena → hotel ~19:30). Si preferís luz de atardecer pleno, podéis empujar la salida a ~19:45 (entonces volvéis más tarde).",
           "tags": ["gratis", "mirador"]
         }
       ]
@@ -835,13 +835,12 @@
       { "label": "🟠 Whitney (mié 8)", "value": "Ticket con hora (el de 22 entra gratis por ser ≤25)." },
       { "label": "🟠 Little Island (mié 8)", "value": "Posible pase GRATIS con hora en horas punta — verificar para la fecha." },
       { "label": "🟠 MoMA (pendiente)", "value": "Si finalmente entra (D4): ticket con hora." },
-      { "label": "🔴 9/11 Museo (lun 6)", "value": "⚠️ El 'gratis lunes' es solo 17:30-19:00 (tickets web 7:00). La visita del plan es 11:00 → de pago ~33 $. Decidir." },
+      { "label": "✅ 9/11 (lun 6)", "value": "Decidido: NO entramos al museo, solo las fuentes del memorial (gratis). Sin reserva." },
       { "label": "🟢 Sin reserva", "value": "Broadway (lotería el día), fan zones Mundial, Movies With A View, Staten Island Ferry, Smorgasburg, CitiBike, tranvía Roosevelt Island, NYC Ferry/Red Hook, veleros." },
       { "label": "⚪ Si cambiáis default", "value": "Statue City Cruises (pisar la isla ~25,50 $; corona con meses). Octavos MetLife 5 jul = entrada FIFA." }
     ],
     "pendientes": [
       { "label": "🔴 D1 · Punto de los fuegos", "value": "En 2026 (50 aniv.) el lanzamiento se mueve al Seaport / Puente de Brooklyn (bajo East River) + bajo Hudson. Stuyvesant Cove queda ~3 km al norte → vista lejana y quizá tapada. Con llegada 18:55 a JFK no se llega a los buenos sitios sur (se llenan desde las 16:00). <b>A decidir:</b> punto del East River con vista despejada al sur, o asumir vista lejana. <a href='https://www.july4th.com/posts/macys-annual-fourth-of-july-fireworks-show' target='_blank'>fuente</a>" },
-      { "label": "🔴 D3 · 9/11 'gratis lunes'", "value": "Es gratis solo lun <b>17:30-19:00</b> (tickets web 7:00), NO por la mañana. La visita del plan (11:00) sería de pago ~33 $. <b>A decidir:</b> (a) pagar y dejar la mañana, (b) solo fuentes gratis por fuera, (c) reestructurar a 17:30-19:00 (solo 90 min, choca con el ferry del atardecer). <a href='https://freetoursbyfoot.com/911-museum-tickets/' target='_blank'>fuente</a>" },
       { "label": "🟠 D8 · NoLita a las 09:30", "value": "Elizabeth St Garden y Prince St Pizza abren ~11:00 → a esa hora se ven por fuera. Valorar reordenar o ajustar expectativas." },
       { "label": "🟠 D9 · Margen al aeropuerto", "value": "Strand cierra 12:15 + maletas → salida real ~12:45-13:00; con vuelo internacional 16:45 quedan ~2,5 h. Mejor recortar Strand o salir 12:15." },
       { "label": "🟠 Reservas urgentes (hoy 21 jun)", "value": "Kayak BBP abre reserva ~25 jun (en 4 días) y vuela. SUMMIT, Mets, AMNH, Met y Whitney: reservar esta semana." },

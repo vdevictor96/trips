@@ -170,7 +170,7 @@ Confirmaciones rápidas de las notas de cada POI:
 Cada uno marcado también inline con `⚠️ PENDIENTE` en la nota de su sitio (salvo el nº 9 Broadway, que no tiene un punto propio y vive solo aquí). Pendientes de decisión / feedback del compañero.
 
 **Críticos (rompen el plan tal cual):**
-1. **D3 · 9/11 "gratis lunes" es FALSO en mañana.** Confirmado: gratis solo **lun 17:30–19:00** (tickets web 7:00). El plan lo visita 11:00–13:30 = **de pago ~33 $**. → Decidir: (a) pagar y dejar la mañana [recomendado], (b) solo fuentes gratis por fuera, (c) reestructurar a la franja 17:30–19:00 (solo 90 min, choca con ferry atardecer). [src](https://freetoursbyfoot.com/911-museum-tickets/)
+1. ✅ **RESUELTO (feedback compañera) · D3 · 9/11.** Decidido: NO se entra al museo (el 'gratis lunes' es solo 17:30–19:00, no por la mañana). Solo las fuentes del memorial (gratis, ~40 min). El lunes pasa a **día corto**: comida y tarde adelantadas, Seaport+veleros con calma, ferry de la Estatua ~17:30 (opción de empujar a ~19:45 por luz de atardecer). [src](https://freetoursbyfoot.com/911-museum-tickets/)
 2. **D1 · punto de fuegos no encaja con 2026.** Confirmado: en 2026 (50 aniv.) el lanzamiento cambia a **Seaport / Puente de Brooklyn (bajo East River)** + **bajo Hudson**, ~21:25. Stuyvesant Cove (~23rd St) queda ~3 km al norte → vista lejana/tapada. Con llegada 18:55 JFK (+ inmigración) no se llega a los buenos sitios sur (se llenan desde 16:00). → Gestionar expectativas / buscar punto del East River con vista despejada al SUR. [src](https://www.july4th.com/posts/macys-annual-fourth-of-july-fireworks-show)
 
 **Medios:**
