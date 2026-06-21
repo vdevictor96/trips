@@ -1,5 +1,5 @@
 {
-  "_v": 7,
+  "_v": 8,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -345,16 +345,16 @@
         {
           "id": "4.8",
           "time": "17:30",
-          "dur": "15 min",
+          "dur": "30 min",
           "name": "Times Square (de día)",
           "lat": 40.7589,
           "lng": -73.9851,
-          "desc": "Vistazo con luz, de paso: desde la 5ª Av son ~8 min al oeste. De día es gentío y pantallas sin brillar (la gracia es la versión nocturna de luego), pero ya lo cruzáis y veis la escala. Después, 2 manzanas al sur hasta Bryant Park.",
+          "desc": "Paseo con luz: desde la 5ª Av son ~8 min al oeste. De día es gentío y pantallas sin brillar (la gracia es la nocturna de luego), pero da para pasear las plazas peatonales, las gradas rojas de TKTS y fotos sin el agobio de la noche. Después, 2 manzanas al sur hasta Bryant Park.",
           "tags": []
         },
         {
           "id": "4.9",
-          "time": "18:00",
+          "time": "18:10",
           "dur": "45 min",
           "name": "Bryant Park + NYPL + azotea SNFL",
           "lat": 40.7539,
@@ -364,8 +364,8 @@
         },
         {
           "id": "4.10",
-          "time": "18:55",
-          "dur": "45 min",
+          "time": "19:05",
+          "dur": "40 min",
           "name": "Grand Central + Chrysler",
           "lat": 40.7527,
           "lng": -73.9773,
