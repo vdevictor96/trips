@@ -1,5 +1,5 @@
 {
-  "_v": 2,
+  "_v": 3,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -28,7 +28,7 @@
           "name": "🎆 Fuegos 4 Julio — East River (Stuyvesant Cove)",
           "lat": 40.7332,
           "lng": -73.974,
-          "desc": "Desde JFK al hotel: taxi/Uber (~70 $, 45-60 min) o AirTrain + metro (~11 $, ~75 min). Dejáis maletas (~21:00) y bajáis al paseo del East River (12 min del hotel). Los fuegos de Macy's del 4 de julio (~25 min, el mayor espectáculo del país) se lanzan sobre el East River hacia el sur: vale cualquier punto del paseo con el río despejado. Los mejores sitios (Brooklyn Bridge Park, Seaport) se llenan desde media tarde y llegáis tarde → id a lo más cercano y abierto. Cena rápida cerca de Union Square; a dormir pronto (mañana 7:30). ⚠️ PENDIENTE: en 2026 (50 aniversario) el lanzamiento se mueve al SEAPORT / Puente de Brooklyn (bajo East River) + bajo Hudson. Stuyvesant Cove queda ~3 km al norte → vista lejana y quizá tapada; buscad un punto del paseo del East River con sightline despejada hacia el SUR. Por confirmar/ajustar.",
+          "desc": "Desde JFK al hotel: taxi/Uber (~70 $, 45-60 min) o AirTrain + metro (~11 $, ~75 min); con la inmigración de un vuelo internacional contad con llegar ~21:00-21:30. Dejáis maletas y bajáis al paseo del East River (12 min). ✅ Decidido (lo tranquilo): en 2026 (50 aniversario) los fuegos se lanzan lejos al sur (Seaport / Puente de Brooklyn + bajo Hudson), así que desde aquí se ven DE LEJOS y sin agobios. Plan: paseo del East River a la altura de Stuyvesant Cove (~20th-23rd), mirando recto al SUR por el canal abierto del río — veréis los disparos altos sobre los puentes. Evitáis el barullo de las zonas oficiales del sur (se petan y la policía cierra accesos). Los petardazos bajos pueden quedar tapados por los puentes; los grandes aéreos se ven. Si un tramo del paseo está cortado, id al punto abierto más cercano. Si a las 21:25 seguís de camino, sin estrés. Cena rápida cerca de Union Square; a dormir pronto (mañana 7:30).",
           "tags": ["gratis"],
           "link": "https://www.macys.com/s/fireworks/"
         }
@@ -850,7 +850,6 @@
       { "label": "⚪ Si cambiáis default", "value": "Statue City Cruises (pisar la isla ~25,50 $; corona con meses). Octavos MetLife 5 jul = entrada FIFA." }
     ],
     "pendientes": [
-      { "label": "🔴 D1 · Punto de los fuegos", "value": "En 2026 (50 aniv.) el lanzamiento se mueve al Seaport / Puente de Brooklyn (bajo East River) + bajo Hudson. Stuyvesant Cove queda ~3 km al norte → vista lejana y quizá tapada. Con llegada 18:55 a JFK no se llega a los buenos sitios sur (se llenan desde las 16:00). <b>A decidir:</b> punto del East River con vista despejada al sur, o asumir vista lejana. <a href='https://www.july4th.com/posts/macys-annual-fourth-of-july-fireworks-show' target='_blank'>fuente</a>" },
       { "label": "🟠 D9 · Margen al aeropuerto", "value": "Strand cierra 12:15 + maletas → salida real ~12:45-13:00; con vuelo internacional 16:45 quedan ~2,5 h. Mejor recortar Strand o salir 12:15." },
       { "label": "🟠 Reservas urgentes (hoy 21 jun)", "value": "Kayak BBP abre reserva ~25 jun (en 4 días) y vuela. SUMMIT, Mets, AMNH, Met y Whitney: reservar esta semana." },
       { "label": "🟡 D2 · Zigzag en Central Park", "value": "El orden Belvedere→Sheep Meadow→Strawberry Fields hace ida-y-vuelta norte-sur. Reordenable, pero Bethesda pronto = verlo vacío (compensa)." },
