@@ -491,7 +491,7 @@ html, body {
 }
 
 /* ── MY-LOCATION CONTROL + DOT ─────── */
-.map-locate-btn {
+.map-locate-btn, .map-type-btn {
   width: 40px; height: 40px;
   margin: 10px;
   display: flex; align-items: center; justify-content: center;
@@ -503,10 +503,13 @@ html, body {
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
-.map-locate-btn:active { transform: scale(.94); }
+.map-locate-btn:active, .map-type-btn:active { transform: scale(.94); }
 .map-locate-btn.located { color: #4285F4; }
 .map-locate-btn.error { color: #ea4335; border-color: #ea4335; }
 .map-locate-btn.locating { animation: locate-pulse 1s ease-in-out infinite; }
+.map-type-btn.active { color: #4285F4; border-color: #4285F4; }
+/* el botón de satélite va pegado al de ubicación (sin doble margen) */
+.map-type-btn { margin-top: 0; }
 @keyframes locate-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
 
 .user-location-dot {

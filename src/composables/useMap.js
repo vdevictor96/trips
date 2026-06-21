@@ -109,6 +109,7 @@ function ensureHtmlMarkerClass() {
 
 // "My location" control icon (Material "my_location")
 const LOCATE_ICON = '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 8a4 4 0 100 8 4 4 0 000-8zm8.94 3A9 9 0 0013 3.06V1h-2v2.06A9 9 0 003.06 11H1v2h2.06A9 9 0 0011 20.94V23h2v-2.06A9 9 0 0020.94 13H23v-2zM12 19a7 7 0 110-14 7 7 0 010 14z"/></svg>'
+const LAYERS_ICON = '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M11.99 18.54l-7.37-5.73L3 14.07l9 7 9-7-1.63-1.27-7.38 5.74zM12 16l7.36-5.73L21 9l-9-7-9 7 1.63 1.27L12 16z"/></svg>'
 
 // User-location dot overlay — centered on the point (unlike the teardrop markers)
 let LocationDotClass = null
@@ -168,6 +169,8 @@ export function useMap() {
   let accuracyCircle = null
   let locationWatchId = null
   let locateButton = null
+  let mapTypeButton = null
+  let satelliteOn = false
   let didCenterOnUser = false
 
   async function initMap(el) {
@@ -213,6 +216,10 @@ export function useMap() {
       // "My location" control (like Google Maps), under the zoom controls
       locateButton = createLocateButton()
       map.value.controls[google.maps.ControlPosition.RIGHT_CENTER].push(locateButton)
+
+      // Satellite/roadmap toggle, stacked under the locate control
+      mapTypeButton = createMapTypeButton()
+      map.value.controls[google.maps.ControlPosition.RIGHT_CENTER].push(mapTypeButton)
     } catch (e) {
       console.error('Failed to init Google Maps:', e)
       el.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--text-dim);font-size:14px;text-align:center;padding:20px;">Error cargando Google Maps</div>'
@@ -430,6 +437,26 @@ export function useMap() {
     btn.innerHTML = LOCATE_ICON
     btn.addEventListener('click', locateUser)
     return btn
+  }
+
+  function createMapTypeButton() {
+    const btn = document.createElement('button')
+    btn.type = 'button'
+    btn.className = 'map-type-btn'
+    btn.title = 'Vista satélite'
+    btn.setAttribute('aria-label', 'Cambiar a vista satélite')
+    btn.innerHTML = LAYERS_ICON
+    btn.addEventListener('click', toggleMapType)
+    return btn
+  }
+
+  function toggleMapType() {
+    if (!map.value) return
+    satelliteOn = !satelliteOn
+    // hybrid = satélite con etiquetas de calles (más legible que satellite puro)
+    map.value.setMapTypeId(satelliteOn ? 'hybrid' : 'roadmap')
+    mapTypeButton?.classList.toggle('active', satelliteOn)
+    mapTypeButton?.setAttribute('title', satelliteOn ? 'Vista mapa' : 'Vista satélite')
   }
 
   function locateUser() {
