@@ -33,7 +33,7 @@ Sunset en NYC a principios de julio ≈ **20:25-20:30** (días largos, tardes am
 | 4 | 7 jul | **Martes** | Completo | Mets–Royals 19:10 / Liberty 20:00 *(no elegidos)* |
 | 5 | 8 jul | **Miércoles** | Completo | ⚠️ **MET CERRADO** (no programar el Met) |
 | 6 | 9 jul | **Jueves** | Completo | 🎬 **"When Harry Met Sally"** Brooklyn Bridge Park (atardecer, gratis) |
-| 7 | 10 jul | **Viernes** | Completo | ⚾ **Mets–Red Sox 19:10** (Citi Field) · Whitney gratis 17-22 *(choca con partido)* |
+| 7 | 10 jul | **Viernes** | Completo | ⚾ **Mets–Red Sox 19:15** (Citi Field) · Whitney gratis 17-22 *(choca con partido)* |
 | 8 | 11 jul | **Sábado** | Completo | **Smorgasburg** (sáb) · IKEA ferry (finde) |
 | — | 12 jul | **Domingo** | Solo mañana → salir ~12:30 a JFK | Vuelo 16:45 |
 
@@ -69,7 +69,7 @@ Metro (con AC) permitido en el pico de calor. **Noches tardías solo 1-2 días**
 
 | Tema | Conclusión definitiva |
 |---|---|
-| ⚾ **Partido** | **Mets–Red Sox, viernes 10 jul 19:10, Citi Field** (rival preferido; nocturno = no come día). Alt: sáb 11 16:10. Yankees fuera. NFL y NBA en off-season → imposibles; **WNBA** (Liberty mar 7 20:00 vs Dallas) sería la única alternativa de cancha. |
+| ⚾ **Partido** | **Mets–Red Sox, viernes 10 jul 19:15, Citi Field** (rival preferido; nocturno = no come día). Alt: sáb 11 16:10. Yankees fuera. NFL y NBA en off-season → imposibles; **WNBA** (Liberty mar 7 20:00 vs Dallas) sería la única alternativa de cancha. |
 | 🏙️ **Miradores** | Mirador de pago = **SUMMIT One Vanderbilt** (al atardecer; *Ascent* de cristal cuesta extra, saltable). **Empire State se descarta** (desde arriba no ves el propio Empire). *Top of the Rock* solo si se quiere la foto clásica con Empire+Central Park. Vistas gratis: msocial rooftop (Times Sq), SNFL, Pebble Beach, Gantry Plaza, Brooklyn Heights, Staten Island Ferry. |
 | 🖼️ **Met** | 30 $/17 $ est. **Cerrado miércoles** (✔ verificado). Entrada **vale 3 días + incluye The Met Cloisters**. **Cantor Roof Garden abierto en verano** (incluido). Autoguiado (ahorra ~35 $/persona de guía). |
 | 🖼️ **MoMA** | 30 $/14 $ est. ⚠️ Los "UNIQLO Free Friday" son **solo residentes de NY** → a nosotros NO aplica. Entrada con hora reservada. |
@@ -117,7 +117,7 @@ Confirmaciones rápidas de las notas de cada POI:
 - **D4 · Mar 7 — AMNH + MoMA + Midtown** (11): Columbus Circle, Lincoln Center, ⭐ **AMNH**, ⭐ **MoMA** (2 museos AC a mediodía), Rockefeller (**Telemundo Fan Village**), St Patrick's, 5th Ave, Bryant Park/NYPL/azotea SNFL, Times Square, Grand Central/Chrysler, 🌅 **SUMMIT One Vanderbilt**.
 - **D5 · Mié 8 — West Village + Hudson** (12) *(Met cerrado)*: Washington Sq, **Washington Mews**, **Jefferson Market**, Stonewall/Christopher St, Grove&Bedford (**casa estrecha**, **Friends**), Meatpacking, **Whitney**, Chelsea Market (comida), **High Line**, Hudson Yards/Vessel, Pier 57, 🌅 **Little Island**.
 - **D6 · Jue 9 — Brooklyn + Cine** (8): **Brooklyn Bridge** a pie, DUMBO (foto Washington St + Jane's Carousel), **Pebble Beach**, **Brooklyn Heights Promenade**, **Red Hook** (Louis Valentino + comida), Brooklyn Bridge Park/Time Out, **kayak** (Pier 2), 🎬 **"When Harry Met Sally"** (Pier 1, atardecer).
-- **D7 · Vie 10 — Queens + Béisbol** (5): Gantry Plaza (LIC), Hunter's Point, **Jackson Heights** (comida diversa + Mundial), Flushing Meadows + Unisphere → ⚾ **Citi Field · Mets–Red Sox 19:10**.
+- **D7 · Vie 10 — Queens + Béisbol** (5): Gantry Plaza (LIC), Hunter's Point, **Jackson Heights** (comida diversa + Mundial), Flushing Meadows + Unisphere → ⚾ **Citi Field · Mets–Red Sox 19:15**.
 - **D8 · Sáb 11 — Barrios + Williamsburg** (11): SoHo (Greene St), **Cortlandt Alley** (foto, de paso), NoLita (Elizabeth St Garden, Prince St Pizza), **St. Patrick's Old Cathedral**, Little Italy, Chinatown (Mott, Doyers, Columbus Park), **Freeman Alley** (grafiti, de paso), LES (Essex Market, Orchard · *Katz's opcional, ver info*), **puente de Williamsburg a pie**, Bedford Ave + **Smorgasburg**, 🌅 **Domino Park**.
 - **D9 · Dom 12 (mañana corta)** (5): **Gramercy Park**, Flatiron, Madison Sq Park, Union Square, **Strand** → check-out → salir ~12:30 a **JFK** (vuelo 16:45).
 

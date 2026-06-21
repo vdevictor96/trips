@@ -730,7 +730,7 @@
       "id": 7,
       "tab": "Día 7 · Vie 10",
       "title": "Queens + Béisbol",
-      "subtitle": "Viernes 10 julio · LIC · Flushing · ⚾ Mets–Red Sox 19:10",
+      "subtitle": "Viernes 10 julio · LIC · Flushing · ⚾ Mets–Red Sox 19:15",
       "places": [
         {
           "id": "7.1",
@@ -785,7 +785,7 @@
           "name": "⚾ Citi Field — Mets vs Red Sox",
           "lat": 40.7571,
           "lng": -73.8458,
-          "desc": "Al lado de la Unisphere. Mets vs Boston Red Sox, 19:10 (el atardecer cae durante el partido). Cena en el estadio. Noche larga (2ª excepción). Vuelta en la 7 / LIRR.",
+          "desc": "Al lado de la Unisphere. Mets vs Boston Red Sox, 19:15 (el atardecer cae durante el partido). Cena en el estadio. Noche larga (2ª excepción). Vuelta en la 7 / LIRR. Entradas: SeatGeek (oficial de los Mets) o mets.com/app MLB Ballpark; con 30-60 $/persona, nivel Promenade (anillo 500, por las líneas 505-510 o 519-524). Comprar pronto: vs Red Sox un viernes vuela.",
           "tags": [
             "reservar"
           ],
@@ -1029,7 +1029,7 @@
       },
       {
         "label": "🔴 Mets vs Red Sox (vie 10)",
-        "value": "19:10 Citi Field. Comprar ya (serie popular)."
+        "value": "19:15 Citi Field. En SeatGeek (oficial) o mets.com; 30-60 $/persona = Promenade (anillo 500, líneas 505-510/519-524). Comprar ya (serie popular)."
       },
       {
         "label": "🟠 AMNH (mar 7)",
