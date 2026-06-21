@@ -244,6 +244,16 @@
         },
         {
           "id": "3.10",
+          "time": "17:00",
+          "dur": "20 min",
+          "name": "Elevated Acre",
+          "lat": 40.7034,
+          "lng": -74.0088,
+          "desc": "Parque elevado escondido sobre 55 Water St: césped, dunas de hierba alta y un rincón tranquilo con vistas al East River, casi siempre vacío. Se entra por unas escaleras/ascensor discretos entre los rascacielos (fácil pasar de largo). Parada de 20 min de camino al ferry, aprovechando el hueco de la tarde.",
+          "tags": ["gratis"]
+        },
+        {
+          "id": "3.11",
           "time": "17:30",
           "dur": "1.5 h",
           "name": "🌅 Staten Island Ferry (Estatua)",
@@ -980,14 +990,6 @@
       "lng": -73.996,
       "desc": "Barrio de brownstones de Brooklyn (Court St), junto a Red Hook.",
       "reason": "Añadiría transbordo al D6; opcional."
-    },
-    {
-      "id": "d.16",
-      "name": "Elevated Acre",
-      "lat": 40.7034,
-      "lng": -74.0088,
-      "desc": "Parque elevado escondido en el Financial District (55 Water St).",
-      "reason": "Rincón 'secreto' menor; el D3 ya iba con 10 paradas."
     },
     {
       "id": "d.17",

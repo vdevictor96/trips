@@ -159,7 +159,7 @@ Confirmaciones rápidas de las notas de cada POI:
 ### Hecho ✅
 - Notas del Wanderlog extraídas a resolución completa (PDF → imagen embebida → tiras legibles) y **todas resueltas/verificadas**.
 - Decisiones clave cerradas (partido, miradores, museos, Mundial, 4 jul).
-- **`trips/nueva-york-2026.json` construido y validado**: 9 días, 71 sitios, coords en rango, horas en orden, sin IDs duplicados. Comidas, miradores al atardecer y hotel como primer waypoint. Descartados (19) en la sección `discarded`.
+- **`trips/nueva-york-2026.json` construido y validado**: 9 días, 71 sitios, coords en rango, horas en orden, sin IDs duplicados. Comidas, miradores al atardecer y hotel como primer waypoint. Descartados (18) en la sección `discarded`.
 
 ### Pendiente 🔲
 1. **Reservas**: 9/11 (lun 6, ver punto crítico abajo) · SUMMIT (franja atardecer) · Mets (vie 10) · AMNH/Met/Whitney (hora) · kayak BBP (se abre ~25 jun) · Little Island (verificar pase) · Broadway (lotería del día).
