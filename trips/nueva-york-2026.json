@@ -1,5 +1,5 @@
 {
-  "_v": 11,
+  "_v": 12,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -1023,7 +1023,7 @@
       "lat": 40.7497,
       "lng": -73.9712,
       "desc": "Atrio-jardín interior gratis cerca de la ONU (43rd St).",
-      "reason": "Menor; solo laborables y cierra ~18h (el D4 pasa cerca a las 19:05 → cerrado); fuera de ruta.",
+      "reason": "No es 'de paso': atrio interior con REGISTRO previo (antes de las 17h del día anterior) + ID. Abre L-V 11-18 y sáb 10-16 (en julio NO cierra; los cierres son de finales de junio). Bloqueo real = ruta/horario: está en la 43rd con 2ª Av (Midtown este); el único día por Midtown (D4, mar) solo llega a esa esquina a las 19:05 (ya cerrado) y la tarde va por el oeste; el sábado (D8) va todo por el centro/Brooklyn.",
       "link": "https://www.fordfoundation.org/"
     }
   ]
