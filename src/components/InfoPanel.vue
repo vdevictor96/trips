@@ -1,7 +1,14 @@
 <template>
   <div v-if="store.trip">
     <h2 class="day-header">Info práctica</h2>
-    <p class="day-subtitle">Transporte, comida, reservas</p>
+    <p class="day-subtitle">Por resolver, transporte, comida, reservas</p>
+
+    <InfoSection
+      v-if="store.trip.info.pendientes?.length"
+      title="🔧 Por resolver (feedback)"
+      section="pendientes"
+      separator=" —"
+    />
 
     <InfoSection
       title="🚌 Transporte"
