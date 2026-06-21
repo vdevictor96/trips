@@ -1,7 +1,7 @@
 <template>
   <div v-if="store.trip">
     <h2 class="day-header">Info práctica</h2>
-    <p class="day-subtitle">Por resolver, transporte, reservas</p>
+    <p class="day-subtitle">Por resolver, transporte, Mundial 2026, reservas</p>
 
     <InfoSection
       v-if="store.trip.info.pendientes?.length"
@@ -14,6 +14,13 @@
       title="🚌 Transporte"
       section="transport"
       separator=":"
+    />
+
+    <InfoSection
+      v-if="store.trip.info.mundial?.length"
+      title="⚽ Mundial 2026 (durante el viaje)"
+      section="mundial"
+      separator=" —"
     />
 
     <InfoSection

@@ -1017,6 +1017,32 @@
         "value": "Walking-first. Metro (con AC) permitido para cruzar ciudad en el pico de calor (~13-16h)."
       }
     ],
+    "mundial": [
+      {
+        "label": "El cuadro en vuestras fechas",
+        "value": "El Mundial (USA/Canadá/México) está en fase eliminatoria: <strong>Octavos 4–7 jul</strong> y <strong>Cuartos 9–11 jul</strong> caen dentro del viaje. Semis (14–15) y la <strong>final (19 jul, en MetLife)</strong> son ya después de volar. Aún no se sabe quién juega cada cruce: depende de cómo acabe la fase de grupos (se sabrá a finales de junio)."
+      },
+      {
+        "label": "Partido en NY · Dom 5 jul · 16:00",
+        "value": "El <strong>único partido del Mundial en el estadio de NY/NJ (MetLife) durante el viaje</strong> son unos octavos el <strong>domingo 5 jul a las 16:00</strong> (= Día 2). Ir en persona es caro y MetLife está en Nueva Jersey (tren desde Penn Station, ~40 min). Para vivirlo sin entrada, mejor una fan zone (abajo)."
+      },
+      {
+        "label": "Dónde verlo · Brooklyn Bridge Park",
+        "value": "adidas 'Home of Soccer' en Emily Warren Roebling Plaza (DUMBO): pantallas, beer garden y cancha. <strong>Abierto todos los días del viaje, 12:00–22:00</strong>. Encaja con vuestra zona del puente de Brooklyn."
+      },
+      {
+        "label": "Dónde verlo · Rockefeller Center",
+        "value": "Fan Village gratis (con Telemundo): la pista del Rockefeller convertida en campo con pantallas grandes. <strong>Desde el lun 6 jul</strong> (Día 3) hasta la final, sin registro. Lo más céntrico de Manhattan."
+      },
+      {
+        "label": "Lo que NO os cuadra (para no confundir)",
+        "value": "La fan zone de Queens (USTA) cerró el 27 jun; el bombazo de <strong>Central Park</strong> (Great Lawn, 50.000 personas) y <strong>Fanatics Fest</strong> (Javits) son solo para la <strong>final del 19 jul</strong>, ya fuera del viaje."
+      },
+      {
+        "label": "Cómo elegir el día",
+        "value": "Si queréis un día de Mundial, mirad a finales de junio qué cruce hay esa tarde y dejad libre la franja de tarde/noche. Los octavos/cuartos van con horarios variados (de mediodía a la noche, hora local de NY)."
+      }
+    ],
     "reservas": [
       {
         "label": "🔴 Kayak BBP Pier 2 (jue 9)",
