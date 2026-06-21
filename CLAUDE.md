@@ -63,6 +63,15 @@ La app carga datos: Firebase → localStorage → JSON estático. Para que los c
    (La lectura del paso 1 sigue siendo pública, no necesita token.)
 6. Commit y push
 
+### ⚠️ Por qué los cambios desde git "no se ven" en la app (caché) — leer antes de dar por hecho un deploy
+
+Verificado en `src/stores/trip.js` (`loadTrip`) y `public/sw.js`. Hay **dos capas de caché** que tapan un cambio recién desplegado, aunque el JSON estático de la live ya sea correcto:
+
+1. **Datos — localStorage gana sobre el estático cuando Firebase está vacío.** `loadTrip` solo compara `_v` cuando **existen a la vez** Firebase y estático (`if (remote && staticData) … staticV > remoteV`). Si el nodo de Firebase del viaje está **vacío/null** (`fetchRemote` → null), cae en `source = loadEdits(tripId) || staticData`: **localStorage gana sobre el estático y NO se mira `_v`**. Un visitante que ya abrió la web ve su copia vieja indefinidamente. ⇒ **Subir `_v` no basta por sí solo** en este caso. Soluciones: (a) **sembrar Firebase** con el paso 5 de arriba (entonces `remote` existe y gana al localStorage viejo), o (b) que el usuario pulse **Info → "Resetear a original"** (`resetToOriginal` hace `clearEdits()` + refetch del estático).
+2. **Código/JS — el service worker sirve el bundle viejo.** El shell y los assets `dist/assets/*.js` (hash de Vite) usan **stale-while-revalidate** con `CACHE_NAME` fijo. Si tu cambio toca un **componente Vue** (p. ej. añadir una sección a `InfoPanel.vue`), aunque el dato traiga el campo nuevo, el JS cacheado no lo renderiza hasta 2 recargas. ⇒ **Al cambiar componentes, sube `CACHE_NAME` en `public/sw.js`** (`trips-vN` → `trips-vN+1`); el handler de `activate` purga las cachés viejas.
+
+**Checklist al publicar un cambio:** (1) `_v`++ en el JSON · (2) copiar a `public/trips/` · (3) si tocaste un componente, `CACHE_NAME`++ · (4) sembrar Firebase (paso 5) si el cambio debe verse en dispositivos que ya tienen caché · (5) commit y push. Para **verificar** que el deploy es correcto sin tu caché: abrir en **incógnito** o `curl -s https://vdevictor96.github.io/trips/trips/{id}.json`.
+
 ## Protección de escritura (Firebase Auth)
 
 `/trips/$id` era **escribible por cualquiera sin autenticación** (un `curl -X PUT` anónimo bastaba para sobreescribir o borrar viajes). Para cerrarlo:
