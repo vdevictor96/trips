@@ -1,6 +1,6 @@
 <template>
   <div v-if="store.trip?.restaurants?.length">
-    <h2 class="day-header">Restaurantes</h2>
+    <h2 class="day-header">Restauración</h2>
     <p class="day-subtitle">Sitios para comer (ideas del Wanderlog). Toca para verlo en el mapa.</p>
 
     <div v-for="group in groups" :key="group.cat" style="margin-bottom:8px;">

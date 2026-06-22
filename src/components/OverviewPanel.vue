@@ -30,7 +30,7 @@
       style="border-left-color:#e67e22; cursor:pointer;"
       @click="emit('navigate', 'restaurants')"
     >
-      <div class="place-time" style="color:#e67e22">🍴 Restaurantes · {{ store.trip.restaurants.length }} ideas</div>
+      <div class="place-time" style="color:#e67e22">🍴 Restauración · {{ store.trip.restaurants.length }} ideas</div>
       <div class="place-name">Sitios para comer (mapa con markers)</div>
     </div>
 
