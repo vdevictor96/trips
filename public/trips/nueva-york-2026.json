@@ -1,5 +1,5 @@
 {
-  "_v": 16,
+  "_v": 17,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -184,24 +184,37 @@
     {
       "id": 3,
       "tab": "Día 3 · Lun 6",
-      "title": "Bajo Manhattan + Puerto",
-      "subtitle": "Lunes 6 julio · día corto · 9/11 fuentes (sin museo) · veleros Sail4th · 🌅 ferry Estatua",
+      "title": "Bajo Manhattan + Barrios",
+      "subtitle": "Lunes 6 julio · Bajo Manhattan + Chinatown/Little Italy/SoHo · 9/11 (sin museo) · día completo",
       "places": [
         {
           "id": "3.1",
           "time": "08:00",
-          "dur": "30 min",
+          "dur": "20 min",
           "name": "The Battery",
           "lat": 40.7036,
           "lng": -74.0161,
-          "desc": "Desde el hotel: metro 4/5 a Bowling Green (~20 min). Desayuno rápido antes. Parque en la punta sur con vistas al puerto y a la Estatua a lo lejos. Empezáis en el fresco de la mañana.",
+          "desc": "Desde el hotel: metro 4/5 a Bowling Green (~20 min). Desayuno rápido antes. Parque en la punta sur con vistas al puerto y a la Estatua a lo lejos. Empezáis con el fresco de la mañana — y desde aquí mismo sale el ferry.",
           "tags": [
             "gratis"
           ]
         },
         {
           "id": "3.2",
-          "time": "08:35",
+          "time": "08:25",
+          "dur": "1.5 h",
+          "name": "🚢 Staten Island Ferry (Estatua)",
+          "lat": 40.7014,
+          "lng": -74.0131,
+          "desc": "Ferry GRATIS desde Whitehall (al lado de The Battery). Ida: lado DERECHO (Estatua de la Libertad de cerca); vuelta: izquierda (skyline del Bajo Manhattan). Calculad ~1,5 h ida y vuelta: en Staten Island hay que bajar y volver a entrar a la terminal para coger el siguiente barco. A primera hora, buena luz y menos cola.",
+          "tags": [
+            "gratis",
+            "mirador"
+          ]
+        },
+        {
+          "id": "3.3",
+          "time": "10:00",
           "dur": "20 min",
           "name": "Charging Bull y Fearless Girl",
           "lat": 40.7056,
@@ -212,9 +225,19 @@
           ]
         },
         {
-          "id": "3.3",
-          "time": "09:00",
-          "dur": "45 min",
+          "id": "3.4",
+          "time": "10:25",
+          "dur": "15 min",
+          "name": "Stone Street",
+          "lat": 40.7043,
+          "lng": -74.0112,
+          "desc": "Callejuela adoquinada histórica con terrazas. Buen sitio para un café rápido a media mañana.",
+          "tags": []
+        },
+        {
+          "id": "3.5",
+          "time": "10:45",
+          "dur": "35 min",
           "name": "Wall St — Federal Hall, NYSE y Trinity Church",
           "lat": 40.7072,
           "lng": -74.0103,
@@ -224,67 +247,21 @@
           ]
         },
         {
-          "id": "3.4",
-          "time": "09:50",
-          "dur": "25 min",
-          "name": "Stone Street",
-          "lat": 40.7043,
-          "lng": -74.0112,
-          "desc": "Callejuela adoquinada histórica con terrazas. Buen sitio para un café rápido a media mañana.",
-          "tags": []
-        },
-        {
-          "id": "3.5",
-          "time": "10:25",
-          "dur": "25 min",
-          "name": "Oculus (WTC)",
-          "lat": 40.7116,
-          "lng": -74.0112,
-          "desc": "Estación-centro comercial de Calatrava: esqueleto blanco espectacular. Interior con AC, de paso al 9/11.",
+          "id": "3.6",
+          "time": "11:30",
+          "dur": "15 min",
+          "name": "Elevated Acre",
+          "lat": 40.7034,
+          "lng": -74.0088,
+          "desc": "Parque elevado escondido sobre 55 Water St: césped, dunas de hierba alta y un rincón tranquilo con vistas al East River, casi siempre vacío. Se entra por unas escaleras/ascensor discretos entre los rascacielos (fácil pasar de largo).",
           "tags": [
             "gratis"
           ]
-        },
-        {
-          "id": "3.6",
-          "time": "11:00",
-          "dur": "40 min",
-          "name": "⭐ 9/11 Memorial (fuentes)",
-          "lat": 40.7115,
-          "lng": -74.0136,
-          "desc": "Las dos fuentes en las huellas de las torres (North & South Pool), con los nombres grabados en bronce, son GRATIS y son lo imprescindible aquí. ✅ Decidido: NO entramos al museo (de pago ~33 $; el 'gratis lunes' es solo 17:30-19:00) → veis las fuentes, el Oculus al lado y seguís. El día queda más corto y relajado.",
-          "tags": [
-            "obligatorio",
-            "gratis"
-          ],
-          "link": "https://www.911memorial.org/"
         },
         {
           "id": "3.7",
           "time": "12:00",
-          "dur": "1 h",
-          "name": "Brookfield Place (comida)",
-          "lat": 40.7129,
-          "lng": -74.0153,
-          "desc": "Food hall (Hudson Eats) con AC y vistas al puerto. Comida con calma — hoy el día va sobrado de tiempo.",
-          "tags": []
-        },
-        {
-          "id": "3.8",
-          "time": "13:15",
-          "dur": "30 min",
-          "name": "Old City Hall Station (bucle del 6)",
-          "lat": 40.7132,
-          "lng": -74.0041,
-          "desc": "No os bajáis: cogéis el 6 sentido centro en Brooklyn Bridge–City Hall y, en el giro de retorno, veis por la ventana la antigua estación de 1904 (azulejos, vidrieras). Gratis con vuestro billete.",
-          "tags": [
-            "gratis"
-          ]
-        },
-        {
-          "id": "3.9",
-          "time": "14:15",
-          "dur": "2.5 h",
+          "dur": "50 min",
           "name": "South Street Seaport + veleros Sail4th",
           "lat": 40.7059,
           "lng": -74.0028,
@@ -294,29 +271,94 @@
           ]
         },
         {
+          "id": "3.8",
+          "time": "13:05",
+          "dur": "50 min",
+          "name": "Brookfield Place (comida)",
+          "lat": 40.7129,
+          "lng": -74.0153,
+          "desc": "Food hall (Hudson Eats) con AC y vistas al puerto. Buen sitio para comer a mediodía, justo al lado del 9/11.",
+          "tags": []
+        },
+        {
+          "id": "3.9",
+          "time": "14:00",
+          "dur": "45 min",
+          "name": "⭐ 9/11 Memorial (fuentes)",
+          "lat": 40.7115,
+          "lng": -74.0136,
+          "desc": "Las dos fuentes en las huellas de las torres (North & South Pool), con los nombres grabados en bronce, son GRATIS y son lo imprescindible aquí. ✅ Decidido: NO entramos al museo (de pago ~33 $; el 'gratis lunes' es solo 17:30-19:00) → veis las fuentes con calma y seguís.",
+          "tags": [
+            "obligatorio",
+            "gratis"
+          ],
+          "link": "https://www.911memorial.org/"
+        },
+        {
           "id": "3.10",
-          "time": "17:00",
+          "time": "14:50",
           "dur": "20 min",
-          "name": "Elevated Acre",
-          "lat": 40.7034,
-          "lng": -74.0088,
-          "desc": "Parque elevado escondido sobre 55 Water St: césped, dunas de hierba alta y un rincón tranquilo con vistas al East River, casi siempre vacío. Se entra por unas escaleras/ascensor discretos entre los rascacielos (fácil pasar de largo). Parada de 20 min de camino al ferry, aprovechando el hueco de la tarde.",
+          "name": "Oculus (WTC)",
+          "lat": 40.7116,
+          "lng": -74.0112,
+          "desc": "Estación-centro comercial de Calatrava: esqueleto blanco espectacular. Interior con AC, al lado del 9/11.",
           "tags": [
             "gratis"
           ]
         },
         {
           "id": "3.11",
-          "time": "17:30",
-          "dur": "1.5 h",
-          "name": "🌅 Staten Island Ferry (Estatua)",
-          "lat": 40.7014,
-          "lng": -74.0131,
-          "desc": "Ferry GRATIS desde Whitehall (5 min al sur del Seaport). Ida: lado derecho (Estatua); vuelta: izquierda (skyline). ~50 min ida y vuelta. Día corto: a las 17:30 termináis pronto (cena → hotel ~19:30). Si preferís luz de atardecer pleno, podéis empujar la salida a ~19:45 (entonces volvéis más tarde).",
+          "time": "15:15",
+          "dur": "30 min",
+          "name": "Old City Hall Station (bucle del 6)",
+          "lat": 40.7132,
+          "lng": -74.0041,
+          "desc": "No os bajáis: cogéis el 6 sentido centro en Brooklyn Bridge–City Hall y, en el giro de retorno, veis por la ventana la antigua estación de 1904 (azulejos, vidrieras). Truco: ese mismo 6 os sube hacia el norte → bajáis en Canal St, ya en Chinatown. Gratis con vuestro billete.",
           "tags": [
-            "gratis",
-            "mirador"
+            "gratis"
           ]
+        },
+        {
+          "id": "3.12",
+          "time": "16:00",
+          "dur": "50 min",
+          "name": "Chinatown (Mott, Doyers, Columbus Park)",
+          "lat": 40.7155,
+          "lng": -73.9974,
+          "desc": "El Chinatown de Manhattan: Mott St (la calle principal), la curva de Doyers St y Columbus Park (donde juegan al mahjong). Ambiente, templos y comida barata. Lo recorréis con calma hoy (el sábado volvéis a la zona con enfoque de mercados/comida).",
+          "tags": []
+        },
+        {
+          "id": "3.13",
+          "time": "16:55",
+          "dur": "30 min",
+          "name": "Little Italy (Mulberry St)",
+          "lat": 40.719,
+          "lng": -73.9974,
+          "desc": "Mulberry St, el corazón de la Pequeña Italia: cafés, banderas tricolor y terrazas. Paseo corto enlazando con NoLita.",
+          "tags": []
+        },
+        {
+          "id": "3.14",
+          "time": "17:30",
+          "dur": "30 min",
+          "name": "NoLita — Elizabeth Street Garden",
+          "lat": 40.7228,
+          "lng": -73.9952,
+          "desc": "Al norte de Little Italy: calles con encanto y boutiques. Parada clave: el Elizabeth Street Garden, un acre escondido lleno de estatuas y vegetación (abierto 8-20h), de los rincones más bonitos de la zona.",
+          "tags": [
+            "gratis"
+          ]
+        },
+        {
+          "id": "3.15",
+          "time": "18:05",
+          "dur": "40 min",
+          "name": "SoHo (Greene St, cast-iron)",
+          "lat": 40.7233,
+          "lng": -74.003,
+          "desc": "SoHo: el barrio de los edificios de hierro fundido (cast-iron) y las boutiques; Greene St es la calle más fotogénica. Buen broche del día — cena por la zona (Little Italy/NoLita cerca) o metro al hotel.",
+          "tags": []
         }
       ]
     },
@@ -324,24 +366,24 @@
       "id": 4,
       "tab": "Día 4 · Mar 7",
       "title": "AMNH + MoMA + Midtown",
-      "subtitle": "Martes 7 julio · 2 museos (AC) · Fan Village Mundial · 🌅 SUMMIT · 🌃 Times Square día y noche",
+      "subtitle": "Martes 7 julio · 2 museos (AC) · SUMMIT 17:00 (subís y bajáis) · 🌃 Times Square + Broadway de noche",
       "places": [
         {
           "id": "4.1",
-          "time": "08:00",
+          "time": "08:30",
           "dur": "20 min",
           "name": "Columbus Circle",
           "lat": 40.7681,
           "lng": -73.9819,
-          "desc": "Desde el hotel: metro a Columbus Circle (~20 min). Desayuno rápido. Plaza con la columna de Colón en la esquina SO de Central Park; empieza el Upper West Side.",
+          "desc": "Desde el hotel: metro a Columbus Circle (~20 min). Desayuno rápido. Plaza con la columna de Colón en la esquina SO de Central Park; empieza el Upper West Side. (Empezáis sin prisa: el AMNH no abre hasta las 10:00.)",
           "tags": [
             "gratis"
           ]
         },
         {
           "id": "4.2",
-          "time": "08:30",
-          "dur": "20 min",
+          "time": "09:00",
+          "dur": "25 min",
           "name": "Lincoln Center",
           "lat": 40.7725,
           "lng": -73.9835,
@@ -357,7 +399,7 @@
           "name": "⭐ AMNH (Museo de Historia Natural)",
           "lat": 40.7813,
           "lng": -73.9741,
-          "desc": "Subís por el UWS (paseo + desayuno si no antes). Abre 10:00. Dinosaurios, la ballena azul, gemas, planetario. ~28 $ con hora reservada. ~2h con AC.",
+          "desc": "Abre 10:00. Dinosaurios, la ballena azul, gemas, planetario. ~28 $ con hora reservada. ~2h con AC.",
           "tags": [
             "obligatorio",
             "reservar"
@@ -366,12 +408,12 @@
         },
         {
           "id": "4.4",
-          "time": "13:00",
+          "time": "12:35",
           "dur": "2 h",
           "name": "⭐ MoMA (Museo de Arte Moderno)",
           "lat": 40.7615,
           "lng": -73.9779,
-          "desc": "Bajáis a Midtown (metro B/D ~15 min). Comida rápida antes. Arte moderno top (Van Gogh 'Noche estrellada', Picasso, Warhol). 30 $ / 14 $ est., hora reservada. ~2h con AC — 2º museo seguido, pero ambos caen en el pico de calor.",
+          "desc": "Bajáis a Midtown (metro B/D ~25 min). Arte moderno top (Van Gogh 'Noche estrellada', Picasso, Warhol). 30 $ / 14 $ est., hora reservada. ~2h con AC — 2º museo seguido, pero ambos caen en el pico de calor. Al salir, comida rápida cerca (carrito/deli) antes de seguir.",
           "tags": [
             "obligatorio",
             "reservar"
@@ -380,19 +422,19 @@
         },
         {
           "id": "4.5",
-          "time": "15:30",
+          "time": "15:15",
           "dur": "40 min",
           "name": "Rockefeller Center + Telemundo Fan Village",
           "lat": 40.7587,
           "lng": -73.9788,
-          "desc": "Plaza de Rockefeller + los Channel Gardens. Durante el Mundial, la pista de hielo es el Telemundo Fan Village (pantallas, ambiente, gratis). Top of the Rock: pasáis por su puerta (la entrada al mirador está aquí mismo) — no subimos, el vuestro es SUMMIT, pero el edificio Art Déco y la plaza ya los veis de paso.",
+          "desc": "Plaza de Rockefeller + los Channel Gardens. Durante el Mundial, la pista de hielo es el Telemundo Fan Village (pantallas, ambiente, gratis). Top of the Rock: pasáis por su puerta — no subimos (vuestro mirador es el SUMMIT), pero el edificio Art Déco y la plaza ya los veis de paso.",
           "tags": [
             "gratis"
           ]
         },
         {
           "id": "4.6",
-          "time": "16:15",
+          "time": "16:00",
           "dur": "20 min",
           "name": "St. Patrick's Cathedral",
           "lat": 40.7586,
@@ -404,68 +446,22 @@
         },
         {
           "id": "4.7",
-          "time": "16:40",
-          "dur": "40 min",
+          "time": "16:25",
+          "dur": "25 min",
           "name": "5ª Avenida (tiendas)",
           "lat": 40.76,
           "lng": -73.9758,
-          "desc": "Tramo emblemático de la 5ª Av (Saks y, subiendo, Tiffany, Apple, Nintendo, The Plaza). Escaparates; entráis solo si apetece.",
+          "desc": "Tramo emblemático de la 5ª Av (Saks y, subiendo, Tiffany, Apple, Nintendo, The Plaza). Escaparates de paso mientras bajáis hacia la 42 y el SUMMIT.",
           "tags": []
         },
         {
           "id": "4.8",
-          "time": "17:30",
-          "dur": "30 min",
-          "name": "Times Square (de día)",
-          "lat": 40.7589,
-          "lng": -73.9851,
-          "desc": "Paseo con luz: desde la 5ª Av son ~8 min al oeste. De día es gentío y pantallas sin brillar (la gracia es la nocturna de luego), pero da para pasear las plazas peatonales, las gradas rojas de TKTS y fotos sin el agobio de la noche. Después, 2 manzanas al sur hasta Bryant Park.",
-          "tags": []
-        },
-        {
-          "id": "4.13",
-          "time": "17:50",
-          "dur": "15 min",
-          "name": "🎭 Distrito de los Teatros (Broadway)",
-          "lat": 40.7581,
-          "lng": -73.9873,
-          "desc": "De camino a Bryant bajáis por el corazón de Broadway (el Theater District). Para ver sin entrar: las gradas rojas de TKTS en Duffy Square (47th, con la estatua de George M. Cohan, 'Mr. Broadway') y Shubert Alley, el callejón peatonal histórico entre los teatros Shubert (44th) y Booth (45th), con Sardi's al lado. Alrededor, las marquesinas de las calles 44–46. Megaéxitos de larga temporada y sus teatros (la cartelera puede cambiar, mirad qué hay el día): El Rey León en el Minskoff (Broadway & 45, sobre la plaza), Hamilton en el Richard Rodgers (46th), Wicked en el Gershwin (51th) y Aladdin en el New Amsterdam (calle 42, el teatro restaurado más bonito).",
-          "tags": [
-            "gratis"
-          ]
-        },
-        {
-          "id": "4.9",
-          "time": "18:10",
-          "dur": "45 min",
-          "name": "Bryant Park + NYPL + azotea SNFL",
-          "lat": 40.7539,
-          "lng": -73.9839,
-          "desc": "Parque-oasis tras la Biblioteca Pública (NYPL): entrad a ver la Rose Reading Room (gratis). Al lado, la azotea pública gratis de la biblioteca SNFL (455 5ª Av) con vistas. Merienda rápida en el parque.",
-          "tags": [
-            "gratis"
-          ]
-        },
-        {
-          "id": "4.10",
-          "time": "19:05",
-          "dur": "40 min",
-          "name": "Grand Central + Chrysler",
-          "lat": 40.7527,
-          "lng": -73.9773,
-          "desc": "Vestíbulo monumental de Grand Central (techo con constelaciones, gratis). Saliendo, la aguja art déco del Chrysler Building enfrente (exterior).",
-          "tags": [
-            "gratis"
-          ]
-        },
-        {
-          "id": "4.11",
-          "time": "19:50",
-          "dur": "1 h",
-          "name": "🌅 SUMMIT One Vanderbilt",
+          "time": "17:00",
+          "dur": "1.5 h",
+          "name": "🏙️ SUMMIT One Vanderbilt",
           "lat": 40.753,
           "lng": -73.9785,
-          "desc": "Mirador inmersivo de espejos en One Vanderbilt (al lado de Grand Central). Reservad franja de atardecer (se agotan). El Ascent (ascensor de cristal) cuesta aparte — saltable. Cena rápida por Midtown y luego Times Square de noche.",
+          "desc": "Mirador inmersivo de espejos en One Vanderbilt (pegado a Grand Central). ✅ Subís a las 17:00 (la franja más económica): de DÍA las salas de espejos, los suelos de cristal y las vistas se ven igual de espectaculares — solo os perdéis las luces de noche. ~1-1,5h y bajáis; estáis en el centro de Midtown, así que todo lo que queda está al ladito (no se pierde tiempo en volver). El Ascent (ascensor de cristal) cuesta aparte, saltable.",
           "tags": [
             "obligatorio",
             "reservar",
@@ -474,14 +470,50 @@
           "link": "https://summitov.com/"
         },
         {
-          "id": "4.12",
-          "time": "21:05",
+          "id": "4.9",
+          "time": "18:35",
+          "dur": "40 min",
+          "name": "Grand Central + Chrysler",
+          "lat": 40.7527,
+          "lng": -73.9773,
+          "desc": "Al bajar del SUMMIT, justo al lado: vestíbulo monumental de Grand Central (techo con constelaciones, gratis), precioso también de noche. Enfrente, la aguja art déco del Chrysler Building (exterior).",
+          "tags": [
+            "gratis"
+          ]
+        },
+        {
+          "id": "4.10",
+          "time": "19:20",
+          "dur": "40 min",
+          "name": "Bryant Park + NYPL + azotea SNFL",
+          "lat": 40.7539,
+          "lng": -73.9839,
+          "desc": "5 min al oeste. Parque-oasis tras la Biblioteca Pública (NYPL): entrad rápido a ver la Rose Reading Room (gratis) — cierra a las 20:00. Al lado, la azotea pública gratis de la biblioteca SNFL (455 5ª Av) con vistas.",
+          "tags": [
+            "gratis"
+          ]
+        },
+        {
+          "id": "4.11",
+          "time": "20:05",
           "dur": "35 min",
           "name": "🌃 Times Square (de noche)",
           "lat": 40.7589,
           "lng": -73.9851,
-          "desc": "Ahora con TODO encendido — su momento. Se ve al bajar del SUMMIT (~12 min al oeste por la 42nd, ya oscuro); de día ya lo cruzasteis, esto es otra cosa. Cena rápida por la zona (slice, etc.) y metro N/Q/R/W directo a Union Square → hotel ~22:00. Si venís fundidos, un paseo rápido y para casa.",
+          "desc": "Times Square con TODO encendido — su momento. Llegáis ya de noche: pantallas gigantes y plazas peatonales. (Se ve una vez, de noche, que es como mola; con el SUMMIT a las 17:00 no quedaba hueco de día y tampoco hace falta.)",
           "tags": []
+        },
+        {
+          "id": "4.12",
+          "time": "20:45",
+          "dur": "20 min",
+          "name": "🎭 Distrito de los Teatros (Broadway)",
+          "lat": 40.7581,
+          "lng": -73.9873,
+          "desc": "Justo al lado, el corazón de Broadway iluminado: las gradas rojas de TKTS en Duffy Square (47th, estatua de George M. Cohan), Shubert Alley (callejón histórico entre los teatros Shubert y Booth, con Sardi's) y las marquesinas de las calles 44-46. Megaéxitos y sus teatros (mirad la cartelera del día): El Rey León (Minskoff), Hamilton (Richard Rodgers), Wicked (Gershwin), Aladdin (New Amsterdam). Cena por la zona y metro a Union Square → hotel.",
+          "tags": [
+            "gratis"
+          ]
         }
       ]
     },
