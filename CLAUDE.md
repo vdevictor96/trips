@@ -85,4 +85,3 @@ Verificado en `src/stores/trip.js` (`loadTrip`) y `public/sw.js`. Hay **dos capa
 2. **Authentication → Users**: añadir usuario con el email de `VITE_AUTH_EMAIL` y la contraseña que usaréis.
 3. **Realtime Database → Rules**: pegar el contenido de `database.rules.json` y publicar.
 4. Definir **`VITE_AUTH_EMAIL`** en `.env.local` (dev) y como **secret de GitHub** `VITE_AUTH_EMAIL` (deploy, ya cableado en `deploy.yml`).
-
