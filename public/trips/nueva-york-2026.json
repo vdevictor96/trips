@@ -1,5 +1,5 @@
 {
-  "_v": 15,
+  "_v": 16,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -421,6 +421,18 @@
           "lng": -73.9851,
           "desc": "Paseo con luz: desde la 5ª Av son ~8 min al oeste. De día es gentío y pantallas sin brillar (la gracia es la nocturna de luego), pero da para pasear las plazas peatonales, las gradas rojas de TKTS y fotos sin el agobio de la noche. Después, 2 manzanas al sur hasta Bryant Park.",
           "tags": []
+        },
+        {
+          "id": "4.13",
+          "time": "17:50",
+          "dur": "15 min",
+          "name": "🎭 Distrito de los Teatros (Broadway)",
+          "lat": 40.7581,
+          "lng": -73.9873,
+          "desc": "De camino a Bryant bajáis por el corazón de Broadway (el Theater District). Para ver sin entrar: las gradas rojas de TKTS en Duffy Square (47th, con la estatua de George M. Cohan, 'Mr. Broadway') y Shubert Alley, el callejón peatonal histórico entre los teatros Shubert (44th) y Booth (45th), con Sardi's al lado. Alrededor, las marquesinas de las calles 44–46. Megaéxitos de larga temporada y sus teatros (la cartelera puede cambiar, mirad qué hay el día): El Rey León en el Minskoff (Broadway & 45, sobre la plaza), Hamilton en el Richard Rodgers (46th), Wicked en el Gershwin (51th) y Aladdin en el New Amsterdam (calle 42, el teatro restaurado más bonito).",
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "4.9",
