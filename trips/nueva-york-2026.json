@@ -1,5 +1,5 @@
 {
-  "_v": 19,
+  "_v": 20,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -241,7 +241,7 @@
           "name": "Charging Bull y Fearless Girl",
           "lat": 40.7056,
           "lng": -74.0136,
-          "desc": "El toro de Wall St (Bowling Green) y, a un paso, la 'Fearless Girl' frente a la Bolsa (Broad St). Foto rápida; suele haber cola para el toro.",
+          "desc": "El toro de Wall St (en Bowling Green, el parque más antiguo de NY) y, a un paso, la 'Fearless Girl' frente a la Bolsa (Broad St). Foto rápida; suele haber cola para el toro.",
           "tags": [
             "gratis"
           ]
@@ -294,7 +294,7 @@
         },
         {
           "id": "3.8",
-          "time": "13:05",
+          "time": "13:00",
           "dur": "50 min",
           "name": "Brookfield Place (comida)",
           "lat": 40.7129,
@@ -304,8 +304,8 @@
         },
         {
           "id": "3.9",
-          "time": "14:00",
-          "dur": "45 min",
+          "time": "13:50",
+          "dur": "40 min",
           "name": "⭐ 9/11 Memorial (fuentes)",
           "lat": 40.7115,
           "lng": -74.0136,
@@ -318,8 +318,8 @@
         },
         {
           "id": "3.10",
-          "time": "14:50",
-          "dur": "20 min",
+          "time": "14:35",
+          "dur": "15 min",
           "name": "Oculus (WTC)",
           "lat": 40.7116,
           "lng": -74.0112,
@@ -329,8 +329,22 @@
           ]
         },
         {
+          "id": "3.17",
+          "time": "15:00",
+          "dur": "20 min",
+          "name": "🔭 Municipal Building (cúpula Centre 360)",
+          "lat": 40.7128,
+          "lng": -74.0038,
+          "desc": "Mirador GRATIS en la cúpula del David N. Dinkins Municipal Building (1 Centre St, al lado del City Hall donde ya estáis). Panorámica 360° del Bajo Manhattan, los puentes del East River y el puerto. ⚠️ Solo L-V 9-17h, visita guiada EN PUNTO (~15-20 min), grupos de 5. RESERVAR en Centre 360 (franjas nuevas el 1 de cada mes a las 10:00 → reservad el 1 jul la franja de las 15:00). Llevad DNI/pasaporte y zapato cerrado.",
+          "tags": [
+            "gratis",
+            "reservar"
+          ],
+          "link": "https://a856-centre360.nyc.gov/Book"
+        },
+        {
           "id": "3.11",
-          "time": "15:15",
+          "time": "15:25",
           "dur": "30 min",
           "name": "Old City Hall Station (bucle del 6)",
           "lat": 40.7132,
@@ -509,12 +523,24 @@
         {
           "id": "4.7",
           "time": "15:30",
-          "dur": "1.5 h",
+          "dur": "1 h",
           "name": "🛍️ 5ª Avenida — compras",
           "lat": 40.76,
           "lng": -73.9758,
           "desc": "Bloque de compras de verdad (~1,5h) por el tramo alto de la 5ª Av: Saks (50th) enfrente de Rockefeller, y subiendo Tiffany, la Apple (24h, bajo el cubo de cristal), Bergdorf Goodman y The Plaza hacia la 59th. Entráis a lo que os apetezca; luego bajáis a la 42 para el SUMMIT.",
           "tags": []
+        },
+        {
+          "id": "4.17",
+          "time": "16:35",
+          "dur": "15 min",
+          "name": "Paley Park",
+          "lat": 40.7601,
+          "lng": -73.974,
+          "desc": "Parque de bolsillo escondido (3 E 53rd, entre 5ª y Madison) con un muro-cascada que tapa el ruido de la ciudad: un oasis de 5-10 min en plena 5ª Av para sentarse y respirar antes del SUMMIT. Gratis.",
+          "tags": [
+            "gratis"
+          ]
         },
         {
           "id": "4.8",
@@ -628,8 +654,20 @@
           ]
         },
         {
+          "id": "5.15",
+          "time": "08:35",
+          "dur": "15 min",
+          "name": "Father Demo Square",
+          "lat": 40.7305,
+          "lng": -73.9999,
+          "desc": "Placita triangular del Village (Bleecker/Carmine/6ª Av), junto a la iglesia Our Lady of Pompeii. Desvío mínimo (~5 min) tras Washington Sq, en plena ruta del Village; rincón con encanto y la mítica Bleecker St al lado.",
+          "tags": [
+            "gratis"
+          ]
+        },
+        {
           "id": "5.2",
-          "time": "08:40",
+          "time": "08:55",
           "dur": "10 min",
           "name": "Washington Mews",
           "lat": 40.7332,
@@ -639,7 +677,7 @@
         },
         {
           "id": "5.3",
-          "time": "08:55",
+          "time": "09:10",
           "dur": "20 min",
           "name": "Jefferson Market (biblioteca + jardín)",
           "lat": 40.7345,
@@ -652,7 +690,7 @@
         },
         {
           "id": "5.4",
-          "time": "09:20",
+          "time": "09:35",
           "dur": "30 min",
           "name": "West Village — Stonewall y Christopher St",
           "lat": 40.7339,
@@ -664,7 +702,7 @@
         },
         {
           "id": "5.5",
-          "time": "09:55",
+          "time": "10:05",
           "dur": "25 min",
           "name": "Grove & Bedford St (Friends + casa más estrecha)",
           "lat": 40.732,
@@ -676,7 +714,7 @@
         },
         {
           "id": "5.6",
-          "time": "10:25",
+          "time": "10:35",
           "dur": "30 min",
           "name": "Meatpacking District",
           "lat": 40.7403,
@@ -686,7 +724,7 @@
         },
         {
           "id": "5.7",
-          "time": "10:55",
+          "time": "11:05",
           "dur": "1 h",
           "name": "High Line",
           "lat": 40.746,
@@ -698,7 +736,7 @@
         },
         {
           "id": "5.8",
-          "time": "12:00",
+          "time": "12:10",
           "dur": "1 h",
           "name": "Hudson Yards (Vessel)",
           "lat": 40.7538,
@@ -708,7 +746,7 @@
         },
         {
           "id": "5.9",
-          "time": "13:25",
+          "time": "13:30",
           "dur": "1 h",
           "name": "Chelsea Market (comida)",
           "lat": 40.7425,
@@ -1047,11 +1085,24 @@
         {
           "id": "8.11",
           "time": "18:30",
-          "dur": "2 h",
+          "dur": "1 h",
           "name": "🌅 Domino Park + North 5th St Pier",
           "lat": 40.7144,
           "lng": -73.9677,
-          "desc": "Paseo marítimo de Williamsburg (antigua refinería Domino) y el North 5th Street Pier. Atardecer con el skyline de Manhattan enfrente. Vuelta en metro L (Bedford Av → Union Sq, directo al hotel).",
+          "desc": "Paseo marítimo de Williamsburg (antigua refinería Domino) y el North 5th Street Pier, con el skyline de Manhattan enfrente (luz dorada). Hoy NO os quedáis al atardecer aquí: a las ~19:30 cogéis la L de vuelta a Manhattan para el Manhattanhenge.",
+          "tags": [
+            "gratis",
+            "mirador"
+          ]
+        },
+        {
+          "id": "8.12",
+          "time": "20:00",
+          "dur": "40 min",
+          "name": "🌇 Manhattanhenge (calle 14)",
+          "lat": 40.734,
+          "lng": -73.9858,
+          "desc": "🌇 Manhattanhenge (SÁB 11 jul, ~20:20): el sol se alinea perfecto con la cuadrícula de Manhattan al ponerse — fenómeno de solo 2 días/año y os pilla justo. Desde Williamsburg volvéis en metro L (Bedford → 1ª/3ª Av, ~10 min) y lo veis desde la CALLE 14 mirando al OESTE (una de las mejores calles, y al lado del hotel). Llegad ~20:00 a coger sitio; cuanto más al este estéis en la 14, más larga la perspectiva. Dura solo unos minutos. Luego, 3 manzanas al hotel.",
           "tags": [
             "gratis",
             "mirador"
