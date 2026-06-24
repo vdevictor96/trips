@@ -1,5 +1,5 @@
 {
-  "_v": 20,
+  "_v": 21,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -815,7 +815,7 @@
         },
         {
           "id": "6.2",
-          "time": "08:50",
+          "time": "08:55",
           "dur": "1 h",
           "name": "DUMBO (foto Washington St + Jane's Carousel)",
           "lat": 40.7029,
@@ -827,8 +827,8 @@
         },
         {
           "id": "6.3",
-          "time": "09:50",
-          "dur": "15 min",
+          "time": "10:00",
+          "dur": "20 min",
           "name": "Pebble Beach (DUMBO)",
           "lat": 40.7036,
           "lng": -73.9904,
@@ -840,36 +840,36 @@
         },
         {
           "id": "6.4",
-          "time": "10:15",
+          "time": "10:35",
           "dur": "45 min",
           "name": "Brooklyn Heights Promenade",
           "lat": 40.696,
           "lng": -73.9974,
-          "desc": "Paseo elevado con vistas al skyline de Manhattan y el puente. Calles de casas señoriales (brownstones). ⚠️ PENDIENTE (hueco justo): de Pebble Beach a aquí hay ~15 min andando cuesta arriba y el plan deja solo 10 min de margen.",
+          "desc": "Paseo elevado con vistas al skyline de Manhattan y el puente; calles de casas señoriales (brownstones). Desde Pebble Beach son ~15 min andando cuesta arriba, sin prisa.",
           "tags": [
             "gratis"
           ]
         },
         {
           "id": "6.5",
-          "time": "11:30",
-          "dur": "3 h",
+          "time": "11:45",
+          "dur": "2 h",
           "name": "Red Hook — Louis Valentino Jr Park (Estatua) + comida",
           "lat": 40.6759,
           "lng": -74.0156,
-          "desc": "B61 bus (~20 min) hasta Red Hook (barrio costero industrial-bohemio, adoquines). En Louis Valentino Jr Park, la vista de cara más cercana a la Estatua desde tierra. Comida: Red Hook Lobster Pound / key lime pie. Mediodía expuesto pero con brisa del agua — llevad agua.",
+          "desc": "B61 bus (~25 min) hasta Red Hook (barrio costero industrial-bohemio, adoquines). En Louis Valentino Jr Park, la vista de cara más cercana a la Estatua desde tierra. Comida sin prisa: Red Hook Lobster Pound / key lime pie de Steve's. Mediodía expuesto pero con brisa del agua — llevad agua. ~2 h dan de sobra para comer y pasear el muelle.",
           "tags": [
             "gratis"
           ]
         },
         {
           "id": "6.6",
-          "time": "15:30",
+          "time": "14:15",
           "dur": "1.5 h",
           "name": "Brooklyn Bridge Park + Time Out Market",
           "lat": 40.7036,
           "lng": -73.9919,
-          "desc": "Vuelta en B61 (~25 min). Paseáis los piers del parque; Time Out Market (food hall con AC y azotea) sirve de refugio del calor y merienda.",
+          "desc": "Vuelta en B61 (~25 min). Paseáis los piers del parque; en el Time Out Market (food hall con AC, en los Empire Stores) subid GRATIS a su azotea por las vistas al puente de Brooklyn y el skyline (la barra es opcional). Refugio del calor y merienda. Buen colchón antes del kayak de las 17:00 (el B61 a veces se hace esperar).",
           "tags": []
         },
         {
