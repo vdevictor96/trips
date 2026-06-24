@@ -1,5 +1,5 @@
 {
-  "_v": 18,
+  "_v": 19,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -381,6 +381,16 @@
           "lng": -74.003,
           "desc": "SoHo: el barrio de los edificios de hierro fundido (cast-iron) y las boutiques; Greene St es la calle más fotogénica. Buen broche del día — cena por la zona (Little Italy/NoLita cerca) o metro al hotel.",
           "tags": []
+        },
+        {
+          "id": "3.16",
+          "time": "18:45",
+          "dur": "45 min",
+          "name": "Strand Book Store",
+          "lat": 40.7332,
+          "lng": -73.992,
+          "tags": [],
+          "desc": "De vuelta al hotel desde SoHo: '18 millas de libros', la mítica librería de Union Sq (12th/Broadway), abre hasta tarde. Parada perfecta para cerrar el día de barrios antes de cenar."
         }
       ]
     },
@@ -388,23 +398,43 @@
       "id": 4,
       "tab": "Día 4 · Mar 7",
       "title": "AMNH + MoMA + Midtown",
-      "subtitle": "Martes 7 julio · 2 museos (AC) · SUMMIT 17:00 (subís y bajáis) · 🌃 Times Square + Broadway de noche",
+      "subtitle": "Martes 7 julio · 2 museos (AC) · 🛍️ compras 5ª Av + Nintendo · SUMMIT 17:00 · 🌃 Times Square + Broadway de noche",
       "places": [
         {
+          "id": "4.13",
+          "time": "08:00",
+          "dur": "10 min",
+          "name": "Flatiron Building",
+          "lat": 40.7411,
+          "lng": -73.9897,
+          "tags": [],
+          "desc": "El icónico edificio triangular (1902) en la confluencia de Broadway y la 5ª Av. Foto rápida nada más salir del hotel, de camino al metro hacia Midtown."
+        },
+        {
+          "id": "4.14",
+          "time": "08:15",
+          "dur": "15 min",
+          "name": "Madison Square Park",
+          "lat": 40.7424,
+          "lng": -73.9876,
+          "tags": [],
+          "desc": "Parque con el Flatiron de fondo. Aquí está la Shake Shack ORIGINAL (abre 11:00 → de mañana solo el parque; apuntadla para repetir el domingo) y, al lado, Eataly. De paso hacia el metro de la 28 para subir a Columbus Circle."
+        },
+        {
           "id": "4.1",
-          "time": "08:30",
+          "time": "08:55",
           "dur": "20 min",
           "name": "Columbus Circle",
           "lat": 40.7681,
           "lng": -73.9819,
-          "desc": "Desde el hotel: metro a Columbus Circle (~20 min). Desayuno rápido. Plaza con la columna de Colón en la esquina SO de Central Park; empieza el Upper West Side. (Empezáis sin prisa: el AMNH no abre hasta las 10:00.)",
+          "desc": "Subís en metro desde la 28 (tras el paseo por Flatiron/Madison Sq). Plaza con la columna de Colón en la esquina SO de Central Park; empieza el Upper West Side. Sin prisa: el AMNH no abre hasta las 10:00.",
           "tags": [
             "gratis"
           ]
         },
         {
           "id": "4.2",
-          "time": "09:00",
+          "time": "09:15",
           "dur": "25 min",
           "name": "Lincoln Center",
           "lat": 40.7725,
@@ -431,11 +461,11 @@
         {
           "id": "4.4",
           "time": "12:35",
-          "dur": "2 h",
+          "dur": "1.5 h",
           "name": "⭐ MoMA (Museo de Arte Moderno)",
           "lat": 40.7615,
           "lng": -73.9779,
-          "desc": "Bajáis a Midtown (metro B/D ~25 min). Arte moderno top (Van Gogh 'Noche estrellada', Picasso, Warhol). 30 $ / 14 $ est., hora reservada. ~2h con AC — 2º museo seguido, pero ambos caen en el pico de calor. Al salir, comida rápida cerca (carrito/deli) antes de seguir.",
+          "desc": "Bajáis a Midtown (metro B/D ~25 min). Arte moderno top (Van Gogh 'Noche estrellada', Picasso, Warhol). 30 $ / 14 $ est., hora reservada. ~1,5h versión highlights (id a lo que os tire) para dejar tiempo a las compras de la tarde. Al salir, bocado rápido cerca.",
           "tags": [
             "obligatorio",
             "reservar"
@@ -444,8 +474,8 @@
         },
         {
           "id": "4.5",
-          "time": "15:15",
-          "dur": "40 min",
+          "time": "14:15",
+          "dur": "30 min",
           "name": "Rockefeller Center + Telemundo Fan Village",
           "lat": 40.7587,
           "lng": -73.9788,
@@ -455,9 +485,19 @@
           ]
         },
         {
+          "id": "4.15",
+          "time": "14:45",
+          "dur": "30 min",
+          "name": "🎮 Nintendo New York",
+          "lat": 40.7591,
+          "lng": -73.9787,
+          "tags": [],
+          "desc": "Tienda insignia de Nintendo (10 Rockefeller Plaza, 6ª Av/48th), pegada a Rockefeller: dos plantas, productos exclusivos y zona de demos. 30-45 min de tienda friki."
+        },
+        {
           "id": "4.6",
-          "time": "16:00",
-          "dur": "20 min",
+          "time": "15:15",
+          "dur": "15 min",
           "name": "St. Patrick's Cathedral",
           "lat": 40.7586,
           "lng": -73.9764,
@@ -468,12 +508,12 @@
         },
         {
           "id": "4.7",
-          "time": "16:25",
-          "dur": "25 min",
-          "name": "5ª Avenida (tiendas)",
+          "time": "15:30",
+          "dur": "1.5 h",
+          "name": "🛍️ 5ª Avenida — compras",
           "lat": 40.76,
           "lng": -73.9758,
-          "desc": "Tramo emblemático de la 5ª Av (Saks y, subiendo, Tiffany, Apple, Nintendo, The Plaza). Escaparates de paso mientras bajáis hacia la 42 y el SUMMIT.",
+          "desc": "Bloque de compras de verdad (~1,5h) por el tramo alto de la 5ª Av: Saks (50th) enfrente de Rockefeller, y subiendo Tiffany, la Apple (24h, bajo el cubo de cristal), Bergdorf Goodman y The Plaza hacia la 59th. Entráis a lo que os apetezca; luego bajáis a la 42 para el SUMMIT.",
           "tags": []
         },
         {
@@ -536,6 +576,16 @@
           "tags": [
             "gratis"
           ]
+        },
+        {
+          "id": "4.16",
+          "time": "21:20",
+          "dur": "10 min",
+          "name": "🏢 Empire State (de noche, de paso)",
+          "lat": 40.7484,
+          "lng": -73.9857,
+          "tags": [],
+          "desc": "De vuelta al hotel: bajando la 5ª/Broadway hacia Gramercy pasáis por su base. El rascacielos Art Déco de 1931 (34th/5ª), iluminado de noche — su mejor estampa. No subimos (vuestro mirador es el SUMMIT); el vestíbulo Art Déco es gratis y espectacular si os quedan ganas."
         }
       ]
     },
@@ -546,8 +596,28 @@
       "subtitle": "Miércoles 8 julio · Met cerrado · High Line de mañana · Whitney en el pico (AC) · 🌅 Little Island 20:29",
       "places": [
         {
+          "id": "5.13",
+          "time": "07:40",
+          "dur": "10 min",
+          "name": "Gramercy Park (por la verja)",
+          "lat": 40.7374,
+          "lng": -73.9862,
+          "tags": [],
+          "desc": "Nada más salir del hotel (3 manzanas al norte): el único parque privado de Manhattan, solo para los ~380 llaveros — uno se asoma por la verja de hierro a la plaza ajardinada de 'vuestro' barrio."
+        },
+        {
+          "id": "5.14",
+          "time": "07:55",
+          "dur": "15 min",
+          "name": "Union Square",
+          "lat": 40.7359,
+          "lng": -73.9911,
+          "tags": [],
+          "desc": "De camino al Village: plaza con mucho ambiente. ⚠️ El greenmarket de productores es lun/mié/vie/sáb → el miércoles 8 SÍ hay mercado de mañana. Buen sitio para un primer bocado."
+        },
+        {
           "id": "5.1",
-          "time": "08:00",
+          "time": "08:15",
           "dur": "20 min",
           "name": "Washington Square Park",
           "lat": 40.7308,
@@ -559,7 +629,7 @@
         },
         {
           "id": "5.2",
-          "time": "08:25",
+          "time": "08:40",
           "dur": "10 min",
           "name": "Washington Mews",
           "lat": 40.7332,
@@ -569,7 +639,7 @@
         },
         {
           "id": "5.3",
-          "time": "08:40",
+          "time": "08:55",
           "dur": "20 min",
           "name": "Jefferson Market (biblioteca + jardín)",
           "lat": 40.7345,
@@ -582,7 +652,7 @@
         },
         {
           "id": "5.4",
-          "time": "09:05",
+          "time": "09:20",
           "dur": "30 min",
           "name": "West Village — Stonewall y Christopher St",
           "lat": 40.7339,
@@ -594,7 +664,7 @@
         },
         {
           "id": "5.5",
-          "time": "09:40",
+          "time": "09:55",
           "dur": "25 min",
           "name": "Grove & Bedford St (Friends + casa más estrecha)",
           "lat": 40.732,
@@ -606,7 +676,7 @@
         },
         {
           "id": "5.6",
-          "time": "10:20",
+          "time": "10:25",
           "dur": "30 min",
           "name": "Meatpacking District",
           "lat": 40.7403,
@@ -993,73 +1063,27 @@
       "id": 9,
       "tab": "Día 9 · Dom 12",
       "title": "Mañana + Vuelta",
-      "subtitle": "Domingo 12 julio · Cerca del hotel · salir ~12:30 · vuelo 16:45 JFK",
+      "subtitle": "Domingo 12 julio · 🔁 Mañana libre (repetir favoritos) · salir ~12:15 · vuelo 16:45 JFK",
       "places": [
         {
           "id": "9.1",
-          "time": "08:30",
-          "dur": "15 min",
-          "name": "Gramercy Park (por la verja)",
-          "lat": 40.7374,
-          "lng": -73.9862,
-          "desc": "Primera parada nada más salir del hotel (3 manzanas al norte; desayuno rápido cerca). El único parque privado de Manhattan: solo llaveros (~380 llaves), no se entra — uno se asoma por la verja de hierro a la plaza ajardinada de 'vuestro' barrio.",
-          "tags": []
+          "time": "Mañana",
+          "dur": "libre",
+          "name": "🔁 Mañana libre — repetir favoritos",
+          "lat": 40.7349,
+          "lng": -73.9846,
+          "tags": [],
+          "desc": "Sin plan fijo: estáis en plena zona Gramercy/Union Square, así que la mañana es para repetir lo que más os gustó — un último bagel, Washington Square, Union Square, la Strand, la Shake Shack ORIGINAL de Madison Square (abre 11:00)… Descansad, comprad lo que faltó y sin prisas. Lo que era 'obligatorio' ya está repartido en días anteriores, así que hoy no se pierde nada."
         },
         {
           "id": "9.2",
-          "time": "09:05",
-          "dur": "20 min",
-          "name": "Flatiron Building",
-          "lat": 40.7411,
-          "lng": -73.9897,
-          "desc": "El icónico edificio triangular en la confluencia de Broadway y la 5ª Av. Foto.",
-          "tags": [
-            "gratis"
-          ]
-        },
-        {
-          "id": "9.3",
-          "time": "09:35",
-          "dur": "40 min",
-          "name": "Madison Square Park",
-          "lat": 40.7424,
-          "lng": -73.9876,
-          "desc": "Parque con la Shake Shack ORIGINAL y, al lado, Eataly (mercado italiano). Buen sitio para un último bocado.",
-          "tags": [
-            "gratis"
-          ]
-        },
-        {
-          "id": "9.4",
-          "time": "10:15",
-          "dur": "20 min",
-          "name": "🏢 Empire State (opcional)",
-          "lat": 40.7484,
-          "lng": -73.9857,
-          "desc": "🏢 OPCIONAL. Rascacielos Art Déco de 1931 (34th/5ª Av), ~8 manzanas al norte de Madison Square Park. NO subimos (el mirador de pago es el SUMMIT; desde el Empire no se ve el propio Empire). Es solo pasar por su base y, si queréis, asomaros al vestíbulo Art Déco (gratis, espectacular). ⚠️ Desvío de ~40 min ida y vuelta y el domingo el margen al aeropuerto va JUSTO → hacedlo solo si salís antes del hotel o acortáis Strand. Si no, lo veréis igual de lejos desde el SUMMIT y desde Flatiron.",
-          "tags": []
-        },
-        {
-          "id": "9.5",
-          "time": "10:25",
-          "dur": "40 min",
-          "name": "Union Square",
-          "lat": 40.7359,
-          "lng": -73.9911,
-          "desc": "Plaza con mucho ambiente en el corazón del centro. ⚠️ El greenmarket de productores es lun/mié/vie/sáb → el domingo 12 no hay mercado, pero la plaza y el trasiego siguen mereciendo el paseo.",
-          "tags": [
-            "gratis"
-          ]
-        },
-        {
-          "id": "9.6",
-          "time": "11:15",
-          "dur": "1 h",
-          "name": "Strand Book Store",
-          "lat": 40.7332,
-          "lng": -73.992,
-          "desc": "'18 millas de libros' (abre ~11h domingo). ⚠️ OJO CON EL TIEMPO: para un vuelo internacional a las 16:45 hay que estar en JFK ~3 h antes (≈13:45). Plan: visita corta a Strand y salir del hotel hacia JFK NO más tarde de las 12:15-12:30 (check-out + maletas antes). AirTrain + metro (~75 min, ~11 $) o taxi (~50 min, ~70 $). Saliendo a esa hora llegáis con ~2,5 h: justo pero válido — no lo apuréis más (si vais sobrados de ganas de libros, mejor acortar Strand que arriesgar el vuelo).",
-          "tags": []
+          "time": "12:15",
+          "dur": "salida",
+          "name": "✈️ Check-out + salida a JFK",
+          "lat": 40.7349,
+          "lng": -73.9846,
+          "tags": [],
+          "desc": "Vuelo 16:45 (internacional → en JFK ~3h antes, ≈13:45). Salid del hotel hacia JFK NO más tarde de las 12:15-12:30 (check-out + maletas antes). AirTrain + metro (~75 min, ~11 $) o taxi (~50 min, ~70 $). Con margen, sin apurar."
         }
       ]
     }
