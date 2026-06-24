@@ -1,5 +1,5 @@
 {
-  "_v": 21,
+  "_v": 22,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -852,24 +852,24 @@
         },
         {
           "id": "6.5",
-          "time": "11:45",
+          "time": "12:00",
           "dur": "2 h",
           "name": "Red Hook — Louis Valentino Jr Park (Estatua) + comida",
           "lat": 40.6759,
           "lng": -74.0156,
-          "desc": "B61 bus (~25 min) hasta Red Hook (barrio costero industrial-bohemio, adoquines). En Louis Valentino Jr Park, la vista de cara más cercana a la Estatua desde tierra. Comida sin prisa: Red Hook Lobster Pound / key lime pie de Steve's. Mediodía expuesto pero con brisa del agua — llevad agua. ~2 h dan de sobra para comer y pasear el muelle.",
+          "desc": "⚠️ Red Hook está aislado (sin metro): el B61 son ~40 min puerta a puerta (caminata hasta Columbia St + espera + trayecto), o se va andando ~35 min por Columbia St. Barrio costero industrial-bohemio de adoquines. En Louis Valentino Jr Park, la vista de cara más cercana a la Estatua desde tierra. Comida sin prisa: Red Hook Lobster Pound / key lime pie de Steve's. ~2 h en el sitio (mediodía expuesto, llevad agua).",
           "tags": [
             "gratis"
           ]
         },
         {
           "id": "6.6",
-          "time": "14:15",
+          "time": "14:40",
           "dur": "1.5 h",
           "name": "Brooklyn Bridge Park + Time Out Market",
           "lat": 40.7036,
           "lng": -73.9919,
-          "desc": "Vuelta en B61 (~25 min). Paseáis los piers del parque; en el Time Out Market (food hall con AC, en los Empire Stores) subid GRATIS a su azotea por las vistas al puente de Brooklyn y el skyline (la barra es opcional). Refugio del calor y merienda. Buen colchón antes del kayak de las 17:00 (el B61 a veces se hace esperar).",
+          "desc": "Vuelta a Brooklyn Bridge Park (~40 min). Lo más bonito: NYC Ferry (ruta South Brooklyn, Red Hook → Pier 6, ~10 min con vistas; pero pasa cada ~43 min y es billete aparte ~4,50 $, mirad la hora antes). Alternativa fiable: B61 hasta Downtown Brooklyn y ~15 min andando. Desde el sur del parque subís paseando los piers; en el Time Out Market (Empire Stores) subid GRATIS a la azotea por las vistas al puente de Brooklyn y el skyline (barra opcional). Merienda y refugio del calor; buen colchón antes del kayak de las 17:00.",
           "tags": []
         },
         {
