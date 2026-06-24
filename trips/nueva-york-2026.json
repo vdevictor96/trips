@@ -1,5 +1,5 @@
 {
-  "_v": 17,
+  "_v": 18,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -53,52 +53,62 @@
       "id": 2,
       "tab": "Día 2 · Dom 5",
       "title": "Central Park + Met",
-      "subtitle": "Domingo 5 julio · Parque por la mañana (fresco) · Met mediodía (AC) · 🌅 20:30",
+      "subtitle": "Domingo 5 julio · 🚲 Central Park en bici (fresco) · Met mediodía (AC) · 🌅 20:30",
       "places": [
         {
+          "id": "2.11",
+          "time": "09:00",
+          "dur": "15 min",
+          "name": "🚲 Recoger bicis (Unlimited Biking)",
+          "lat": 40.7633,
+          "lng": -73.9762,
+          "desc": "Recogéis las bicis en Unlimited Biking (56 W 56th, entre 5ª y 6ª, 3-4 manzanas al sur del parque). Incluye casco, candado, cesta y mapa. Recomendado 3 h (27,50 $/persona): da para ver a pie las joyas del sur (candando las bicis) y subir luego en bici al embalse, que a pie no daría tiempo. ⚠️ Confirmad la hora de apertura al reservar (suelen abrir ~9:00); los horarios de abajo asumen recogida a las 9:00. Si abre más tarde, haced las joyas del sur a pie primero y reservad la bici para el norte. Devolución en el mismo sitio.",
+          "tags": []
+        },
+        {
           "id": "2.1",
-          "time": "08:00",
-          "dur": "20 min",
+          "time": "09:20",
+          "dur": "15 min",
           "name": "Central Park — The Pond y Gapstow Bridge",
           "lat": 40.7669,
           "lng": -73.9737,
-          "desc": "Desde el hotel: metro N/R/W o 4/5/6 a la 59th St (~20 min). Desayuno rápido antes (bagel cerca del hotel o en la 5ª Av). Entráis por la esquina SE del parque: The Pond y el puentecito de piedra Gapstow, uno de los reflejos del skyline más fotografiados. Vacío y fresco a primera hora; al lado quedan Grand Army Plaza y el hotel The Plaza.",
+          "desc": "Entráis por Grand Army Plaza (4 manzanas en bici desde la recogida). Candáis y bajáis a pie a The Pond y el puentecito de piedra Gapstow, uno de los reflejos del skyline más fotografiados. Domingo a primera hora, tranquilo; al lado, Grand Army Plaza y el hotel The Plaza.",
           "tags": [
             "gratis"
           ]
         },
         {
           "id": "2.2",
-          "time": "08:25",
-          "dur": "20 min",
+          "time": "09:35",
+          "dur": "5 min",
           "name": "Central Park — Sheep Meadow",
           "lat": 40.7716,
           "lng": -73.9745,
-          "desc": "Gran pradera sin tráfico (antaño pastaban ovejas de verdad) con el skyline asomando entre los árboles. A primera hora, tranquila; para tumbarse un rato si apetece (opcional). ℹ️ Va al principio a propósito: el orden de la mañana sube sin rodeos (sur→oeste→centro→Met) para evitar el zigzag de bajar y volver a subir — ~1,5 km menos a pie que el orden anterior.",
+          "desc": "De paso por el oeste: la gran pradera sin tráfico (antaño con ovejas de verdad) y el skyline entre los árboles. Mirada rápida desde la bici; parada para tumbarse solo si vais sobrados de tiempo.",
           "tags": [
             "gratis"
           ]
         },
         {
           "id": "2.3",
-          "time": "08:50",
-          "dur": "25 min",
+          "time": "09:45",
+          "dur": "15 min",
           "name": "Central Park — Strawberry Fields y Dakota",
           "lat": 40.7755,
           "lng": -73.9749,
-          "desc": "Memorial a John Lennon: el mosaico 'Imagine' rodeado de jardín, casi siempre con alguien tocando sus canciones. Enfrente, el edificio Dakota (1 W 72nd, exterior), donde vivió y fue asesinado en 1980 (y fachada de 'La semilla del diablo'). Lado oeste del parque.",
+          "desc": "En el lado oeste, candáis un momento: el memorial a John Lennon, el mosaico 'Imagine' (casi siempre con alguien tocando sus canciones) y, enfrente, el edificio Dakota (1 W 72nd, exterior), donde vivió y fue asesinado en 1980 (fachada de 'La semilla del diablo').",
           "tags": [
             "gratis"
           ]
         },
         {
           "id": "2.4",
-          "time": "09:20",
-          "dur": "30 min",
+          "time": "10:05",
+          "dur": "20 min",
           "name": "⭐ Central Park — Bethesda Terrace y Fuente",
           "lat": 40.7741,
           "lng": -73.9711,
-          "desc": "Por The Mall (alameda de olmos) hasta la terraza y la fuente Bethesda, el 'Ángel de las Aguas' — el corazón monumental del parque y su rincón más fotográfico. Bajad a la arcada inferior a ver el techo de azulejos Minton; detrás, The Lake con sus barcas de remo. A media mañana de domingo aún está tranquilo.",
+          "desc": "Corazón monumental del parque. Aquí dejáis las bicis candadas y recorréis a pie el tramo central peatonal: la terraza y la fuente Bethesda ('Ángel de las Aguas'), con la arcada inferior y su techo de azulejos Minton; detrás, The Lake. Bow Bridge queda al lado (siguiente). A media mañana de domingo aún tranquilo.",
           "tags": [
             "gratis",
             "obligatorio"
@@ -106,24 +116,36 @@
         },
         {
           "id": "2.5",
-          "time": "09:55",
-          "dur": "25 min",
+          "time": "10:25",
+          "dur": "15 min",
           "name": "Central Park — Bow Bridge y The Lake",
           "lat": 40.7758,
           "lng": -73.9718,
-          "desc": "El puente de hierro fundido más romántico de NY (1862) sobre The Lake, escenario de mil películas. De camino cruzáis The Ramble, un bosquecillo de senderos con sombra y pájaros donde apetece perderse un rato. Gran punto de fotos.",
+          "desc": "A pie desde donde dejasteis las bicis: el puente de hierro fundido más romántico de NY (1862) sobre The Lake, escenario de mil películas. De camino, el bosquecillo del Ramble (sombra y pájaros). Gran punto de fotos; luego volvéis a por las bicis.",
           "tags": [
             "gratis"
           ]
         },
         {
           "id": "2.6",
-          "time": "10:25",
-          "dur": "25 min",
+          "time": "10:45",
+          "dur": "15 min",
           "name": "Central Park — Belvedere Castle",
           "lat": 40.7794,
           "lng": -73.9691,
-          "desc": "Pequeño castillo victoriano (1869) sobre Vista Rock — una 'folly' que hoy alberga la estación meteorológica del parque. Subid a sus terrazas para las vistas del Turtle Pond y el Great Lawn. Gratis. Desde aquí cruzáis al este, directo al Met.",
+          "desc": "Pequeño castillo victoriano (1869) sobre Vista Rock, hoy estación meteorológica del parque; terrazas con vistas del Turtle Pond y el Great Lawn. Gratis. Recogéis las bicis y tiráis al norte.",
+          "tags": [
+            "gratis"
+          ]
+        },
+        {
+          "id": "2.12",
+          "time": "11:05",
+          "dur": "40 min",
+          "name": "🚲 Reservoir Jackie O + norte del parque",
+          "lat": 40.7855,
+          "lng": -73.962,
+          "desc": "La mitad norte que a pie no veríais: en bici por el loop hasta el embalse Jacqueline Kennedy Onassis (la pista de running de las pelis), con el skyline reflejado en el agua. Si vais con energía, podéis seguir hasta el Conservatory Garden (jardines formales, 105th) o Harlem Meer. Luego bajáis por el loop a DEVOLVER las bicis en 56 W 56th (~11:45) y subís en metro 6 (OMNY, cuenta para el tope) de 59th a 86th, andando al Met.",
           "tags": [
             "gratis"
           ]
@@ -135,7 +157,7 @@
           "name": "⭐ The Met (Metropolitan Museum)",
           "lat": 40.7794,
           "lng": -73.9634,
-          "desc": "Uno de los grandes museos del mundo. Cruzáis al lado este (comida rápida antes en un carrito/deli junto al museo). Imprescindibles: el Templo de Dendur (Egipto), la pintura europea, las armaduras y la azotea Cantor (vistas del parque, solo verano). Enorme y con AC en el pico de calor (~3h; imposible verlo todo, id a lo que os tire). 30 $ / 17 $ con carné de estudiante; vale 3 días e incluye The Cloisters. Dom 10-17h, reservad hora.",
+          "desc": "Uno de los grandes museos del mundo, en el lado este del parque (llegáis en metro 6 a 86th tras devolver las bicis; comida rápida antes en un carrito/deli junto al museo). Imprescindibles: el Templo de Dendur (Egipto), la pintura europea, las armaduras y la azotea Cantor (vistas del parque, solo verano). Enorme y con AC en el pico de calor (~3h; imposible verlo todo, id a lo que os tire). 30 $ / 17 $ con carné de estudiante; vale 3 días e incluye The Cloisters. Dom 10-17h, reservad hora.",
           "tags": [
             "obligatorio",
             "reservar"
