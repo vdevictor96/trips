@@ -1,5 +1,5 @@
 {
-  "_v": 22,
+  "_v": 23,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -527,7 +527,7 @@
           "name": "🛍️ 5ª Avenida — compras",
           "lat": 40.76,
           "lng": -73.9758,
-          "desc": "Bloque de compras de verdad (~1,5h) por el tramo alto de la 5ª Av: Saks (50th) enfrente de Rockefeller, y subiendo Tiffany, la Apple (24h, bajo el cubo de cristal), Bergdorf Goodman y The Plaza hacia la 59th. Entráis a lo que os apetezca; luego bajáis a la 42 para el SUMMIT.",
+          "desc": "Bloque de compras (~1 h) por el tramo alto de la 5ª Av: Saks (50th) enfrente de Rockefeller, y subiendo Tiffany, la Apple (24h, bajo el cubo de cristal), Bergdorf Goodman y The Plaza hacia la 59th. Entráis a lo que os apetezca; luego bajáis a la 42 para el SUMMIT.",
           "tags": []
         },
         {
@@ -1247,6 +1247,10 @@
       {
         "label": "🟡 Barrios bajos (SoHo, Little Italy, Chinatown…) solo el último sábado",
         "value": "Todo el bloque de barrios bajos (SoHo, NoLita, Little Italy, Chinatown, LES) cae en el D8 (sáb 11), tarde en el viaje. Se valoró adelantarlos al D3 (Bajo Manhattan, que es contiguo), pero NO cuadra bien: el D8 está anclado en sábado por Smorgasburg + Williamsburg, y meterlos en el D3 obliga a recortar mucho (Seaport/veleros, etc.) y deja dos días pesados seguidos (lun+mar). Conclusión: caben difícilmente en otro día → se quedan en el sábado. A tener en cuenta por si se prefiere asumir el recorte."
+      },
+      {
+        "label": "🟢 D7 (vie) · comodín pre-Mets / Mundial",
+        "value": "El partido de los Mets es de NOCHE (19:15), así que la franja diurna del D7 es la MÁS flexible del viaje. El día de Queens (LIC → Jackson Heights → Flushing) se reserva en parte por si un CUARTO del Mundial cae ese día (los cuartos son 9–11 jul; el D7 es vie 10) → se vería en un bar de Jackson Heights. ⚠️ Si al final NO hay cuarto el vie 10: alternativa = pasar más tiempo por la MAÑANA en Manhattan (más 5ª Av, repetir favoritos, algún hueco suelto) y EMPEZAR la ruta de Queens más tarde — hay tiempo de sobra hasta el partido. Es el comodín a usar si otros días van apretados."
       }
     ]
   },
