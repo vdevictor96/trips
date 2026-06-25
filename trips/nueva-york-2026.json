@@ -1,5 +1,5 @@
 {
-  "_v": 28,
+  "_v": 29,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -964,6 +964,16 @@
           "lat": 40.8094,
           "lng": -73.9505,
           "desc": "OPCIONAL — y aquí, a diferencia del D2, SÍ cobra sentido: con la mañana entera da tiempo a Harlem de verdad (fachada del Apollo en la 125th, soul food tipo Sylvia's/Red Rooster, jazz). Luego metro a Queens (~45-60 min) hacia Jackson Heights/Flushing y el partido (19:15).",
+          "tags": []
+        },
+        {
+          "id": "7.9",
+          "time": "🔵 Opcional",
+          "dur": "mañana D7",
+          "name": "🛍️ 5ª Avenida — compras",
+          "lat": 40.76,
+          "lng": -73.9758,
+          "desc": "OPCIONAL para la mañana del D7, SI ese día no veis partido del Mundial (alternativa a la opción 'Harlem/Columbia/Catedral' de arriba). Mañana de compras por la 5ª Av con las tiendas ya abiertas (~10h: Saks, Apple 24h, Tiffany, Bergdorf) — más tranquila y con tiempo, a diferencia del rato con prisa del D4. Luego cogéis la línea 7 directa a Queens desde 5ª Av-Bryant Park (sin desvíos) para empezar Jackson Heights/Flushing más tarde, antes del partido (19:15).",
           "tags": []
         },
         {
