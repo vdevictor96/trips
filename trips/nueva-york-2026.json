@@ -1,5 +1,5 @@
 {
-  "_v": 26,
+  "_v": 27,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -149,6 +149,36 @@
           "tags": [
             "gratis"
           ]
+        },
+        {
+          "id": "2.13",
+          "time": "🔵 Opcional",
+          "dur": "~10 min a pie",
+          "name": "⛪ Catedral St. John the Divine",
+          "lat": 40.8038,
+          "lng": -73.9625,
+          "desc": "OPCIONAL del tour en bici (decidir sobre la marcha). La catedral (anglicana) más grande del mundo, inacabada ('St. John the Unfinished'): gótico colosal, rosetón enorme. Es el único 'wow' objetivo de la zona norte. Para hacerla: subid el loop hasta el extremo NO del parque (110th), candáis la bici (candado incluido) y andáis ~10 min. Entrada con donativo sugerido. ⚠️ Si la hacéis (sola o con Columbia), el Met se mueve a ~13:00 — reservad esa hora — y devolvéis la bici al bajar al sur.",
+          "tags": []
+        },
+        {
+          "id": "2.14",
+          "time": "🔵 Opcional",
+          "dur": "~12-15 min / 1 metro",
+          "name": "🎓 Columbia University",
+          "lat": 40.8075,
+          "lng": -73.9626,
+          "desc": "OPCIONAL del tour en bici. Campus bonito de Morningside Heights: la escalinata de Low Memorial Library y el quad de College Walk (116th/Broadway). ~12-15 min andando desde el norte del parque (hay cuesta por Morningside Park) o 1 parada de metro. ~30-45 min de paseo. Pega con la Catedral (a 4 manzanas), así que tienen sentido juntas.",
+          "tags": []
+        },
+        {
+          "id": "2.15",
+          "time": "🔵 Opcional",
+          "dur": "~15 min / metro",
+          "name": "🎭 Harlem — Apollo (125th)",
+          "lat": 40.8094,
+          "lng": -73.9505,
+          "desc": "OPCIONAL, ya más lejos: es una vivencia de barrio, no un 'de paso'. La calle 125 es el corazón de Harlem: fachada del Apollo Theater, soul food (Sylvia's, Red Rooster), historia del jazz y el gospel. A ~15-18 min andando del norte del parque o ~5 min en metro (1-2 paradas). Pide su propio rato → más cómodo como media jornada (p. ej. mañana del D7) que colgado de la bici.",
+          "tags": []
         },
         {
           "id": "2.7",
@@ -1504,14 +1534,6 @@
       "desc": "Arte medieval en Fort Tryon Park; incluido en la entrada del Met (3 días).",
       "reason": "Lejísimos al norte (~medio día), aunque la entrada del Met lo incluye.",
       "link": "https://www.metmuseum.org/visit/plan-your-visit/met-cloisters"
-    },
-    {
-      "id": "d.8",
-      "name": "Harlem + Columbia University",
-      "lat": 40.8116,
-      "lng": -73.9465,
-      "desc": "Barrio histórico afroamericano (Apollo, gospel) y el campus de Columbia.",
-      "reason": "Fuera de ruta; futuro viaje."
     },
     {
       "id": "d.9",
