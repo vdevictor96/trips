@@ -128,13 +128,12 @@ async function searchGoogle(q) {
 }
 
 function isAlreadyInTrip(result) {
-  // Check by googlePlaceId or by proximity (within ~100m)
-  return store.allPlaces.some(p => {
-    if (p.googlePlaceId && p.googlePlaceId === result.googlePlaceId) return true
-    const dlat = Math.abs(p.lat - result.lat)
-    const dlng = Math.abs(p.lng - result.lng)
-    return dlat < 0.001 && dlng < 0.001
-  })
+  // Match ONLY by Google Place ID (real identity). The old proximity
+  // heuristic (~100m box) gave false positives in dense itineraries:
+  // distinct places near an existing stop were flagged "Ya añadido" and
+  // became unclickable. ID-match avoids that.
+  if (!result.googlePlaceId) return false
+  return store.allPlaces.some(p => p.googlePlaceId === result.googlePlaceId)
 }
 
 function handleGoogleResultClick(result) {
