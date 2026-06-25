@@ -1,5 +1,5 @@
 {
-  "_v": 25,
+  "_v": 26,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -943,11 +943,11 @@
         {
           "id": "7.4",
           "time": "14:30",
-          "dur": "2.5 h",
+          "dur": "1.5 h",
           "name": "Flushing Meadows + Unisphere",
           "lat": 40.7459,
           "lng": -73.8453,
-          "desc": "Línea 7 hasta Mets–Willets Point (~20 min). El gran parque de las Exposiciones Universales: la Unisphere (globo de acero de 1964). Expuesto al sol — la Unisphere es foto rápida; el Queens Museum (Panorama de NY, AC) sirve de refugio del calor.",
+          "desc": "Línea 7 hasta Mets–Willets Point (~15-20 min), al lado de Citi Field. Plan corto (~1,5 h); lo que reste hasta las puertas (17:45) es cojín junto al estadio (colas/cena). La Unisphere (globo de acero del 64) es foto rápida; a 2 min, las torres del NY State Pavilion (el 'Tent of Tomorrow' de la Expo del 64, icono retro de 'Men in Black'). El Queens Museum (el Panorama de NYC, maqueta gigante de la ciudad) es el refugio con AC en el pico de calor — entrada pay-what-you-wish (sugerido 8 $ / 6 $ est.; cierra vie 17:00). No hace falta más parque.",
           "tags": [
             "gratis"
           ]
