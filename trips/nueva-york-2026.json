@@ -1,5 +1,5 @@
 {
-  "_v": 27,
+  "_v": 28,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -937,6 +937,36 @@
       "subtitle": "Viernes 10 julio · LIC · Flushing · ⚾ Mets–Red Sox 19:15",
       "places": [
         {
+          "id": "7.6",
+          "time": "🔵 Opcional",
+          "dur": "mañana D7",
+          "name": "⛪ Catedral St. John the Divine",
+          "lat": 40.8038,
+          "lng": -73.9625,
+          "desc": "OPCIONAL para la mañana del D7, SI ese día no veis partido del Mundial (alternativa a la opción de '5ª Av' del comodín). Con la mañana entera da tiempo a la media jornada norte. La catedral (anglicana) más grande del mundo, gótico inacabado ('St. John the Unfinished'); donativo. Desde el hotel ~35-40 min en metro (la 1 hasta Cathedral Pkwy-110th). Después, a Queens (~45-60 min) para empezar Jackson Heights/Flushing más tarde, antes del partido (19:15). Son los mismos sitios que las opcionales del D2 (allí, versión corta colgada de la bici).",
+          "tags": []
+        },
+        {
+          "id": "7.7",
+          "time": "🔵 Opcional",
+          "dur": "mañana D7",
+          "name": "🎓 Columbia University",
+          "lat": 40.8075,
+          "lng": -73.9626,
+          "desc": "OPCIONAL, con la Catedral (a 4 manzanas; la 1 para en Columbia-116th). Campus de Morningside Heights: la escalinata de Low Memorial Library y College Walk. Detalle del sitio en el pin del D2.",
+          "tags": []
+        },
+        {
+          "id": "7.8",
+          "time": "🔵 Opcional",
+          "dur": "mañana D7",
+          "name": "🎭 Harlem — Apollo (125th)",
+          "lat": 40.8094,
+          "lng": -73.9505,
+          "desc": "OPCIONAL — y aquí, a diferencia del D2, SÍ cobra sentido: con la mañana entera da tiempo a Harlem de verdad (fachada del Apollo en la 125th, soul food tipo Sylvia's/Red Rooster, jazz). Luego metro a Queens (~45-60 min) hacia Jackson Heights/Flushing y el partido (19:15).",
+          "tags": []
+        },
+        {
           "id": "7.1",
           "time": "08:15",
           "dur": "45 min",
@@ -1264,7 +1294,7 @@
       },
       {
         "label": "🟢 D7 (vie) · comodín pre-Mets / Mundial",
-        "value": "El partido de los Mets es de NOCHE (19:15), así que la franja diurna del D7 es la MÁS flexible del viaje. El día de Queens (LIC → Jackson Heights → Flushing) se reserva en parte por si un CUARTO del Mundial cae ese día (los cuartos son 9–11 jul; el D7 es vie 10) → se vería en un bar de Jackson Heights. ⚠️ Si al final NO hay cuarto el vie 10: alternativa = pasar más tiempo por la MAÑANA en Manhattan (más 5ª Av, repetir favoritos, algún hueco suelto) y EMPEZAR la ruta de Queens más tarde — hay tiempo de sobra hasta el partido. Es el comodín a usar si otros días van apretados."
+        "value": "El partido de los Mets es de NOCHE (19:15), así que la franja diurna del D7 es la MÁS flexible del viaje. El día de Queens (LIC → Jackson Heights → Flushing) se reserva en parte por si un CUARTO del Mundial cae ese día (los cuartos son 9–11 jul; el D7 es vie 10) → se vería en un bar de Jackson Heights. ⚠️ Si al final NO hay cuarto el vie 10: alternativa = pasar más tiempo por la MAÑANA en Manhattan (más 5ª Av, la mañana de Harlem/Columbia/Catedral —pines opcionales al inicio del D7—, o repetir favoritos) y EMPEZAR la ruta de Queens más tarde — hay tiempo de sobra hasta el partido. Es el comodín a usar si otros días van apretados."
       }
     ]
   },
