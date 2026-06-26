@@ -232,7 +232,7 @@ export function useMap() {
 
     // Hotel
     if (store.trip.hotel) {
-      const html = '<div class="marker-icon" style="background:#2d3436;"><span>🏨</span></div>'
+      const html = '<div class="marker-icon" style="background:#2d3436;"><span>🛏️</span></div>'
       const marker = new HtmlMarkerClass(
         { lat: store.trip.hotel.lat, lng: store.trip.hotel.lng },
         html, 'hotel'
