@@ -238,7 +238,7 @@ export function useMap() {
         html, 'hotel'
       )
       marker.onClick(() => {
-        infoWindow.setContent(`<div class="iw-custom"><b>🏨 ${store.trip.hotel.name}</b><br>Hotel base</div>`)
+        infoWindow.setContent(`<div class="iw-custom"><b>🛏️ ${store.trip.hotel.name}</b><br>Hotel base</div>`)
         infoWindow.setPosition(marker.getPosition())
         infoWindow.open(map.value)
       })
