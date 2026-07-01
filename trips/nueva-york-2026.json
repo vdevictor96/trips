@@ -1,5 +1,5 @@
 {
-  "_v": 36,
+  "_v": 37,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -936,6 +936,18 @@
           "desc": "Cine al aire libre en Pier 1 (Harbor View Lawn): 'When Harry Met Sally' al atardecer, con el skyline de fondo (✔ confirmado: jue 9 jul 2026, 18:00-23:00). Césped abre 18:00, peli al ponerse el sol (~20:30), GRATIS y por orden de llegada → llegad pronto a coger sitio. Picnic/cena en el césped. Noche larga (volvéis ~22:30). Y la peli tiene la mítica escena del Katz's Deli (ver Info).",
           "tags": [
             "gratis"
+          ]
+        },
+        {
+          "id": "6.9",
+          "time": "22:35",
+          "dur": "~40 min",
+          "name": "🚇 Vuelta con vistas — Q por el Puente de Manhattan",
+          "lat": 40.6896,
+          "lng": -73.9814,
+          "desc": "En vez de volver por el túnel, cruzáis el Puente de Manhattan en metro = la mejor vista del transporte de NY: el Puente de Brooklyn y el skyline del Bajo Manhattan desde la ventanilla. QUÉ HACER: 1) Andar ~1,9 km (~23 min) desde Pier 1 hasta la estación 'DeKalb Av' (o taxi corto si vais cansados). 2) Coger el Q dirección Manhattan (24 h y para en DeKalb; el B también cruza el puente entre semana pero acaba pronto). ⚠️ NO cojáis la R: va por el túnel de Montague, sin vistas. 3) TRUCO: justo al salir de DeKalb Av, mirad por la ventanilla de la DERECHA → ahí aparece el Puente de Brooklyn con el skyline detrás. 4) Bajáis en '14 St–Union Sq' y son ~7 min a pie (~560 m) al hotel. De noche el skyline va iluminado. Si acabáis cerca de Atlantic Av–Barclays, allí también salen el Q/N/D hacia el puente.",
+          "tags": [
+            "mirador"
           ]
         }
       ]
