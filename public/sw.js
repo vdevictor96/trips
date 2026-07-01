@@ -1,4 +1,4 @@
-const CACHE_NAME = 'trips-v11'
+const CACHE_NAME = 'trips-v12'
 const BASE = '/trips/'
 
 // App shell — cached on install
@@ -52,7 +52,16 @@ self.addEventListener('fetch', (event) => {
     return
   }
 
-  // App shell & built assets — stale while revalidate
+  // HTML navigation — network first: el index.html siempre fresco, así apunta
+  // al hash de asset nuevo tras un deploy y el cambio se ve en UNA recarga.
+  // (Offline cae a la copia cacheada del shell.)
+  if (event.request.mode === 'navigate') {
+    event.respondWith(networkFirst(event.request))
+    return
+  }
+
+  // Assets con hash (JS/CSS) y demás — stale while revalidate.
+  // Son content-addressed (el nombre cambia con el contenido), seguros de cachear.
   if (url.startsWith(self.location.origin)) {
     event.respondWith(staleWhileRevalidate(event.request))
     return
