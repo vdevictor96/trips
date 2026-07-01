@@ -1,5 +1,5 @@
 {
-  "_v": 40,
+  "_v": 41,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -362,10 +362,10 @@
           "id": "3.18",
           "time": "15:00",
           "dur": "~2h15",
-          "name": "⚽ España/Portugal — octavos (15:00)",
-          "lat": 40.7043,
-          "lng": -74.0113,
-          "desc": "Partido que veis 100% (España y/o Portugal, octavos, 15:00–~17:15 NY). La mañana en la punta sur queda IGUAL (Battery→…→Oculus); veis el partido y seguís por los barrios (Chinatown → Little Italy → NoLita → Strand → SoHo), SIN quitar nada — el día acaba ~21:05. Strand va antes que SoHo para cogerlo abierto (cierra 21:00); SoHo, sin cierre, remata. SITIO (bien preparado para el Mundial): lo mejor cerca es The Red Lion (151 Bleecker St, Village) — bar mundialista top, 10+ pantallas y cocina, se llena pronto (walk-in), a un salto de metro al norte del WTC. Ambiente 100% español: La Nacional (239 W 14th, Sociedad Española) — reservad. Las fan zones oficiales (Rockefeller, Hudson Yards) están en Midtown, fuera del plan de hoy; en el propio FiDi solo hay pubs normales (Stone St). ⚠️ Si elegís Red Lion/La Nacional (norte), el orden de la tarde se reajusta un poco (queda menos lineal).",
+          "name": "⚽ España/Portugal — octavos (Brookfield Place)",
+          "lat": 40.7128,
+          "lng": -74.0151,
+          "desc": "Partido que veis 100% (España y/o Portugal, octavos, 15:00–~17:15 NY). ✅ SITIO IDEAL: 'Match Day Live' en Brookfield Place (Winter Garden, 230 Vesey St) — fan zone OFICIAL con pantalla LED de 36 pies BAJO TECHO (AC), da los partidos de eliminatorias, gratis, y ya estáis ahí (coméis en Brookfield a las 13:00). Tras 9/11 + Oculus (al lado, ~5 min) volvéis para el partido — cero desvío. ⚠️ Confirmad que dan ESE partido a las 15:00 (proyectan 22 de las eliminatorias). Luego seguís al norte por los barrios (Chinatown → Little Italy → NoLita → Strand → SoHo), sin quitar nada (~21:05). Alternativas si preferís bar/ambiente: The Red Lion (Bleecker, Village) o La Nacional (14th, español), pero son desvío al norte.",
           "tags": []
         },
         {
@@ -919,7 +919,7 @@
           "name": "Brooklyn Bridge Park + Time Out Market",
           "lat": 40.7036,
           "lng": -73.9919,
-          "desc": "Vuelta a Brooklyn Bridge Park (~40 min). Lo más bonito: NYC Ferry (ruta South Brooklyn, Red Hook → Pier 6, ~10 min con vistas; pero pasa cada ~43 min y es billete aparte ~4,50 $, mirad la hora antes). Alternativa fiable: B61 hasta Downtown Brooklyn y ~15 min andando. Desde el sur del parque subís paseando los piers; en el Time Out Market (Empire Stores) subid GRATIS a la azotea por las vistas al puente de Brooklyn y el skyline (barra opcional). Merienda y refugio del calor; buen colchón antes del kayak de las 17:00.",
+          "desc": "Vuelta a Brooklyn Bridge Park (~40 min). Lo más bonito: NYC Ferry (ruta South Brooklyn, Red Hook → Pier 6, ~10 min con vistas; pero pasa cada ~43 min y es billete aparte ~4,50 $, mirad la hora antes). Alternativa fiable: B61 hasta Downtown Brooklyn y ~15 min andando. Desde el sur del parque subís paseando los piers; en el Time Out Market (Empire Stores) subid GRATIS a la azotea por las vistas al puente de Brooklyn y el skyline (barra opcional). Merienda y refugio del calor; buen colchón antes del kayak de las 17:00. 🏟️ Aquí mismo está la Adidas Fan Zone oficial del Mundial (Brooklyn Bridge Park, 25.000 pies², gratis): si os apetece, el CUARTO de las 16:00 se ve en este sitio — ojo, el kayak es a las 17:00, así que pillaríais solo la 1ª parte.",
           "tags": []
         },
         {
