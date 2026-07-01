@@ -1,5 +1,5 @@
 {
-  "_v": 32,
+  "_v": 33,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -440,7 +440,7 @@
       "id": 4,
       "tab": "Día 4 · Mar 7",
       "title": "AMNH + MoMA + Midtown",
-      "subtitle": "Martes 7 julio · 2 museos (AC) · 🛍️ compras 5ª Av + Nintendo · SUMMIT 17:00 · 🌃 Times Square + Broadway de noche",
+      "subtitle": "Martes 7 julio · 2 museos (AC) · 🛍️ compras 5ª Av + Nintendo · SUMMIT 16:30 · 🌃 Times Square + Broadway de noche",
       "places": [
         {
           "id": "4.13",
@@ -549,18 +549,8 @@
           ]
         },
         {
-          "id": "4.7",
-          "time": "15:30",
-          "dur": "1 h",
-          "name": "🛍️ 5ª Avenida — compras",
-          "lat": 40.76,
-          "lng": -73.9758,
-          "desc": "Bloque de compras (~1 h) por el tramo alto de la 5ª Av: Saks (50th) enfrente de Rockefeller, y subiendo Tiffany, la Apple (24h, bajo el cubo de cristal), Bergdorf Goodman y The Plaza hacia la 59th. Entráis a lo que os apetezca; luego bajáis a la 42 para el SUMMIT.",
-          "tags": []
-        },
-        {
           "id": "4.17",
-          "time": "16:35",
+          "time": "15:30",
           "dur": "15 min",
           "name": "Paley Park",
           "lat": 40.7601,
@@ -571,13 +561,23 @@
           ]
         },
         {
+          "id": "4.7",
+          "time": "15:45",
+          "dur": "45 min",
+          "name": "🛍️ 5ª Avenida — compras",
+          "lat": 40.76,
+          "lng": -73.9758,
+          "desc": "Bloque de compras (~45 min) por el tramo alto de la 5ª Av: Saks (50th) enfrente de Rockefeller, y subiendo Tiffany, la Apple (24h, bajo el cubo de cristal), Bergdorf Goodman y The Plaza hacia la 59th. Entráis a lo que os apetezca; luego bajáis a la 42 para el SUMMIT.",
+          "tags": []
+        },
+        {
           "id": "4.8",
-          "time": "17:00",
+          "time": "16:30",
           "dur": "1.5 h",
           "name": "🏙️ SUMMIT One Vanderbilt",
           "lat": 40.753,
           "lng": -73.9785,
-          "desc": "Mirador inmersivo de espejos en One Vanderbilt (pegado a Grand Central). ✅ Subís a las 17:00 (la franja más económica): de DÍA las salas de espejos, los suelos de cristal y las vistas se ven igual de espectaculares — solo os perdéis las luces de noche. ~1-1,5h y bajáis; estáis en el centro de Midtown, así que todo lo que queda está al ladito (no se pierde tiempo en volver). El Ascent (ascensor de cristal) cuesta aparte, saltable.",
+          "desc": "Mirador inmersivo de espejos en One Vanderbilt (pegado a Grand Central). ✅ Subís a las 16:30 (la franja más económica): de DÍA las salas de espejos, los suelos de cristal y las vistas se ven igual de espectaculares — solo os perdéis las luces de noche. ~1-1,5h y bajáis; estáis en el centro de Midtown, así que todo lo que queda está al ladito (no se pierde tiempo en volver). El Ascent (ascensor de cristal) cuesta aparte, saltable. Si algo de antes (compras 5ª Av / Paley) no os cuadra, lo hacéis al bajar — está todo a un paseo corto.",
           "tags": [
             "obligatorio",
             "reservar",
@@ -1260,7 +1260,7 @@
       },
       {
         "label": "✅ SUMMIT One Vanderbilt (mar 7) — comprado",
-        "value": "Comprado: franja de las 17:00 (la de día)."
+        "value": "Comprado: franja de las 16:30 (la de día)."
       },
       {
         "label": "✅ Mets vs Red Sox (vie 10) — comprado",
