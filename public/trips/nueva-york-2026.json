@@ -1,5 +1,5 @@
 {
-  "_v": 37,
+  "_v": 38,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -359,8 +359,18 @@
           ]
         },
         {
-          "id": "3.17",
+          "id": "3.18",
           "time": "15:00",
+          "dur": "~2h15",
+          "name": "⚽ España/Portugal — octavos (bar FiDi)",
+          "lat": 40.7043,
+          "lng": -74.0113,
+          "desc": "Partido que veis 100% (España y/o Portugal, octavos, 15:00–~17:15 NY). La mañana en la punta sur queda IGUAL (Battery→…→Oculus ~14:50); veis el partido en un bar del Bajo Manhattan y luego seguís al norte (City Hall Park → Chinatown → Little Italy → SoHo → Strand, ~2 h más tarde, SIN quitar nada — el día acaba ~21:45). Sitio: la calle peatonal de pubs de Stone Street (Financial District, ambiente de deporte) — confirmad que dan el partido; alternativa, cualquiera de los 150+ bares del 'Five Borough Special' del Mundial. ⚠️ No hay fan zone oficial en el downtown (las oficiales, Rockefeller y Hudson Yards, quedan lejos del plan de hoy). Si va a penaltis, ~17:20.",
+          "tags": []
+        },
+        {
+          "id": "3.17",
+          "time": "17:15",
           "dur": "15 min",
           "name": "🏛️ City Hall Park + Woolworth Building (exteriores)",
           "lat": 40.7124,
@@ -372,7 +382,7 @@
         },
         {
           "id": "3.11",
-          "time": "15:25",
+          "time": "17:35",
           "dur": "30 min",
           "name": "Old City Hall Station (bucle del 6)",
           "lat": 40.7132,
@@ -384,7 +394,7 @@
         },
         {
           "id": "3.12",
-          "time": "16:00",
+          "time": "18:10",
           "dur": "50 min",
           "name": "Chinatown (Mott, Doyers, Columbus Park)",
           "lat": 40.7155,
@@ -394,7 +404,7 @@
         },
         {
           "id": "3.13",
-          "time": "16:55",
+          "time": "19:05",
           "dur": "30 min",
           "name": "Little Italy (Mulberry St)",
           "lat": 40.719,
@@ -404,7 +414,7 @@
         },
         {
           "id": "3.14",
-          "time": "17:30",
+          "time": "19:40",
           "dur": "30 min",
           "name": "NoLita — Elizabeth Street Garden",
           "lat": 40.7228,
@@ -416,7 +426,7 @@
         },
         {
           "id": "3.15",
-          "time": "18:05",
+          "time": "20:15",
           "dur": "40 min",
           "name": "SoHo (Greene St, cast-iron)",
           "lat": 40.7233,
@@ -426,7 +436,7 @@
         },
         {
           "id": "3.16",
-          "time": "18:45",
+          "time": "21:00",
           "dur": "45 min",
           "name": "Strand Book Store",
           "lat": 40.7332,
@@ -825,10 +835,10 @@
           "id": "5.16",
           "time": "19:00",
           "dur": "~1.5 h",
-          "name": "🍕 Cena PST (tentativa · mié o sáb)",
+          "name": "🍕 Cena PST (Pizza Studio Tamaki)",
           "lat": 40.7277,
           "lng": -73.9835,
-          "desc": "TENTATIVA — una de las 2 noches candidatas (la otra: sáb 11, D8); se queda solo una. Este (mié 8) es el ÚNICO día del viaje sin partido del Mundial. Opción (a): cena ~19:00 EN VEZ de Little Island (cruzáis del Hudson al East Village). Opción (b): mantener Little Island y cena tardía ~20:55 (el mié cierra 22:00). Pizza Studio Tamaki (PST) — pizza tokio-napolitana del chef Tsubasa Tamaki (masa fermentada 30 h), 123 St. Marks Pl (East Village). Abre 17:00 (Ma-Ju hasta 22:00, Vi-Sá hasta 23:00; cerrado dom/lun). Reserva por SevenRooms; apuntados a lista de espera del mié 8.",
+          "desc": "Cena CONFIRMADA aquí: el mié 8 es el ÚNICO día del viaje sin partido del Mundial (y el sáb 11 lo ocupa el cuarto de Argentina). Opción (a): cena ~19:00 EN VEZ de Little Island (cruzáis del Hudson al East Village). Opción (b): mantener Little Island y cena tardía ~20:55 (el mié cierra 22:00). Pizza Studio Tamaki — pizza tokio-napolitana de Tsubasa Tamaki (masa 30 h), 123 St. Marks Pl. Reserva por SevenRooms; apuntados a lista de espera.",
           "tags": [
             "reservar"
           ]
@@ -1033,9 +1043,19 @@
           "tags": []
         },
         {
+          "id": "7.10",
+          "time": "15:00",
+          "dur": "~2h15",
+          "name": "⚽ Cuartos (España/Portugal) — bar Jackson Heights",
+          "lat": 40.7479,
+          "lng": -73.8873,
+          "desc": "Cuarto que veis 100% (potencial España/Portugal, 15:00–~17:15 NY). Encaja clavado: tras la mañana (LIC + Jackson Heights) os quedáis en Roosevelt Ave (entre las 74th y 90th), corredor ecuatoriano/latino con decenas de bares que se llenan horas antes — 'seguid las banderas' (p. ej. El Mordisco). Está en la línea 7, DIRECTA a Citi Field (~15 min). Al acabar (~17:15) → 7 a Mets–Willets Point → Unisphere (al lado del estadio) → partido de los Mets 19:15. Nada se cae. ⚠️ Si penaltis (~17:20), vais algo justos al Unisphere.",
+          "tags": []
+        },
+        {
           "id": "7.4",
-          "time": "14:30",
-          "dur": "1.5 h",
+          "time": "17:30",
+          "dur": "45 min",
           "name": "Flushing Meadows + Unisphere",
           "lat": 40.7459,
           "lng": -73.8453,
@@ -1046,7 +1066,7 @@
         },
         {
           "id": "7.5",
-          "time": "17:45",
+          "time": "18:15",
           "dur": "4 h",
           "name": "⚾ Citi Field — Mets vs Red Sox",
           "lat": 40.7571,
@@ -1201,13 +1221,13 @@
           ]
         },
         {
-          "id": "8.13",
-          "time": "20:50",
-          "dur": "~1.5 h",
-          "name": "🍕 Cena PST (tentativa · mié o sáb)",
-          "lat": 40.7277,
-          "lng": -73.9835,
-          "desc": "TENTATIVA — una de las 2 noches candidatas (la otra: mié 8, D5); se queda solo una. Encaje limpio: justo tras Manhattanhenge (calle 14), ~8-10 min andando al sur; el sábado PST abre hasta las 23:00. No sacrifica nada, pero es cena tardía y ese día ya coméis en Essex Market + Smorgasburg. ⚠️ Ese día puede haber cuarto del Mundial. Pizza Studio Tamaki (PST) — pizza tokio-napolitana del chef Tsubasa Tamaki (masa fermentada 30 h), 123 St. Marks Pl (East Village). Abre 17:00 (Ma-Ju hasta 22:00, Vi-Sá hasta 23:00; cerrado dom/lun). Reserva por SevenRooms; apuntados a lista de espera del mié 8.",
+          "id": "8.14",
+          "time": "21:00",
+          "dur": "~2 h",
+          "name": "⚽ Cuartos Argentina + cena (Buenos Aires, East Village)",
+          "lat": 40.7256,
+          "lng": -73.9832,
+          "desc": "Cuarto que veis 100% (Argentina, 21:00–~23:00 NY). Tras Manhattanhenge (calle 14, ~20:40) bajáis ~10-12 min a Buenos Aires (513 E 6th St, East Village): parrilla argentina auténtica y muy futbolera — cena (bife, empanadas, choripán, Malbec) viendo el partido con ambiente. ⚠️ Reservad (noche de partidazo). Es la última noche y puede acabar tarde (~23:00 + prórroga) antes del domingo de salida. Por esto la cena de PST se hace el MIÉRCOLES 8, no esta noche.",
           "tags": [
             "reservar"
           ]
@@ -1341,8 +1361,8 @@
         "value": "El partido de los Mets es de NOCHE (19:15), así que la franja diurna del D7 es la MÁS flexible del viaje. El día de Queens (LIC → Jackson Heights → Flushing) se reserva en parte por si un CUARTO del Mundial cae ese día (los cuartos son 9–11 jul; el D7 es vie 10) → se vería en un bar de Jackson Heights. ⚠️ Si al final NO hay cuarto el vie 10: alternativa = pasar más tiempo por la MAÑANA en Manhattan (más 5ª Av, la mañana de Harlem/Columbia/Catedral —pines opcionales al inicio del D7—, o repetir favoritos) y EMPEZAR la ruta de Queens más tarde — hay tiempo de sobra hasta el partido. Es el comodín a usar si otros días van apretados."
       },
       {
-        "label": "🟠 Cena PST (Pizza Studio Tamaki) — lista de espera mié 8",
-        "value": "PST: 123 St. Marks Pl (East Village); abre 17:00 (Ma-Ju hasta 22:00, Vi-Sá hasta 23:00; cerrado dom y lun). MEJOR DÍA = MIÉRCOLES 8 (D5): es el ÚNICO día sin partido del Mundial del viaje (octavos 4-7 jul, cuartos 9-11; el 8 es descanso). Apuntados a lista de espera. ⚠️ Cuadre: el D5 es día del lado OESTE y acaba en Little Island (atardecer ~20:29, junto al Hudson); PST está en el ESTE. Opciones: (a, recomendada) cena relajada ~19:00 tras Whitney/Pier 57, cruzando al East Village y saltando Little Island esa noche (hay atardeceres en D2 Roosevelt y D8 Domino); (b) mantener Little Island y cena tardía/rápida en PST ~20:55 (cierra 22:00). Si NO entra la lista del mié: alternativa = sáb 11 (D8, abre hasta 23:00, cerca de Manhattanhenge de las 20:00), pero ese día SÍ puede haber cuarto del Mundial y ya coméis en Smorgasburg. ✅ Añadidas entradas tentativas en ambos días (D5 19:00 y D8 20:50) para decidir; se mantendrá solo una."
+        "label": "🟢 Cena PST — miércoles 8 (lista de espera)",
+        "value": "Resuelto el día: PST el MIÉRCOLES 8 (D5), único día sin Mundial; el sábado 11 queda para el cuarto de Argentina (cena en Buenos Aires). Sigue en lista de espera del mié. Falta decidir en D5: opción (a) cena 19:00 saltando Little Island, u (b) Little Island + cena tardía ~20:55."
       }
     ]
   },
