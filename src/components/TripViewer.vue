@@ -10,7 +10,7 @@
         <PlaceSearch @select-place="handlePlaceSelect" @fly-to="handleFlyTo" @preview-search-result="handlePreviewSearchResult" />
       </template>
       <template #tabs>
-        <DayTabs @select-day="handleDaySelect" />
+        <DayTabs @select-day="handleDaySelect" @toggle-restaurants="handleToggleRestaurants" />
       </template>
       <template #body>
         <OverviewPanel v-if="store.activeDay === null" @navigate="handleDaySelect" />
@@ -103,6 +103,11 @@ function handleFlyTo(lat, lng, placeId) {
 
 function handleActivateMarker(placeId) {
   mapApi.activateMarker(placeId)
+}
+
+function handleToggleRestaurants() {
+  store.toggleRestaurants()
+  mapApi.updateVisibleLayers(store.activeDay)
 }
 
 function handlePreviewSearchResult(result) {

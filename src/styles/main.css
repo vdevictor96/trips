@@ -317,6 +317,23 @@ html, body {
 }
 .day-tab[data-day="info"].active { background: var(--blue); border-color: var(--blue); }
 
+/* Ojo toggle en la pill de Restauración: overlay de restaurantes sobre cualquier día */
+.rest-eye {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 2px 5px;
+  border-radius: 12px;
+  font-size: 13px;
+  line-height: 1;
+  opacity: .4;
+  transition: opacity .2s, background .2s;
+}
+.rest-eye.on {
+  opacity: 1;
+  background: rgba(230,126,34,.22); /* naranja de restaurantes */
+  filter: drop-shadow(0 0 3px rgba(230,126,34,.7));
+}
+
 /* ── SHEET CONTENT ──────────────────── */
 .sheet-body {
   overflow-y: auto; flex: 1;

@@ -334,7 +334,8 @@ export function useMap() {
 
     const restaurantMarkers = markersByDay.value['restaurants']
     if (restaurantMarkers) {
-      const visible = dayId === 'restaurants'
+      // Overlay: visibles en su propia pestaña, o sobre cualquier día/overview si el toggle está activo
+      const visible = store.showRestaurants || dayId === 'restaurants'
       restaurantMarkers.forEach(m => m.setVisible(visible))
     }
   }

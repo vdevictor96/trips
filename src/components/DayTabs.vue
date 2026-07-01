@@ -10,6 +10,16 @@
       @click="emit('selectDay', tab.id)"
     >
       {{ tab.label }}
+      <span
+        v-if="tab.id === 'restaurants'"
+        class="rest-eye"
+        :class="{ on: store.showRestaurants }"
+        role="button"
+        :aria-pressed="store.showRestaurants"
+        :aria-label="store.showRestaurants ? 'Ocultar restaurantes del mapa' : 'Mostrar restaurantes junto a cada día'"
+        :title="store.showRestaurants ? 'Ocultar restaurantes del mapa' : 'Mostrar restaurantes junto a cada día'"
+        @click.stop="emit('toggleRestaurants')"
+      >👁</span>
     </button>
   </div>
 </template>
@@ -19,7 +29,7 @@ import { computed } from 'vue'
 import { useTripStore } from '../stores/trip.js'
 
 const store = useTripStore()
-const emit = defineEmits(['selectDay'])
+const emit = defineEmits(['selectDay', 'toggleRestaurants'])
 
 const tabs = computed(() => {
   if (!store.trip) return []
