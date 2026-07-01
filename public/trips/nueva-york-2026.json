@@ -1,5 +1,5 @@
 {
-  "_v": 29,
+  "_v": 30,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -361,16 +361,14 @@
         {
           "id": "3.17",
           "time": "15:00",
-          "dur": "20 min",
-          "name": "🔭 Municipal Building (cúpula Centre 360)",
-          "lat": 40.7128,
-          "lng": -74.0038,
-          "desc": "Mirador GRATIS en la cúpula del David N. Dinkins Municipal Building (1 Centre St, al lado del City Hall donde ya estáis). Panorámica 360° del Bajo Manhattan, los puentes del East River y el puerto. ⚠️ Solo L-V 9-17h, visita guiada EN PUNTO (~15-20 min), grupos de 5. RESERVAR en Centre 360 (franjas nuevas el 1 de cada mes a las 10:00 → reservad el 1 jul la franja de las 15:00). Llevad DNI/pasaporte y zapato cerrado.",
+          "dur": "15 min",
+          "name": "🏛️ City Hall Park + Woolworth Building (exteriores)",
+          "lat": 40.7124,
+          "lng": -74.0083,
+          "desc": "La cúpula del Municipal Building se cae del plan (no quedaron entradas y solo valía por subir). En su lugar, un vistazo gratis de camino al bucle del 6: el Woolworth Building (233 Broadway, enfrente de City Hall Park) — rascacielos neogótico de 1913, la 'Catedral del Comercio', el más alto del mundo hasta 1930; foto de fachada (el vestíbulo dorado solo con tour de pago). Y City Hall Park, con su fuente y el Ayuntamiento histórico, por el que pasáis igual. El Municipal Building que ibais a subir queda a un paso. Cero desvío.",
           "tags": [
-            "gratis",
-            "reservar"
-          ],
-          "link": "https://a856-centre360.nyc.gov/Book"
+            "gratis"
+          ]
         },
         {
           "id": "3.11",
@@ -1256,33 +1254,33 @@
     ],
     "reservas": [
       {
-        "label": "🔴 Kayak BBP Pier 2 (jue 9)",
-        "value": "GRATIS. La reserva se abre EXACTAMENTE 2 semanas antes → ~25 jun. Vuela. 17-19h.",
+        "label": "✅ Kayak BBP Pier 2 (jue 9) — RESERVADO",
+        "value": "Hecho: turno reservado a las 17:00 en bbpboathouse.org (20 min con vistas al skyline).",
         "link": "https://www.bbpboathouse.org/"
       },
       {
-        "label": "🔴 SUMMIT One Vanderbilt (mar 7)",
-        "value": "Entrada con hora; las franjas de atardecer se agotan → reservar pronto."
+        "label": "🔴 SUMMIT One Vanderbilt (mar 7) — PENDIENTE",
+        "value": "Comprar la franja de las 17:00 (la más barata, de día). Las horas buenas se agotan. summitov.com."
       },
       {
-        "label": "🔴 Mets vs Red Sox (vie 10)",
+        "label": "🔴 Mets vs Red Sox (vie 10) — PENDIENTE",
         "value": "19:15 Citi Field. En SeatGeek (oficial) o mets.com; 30-60 $/persona = Promenade (anillo 500, líneas 505-510/519-524). Comprar ya (serie popular)."
       },
       {
-        "label": "🟠 AMNH (mar 7)",
-        "value": "Ticket con hora; en verano se llena."
+        "label": "✅ AMNH (mar 7) — comprado",
+        "value": "Comprado (entrada con hora)."
       },
       {
-        "label": "🟠 Met (dom 5)",
-        "value": "Ticket con hora. 30 $ / 17 $ est.; vale 3 días + Cloisters."
+        "label": "✅ Met (dom 5) — comprado",
+        "value": "Comprado (entrada con hora; vale 3 días + Cloisters)."
       },
       {
-        "label": "🟠 Whitney (mié 8)",
-        "value": "Ticket con hora (el de 22 entra gratis por ser ≤25)."
+        "label": "✅ Whitney (mié 8) — comprado",
+        "value": "Comprado (el de 22 entra gratis por ≤25; pase con hora)."
       },
       {
-        "label": "🟠 MoMA (pendiente)",
-        "value": "Si finalmente entra (D4): ticket con hora."
+        "label": "✅ MoMA (mar 7) — comprado",
+        "value": "Comprado (entrada con hora)."
       },
       {
         "label": "✅ 9/11 (lun 6)",
