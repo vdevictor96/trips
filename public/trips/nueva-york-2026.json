@@ -1,5 +1,5 @@
 {
-  "_v": 41,
+  "_v": 42,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -1046,10 +1046,10 @@
           "id": "7.10",
           "time": "15:00",
           "dur": "~2h15",
-          "name": "⚽ Cuartos (España/Portugal) — bar Jackson Heights",
+          "name": "⚽ Cuartos (España/Portugal) — sitio por decidir",
           "lat": 40.7479,
           "lng": -73.8873,
-          "desc": "Cuarto que veis 100% (potencial España/Portugal, 15:00–~17:15 NY). Encaja clavado: tras la mañana (LIC + Jackson Heights) os quedáis en Roosevelt Ave (entre las 74th y 90th), corredor ecuatoriano/latino con decenas de bares que se llenan horas antes — 'seguid las banderas' (p. ej. El Mordisco). Está en la línea 7, DIRECTA a Citi Field (~15 min). Al acabar (~17:15) → 7 a Mets–Willets Point → Unisphere (al lado del estadio) → partido de los Mets 19:15. Nada se cae. ⚠️ Si penaltis (~17:20), vais algo justos al Unisphere.",
+          "desc": "Cuarto que veis 100% (potencial España/Portugal, 15:00–~17:15 NY). ⏳ SITIO POR DECIDIR (el bar no os convence del todo). Opción sobre la mesa: Roosevelt Ave en Jackson Heights (corredor ecuatoriano/latino, decenas de bares con ambientazo; en la línea 7 DIRECTA a Citi Field). A valorar también: algo más tranquilo en LIC o cerca del estadio. Al acabar (~17:15) → 7 a Mets–Willets Point → Unisphere (al lado) → Mets 19:15. ⚠️ Si penaltis (~17:20), el Unisphere queda justo.",
           "tags": []
         },
         {
@@ -1224,10 +1224,10 @@
           "id": "8.14",
           "time": "21:00",
           "dur": "~2 h",
-          "name": "⚽ Cuartos Argentina + cena (Buenos Aires, East Village)",
+          "name": "⚽ Cuartos Argentina + cena — sitio por decidir",
           "lat": 40.7256,
           "lng": -73.9832,
-          "desc": "Cuarto que veis 100% (Argentina, 21:00–~23:00 NY). Tras Manhattanhenge (calle 14, ~20:40) bajáis ~10-12 min a Buenos Aires (513 E 6th St, East Village): parrilla argentina auténtica y muy futbolera — cena (bife, empanadas, choripán, Malbec) viendo el partido con ambiente. ⚠️ Reservad (noche de partidazo). Es la última noche y puede acabar tarde (~23:00 + prórroga) antes del domingo de salida. Por esto la cena de PST se hace el MIÉRCOLES 8, no esta noche. La cocina cierra ~23:00 (sáb): pedid al llegar; si hay prórroga, el final quizá lo veáis con la cocina ya cerrada.",
+          "desc": "Cuarto que veis 100% (Argentina, 21:00–~23:00 NY) con cena. ⏳ SITIO POR DECIDIR (no os convence del todo). Opción sobre la mesa: Buenos Aires (513 E 6th St, parrilla argentina muy futbolera, reservad). A valorar: otra parrilla/bar argentino o un sitio con ambiente cerca del East Village tras Manhattanhenge (~10-12 min andando). Última noche, puede acabar tarde (~23:00 + prórroga). Por esto la cena PST se hace el MIÉRCOLES 8, no esta noche.",
           "tags": [
             "reservar"
           ]
@@ -1363,6 +1363,10 @@
       {
         "label": "🟢 Cena PST — miércoles 8 (lista de espera)",
         "value": "Resuelto el día: PST el MIÉRCOLES 8 (D5), único día sin Mundial; el sábado 11 queda para el cuarto de Argentina (cena en Buenos Aires). Sigue en lista de espera del mié. Falta decidir en D5: opción (a) cena 19:00 saltando Little Island, u (b) Little Island + cena tardía ~20:55."
+      },
+      {
+        "label": "🟠 Sitio de los cuartos (vie 10 y sáb 11) — por decidir",
+        "value": "Los partidos son fijos; el SITIO no. D7 (vie 10, 15:00): opción Roosevelt Ave/Jackson Heights (en la 7 a Citi Field), a confirmar. D8 (sáb 11, 21:00, Argentina + cena): opción Buenos Aires (513 E 6th), a confirmar. El D3 sí está cerrado (fan zone de Brookfield Place)."
       }
     ]
   },
