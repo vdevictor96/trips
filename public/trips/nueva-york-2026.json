@@ -1,5 +1,5 @@
 {
-  "_v": 39,
+  "_v": 40,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -362,10 +362,10 @@
           "id": "3.18",
           "time": "15:00",
           "dur": "~2h15",
-          "name": "⚽ España/Portugal — octavos (bar FiDi)",
+          "name": "⚽ España/Portugal — octavos (15:00)",
           "lat": 40.7043,
           "lng": -74.0113,
-          "desc": "Partido que veis 100% (España y/o Portugal, octavos, 15:00–~17:15 NY). La mañana en la punta sur queda IGUAL (Battery→…→Oculus ~14:50); veis el partido en un bar del Bajo Manhattan y luego seguís al norte (City Hall Park → Chinatown → Little Italy → SoHo, ~2 h más tarde, SIN quitar nada — el día acaba ~20:55; Strand se pasa al domingo, que cierra a las 21:00). Sitio: la calle peatonal de pubs de Stone Street (Financial District, ambiente de deporte) — confirmad que dan el partido; alternativa, cualquiera de los 150+ bares del 'Five Borough Special' del Mundial. ⚠️ No hay fan zone oficial en el downtown (las oficiales, Rockefeller y Hudson Yards, quedan lejos del plan de hoy). Si va a penaltis, ~17:20.",
+          "desc": "Partido que veis 100% (España y/o Portugal, octavos, 15:00–~17:15 NY). La mañana en la punta sur queda IGUAL (Battery→…→Oculus); veis el partido y seguís por los barrios (Chinatown → Little Italy → NoLita → Strand → SoHo), SIN quitar nada — el día acaba ~21:05. Strand va antes que SoHo para cogerlo abierto (cierra 21:00); SoHo, sin cierre, remata. SITIO (bien preparado para el Mundial): lo mejor cerca es The Red Lion (151 Bleecker St, Village) — bar mundialista top, 10+ pantallas y cocina, se llena pronto (walk-in), a un salto de metro al norte del WTC. Ambiente 100% español: La Nacional (239 W 14th, Sociedad Española) — reservad. Las fan zones oficiales (Rockefeller, Hudson Yards) están en Midtown, fuera del plan de hoy; en el propio FiDi solo hay pubs normales (Stone St). ⚠️ Si elegís Red Lion/La Nacional (norte), el orden de la tarde se reajusta un poco (queda menos lineal).",
           "tags": []
         },
         {
@@ -395,7 +395,7 @@
         {
           "id": "3.12",
           "time": "18:10",
-          "dur": "50 min",
+          "dur": "40 min",
           "name": "Chinatown (Mott, Doyers, Columbus Park)",
           "lat": 40.7155,
           "lng": -73.9974,
@@ -404,7 +404,7 @@
         },
         {
           "id": "3.13",
-          "time": "19:05",
+          "time": "18:55",
           "dur": "30 min",
           "name": "Little Italy (Mulberry St)",
           "lat": 40.719,
@@ -414,8 +414,8 @@
         },
         {
           "id": "3.14",
-          "time": "19:40",
-          "dur": "30 min",
+          "time": "19:30",
+          "dur": "20 min",
           "name": "NoLita — Elizabeth Street Garden",
           "lat": 40.7228,
           "lng": -73.9952,
@@ -425,9 +425,19 @@
           ]
         },
         {
-          "id": "3.15",
-          "time": "20:15",
+          "id": "3.16",
+          "time": "19:55",
           "dur": "40 min",
+          "name": "📚 Strand Book Store",
+          "lat": 40.7332,
+          "lng": -73.992,
+          "desc": "'18 millas de libros' (828 Broadway, esq. 12th St). Va ANTES que SoHo para pillarlo ABIERTO (cierra 21:00); SoHo, que no cierra, remata el día. A ~5 min del hotel.",
+          "tags": []
+        },
+        {
+          "id": "3.15",
+          "time": "20:35",
+          "dur": "30 min",
           "name": "SoHo (Greene St, cast-iron)",
           "lat": 40.7233,
           "lng": -74.003,
@@ -1239,16 +1249,6 @@
           "lng": -73.9846,
           "tags": [],
           "desc": "Sin plan fijo: estáis en plena zona Gramercy/Union Square, así que la mañana es para repetir lo que más os gustó — un último bagel, Washington Square, Union Square, la Strand, la Shake Shack ORIGINAL de Madison Square (abre 11:00)… Descansad, comprad lo que faltó y sin prisas. Lo que era 'obligatorio' ya está repartido en días anteriores, así que hoy no se pierde nada."
-        },
-        {
-          "id": "9.3",
-          "time": "10:00",
-          "dur": "45 min",
-          "name": "📚 Strand Book Store",
-          "lat": 40.7332,
-          "lng": -73.992,
-          "desc": "Movido aquí desde el D3 (allí el partido de octavos lo dejaba a las 21:00, justo su hora de cierre). '18 millas de libros' (828 Broadway, esq. 12th St), a ~5 min andando del hotel. Abre 10:00 (dom). Parada relajada de la mañana libre antes del check-out; buen recuerdo/regalo del viaje.",
-          "tags": []
         },
         {
           "id": "9.2",
