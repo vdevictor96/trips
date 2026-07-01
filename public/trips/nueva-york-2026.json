@@ -1,5 +1,5 @@
 {
-  "_v": 38,
+  "_v": 39,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -365,7 +365,7 @@
           "name": "⚽ España/Portugal — octavos (bar FiDi)",
           "lat": 40.7043,
           "lng": -74.0113,
-          "desc": "Partido que veis 100% (España y/o Portugal, octavos, 15:00–~17:15 NY). La mañana en la punta sur queda IGUAL (Battery→…→Oculus ~14:50); veis el partido en un bar del Bajo Manhattan y luego seguís al norte (City Hall Park → Chinatown → Little Italy → SoHo → Strand, ~2 h más tarde, SIN quitar nada — el día acaba ~21:45). Sitio: la calle peatonal de pubs de Stone Street (Financial District, ambiente de deporte) — confirmad que dan el partido; alternativa, cualquiera de los 150+ bares del 'Five Borough Special' del Mundial. ⚠️ No hay fan zone oficial en el downtown (las oficiales, Rockefeller y Hudson Yards, quedan lejos del plan de hoy). Si va a penaltis, ~17:20.",
+          "desc": "Partido que veis 100% (España y/o Portugal, octavos, 15:00–~17:15 NY). La mañana en la punta sur queda IGUAL (Battery→…→Oculus ~14:50); veis el partido en un bar del Bajo Manhattan y luego seguís al norte (City Hall Park → Chinatown → Little Italy → SoHo, ~2 h más tarde, SIN quitar nada — el día acaba ~20:55; Strand se pasa al domingo, que cierra a las 21:00). Sitio: la calle peatonal de pubs de Stone Street (Financial District, ambiente de deporte) — confirmad que dan el partido; alternativa, cualquiera de los 150+ bares del 'Five Borough Special' del Mundial. ⚠️ No hay fan zone oficial en el downtown (las oficiales, Rockefeller y Hudson Yards, quedan lejos del plan de hoy). Si va a penaltis, ~17:20.",
           "tags": []
         },
         {
@@ -419,7 +419,7 @@
           "name": "NoLita — Elizabeth Street Garden",
           "lat": 40.7228,
           "lng": -73.9952,
-          "desc": "Al norte de Little Italy: calles con encanto y boutiques. Parada clave: el Elizabeth Street Garden, un acre escondido lleno de estatuas y vegetación (abierto 8-20h), de los rincones más bonitos de la zona.",
+          "desc": "Al norte de Little Italy: calles con encanto y boutiques. Parada clave: el Elizabeth Street Garden, un acre escondido lleno de estatuas y vegetación (abierto 8-20h), de los rincones más bonitos de la zona. ⚠️ De noche el jardín ya está cerrado (cierra 16:00): lo veis por la verja; para entrar, de día.",
           "tags": [
             "gratis"
           ]
@@ -433,16 +433,6 @@
           "lng": -74.003,
           "desc": "SoHo: el barrio de los edificios de hierro fundido (cast-iron) y las boutiques; Greene St es la calle más fotogénica. Buen broche del día — cena por la zona (Little Italy/NoLita cerca) o metro al hotel.",
           "tags": []
-        },
-        {
-          "id": "3.16",
-          "time": "21:00",
-          "dur": "45 min",
-          "name": "Strand Book Store",
-          "lat": 40.7332,
-          "lng": -73.992,
-          "tags": [],
-          "desc": "De vuelta al hotel desde SoHo: '18 millas de libros', la mítica librería de Union Sq (12th/Broadway), abre hasta tarde. Parada perfecta para cerrar el día de barrios antes de cenar."
         }
       ]
     },
@@ -1227,7 +1217,7 @@
           "name": "⚽ Cuartos Argentina + cena (Buenos Aires, East Village)",
           "lat": 40.7256,
           "lng": -73.9832,
-          "desc": "Cuarto que veis 100% (Argentina, 21:00–~23:00 NY). Tras Manhattanhenge (calle 14, ~20:40) bajáis ~10-12 min a Buenos Aires (513 E 6th St, East Village): parrilla argentina auténtica y muy futbolera — cena (bife, empanadas, choripán, Malbec) viendo el partido con ambiente. ⚠️ Reservad (noche de partidazo). Es la última noche y puede acabar tarde (~23:00 + prórroga) antes del domingo de salida. Por esto la cena de PST se hace el MIÉRCOLES 8, no esta noche.",
+          "desc": "Cuarto que veis 100% (Argentina, 21:00–~23:00 NY). Tras Manhattanhenge (calle 14, ~20:40) bajáis ~10-12 min a Buenos Aires (513 E 6th St, East Village): parrilla argentina auténtica y muy futbolera — cena (bife, empanadas, choripán, Malbec) viendo el partido con ambiente. ⚠️ Reservad (noche de partidazo). Es la última noche y puede acabar tarde (~23:00 + prórroga) antes del domingo de salida. Por esto la cena de PST se hace el MIÉRCOLES 8, no esta noche. La cocina cierra ~23:00 (sáb): pedid al llegar; si hay prórroga, el final quizá lo veáis con la cocina ya cerrada.",
           "tags": [
             "reservar"
           ]
@@ -1249,6 +1239,16 @@
           "lng": -73.9846,
           "tags": [],
           "desc": "Sin plan fijo: estáis en plena zona Gramercy/Union Square, así que la mañana es para repetir lo que más os gustó — un último bagel, Washington Square, Union Square, la Strand, la Shake Shack ORIGINAL de Madison Square (abre 11:00)… Descansad, comprad lo que faltó y sin prisas. Lo que era 'obligatorio' ya está repartido en días anteriores, así que hoy no se pierde nada."
+        },
+        {
+          "id": "9.3",
+          "time": "10:00",
+          "dur": "45 min",
+          "name": "📚 Strand Book Store",
+          "lat": 40.7332,
+          "lng": -73.992,
+          "desc": "Movido aquí desde el D3 (allí el partido de octavos lo dejaba a las 21:00, justo su hora de cierre). '18 millas de libros' (828 Broadway, esq. 12th St), a ~5 min andando del hotel. Abre 10:00 (dom). Parada relajada de la mañana libre antes del check-out; buen recuerdo/regalo del viaje.",
+          "tags": []
         },
         {
           "id": "9.2",
