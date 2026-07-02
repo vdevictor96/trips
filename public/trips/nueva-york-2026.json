@@ -1,5 +1,5 @@
 {
-  "_v": 48,
+  "_v": 49,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -1060,8 +1060,30 @@
           "name": "⚽ Cuartos (España/Portugal) — Mercado Little Spain",
           "lat": 40.7536,
           "lng": -74.0019,
-          "desc": "Cuarto que veis 100% (potencial España/Portugal, 15:00–~17:15 NY). ✅ SITIO LÍDER: Mercado Little Spain (José Andrés, Hudson Yards, 10 Hudson Yards) — el sitio MÁS español de NY. Monta 'watch parties' OFICIALES de España con sonido, especiales de comida y Estrella Galicia + Rioja + sangría, viendo el partido en comunidad (La Barra, BarCelona at Txula). Confirmado para la fase de grupos y con MÁS fechas/horas si España sigue en eliminatorias → si España pasa, dan el cuarto. Ambiente 100% de aficionados españoles. 🚇 Está en la MISMA línea 7 que Citi Field (parada 34 St–Hudson Yards, punta oeste): salís al acabar (~17:20) y el 7 os deja DIRECTO en Mets–Willets Point (~35 min, sin transbordos) → ~18:00, con tiempo de sobra para el partido de los Mets (19:15). ⚠️ Contra: Hudson Yards es el extremo OESTE del 7, opuesto a Citi Field: 'gira' el día de Queens (metéis el 7 hacia Manhattan para el partido y volvéis hacia Citi Field). Va mejor con la mañana ligera en LIC (también en el 7). Con esta opción, el Unisphere (17:30) NO cuadra: llegáis a Willets ~18:00 y vais directos a Citi Field (Unisphere, rápido o se salta). 🔁 ALTERNATIVA (si preferís no girar el día y mantener el Unisphere): Jackson Heights, pero español DE VERDAD — Cafe Salamanca (79-05 Northern Blvd, 25 años de cocina española) o Addictive Wine & Tapas (87th St, 7 en 82nd). Están en el 7 a ~15 min de Citi Field y mantienen el flujo. ⚠️ Ojo: son tapas/vinos de nivel, NO confirmados como locales de fútbol con pantallas y sonido — LLAMAD ANTES. (Los bares de Roosevelt Ave tienen ambientazo pero son ecuatorianos/latinos, no españoles.)",
+          "desc": "Cuarto que veis 100% (potencial España/Portugal, 15:00–~17:15 NY). ✅ SITIO LÍDER: Mercado Little Spain (José Andrés, 10 Hudson Yards) — el sitio MÁS español de NY, con watch party OFICIAL de La Roja (sonido, especiales, Estrella Galicia + Rioja + sangría) que sigue en eliminatorias si España avanza. 🚇 En la MISMA línea 7 que Citi Field: al acabar (~17:20) el 7 os deja DIRECTO en Mets–Willets Point (~35 min, sin transbordos) → ~18:00, de sobra para los Mets (19:15). ⚠️ Es la punta OESTE del 7 (opuesta a Citi Field): 'gira' el día de Queens y el Unisphere de las 17:30 NO cuadra (vais directos a Citi Field). Mejor con la mañana ligera en LIC. 👉 Alternativas apuntadas como pines propios (Jackson Heights español, en el 7 a ~15 min de Citi Field, mantienen el Unisphere): Cafe Salamanca (7.11) y Addictive Wine & Tapas (7.12).",
           "tags": []
+        },
+        {
+          "id": "7.11",
+          "time": "🔵 Alternativa",
+          "dur": "Jackson Heights · ~15 min a Citi Field",
+          "name": "⚽ Alt — Cafe Salamanca (Jackson Heights)",
+          "lat": 40.7553,
+          "lng": -73.8858,
+          "desc": "Tipo: ESPAÑOL de verdad — 25 años de cocina española (varias regiones, énfasis en pescado y marisco), NO la escena ecuatoriana/latina de Roosevelt Ave. En ruta: 79-05 Northern Blvd, 7 en 82nd St/Northern Blvd; mantiene el flujo de Queens y el Unisphere (17:30). ⚠️ Es de tapas/mesa, NO confirmado como local de fútbol con pantallas y sonido — LLAMAD ANTES (718-458-2446). Alternativa al líder Mercado Little Spain (7.10).",
+          "tags": [],
+          "link": "http://cafesalamanca.com/"
+        },
+        {
+          "id": "7.12",
+          "time": "🔵 Alternativa",
+          "dur": "Jackson Heights · ~15 min a Citi Field",
+          "name": "⚽ Alt — Addictive Wine & Tapas (Jackson Heights)",
+          "lat": 40.7525,
+          "lng": -73.8783,
+          "desc": "Tipo: VINO + TAPAS español (desde 2015, +100 vinos con foco español), lo más 'de clase' de Jackson Heights. En ruta: 32-64 87th St, 7 en 82nd St; mantiene el flujo y el Unisphere. ⚠️ Es vino/tapas, NO confirmado como local de fútbol con pantallas — LLAMAD ANTES. Alternativa al líder Mercado Little Spain (7.10).",
+          "tags": [],
+          "link": "https://addictivewinebar.com/"
         },
         {
           "id": "7.4",
@@ -1266,11 +1288,53 @@
           "id": "8.14",
           "time": "21:00",
           "dur": "~2 h",
-          "name": "⚽ Cuartos Argentina — Banter (Williamsburg) + alternativas",
+          "name": "⚽ Cuartos Argentina — Banter (Williamsburg)",
           "lat": 40.7143,
           "lng": -73.9576,
-          "desc": "Cuarto que veis 100% (Argentina, 21:00–~23:00 NY). Decidid sobre la marcha; toda la info marcada aquí:\n\n🏆 LÍDER — Banter (bar de fútbol PURO, 132 Havemeyer St, Williamsburg): 15 años, decenas de birras, ponen todo el fútbol; es JUSTO donde ya estáis por la tarde (Bedford/Smorgasburg). Desde Manhattanhenge (calle 14) volvéis en L a Bedford (~10 min) y llegáis de sobra. Walk-in (sin reserva). ⚠️ Cierra a MEDIANOCHE: si hay prórroga/penaltis (~23:45–00:00) el final va justo. No es argentino específico, es bar de fútbol neutral.\n\n🇦🇷 MÁS AUTÉNTICO — 'Little Argentina' / Roosevelt Ave (Jackson Heights, 7 a 82nd/74th St): la calle ESTALLA cuando marca Argentina, lo más parecido a Buenos Aires sin salir de Queens; bares al aire libre bajo el 7. ⚠️ Queens (~40 min desde la 14) → justo para las 21:00, llegad 45 min antes; ya pisáis el barrio el D7; es la última noche antes del vuelo del domingo.\n\n🥩 ARGENTINO + COMIDA — Boca Juniors (81-08 Queens Blvd, Elmhurst): parrilla con hinchada y memorabilia de fútbol de suelo a techo; ponen Argentina siempre. Queens, más de comer que de bar.\n\n🍽️ SI PREFERÍS CENAR SENTADOS — Buenos Aires (513 E 6th, East Village) o Balvanera (152 Stanton, LES): parrillas argentinas donde se junta la hinchada. RESERVAD con antelación (sábado de cuartos, se llenan).\n\nPor esto la cena de PST se hace el MIÉRCOLES 8, no esta noche.",
+          "desc": "Cuarto que veis 100% (Argentina, 21:00–~23:00 NY). ✅ SITIO LÍDER: Banter (bar de fútbol PURO, 132 Havemeyer St, Williamsburg) — 15 años, decenas de birras, ponen todo el fútbol; es JUSTO donde ya estáis por la tarde (Bedford/Smorgasburg). Tras Manhattanhenge (calle 14) volvéis en L a Bedford (~10 min) y llegáis de sobra. Walk-in (sin reserva). ⚠️ Cierra a MEDIANOCHE: si hay prórroga/penaltis (~23:45–00:00) el final va justo; no es argentino específico, es bar de fútbol neutral. 👉 Alternativas apuntadas como pines propios: Little Argentina/Roosevelt Ave (8.18) = lo más auténtico · Boca Juniors (8.19) = parrilla + hinchada · o cenar sentados en Buenos Aires (8.20) / Balvanera (8.21). Por esto la cena de PST se hace el MIÉ 8.",
+          "tags": [],
+          "link": "https://banterbrooklyn.com/"
+        },
+        {
+          "id": "8.18",
+          "time": "🔵 Alternativa",
+          "dur": "Jackson Heights · ~40 min desde la 14",
+          "name": "⚽ Alt — Little Argentina / Roosevelt Ave",
+          "lat": 40.7479,
+          "lng": -73.8845,
+          "desc": "Tipo: EXPERIENCIA de calle — 'Little Argentina' bajo el 7 (Roosevelt Ave, ~74th–86th St): la calle ESTALLA cuando marca Argentina, lo más parecido a Buenos Aires sin salir de Queens. Bares al aire libre; llegad 45 min antes. ⚠️ Queens (~40 min desde Manhattanhenge) → justo para las 21:00; ya pisáis el barrio el D7; es la última noche antes del vuelo. La más AUTÉNTICA pero la más lejos. Alternativa al líder Banter (8.14).",
           "tags": []
+        },
+        {
+          "id": "8.19",
+          "time": "🔵 Alternativa",
+          "dur": "Elmhurst, Queens",
+          "name": "⚽ Alt — Boca Juniors (parrilla futbolera)",
+          "lat": 40.7362,
+          "lng": -73.8788,
+          "desc": "Tipo: PARRILLA argentina futbolera — decorada de suelo a techo con memorabilia de fútbol, hinchada, ponen Argentina siempre. En: 81-08 Queens Blvd, Elmhurst. Argentino + comida + ambiente, pero es steakhouse y en Queens (~35-40 min desde la 14). Alternativa al líder Banter (8.14).",
+          "tags": []
+        },
+        {
+          "id": "8.20",
+          "time": "🔵 Alternativa",
+          "dur": "East Village · cenar sentados",
+          "name": "⚽ Alt — Buenos Aires (cena, East Village)",
+          "lat": 40.725,
+          "lng": -73.9834,
+          "desc": "Tipo: CENA sentada — parrilla argentina del East Village (513 E 6th St) donde se junta la hinchada; a ~10-12 min andando de Manhattanhenge. Elegid esta si preferís CENAR (bife, empanadas, Malbec) más que estar de bar. ⚠️ RESERVAD con antelación (sábado de cuartos, se llena). Alternativa al líder Banter (8.14).",
+          "tags": []
+        },
+        {
+          "id": "8.21",
+          "time": "🔵 Alternativa",
+          "dur": "LES · cenar sentados",
+          "name": "⚽ Alt — Balvanera (cena, LES)",
+          "lat": 40.7207,
+          "lng": -73.9853,
+          "desc": "Tipo: CENA sentada (nivel alto) — cocina porteña del chef Fernando Navas (ex elBulli/Nobu), 152 Stanton St, LES. La opción más gastronómica si queréis cenar bien viendo el partido. ⚠️ RESERVAD. Alternativa al líder Banter (8.14).",
+          "tags": [],
+          "link": "https://www.balvanerarestaurants.com/"
         }
       ]
     },
