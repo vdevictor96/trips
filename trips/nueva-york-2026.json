@@ -1,5 +1,5 @@
 {
-  "_v": 43,
+  "_v": 44,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -727,6 +727,17 @@
           "link": "https://www.nypl.org/locations/jefferson-market"
         },
         {
+          "id": "5.17",
+          "time": "09:25",
+          "dur": "10 min",
+          "name": "📸 Fotomatón — Memento (West Village)",
+          "lat": 40.7346,
+          "lng": -74.0013,
+          "desc": "Fotomatón analógico de tira clásica en la esquina de W 10th & 7th Ave, justo de paso entre Jefferson Market y Christopher St. Elegís color o B/N; ~9 $ por 2 tiras de 4 fotos (se paga por QR). Revelado químico al momento. Al ser miércoles y a media mañana, apenas hay cola: la opción con menos espera de las de tira analógica.",
+          "tags": [],
+          "link": "https://newyorkmemento.com/"
+        },
+        {
           "id": "5.4",
           "time": "09:35",
           "dur": "30 min",
@@ -1171,6 +1182,17 @@
           "lng": -73.9881,
           "desc": "Lower East Side: Essex Market (food hall con AC, comida del mundo) para comer, y Orchard St (boutiques vintage). Refugio del calor a mediodía. (Katz's Deli —pastrami icónico, escena de 'When Harry Met Sally'— a 5 min en Houston/Ludlow; ver Info.)",
           "tags": []
+        },
+        {
+          "id": "8.15",
+          "time": "13:30",
+          "dur": "10-15 min",
+          "name": "📸 Fotomatón — Orchard St (Autophoto)",
+          "lat": 40.719,
+          "lng": -73.9894,
+          "desc": "Cluster de fotomatones en plena Orchard St, de paso mientras coméis por el LES. Recomendado: Autophoto (121 Orchard) — 'museo' con 7 máquinas vintage restauradas, entrada gratis y pagas solo la tira; al haber 7 booths la cola avanza aunque sea sábado (mar-dom 12-22h). A 2 min: Retrography (15 Essex) es la de MENOS cola y más barata (digital con filtros por barrio); y Old Friend (145 Allen) es la única analógica de verdad (dip-and-dunk, solo B/N, 8 $) pero la de cola más larga. Roxy Hotel (Tribeca) la descartamos: fuera de ruta, cara (~10-12 $) y a menudo averiada.",
+          "tags": [],
+          "link": "https://www.autophoto.org/"
         },
         {
           "id": "8.9",
