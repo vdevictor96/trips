@@ -1,5 +1,5 @@
 {
-  "_v": 46,
+  "_v": 47,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -733,7 +733,7 @@
           "name": "📸 Fotomatón — Memento (West Village)",
           "lat": 40.7346,
           "lng": -74.0013,
-          "desc": "Fotomatón analógico de tira clásica en la esquina de W 10th & 7th Ave, justo de paso entre Jefferson Market y Christopher St. Elegís color o B/N; ~9 $ por 2 tiras de 4 fotos (se paga por QR). Revelado químico al momento. Al ser miércoles y a media mañana, apenas hay cola: la opción con menos espera de las de tira analógica.",
+          "desc": "Tipo: ANALÓGICO (tira clásica de revelado químico al momento; elegís color o B/N — el único del viaje que hace color). Precio: ~9 $ por 2 tiras de 4 fotos, pago por QR. Cola: BAJA (miércoles a media mañana). En ruta: esquina W 10th & 7th Ave, de paso entre Jefferson Market y Christopher St. Resumen: el fotomatón analógico con menos espera de todo el viaje.",
           "tags": [],
           "link": "https://newyorkmemento.com/"
         },
@@ -1190,7 +1190,7 @@
           "name": "📸 Fotomatón — Autophoto (Orchard St)",
           "lat": 40.719,
           "lng": -73.9894,
-          "desc": "En plena Orchard St, de paso mientras coméis por el LES. 'Museo' con 7 máquinas vintage restauradas: entrada gratis y pagas solo la tira; al haber 7 booths la cola avanza aunque sea sábado (mar-dom 12-22h). Es el más completo/analógico de experiencia. A 2 min tenéis otros dos pines (Retrography y Old Friend) por si preferís menos cola o analógico puro.",
+          "desc": "Tipo: ANALÓGICO — 'museo' con 7 máquinas vintage restauradas (entrada gratis, pagas solo la tira). Precio: 8-12 $ según máquina (las de papel ancho, 12 $). Cola: MEDIA pero avanza al haber 7 booths, aunque sea sábado. Horario: mar-dom 12-22h. En ruta: 121 Orchard St, sobre la propia Orchard mientras coméis por el LES. 👉 Cuál elegir (los 3 a menos de 2 min entre sí): Autophoto = mejor experiencia y variedad · Retrography (8.16) = menos cola y más barato (digital) · Old Friend (8.17) = analógico puro B/N pero cola larga.",
           "tags": [],
           "link": "https://www.autophoto.org/"
         },
@@ -1201,7 +1201,7 @@
           "name": "📸 Fotomatón — Retrography (LES)",
           "lat": 40.7146,
           "lng": -73.9908,
-          "desc": "Alternativa a Autophoto (15 Essex St, a 2 min). La de MENOS cola y la más barata de las tres. Es digital pero con filtros por barrio que imitan el look analógico. La mejor opción si el sábado hay espera en las otras.",
+          "desc": "Tipo: DIGITAL con filtros por barrio que imitan el look analógico (no es revelado químico real). Precio: el más BARATO del grupo (sobre 5-6 $). Cola: la MÍNIMA de las cuatro. En ruta: 15 Essex St, a 2 min de Autophoto. Resumen: la opción rápida y barata si el sábado hay espera en las otras.",
           "tags": []
         },
         {
@@ -1211,7 +1211,7 @@
           "name": "📸 Fotomatón — Old Friend (LES)",
           "lat": 40.7208,
           "lng": -73.9886,
-          "desc": "Alternativa a Autophoto (145 Allen St, a 2 min). La única analógica 'de verdad' de NY (revelado químico dip-and-dunk, solo blanco y negro), 8 $ la tira de 4. La más auténtica, pero también la de cola más larga (tiene culto). Merece la pena solo si os da igual esperar.",
+          "desc": "Tipo: ANALÓGICO 'de verdad' — el único de NY con revelado químico dip-and-dunk; solo BLANCO Y NEGRO. Precio: 8 $ la tira de 4. Cola: la MÁS LARGA (tiene culto). En ruta: 145 Allen St, a 2 min de Autophoto. Resumen: el más auténtico; merece la pena solo si os da igual esperar.",
           "tags": []
         },
         {
