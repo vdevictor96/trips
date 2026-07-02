@@ -1,5 +1,5 @@
 {
-  "_v": 47,
+  "_v": 48,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -1256,7 +1256,7 @@
           "name": "🌇 Manhattanhenge (calle 14)",
           "lat": 40.734,
           "lng": -73.9858,
-          "desc": "🌇 Manhattanhenge (SÁB 11 jul, ~20:20): el sol se alinea perfecto con la cuadrícula de Manhattan al ponerse — fenómeno de solo 2 días/año y os pilla justo. Desde Williamsburg volvéis en metro L (Bedford → 1ª/3ª Av, ~10 min) y lo veis desde la CALLE 14 mirando al OESTE (una de las mejores calles, y al lado del hotel). Llegad ~20:00 a coger sitio; cuanto más al este estéis en la 14, más larga la perspectiva. Dura solo unos minutos. Luego, 3 manzanas al hotel.",
+          "desc": "🌇 Manhattanhenge (SÁB 11 jul, ~20:20): el sol se alinea perfecto con la cuadrícula de Manhattan al ponerse — fenómeno de solo 2 días/año y os pilla justo. Desde Williamsburg volvéis en metro L (Bedford → 1ª/3ª Av, ~10 min) y lo veis desde la CALLE 14 mirando al OESTE (una de las mejores calles, y al lado del hotel). Llegad ~20:00 a coger sitio; cuanto más al este estéis en la 14, más larga la perspectiva. Dura solo unos minutos. Luego, al cuarto de Argentina (siguiente parada; si es Banter, de vuelta a Williamsburg en L ~10 min).",
           "tags": [
             "gratis",
             "mirador"
@@ -1266,13 +1266,11 @@
           "id": "8.14",
           "time": "21:00",
           "dur": "~2 h",
-          "name": "⚽ Cuartos Argentina + cena — sitio por decidir",
-          "lat": 40.7256,
-          "lng": -73.9832,
-          "desc": "Cuarto que veis 100% (Argentina, 21:00–~23:00 NY) con cena. ⏳ SITIO POR DECIDIR (no os convence del todo). Opción sobre la mesa: Buenos Aires (513 E 6th St, parrilla argentina muy futbolera, reservad). A valorar: otra parrilla/bar argentino o un sitio con ambiente cerca del East Village tras Manhattanhenge (~10-12 min andando). Última noche, puede acabar tarde (~23:00 + prórroga). Por esto la cena PST se hace el MIÉRCOLES 8, no esta noche.",
-          "tags": [
-            "reservar"
-          ]
+          "name": "⚽ Cuartos Argentina — Banter (Williamsburg) + alternativas",
+          "lat": 40.7143,
+          "lng": -73.9576,
+          "desc": "Cuarto que veis 100% (Argentina, 21:00–~23:00 NY). Decidid sobre la marcha; toda la info marcada aquí:\n\n🏆 LÍDER — Banter (bar de fútbol PURO, 132 Havemeyer St, Williamsburg): 15 años, decenas de birras, ponen todo el fútbol; es JUSTO donde ya estáis por la tarde (Bedford/Smorgasburg). Desde Manhattanhenge (calle 14) volvéis en L a Bedford (~10 min) y llegáis de sobra. Walk-in (sin reserva). ⚠️ Cierra a MEDIANOCHE: si hay prórroga/penaltis (~23:45–00:00) el final va justo. No es argentino específico, es bar de fútbol neutral.\n\n🇦🇷 MÁS AUTÉNTICO — 'Little Argentina' / Roosevelt Ave (Jackson Heights, 7 a 82nd/74th St): la calle ESTALLA cuando marca Argentina, lo más parecido a Buenos Aires sin salir de Queens; bares al aire libre bajo el 7. ⚠️ Queens (~40 min desde la 14) → justo para las 21:00, llegad 45 min antes; ya pisáis el barrio el D7; es la última noche antes del vuelo del domingo.\n\n🥩 ARGENTINO + COMIDA — Boca Juniors (81-08 Queens Blvd, Elmhurst): parrilla con hinchada y memorabilia de fútbol de suelo a techo; ponen Argentina siempre. Queens, más de comer que de bar.\n\n🍽️ SI PREFERÍS CENAR SENTADOS — Buenos Aires (513 E 6th, East Village) o Balvanera (152 Stanton, LES): parrillas argentinas donde se junta la hinchada. RESERVAD con antelación (sábado de cuartos, se llenan).\n\nPor esto la cena de PST se hace el MIÉRCOLES 8, no esta noche.",
+          "tags": []
         }
       ]
     },
@@ -1408,7 +1406,7 @@
       },
       {
         "label": "🟠 Sitio de los cuartos (vie 10 y sáb 11) — por decidir",
-        "value": "Los partidos son fijos; el SITIO no del todo. D7 (vie 10, 15:00): LÍDER Mercado Little Spain (José Andrés, Hudson Yards) — watch party oficial de España, en el 7 directo a Citi Field; alternativa apuntada: Jackson Heights español (Cafe Salamanca / Addictive, llamar antes). D8 (sáb 11, 21:00, Argentina + cena): opción Buenos Aires (513 E 6th), a confirmar. El D3 sí está cerrado (fan zone de Brookfield Place)."
+        "value": "Los partidos son fijos; el SITIO se decide on the fly (toda la info en cada parada). D7 (vie 10, 15:00): LÍDER Mercado Little Spain (José Andrés, Hudson Yards, watch party oficial de España, 7 directo a Citi Field); alternativa Jackson Heights español (Cafe Salamanca / Addictive). D8 (sáb 11, 21:00, Argentina): LÍDER Banter (bar de fútbol, Williamsburg, cierra medianoche); alternativas Little Argentina/Roosevelt Ave (lo más auténtico), Boca Juniors (parrilla+hinchada), o cenar en Buenos Aires/Balvanera (reservad). El D3 sí está cerrado (fan zone de Brookfield Place)."
       }
     ]
   },
