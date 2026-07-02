@@ -1,5 +1,5 @@
 {
-  "_v": 44,
+  "_v": 45,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -1057,10 +1057,10 @@
           "id": "7.10",
           "time": "15:00",
           "dur": "~2h15",
-          "name": "⚽ Cuartos (España/Portugal) — sitio por decidir",
-          "lat": 40.7479,
-          "lng": -73.8873,
-          "desc": "Cuarto que veis 100% (potencial España/Portugal, 15:00–~17:15 NY). ⏳ SITIO POR DECIDIR (el bar no os convence del todo). Opción sobre la mesa: Roosevelt Ave en Jackson Heights (corredor ecuatoriano/latino, decenas de bares con ambientazo; en la línea 7 DIRECTA a Citi Field). A valorar también: algo más tranquilo en LIC o cerca del estadio. Al acabar (~17:15) → 7 a Mets–Willets Point → Unisphere (al lado) → Mets 19:15. ⚠️ Si penaltis (~17:20), el Unisphere queda justo.",
+          "name": "⚽ Cuartos (España/Portugal) — Mercado Little Spain",
+          "lat": 40.7536,
+          "lng": -74.0019,
+          "desc": "Cuarto que veis 100% (potencial España/Portugal, 15:00–~17:15 NY). ✅ SITIO LÍDER: Mercado Little Spain (José Andrés, Hudson Yards, 10 Hudson Yards) — el sitio MÁS español de NY. Monta 'watch parties' OFICIALES de España con sonido, especiales de comida y Estrella Galicia + Rioja + sangría, viendo el partido en comunidad (La Barra, BarCelona at Txula). Confirmado para la fase de grupos y con MÁS fechas/horas si España sigue en eliminatorias → si España pasa, dan el cuarto. Ambiente 100% de aficionados españoles. 🚇 Está en la MISMA línea 7 que Citi Field (parada 34 St–Hudson Yards, punta oeste): salís al acabar (~17:20) y el 7 os deja DIRECTO en Mets–Willets Point (~35 min, sin transbordos) → ~18:00, con tiempo de sobra para el partido de los Mets (19:15). ⚠️ Contra: Hudson Yards es el extremo OESTE del 7, opuesto a Citi Field: 'gira' el día de Queens (metéis el 7 hacia Manhattan para el partido y volvéis hacia Citi Field). Va mejor con la mañana ligera en LIC (también en el 7). Con esta opción, el Unisphere (17:30) NO cuadra: llegáis a Willets ~18:00 y vais directos a Citi Field (Unisphere, rápido o se salta). 🔁 ALTERNATIVA (si preferís no girar el día y mantener el Unisphere): Jackson Heights, pero español DE VERDAD — Cafe Salamanca (79-05 Northern Blvd, 25 años de cocina española) o Addictive Wine & Tapas (87th St, 7 en 82nd). Están en el 7 a ~15 min de Citi Field y mantienen el flujo. ⚠️ Ojo: son tapas/vinos de nivel, NO confirmados como locales de fútbol con pantallas y sonido — LLAMAD ANTES. (Los bares de Roosevelt Ave tienen ambientazo pero son ecuatorianos/latinos, no españoles.)",
           "tags": []
         },
         {
@@ -1070,7 +1070,7 @@
           "name": "Flushing Meadows + Unisphere",
           "lat": 40.7459,
           "lng": -73.8453,
-          "desc": "Línea 7 hasta Mets–Willets Point (~15-20 min), al lado de Citi Field. Plan corto (~1,5 h); lo que reste hasta las puertas (17:45) es cojín junto al estadio (colas/cena). La Unisphere (globo de acero del 64) es foto rápida; a 2 min, las torres del NY State Pavilion (el 'Tent of Tomorrow' de la Expo del 64, icono retro de 'Men in Black'). El Queens Museum (el Panorama de NYC, maqueta gigante de la ciudad) es el refugio con AC en el pico de calor — entrada pay-what-you-wish (sugerido 8 $ / 6 $ est.; cierra vie 17:00). No hace falta más parque.",
+          "desc": "Línea 7 hasta Mets–Willets Point (~15-20 min), al lado de Citi Field. Plan corto (~1,5 h); lo que reste hasta las puertas (17:45) es cojín junto al estadio (colas/cena). La Unisphere (globo de acero del 64) es foto rápida; a 2 min, las torres del NY State Pavilion (el 'Tent of Tomorrow' de la Expo del 64, icono retro de 'Men in Black'). El Queens Museum (el Panorama de NYC, maqueta gigante de la ciudad) es el refugio con AC en el pico de calor — entrada pay-what-you-wish (sugerido 8 $ / 6 $ est.; cierra vie 17:00). No hace falta más parque. ⚠️ Este horario (17:30) solo cuadra con la opción Jackson Heights; si veis el partido en Mercado Little Spain llegáis a Willets ~18:00 y vais directos a Citi Field (Unisphere rápido o se salta).",
           "tags": [
             "gratis"
           ]
@@ -1388,7 +1388,7 @@
       },
       {
         "label": "🟠 Sitio de los cuartos (vie 10 y sáb 11) — por decidir",
-        "value": "Los partidos son fijos; el SITIO no. D7 (vie 10, 15:00): opción Roosevelt Ave/Jackson Heights (en la 7 a Citi Field), a confirmar. D8 (sáb 11, 21:00, Argentina + cena): opción Buenos Aires (513 E 6th), a confirmar. El D3 sí está cerrado (fan zone de Brookfield Place)."
+        "value": "Los partidos son fijos; el SITIO no del todo. D7 (vie 10, 15:00): LÍDER Mercado Little Spain (José Andrés, Hudson Yards) — watch party oficial de España, en el 7 directo a Citi Field; alternativa apuntada: Jackson Heights español (Cafe Salamanca / Addictive, llamar antes). D8 (sáb 11, 21:00, Argentina + cena): opción Buenos Aires (513 E 6th), a confirmar. El D3 sí está cerrado (fan zone de Brookfield Place)."
       }
     ]
   },
