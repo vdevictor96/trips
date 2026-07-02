@@ -1,5 +1,11 @@
 <template>
-  <div class="day-tabs">
+  <div
+    ref="tabsEl"
+    class="day-tabs"
+    :class="{ dragging }"
+    @pointerdown="onPointerDown"
+    @click.capture="onClickCapture"
+  >
     <button
       v-for="tab in tabs"
       :key="tab.id"
@@ -25,11 +31,45 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, ref, onBeforeUnmount } from 'vue'
 import { useTripStore } from '../stores/trip.js'
 
 const store = useTripStore()
 const emit = defineEmits(['selectDay', 'toggleRestaurants'])
+
+// Arrastrar con el ratón para hacer scroll horizontal en laptop (el táctil ya
+// usa el scroll nativo; solo interceptamos el puntero de ratón).
+const tabsEl = ref(null)
+const dragging = ref(false)
+let moved = false
+let startX = 0
+let startScroll = 0
+
+function onPointerDown(e) {
+  if (e.pointerType !== 'mouse') return
+  dragging.value = true
+  moved = false
+  startX = e.clientX
+  startScroll = tabsEl.value.scrollLeft
+  window.addEventListener('pointermove', onPointerMove)
+  window.addEventListener('pointerup', onPointerUp)
+}
+function onPointerMove(e) {
+  if (!dragging.value) return
+  const dx = e.clientX - startX
+  if (Math.abs(dx) > 4) moved = true
+  tabsEl.value.scrollLeft = startScroll - dx
+}
+function onPointerUp() {
+  dragging.value = false
+  window.removeEventListener('pointermove', onPointerMove)
+  window.removeEventListener('pointerup', onPointerUp)
+}
+// Si el gesto fue un arrastre, cancela el click para no cambiar de día sin querer.
+function onClickCapture(e) {
+  if (moved) { e.stopPropagation(); e.preventDefault(); moved = false }
+}
+onBeforeUnmount(onPointerUp)
 
 const tabs = computed(() => {
   if (!store.trip) return []

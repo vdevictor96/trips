@@ -294,7 +294,9 @@ html, body {
   padding: 4px 16px 10px;
   overflow-x: auto; flex-shrink: 0;
   scrollbar-width: none;
+  cursor: grab;
 }
+.day-tabs.dragging { cursor: grabbing; user-select: none; }
 .day-tabs::-webkit-scrollbar { display:none; }
 
 .day-tab {
