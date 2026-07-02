@@ -1,5 +1,5 @@
 {
-  "_v": 49,
+  "_v": 50,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -157,7 +157,7 @@
           "name": "⛪ Catedral St. John the Divine",
           "lat": 40.8038,
           "lng": -73.9625,
-          "desc": "OPCIONAL del tour en bici (decidir sobre la marcha). La catedral (anglicana) más grande del mundo, inacabada ('St. John the Unfinished'): gótico colosal, rosetón enorme. Es el único 'wow' objetivo de la zona norte. Para hacerla: subid el loop hasta el extremo NO del parque (110th), candáis la bici (candado incluido) y andáis ~10 min. Entrada con donativo sugerido. ⚠️ Si la hacéis (sola o con Columbia), el Met se mueve a ~13:00 — reservad esa hora — y devolvéis la bici al bajar al sur.",
+          "desc": "OPCIONAL del tour en bici (decidir sobre la marcha). La catedral (anglicana) más grande del mundo, inacabada ('St. John the Unfinished'): gótico colosal, rosetón enorme. Es el único 'wow' objetivo de la zona norte. Para hacerla: subid el loop hasta el extremo NO del parque (110th), candáis la bici (candado incluido) y andáis ~10 min. Entrada con donativo sugerido. ⚠️ Si la hacéis (sola o con Columbia), el Met se mueve a ~13:00 — reservad esa hora — y devolvéis la bici al bajar al sur. 👉 Esta (D2, en bici por el norte del parque) es vuestra ventana REAL para el norte: el D7 ya tiene partido + Mets, así que si queréis Catedral/Columbia/Harlem, es aquí o probablemente no.",
           "tags": []
         },
         {
@@ -986,7 +986,7 @@
           "name": "⛪ Catedral St. John the Divine",
           "lat": 40.8038,
           "lng": -73.9625,
-          "desc": "OPCIONAL para la mañana del D7, SI ese día no veis partido del Mundial (alternativa a la opción de '5ª Av' del comodín). Con la mañana entera da tiempo a la media jornada norte. La catedral (anglicana) más grande del mundo, gótico inacabado ('St. John the Unfinished'); donativo. Desde el hotel ~35-40 min en metro (la 1 hasta Cathedral Pkwy-110th). Después, a Queens (~45-60 min) para empezar Jackson Heights/Flushing más tarde, antes del partido (19:15). Son los mismos sitios que las opcionales del D2 (allí, versión corta colgada de la bici).",
+          "desc": "⚠️ YA NO APLICA en D7: este día tiene partido (cuartos) + Mets, así que la mañana no queda libre. Vuestra ventana real para el norte es la mañana del D2 (en bici). Se deja aquí solo como referencia del sitio. La catedral (anglicana) más grande del mundo, gótico inacabado ('St. John the Unfinished'); donativo. Desde el hotel ~35-40 min en metro (la 1 hasta Cathedral Pkwy-110th). Después, a Queens (~45-60 min) para empezar Jackson Heights/Flushing más tarde, antes del partido (19:15). Son los mismos sitios que las opcionales del D2 (allí, versión corta colgada de la bici).",
           "tags": []
         },
         {
@@ -1006,7 +1006,7 @@
           "name": "🎭 Harlem — Apollo (125th)",
           "lat": 40.8094,
           "lng": -73.9505,
-          "desc": "OPCIONAL — y aquí, a diferencia del D2, SÍ cobra sentido: con la mañana entera da tiempo a Harlem de verdad (fachada del Apollo en la 125th, soul food tipo Sylvia's/Red Rooster, jazz). Luego metro a Queens (~45-60 min) hacia Jackson Heights/Flushing y el partido (19:15).",
+          "desc": "⚠️ YA NO APLICA en D7 (hay partido + Mets, la mañana no queda libre). Harlem — 125th: fachada del Apollo, soul food (Sylvia's/Red Rooster), jazz. Pide su propio rato → si lo queréis, va en la mañana del D2 (en bici por el norte); si no, se queda como alternativa suelta.",
           "tags": []
         },
         {
@@ -1202,7 +1202,7 @@
           "name": "LES — Essex Market + Orchard St (comida)",
           "lat": 40.7185,
           "lng": -73.9881,
-          "desc": "Lower East Side: Essex Market (food hall con AC, comida del mundo) para comer, y Orchard St (boutiques vintage). Refugio del calor a mediodía. (Katz's Deli —pastrami icónico, escena de 'When Harry Met Sally'— a 5 min en Houston/Ludlow; ver Info.)",
+          "desc": "Lower East Side: Essex Market (food hall con AC, comida del mundo) para comer, y Orchard St (boutiques vintage). Refugio del calor a mediodía. (Katz's Deli —pastrami icónico, escena de 'When Harry Met Sally'— a 5 min en Houston/Ludlow; ver Info.) 🔁 Como el partido es de noche (21:00), si vais sobrados de tiempo a mediodía este es el momento de repetir un favorito de downtown antes de cruzar a Williamsburg. Lo del norte (Harlem/Columbia) NO va aquí: queda lejísimos y en dirección contraria; esa alternativa está en el D2.",
           "tags": []
         },
         {
