@@ -1,5 +1,5 @@
 {
-  "_v": 45,
+  "_v": 46,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -1187,12 +1187,32 @@
           "id": "8.15",
           "time": "13:30",
           "dur": "10-15 min",
-          "name": "📸 Fotomatón — Orchard St (Autophoto)",
+          "name": "📸 Fotomatón — Autophoto (Orchard St)",
           "lat": 40.719,
           "lng": -73.9894,
-          "desc": "Cluster de fotomatones en plena Orchard St, de paso mientras coméis por el LES. Recomendado: Autophoto (121 Orchard) — 'museo' con 7 máquinas vintage restauradas, entrada gratis y pagas solo la tira; al haber 7 booths la cola avanza aunque sea sábado (mar-dom 12-22h). A 2 min: Retrography (15 Essex) es la de MENOS cola y más barata (digital con filtros por barrio); y Old Friend (145 Allen) es la única analógica de verdad (dip-and-dunk, solo B/N, 8 $) pero la de cola más larga. Roxy Hotel (Tribeca) la descartamos: fuera de ruta, cara (~10-12 $) y a menudo averiada.",
+          "desc": "En plena Orchard St, de paso mientras coméis por el LES. 'Museo' con 7 máquinas vintage restauradas: entrada gratis y pagas solo la tira; al haber 7 booths la cola avanza aunque sea sábado (mar-dom 12-22h). Es el más completo/analógico de experiencia. A 2 min tenéis otros dos pines (Retrography y Old Friend) por si preferís menos cola o analógico puro.",
           "tags": [],
           "link": "https://www.autophoto.org/"
+        },
+        {
+          "id": "8.16",
+          "time": "🔵 Alternativa",
+          "dur": "a 2 min de Autophoto",
+          "name": "📸 Fotomatón — Retrography (LES)",
+          "lat": 40.7146,
+          "lng": -73.9908,
+          "desc": "Alternativa a Autophoto (15 Essex St, a 2 min). La de MENOS cola y la más barata de las tres. Es digital pero con filtros por barrio que imitan el look analógico. La mejor opción si el sábado hay espera en las otras.",
+          "tags": []
+        },
+        {
+          "id": "8.17",
+          "time": "🔵 Alternativa",
+          "dur": "a 2 min de Autophoto",
+          "name": "📸 Fotomatón — Old Friend (LES)",
+          "lat": 40.7208,
+          "lng": -73.9886,
+          "desc": "Alternativa a Autophoto (145 Allen St, a 2 min). La única analógica 'de verdad' de NY (revelado químico dip-and-dunk, solo blanco y negro), 8 $ la tira de 4. La más auténtica, pero también la de cola más larga (tiene culto). Merece la pena solo si os da igual esperar.",
+          "tags": []
         },
         {
           "id": "8.9",
