@@ -29,7 +29,7 @@
         >
           {{ match.name }}
           <span class="search-result-day" :style="{ color: match.dayColor }">
-            {{ match.dayId === 'discarded' ? 'Descartados' : match.dayId === 'restaurants' ? 'Restauración' : 'Día ' + match.dayId }}
+            {{ match.dayId === 'discarded' ? 'Descartados' : match.dayId === 'restaurants' ? 'Restauración' : match.dayId === 'cafes' ? 'Cafeterías' : 'Día ' + match.dayId }}
           </span>
         </div>
         <div v-if="query && !localMatches.length" class="search-result-item" style="color:var(--text-dim)">

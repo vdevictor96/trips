@@ -34,6 +34,11 @@ export const useTripStore = defineStore('trip', () => {
         .filter(p => p.lat != null && p.lng != null)
         .map(p => ({ ...p, dayId: 'restaurants', dayTab: 'Restauración', dayColor: '#e67e22' })))
     }
+    if (trip.value.cafes?.length) {
+      places.push(...trip.value.cafes
+        .filter(p => p.lat != null && p.lng != null)
+        .map(p => ({ ...p, dayId: 'cafes', dayTab: 'Cafeterías', dayColor: '#8d6e63' })))
+    }
     return places
   })
 

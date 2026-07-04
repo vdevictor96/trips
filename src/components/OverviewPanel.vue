@@ -35,6 +35,16 @@
     </div>
 
     <div
+      v-if="store.trip.cafes?.length"
+      class="place-card overview-card"
+      style="border-left-color:#8d6e63; cursor:pointer;"
+      @click="emit('navigate', 'cafes')"
+    >
+      <div class="place-time" style="color:#8d6e63">☕ Cafeterías · {{ store.trip.cafes.length }} sitios</div>
+      <div class="place-name">Café de especialidad (mapa con markers)</div>
+    </div>
+
+    <div
       v-if="store.trip.discarded?.length"
       class="place-card overview-card"
       style="border-left-color:var(--text-dim); cursor:pointer;"

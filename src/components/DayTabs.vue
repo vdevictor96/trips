@@ -78,6 +78,9 @@ const tabs = computed(() => {
   if (store.trip.restaurants?.length) {
     t.push({ id: 'restaurants', label: '🍴 Restauración', color: null })
   }
+  if (store.trip.cafes?.length) {
+    t.push({ id: 'cafes', label: '☕ Cafeterías', color: null })
+  }
   if (store.trip.discarded?.length) {
     t.push({ id: 'discarded', label: '🗑️ Descartados', color: null })
   }

@@ -302,6 +302,27 @@ export function useMap() {
       })
       markersByDay.value['restaurants'] = restaurantMarkers
     }
+
+    // Cafe markers
+    if (store.trip.cafes?.length) {
+      const cafeMarkers = []
+      store.trip.cafes.forEach(p => {
+        if (p.lat == null || p.lng == null) return
+        const html = '<div class="marker-icon" style="background:#8d6e63;"><span>☕</span></div>'
+        const marker = new HtmlMarkerClass({ lat: p.lat, lng: p.lng }, html, p.id)
+        marker.onClick(() => {
+          const gmapLink = buildGmapUrl(p, store.trip?.city)
+          infoWindow.setContent(
+            `<div class="iw-custom"><b>${p.name}</b>${p.cat ? '<br><span class="iw-desc">' + p.cat + '</span>' : ''}${p.desc ? '<br><span class="iw-desc">' + p.desc + '</span>' : ''}<br><a href="${gmapLink}" target="_blank" class="gmaps-link">📍 Google Maps</a>${p.link ? ' · <a href="' + p.link + '" target="_blank">Web →</a>' : ''}</div>`
+          )
+          infoWindow.setPosition(marker.getPosition())
+          infoWindow.open(map.value)
+        })
+        marker.setMap(map.value)
+        cafeMarkers.push(marker)
+      })
+      markersByDay.value['cafes'] = cafeMarkers
+    }
   }
 
   function clearAllMarkers() {
@@ -338,6 +359,12 @@ export function useMap() {
       const visible = store.showRestaurants || dayId === 'restaurants'
       restaurantMarkers.forEach(m => m.setVisible(visible))
     }
+
+    const cafeMarkers = markersByDay.value['cafes']
+    if (cafeMarkers) {
+      const visible = dayId === 'cafes'
+      cafeMarkers.forEach(m => m.setVisible(visible))
+    }
   }
 
   function fitBounds(dayId) {
@@ -350,7 +377,9 @@ export function useMap() {
       places = store.trip.discarded
     } else if (dayId === 'restaurants' && store.trip.restaurants?.length) {
       places = store.trip.restaurants.filter(p => p.lat != null && p.lng != null)
-    } else if (dayId !== 'info' && dayId !== 'discarded' && dayId !== 'notes' && dayId !== 'restaurants') {
+    } else if (dayId === 'cafes' && store.trip.cafes?.length) {
+      places = store.trip.cafes.filter(p => p.lat != null && p.lng != null)
+    } else if (dayId !== 'info' && dayId !== 'discarded' && dayId !== 'notes' && dayId !== 'restaurants' && dayId !== 'cafes') {
       const day = store.trip.days.find(d => d.id === dayId)
       places = day?.places || []
     }

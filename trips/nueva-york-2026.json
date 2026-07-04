@@ -1,5 +1,5 @@
 {
-  "_v": 51,
+  "_v": 52,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -1764,6 +1764,312 @@
       "name": "Buscar recomendaciones locales",
       "cat": "💡 Ideas sueltas",
       "desc": "Evitar trampas para turistas."
+    }
+  ],
+  "cafes": [
+    {
+      "id": "c.1",
+      "name": "Neighborhood Coffee Shop (Neiberhud)",
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "lat": 40.7248,
+      "lng": -74.0032,
+      "desc": "Café de barrio con aire europeo. 107 Thompson St (SoHo)."
+    },
+    {
+      "id": "c.2",
+      "name": "Café Integral",
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "lat": 40.7207,
+      "lng": -73.9955,
+      "desc": "Solo café de Nicaragua, tostado propio. 149 Elizabeth St (Nolita)."
+    },
+    {
+      "id": "c.3",
+      "name": "Milkweed Studio",
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "lat": 40.7188,
+      "lng": -73.9962,
+      "desc": "Micro-tostador de especialidad + espacio creativo. 166 Mott St (Little Italy)."
+    },
+    {
+      "id": "c.4",
+      "name": "PARK at KIMS",
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "lat": 40.7189,
+      "lng": -73.9958,
+      "desc": "Café con tostadores coreanos. 119 Elizabeth St (Nolita)."
+    },
+    {
+      "id": "c.5",
+      "name": "THE ELK on Mott",
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "lat": 40.7233,
+      "lng": -73.9948,
+      "desc": "Cafetería + general store muy fotogénica. 228 Mott St (Nolita). También sede original en West Village (128 Charles St)."
+    },
+    {
+      "id": "c.6",
+      "name": "ENLY",
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "lat": 40.7232,
+      "lng": -73.9945,
+      "desc": "Famoso por el tiramisú latte y el matcha. 227 Mott St (Nolita)."
+    },
+    {
+      "id": "c.7",
+      "name": "Café Lyria",
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "lat": 40.7258,
+      "lng": -73.9955,
+      "desc": "Café acogedor. 166 Crosby St (NoHo)."
+    },
+    {
+      "id": "c.8",
+      "name": "Manjul Coffee & Clothing",
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "lat": 40.719,
+      "lng": -74.0002,
+      "desc": "Café + moda independiente en el mismo espacio. 31 Howard St (SoHo)."
+    },
+    {
+      "id": "c.9",
+      "name": "Fast Times",
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "lat": 40.7212,
+      "lng": -74.0009,
+      "desc": "Café dentro de la tienda Buck Mason. 486 Broadway (SoHo)."
+    },
+    {
+      "id": "c.10",
+      "name": "La Cabra (SoHo)",
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "lat": 40.7237,
+      "lng": -73.9963,
+      "desc": "Tostador nórdico premium + bollería (cardamom bun). 284 Lafayette St (SoHo)."
+    },
+    {
+      "id": "c.11",
+      "name": "% Arabica",
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "lat": 40.7234,
+      "lng": -73.9938,
+      "desc": "Cadena japonesa de especialidad, minimalista. Pin en 8 Prince St (Nolita); varias sedes en NY (Dumbo con vistas al puente, Rockefeller, W 54th)."
+    },
+    {
+      "id": "c.12",
+      "name": "BUDDY BUDDY · Nut Butter Coffee",
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "lat": 40.7255,
+      "lng": -73.9922,
+      "desc": "El primer coffee bar de mantequilla de frutos secos (de Bruselas). 340 Bowery (NoHo)."
+    },
+    {
+      "id": "c.13",
+      "name": "Dark Matter Coffee · ¡Adios Amigos!",
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "lat": 40.7247,
+      "lng": -73.9924,
+      "desc": "Tostador de Chicago; incluye chocolatería Sleep Walk. 1 E 1st St (Bowery)."
+    },
+    {
+      "id": "c.14",
+      "name": "drip coffee makers",
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "lat": 40.7236,
+      "lng": -74.006,
+      "desc": "Tostador de especialidad. Pin en 75 Varick St (Hudson Sq); varias sedes (Tribeca dentro de Shinola, Brooklyn Heights)."
+    },
+    {
+      "id": "c.15",
+      "name": "La Cabra (East Village)",
+      "cat": "☕ East Village · Bowery",
+      "lat": 40.7294,
+      "lng": -73.9868,
+      "desc": "La sede original NY del tostador nórdico + panadería. 152 2nd Ave (East Village)."
+    },
+    {
+      "id": "c.16",
+      "name": "Not As Bitter",
+      "cat": "☕ East Village · Bowery",
+      "lat": 40.7276,
+      "lng": -73.9812,
+      "desc": "Lattes de fruta fresca y cafés-cóctel. 241 E 10th St (East Village)."
+    },
+    {
+      "id": "c.17",
+      "name": "Hidden Grounds Chai & Coffee",
+      "cat": "☕ East Village · Bowery",
+      "lat": 40.73,
+      "lng": -73.9893,
+      "desc": "Tostador con fuerte apuesta por el chai. 36 3rd Ave (East Village)."
+    },
+    {
+      "id": "c.18",
+      "name": "Ludlow Coffee Supply",
+      "cat": "☕ Lower East Side · Chinatown",
+      "lat": 40.7217,
+      "lng": -73.9878,
+      "desc": "Café amplio y luminoso (con barbería). 176 Ludlow St (LES)."
+    },
+    {
+      "id": "c.19",
+      "name": "Mandrake Café",
+      "cat": "☕ Lower East Side · Chinatown",
+      "lat": 40.7217,
+      "lng": -73.9884,
+      "desc": "Café de Ciudad de México, granos de fincas lideradas por mujeres. 190 Orchard St (LES)."
+    },
+    {
+      "id": "c.20",
+      "name": "Silence Please",
+      "cat": "☕ Lower East Side · Chinatown",
+      "lat": 40.7176,
+      "lng": -73.9942,
+      "desc": "Listening bar con vinilos y hi-fi. 132 Bowery, 2ª planta (hay que llamar al timbre). Cierra lunes."
+    },
+    {
+      "id": "c.21",
+      "name": "le gaz",
+      "cat": "☕ Lower East Side · Chinatown",
+      "lat": 40.7148,
+      "lng": -73.9918,
+      "desc": "Café de especialidad dentro de la tienda Fugazi, toque vietnamita. 55 Canal St (Chinatown)."
+    },
+    {
+      "id": "c.22",
+      "name": "Oslo Coffee Roasters",
+      "cat": "☕ West Village · Tribeca",
+      "lat": 40.7339,
+      "lng": -74.0055,
+      "desc": "Tostador clásico de Brooklyn con sede en el West Village. 236 W 10th St."
+    },
+    {
+      "id": "c.23",
+      "name": "Jack's Stir Brew Coffee",
+      "cat": "☕ West Village · Tribeca",
+      "lat": 40.7342,
+      "lng": -74.0018,
+      "desc": "Café orgánico icónico del West Village. 138 W 10th St."
+    },
+    {
+      "id": "c.24",
+      "name": "Do Not Feed Alligators",
+      "cat": "☕ West Village · Tribeca",
+      "lat": 40.7344,
+      "lng": -74.0045,
+      "desc": "Café de especialidad muy fotogénico. 337 Bleecker St (West Village)."
+    },
+    {
+      "id": "c.25",
+      "name": "Rhythm Zero",
+      "cat": "☕ West Village · Tribeca",
+      "lat": 40.7345,
+      "lng": -74.0042,
+      "desc": "Café-tostador con estética cuidada. 328 Bleecker St (West Village)."
+    },
+    {
+      "id": "c.26",
+      "name": "Bedford Studio",
+      "cat": "☕ West Village · Tribeca",
+      "lat": 40.7302,
+      "lng": -74.0046,
+      "desc": "Café + espacio de trabajo colectivo. 62 Bedford St (West Village)."
+    },
+    {
+      "id": "c.27",
+      "name": "Asano",
+      "cat": "☕ West Village · Tribeca",
+      "lat": 40.7313,
+      "lng": -74.0032,
+      "desc": "Café de mañana estilo japonés. 289 Bleecker St (West Village); también en UES (322 E 86th St)."
+    },
+    {
+      "id": "c.28",
+      "name": "Laughing Man Coffee",
+      "cat": "☕ West Village · Tribeca",
+      "lat": 40.7175,
+      "lng": -74.0083,
+      "desc": "El café de Hugh Jackman, pequeño y con encanto. 184 Duane St (Tribeca)."
+    },
+    {
+      "id": "c.29",
+      "name": "Urbana Cafe and Gallery",
+      "cat": "☕ Chelsea · Flatiron · Midtown · UES",
+      "lat": 40.7443,
+      "lng": -74.0058,
+      "desc": "Café con galería de arte. 144 10th Ave (Chelsea), cerca del High Line."
+    },
+    {
+      "id": "c.30",
+      "name": "Foreigner NYC",
+      "cat": "☕ Chelsea · Flatiron · Midtown · UES",
+      "lat": 40.7411,
+      "lng": -73.9924,
+      "desc": "Café de especialidad (de la gente de East of Normal). 64 W 21st St (Flatiron)."
+    },
+    {
+      "id": "c.31",
+      "name": "WatchHouse 5th Ave.",
+      "cat": "☕ Chelsea · Flatiron · Midtown · UES",
+      "lat": 40.7601,
+      "lng": -73.9765,
+      "desc": "Primera sede en EE. UU. de la cadena londinense de especialidad. 660 5th Ave (Midtown)."
+    },
+    {
+      "id": "c.32",
+      "name": "L B Coffee",
+      "cat": "☕ Chelsea · Flatiron · Midtown · UES",
+      "lat": 40.7726,
+      "lng": -73.9497,
+      "desc": "Café de especialidad con toque de Oriente Medio ('albi' = mi corazón). 454 E 84th St (UES)."
+    },
+    {
+      "id": "c.33",
+      "name": "SEY Coffee",
+      "cat": "☕ Brooklyn",
+      "lat": 40.7062,
+      "lng": -73.9336,
+      "desc": "Micro-tostador top (mejor café de EE. UU. 2019, Food & Wine). 18 Grattan St (Bushwick). Merece el viaje a Brooklyn."
+    },
+    {
+      "id": "c.34",
+      "name": "Maru Coffee",
+      "cat": "☕ Brooklyn",
+      "lat": 40.7183,
+      "lng": -73.9629,
+      "desc": "Café minimalista traído de Los Ángeles. 320 Wythe Ave (Williamsburg)."
+    },
+    {
+      "id": "c.35",
+      "name": "PPL",
+      "cat": "☕ Brooklyn",
+      "lat": 40.7145,
+      "lng": -73.9556,
+      "desc": "Café de especialidad. 189 Roebling St (Williamsburg)."
+    },
+    {
+      "id": "c.36",
+      "name": "Apartment Ra'el",
+      "cat": "☕ Brooklyn",
+      "lat": 40.6912,
+      "lng": -73.9557,
+      "desc": "Concept store: café + decoración vintage. 1124 Bedford Ave (Bed-Stuy)."
+    },
+    {
+      "id": "c.37",
+      "name": "Nako",
+      "cat": "☕ Brooklyn",
+      "lat": 40.6931,
+      "lng": -73.9994,
+      "desc": "Café escondido en Willowtown, cerca de Brooklyn Bridge Park. 18 Columbia Pl (Brooklyn Heights)."
+    },
+    {
+      "id": "c.38",
+      "name": "Hungry Ghost Coffee",
+      "cat": "☕ Brooklyn",
+      "lat": 40.6861,
+      "lng": -73.9736,
+      "desc": "Mini-cadena de Brooklyn. Pin en Fort Greene (781 Fulton St); varias sedes (Prospect Heights, Park Slope…)."
     }
   ],
   "discarded": [
