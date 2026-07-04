@@ -1,1391 +1,2009 @@
 {
-  "_v": 52,
-  "id": "nueva-york-2026",
-  "title": "Nueva York 2026",
-  "emoji": "🗽",
+  "_v": 57,
+  "cafes": [
+    {
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "desc": "Café de barrio con aire europeo. 107 Thompson St (SoHo).",
+      "id": "c.1",
+      "lat": 40.7248,
+      "lng": -74.0032,
+      "name": "Neighborhood Coffee Shop (Neiberhud)"
+    },
+    {
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "desc": "Solo café de Nicaragua, tostado propio. 149 Elizabeth St (Nolita).",
+      "id": "c.2",
+      "lat": 40.7207,
+      "lng": -73.9955,
+      "name": "Café Integral"
+    },
+    {
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "desc": "Micro-tostador de especialidad + espacio creativo. 166 Mott St (Little Italy).",
+      "id": "c.3",
+      "lat": 40.7188,
+      "lng": -73.9962,
+      "name": "Milkweed Studio"
+    },
+    {
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "desc": "Café con tostadores coreanos. 119 Elizabeth St (Nolita).",
+      "id": "c.4",
+      "lat": 40.7189,
+      "lng": -73.9958,
+      "name": "PARK at KIMS"
+    },
+    {
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "desc": "Cafetería + general store muy fotogénica. 228 Mott St (Nolita). También sede original en West Village (128 Charles St).",
+      "id": "c.5",
+      "lat": 40.7233,
+      "lng": -73.9948,
+      "name": "THE ELK on Mott"
+    },
+    {
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "desc": "Famoso por el tiramisú latte y el matcha. 227 Mott St (Nolita).",
+      "id": "c.6",
+      "lat": 40.7232,
+      "lng": -73.9945,
+      "name": "ENLY"
+    },
+    {
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "desc": "Café acogedor. 166 Crosby St (NoHo).",
+      "id": "c.7",
+      "lat": 40.7258,
+      "lng": -73.9955,
+      "name": "Café Lyria"
+    },
+    {
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "desc": "Café + moda independiente en el mismo espacio. 31 Howard St (SoHo).",
+      "id": "c.8",
+      "lat": 40.719,
+      "lng": -74.0002,
+      "name": "Manjul Coffee & Clothing"
+    },
+    {
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "desc": "Café dentro de la tienda Buck Mason. 486 Broadway (SoHo).",
+      "id": "c.9",
+      "lat": 40.7212,
+      "lng": -74.0009,
+      "name": "Fast Times"
+    },
+    {
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "desc": "Tostador nórdico premium + bollería (cardamom bun). 284 Lafayette St (SoHo).",
+      "id": "c.10",
+      "lat": 40.7237,
+      "lng": -73.9963,
+      "name": "La Cabra (SoHo)"
+    },
+    {
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "desc": "Cadena japonesa de especialidad, minimalista. Pin en 8 Prince St (Nolita); varias sedes en NY (Dumbo con vistas al puente, Rockefeller, W 54th).",
+      "id": "c.11",
+      "lat": 40.7234,
+      "lng": -73.9938,
+      "name": "% Arabica"
+    },
+    {
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "desc": "El primer coffee bar de mantequilla de frutos secos (de Bruselas). 340 Bowery (NoHo).",
+      "id": "c.12",
+      "lat": 40.7255,
+      "lng": -73.9922,
+      "name": "BUDDY BUDDY · Nut Butter Coffee"
+    },
+    {
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "desc": "Tostador de Chicago; incluye chocolatería Sleep Walk. 1 E 1st St (Bowery).",
+      "id": "c.13",
+      "lat": 40.7247,
+      "lng": -73.9924,
+      "name": "Dark Matter Coffee · ¡Adios Amigos!"
+    },
+    {
+      "cat": "☕ SoHo · Nolita · NoHo",
+      "desc": "Tostador de especialidad. Pin en 75 Varick St (Hudson Sq); varias sedes (Tribeca dentro de Shinola, Brooklyn Heights).",
+      "id": "c.14",
+      "lat": 40.7236,
+      "lng": -74.006,
+      "name": "drip coffee makers"
+    },
+    {
+      "cat": "☕ East Village · Bowery",
+      "desc": "La sede original NY del tostador nórdico + panadería. 152 2nd Ave (East Village).",
+      "id": "c.15",
+      "lat": 40.7294,
+      "lng": -73.9868,
+      "name": "La Cabra (East Village)"
+    },
+    {
+      "cat": "☕ East Village · Bowery",
+      "desc": "Lattes de fruta fresca y cafés-cóctel. 241 E 10th St (East Village).",
+      "id": "c.16",
+      "lat": 40.7276,
+      "lng": -73.9812,
+      "name": "Not As Bitter"
+    },
+    {
+      "cat": "☕ East Village · Bowery",
+      "desc": "Tostador con fuerte apuesta por el chai. 36 3rd Ave (East Village).",
+      "id": "c.17",
+      "lat": 40.73,
+      "lng": -73.9893,
+      "name": "Hidden Grounds Chai & Coffee"
+    },
+    {
+      "cat": "☕ Lower East Side · Chinatown",
+      "desc": "Café amplio y luminoso (con barbería). 176 Ludlow St (LES).",
+      "id": "c.18",
+      "lat": 40.7217,
+      "lng": -73.9878,
+      "name": "Ludlow Coffee Supply"
+    },
+    {
+      "cat": "☕ Lower East Side · Chinatown",
+      "desc": "Café de Ciudad de México, granos de fincas lideradas por mujeres. 190 Orchard St (LES).",
+      "id": "c.19",
+      "lat": 40.7217,
+      "lng": -73.9884,
+      "name": "Mandrake Café"
+    },
+    {
+      "cat": "☕ Lower East Side · Chinatown",
+      "desc": "Listening bar con vinilos y hi-fi. 132 Bowery, 2ª planta (hay que llamar al timbre). Cierra lunes.",
+      "id": "c.20",
+      "lat": 40.7176,
+      "lng": -73.9942,
+      "name": "Silence Please"
+    },
+    {
+      "cat": "☕ Lower East Side · Chinatown",
+      "desc": "Café de especialidad dentro de la tienda Fugazi, toque vietnamita. 55 Canal St (Chinatown).",
+      "id": "c.21",
+      "lat": 40.7148,
+      "lng": -73.9918,
+      "name": "le gaz"
+    },
+    {
+      "cat": "☕ West Village · Tribeca",
+      "desc": "Tostador clásico de Brooklyn con sede en el West Village. 236 W 10th St.",
+      "id": "c.22",
+      "lat": 40.7339,
+      "lng": -74.0055,
+      "name": "Oslo Coffee Roasters"
+    },
+    {
+      "cat": "☕ West Village · Tribeca",
+      "desc": "Café orgánico icónico del West Village. 138 W 10th St.",
+      "id": "c.23",
+      "lat": 40.7342,
+      "lng": -74.0018,
+      "name": "Jack's Stir Brew Coffee"
+    },
+    {
+      "cat": "☕ West Village · Tribeca",
+      "desc": "Café de especialidad muy fotogénico. 337 Bleecker St (West Village).",
+      "id": "c.24",
+      "lat": 40.7344,
+      "lng": -74.0045,
+      "name": "Do Not Feed Alligators"
+    },
+    {
+      "cat": "☕ West Village · Tribeca",
+      "desc": "Café-tostador con estética cuidada. 328 Bleecker St (West Village).",
+      "id": "c.25",
+      "lat": 40.7345,
+      "lng": -74.0042,
+      "name": "Rhythm Zero"
+    },
+    {
+      "cat": "☕ West Village · Tribeca",
+      "desc": "Café + espacio de trabajo colectivo. 62 Bedford St (West Village).",
+      "id": "c.26",
+      "lat": 40.7302,
+      "lng": -74.0046,
+      "name": "Bedford Studio"
+    },
+    {
+      "cat": "☕ West Village · Tribeca",
+      "desc": "Café de mañana estilo japonés. 289 Bleecker St (West Village); también en UES (322 E 86th St).",
+      "id": "c.27",
+      "lat": 40.7313,
+      "lng": -74.0032,
+      "name": "Asano"
+    },
+    {
+      "cat": "☕ West Village · Tribeca",
+      "desc": "El café de Hugh Jackman, pequeño y con encanto. 184 Duane St (Tribeca).",
+      "id": "c.28",
+      "lat": 40.7175,
+      "lng": -74.0083,
+      "name": "Laughing Man Coffee"
+    },
+    {
+      "cat": "☕ Chelsea · Flatiron · Midtown · UES",
+      "desc": "Café con galería de arte. 144 10th Ave (Chelsea), cerca del High Line.",
+      "id": "c.29",
+      "lat": 40.7443,
+      "lng": -74.0058,
+      "name": "Urbana Cafe and Gallery"
+    },
+    {
+      "cat": "☕ Chelsea · Flatiron · Midtown · UES",
+      "desc": "Café de especialidad (de la gente de East of Normal). 64 W 21st St (Flatiron).",
+      "id": "c.30",
+      "lat": 40.7411,
+      "lng": -73.9924,
+      "name": "Foreigner NYC"
+    },
+    {
+      "cat": "☕ Chelsea · Flatiron · Midtown · UES",
+      "desc": "Primera sede en EE. UU. de la cadena londinense de especialidad. 660 5th Ave (Midtown).",
+      "id": "c.31",
+      "lat": 40.7601,
+      "lng": -73.9765,
+      "name": "WatchHouse 5th Ave."
+    },
+    {
+      "cat": "☕ Chelsea · Flatiron · Midtown · UES",
+      "desc": "Café de especialidad con toque de Oriente Medio ('albi' = mi corazón). 454 E 84th St (UES).",
+      "id": "c.32",
+      "lat": 40.7726,
+      "lng": -73.9497,
+      "name": "L B Coffee"
+    },
+    {
+      "cat": "☕ Brooklyn",
+      "desc": "Micro-tostador top (mejor café de EE. UU. 2019, Food & Wine). 18 Grattan St (Bushwick). Merece el viaje a Brooklyn.",
+      "id": "c.33",
+      "lat": 40.7062,
+      "lng": -73.9336,
+      "name": "SEY Coffee"
+    },
+    {
+      "cat": "☕ Brooklyn",
+      "desc": "Café minimalista traído de Los Ángeles. 320 Wythe Ave (Williamsburg).",
+      "id": "c.34",
+      "lat": 40.7183,
+      "lng": -73.9629,
+      "name": "Maru Coffee"
+    },
+    {
+      "cat": "☕ Brooklyn",
+      "desc": "Café de especialidad. 189 Roebling St (Williamsburg).",
+      "id": "c.35",
+      "lat": 40.7145,
+      "lng": -73.9556,
+      "name": "PPL"
+    },
+    {
+      "cat": "☕ Brooklyn",
+      "desc": "Concept store: café + decoración vintage. 1124 Bedford Ave (Bed-Stuy).",
+      "id": "c.36",
+      "lat": 40.6912,
+      "lng": -73.9557,
+      "name": "Apartment Ra'el"
+    },
+    {
+      "cat": "☕ Brooklyn",
+      "desc": "Café escondido en Willowtown, cerca de Brooklyn Bridge Park. 18 Columbia Pl (Brooklyn Heights).",
+      "id": "c.37",
+      "lat": 40.6931,
+      "lng": -73.9994,
+      "name": "Nako"
+    },
+    {
+      "cat": "☕ Brooklyn",
+      "desc": "Mini-cadena de Brooklyn. Pin en Fort Greene (781 Fulton St); varias sedes (Prospect Heights, Park Slope…).",
+      "id": "c.38",
+      "lat": 40.6861,
+      "lng": -73.9736,
+      "name": "Hungry Ghost Coffee"
+    }
+  ],
   "city": "Nueva York",
   "country": "Estados Unidos",
   "dates": "4-12 julio 2026",
-  "mapCenter": [
-    40.74,
-    -73.98
-  ],
-  "mapZoom": 12,
-  "hotel": {
-    "lat": 40.7349,
-    "lng": -73.9846,
-    "name": "Hotel 17 – Extended Stay"
-  },
   "dayColors": [
     "#f7b731",
     "#26de81",
+    "#45aaf2",
     "#fc5c65",
+    "#4b6584",
     "#a55eea",
     "#4b7bec",
     "#fd9644",
     "#2bcbba",
+    "#fed330",
     "#eb3b5a",
     "#778ca3"
   ],
   "days": [
     {
       "id": 1,
-      "tab": "Día 1 · Sáb 4",
-      "title": "Llegada + Fuegos 🎆",
-      "subtitle": "Sábado 4 julio · Llegada 18:55 JFK · Macy's ~21:25 · noche corta",
       "places": [
         {
-          "id": "1.1",
-          "time": "21:25",
-          "dur": "45 min",
-          "name": "🎆 Fuegos 4 Julio — East River (Stuyvesant Cove)",
-          "lat": 40.7332,
-          "lng": -73.974,
           "desc": "Desde JFK al hotel: taxi/Uber (~70 $, 45-60 min) o AirTrain + metro (~11 $, ~75 min); con la inmigración de un vuelo internacional contad con llegar ~21:00-21:30. Dejáis maletas y bajáis al paseo del East River (12 min). ✅ Decidido (lo tranquilo): en 2026 (50 aniversario) los fuegos se lanzan lejos al sur (Seaport / Puente de Brooklyn + bajo Hudson), así que desde aquí se ven DE LEJOS y sin agobios. Plan: paseo del East River a la altura de Stuyvesant Cove (~20th-23rd), mirando recto al SUR por el canal abierto del río — veréis los disparos altos sobre los puentes. Evitáis el barullo de las zonas oficiales del sur (se petan y la policía cierra accesos). Los petardazos bajos pueden quedar tapados por los puentes; los grandes aéreos se ven. Si un tramo del paseo está cortado, id al punto abierto más cercano. Si a las 21:25 seguís de camino, sin estrés. Cena rápida cerca de Union Square; a dormir pronto (mañana 7:30).",
+          "dur": "45 min",
+          "id": "1.1",
+          "lat": 40.7332,
+          "link": "https://www.macys.com/s/fireworks/",
+          "lng": -73.974,
+          "name": "🎆 Fuegos 4 Julio — East River (Stuyvesant Cove)",
           "tags": [
             "gratis"
           ],
-          "link": "https://www.macys.com/s/fireworks/"
+          "time": "21:25"
         }
-      ]
+      ],
+      "subtitle": "Sábado 4 julio · Llegada 18:55 JFK · Macy's ~21:25 · noche corta",
+      "tab": "Día 1 · Sáb 4",
+      "title": "Llegada + Fuegos 🎆"
     },
     {
       "id": 2,
-      "tab": "Día 2 · Dom 5",
-      "title": "Central Park + Met",
-      "subtitle": "Domingo 5 julio · 🚲 Central Park en bici (fresco) · Met mediodía (AC) · 🌅 20:30",
       "places": [
         {
-          "id": "2.11",
-          "time": "09:00",
+          "desc": "Recogéis las bicis en Unlimited Biking (56 W 56th, entre 5ª y 6ª, 3-4 manzanas al sur del parque). Incluye casco, candado, cesta y mapa. Recomendado 3 h (27,50 $/persona): da para ver a pie las joyas del sur (candando las bicis) y subir luego en bici al embalse, que a pie no daría tiempo. ⚠️ Confirmad la hora de apertura al reservar (suelen abrir ~9:00); los horarios de abajo asumen recogida a las 9:00. Si abre más tarde, haced las joyas del sur a pie primero y reservad la bici para el norte. Devolución en el mismo sitio.",
           "dur": "15 min",
-          "name": "🚲 Recoger bicis (Unlimited Biking)",
+          "id": "2.11",
           "lat": 40.7633,
           "lng": -73.9762,
-          "desc": "Recogéis las bicis en Unlimited Biking (56 W 56th, entre 5ª y 6ª, 3-4 manzanas al sur del parque). Incluye casco, candado, cesta y mapa. Recomendado 3 h (27,50 $/persona): da para ver a pie las joyas del sur (candando las bicis) y subir luego en bici al embalse, que a pie no daría tiempo. ⚠️ Confirmad la hora de apertura al reservar (suelen abrir ~9:00); los horarios de abajo asumen recogida a las 9:00. Si abre más tarde, haced las joyas del sur a pie primero y reservad la bici para el norte. Devolución en el mismo sitio.",
-          "tags": []
+          "name": "🚲 Recoger bicis (Unlimited Biking)",
+          "time": "09:00"
         },
         {
-          "id": "2.1",
-          "time": "09:20",
+          "desc": "Entráis por Grand Army Plaza (4 manzanas en bici desde la recogida). Candáis y bajáis a pie a The Pond y el puentecito de piedra Gapstow, uno de los reflejos del skyline más fotografiados. Domingo a primera hora, tranquilo; al lado, Grand Army Plaza y el hotel The Plaza.",
           "dur": "15 min",
-          "name": "Central Park — The Pond y Gapstow Bridge",
+          "id": "2.1",
           "lat": 40.7669,
           "lng": -73.9737,
-          "desc": "Entráis por Grand Army Plaza (4 manzanas en bici desde la recogida). Candáis y bajáis a pie a The Pond y el puentecito de piedra Gapstow, uno de los reflejos del skyline más fotografiados. Domingo a primera hora, tranquilo; al lado, Grand Army Plaza y el hotel The Plaza.",
+          "name": "Central Park — The Pond y Gapstow Bridge",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "09:20"
         },
         {
-          "id": "2.2",
-          "time": "09:35",
+          "desc": "De paso por el oeste: la gran pradera sin tráfico (antaño con ovejas de verdad) y el skyline entre los árboles. Mirada rápida desde la bici; parada para tumbarse solo si vais sobrados de tiempo.",
           "dur": "5 min",
-          "name": "Central Park — Sheep Meadow",
+          "id": "2.2",
           "lat": 40.7716,
           "lng": -73.9745,
-          "desc": "De paso por el oeste: la gran pradera sin tráfico (antaño con ovejas de verdad) y el skyline entre los árboles. Mirada rápida desde la bici; parada para tumbarse solo si vais sobrados de tiempo.",
+          "name": "Central Park — Sheep Meadow",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "09:35"
         },
         {
-          "id": "2.3",
-          "time": "09:45",
+          "desc": "En el lado oeste, candáis un momento: el memorial a John Lennon, el mosaico 'Imagine' (casi siempre con alguien tocando sus canciones) y, enfrente, el edificio Dakota (1 W 72nd, exterior), donde vivió y fue asesinado en 1980 (fachada de 'La semilla del diablo').",
           "dur": "15 min",
-          "name": "Central Park — Strawberry Fields y Dakota",
+          "id": "2.3",
           "lat": 40.7755,
           "lng": -73.9749,
-          "desc": "En el lado oeste, candáis un momento: el memorial a John Lennon, el mosaico 'Imagine' (casi siempre con alguien tocando sus canciones) y, enfrente, el edificio Dakota (1 W 72nd, exterior), donde vivió y fue asesinado en 1980 (fachada de 'La semilla del diablo').",
+          "name": "Central Park — Strawberry Fields y Dakota",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "09:45"
         },
         {
-          "id": "2.4",
-          "time": "10:05",
+          "desc": "Corazón monumental del parque. Aquí dejáis las bicis candadas y recorréis a pie el tramo central peatonal: la terraza y la fuente Bethesda ('Ángel de las Aguas'), con la arcada inferior y su techo de azulejos Minton; detrás, The Lake. Bow Bridge queda al lado (siguiente). A media mañana de domingo aún tranquilo.",
           "dur": "20 min",
-          "name": "⭐ Central Park — Bethesda Terrace y Fuente",
+          "id": "2.4",
           "lat": 40.7741,
           "lng": -73.9711,
-          "desc": "Corazón monumental del parque. Aquí dejáis las bicis candadas y recorréis a pie el tramo central peatonal: la terraza y la fuente Bethesda ('Ángel de las Aguas'), con la arcada inferior y su techo de azulejos Minton; detrás, The Lake. Bow Bridge queda al lado (siguiente). A media mañana de domingo aún tranquilo.",
+          "name": "⭐ Central Park — Bethesda Terrace y Fuente",
           "tags": [
             "gratis",
             "obligatorio"
-          ]
+          ],
+          "time": "10:05"
         },
         {
-          "id": "2.5",
-          "time": "10:25",
+          "desc": "A pie desde donde dejasteis las bicis: el puente de hierro fundido más romántico de NY (1862) sobre The Lake, escenario de mil películas. De camino, el bosquecillo del Ramble (sombra y pájaros). Gran punto de fotos; luego volvéis a por las bicis.",
           "dur": "15 min",
-          "name": "Central Park — Bow Bridge y The Lake",
+          "id": "2.5",
           "lat": 40.7758,
           "lng": -73.9718,
-          "desc": "A pie desde donde dejasteis las bicis: el puente de hierro fundido más romántico de NY (1862) sobre The Lake, escenario de mil películas. De camino, el bosquecillo del Ramble (sombra y pájaros). Gran punto de fotos; luego volvéis a por las bicis.",
+          "name": "Central Park — Bow Bridge y The Lake",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "10:25"
         },
         {
-          "id": "2.6",
-          "time": "10:45",
+          "desc": "Pequeño castillo victoriano (1869) sobre Vista Rock, hoy estación meteorológica del parque; terrazas con vistas del Turtle Pond y el Great Lawn. Gratis. Recogéis las bicis y tiráis al norte.",
           "dur": "15 min",
-          "name": "Central Park — Belvedere Castle",
+          "id": "2.6",
           "lat": 40.7794,
           "lng": -73.9691,
-          "desc": "Pequeño castillo victoriano (1869) sobre Vista Rock, hoy estación meteorológica del parque; terrazas con vistas del Turtle Pond y el Great Lawn. Gratis. Recogéis las bicis y tiráis al norte.",
+          "name": "Central Park — Belvedere Castle",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "10:45"
         },
         {
-          "id": "2.12",
-          "time": "11:05",
+          "desc": "La mitad norte que a pie no veríais: en bici por el loop hasta el embalse Jacqueline Kennedy Onassis (la pista de running de las pelis), con el skyline reflejado en el agua. Si vais con energía, podéis seguir hasta el Conservatory Garden (jardines formales, 105th) o Harlem Meer. Luego bajáis por el loop a DEVOLVER las bicis en 56 W 56th (~11:45) y subís en metro 6 (OMNY, cuenta para el tope) de 59th a 86th, andando al Met.",
           "dur": "40 min",
-          "name": "🚲 Reservoir Jackie O + norte del parque",
+          "id": "2.12",
           "lat": 40.7855,
           "lng": -73.962,
-          "desc": "La mitad norte que a pie no veríais: en bici por el loop hasta el embalse Jacqueline Kennedy Onassis (la pista de running de las pelis), con el skyline reflejado en el agua. Si vais con energía, podéis seguir hasta el Conservatory Garden (jardines formales, 105th) o Harlem Meer. Luego bajáis por el loop a DEVOLVER las bicis en 56 W 56th (~11:45) y subís en metro 6 (OMNY, cuenta para el tope) de 59th a 86th, andando al Met.",
+          "name": "🚲 Reservoir Jackie O + norte del parque",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "11:05"
         },
         {
-          "id": "2.13",
-          "time": "🔵 Opcional",
+          "desc": "OPCIONAL del tour en bici (decidir sobre la marcha). La catedral (anglicana) más grande del mundo, inacabada ('St. John the Unfinished'): gótico colosal, rosetón enorme. Es el único 'wow' objetivo de la zona norte. Para hacerla: subid el loop hasta el extremo NO del parque (110th), candáis la bici (candado incluido) y andáis ~10 min. Entrada con donativo sugerido. ⚠️ Si la hacéis (sola o con Columbia), el Met se mueve a ~13:00 — reservad esa hora — y devolvéis la bici al bajar al sur. 👉 Esta (D2, en bici por el norte del parque) es vuestra ventana REAL para el norte: el D7 ya tiene partido + Mets, así que si queréis Catedral/Columbia/Harlem, es aquí o probablemente no.",
           "dur": "~10 min a pie",
-          "name": "⛪ Catedral St. John the Divine",
+          "id": "2.13",
           "lat": 40.8038,
           "lng": -73.9625,
-          "desc": "OPCIONAL del tour en bici (decidir sobre la marcha). La catedral (anglicana) más grande del mundo, inacabada ('St. John the Unfinished'): gótico colosal, rosetón enorme. Es el único 'wow' objetivo de la zona norte. Para hacerla: subid el loop hasta el extremo NO del parque (110th), candáis la bici (candado incluido) y andáis ~10 min. Entrada con donativo sugerido. ⚠️ Si la hacéis (sola o con Columbia), el Met se mueve a ~13:00 — reservad esa hora — y devolvéis la bici al bajar al sur. 👉 Esta (D2, en bici por el norte del parque) es vuestra ventana REAL para el norte: el D7 ya tiene partido + Mets, así que si queréis Catedral/Columbia/Harlem, es aquí o probablemente no.",
-          "tags": []
+          "name": "⛪ Catedral St. John the Divine",
+          "time": "🔵 Opcional"
         },
         {
-          "id": "2.14",
-          "time": "🔵 Opcional",
+          "desc": "OPCIONAL del tour en bici. Campus bonito de Morningside Heights: la escalinata de Low Memorial Library y el quad de College Walk (116th/Broadway). ~12-15 min andando desde el norte del parque (hay cuesta por Morningside Park) o 1 parada de metro. ~30-45 min de paseo. Pega con la Catedral (a 4 manzanas), así que tienen sentido juntas.",
           "dur": "~12-15 min / 1 metro",
-          "name": "🎓 Columbia University",
+          "id": "2.14",
           "lat": 40.8075,
           "lng": -73.9626,
-          "desc": "OPCIONAL del tour en bici. Campus bonito de Morningside Heights: la escalinata de Low Memorial Library y el quad de College Walk (116th/Broadway). ~12-15 min andando desde el norte del parque (hay cuesta por Morningside Park) o 1 parada de metro. ~30-45 min de paseo. Pega con la Catedral (a 4 manzanas), así que tienen sentido juntas.",
-          "tags": []
+          "name": "🎓 Columbia University",
+          "time": "🔵 Opcional"
         },
         {
-          "id": "2.15",
-          "time": "🔵 Opcional",
+          "desc": "OPCIONAL, ya más lejos: es una vivencia de barrio, no un 'de paso'. La calle 125 es el corazón de Harlem: fachada del Apollo Theater, soul food (Sylvia's, Red Rooster), historia del jazz y el gospel. A ~15-18 min andando del norte del parque o ~5 min en metro (1-2 paradas). Pide su propio rato → más cómodo como media jornada (p. ej. mañana del D7) que colgado de la bici.",
           "dur": "~15 min / metro",
-          "name": "🎭 Harlem — Apollo (125th)",
+          "id": "2.15",
           "lat": 40.8094,
           "lng": -73.9505,
-          "desc": "OPCIONAL, ya más lejos: es una vivencia de barrio, no un 'de paso'. La calle 125 es el corazón de Harlem: fachada del Apollo Theater, soul food (Sylvia's, Red Rooster), historia del jazz y el gospel. A ~15-18 min andando del norte del parque o ~5 min en metro (1-2 paradas). Pide su propio rato → más cómodo como media jornada (p. ej. mañana del D7) que colgado de la bici.",
-          "tags": []
+          "name": "🎭 Harlem — Apollo (125th)",
+          "time": "🔵 Opcional"
         },
         {
-          "id": "2.7",
-          "time": "12:15",
-          "dur": "3 h",
-          "name": "⭐ The Met (Metropolitan Museum)",
-          "lat": 40.7794,
-          "lng": -73.9634,
           "desc": "Uno de los grandes museos del mundo, en el lado este del parque (llegáis en metro 6 a 86th tras devolver las bicis; comida rápida antes en un carrito/deli junto al museo). Imprescindibles: el Templo de Dendur (Egipto), la pintura europea, las armaduras y la azotea Cantor (vistas del parque, solo verano). Enorme y con AC en el pico de calor (~3h; imposible verlo todo, id a lo que os tire). 30 $ / 17 $ con carné de estudiante; vale 3 días e incluye The Cloisters. Dom 10-17h, reservad hora.",
+          "dur": "3 h",
+          "id": "2.7",
+          "lat": 40.7794,
+          "link": "https://www.metmuseum.org/",
+          "lng": -73.9634,
+          "name": "⭐ The Met (Metropolitan Museum)",
           "tags": [
             "obligatorio",
             "reservar"
           ],
-          "link": "https://www.metmuseum.org/"
+          "time": "12:15"
         },
         {
-          "id": "2.8",
-          "time": "15:30",
-          "dur": "20 min",
-          "name": "Guggenheim (exterior)",
-          "lat": 40.783,
-          "lng": -73.959,
           "desc": "5 min al norte. El museo en espiral blanca de Frank Lloyd Wright (1959), una obra maestra en sí: por dentro se baja una rampa helicoidal. Lo vemos por fuera (el edificio es lo icónico); entrar es opcional si os sobra tiempo y os va el arte moderno.",
+          "dur": "20 min",
+          "id": "2.8",
+          "lat": 40.783,
+          "link": "https://www.guggenheim.org/",
+          "lng": -73.959,
+          "name": "Guggenheim (exterior)",
           "tags": [
             "gratis"
           ],
-          "link": "https://www.guggenheim.org/"
+          "time": "15:30"
         },
         {
-          "id": "2.9",
-          "time": "16:00",
+          "desc": "Bajáis por Madison Ave, la milla del lujo del Upper East Side: boutiques insignia y casas señoriales, el NY elegante. Paseo de escaparates (sin entrar si no apetece) con merienda rápida por el camino.",
           "dur": "1.5 h",
-          "name": "Madison Avenue (Upper East Side, lujo)",
+          "id": "2.9",
           "lat": 40.7705,
           "lng": -73.965,
-          "desc": "Bajáis por Madison Ave, la milla del lujo del Upper East Side: boutiques insignia y casas señoriales, el NY elegante. Paseo de escaparates (sin entrar si no apetece) con merienda rápida por el camino.",
-          "tags": []
+          "name": "Madison Avenue (Upper East Side, lujo)",
+          "time": "16:00"
         },
         {
-          "id": "2.10",
-          "time": "18:15",
-          "dur": "2.5 h",
-          "name": "🌅 Roosevelt Island (tranvía + Southpoint Park)",
-          "lat": 40.7524,
-          "lng": -73.9581,
           "desc": "Tranvía aéreo (teleférico urbano) desde la 2ª Av/59th sobre el East River — acepta OMNY (2,90 $, cuenta para el tope) y el trayecto ya es la atracción. Paseáis la isla hasta Southpoint Park, el FDR Four Freedoms Park (memorial de Louis Kahn) y las ruinas góticas del viejo hospital de viruela. Atardecer con el skyline de Manhattan enfrente (el sol se pone tras la ciudad; Four Freedoms cierra 19:00). ⚠️ El tranvía se peta al atardecer, sobre todo a la VUELTA (todos salen a la vez): subid en tranvía (la experiencia y las vistas) y VOLVED EN METRO F (estación Roosevelt Island, directo bajo el río, también OMNY) para esquivar la cola. Las vistas del atardecer son desde la isla (Southpoint), no desde el tranvía, así que no perdéis nada. Cena → hotel ~21:30.",
+          "dur": "2.5 h",
+          "id": "2.10",
+          "lat": 40.7524,
+          "link": "https://rioc.ny.gov/302/Tram",
+          "lng": -73.9581,
+          "name": "🌅 Roosevelt Island (tranvía + Southpoint Park)",
           "tags": [
             "gratis",
             "mirador"
           ],
-          "link": "https://rioc.ny.gov/302/Tram"
+          "time": "18:15"
         }
-      ]
+      ],
+      "subtitle": "Domingo 5 julio · 🚲 Central Park en bici (fresco) · Met mediodía (AC) · 🌅 20:30",
+      "tab": "Día 2 · Dom 5",
+      "title": "Central Park + Met"
+    },
+    {
+      "id": 10,
+      "places": [
+        {
+          "desc": "🌧️ ALT: SOLO por fuera (no entramos, no pagamos entrada). La espiral blanca de Frank Lloyd Wright (1959) es lo icónico y se ve desde la calle. Foto rápida de camino al Met; si diluvia, os lo saltáis directamente.",
+          "dur": "10 min",
+          "id": "10.1",
+          "lat": 40.783,
+          "link": "https://www.guggenheim.org/",
+          "lng": -73.959,
+          "name": "Guggenheim (exterior)",
+          "tags": [
+            "gratis"
+          ],
+          "time": "10:15"
+        },
+        {
+          "desc": "🌧️ ALT: el gran refugio de un domingo de lluvia. Uno de los grandes museos del mundo, en el lado este del parque (llegáis en metro 6 a 86th tras devolver las bicis; comida rápida antes en un carrito/deli junto al museo). Imprescindibles: el Templo de Dendur (Egipto), la pintura europea, las armaduras y la azotea Cantor (vistas del parque, solo verano). Enorme y con AC en el pico de calor (~3h; imposible verlo todo, id a lo que os tire). 30 $ / 17 $ con carné de estudiante; vale 3 días e incluye The Cloisters. Dom 10-17h, reservad hora.",
+          "dur": "3 h",
+          "id": "10.2",
+          "lat": 40.7794,
+          "link": "https://www.metmuseum.org/",
+          "lng": -73.9634,
+          "name": "⭐ The Met (Metropolitan Museum)",
+          "tags": [
+            "obligatorio",
+            "reservar"
+          ],
+          "time": "10:30"
+        },
+        {
+          "desc": "🌧️ ALT: escaparates bajo los toldos del Upper East. Bajáis por Madison Ave, la milla del lujo del Upper East Side: boutiques insignia y casas señoriales, el NY elegante. Paseo de escaparates (sin entrar si no apetece) con merienda rápida por el camino.",
+          "dur": "45 min",
+          "id": "10.3",
+          "lat": 40.7705,
+          "lng": -73.965,
+          "name": "Madison Avenue (Upper East Side, lujo)",
+          "time": "14:00"
+        },
+        {
+          "desc": "🌧️ ALT: lo ADELANTAMOS del martes (ese día ya va apretado y hoy llueve) — tiendas abiertas en domingo y sin prisa, a diferencia del rato con prisa del D4. Bloque de compras (~45 min) por el tramo alto de la 5ª Av: Saks (50th) enfrente de Rockefeller, y subiendo Tiffany, la Apple (24h, bajo el cubo de cristal), Bergdorf Goodman y The Plaza hacia la 59th. Entráis a lo que os apetezca; luego bajáis a la 42 para el SUMMIT.",
+          "dur": "1.5 h",
+          "id": "10.4",
+          "lat": 40.76,
+          "lng": -73.9758,
+          "name": "🛍️ 5ª Avenida — compras",
+          "time": "15:00"
+        },
+        {
+          "desc": "🌧️ ALT: también adelantado del martes; techo y frikismo para cerrar el día. Tienda insignia de Nintendo (10 Rockefeller Plaza, 6ª Av/48th), pegada a Rockefeller: dos plantas, productos exclusivos y zona de demos. 30-45 min de tienda friki.",
+          "dur": "40 min",
+          "id": "10.5",
+          "lat": 40.7591,
+          "lng": -73.9787,
+          "name": "🎮 Nintendo New York",
+          "time": "16:45"
+        }
+      ],
+      "subtitle": "Domingo 5 julio · PLAN ALT si se cumple la lluvia (pronóstico: lluvia de tarde, 1h sol) · Primer día completo indoor: Met + compras 5ª Av y Nintendo (adelantados del martes) + Madison · Guggenheim solo por fuera · El Central Park en bici se va al VIERNES con sol",
+      "tab": "Día 2 · Dom 5 · ALT ☔",
+      "title": "🌧️ ALT lluvia · Museos UES + compras (todo indoor)"
     },
     {
       "id": 3,
-      "tab": "Día 3 · Lun 6",
-      "title": "Bajo Manhattan + Barrios",
-      "subtitle": "Lunes 6 julio · Bajo Manhattan + Chinatown/Little Italy/SoHo · 9/11 (sin museo) · día completo",
       "places": [
         {
-          "id": "3.1",
-          "time": "08:00",
+          "desc": "Desde el hotel: metro 4/5 a Bowling Green (~20 min). Desayuno rápido antes. Parque en la punta sur con vistas al puerto y a la Estatua a lo lejos. Empezáis con el fresco de la mañana — y desde aquí mismo sale el ferry.",
           "dur": "20 min",
-          "name": "The Battery",
+          "id": "3.1",
           "lat": 40.7036,
           "lng": -74.0161,
-          "desc": "Desde el hotel: metro 4/5 a Bowling Green (~20 min). Desayuno rápido antes. Parque en la punta sur con vistas al puerto y a la Estatua a lo lejos. Empezáis con el fresco de la mañana — y desde aquí mismo sale el ferry.",
+          "name": "The Battery",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "08:00"
         },
         {
-          "id": "3.2",
-          "time": "08:25",
+          "desc": "Ferry GRATIS desde Whitehall (al lado de The Battery). Ida: lado DERECHO (Estatua de la Libertad de cerca); vuelta: izquierda (skyline del Bajo Manhattan). Calculad ~1,5 h ida y vuelta: en Staten Island hay que bajar y volver a entrar a la terminal para coger el siguiente barco. A primera hora, buena luz y menos cola.",
           "dur": "1.5 h",
-          "name": "🚢 Staten Island Ferry (Estatua)",
+          "id": "3.2",
           "lat": 40.7014,
           "lng": -74.0131,
-          "desc": "Ferry GRATIS desde Whitehall (al lado de The Battery). Ida: lado DERECHO (Estatua de la Libertad de cerca); vuelta: izquierda (skyline del Bajo Manhattan). Calculad ~1,5 h ida y vuelta: en Staten Island hay que bajar y volver a entrar a la terminal para coger el siguiente barco. A primera hora, buena luz y menos cola.",
+          "name": "🚢 Staten Island Ferry (Estatua)",
           "tags": [
             "gratis",
             "mirador"
-          ]
+          ],
+          "time": "08:25"
         },
         {
-          "id": "3.3",
-          "time": "10:00",
+          "desc": "El toro de Wall St (en Bowling Green, el parque más antiguo de NY) y, a un paso, la 'Fearless Girl' frente a la Bolsa (Broad St). Foto rápida; suele haber cola para el toro.",
           "dur": "20 min",
-          "name": "Charging Bull y Fearless Girl",
+          "id": "3.3",
           "lat": 40.7056,
           "lng": -74.0136,
-          "desc": "El toro de Wall St (en Bowling Green, el parque más antiguo de NY) y, a un paso, la 'Fearless Girl' frente a la Bolsa (Broad St). Foto rápida; suele haber cola para el toro.",
+          "name": "Charging Bull y Fearless Girl",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "10:00"
         },
         {
-          "id": "3.4",
-          "time": "10:25",
+          "desc": "Callejuela adoquinada histórica con terrazas. Buen sitio para un café rápido a media mañana.",
           "dur": "15 min",
-          "name": "Stone Street",
+          "id": "3.4",
           "lat": 40.7043,
           "lng": -74.0112,
-          "desc": "Callejuela adoquinada histórica con terrazas. Buen sitio para un café rápido a media mañana.",
-          "tags": []
+          "name": "Stone Street",
+          "time": "10:25"
         },
         {
-          "id": "3.5",
-          "time": "10:45",
+          "desc": "Corazón financiero: Federal Hall (escalinata con la estatua de Washington, gratis), la fachada de la Bolsa (NYSE) y, subiendo Broadway, Trinity Church (iglesia neogótica, gratis).",
           "dur": "35 min",
-          "name": "Wall St — Federal Hall, NYSE y Trinity Church",
+          "id": "3.5",
           "lat": 40.7072,
           "lng": -74.0103,
-          "desc": "Corazón financiero: Federal Hall (escalinata con la estatua de Washington, gratis), la fachada de la Bolsa (NYSE) y, subiendo Broadway, Trinity Church (iglesia neogótica, gratis).",
+          "name": "Wall St — Federal Hall, NYSE y Trinity Church",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "10:45"
         },
         {
-          "id": "3.6",
-          "time": "11:30",
+          "desc": "Parque elevado escondido sobre 55 Water St: césped, dunas de hierba alta y un rincón tranquilo con vistas al East River, casi siempre vacío. Se entra por unas escaleras/ascensor discretos entre los rascacielos (fácil pasar de largo).",
           "dur": "15 min",
-          "name": "Elevated Acre",
+          "id": "3.6",
           "lat": 40.7034,
           "lng": -74.0088,
-          "desc": "Parque elevado escondido sobre 55 Water St: césped, dunas de hierba alta y un rincón tranquilo con vistas al East River, casi siempre vacío. Se entra por unas escaleras/ascensor discretos entre los rascacielos (fácil pasar de largo).",
+          "name": "Elevated Acre",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "11:30"
         },
         {
-          "id": "3.7",
-          "time": "12:00",
+          "desc": "Puerto histórico en el East River (Pier 15-17). Del 3 al 8 jul, grandes veleros del Sail4th 250 atracados (250 aniv. de EE. UU.). Pier 17 tiene azotea con vistas al Brooklyn Bridge; el Tin Building (food hall, AC) sirve de refugio del calor.",
           "dur": "50 min",
-          "name": "South Street Seaport + veleros Sail4th",
+          "id": "3.7",
           "lat": 40.7059,
           "lng": -74.0028,
-          "desc": "Puerto histórico en el East River (Pier 15-17). Del 3 al 8 jul, grandes veleros del Sail4th 250 atracados (250 aniv. de EE. UU.). Pier 17 tiene azotea con vistas al Brooklyn Bridge; el Tin Building (food hall, AC) sirve de refugio del calor.",
+          "name": "South Street Seaport + veleros Sail4th",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "12:00"
         },
         {
-          "id": "3.8",
-          "time": "13:00",
+          "desc": "Food hall (Hudson Eats) con AC y vistas al puerto. Buen sitio para comer a mediodía, justo al lado del 9/11.",
           "dur": "50 min",
-          "name": "Brookfield Place (comida)",
+          "id": "3.8",
           "lat": 40.7129,
           "lng": -74.0153,
-          "desc": "Food hall (Hudson Eats) con AC y vistas al puerto. Buen sitio para comer a mediodía, justo al lado del 9/11.",
-          "tags": []
+          "name": "Brookfield Place (comida)",
+          "time": "13:00"
         },
         {
-          "id": "3.9",
-          "time": "13:50",
-          "dur": "40 min",
-          "name": "⭐ 9/11 Memorial (fuentes)",
-          "lat": 40.7115,
-          "lng": -74.0136,
           "desc": "Las dos fuentes en las huellas de las torres (North & South Pool), con los nombres grabados en bronce, son GRATIS y son lo imprescindible aquí. ✅ Decidido: NO entramos al museo (de pago ~33 $; el 'gratis lunes' es solo 17:30-19:00) → veis las fuentes con calma y seguís.",
+          "dur": "40 min",
+          "id": "3.9",
+          "lat": 40.7115,
+          "link": "https://www.911memorial.org/",
+          "lng": -74.0136,
+          "name": "⭐ 9/11 Memorial (fuentes)",
           "tags": [
             "obligatorio",
             "gratis"
           ],
-          "link": "https://www.911memorial.org/"
+          "time": "13:50"
         },
         {
-          "id": "3.10",
-          "time": "14:35",
+          "desc": "Estación-centro comercial de Calatrava: esqueleto blanco espectacular. Interior con AC, al lado del 9/11.",
           "dur": "15 min",
-          "name": "Oculus (WTC)",
+          "id": "3.10",
           "lat": 40.7116,
           "lng": -74.0112,
-          "desc": "Estación-centro comercial de Calatrava: esqueleto blanco espectacular. Interior con AC, al lado del 9/11.",
+          "name": "Oculus (WTC)",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "14:35"
         },
         {
-          "id": "3.18",
-          "time": "15:00",
+          "desc": "Partido que veis 100% (España y/o Portugal, octavos, 15:00–~17:15 NY). ✅ SITIO IDEAL: 'Match Day Live' en Brookfield Place (Winter Garden, 230 Vesey St) — fan zone OFICIAL con pantalla LED de 36 pies BAJO TECHO (AC), da los partidos de eliminatorias, gratis, y ya estáis ahí (coméis en Brookfield a las 13:00). Tras 9/11 + Oculus (al lado, ~5 min) volvéis para el partido — cero desvío. ⚠️ Confirmad que dan ESE partido a las 15:00 (proyectan 22 de las eliminatorias). Luego seguís al norte por los barrios (Chinatown → Little Italy → NoLita → Strand → SoHo), sin quitar nada (~21:05). Alternativas si preferís bar/ambiente: The Red Lion (Bleecker, Village) o La Nacional (14th, español), pero son desvío al norte.",
           "dur": "~2h15",
-          "name": "⚽ España/Portugal — octavos (Brookfield Place)",
+          "id": "3.18",
           "lat": 40.7128,
           "lng": -74.0151,
-          "desc": "Partido que veis 100% (España y/o Portugal, octavos, 15:00–~17:15 NY). ✅ SITIO IDEAL: 'Match Day Live' en Brookfield Place (Winter Garden, 230 Vesey St) — fan zone OFICIAL con pantalla LED de 36 pies BAJO TECHO (AC), da los partidos de eliminatorias, gratis, y ya estáis ahí (coméis en Brookfield a las 13:00). Tras 9/11 + Oculus (al lado, ~5 min) volvéis para el partido — cero desvío. ⚠️ Confirmad que dan ESE partido a las 15:00 (proyectan 22 de las eliminatorias). Luego seguís al norte por los barrios (Chinatown → Little Italy → NoLita → Strand → SoHo), sin quitar nada (~21:05). Alternativas si preferís bar/ambiente: The Red Lion (Bleecker, Village) o La Nacional (14th, español), pero son desvío al norte.",
-          "tags": []
+          "name": "⚽ España/Portugal — octavos (Brookfield Place)",
+          "time": "15:00"
         },
         {
-          "id": "3.17",
-          "time": "17:15",
+          "desc": "La cúpula del Municipal Building se cae del plan (no quedaron entradas y solo valía por subir). En su lugar, un vistazo gratis de camino al bucle del 6: el Woolworth Building (233 Broadway, enfrente de City Hall Park) — rascacielos neogótico de 1913, la 'Catedral del Comercio', el más alto del mundo hasta 1930; foto de fachada (el vestíbulo dorado solo con tour de pago). Y City Hall Park, con su fuente y el Ayuntamiento histórico, por el que pasáis igual. El Municipal Building que ibais a subir queda a un paso. Cero desvío.",
           "dur": "15 min",
-          "name": "🏛️ City Hall Park + Woolworth Building (exteriores)",
+          "id": "3.17",
           "lat": 40.7124,
           "lng": -74.0083,
-          "desc": "La cúpula del Municipal Building se cae del plan (no quedaron entradas y solo valía por subir). En su lugar, un vistazo gratis de camino al bucle del 6: el Woolworth Building (233 Broadway, enfrente de City Hall Park) — rascacielos neogótico de 1913, la 'Catedral del Comercio', el más alto del mundo hasta 1930; foto de fachada (el vestíbulo dorado solo con tour de pago). Y City Hall Park, con su fuente y el Ayuntamiento histórico, por el que pasáis igual. El Municipal Building que ibais a subir queda a un paso. Cero desvío.",
+          "name": "🏛️ City Hall Park + Woolworth Building (exteriores)",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "17:15"
         },
         {
-          "id": "3.11",
-          "time": "17:35",
+          "desc": "Es un truco del metro normal (no una atracción aparte) y os pilla de camino a Chinatown, así que el coste extra es ~0. Bajáis a la estación Brooklyn Bridge–City Hall y pagáis UNA sola vez con OMNY (contactless: acercáis el móvil o la tarjeta bancaria al torno; sin MetroCard, 3 $). ⚠️ Truco clave del andén: aunque vais hacia el NORTE (Canal), NO cojáis el 6 directo del andén norte. Id al andén sentido CENTRO (downtown) y subid al 6 que está a punto de dar la vuelta: al pasar su última parada NO os bajáis — el tren hace el giro por la antigua estación de City Hall (1904) y sale ya hacia el norte. Seguís sentados hasta Canal St, ya en Chinatown. No se paga otra vez. Qué es: la estación insignia del primer metro de NY (1904), cerrada en 1945 — bóvedas de azulejos Guastavino, claraboyas, lámparas de araña y vidrieras. Solo se ve así (gratis, de refilón) o en un tour de pago del Transit Museum. 📸 Para disfrutarla: (1) poneos del lado DERECHO del tren, que es por donde aparece; (2) id en los vagones 7º, 8º o 9º, donde el tren va más lento sobre la curva; (3) mejor con día soleado, porque las claraboyas la iluminan con luz natural; (4) es un vistazo de ~1-2 min a media luz — miradla con los ojos, no solo por el móvil. Quedaos sentados durante el bucle: la MTA ya no obliga a bajarse en la última parada (zona gris, pero los revisores hacen la vista gorda).",
           "dur": "30 min",
-          "name": "Old City Hall Station (bucle del 6)",
+          "id": "3.11",
           "lat": 40.7132,
           "lng": -74.0041,
-          "desc": "Es un truco del metro normal (no una atracción aparte) y os pilla de camino a Chinatown, así que el coste extra es ~0. Bajáis a la estación Brooklyn Bridge–City Hall y pagáis UNA sola vez con OMNY (contactless: acercáis el móvil o la tarjeta bancaria al torno; sin MetroCard, 3 $). ⚠️ Truco clave del andén: aunque vais hacia el NORTE (Canal), NO cojáis el 6 directo del andén norte. Id al andén sentido CENTRO (downtown) y subid al 6 que está a punto de dar la vuelta: al pasar su última parada NO os bajáis — el tren hace el giro por la antigua estación de City Hall (1904) y sale ya hacia el norte. Seguís sentados hasta Canal St, ya en Chinatown. No se paga otra vez. Qué es: la estación insignia del primer metro de NY (1904), cerrada en 1945 — bóvedas de azulejos Guastavino, claraboyas, lámparas de araña y vidrieras. Solo se ve así (gratis, de refilón) o en un tour de pago del Transit Museum. 📸 Para disfrutarla: (1) poneos del lado DERECHO del tren, que es por donde aparece; (2) id en los vagones 7º, 8º o 9º, donde el tren va más lento sobre la curva; (3) mejor con día soleado, porque las claraboyas la iluminan con luz natural; (4) es un vistazo de ~1-2 min a media luz — miradla con los ojos, no solo por el móvil. Quedaos sentados durante el bucle: la MTA ya no obliga a bajarse en la última parada (zona gris, pero los revisores hacen la vista gorda).",
+          "name": "Old City Hall Station (bucle del 6)",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "17:35"
         },
         {
-          "id": "3.12",
-          "time": "18:10",
+          "desc": "El Chinatown de Manhattan: Mott St (la calle principal), la curva de Doyers St y Columbus Park (donde juegan al mahjong). Ambiente, templos y comida barata. Lo recorréis con calma hoy (el sábado volvéis a la zona con enfoque de mercados/comida).",
           "dur": "40 min",
-          "name": "Chinatown (Mott, Doyers, Columbus Park)",
+          "id": "3.12",
           "lat": 40.7155,
           "lng": -73.9974,
-          "desc": "El Chinatown de Manhattan: Mott St (la calle principal), la curva de Doyers St y Columbus Park (donde juegan al mahjong). Ambiente, templos y comida barata. Lo recorréis con calma hoy (el sábado volvéis a la zona con enfoque de mercados/comida).",
-          "tags": []
+          "name": "Chinatown (Mott, Doyers, Columbus Park)",
+          "time": "18:10"
         },
         {
-          "id": "3.13",
-          "time": "18:55",
+          "desc": "Mulberry St, el corazón de la Pequeña Italia: cafés, banderas tricolor y terrazas. Paseo corto enlazando con NoLita.",
           "dur": "30 min",
-          "name": "Little Italy (Mulberry St)",
+          "id": "3.13",
           "lat": 40.719,
           "lng": -73.9974,
-          "desc": "Mulberry St, el corazón de la Pequeña Italia: cafés, banderas tricolor y terrazas. Paseo corto enlazando con NoLita.",
-          "tags": []
+          "name": "Little Italy (Mulberry St)",
+          "time": "18:55"
         },
         {
-          "id": "3.14",
-          "time": "19:30",
+          "desc": "Al norte de Little Italy: calles con encanto y boutiques. Parada clave: el Elizabeth Street Garden, un acre escondido de estatuas y vegetación, de los rincones más bonitos de la zona. Horario oficial de VERANO (julio): 9:00-20:00 (fuente: web oficial). A las 19:30 aún debería estar abierto, pero lo llevan voluntarios y el horario varía (algunos listados dan cierre a las 18:00), así que a esta hora podríais encontrarlo cerrado y verlo solo por la verja. 👉 La entrada de día SEGURA la tenéis en el D8 (sábado por la mañana).",
           "dur": "20 min",
-          "name": "NoLita — Elizabeth Street Garden",
+          "id": "3.14",
           "lat": 40.7228,
           "lng": -73.9952,
-          "desc": "Al norte de Little Italy: calles con encanto y boutiques. Parada clave: el Elizabeth Street Garden, un acre escondido de estatuas y vegetación, de los rincones más bonitos de la zona. Horario oficial de VERANO (julio): 9:00-20:00 (fuente: web oficial). A las 19:30 aún debería estar abierto, pero lo llevan voluntarios y el horario varía (algunos listados dan cierre a las 18:00), así que a esta hora podríais encontrarlo cerrado y verlo solo por la verja. 👉 La entrada de día SEGURA la tenéis en el D8 (sábado por la mañana).",
+          "name": "NoLita — Elizabeth Street Garden",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "19:30"
         },
         {
-          "id": "3.16",
-          "time": "19:55",
+          "desc": "'18 millas de libros' (828 Broadway, esq. 12th St). Va ANTES que SoHo para pillarlo ABIERTO (cierra 21:00); SoHo, que no cierra, remata el día. A ~5 min del hotel.",
           "dur": "40 min",
-          "name": "📚 Strand Book Store",
+          "id": "3.16",
           "lat": 40.7332,
           "lng": -73.992,
-          "desc": "'18 millas de libros' (828 Broadway, esq. 12th St). Va ANTES que SoHo para pillarlo ABIERTO (cierra 21:00); SoHo, que no cierra, remata el día. A ~5 min del hotel.",
-          "tags": []
+          "name": "📚 Strand Book Store",
+          "time": "19:55"
         },
         {
-          "id": "3.15",
-          "time": "20:35",
+          "desc": "SoHo: el barrio de los edificios de hierro fundido (cast-iron) y las boutiques; Greene St es la calle más fotogénica. Buen broche del día — cena por la zona (Little Italy/NoLita cerca) o metro al hotel.",
           "dur": "30 min",
-          "name": "SoHo (Greene St, cast-iron)",
+          "id": "3.15",
           "lat": 40.7233,
           "lng": -74.003,
-          "desc": "SoHo: el barrio de los edificios de hierro fundido (cast-iron) y las boutiques; Greene St es la calle más fotogénica. Buen broche del día — cena por la zona (Little Italy/NoLita cerca) o metro al hotel.",
-          "tags": []
+          "name": "SoHo (Greene St, cast-iron)",
+          "time": "20:35"
         }
-      ]
+      ],
+      "subtitle": "Lunes 6 julio · Bajo Manhattan + Chinatown/Little Italy/SoHo · 9/11 (sin museo) · día completo",
+      "tab": "Día 3 · Lun 6",
+      "title": "Bajo Manhattan + Barrios"
+    },
+    {
+      "id": 11,
+      "places": [
+        {
+          "desc": "⛈ PLAN ALT (peor día: >20mm, 0h sol): los veleros del Sail4th solo están hasta el 8 jul, así que hoy sí, aunque llueva — Pier 17 tiene zonas cubiertas. Puerto histórico en el East River (Pier 15-17). Del 3 al 8 jul, grandes veleros del Sail4th 250 atracados (250 aniv. de EE. UU.). Pier 17 tiene azotea con vistas al Brooklyn Bridge; el Tin Building (food hall, AC) sirve de refugio del calor.",
+          "dur": "50 min",
+          "id": "11.1",
+          "lat": 40.7059,
+          "lng": -74.0028,
+          "name": "South Street Seaport + veleros Sail4th",
+          "tags": [
+            "gratis"
+          ],
+          "time": "11:30"
+        },
+        {
+          "desc": "⛈ ALT — OPCIONAL: las fuentes son EXTERIOR y hoy es el peor día (>20mm, 0h sol). Si diluvia de verdad, os la SALTÁIS (queda de paso hacia el Oculus/Brookfield). Con tregua, 15 min con paraguas. Las dos fuentes en las huellas de las torres (North & South Pool), con los nombres grabados en bronce, son GRATIS y son lo imprescindible aquí. ✅ Decidido: NO entramos al museo (de pago ~33 $; el 'gratis lunes' es solo 17:30-19:00) → veis las fuentes con calma y seguís.",
+          "dur": "25 min",
+          "id": "11.2",
+          "lat": 40.7115,
+          "link": "https://www.911memorial.org/",
+          "lng": -74.0136,
+          "name": "⭐ 9/11 Memorial (fuentes)",
+          "tags": [
+            "obligatorio",
+            "gratis"
+          ],
+          "time": "🔵 Opcional"
+        },
+        {
+          "desc": "⛈ ALT: refugio icónico bajo techo (la 'costilla' blanca de Calatrava). Estación-centro comercial de Calatrava: esqueleto blanco espectacular. Interior con AC, al lado del 9/11.",
+          "dur": "25 min",
+          "id": "11.3",
+          "lat": 40.7116,
+          "lng": -74.0112,
+          "name": "Oculus (WTC)",
+          "tags": [
+            "gratis"
+          ],
+          "time": "13:30"
+        },
+        {
+          "desc": "⛈ ALT: comida a cubierto justo antes del partido (aquí mismo). Food hall (Hudson Eats) con AC y vistas al puerto. Buen sitio para comer a mediodía, justo al lado del 9/11.",
+          "dur": "55 min",
+          "id": "11.4",
+          "lat": 40.7129,
+          "lng": -74.0153,
+          "name": "Brookfield Place (comida)",
+          "time": "14:05"
+        },
+        {
+          "desc": "⛈ ALT: el ancla del día. Partido que veis 100% (España y/o Portugal, octavos, 15:00–~17:15 NY). ✅ SITIO IDEAL: 'Match Day Live' en Brookfield Place (Winter Garden, 230 Vesey St) — fan zone OFICIAL con pantalla LED de 36 pies BAJO TECHO (AC), da los partidos de eliminatorias, gratis, y ya estáis ahí (coméis en Brookfield a las 13:00). Tras 9/11 + Oculus (al lado, ~5 min) volvéis para el partido — cero desvío. ⚠️ Confirmad que dan ESE partido a las 15:00 (proyectan 22 de las eliminatorias). Luego seguís al norte por los barrios (Chinatown → Little Italy → NoLita → Strand → SoHo), sin quitar nada (~21:05). Alternativas si preferís bar/ambiente: The Red Lion (Bleecker, Village) o La Nacional (14th, español), pero son desvío al norte.",
+          "dur": "~2h15",
+          "id": "11.5",
+          "lat": 40.7128,
+          "lng": -74.0151,
+          "name": "⚽ España/Portugal — octavos (Brookfield Place)",
+          "time": "15:00"
+        },
+        {
+          "desc": "⛈ ALT: cierre bajo techo, '18 millas de libros'. '18 millas de libros' (828 Broadway, esq. 12th St). Va ANTES que SoHo para pillarlo ABIERTO (cierra 21:00); SoHo, que no cierra, remata el día. A ~5 min del hotel.",
+          "dur": "45 min",
+          "id": "11.6",
+          "lat": 40.7332,
+          "lng": -73.992,
+          "name": "📚 Strand Book Store",
+          "time": "18:00"
+        }
+      ],
+      "subtitle": "Lunes 6 julio · PEOR día del viaje (>20mm, 0h sol) · PLAN ALT: solo lo cubierto/icónico alrededor del partido — Seaport+veleros, 9/11 rápido, Oculus, Brookfield, Strand · SIN ferry a la Estatua (no se ve con lluvia) · Los barrios (Chinatown/Little Italy/SoHo) → al SÁBADO con sol",
+      "tab": "Día 3 · Lun 6 · ALT ⛈",
+      "title": "⛈ ALT lluvia fuerte · Bajo Manhattan bajo techo + partido"
     },
     {
       "id": 4,
-      "tab": "Día 4 · Mar 7",
-      "title": "AMNH + MoMA + Midtown",
-      "subtitle": "Martes 7 julio · 2 museos (AC) · 🛍️ compras 5ª Av + Nintendo · SUMMIT 16:30 · 🌃 Times Square + Broadway de noche",
       "places": [
         {
-          "id": "4.13",
-          "time": "08:00",
+          "desc": "El icónico edificio triangular (1902) en la confluencia de Broadway y la 5ª Av. Foto rápida nada más salir del hotel, de camino al metro hacia Midtown.",
           "dur": "10 min",
-          "name": "Flatiron Building",
+          "id": "4.13",
           "lat": 40.7411,
           "lng": -73.9897,
-          "tags": [],
-          "desc": "El icónico edificio triangular (1902) en la confluencia de Broadway y la 5ª Av. Foto rápida nada más salir del hotel, de camino al metro hacia Midtown."
+          "name": "Flatiron Building",
+          "time": "08:00"
         },
         {
-          "id": "4.14",
-          "time": "08:15",
+          "desc": "Parque con el Flatiron de fondo. Aquí está la Shake Shack ORIGINAL (abre 11:00 → de mañana solo el parque; apuntadla para repetir el domingo) y, al lado, Eataly. De paso hacia el metro de la 28 para subir a Columbus Circle.",
           "dur": "15 min",
-          "name": "Madison Square Park",
+          "id": "4.14",
           "lat": 40.7424,
           "lng": -73.9876,
-          "tags": [],
-          "desc": "Parque con el Flatiron de fondo. Aquí está la Shake Shack ORIGINAL (abre 11:00 → de mañana solo el parque; apuntadla para repetir el domingo) y, al lado, Eataly. De paso hacia el metro de la 28 para subir a Columbus Circle."
+          "name": "Madison Square Park",
+          "time": "08:15"
         },
         {
-          "id": "4.1",
-          "time": "08:55",
+          "desc": "Subís en metro desde la 28 (tras el paseo por Flatiron/Madison Sq). Plaza con la columna de Colón en la esquina SO de Central Park; empieza el Upper West Side. Sin prisa: el AMNH no abre hasta las 10:00.",
           "dur": "20 min",
-          "name": "Columbus Circle",
+          "id": "4.1",
           "lat": 40.7681,
           "lng": -73.9819,
-          "desc": "Subís en metro desde la 28 (tras el paseo por Flatiron/Madison Sq). Plaza con la columna de Colón en la esquina SO de Central Park; empieza el Upper West Side. Sin prisa: el AMNH no abre hasta las 10:00.",
+          "name": "Columbus Circle",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "08:55"
         },
         {
-          "id": "4.2",
-          "time": "09:15",
+          "desc": "Plaza del gran complejo de artes escénicas (la fuente y la Metropolitan Opera). Foto rápida de camino al museo.",
           "dur": "25 min",
-          "name": "Lincoln Center",
+          "id": "4.2",
           "lat": 40.7725,
           "lng": -73.9835,
-          "desc": "Plaza del gran complejo de artes escénicas (la fuente y la Metropolitan Opera). Foto rápida de camino al museo.",
+          "name": "Lincoln Center",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "09:15"
         },
         {
-          "id": "4.3",
-          "time": "10:00",
+          "desc": "Abre 10:00. Dinosaurios, la ballena azul, gemas, planetario. ~28 $ con hora reservada. ~2h con AC. 👉 Salid hacia las 11:45 para bajar a Rockefeller y pillar el Argentina–Egipto (12:00).",
           "dur": "2 h",
-          "name": "⭐ AMNH (Museo de Historia Natural)",
+          "id": "4.3",
           "lat": 40.7813,
+          "link": "https://www.amnh.org/",
           "lng": -73.9741,
-          "desc": "Abre 10:00. Dinosaurios, la ballena azul, gemas, planetario. ~28 $ con hora reservada. ~2h con AC.",
+          "name": "⭐ AMNH (Museo de Historia Natural)",
           "tags": [
             "obligatorio",
             "reservar"
           ],
-          "link": "https://www.amnh.org/"
+          "time": "10:00"
         },
         {
-          "id": "4.4",
-          "time": "12:35",
-          "dur": "1.5 h",
-          "name": "⭐ MoMA (Museo de Arte Moderno)",
-          "lat": 40.7615,
-          "lng": -73.9779,
-          "desc": "Bajáis a Midtown (metro B/D ~25 min). Arte moderno top (Van Gogh 'Noche estrellada', Picasso, Warhol). 30 $ / 14 $ est., hora reservada. ~1,5h versión highlights (id a lo que os tire) para dejar tiempo a las compras de la tarde. Al salir, bocado rápido cerca.",
-          "tags": [
-            "obligatorio",
-            "reservar"
-          ],
-          "link": "https://www.moma.org/"
-        },
-        {
+          "desc": "⚽ PARTIDO: aquí veis el Argentina–Egipto (mar 7, 12:00 NY / 18:00 España) en el Telemundo Fan Village, montado sobre la pista de hielo de Rockefeller: pantallas gigantes, ambiente y GRATIS, al aire libre — coincide con la franja de sol del martes, así que veis la parte que mejor pille de sol y seguís. Aquí mismo están la TIENDA OFICIAL de merchandising del Mundial 26 y el MUSEO de leyendas de la FIFA, para rematar la parada. La plaza Art Déco y los Channel Gardens, de paso (Top of the Rock no subimos: vuestro mirador es el SUMMIT).",
+          "dur": "~1h15",
           "id": "4.5",
-          "time": "14:15",
-          "dur": "30 min",
-          "name": "Rockefeller Center + Telemundo Fan Village",
           "lat": 40.7587,
           "lng": -73.9788,
-          "desc": "Plaza de Rockefeller + los Channel Gardens. Durante el Mundial, la pista de hielo es el Telemundo Fan Village (pantallas, ambiente, gratis). Top of the Rock: pasáis por su puerta — no subimos (vuestro mirador es el SUMMIT), pero el edificio Art Déco y la plaza ya los veis de paso.",
+          "name": "Rockefeller Center + Telemundo Fan Village",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "12:00"
         },
         {
+          "desc": "🎨 Después del partido, 5 min andando al MoMA (interior). Bajáis a Midtown (metro B/D ~25 min). Arte moderno top (Van Gogh 'Noche estrellada', Picasso, Warhol). 30 $ / 14 $ est., hora reservada. ~1,5h versión highlights (id a lo que os tire) para dejar tiempo a las compras de la tarde. Al salir, bocado rápido cerca.",
+          "dur": "1.5 h",
+          "id": "4.4",
+          "lat": 40.7615,
+          "link": "https://www.moma.org/",
+          "lng": -73.9779,
+          "name": "⭐ MoMA (Museo de Arte Moderno)",
+          "tags": [
+            "obligatorio",
+            "reservar"
+          ],
+          "time": "13:30"
+        },
+        {
+          "desc": "(Si hicisteis el domingo ALT, esto ya está hecho — saltadlo.) Tienda insignia de Nintendo (10 Rockefeller Plaza, 6ª Av/48th), pegada a Rockefeller: dos plantas, productos exclusivos y zona de demos. 30-45 min de tienda friki.",
+          "dur": "25 min",
           "id": "4.15",
-          "time": "14:45",
-          "dur": "30 min",
-          "name": "🎮 Nintendo New York",
           "lat": 40.7591,
           "lng": -73.9787,
-          "tags": [],
-          "desc": "Tienda insignia de Nintendo (10 Rockefeller Plaza, 6ª Av/48th), pegada a Rockefeller: dos plantas, productos exclusivos y zona de demos. 30-45 min de tienda friki."
+          "name": "🎮 Nintendo New York",
+          "time": "15:10"
         },
         {
-          "id": "4.6",
-          "time": "15:15",
-          "dur": "15 min",
-          "name": "St. Patrick's Cathedral",
-          "lat": 40.7586,
-          "lng": -73.9764,
-          "desc": "Catedral neogótica en la 5ª Av, enfrente de Rockefeller. Entrada gratis.",
-          "tags": [
-            "gratis"
-          ]
-        },
-        {
-          "id": "4.17",
-          "time": "15:30",
-          "dur": "15 min",
-          "name": "Paley Park",
-          "lat": 40.7601,
-          "lng": -73.974,
-          "desc": "Parque de bolsillo escondido (3 E 53rd, entre 5ª y Madison) con un muro-cascada que tapa el ruido de la ciudad: un oasis de 5-10 min en plena 5ª Av para sentarse y respirar antes del SUMMIT. Gratis.",
-          "tags": [
-            "gratis"
-          ]
-        },
-        {
+          "desc": "(Rápido; también está en el domingo ALT si vais justos.) Bloque de compras (~45 min) por el tramo alto de la 5ª Av: Saks (50th) enfrente de Rockefeller, y subiendo Tiffany, la Apple (24h, bajo el cubo de cristal), Bergdorf Goodman y The Plaza hacia la 59th. Entráis a lo que os apetezca; luego bajáis a la 42 para el SUMMIT.",
+          "dur": "30 min",
           "id": "4.7",
-          "time": "15:45",
-          "dur": "45 min",
-          "name": "🛍️ 5ª Avenida — compras",
           "lat": 40.76,
           "lng": -73.9758,
-          "desc": "Bloque de compras (~45 min) por el tramo alto de la 5ª Av: Saks (50th) enfrente de Rockefeller, y subiendo Tiffany, la Apple (24h, bajo el cubo de cristal), Bergdorf Goodman y The Plaza hacia la 59th. Entráis a lo que os apetezca; luego bajáis a la 42 para el SUMMIT.",
-          "tags": []
+          "name": "🛍️ 5ª Avenida — compras",
+          "time": "15:35"
         },
         {
-          "id": "4.8",
-          "time": "16:30",
-          "dur": "1.5 h",
-          "name": "🏙️ SUMMIT One Vanderbilt",
-          "lat": 40.753,
-          "lng": -73.9785,
+          "desc": "Catedral neogótica en la 5ª Av, enfrente de Rockefeller. Entrada gratis.",
+          "dur": "10 min",
+          "id": "4.6",
+          "lat": 40.7586,
+          "lng": -73.9764,
+          "name": "St. Patrick's Cathedral",
+          "tags": [
+            "gratis"
+          ],
+          "time": "16:05"
+        },
+        {
+          "desc": "Parque de bolsillo escondido (3 E 53rd, entre 5ª y Madison) con un muro-cascada que tapa el ruido de la ciudad: un oasis de 5-10 min en plena 5ª Av para sentarse y respirar antes del SUMMIT. Gratis.",
+          "dur": "opcional",
+          "id": "4.17",
+          "lat": 40.7601,
+          "lng": -73.974,
+          "name": "Paley Park",
+          "tags": [
+            "gratis"
+          ],
+          "time": "16:20"
+        },
+        {
           "desc": "Mirador inmersivo de espejos en One Vanderbilt (pegado a Grand Central). ✅ Subís a las 16:30 (la franja más económica): de DÍA las salas de espejos, los suelos de cristal y las vistas se ven igual de espectaculares — solo os perdéis las luces de noche. ~1-1,5h y bajáis; estáis en el centro de Midtown, así que todo lo que queda está al ladito (no se pierde tiempo en volver). El Ascent (ascensor de cristal) cuesta aparte, saltable. Si algo de antes (compras 5ª Av / Paley) no os cuadra, lo hacéis al bajar — está todo a un paseo corto.",
+          "dur": "1.5 h",
+          "id": "4.8",
+          "lat": 40.753,
+          "link": "https://summitov.com/",
+          "lng": -73.9785,
+          "name": "🏙️ SUMMIT One Vanderbilt",
           "tags": [
             "obligatorio",
             "reservar",
             "mirador"
           ],
-          "link": "https://summitov.com/"
+          "time": "16:30"
         },
         {
-          "id": "4.9",
-          "time": "18:35",
+          "desc": "Al bajar del SUMMIT, justo al lado: vestíbulo monumental de Grand Central (techo con constelaciones, gratis), precioso también de noche. Enfrente, la aguja art déco del Chrysler Building (exterior).",
           "dur": "40 min",
-          "name": "Grand Central + Chrysler",
+          "id": "4.9",
           "lat": 40.7527,
           "lng": -73.9773,
-          "desc": "Al bajar del SUMMIT, justo al lado: vestíbulo monumental de Grand Central (techo con constelaciones, gratis), precioso también de noche. Enfrente, la aguja art déco del Chrysler Building (exterior).",
+          "name": "Grand Central + Chrysler",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "18:35"
         },
         {
-          "id": "4.10",
-          "time": "19:20",
+          "desc": "5 min al oeste. Parque-oasis tras la Biblioteca Pública (NYPL): entrad rápido a ver la Rose Reading Room (gratis) — cierra a las 20:00. Al lado, la azotea pública gratis de la biblioteca SNFL (455 5ª Av) con vistas.",
           "dur": "40 min",
-          "name": "Bryant Park + NYPL + azotea SNFL",
+          "id": "4.10",
           "lat": 40.7539,
           "lng": -73.9839,
-          "desc": "5 min al oeste. Parque-oasis tras la Biblioteca Pública (NYPL): entrad rápido a ver la Rose Reading Room (gratis) — cierra a las 20:00. Al lado, la azotea pública gratis de la biblioteca SNFL (455 5ª Av) con vistas.",
+          "name": "Bryant Park + NYPL + azotea SNFL",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "19:20"
         },
         {
-          "id": "4.11",
-          "time": "20:05",
+          "desc": "Times Square con TODO encendido — su momento. Llegáis ya de noche: pantallas gigantes y plazas peatonales. (Se ve una vez, de noche, que es como mola; con el SUMMIT a las 17:00 no quedaba hueco de día y tampoco hace falta.)",
           "dur": "35 min",
-          "name": "🌃 Times Square (de noche)",
+          "id": "4.11",
           "lat": 40.7589,
           "lng": -73.9851,
-          "desc": "Times Square con TODO encendido — su momento. Llegáis ya de noche: pantallas gigantes y plazas peatonales. (Se ve una vez, de noche, que es como mola; con el SUMMIT a las 17:00 no quedaba hueco de día y tampoco hace falta.)",
-          "tags": []
+          "name": "🌃 Times Square (de noche)",
+          "time": "20:05"
         },
         {
-          "id": "4.12",
-          "time": "20:45",
+          "desc": "Justo al lado, el corazón de Broadway iluminado: las gradas rojas de TKTS en Duffy Square (47th, estatua de George M. Cohan), Shubert Alley (callejón histórico entre los teatros Shubert y Booth, con Sardi's) y las marquesinas de las calles 44-46. Megaéxitos y sus teatros (mirad la cartelera del día): El Rey León (Minskoff), Hamilton (Richard Rodgers), Wicked (Gershwin), Aladdin (New Amsterdam). Cena por la zona y metro a Union Square → hotel.",
           "dur": "20 min",
-          "name": "🎭 Distrito de los Teatros (Broadway)",
+          "id": "4.12",
           "lat": 40.7581,
           "lng": -73.9873,
-          "desc": "Justo al lado, el corazón de Broadway iluminado: las gradas rojas de TKTS en Duffy Square (47th, estatua de George M. Cohan), Shubert Alley (callejón histórico entre los teatros Shubert y Booth, con Sardi's) y las marquesinas de las calles 44-46. Megaéxitos y sus teatros (mirad la cartelera del día): El Rey León (Minskoff), Hamilton (Richard Rodgers), Wicked (Gershwin), Aladdin (New Amsterdam). Cena por la zona y metro a Union Square → hotel.",
+          "name": "🎭 Distrito de los Teatros (Broadway)",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "20:45"
         },
         {
-          "id": "4.16",
-          "time": "21:20",
+          "desc": "De vuelta al hotel: bajando la 5ª/Broadway hacia Gramercy pasáis por su base. El rascacielos Art Déco de 1931 (34th/5ª), iluminado de noche — su mejor estampa. No subimos (vuestro mirador es el SUMMIT); el vestíbulo Art Déco es gratis y espectacular si os quedan ganas.",
           "dur": "10 min",
-          "name": "🏢 Empire State (de noche, de paso)",
+          "id": "4.16",
           "lat": 40.7484,
           "lng": -73.9857,
-          "tags": [],
-          "desc": "De vuelta al hotel: bajando la 5ª/Broadway hacia Gramercy pasáis por su base. El rascacielos Art Déco de 1931 (34th/5ª), iluminado de noche — su mejor estampa. No subimos (vuestro mirador es el SUMMIT); el vestíbulo Art Déco es gratis y espectacular si os quedan ganas."
+          "name": "🏢 Empire State (de noche, de paso)",
+          "time": "21:20"
         }
-      ]
+      ],
+      "subtitle": "Martes 7 julio · 2 museos (AC) · ⚽ Argentina–Egipto 12:00 en la fanzone de Rockefeller (sol + tienda Mundial + museo FIFA) → MoMA · SUMMIT 16:30 · 🌃 Times Square + Broadway de noche",
+      "tab": "Día 4 · Mar 7",
+      "title": "AMNH + MoMA + Midtown"
     },
     {
       "id": 5,
-      "tab": "Día 5 · Mié 8",
-      "title": "West Village + Hudson",
-      "subtitle": "Miércoles 8 julio · Met cerrado · High Line de mañana · Whitney en el pico (AC) · 🌅 Little Island 20:29",
       "places": [
         {
-          "id": "5.13",
-          "time": "07:40",
+          "desc": "Nada más salir del hotel (3 manzanas al norte): el único parque privado de Manhattan, solo para los ~380 llaveros — uno se asoma por la verja de hierro a la plaza ajardinada de 'vuestro' barrio.",
           "dur": "10 min",
-          "name": "Gramercy Park (por la verja)",
+          "id": "5.13",
           "lat": 40.7374,
           "lng": -73.9862,
-          "tags": [],
-          "desc": "Nada más salir del hotel (3 manzanas al norte): el único parque privado de Manhattan, solo para los ~380 llaveros — uno se asoma por la verja de hierro a la plaza ajardinada de 'vuestro' barrio."
+          "name": "Gramercy Park (por la verja)",
+          "time": "07:40"
         },
         {
-          "id": "5.14",
-          "time": "07:55",
+          "desc": "De camino al Village: plaza con mucho ambiente. ⚠️ El greenmarket de productores es lun/mié/vie/sáb → el miércoles 8 SÍ hay mercado de mañana. Buen sitio para un primer bocado.",
           "dur": "15 min",
-          "name": "Union Square",
+          "id": "5.14",
           "lat": 40.7359,
           "lng": -73.9911,
-          "tags": [],
-          "desc": "De camino al Village: plaza con mucho ambiente. ⚠️ El greenmarket de productores es lun/mié/vie/sáb → el miércoles 8 SÍ hay mercado de mañana. Buen sitio para un primer bocado."
+          "name": "Union Square",
+          "time": "07:55"
         },
         {
-          "id": "5.1",
-          "time": "08:15",
+          "desc": "Desde el hotel: andando o metro a la 8th St (~15 min). Desayuno rápido. El arco y la fuente, corazón bohemio de Greenwich Village.",
           "dur": "20 min",
-          "name": "Washington Square Park",
+          "id": "5.1",
           "lat": 40.7308,
           "lng": -73.9973,
-          "desc": "Desde el hotel: andando o metro a la 8th St (~15 min). Desayuno rápido. El arco y la fuente, corazón bohemio de Greenwich Village.",
-          "tags": [
-            "gratis"
-          ]
-        },
-        {
-          "id": "5.15",
-          "time": "08:35",
-          "dur": "15 min",
-          "name": "Father Demo Square",
-          "lat": 40.7305,
-          "lng": -73.9999,
-          "desc": "Placita triangular del Village (Bleecker/Carmine/6ª Av), junto a la iglesia Our Lady of Pompeii. Desvío mínimo (~5 min) tras Washington Sq, en plena ruta del Village; rincón con encanto y la mítica Bleecker St al lado.",
-          "tags": [
-            "gratis"
-          ]
-        },
-        {
-          "id": "5.2",
-          "time": "08:55",
-          "dur": "10 min",
-          "name": "Washington Mews",
-          "lat": 40.7332,
-          "lng": -73.9954,
-          "desc": "Callejón privado adoquinado entre la 5ª Av y University Pl, justo al norte de la plaza (aquí vivió Edward Hopper). La verja se abre de día — paseo de 2 min con aire europeo.",
-          "tags": []
-        },
-        {
-          "id": "5.3",
-          "time": "09:10",
-          "dur": "20 min",
-          "name": "Jefferson Market (biblioteca + jardín)",
-          "lat": 40.7345,
-          "lng": -73.9994,
-          "desc": "Antiguo juzgado neogótico de 1877, hoy biblioteca pública — de los edificios más bonitos de NY. El jardín gratis de detrás abre 10h (mar-dom, temporada abr-oct); a esta hora se ve el edificio por fuera.",
+          "name": "Washington Square Park",
           "tags": [
             "gratis"
           ],
-          "link": "https://www.nypl.org/locations/jefferson-market"
+          "time": "08:15"
         },
         {
-          "id": "5.17",
-          "time": "09:25",
+          "desc": "Placita triangular del Village (Bleecker/Carmine/6ª Av), junto a la iglesia Our Lady of Pompeii. Desvío mínimo (~5 min) tras Washington Sq, en plena ruta del Village; rincón con encanto y la mítica Bleecker St al lado.",
+          "dur": "15 min",
+          "id": "5.15",
+          "lat": 40.7305,
+          "lng": -73.9999,
+          "name": "Father Demo Square",
+          "tags": [
+            "gratis"
+          ],
+          "time": "08:35"
+        },
+        {
+          "desc": "Callejón privado adoquinado entre la 5ª Av y University Pl, justo al norte de la plaza (aquí vivió Edward Hopper). La verja se abre de día — paseo de 2 min con aire europeo.",
           "dur": "10 min",
-          "name": "📸 Fotomatón — Memento (West Village)",
-          "lat": 40.7346,
-          "lng": -74.0013,
-          "desc": "Tipo: ANALÓGICO (tira clásica de revelado químico al momento; elegís color o B/N — el único del viaje que hace color). Precio: ~9 $ por 2 tiras de 4 fotos, pago por QR. Cola: BAJA (miércoles a media mañana). En ruta: esquina W 10th & 7th Ave, de paso entre Jefferson Market y Christopher St. Resumen: el fotomatón analógico con menos espera de todo el viaje.",
-          "tags": [],
-          "link": "https://newyorkmemento.com/"
+          "id": "5.2",
+          "lat": 40.7332,
+          "lng": -73.9954,
+          "name": "Washington Mews",
+          "time": "08:55"
         },
         {
-          "id": "5.4",
-          "time": "09:35",
+          "desc": "Antiguo juzgado neogótico de 1877, hoy biblioteca pública — de los edificios más bonitos de NY. El jardín gratis de detrás abre 10h (mar-dom, temporada abr-oct); a esta hora se ve el edificio por fuera.",
+          "dur": "20 min",
+          "id": "5.3",
+          "lat": 40.7345,
+          "link": "https://www.nypl.org/locations/jefferson-market",
+          "lng": -73.9994,
+          "name": "Jefferson Market (biblioteca + jardín)",
+          "tags": [
+            "gratis"
+          ],
+          "time": "09:10"
+        },
+        {
+          "desc": "Tipo: ANALÓGICO (tira clásica de revelado químico al momento; elegís color o B/N — el único del viaje que hace color). Precio: ~9 $ por 2 tiras de 4 fotos, pago por QR. Cola: BAJA (miércoles a media mañana). En ruta: esquina W 10th & 7th Ave, de paso entre Jefferson Market y Christopher St. Resumen: el fotomatón analógico con menos espera de todo el viaje.",
+          "dur": "10 min",
+          "id": "5.17",
+          "lat": 40.7346,
+          "link": "https://newyorkmemento.com/",
+          "lng": -74.0013,
+          "name": "📸 Fotomatón — Memento (West Village)",
+          "time": "09:25"
+        },
+        {
+          "desc": "Calles arboladas del West Village. Christopher St y el Stonewall Inn (cuna del movimiento LGTBQ+, 1969). Paseo a la sombra en el fresco de la mañana.",
           "dur": "30 min",
-          "name": "West Village — Stonewall y Christopher St",
+          "id": "5.4",
           "lat": 40.7339,
           "lng": -74.0022,
-          "desc": "Calles arboladas del West Village. Christopher St y el Stonewall Inn (cuna del movimiento LGTBQ+, 1969). Paseo a la sombra en el fresco de la mañana.",
+          "name": "West Village — Stonewall y Christopher St",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "09:35"
         },
         {
-          "id": "5.5",
-          "time": "10:05",
+          "desc": "La esquina más fotogénica del Village: el edificio de 'Friends' (90 Bedford, exterior) y la casa más estrecha de NY (75½ Bedford, 2,9 m de ancho).",
           "dur": "25 min",
-          "name": "Grove & Bedford St (Friends + casa más estrecha)",
+          "id": "5.5",
           "lat": 40.732,
           "lng": -74.0056,
-          "desc": "La esquina más fotogénica del Village: el edificio de 'Friends' (90 Bedford, exterior) y la casa más estrecha de NY (75½ Bedford, 2,9 m de ancho).",
+          "name": "Grove & Bedford St (Friends + casa más estrecha)",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "10:05"
         },
         {
-          "id": "5.6",
-          "time": "10:35",
+          "desc": "Barrio de antiguos mataderos reconvertido: adoquines, boutiques y galerías. Junto al inicio de la High Line.",
           "dur": "30 min",
-          "name": "Meatpacking District",
+          "id": "5.6",
           "lat": 40.7403,
           "lng": -74.0069,
-          "desc": "Barrio de antiguos mataderos reconvertido: adoquines, boutiques y galerías. Junto al inicio de la High Line.",
-          "tags": []
+          "name": "Meatpacking District",
+          "time": "10:35"
         },
         {
-          "id": "5.7",
-          "time": "11:05",
+          "desc": "Parque elevado sobre antiguas vías, con jardines y vistas. Caminá hacia el norte (Gansevoort → Hudson Yards). Ahora a media mañana, antes del pico de calor; aun así tiene poca sombra, llevad agua.",
           "dur": "1 h",
-          "name": "High Line",
+          "id": "5.7",
           "lat": 40.746,
           "lng": -74.0058,
-          "desc": "Parque elevado sobre antiguas vías, con jardines y vistas. Caminá hacia el norte (Gansevoort → Hudson Yards). Ahora a media mañana, antes del pico de calor; aun así tiene poca sombra, llevad agua.",
+          "name": "High Line",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "11:05"
         },
         {
-          "id": "5.8",
-          "time": "12:10",
+          "desc": "Final norte de la High Line: el Vessel (estructura en panal, exterior — no se sube desde 2021) y el centro comercial (The Shops), refugio de AC al empezar el calor. El mirador Edge es de pago (opcional; vuestro mirador es SUMMIT).",
           "dur": "1 h",
-          "name": "Hudson Yards (Vessel)",
+          "id": "5.8",
           "lat": 40.7538,
           "lng": -74.0022,
-          "desc": "Final norte de la High Line: el Vessel (estructura en panal, exterior — no se sube desde 2021) y el centro comercial (The Shops), refugio de AC al empezar el calor. El mirador Edge es de pago (opcional; vuestro mirador es SUMMIT).",
-          "tags": []
+          "name": "Hudson Yards (Vessel)",
+          "time": "12:10"
         },
         {
-          "id": "5.9",
-          "time": "13:30",
+          "desc": "Mercado gastronómico cubierto (antigua fábrica Nabisco) con AC. Comida entre puestos. Desde Hudson Yards bajad en metro A/C/E (con AC) o paseo de ~20 min.",
           "dur": "1 h",
-          "name": "Chelsea Market (comida)",
+          "id": "5.9",
           "lat": 40.7425,
           "lng": -74.0061,
-          "desc": "Mercado gastronómico cubierto (antigua fábrica Nabisco) con AC. Comida entre puestos. Desde Hudson Yards bajad en metro A/C/E (con AC) o paseo de ~20 min.",
-          "tags": []
+          "name": "Chelsea Market (comida)",
+          "time": "13:30"
         },
         {
-          "id": "5.10",
-          "time": "14:40",
-          "dur": "2 h",
-          "name": "Whitney Museum of American Art",
-          "lat": 40.7396,
-          "lng": -74.0089,
           "desc": "Arte americano (Hopper, O'Keeffe) con terrazas que miran al Hudson y la High Line. Abre 10:30 (mié hasta 18:00). El de 22 entra GRATIS a diario por ser ≤25 (reservad pase con hora); el de 29 ~30 $. ~2h con AC en pleno pico de calor.",
+          "dur": "2 h",
+          "id": "5.10",
+          "lat": 40.7396,
+          "link": "https://whitney.org/",
+          "lng": -74.0089,
+          "name": "Whitney Museum of American Art",
           "tags": [
             "reservar"
           ],
-          "link": "https://whitney.org/"
+          "time": "14:40"
         },
         {
-          "id": "5.11",
-          "time": "17:00",
+          "desc": "Bajáis por el Hudson River Park. Pier 57 tiene azotea pública GRATIS con césped y vistas al río. Paseo + cena temprana junto al agua.",
           "dur": "1.5 h",
-          "name": "Pier 57 (azotea)",
+          "id": "5.11",
           "lat": 40.7436,
           "lng": -74.0106,
-          "desc": "Bajáis por el Hudson River Park. Pier 57 tiene azotea pública GRATIS con césped y vistas al río. Paseo + cena temprana junto al agua.",
+          "name": "Pier 57 (azotea)",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "17:00"
         },
         {
-          "id": "5.12",
-          "time": "19:00",
-          "dur": "1.5 h",
-          "name": "🌅 Little Island",
-          "lat": 40.7419,
-          "lng": -74.0103,
           "desc": "Parque flotante sobre tulipas de hormigón en el Hudson. Atardecer sobre el río (el sol se pone al oeste, sobre Nueva Jersey). ✅ Entrada SIEMPRE gratis: nada que reservar ni pagar. En verano puede pedir un pase con hora a partir de mediodía, pero también es gratis y se saca online el mismo día. Vuelta al hotel.",
+          "dur": "1.5 h",
+          "id": "5.12",
+          "lat": 40.7419,
+          "link": "https://littleisland.org/",
+          "lng": -74.0103,
+          "name": "🌅 Little Island",
           "tags": [
             "gratis",
             "mirador"
           ],
-          "link": "https://littleisland.org/"
+          "time": "19:00"
         },
         {
-          "id": "5.16",
-          "time": "19:00",
+          "desc": "Cena CONFIRMADA aquí: el mié 8 es el ÚNICO día del viaje sin partido del Mundial (y el sáb 11 lo ocupa el cuarto de Argentina). Opción (a): cena ~19:00 EN VEZ de Little Island (cruzáis del Hudson al East Village). Opción (b): mantener Little Island y cena tardía ~20:55 (el mié cierra 22:00). Pizza Studio Tamaki — pizza tokio-napolitana de Tsubasa Tamaki (masa 30 h), 123 St. Marks Pl. Reserva por SevenRooms; apuntados a lista de espera.",
           "dur": "~1.5 h",
-          "name": "🍕 Cena PST (Pizza Studio Tamaki)",
+          "id": "5.16",
           "lat": 40.7277,
           "lng": -73.9835,
-          "desc": "Cena CONFIRMADA aquí: el mié 8 es el ÚNICO día del viaje sin partido del Mundial (y el sáb 11 lo ocupa el cuarto de Argentina). Opción (a): cena ~19:00 EN VEZ de Little Island (cruzáis del Hudson al East Village). Opción (b): mantener Little Island y cena tardía ~20:55 (el mié cierra 22:00). Pizza Studio Tamaki — pizza tokio-napolitana de Tsubasa Tamaki (masa 30 h), 123 St. Marks Pl. Reserva por SevenRooms; apuntados a lista de espera.",
+          "name": "🍕 Cena PST (Pizza Studio Tamaki)",
           "tags": [
             "reservar"
-          ]
+          ],
+          "time": "19:00"
         }
-      ]
+      ],
+      "subtitle": "Miércoles 8 julio · Met cerrado · High Line de mañana · Whitney en el pico (AC) · 🌅 Little Island 20:29",
+      "tab": "Día 5 · Mié 8",
+      "title": "West Village + Hudson"
     },
     {
       "id": 6,
-      "tab": "Día 6 · Jue 9",
-      "title": "Brooklyn + Cine",
-      "subtitle": "Jueves 9 julio · DUMBO · Red Hook · Kayak · 🎬 cine al atardecer",
       "places": [
         {
-          "id": "6.1",
-          "time": "08:00",
+          "desc": "Desde el hotel: metro 4/5/6 a Brooklyn Bridge–City Hall (~15 min). Cruzáis el puente A PIE (~35 min) en el fresco de la mañana, con las mejores vistas y luz.",
           "dur": "45 min",
-          "name": "Brooklyn Bridge (a pie, Manhattan → Brooklyn)",
+          "id": "6.1",
           "lat": 40.7061,
           "lng": -73.9969,
-          "desc": "Desde el hotel: metro 4/5/6 a Brooklyn Bridge–City Hall (~15 min). Cruzáis el puente A PIE (~35 min) en el fresco de la mañana, con las mejores vistas y luz.",
-          "tags": [
-            "gratis"
-          ]
-        },
-        {
-          "id": "6.2",
-          "time": "08:55",
-          "dur": "1 h",
-          "name": "DUMBO (foto Washington St + Jane's Carousel)",
-          "lat": 40.7029,
-          "lng": -73.9904,
-          "desc": "La foto icónica: el puente de Manhattan enmarcado entre los edificios, en Washington St esq. Water St. Jane's Carousel (tiovivo de 1922 en pabellón de cristal) y los almacenes Empire Stores.",
-          "tags": [
-            "gratis"
-          ]
-        },
-        {
-          "id": "6.3",
-          "time": "10:00",
-          "dur": "20 min",
-          "name": "Pebble Beach (DUMBO)",
-          "lat": 40.7036,
-          "lng": -73.9904,
-          "desc": "Orilla de cantos rodados en el extremo este de Brooklyn Bridge Park: los dos puentes (Brooklyn y Manhattan) + One WTC en una sola foto. Está dentro de DUMBO, al pie de Main St.",
+          "name": "Brooklyn Bridge (a pie, Manhattan → Brooklyn)",
           "tags": [
             "gratis"
           ],
-          "link": "https://brooklynbridgepark.org/places-to-see/pebble-beach/"
+          "time": "08:00"
         },
         {
-          "id": "6.4",
-          "time": "10:35",
+          "desc": "La foto icónica: el puente de Manhattan enmarcado entre los edificios, en Washington St esq. Water St. Jane's Carousel (tiovivo de 1922 en pabellón de cristal) y los almacenes Empire Stores.",
+          "dur": "1 h",
+          "id": "6.2",
+          "lat": 40.7029,
+          "lng": -73.9904,
+          "name": "DUMBO (foto Washington St + Jane's Carousel)",
+          "tags": [
+            "gratis"
+          ],
+          "time": "08:55"
+        },
+        {
+          "desc": "Orilla de cantos rodados en el extremo este de Brooklyn Bridge Park: los dos puentes (Brooklyn y Manhattan) + One WTC en una sola foto. Está dentro de DUMBO, al pie de Main St.",
+          "dur": "20 min",
+          "id": "6.3",
+          "lat": 40.7036,
+          "link": "https://brooklynbridgepark.org/places-to-see/pebble-beach/",
+          "lng": -73.9904,
+          "name": "Pebble Beach (DUMBO)",
+          "tags": [
+            "gratis"
+          ],
+          "time": "10:00"
+        },
+        {
+          "desc": "Paseo elevado con vistas al skyline de Manhattan y el puente; calles de casas señoriales (brownstones). Desde Pebble Beach son ~15 min andando cuesta arriba, sin prisa.",
           "dur": "45 min",
-          "name": "Brooklyn Heights Promenade",
+          "id": "6.4",
           "lat": 40.696,
           "lng": -73.9974,
-          "desc": "Paseo elevado con vistas al skyline de Manhattan y el puente; calles de casas señoriales (brownstones). Desde Pebble Beach son ~15 min andando cuesta arriba, sin prisa.",
+          "name": "Brooklyn Heights Promenade",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "10:35"
         },
         {
-          "id": "6.5",
-          "time": "12:00",
+          "desc": "⚠️ Red Hook está aislado (sin metro): el B61 son ~40 min puerta a puerta (caminata hasta Columbia St + espera + trayecto), o se va andando ~35 min por Columbia St. Barrio costero industrial-bohemio de adoquines. En Louis Valentino Jr Park, la vista de cara más cercana a la Estatua desde tierra. Comida sin prisa: Red Hook Lobster Pound / key lime pie de Steve's. ~2 h en el sitio (mediodía expuesto, llevad agua). 💡 Propuesta: saltarlo. Son ~3h20 ida y vuelta para un mirador + comida, y la Estatua ya la veis de cerca en el ferry de Staten Island (Día 3). Si lo saltáis: mañana sin prisa por DUMBO/Brooklyn Heights y coméis en el propio Brooklyn Bridge Park / Time Out Market, con mediodía tranquilo antes del kayak (17:00) y el cine.",
           "dur": "2 h",
-          "name": "Red Hook — Louis Valentino Jr Park (Estatua) + comida",
+          "id": "6.5",
           "lat": 40.6759,
           "lng": -74.0156,
-          "desc": "⚠️ Red Hook está aislado (sin metro): el B61 son ~40 min puerta a puerta (caminata hasta Columbia St + espera + trayecto), o se va andando ~35 min por Columbia St. Barrio costero industrial-bohemio de adoquines. En Louis Valentino Jr Park, la vista de cara más cercana a la Estatua desde tierra. Comida sin prisa: Red Hook Lobster Pound / key lime pie de Steve's. ~2 h en el sitio (mediodía expuesto, llevad agua). 💡 Propuesta: saltarlo. Son ~3h20 ida y vuelta para un mirador + comida, y la Estatua ya la veis de cerca en el ferry de Staten Island (Día 3). Si lo saltáis: mañana sin prisa por DUMBO/Brooklyn Heights y coméis en el propio Brooklyn Bridge Park / Time Out Market, con mediodía tranquilo antes del kayak (17:00) y el cine.",
+          "name": "Red Hook — Louis Valentino Jr Park (Estatua) + comida",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "12:00"
         },
         {
-          "id": "6.6",
-          "time": "14:40",
+          "desc": "Vuelta a Brooklyn Bridge Park (~40 min). Lo más bonito: NYC Ferry (ruta South Brooklyn, Red Hook → Pier 6, ~10 min con vistas; pero pasa cada ~43 min y es billete aparte ~4,50 $, mirad la hora antes). Alternativa fiable: B61 hasta Downtown Brooklyn y ~15 min andando. Desde el sur del parque subís paseando los piers; en el Time Out Market (Empire Stores) subid GRATIS a la azotea por las vistas al puente de Brooklyn y el skyline (barra opcional). Merienda y refugio del calor; buen colchón antes del kayak de las 17:00. 🏟️ Aquí mismo está la Adidas Fan Zone oficial del Mundial (Brooklyn Bridge Park, 25.000 pies², gratis): si os apetece, el CUARTO de las 16:00 se ve en este sitio — ojo, el kayak es a las 17:00, así que pillaríais solo la 1ª parte.",
           "dur": "1.5 h",
-          "name": "Brooklyn Bridge Park + Time Out Market",
+          "id": "6.6",
           "lat": 40.7036,
           "lng": -73.9919,
-          "desc": "Vuelta a Brooklyn Bridge Park (~40 min). Lo más bonito: NYC Ferry (ruta South Brooklyn, Red Hook → Pier 6, ~10 min con vistas; pero pasa cada ~43 min y es billete aparte ~4,50 $, mirad la hora antes). Alternativa fiable: B61 hasta Downtown Brooklyn y ~15 min andando. Desde el sur del parque subís paseando los piers; en el Time Out Market (Empire Stores) subid GRATIS a la azotea por las vistas al puente de Brooklyn y el skyline (barra opcional). Merienda y refugio del calor; buen colchón antes del kayak de las 17:00. 🏟️ Aquí mismo está la Adidas Fan Zone oficial del Mundial (Brooklyn Bridge Park, 25.000 pies², gratis): si os apetece, el CUARTO de las 16:00 se ve en este sitio — ojo, el kayak es a las 17:00, así que pillaríais solo la 1ª parte.",
-          "tags": []
+          "name": "Brooklyn Bridge Park + Time Out Market",
+          "time": "14:40"
         },
         {
-          "id": "6.7",
-          "time": "17:00",
-          "dur": "1 h",
-          "name": "Kayak gratis (Pier 2)",
-          "lat": 40.6996,
-          "lng": -73.9988,
           "desc": "Kayak GRATIS en Brooklyn Bridge Park (Pier 2), turnos de 20 min con chaleco. ⚠️ Reservar 2 semanas antes (se abre ~25 jun).",
+          "dur": "1 h",
+          "id": "6.7",
+          "lat": 40.6996,
+          "link": "https://www.bbpboathouse.org/",
+          "lng": -73.9988,
+          "name": "Kayak gratis (Pier 2)",
           "tags": [
             "gratis",
             "reservar"
           ],
-          "link": "https://www.bbpboathouse.org/"
+          "time": "17:00"
         },
         {
-          "id": "6.8",
-          "time": "18:30",
+          "desc": "Cine al aire libre en Pier 1 (Harbor View Lawn): 'When Harry Met Sally' al atardecer, con el skyline de fondo (✔ confirmado: jue 9 jul 2026, 18:00-23:00). Césped abre 18:00, peli al ponerse el sol (~20:30), GRATIS y por orden de llegada → llegad pronto a coger sitio. Picnic/cena en el césped. Noche larga (volvéis ~22:30). Y la peli tiene la mítica escena del Katz's Deli (ver Info).",
           "dur": "3 h",
-          "name": "🎬 Movies With A View (Pier 1)",
+          "id": "6.8",
           "lat": 40.7015,
           "lng": -73.9969,
-          "desc": "Cine al aire libre en Pier 1 (Harbor View Lawn): 'When Harry Met Sally' al atardecer, con el skyline de fondo (✔ confirmado: jue 9 jul 2026, 18:00-23:00). Césped abre 18:00, peli al ponerse el sol (~20:30), GRATIS y por orden de llegada → llegad pronto a coger sitio. Picnic/cena en el césped. Noche larga (volvéis ~22:30). Y la peli tiene la mítica escena del Katz's Deli (ver Info).",
+          "name": "🎬 Movies With A View (Pier 1)",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "18:30"
         },
         {
-          "id": "6.9",
-          "time": "22:35",
+          "desc": "En vez de volver por el túnel, cruzáis el Puente de Manhattan en metro = la mejor vista del transporte de NY: el Puente de Brooklyn y el skyline del Bajo Manhattan desde la ventanilla. QUÉ HACER: 1) Andar ~1,9 km (~23 min) desde Pier 1 hasta la estación 'DeKalb Av' (o taxi corto si vais cansados). 2) Coger el Q dirección Manhattan (24 h y para en DeKalb; el B también cruza el puente entre semana pero acaba pronto). ⚠️ NO cojáis la R: va por el túnel de Montague, sin vistas. 3) TRUCO: justo al salir de DeKalb Av, mirad por la ventanilla de la DERECHA → ahí aparece el Puente de Brooklyn con el skyline detrás. 4) Bajáis en '14 St–Union Sq' y son ~7 min a pie (~560 m) al hotel. De noche el skyline va iluminado. Si acabáis cerca de Atlantic Av–Barclays, allí también salen el Q/N/D hacia el puente.",
           "dur": "~40 min",
-          "name": "🚇 Vuelta con vistas — Q por el Puente de Manhattan",
+          "id": "6.9",
           "lat": 40.6896,
           "lng": -73.9814,
-          "desc": "En vez de volver por el túnel, cruzáis el Puente de Manhattan en metro = la mejor vista del transporte de NY: el Puente de Brooklyn y el skyline del Bajo Manhattan desde la ventanilla. QUÉ HACER: 1) Andar ~1,9 km (~23 min) desde Pier 1 hasta la estación 'DeKalb Av' (o taxi corto si vais cansados). 2) Coger el Q dirección Manhattan (24 h y para en DeKalb; el B también cruza el puente entre semana pero acaba pronto). ⚠️ NO cojáis la R: va por el túnel de Montague, sin vistas. 3) TRUCO: justo al salir de DeKalb Av, mirad por la ventanilla de la DERECHA → ahí aparece el Puente de Brooklyn con el skyline detrás. 4) Bajáis en '14 St–Union Sq' y son ~7 min a pie (~560 m) al hotel. De noche el skyline va iluminado. Si acabáis cerca de Atlantic Av–Barclays, allí también salen el Q/N/D hacia el puente.",
+          "name": "🚇 Vuelta con vistas — Q por el Puente de Manhattan",
           "tags": [
             "mirador"
-          ]
+          ],
+          "time": "22:35"
         }
-      ]
+      ],
+      "subtitle": "Jueves 9 julio · DUMBO · Red Hook · Kayak · 🎬 cine al atardecer",
+      "tab": "Día 6 · Jue 9",
+      "title": "Brooklyn + Cine"
     },
     {
       "id": 7,
-      "tab": "Día 7 · Vie 10",
-      "title": "Queens + Béisbol",
-      "subtitle": "Viernes 10 julio · LIC · Flushing · ⚾ Mets–Red Sox 19:15",
       "places": [
         {
-          "id": "7.6",
-          "time": "🔵 Opcional",
+          "desc": "⚠️ YA NO APLICA en D7: este día tiene partido (cuartos) + Mets, así que la mañana no queda libre. Vuestra ventana real para el norte es la mañana del D2 (en bici). Se deja aquí solo como referencia del sitio. La catedral (anglicana) más grande del mundo, gótico inacabado ('St. John the Unfinished'); donativo. Desde el hotel ~35-40 min en metro (la 1 hasta Cathedral Pkwy-110th). Después, a Queens (~45-60 min) para empezar Jackson Heights/Flushing más tarde, antes del partido (19:15). Son los mismos sitios que las opcionales del D2 (allí, versión corta colgada de la bici).",
           "dur": "mañana D7",
-          "name": "⛪ Catedral St. John the Divine",
+          "id": "7.6",
           "lat": 40.8038,
           "lng": -73.9625,
-          "desc": "⚠️ YA NO APLICA en D7: este día tiene partido (cuartos) + Mets, así que la mañana no queda libre. Vuestra ventana real para el norte es la mañana del D2 (en bici). Se deja aquí solo como referencia del sitio. La catedral (anglicana) más grande del mundo, gótico inacabado ('St. John the Unfinished'); donativo. Desde el hotel ~35-40 min en metro (la 1 hasta Cathedral Pkwy-110th). Después, a Queens (~45-60 min) para empezar Jackson Heights/Flushing más tarde, antes del partido (19:15). Son los mismos sitios que las opcionales del D2 (allí, versión corta colgada de la bici).",
-          "tags": []
+          "name": "⛪ Catedral St. John the Divine",
+          "time": "🔵 Opcional"
         },
         {
-          "id": "7.7",
-          "time": "🔵 Opcional",
+          "desc": "OPCIONAL, con la Catedral (a 4 manzanas; la 1 para en Columbia-116th). Campus de Morningside Heights: la escalinata de Low Memorial Library y College Walk. Detalle del sitio en el pin del D2.",
           "dur": "mañana D7",
-          "name": "🎓 Columbia University",
+          "id": "7.7",
           "lat": 40.8075,
           "lng": -73.9626,
-          "desc": "OPCIONAL, con la Catedral (a 4 manzanas; la 1 para en Columbia-116th). Campus de Morningside Heights: la escalinata de Low Memorial Library y College Walk. Detalle del sitio en el pin del D2.",
-          "tags": []
+          "name": "🎓 Columbia University",
+          "time": "🔵 Opcional"
         },
         {
-          "id": "7.8",
-          "time": "🔵 Opcional",
+          "desc": "⚠️ YA NO APLICA en D7 (hay partido + Mets, la mañana no queda libre). Harlem — 125th: fachada del Apollo, soul food (Sylvia's/Red Rooster), jazz. Pide su propio rato → si lo queréis, va en la mañana del D2 (en bici por el norte); si no, se queda como alternativa suelta.",
           "dur": "mañana D7",
-          "name": "🎭 Harlem — Apollo (125th)",
+          "id": "7.8",
           "lat": 40.8094,
           "lng": -73.9505,
-          "desc": "⚠️ YA NO APLICA en D7 (hay partido + Mets, la mañana no queda libre). Harlem — 125th: fachada del Apollo, soul food (Sylvia's/Red Rooster), jazz. Pide su propio rato → si lo queréis, va en la mañana del D2 (en bici por el norte); si no, se queda como alternativa suelta.",
-          "tags": []
+          "name": "🎭 Harlem — Apollo (125th)",
+          "time": "🔵 Opcional"
         },
         {
-          "id": "7.9",
-          "time": "🔵 Opcional",
+          "desc": "OPCIONAL para la mañana del D7, SI ese día no veis partido del Mundial (alternativa a la opción 'Harlem/Columbia/Catedral' de arriba). Mañana de compras por la 5ª Av con las tiendas ya abiertas (~10h: Saks, Apple 24h, Tiffany, Bergdorf) — más tranquila y con tiempo, a diferencia del rato con prisa del D4. Luego cogéis la línea 7 directa a Queens desde 5ª Av-Bryant Park (sin desvíos) para empezar Jackson Heights/Flushing más tarde, antes del partido (19:15).",
           "dur": "mañana D7",
-          "name": "🛍️ 5ª Avenida — compras",
+          "id": "7.9",
           "lat": 40.76,
           "lng": -73.9758,
-          "desc": "OPCIONAL para la mañana del D7, SI ese día no veis partido del Mundial (alternativa a la opción 'Harlem/Columbia/Catedral' de arriba). Mañana de compras por la 5ª Av con las tiendas ya abiertas (~10h: Saks, Apple 24h, Tiffany, Bergdorf) — más tranquila y con tiempo, a diferencia del rato con prisa del D4. Luego cogéis la línea 7 directa a Queens desde 5ª Av-Bryant Park (sin desvíos) para empezar Jackson Heights/Flushing más tarde, antes del partido (19:15).",
-          "tags": []
+          "name": "🛍️ 5ª Avenida — compras",
+          "time": "🔵 Opcional"
         },
         {
-          "id": "7.1",
-          "time": "08:15",
+          "desc": "Desde el hotel: línea 7 (~30 min). Parque junto al East River en Long Island City: las viejas grúas (gantries), el cartel 'Pepsi-Cola' y las MEJORES vistas del skyline de Midtown desde el agua. Fresco de la mañana.",
           "dur": "45 min",
-          "name": "Gantry Plaza State Park (LIC)",
+          "id": "7.1",
           "lat": 40.747,
           "lng": -73.9583,
-          "desc": "Desde el hotel: línea 7 (~30 min). Parque junto al East River en Long Island City: las viejas grúas (gantries), el cartel 'Pepsi-Cola' y las MEJORES vistas del skyline de Midtown desde el agua. Fresco de la mañana.",
+          "name": "Gantry Plaza State Park (LIC)",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "08:15"
         },
         {
-          "id": "7.2",
-          "time": "09:00",
+          "desc": "Justo al sur, parque moderno con más skyline y zonas verdes junto al agua.",
           "dur": "45 min",
-          "name": "Hunter's Point South Park (LIC)",
+          "id": "7.2",
           "lat": 40.7428,
           "lng": -73.9617,
-          "desc": "Justo al sur, parque moderno con más skyline y zonas verdes junto al agua.",
+          "name": "Hunter's Point South Park (LIC)",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "09:00"
         },
         {
-          "id": "7.3",
-          "time": "11:00",
+          "desc": "Línea 7 hasta Jackson Heights (~20 min): el barrio más diverso de NY. Comida callejera de medio mundo (arepas, ceviche, momos del Himalaya, India). Bares con AC y AMBIENTAZO de Mundial. ⚽ Si el cuarto que queréis ver cae HOY (vie, 15:00 ET), vedlo aquí en un bar antes del partido.",
           "dur": "3 h",
-          "name": "Jackson Heights (comida diversa + Mundial)",
+          "id": "7.3",
           "lat": 40.747,
           "lng": -73.891,
-          "desc": "Línea 7 hasta Jackson Heights (~20 min): el barrio más diverso de NY. Comida callejera de medio mundo (arepas, ceviche, momos del Himalaya, India). Bares con AC y AMBIENTAZO de Mundial. ⚽ Si el cuarto que queréis ver cae HOY (vie, 15:00 ET), vedlo aquí en un bar antes del partido.",
-          "tags": []
+          "name": "Jackson Heights (comida diversa + Mundial)",
+          "time": "11:00"
         },
         {
-          "id": "7.10",
-          "time": "15:00",
+          "desc": "Cuarto que veis 100% (potencial España/Portugal, 15:00–~17:15 NY). ✅ SITIO LÍDER: Mercado Little Spain (José Andrés, 10 Hudson Yards) — el sitio MÁS español de NY, con watch party OFICIAL de La Roja (sonido, especiales, Estrella Galicia + Rioja + sangría) que sigue en eliminatorias si España avanza. 🚇 En la MISMA línea 7 que Citi Field: al acabar (~17:20) el 7 os deja DIRECTO en Mets–Willets Point (~35 min, sin transbordos) → ~18:00, de sobra para los Mets (19:15). ⚠️ Es la punta OESTE del 7 (opuesta a Citi Field): 'gira' el día de Queens y el Unisphere de las 17:30 NO cuadra (vais directos a Citi Field). Mejor con la mañana ligera en LIC. 👉 Alternativas apuntadas como pines propios (Jackson Heights español, en el 7 a ~15 min de Citi Field, mantienen el Unisphere): Cafe Salamanca (7.11) y Addictive Wine & Tapas (7.12).",
           "dur": "~2h15",
-          "name": "⚽ Cuartos (España/Portugal) — Mercado Little Spain",
+          "id": "7.10",
           "lat": 40.7536,
           "lng": -74.0019,
-          "desc": "Cuarto que veis 100% (potencial España/Portugal, 15:00–~17:15 NY). ✅ SITIO LÍDER: Mercado Little Spain (José Andrés, 10 Hudson Yards) — el sitio MÁS español de NY, con watch party OFICIAL de La Roja (sonido, especiales, Estrella Galicia + Rioja + sangría) que sigue en eliminatorias si España avanza. 🚇 En la MISMA línea 7 que Citi Field: al acabar (~17:20) el 7 os deja DIRECTO en Mets–Willets Point (~35 min, sin transbordos) → ~18:00, de sobra para los Mets (19:15). ⚠️ Es la punta OESTE del 7 (opuesta a Citi Field): 'gira' el día de Queens y el Unisphere de las 17:30 NO cuadra (vais directos a Citi Field). Mejor con la mañana ligera en LIC. 👉 Alternativas apuntadas como pines propios (Jackson Heights español, en el 7 a ~15 min de Citi Field, mantienen el Unisphere): Cafe Salamanca (7.11) y Addictive Wine & Tapas (7.12).",
-          "tags": []
+          "name": "⚽ Cuartos (España/Portugal) — Mercado Little Spain",
+          "time": "15:00"
         },
         {
-          "id": "7.11",
-          "time": "🔵 Alternativa",
-          "dur": "Jackson Heights · ~15 min a Citi Field",
-          "name": "⚽ Alt — Cafe Salamanca (Jackson Heights)",
-          "lat": 40.7553,
-          "lng": -73.8858,
           "desc": "Tipo: ESPAÑOL de verdad — 25 años de cocina española (varias regiones, énfasis en pescado y marisco), NO la escena ecuatoriana/latina de Roosevelt Ave. En ruta: 79-05 Northern Blvd, 7 en 82nd St/Northern Blvd; mantiene el flujo de Queens y el Unisphere (17:30). ⚠️ Es de tapas/mesa, NO confirmado como local de fútbol con pantallas y sonido — LLAMAD ANTES (718-458-2446). Alternativa al líder Mercado Little Spain (7.10).",
-          "tags": [],
-          "link": "http://cafesalamanca.com/"
-        },
-        {
-          "id": "7.12",
-          "time": "🔵 Alternativa",
           "dur": "Jackson Heights · ~15 min a Citi Field",
-          "name": "⚽ Alt — Addictive Wine & Tapas (Jackson Heights)",
-          "lat": 40.7525,
-          "lng": -73.8783,
-          "desc": "Tipo: VINO + TAPAS español (desde 2015, +100 vinos con foco español), lo más 'de clase' de Jackson Heights. En ruta: 32-64 87th St, 7 en 82nd St; mantiene el flujo y el Unisphere. ⚠️ Es vino/tapas, NO confirmado como local de fútbol con pantallas — LLAMAD ANTES. Alternativa al líder Mercado Little Spain (7.10).",
-          "tags": [],
-          "link": "https://addictivewinebar.com/"
+          "id": "7.11",
+          "lat": 40.7553,
+          "link": "http://cafesalamanca.com/",
+          "lng": -73.8858,
+          "name": "⚽ Alt — Cafe Salamanca (Jackson Heights)",
+          "time": "🔵 Alternativa"
         },
         {
-          "id": "7.4",
-          "time": "17:30",
+          "desc": "Tipo: VINO + TAPAS español (desde 2015, +100 vinos con foco español), lo más 'de clase' de Jackson Heights. En ruta: 32-64 87th St, 7 en 82nd St; mantiene el flujo y el Unisphere. ⚠️ Es vino/tapas, NO confirmado como local de fútbol con pantallas — LLAMAD ANTES. Alternativa al líder Mercado Little Spain (7.10).",
+          "dur": "Jackson Heights · ~15 min a Citi Field",
+          "id": "7.12",
+          "lat": 40.7525,
+          "link": "https://addictivewinebar.com/",
+          "lng": -73.8783,
+          "name": "⚽ Alt — Addictive Wine & Tapas (Jackson Heights)",
+          "time": "🔵 Alternativa"
+        },
+        {
+          "desc": "Línea 7 hasta Mets–Willets Point (~15-20 min), al lado de Citi Field. Plan corto (~1,5 h); lo que reste hasta las puertas (17:45) es cojín junto al estadio (colas/cena). La Unisphere (globo de acero del 64) es foto rápida; a 2 min, las torres del NY State Pavilion (el 'Tent of Tomorrow' de la Expo del 64, icono retro de 'Men in Black'). El Queens Museum (el Panorama de NYC, maqueta gigante de la ciudad) es el refugio con AC en el pico de calor — entrada pay-what-you-wish (sugerido 8 $ / 6 $ est.; cierra vie 17:00). No hace falta más parque. ⚠️ Este horario (17:30) solo cuadra con la opción Jackson Heights; si veis el partido en Mercado Little Spain llegáis a Willets ~18:00 y vais directos a Citi Field (Unisphere rápido o se salta).",
           "dur": "45 min",
-          "name": "Flushing Meadows + Unisphere",
+          "id": "7.4",
           "lat": 40.7459,
           "lng": -73.8453,
-          "desc": "Línea 7 hasta Mets–Willets Point (~15-20 min), al lado de Citi Field. Plan corto (~1,5 h); lo que reste hasta las puertas (17:45) es cojín junto al estadio (colas/cena). La Unisphere (globo de acero del 64) es foto rápida; a 2 min, las torres del NY State Pavilion (el 'Tent of Tomorrow' de la Expo del 64, icono retro de 'Men in Black'). El Queens Museum (el Panorama de NYC, maqueta gigante de la ciudad) es el refugio con AC en el pico de calor — entrada pay-what-you-wish (sugerido 8 $ / 6 $ est.; cierra vie 17:00). No hace falta más parque. ⚠️ Este horario (17:30) solo cuadra con la opción Jackson Heights; si veis el partido en Mercado Little Spain llegáis a Willets ~18:00 y vais directos a Citi Field (Unisphere rápido o se salta).",
+          "name": "Flushing Meadows + Unisphere",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "17:30"
         },
         {
-          "id": "7.5",
-          "time": "18:15",
-          "dur": "4 h",
-          "name": "⚾ Citi Field — Mets vs Red Sox",
-          "lat": 40.7571,
-          "lng": -73.8458,
           "desc": "Al lado de la Unisphere. Mets vs Boston Red Sox, 19:15 (el atardecer cae durante el partido). Cena en el estadio. Noche larga (2ª excepción). Vuelta en la 7 / LIRR. Entradas: SeatGeek (oficial de los Mets) o mets.com/app MLB Ballpark; con 30-60 $/persona, nivel Promenade (anillo 500, por las líneas 505-510 o 519-524). Comprar pronto: vs Red Sox un viernes vuela.",
+          "dur": "4 h",
+          "id": "7.5",
+          "lat": 40.7571,
+          "link": "https://www.mlb.com/mets/ballpark",
+          "lng": -73.8458,
+          "name": "⚾ Citi Field — Mets vs Red Sox",
           "tags": [
             "reservar"
           ],
-          "link": "https://www.mlb.com/mets/ballpark"
+          "time": "18:15"
         }
-      ]
+      ],
+      "subtitle": "Viernes 10 julio · LIC · Flushing · ⚾ Mets–Red Sox 19:15",
+      "tab": "Día 7 · Vie 10",
+      "title": "Queens + Béisbol"
     },
     {
-      "id": 8,
-      "tab": "Día 8 · Sáb 11",
-      "title": "Barrios + Williamsburg",
-      "subtitle": "Sábado 11 julio · SoHo/Chinatown/LES · puente a pie · Smorgasburg",
+      "id": 12,
       "places": [
         {
-          "id": "8.1",
-          "time": "08:30",
-          "dur": "40 min",
-          "name": "SoHo (Greene St, cast-iron)",
-          "lat": 40.7233,
-          "lng": -74.003,
-          "desc": "Desde el hotel: metro 6 a Spring St o andando (~15 min). Desayuno rápido. SoHo: edificios de hierro fundido y boutiques; Greene St es la calle más fotogénica.",
-          "tags": []
+          "desc": "☀️ PLAN ALT (viernes, 8h de SOL): rescatamos el Central Park en bici del domingo lluvioso a esta mañana soleada. Devolución en el mismo sitio (~12:45) antes de bajar al partido. Recogéis las bicis en Unlimited Biking (56 W 56th, entre 5ª y 6ª, 3-4 manzanas al sur del parque). Incluye casco, candado, cesta y mapa. Recomendado 3 h (27,50 $/persona): da para ver a pie las joyas del sur (candando las bicis) y subir luego en bici al embalse, que a pie no daría tiempo. ⚠️ Confirmad la hora de apertura al reservar (suelen abrir ~9:00); los horarios de abajo asumen recogida a las 9:00. Si abre más tarde, haced las joyas del sur a pie primero y reservad la bici para el norte. Devolución en el mismo sitio.",
+          "dur": "15 min",
+          "id": "12.1",
+          "lat": 40.7633,
+          "lng": -73.9762,
+          "name": "🚲 Recoger bicis (Unlimited Biking)",
+          "time": "09:00"
         },
         {
-          "id": "8.2",
-          "time": "09:10",
-          "dur": "10 min",
-          "name": "Cortlandt Alley",
-          "lat": 40.7184,
-          "lng": -74.0019,
-          "desc": "Callejón angosto con pinta del viejo Nueva York (escaleras de incendios, set de mil pelis y series), entre Franklin y White St junto a Canal. Foto rápida de paso, justo al sur de SoHo antes de virar hacia NoLita. Gratis.",
-          "tags": [
-            "gratis"
-          ]
-        },
-        {
-          "id": "8.3",
-          "time": "09:30",
-          "dur": "40 min",
-          "name": "NoLita — Elizabeth St Garden + Prince St Pizza",
-          "lat": 40.7228,
-          "lng": -73.9952,
-          "desc": "Elizabeth Street Garden: un acre escondido de estatuas y vegetación, de lo más bonito del barrio — salvado de la demolición en 2025 y ahora parque municipal. ✔ SÍ se puede visitar, y aquí es donde entráis de día: horario oficial de VERANO (julio) 9:00-20:00 (a las 9:30 ya abierto). Lo llevan voluntarios y el horario puede variar; si al llegar aún no han abierto, dais una vuelta por las calles del NoLita — Prince Street Pizza (la slice icónica, 27 Prince St) abre a las 10:00, está al lado y de camino a la catedral vieja, así que pilláis la slice de paso.",
-          "tags": []
-        },
-        {
-          "id": "8.4",
-          "time": "10:10",
-          "dur": "20 min",
-          "name": "Basílica de St. Patrick's Old Cathedral",
-          "lat": 40.7237,
-          "lng": -73.9948,
-          "desc": "La catedral 'vieja' de 1815 (≠ la de la 5ª Av del D4): basílica restaurada y dos cementerios amurallados, raros en Manhattan. En plena ruta de NoLita (Mott/Prince). El tour de catacumbas a la luz de velas es de pago/reserva (jue-lun), opcional.",
+          "desc": "Entráis por Grand Army Plaza (4 manzanas en bici desde la recogida). Candáis y bajáis a pie a The Pond y el puentecito de piedra Gapstow, uno de los reflejos del skyline más fotografiados. Domingo a primera hora, tranquilo; al lado, Grand Army Plaza y el hotel The Plaza.",
+          "dur": "15 min",
+          "id": "12.2",
+          "lat": 40.7669,
+          "lng": -73.9737,
+          "name": "Central Park — The Pond y Gapstow Bridge",
           "tags": [
             "gratis"
           ],
-          "link": "https://oldcathedral.org/"
+          "time": "09:20"
         },
         {
-          "id": "8.5",
-          "time": "10:35",
+          "desc": "De paso por el oeste: la gran pradera sin tráfico (antaño con ovejas de verdad) y el skyline entre los árboles. Mirada rápida desde la bici; parada para tumbarse solo si vais sobrados de tiempo.",
+          "dur": "10 min",
+          "id": "12.3",
+          "lat": 40.7716,
+          "lng": -73.9745,
+          "name": "Central Park — Sheep Meadow",
+          "tags": [
+            "gratis"
+          ],
+          "time": "09:40"
+        },
+        {
+          "desc": "En el lado oeste, candáis un momento: el memorial a John Lennon, el mosaico 'Imagine' (casi siempre con alguien tocando sus canciones) y, enfrente, el edificio Dakota (1 W 72nd, exterior), donde vivió y fue asesinado en 1980 (fachada de 'La semilla del diablo').",
+          "dur": "15 min",
+          "id": "12.4",
+          "lat": 40.7755,
+          "lng": -73.9749,
+          "name": "Central Park — Strawberry Fields y Dakota",
+          "tags": [
+            "gratis"
+          ],
+          "time": "09:55"
+        },
+        {
+          "desc": "Corazón monumental del parque. Aquí dejáis las bicis candadas y recorréis a pie el tramo central peatonal: la terraza y la fuente Bethesda ('Ángel de las Aguas'), con la arcada inferior y su techo de azulejos Minton; detrás, The Lake. Bow Bridge queda al lado (siguiente). A media mañana de domingo aún tranquilo.",
           "dur": "20 min",
-          "name": "Little Italy (Mulberry St)",
+          "id": "12.5",
+          "lat": 40.7741,
+          "lng": -73.9711,
+          "name": "⭐ Central Park — Bethesda Terrace y Fuente",
+          "tags": [
+            "gratis",
+            "obligatorio"
+          ],
+          "time": "10:15"
+        },
+        {
+          "desc": "A pie desde donde dejasteis las bicis: el puente de hierro fundido más romántico de NY (1862) sobre The Lake, escenario de mil películas. De camino, el bosquecillo del Ramble (sombra y pájaros). Gran punto de fotos; luego volvéis a por las bicis.",
+          "dur": "15 min",
+          "id": "12.6",
+          "lat": 40.7758,
+          "lng": -73.9718,
+          "name": "Central Park — Bow Bridge y The Lake",
+          "tags": [
+            "gratis"
+          ],
+          "time": "10:40"
+        },
+        {
+          "desc": "Pequeño castillo victoriano (1869) sobre Vista Rock, hoy estación meteorológica del parque; terrazas con vistas del Turtle Pond y el Great Lawn. Gratis. Recogéis las bicis y tiráis al norte.",
+          "dur": "15 min",
+          "id": "12.7",
+          "lat": 40.7794,
+          "lng": -73.9691,
+          "name": "Central Park — Belvedere Castle",
+          "tags": [
+            "gratis"
+          ],
+          "time": "11:05"
+        },
+        {
+          "desc": "☀️ ALT: el norte en bici; al acabar, devolvéis las bicis y bajáis a Hudson Yards. La mitad norte que a pie no veríais: en bici por el loop hasta el embalse Jacqueline Kennedy Onassis (la pista de running de las pelis), con el skyline reflejado en el agua. Si vais con energía, podéis seguir hasta el Conservatory Garden (jardines formales, 105th) o Harlem Meer. Luego bajáis por el loop a DEVOLVER las bicis en 56 W 56th (~11:45) y subís en metro 6 (OMNY, cuenta para el tope) de 59th a 86th, andando al Met.",
+          "dur": "40 min",
+          "id": "12.8",
+          "lat": 40.7855,
+          "lng": -73.962,
+          "name": "🚲 Reservoir Jackie O + norte del parque",
+          "tags": [
+            "gratis"
+          ],
+          "time": "11:25"
+        },
+        {
+          "desc": "☀️ ALT: tras el Central Park de la mañana (devolución de bicis + comida), bajáis a ver el cuarto que veis 100% (potencial España/Portugal, 15:00–~17:15 NY). ✅ Mercado Little Spain (José Andrés, 10 Hudson Yards): el sitio MÁS español de NY, con watch party OFICIAL de La Roja. 🚇 Al acabar (~17:20) el 7 os deja DIRECTO en Mets–Willets Point (~35 min, sin transbordos) → de sobra para los Mets (19:15). Este ALT se salta la mañana de Queens (LIC/Jackson Heights) a cambio del Central Park con sol.",
+          "dur": "~2h15",
+          "id": "12.9",
+          "lat": 40.7536,
+          "lng": -74.0019,
+          "name": "⚽ Cuartos (España/Portugal) — Mercado Little Spain",
+          "time": "15:00"
+        },
+        {
+          "desc": "☀️ ALT: llegáis directos desde Little Spain en el 7. Al lado de la Unisphere. Mets vs Boston Red Sox, 19:15 (el atardecer cae durante el partido). Cena en el estadio. Noche larga (2ª excepción). Vuelta en la 7 / LIRR. Entradas: SeatGeek (oficial de los Mets) o mets.com/app MLB Ballpark; con 30-60 $/persona, nivel Promenade (anillo 500, por las líneas 505-510 o 519-524). Comprar pronto: vs Red Sox un viernes vuela.",
+          "dur": "4 h",
+          "id": "12.10",
+          "lat": 40.7571,
+          "link": "https://www.mlb.com/mets/ballpark",
+          "lng": -73.8458,
+          "name": "⚾ Citi Field — Mets vs Red Sox",
+          "tags": [
+            "reservar"
+          ],
+          "time": "18:15"
+        }
+      ],
+      "subtitle": "Viernes 10 julio · 8h de SOL · PLAN ALT: Central Park en bici por la mañana (rescatado del domingo lluvioso) → cuartos en Mercado Little Spain 15:00 → el 7 directo a Citi Field · Mets–Red Sox 19:15 · Se sacrifica la mañana de Queens (LIC + Jackson Heights)",
+      "tab": "Día 7 · Vie 10 · ALT ☀️",
+      "title": "☀️ ALT sol · Central Park en bici (mañana) + partido + Mets"
+    },
+    {
+      "id": 8,
+      "places": [
+        {
+          "desc": "Desde el hotel: metro 6 a Spring St o andando (~15 min). Desayuno rápido. SoHo: edificios de hierro fundido y boutiques; Greene St es la calle más fotogénica.",
+          "dur": "40 min",
+          "id": "8.1",
+          "lat": 40.7233,
+          "lng": -74.003,
+          "name": "SoHo (Greene St, cast-iron)",
+          "time": "08:30"
+        },
+        {
+          "desc": "Callejón angosto con pinta del viejo Nueva York (escaleras de incendios, set de mil pelis y series), entre Franklin y White St junto a Canal. Foto rápida de paso, justo al sur de SoHo antes de virar hacia NoLita. Gratis.",
+          "dur": "10 min",
+          "id": "8.2",
+          "lat": 40.7184,
+          "lng": -74.0019,
+          "name": "Cortlandt Alley",
+          "tags": [
+            "gratis"
+          ],
+          "time": "09:10"
+        },
+        {
+          "desc": "Elizabeth Street Garden: un acre escondido de estatuas y vegetación, de lo más bonito del barrio — salvado de la demolición en 2025 y ahora parque municipal. ✔ SÍ se puede visitar, y aquí es donde entráis de día: horario oficial de VERANO (julio) 9:00-20:00 (a las 9:30 ya abierto). Lo llevan voluntarios y el horario puede variar; si al llegar aún no han abierto, dais una vuelta por las calles del NoLita — Prince Street Pizza (la slice icónica, 27 Prince St) abre a las 10:00, está al lado y de camino a la catedral vieja, así que pilláis la slice de paso.",
+          "dur": "40 min",
+          "id": "8.3",
+          "lat": 40.7228,
+          "lng": -73.9952,
+          "name": "NoLita — Elizabeth St Garden + Prince St Pizza",
+          "time": "09:30"
+        },
+        {
+          "desc": "La catedral 'vieja' de 1815 (≠ la de la 5ª Av del D4): basílica restaurada y dos cementerios amurallados, raros en Manhattan. En plena ruta de NoLita (Mott/Prince). El tour de catacumbas a la luz de velas es de pago/reserva (jue-lun), opcional.",
+          "dur": "20 min",
+          "id": "8.4",
+          "lat": 40.7237,
+          "link": "https://oldcathedral.org/",
+          "lng": -73.9948,
+          "name": "Basílica de St. Patrick's Old Cathedral",
+          "tags": [
+            "gratis"
+          ],
+          "time": "10:10"
+        },
+        {
+          "desc": "Mulberry St: el corazón de la Pequeña Italia, cafés y banderas tricolor.",
+          "dur": "20 min",
+          "id": "8.5",
           "lat": 40.719,
           "lng": -73.9974,
-          "desc": "Mulberry St: el corazón de la Pequeña Italia, cafés y banderas tricolor.",
-          "tags": []
+          "name": "Little Italy (Mulberry St)",
+          "time": "10:35"
         },
         {
-          "id": "8.6",
-          "time": "11:00",
+          "desc": "Mott St (la calle principal), la curva de Doyers St y Columbus Park (donde juegan al mahjong). Ambiente y comida barata.",
           "dur": "1 h",
-          "name": "Chinatown (Mott, Doyers, Columbus Park)",
+          "id": "8.6",
           "lat": 40.7155,
           "lng": -73.9974,
-          "desc": "Mott St (la calle principal), la curva de Doyers St y Columbus Park (donde juegan al mahjong). Ambiente y comida barata.",
-          "tags": []
+          "name": "Chinatown (Mott, Doyers, Columbus Park)",
+          "time": "11:00"
         },
         {
-          "id": "8.7",
-          "time": "12:00",
+          "desc": "Callejón sin salida cubierto de arte urbano y grafitis (al fondo, el restaurante Freeman's), saliendo de Rivington St junto a Bowery. Foto rápida en el borde NoLita/LES, justo de camino de Chinatown a Essex Market. Gratis.",
           "dur": "10 min",
-          "name": "Freeman Alley",
+          "id": "8.7",
           "lat": 40.7222,
           "lng": -73.992,
-          "desc": "Callejón sin salida cubierto de arte urbano y grafitis (al fondo, el restaurante Freeman's), saliendo de Rivington St junto a Bowery. Foto rápida en el borde NoLita/LES, justo de camino de Chinatown a Essex Market. Gratis.",
+          "name": "Freeman Alley",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "12:00"
         },
         {
-          "id": "8.8",
-          "time": "12:15",
+          "desc": "Lower East Side: Essex Market (food hall con AC, comida del mundo) para comer, y Orchard St (boutiques vintage). Refugio del calor a mediodía. (Katz's Deli —pastrami icónico, escena de 'When Harry Met Sally'— a 5 min en Houston/Ludlow; ver Info.) 🔁 Como el partido es de noche (21:00), si vais sobrados de tiempo a mediodía este es el momento de repetir un favorito de downtown antes de cruzar a Williamsburg. Lo del norte (Harlem/Columbia) NO va aquí: queda lejísimos y en dirección contraria; esa alternativa está en el D2.",
           "dur": "1.5 h",
-          "name": "LES — Essex Market + Orchard St (comida)",
+          "id": "8.8",
           "lat": 40.7185,
           "lng": -73.9881,
-          "desc": "Lower East Side: Essex Market (food hall con AC, comida del mundo) para comer, y Orchard St (boutiques vintage). Refugio del calor a mediodía. (Katz's Deli —pastrami icónico, escena de 'When Harry Met Sally'— a 5 min en Houston/Ludlow; ver Info.) 🔁 Como el partido es de noche (21:00), si vais sobrados de tiempo a mediodía este es el momento de repetir un favorito de downtown antes de cruzar a Williamsburg. Lo del norte (Harlem/Columbia) NO va aquí: queda lejísimos y en dirección contraria; esa alternativa está en el D2.",
-          "tags": []
+          "name": "LES — Essex Market + Orchard St (comida)",
+          "time": "12:15"
         },
         {
-          "id": "8.15",
-          "time": "13:30",
-          "dur": "10-15 min",
-          "name": "📸 Fotomatón — Autophoto (Orchard St)",
-          "lat": 40.719,
-          "lng": -73.9894,
           "desc": "Tipo: ANALÓGICO — 'museo' con 7 máquinas vintage restauradas (entrada gratis, pagas solo la tira). Precio: 8-12 $ según máquina (las de papel ancho, 12 $). Cola: MEDIA pero avanza al haber 7 booths, aunque sea sábado. Horario: mar-dom 12-22h. En ruta: 121 Orchard St, sobre la propia Orchard mientras coméis por el LES. 👉 Cuál elegir (los 3 a menos de 2 min entre sí): Autophoto = mejor experiencia y variedad · Retrography (8.16) = menos cola y más barato (digital) · Old Friend (8.17) = analógico puro B/N pero cola larga.",
-          "tags": [],
-          "link": "https://www.autophoto.org/"
+          "dur": "10-15 min",
+          "id": "8.15",
+          "lat": 40.719,
+          "link": "https://www.autophoto.org/",
+          "lng": -73.9894,
+          "name": "📸 Fotomatón — Autophoto (Orchard St)",
+          "time": "13:30"
         },
         {
-          "id": "8.16",
-          "time": "🔵 Alternativa",
+          "desc": "Tipo: DIGITAL con filtros por barrio que imitan el look analógico (no es revelado químico real). Precio: el más BARATO del grupo (sobre 5-6 $). Cola: la MÍNIMA de las cuatro. En ruta: 15 Essex St, a 2 min de Autophoto. Resumen: la opción rápida y barata si el sábado hay espera en las otras.",
           "dur": "a 2 min de Autophoto",
-          "name": "📸 Fotomatón — Retrography (LES)",
+          "id": "8.16",
           "lat": 40.7146,
           "lng": -73.9908,
-          "desc": "Tipo: DIGITAL con filtros por barrio que imitan el look analógico (no es revelado químico real). Precio: el más BARATO del grupo (sobre 5-6 $). Cola: la MÍNIMA de las cuatro. En ruta: 15 Essex St, a 2 min de Autophoto. Resumen: la opción rápida y barata si el sábado hay espera en las otras.",
-          "tags": []
+          "name": "📸 Fotomatón — Retrography (LES)",
+          "time": "🔵 Alternativa"
         },
         {
-          "id": "8.17",
-          "time": "🔵 Alternativa",
+          "desc": "Tipo: ANALÓGICO 'de verdad' — el único de NY con revelado químico dip-and-dunk; solo BLANCO Y NEGRO. Precio: 8 $ la tira de 4. Cola: la MÁS LARGA (tiene culto). En ruta: 145 Allen St, a 2 min de Autophoto. Resumen: el más auténtico; merece la pena solo si os da igual esperar.",
           "dur": "a 2 min de Autophoto",
-          "name": "📸 Fotomatón — Old Friend (LES)",
+          "id": "8.17",
           "lat": 40.7208,
           "lng": -73.9886,
-          "desc": "Tipo: ANALÓGICO 'de verdad' — el único de NY con revelado químico dip-and-dunk; solo BLANCO Y NEGRO. Precio: 8 $ la tira de 4. Cola: la MÁS LARGA (tiene culto). En ruta: 145 Allen St, a 2 min de Autophoto. Resumen: el más auténtico; merece la pena solo si os da igual esperar.",
-          "tags": []
+          "name": "📸 Fotomatón — Old Friend (LES)",
+          "time": "🔵 Alternativa"
         },
         {
-          "id": "8.9",
-          "time": "14:00",
+          "desc": "Cruzáis el puente de Williamsburg A PIE (desde Delancey, ~30 min) hacia Brooklyn, sin metro y con vistas. A media tarde (más fresco).",
           "dur": "40 min",
-          "name": "Williamsburg Bridge (a pie)",
+          "id": "8.9",
           "lat": 40.7137,
           "lng": -73.9718,
-          "desc": "Cruzáis el puente de Williamsburg A PIE (desde Delancey, ~30 min) hacia Brooklyn, sin metro y con vistas. A media tarde (más fresco).",
+          "name": "Williamsburg Bridge (a pie)",
           "tags": [
             "gratis"
-          ]
+          ],
+          "time": "14:00"
         },
         {
-          "id": "8.10",
-          "time": "14:45",
+          "desc": "Bedford Ave (el corazón hipster) y Smorgasburg (gran mercado de comida al aire libre, SÁBADOS, junto al río). ⚽ Si el cuarto del Mundial es hoy (sáb, 17:00 ET), vedlo en un bar de aquí.",
           "dur": "3.5 h",
-          "name": "Williamsburg — Bedford Ave + Smorgasburg",
+          "id": "8.10",
           "lat": 40.7185,
           "lng": -73.9608,
-          "desc": "Bedford Ave (el corazón hipster) y Smorgasburg (gran mercado de comida al aire libre, SÁBADOS, junto al río). ⚽ Si el cuarto del Mundial es hoy (sáb, 17:00 ET), vedlo en un bar de aquí.",
-          "tags": []
+          "name": "Williamsburg — Bedford Ave + Smorgasburg",
+          "time": "14:45"
         },
         {
-          "id": "8.11",
-          "time": "18:30",
+          "desc": "Paseo marítimo de Williamsburg (antigua refinería Domino) y el North 5th Street Pier, con el skyline de Manhattan enfrente (luz dorada). Hoy NO os quedáis al atardecer aquí: a las ~19:30 cogéis la L de vuelta a Manhattan para el Manhattanhenge.",
           "dur": "1 h",
-          "name": "🌅 Domino Park + North 5th St Pier",
+          "id": "8.11",
           "lat": 40.7144,
           "lng": -73.9677,
-          "desc": "Paseo marítimo de Williamsburg (antigua refinería Domino) y el North 5th Street Pier, con el skyline de Manhattan enfrente (luz dorada). Hoy NO os quedáis al atardecer aquí: a las ~19:30 cogéis la L de vuelta a Manhattan para el Manhattanhenge.",
+          "name": "🌅 Domino Park + North 5th St Pier",
           "tags": [
             "gratis",
             "mirador"
-          ]
+          ],
+          "time": "18:30"
         },
         {
-          "id": "8.12",
-          "time": "20:00",
+          "desc": "🌇 Manhattanhenge (SÁB 11 jul, ~20:20): el sol se alinea perfecto con la cuadrícula de Manhattan al ponerse — fenómeno de solo 2 días/año y os pilla justo. Desde Williamsburg volvéis en metro L (Bedford → 1ª/3ª Av, ~10 min) y lo veis desde la CALLE 14 mirando al OESTE (una de las mejores calles, y al lado del hotel). Llegad ~20:00 a coger sitio; cuanto más al este estéis en la 14, más larga la perspectiva. Dura solo unos minutos. Luego, al cuarto de Argentina (siguiente parada; si es Banter, de vuelta a Williamsburg en L ~10 min).",
           "dur": "40 min",
-          "name": "🌇 Manhattanhenge (calle 14)",
+          "id": "8.12",
           "lat": 40.734,
           "lng": -73.9858,
-          "desc": "🌇 Manhattanhenge (SÁB 11 jul, ~20:20): el sol se alinea perfecto con la cuadrícula de Manhattan al ponerse — fenómeno de solo 2 días/año y os pilla justo. Desde Williamsburg volvéis en metro L (Bedford → 1ª/3ª Av, ~10 min) y lo veis desde la CALLE 14 mirando al OESTE (una de las mejores calles, y al lado del hotel). Llegad ~20:00 a coger sitio; cuanto más al este estéis en la 14, más larga la perspectiva. Dura solo unos minutos. Luego, al cuarto de Argentina (siguiente parada; si es Banter, de vuelta a Williamsburg en L ~10 min).",
+          "name": "🌇 Manhattanhenge (calle 14)",
           "tags": [
             "gratis",
             "mirador"
-          ]
+          ],
+          "time": "20:00"
         },
         {
-          "id": "8.14",
-          "time": "21:00",
-          "dur": "~2 h",
-          "name": "⚽ Cuartos Argentina — Banter (Williamsburg)",
-          "lat": 40.7143,
-          "lng": -73.9576,
           "desc": "Cuarto que veis 100% (Argentina, 21:00–~23:00 NY). ✅ SITIO LÍDER: Banter (bar de fútbol PURO, 132 Havemeyer St, Williamsburg) — 15 años, decenas de birras, ponen todo el fútbol; es JUSTO donde ya estáis por la tarde (Bedford/Smorgasburg). Tras Manhattanhenge (calle 14) volvéis en L a Bedford (~10 min) y llegáis de sobra. Walk-in (sin reserva). ⚠️ Cierra a MEDIANOCHE: si hay prórroga/penaltis (~23:45–00:00) el final va justo; no es argentino específico, es bar de fútbol neutral. 👉 Alternativas apuntadas como pines propios: Little Argentina/Roosevelt Ave (8.18) = lo más auténtico · Boca Juniors (8.19) = parrilla + hinchada · o cenar sentados en Buenos Aires (8.20) / Balvanera (8.21). Por esto la cena de PST se hace el MIÉ 8.",
-          "tags": [],
-          "link": "https://banterbrooklyn.com/"
+          "dur": "~2 h",
+          "id": "8.14",
+          "lat": 40.7143,
+          "link": "https://banterbrooklyn.com/",
+          "lng": -73.9576,
+          "name": "⚽ Cuartos Argentina — Banter (Williamsburg)",
+          "time": "21:00"
         },
         {
-          "id": "8.18",
-          "time": "🔵 Alternativa",
+          "desc": "Tipo: EXPERIENCIA de calle — 'Little Argentina' bajo el 7 (Roosevelt Ave, ~74th–86th St): la calle ESTALLA cuando marca Argentina, lo más parecido a Buenos Aires sin salir de Queens. Bares al aire libre; llegad 45 min antes. ⚠️ Queens (~40 min desde Manhattanhenge) → justo para las 21:00; ya pisáis el barrio el D7; es la última noche antes del vuelo. La más AUTÉNTICA pero la más lejos. Alternativa al líder Banter (8.14).",
           "dur": "Jackson Heights · ~40 min desde la 14",
-          "name": "⚽ Alt — Little Argentina / Roosevelt Ave",
+          "id": "8.18",
           "lat": 40.7479,
           "lng": -73.8845,
-          "desc": "Tipo: EXPERIENCIA de calle — 'Little Argentina' bajo el 7 (Roosevelt Ave, ~74th–86th St): la calle ESTALLA cuando marca Argentina, lo más parecido a Buenos Aires sin salir de Queens. Bares al aire libre; llegad 45 min antes. ⚠️ Queens (~40 min desde Manhattanhenge) → justo para las 21:00; ya pisáis el barrio el D7; es la última noche antes del vuelo. La más AUTÉNTICA pero la más lejos. Alternativa al líder Banter (8.14).",
-          "tags": []
+          "name": "⚽ Alt — Little Argentina / Roosevelt Ave",
+          "time": "🔵 Alternativa"
         },
         {
-          "id": "8.19",
-          "time": "🔵 Alternativa",
+          "desc": "Tipo: PARRILLA argentina futbolera — decorada de suelo a techo con memorabilia de fútbol, hinchada, ponen Argentina siempre. En: 81-08 Queens Blvd, Elmhurst. Argentino + comida + ambiente, pero es steakhouse y en Queens (~35-40 min desde la 14). Alternativa al líder Banter (8.14).",
           "dur": "Elmhurst, Queens",
-          "name": "⚽ Alt — Boca Juniors (parrilla futbolera)",
+          "id": "8.19",
           "lat": 40.7362,
           "lng": -73.8788,
-          "desc": "Tipo: PARRILLA argentina futbolera — decorada de suelo a techo con memorabilia de fútbol, hinchada, ponen Argentina siempre. En: 81-08 Queens Blvd, Elmhurst. Argentino + comida + ambiente, pero es steakhouse y en Queens (~35-40 min desde la 14). Alternativa al líder Banter (8.14).",
-          "tags": []
+          "name": "⚽ Alt — Boca Juniors (parrilla futbolera)",
+          "time": "🔵 Alternativa"
         },
         {
-          "id": "8.20",
-          "time": "🔵 Alternativa",
+          "desc": "Tipo: CENA sentada — parrilla argentina del East Village (513 E 6th St) donde se junta la hinchada; a ~10-12 min andando de Manhattanhenge. Elegid esta si preferís CENAR (bife, empanadas, Malbec) más que estar de bar. ⚠️ RESERVAD con antelación (sábado de cuartos, se llena). Alternativa al líder Banter (8.14).",
           "dur": "East Village · cenar sentados",
-          "name": "⚽ Alt — Buenos Aires (cena, East Village)",
+          "id": "8.20",
           "lat": 40.725,
           "lng": -73.9834,
-          "desc": "Tipo: CENA sentada — parrilla argentina del East Village (513 E 6th St) donde se junta la hinchada; a ~10-12 min andando de Manhattanhenge. Elegid esta si preferís CENAR (bife, empanadas, Malbec) más que estar de bar. ⚠️ RESERVAD con antelación (sábado de cuartos, se llena). Alternativa al líder Banter (8.14).",
-          "tags": []
+          "name": "⚽ Alt — Buenos Aires (cena, East Village)",
+          "time": "🔵 Alternativa"
         },
         {
-          "id": "8.21",
-          "time": "🔵 Alternativa",
-          "dur": "LES · cenar sentados",
-          "name": "⚽ Alt — Balvanera (cena, LES)",
-          "lat": 40.7207,
-          "lng": -73.9853,
           "desc": "Tipo: CENA sentada (nivel alto) — cocina porteña del chef Fernando Navas (ex elBulli/Nobu), 152 Stanton St, LES. La opción más gastronómica si queréis cenar bien viendo el partido. ⚠️ RESERVAD. Alternativa al líder Banter (8.14).",
-          "tags": [],
-          "link": "https://www.balvanerarestaurants.com/"
+          "dur": "LES · cenar sentados",
+          "id": "8.21",
+          "lat": 40.7207,
+          "link": "https://www.balvanerarestaurants.com/",
+          "lng": -73.9853,
+          "name": "⚽ Alt — Balvanera (cena, LES)",
+          "time": "🔵 Alternativa"
         }
-      ]
+      ],
+      "subtitle": "Sábado 11 julio · SoHo/Chinatown/LES · puente a pie · Smorgasburg",
+      "tab": "Día 8 · Sáb 11",
+      "title": "Barrios + Williamsburg"
     },
     {
       "id": 9,
-      "tab": "Día 9 · Dom 12",
-      "title": "Mañana + Vuelta",
-      "subtitle": "Domingo 12 julio · 🔁 Mañana libre (repetir favoritos) · salir ~12:15 · vuelo 16:45 JFK",
       "places": [
         {
-          "id": "9.1",
-          "time": "Mañana",
+          "desc": "Sin plan fijo: estáis en plena zona Gramercy/Union Square, así que la mañana es para repetir lo que más os gustó — un último bagel, Washington Square, Union Square, la Strand, la Shake Shack ORIGINAL de Madison Square (abre 11:00)… Descansad, comprad lo que faltó y sin prisas. Lo que era 'obligatorio' ya está repartido en días anteriores, así que hoy no se pierde nada.",
           "dur": "libre",
-          "name": "🔁 Mañana libre — repetir favoritos",
+          "id": "9.1",
           "lat": 40.7349,
           "lng": -73.9846,
-          "tags": [],
-          "desc": "Sin plan fijo: estáis en plena zona Gramercy/Union Square, así que la mañana es para repetir lo que más os gustó — un último bagel, Washington Square, Union Square, la Strand, la Shake Shack ORIGINAL de Madison Square (abre 11:00)… Descansad, comprad lo que faltó y sin prisas. Lo que era 'obligatorio' ya está repartido en días anteriores, así que hoy no se pierde nada."
+          "name": "🔁 Mañana libre — repetir favoritos",
+          "time": "Mañana"
         },
         {
-          "id": "9.2",
-          "time": "12:15",
+          "desc": "Vuelo 16:45 (internacional → en JFK ~3h antes, ≈13:45). Salid del hotel hacia JFK NO más tarde de las 12:15-12:30 (check-out + maletas antes). AirTrain + metro (~75 min, ~11 $) o taxi (~50 min, ~70 $). Con margen, sin apurar.",
           "dur": "salida",
-          "name": "✈️ Check-out + salida a JFK",
+          "id": "9.2",
           "lat": 40.7349,
           "lng": -73.9846,
-          "tags": [],
-          "desc": "Vuelo 16:45 (internacional → en JFK ~3h antes, ≈13:45). Salid del hotel hacia JFK NO más tarde de las 12:15-12:30 (check-out + maletas antes). AirTrain + metro (~75 min, ~11 $) o taxi (~50 min, ~70 $). Con margen, sin apurar."
+          "name": "✈️ Check-out + salida a JFK",
+          "time": "12:15"
         }
-      ]
+      ],
+      "subtitle": "Domingo 12 julio · 🔁 Mañana libre (repetir favoritos) · salir ~12:15 · vuelo 16:45 JFK",
+      "tab": "Día 9 · Dom 12",
+      "title": "Mañana + Vuelta"
     }
   ],
+  "discarded": [
+    {
+      "desc": "Mirador de Rockefeller con la foto clásica del Empire + Central Park.",
+      "id": "d.2",
+      "lat": 40.7587,
+      "link": "https://www.rockefellercenter.com/attractions/top-of-the-rock-observation-deck/",
+      "lng": -73.9787,
+      "name": "Top of the Rock",
+      "reason": "Un solo mirador de pago (SUMMIT); solo si queréis esa foto concreta."
+    },
+    {
+      "desc": "Paseo marítimo histórico, Luna Park y los perritos de Nathan's.",
+      "id": "d.3",
+      "lat": 40.5743,
+      "link": "https://www.coneyisland.com/",
+      "lng": -73.979,
+      "name": "Coney Island",
+      "reason": "Lejos (~1h en metro); para un día de playa o futuro viaje."
+    },
+    {
+      "desc": "Isla-parque peatonal con vistas a la Estatua y el skyline (solo ferry).",
+      "id": "d.4",
+      "lat": 40.6896,
+      "link": "https://www.govisland.com/",
+      "lng": -74.0166,
+      "name": "Governors Island",
+      "reason": "Requiere medio día; futuro viaje."
+    },
+    {
+      "desc": "El gran parque de Brooklyn (mismos diseñadores que Central Park).",
+      "id": "d.5",
+      "lat": 40.6602,
+      "link": "https://www.prospectpark.org/",
+      "lng": -73.969,
+      "name": "Prospect Park",
+      "reason": "Redundante con Central Park y lejos."
+    },
+    {
+      "desc": "Jardín botánico (cerezos, jardín japonés), junto a Prospect Park.",
+      "id": "d.6",
+      "lat": 40.668,
+      "link": "https://www.bbg.org/",
+      "lng": -73.9632,
+      "name": "Brooklyn Botanic Garden",
+      "reason": "De pago (~22 $), lejos y redundante."
+    },
+    {
+      "desc": "Arte medieval en Fort Tryon Park; incluido en la entrada del Met (3 días).",
+      "id": "d.7",
+      "lat": 40.8649,
+      "link": "https://www.metmuseum.org/visit/plan-your-visit/met-cloisters",
+      "lng": -73.9314,
+      "name": "The Met Cloisters",
+      "reason": "Lejísimos al norte (~medio día), aunque la entrada del Met lo incluye."
+    },
+    {
+      "desc": "Playa surfera de Queens con paseo marítimo.",
+      "id": "d.9",
+      "lat": 40.5862,
+      "lng": -73.815,
+      "name": "Rockaway Beach",
+      "reason": "Lejos (~1h+); día de playa."
+    },
+    {
+      "desc": "Sede de la ONU junto al East River: banderas, jardines y la escultura del revólver anudado.",
+      "id": "d.10",
+      "lat": 40.7489,
+      "link": "https://www.un.org/",
+      "lng": -73.968,
+      "name": "United Nations HQ",
+      "reason": "El D4 ya iba con 11 paradas; no cabía sin recortar Midtown."
+    },
+    {
+      "desc": "Parque ribereño del Upper West Side junto al Hudson.",
+      "id": "d.11",
+      "lat": 40.799,
+      "lng": -73.972,
+      "name": "Riverside Park",
+      "reason": "Fuera de ruta; Central Park ya cubre el gran parque."
+    },
+    {
+      "desc": "Jardín formal del norte de Central Park (105th St).",
+      "id": "d.12",
+      "lat": 40.7935,
+      "link": "https://www.centralparknyc.org/locations/conservatory-garden",
+      "lng": -73.9519,
+      "name": "Conservatory Garden",
+      "reason": "Extremo norte del parque, fuera de la ruta del D2."
+    },
+    {
+      "desc": "Historia de NYC, en la Museum Mile (103rd/5th).",
+      "id": "d.13",
+      "lat": 40.7926,
+      "link": "https://www.mcny.org/",
+      "lng": -73.9518,
+      "name": "Museum of the City of New York",
+      "reason": "Ya hay 5 museos; un 6º recorta el ritmo."
+    },
+    {
+      "desc": "Barrio polaco-hipster al norte de Williamsburg, con parque ribereño.",
+      "id": "d.14",
+      "lat": 40.7305,
+      "lng": -73.9612,
+      "name": "Greenpoint (Franklin St + WNYC Transmitter Park)",
+      "reason": "Extendería el D8, ya lleno."
+    },
+    {
+      "desc": "Barrio de brownstones de Brooklyn (Court St), junto a Red Hook.",
+      "id": "d.15",
+      "lat": 40.6864,
+      "lng": -73.996,
+      "name": "Cobble Hill",
+      "reason": "Añadiría transbordo al D6; opcional."
+    },
+    {
+      "desc": "Atrio-jardín interior gratis cerca de la ONU (43rd St).",
+      "id": "d.17",
+      "lat": 40.7497,
+      "link": "https://www.fordfoundation.org/",
+      "lng": -73.9712,
+      "name": "Ford Foundation Atrium",
+      "reason": "No es 'de paso': atrio interior con REGISTRO previo (antes de las 17h del día anterior) + ID. Abre L-V 11-18 y sáb 10-16 (en julio NO cierra; los cierres son de finales de junio). Bloqueo real = ruta/horario: está en la 43rd con 2ª Av (Midtown este); el único día por Midtown (D4, mar) solo llega a esa esquina a las 19:05 (ya cerrado) y la tarde va por el oeste; el sábado (D8) va todo por el centro/Brooklyn."
+    }
+  ],
+  "emoji": "🗽",
+  "hotel": {
+    "lat": 40.7349,
+    "lng": -73.9846,
+    "name": "Hotel 17 – Extended Stay"
+  },
+  "id": "nueva-york-2026",
   "info": {
-    "transport": [
-      {
-        "label": "JFK → Manhattan",
-        "value": "Taxi/Uber ~70 $ (45-60 min) · AirTrain + metro ~11 $ (~75 min)"
-      },
-      {
-        "label": "Metro/bus (OMNY)",
-        "value": "Contactless, 3 $/viaje, tope semanal 35 $ (gratis tras 12 viajes en 7 días, por tarjeta). Sin MetroCard."
-      },
-      {
-        "label": "Ferries",
-        "value": "Staten Island Ferry gratis (Estatua) · NYC Ferry ~4,50-5 $ (Red Hook) · IKEA ferry gratis (findes)"
-      },
-      {
-        "label": "A pie",
-        "value": "Walking-first. Metro (con AC) permitido para cruzar ciudad en el pico de calor (~13-16h)."
-      }
-    ],
     "mundial": [
       {
         "label": "El cuadro en vuestras fechas",
@@ -1412,11 +2030,29 @@
         "value": "Si queréis un día de Mundial, mirad a finales de junio qué cruce hay esa tarde y dejad libre la franja de tarde/noche. Los octavos/cuartos van con horarios variados (de mediodía a la noche, hora local de NY)."
       }
     ],
+    "pendientes": [
+      {
+        "label": "🟠 Broadway (lotería del día) — decidir matinée vs noche",
+        "value": "SÍ queremos probar la lotería del día (barata ~30-50 $/persona, es POR función → vale también para matinée). Día recomendado: MIÉRCOLES 8 (lunes dark = sin teatro; jue/vie ya son noches tardías; sábado sería alternativa pero dropea Smorgasburg/Williamsburg). FALTA DECIDIR el tipo de función y según eso se dropea distinto: ① NOCHE (~19-20h, el sorteo se resuelve por la TARDE) → dropear 🌅 Little Island + Pier 57 (toda la tarde-noche del Hudson); contra: serían 3 noches tardías SEGUIDAS (mié teatro + jue cine + vie béisbol). ② MATINÉE (~14h, el sorteo se resuelve por la MAÑANA, así sabéis si toca ANTES de comprometer la tarde) → dropear el Whitney (museo, el de 22 entra gratis) + Chelsea Market (bloque de mediodía); MANTENÉIS el atardecer de Little Island; a favor: cero noche tardía y AC en el pico de calor. Si no toca la lotería, se sigue el plan normal sin perder nada."
+      },
+      {
+        "label": "🟢 D7 (vie) · comodín pre-Mets / Mundial",
+        "value": "El partido de los Mets es de NOCHE (19:15), así que la franja diurna del D7 es la MÁS flexible del viaje. El día de Queens (LIC → Jackson Heights → Flushing) se reserva en parte por si un CUARTO del Mundial cae ese día (los cuartos son 9–11 jul; el D7 es vie 10) → se vería en un bar de Jackson Heights. ⚠️ Si al final NO hay cuarto el vie 10: alternativa = pasar más tiempo por la MAÑANA en Manhattan (más 5ª Av, la mañana de Harlem/Columbia/Catedral —pines opcionales al inicio del D7—, o repetir favoritos) y EMPEZAR la ruta de Queens más tarde — hay tiempo de sobra hasta el partido. Es el comodín a usar si otros días van apretados."
+      },
+      {
+        "label": "🟢 Cena PST — miércoles 8 (lista de espera)",
+        "value": "Resuelto el día: PST el MIÉRCOLES 8 (D5), único día sin Mundial; el sábado 11 queda para el cuarto de Argentina (cena en Buenos Aires). Sigue en lista de espera del mié. Falta decidir en D5: opción (a) cena 19:00 saltando Little Island, u (b) Little Island + cena tardía ~20:55."
+      },
+      {
+        "label": "🟠 Sitio de los cuartos (vie 10 y sáb 11) — por decidir",
+        "value": "Los partidos son fijos; el SITIO se decide on the fly (toda la info en cada parada). D7 (vie 10, 15:00): LÍDER Mercado Little Spain (José Andrés, Hudson Yards, watch party oficial de España, 7 directo a Citi Field); alternativa Jackson Heights español (Cafe Salamanca / Addictive). D8 (sáb 11, 21:00, Argentina): LÍDER Banter (bar de fútbol, Williamsburg, cierra medianoche); alternativas Little Argentina/Roosevelt Ave (lo más auténtico), Boca Juniors (parrilla+hinchada), o cenar en Buenos Aires/Balvanera (reservad). El D3 sí está cerrado (fan zone de Brookfield Place)."
+      }
+    ],
     "reservas": [
       {
         "label": "✅ Kayak BBP Pier 2 (jue 9) — RESERVADO",
-        "value": "Hecho: turno reservado a las 17:00 en bbpboathouse.org (20 min con vistas al skyline).",
-        "link": "https://www.bbpboathouse.org/"
+        "link": "https://www.bbpboathouse.org/",
+        "value": "Hecho: turno reservado a las 17:00 en bbpboathouse.org (20 min con vistas al skyline)."
       },
       {
         "label": "✅ SUMMIT One Vanderbilt (mar 7) — comprado",
@@ -1455,745 +2091,321 @@
         "value": "Statue City Cruises (pisar la isla ~25,50 $; corona con meses). Octavos MetLife 5 jul = entrada FIFA."
       }
     ],
-    "pendientes": [
+    "transport": [
       {
-        "label": "🟠 Broadway (lotería del día) — decidir matinée vs noche",
-        "value": "SÍ queremos probar la lotería del día (barata ~30-50 $/persona, es POR función → vale también para matinée). Día recomendado: MIÉRCOLES 8 (lunes dark = sin teatro; jue/vie ya son noches tardías; sábado sería alternativa pero dropea Smorgasburg/Williamsburg). FALTA DECIDIR el tipo de función y según eso se dropea distinto: ① NOCHE (~19-20h, el sorteo se resuelve por la TARDE) → dropear 🌅 Little Island + Pier 57 (toda la tarde-noche del Hudson); contra: serían 3 noches tardías SEGUIDAS (mié teatro + jue cine + vie béisbol). ② MATINÉE (~14h, el sorteo se resuelve por la MAÑANA, así sabéis si toca ANTES de comprometer la tarde) → dropear el Whitney (museo, el de 22 entra gratis) + Chelsea Market (bloque de mediodía); MANTENÉIS el atardecer de Little Island; a favor: cero noche tardía y AC en el pico de calor. Si no toca la lotería, se sigue el plan normal sin perder nada."
+        "label": "JFK → Manhattan",
+        "value": "Taxi/Uber ~70 $ (45-60 min) · AirTrain + metro ~11 $ (~75 min)"
       },
       {
-        "label": "🟢 D7 (vie) · comodín pre-Mets / Mundial",
-        "value": "El partido de los Mets es de NOCHE (19:15), así que la franja diurna del D7 es la MÁS flexible del viaje. El día de Queens (LIC → Jackson Heights → Flushing) se reserva en parte por si un CUARTO del Mundial cae ese día (los cuartos son 9–11 jul; el D7 es vie 10) → se vería en un bar de Jackson Heights. ⚠️ Si al final NO hay cuarto el vie 10: alternativa = pasar más tiempo por la MAÑANA en Manhattan (más 5ª Av, la mañana de Harlem/Columbia/Catedral —pines opcionales al inicio del D7—, o repetir favoritos) y EMPEZAR la ruta de Queens más tarde — hay tiempo de sobra hasta el partido. Es el comodín a usar si otros días van apretados."
+        "label": "Metro/bus (OMNY)",
+        "value": "Contactless, 3 $/viaje, tope semanal 35 $ (gratis tras 12 viajes en 7 días, por tarjeta). Sin MetroCard."
       },
       {
-        "label": "🟢 Cena PST — miércoles 8 (lista de espera)",
-        "value": "Resuelto el día: PST el MIÉRCOLES 8 (D5), único día sin Mundial; el sábado 11 queda para el cuarto de Argentina (cena en Buenos Aires). Sigue en lista de espera del mié. Falta decidir en D5: opción (a) cena 19:00 saltando Little Island, u (b) Little Island + cena tardía ~20:55."
+        "label": "Ferries",
+        "value": "Staten Island Ferry gratis (Estatua) · NYC Ferry ~4,50-5 $ (Red Hook) · IKEA ferry gratis (findes)"
       },
       {
-        "label": "🟠 Sitio de los cuartos (vie 10 y sáb 11) — por decidir",
-        "value": "Los partidos son fijos; el SITIO se decide on the fly (toda la info en cada parada). D7 (vie 10, 15:00): LÍDER Mercado Little Spain (José Andrés, Hudson Yards, watch party oficial de España, 7 directo a Citi Field); alternativa Jackson Heights español (Cafe Salamanca / Addictive). D8 (sáb 11, 21:00, Argentina): LÍDER Banter (bar de fútbol, Williamsburg, cierra medianoche); alternativas Little Argentina/Roosevelt Ave (lo más auténtico), Boca Juniors (parrilla+hinchada), o cenar en Buenos Aires/Balvanera (reservad). El D3 sí está cerrado (fan zone de Brookfield Place)."
+        "label": "A pie",
+        "value": "Walking-first. Metro (con AC) permitido para cruzar ciudad en el pico de calor (~13-16h)."
       }
     ]
   },
+  "mapCenter": [
+    40.74,
+    -73.98
+  ],
+  "mapZoom": 12,
   "restaurants": [
     {
-      "id": "r.1",
-      "name": "Tal Bagels",
       "cat": "🥯 Bagels",
+      "desc": "Cadena fiable de bagels (UES, 1228 Lexington · varias sucursales).",
+      "id": "r.1",
       "lat": 40.7779,
       "lng": -73.9568,
-      "desc": "Cadena fiable de bagels (UES, 1228 Lexington · varias sucursales)."
+      "name": "Tal Bagels"
     },
     {
-      "id": "r.2",
-      "name": "Leon's Bagels",
       "cat": "🥯 Bagels",
+      "desc": "SoHo (169 Thompson St). También en Mulberry St y John St.",
+      "id": "r.2",
       "lat": 40.727,
       "lng": -74.0003,
-      "desc": "SoHo (169 Thompson St). También en Mulberry St y John St."
+      "name": "Leon's Bagels"
     },
     {
-      "id": "r.3",
-      "name": "Apollo Bagels",
       "cat": "🥯 Bagels",
+      "desc": "East Village (242 E 10th St). Mucha fama, suele haber cola.",
+      "id": "r.3",
       "lat": 40.7288,
       "lng": -73.9848,
-      "desc": "East Village (242 E 10th St). Mucha fama, suele haber cola."
+      "name": "Apollo Bagels"
     },
     {
-      "id": "r.4",
-      "name": "Joe's Pizza",
       "cat": "🍕 Pizza",
+      "desc": "Clásico de porción. Cadena; el original (flagship) en 7 Carmine St, Greenwich Village.",
+      "id": "r.4",
       "lat": 40.7305,
       "lng": -74.0027,
-      "desc": "Clásico de porción. Cadena; el original (flagship) en 7 Carmine St, Greenwich Village."
+      "name": "Joe's Pizza"
     },
     {
-      "id": "r.5",
-      "name": "Prince Street Pizza",
       "cat": "🍕 Pizza",
+      "desc": "Nolita (27 Prince St). Famosa por la 'pepperoni cup'.",
+      "id": "r.5",
       "lat": 40.7228,
       "lng": -73.9943,
-      "desc": "Nolita (27 Prince St). Famosa por la 'pepperoni cup'."
+      "name": "Prince Street Pizza"
     },
     {
-      "id": "r.6",
-      "name": "1 Dollar Pizza",
       "cat": "🍕 Pizza",
+      "desc": "Porción a ~1 $. Concepto de varias sucursales (tipo 2 Bros / 99¢); pin orientativo en St Marks Pl.",
+      "id": "r.6",
       "lat": 40.7287,
       "lng": -73.9886,
-      "desc": "Porción a ~1 $. Concepto de varias sucursales (tipo 2 Bros / 99¢); pin orientativo en St Marks Pl."
+      "name": "1 Dollar Pizza"
     },
     {
-      "id": "r.7",
-      "name": "Hamburger America",
       "cat": "🍔 Burgers",
+      "desc": "51 MacDougal St (SoHo). Smash burgers al estilo clásico.",
+      "id": "r.7",
       "lat": 40.728,
       "lng": -74.0025,
-      "desc": "51 MacDougal St (SoHo). Smash burgers al estilo clásico."
+      "name": "Hamburger America"
     },
     {
-      "id": "r.8",
-      "name": "7th Street Burger",
       "cat": "🍔 Burgers",
+      "desc": "Cadena en expansión; el original en 91 E 7th St (East Village).",
+      "id": "r.8",
       "lat": 40.7264,
       "lng": -73.9847,
-      "desc": "Cadena en expansión; el original en 91 E 7th St (East Village)."
+      "name": "7th Street Burger"
     },
     {
-      "id": "r.9",
-      "name": "Smashy Burger",
       "cat": "🍔 Burgers",
+      "desc": "42 Union Square East (Union Square).",
+      "id": "r.9",
       "lat": 40.736,
       "lng": -73.989,
-      "desc": "42 Union Square East (Union Square)."
+      "name": "Smashy Burger"
     },
     {
-      "id": "r.10",
-      "name": "Gotham Burger Social Club",
       "cat": "🍔 Burgers",
+      "desc": "131 Essex St (Lower East Side). Smash burger original del LES.",
+      "id": "r.10",
       "lat": 40.72,
       "lng": -73.9876,
-      "desc": "131 Essex St (Lower East Side). Smash burger original del LES."
+      "name": "Gotham Burger Social Club"
     },
     {
-      "id": "r.11",
-      "name": "Shake Shack (Upper West Side)",
       "cat": "🍔 Burgers",
+      "desc": "Cadena · 366 Columbus Ave (@77), a un paso del AMNH (D2).",
+      "id": "r.11",
       "lat": 40.78,
       "lng": -73.9762,
-      "desc": "Cadena · 366 Columbus Ave (@77), a un paso del AMNH (D2)."
+      "name": "Shake Shack (Upper West Side)"
     },
     {
-      "id": "r.12",
-      "name": "Smorgasburg Williamsburg",
       "cat": "🏬 Mercados y food halls",
+      "desc": "Mercado gastronómico al aire libre — solo SÁBADOS en Williamsburg (encaja con el D8).",
+      "id": "r.12",
       "lat": 40.7219,
       "lng": -73.9627,
-      "desc": "Mercado gastronómico al aire libre — solo SÁBADOS en Williamsburg (encaja con el D8)."
+      "name": "Smorgasburg Williamsburg"
     },
     {
-      "id": "r.13",
-      "name": "Chelsea Market",
       "cat": "🏬 Mercados y food halls",
+      "desc": "Ya en el plan (D5, mié). Mercado cubierto con muchos puestos.",
+      "id": "r.13",
       "lat": 40.7425,
       "lng": -74.0061,
-      "desc": "Ya en el plan (D5, mié). Mercado cubierto con muchos puestos."
+      "name": "Chelsea Market"
     },
     {
-      "id": "r.14",
-      "name": "Time Out Market",
       "cat": "🏬 Mercados y food halls",
+      "desc": "DUMBO (Brooklyn), 55 Water St. Azotea con vistas al puente de Brooklyn.",
+      "id": "r.14",
       "lat": 40.7027,
       "lng": -73.9906,
-      "desc": "DUMBO (Brooklyn), 55 Water St. Azotea con vistas al puente de Brooklyn."
+      "name": "Time Out Market"
     },
     {
-      "id": "r.15",
-      "name": "Essex Market",
       "cat": "🏬 Mercados y food halls",
+      "desc": "Lower East Side (88 Essex St). Rápido, justo al lado de Katz's (D8).",
+      "id": "r.15",
       "lat": 40.7186,
       "lng": -73.9881,
-      "desc": "Lower East Side (88 Essex St). Rápido, justo al lado de Katz's (D8)."
+      "name": "Essex Market"
     },
     {
-      "id": "r.16",
-      "name": "Brookfield Place",
       "cat": "🏬 Mercados y food halls",
+      "desc": "Financial District. Hudson Eats con vistas al río.",
+      "id": "r.16",
       "lat": 40.7128,
       "lng": -74.0151,
-      "desc": "Financial District. Hudson Eats con vistas al río."
+      "name": "Brookfield Place"
     },
     {
-      "id": "r.17",
-      "name": "Katz's Delicatessen",
       "cat": "🥩 Delis clásicos",
+      "desc": "EL deli histórico: pastrami, sándwiches enormes (~28 $), suele haber cola. Aquí se rodó la escena de 'When Harry Met Sally' (vuestra peli del cine del jue 9). 205 E Houston St, en pleno LES del D8 (sáb 11). Findes abierto 24h.",
+      "id": "r.17",
       "lat": 40.7223,
       "lng": -73.9874,
-      "desc": "EL deli histórico: pastrami, sándwiches enormes (~28 $), suele haber cola. Aquí se rodó la escena de 'When Harry Met Sally' (vuestra peli del cine del jue 9). 205 E Houston St, en pleno LES del D8 (sáb 11). Findes abierto 24h."
+      "name": "Katz's Delicatessen"
     },
     {
-      "id": "r.18",
-      "name": "Roberta's",
       "cat": "🥩 Delis clásicos",
+      "desc": "Pizza icónica de Brooklyn (Bushwick, 261 Moore St).",
+      "id": "r.18",
       "lat": 40.705,
       "lng": -73.9335,
-      "desc": "Pizza icónica de Brooklyn (Bushwick, 261 Moore St)."
+      "name": "Roberta's"
     },
     {
-      "id": "r.19",
-      "name": "Gray's Papaya",
       "cat": "🌭 Imprescindibles NY",
+      "desc": "Perritos calientes baratos, abierto siempre. 2090 Broadway (@72, UWS).",
+      "id": "r.19",
       "lat": 40.7787,
       "lng": -73.9819,
-      "desc": "Perritos calientes baratos, abierto siempre. 2090 Broadway (@72, UWS)."
+      "name": "Gray's Papaya"
     },
     {
-      "id": "r.20",
-      "name": "Lexington Candy Shop",
       "cat": "🌭 Imprescindibles NY",
+      "desc": "Luncheonette de 1925 (1226 Lexington, UES). Desayuno americano, pancakes.",
+      "id": "r.20",
       "lat": 40.7777,
       "lng": -73.9572,
-      "desc": "Luncheonette de 1925 (1226 Lexington, UES). Desayuno americano, pancakes."
+      "name": "Lexington Candy Shop"
     },
     {
-      "id": "r.21",
-      "name": "Starbucks Reserve Roastery",
       "cat": "☕ Café y dulces",
+      "desc": "La tienda insignia (Meatpacking, 61 Ninth Ave) — es el Starbucks 'icónico' que merece la pena; evitad las horas punta.",
+      "id": "r.21",
       "lat": 40.7416,
       "lng": -74.005,
-      "desc": "La tienda insignia (Meatpacking, 61 Ninth Ave) — es el Starbucks 'icónico' que merece la pena; evitad las horas punta."
+      "name": "Starbucks Reserve Roastery"
     },
     {
-      "id": "r.22",
-      "name": "Sunday Morning",
       "cat": "☕ Café y dulces",
+      "desc": "Cinnamon rolls (10 tipos al día). East Village (29 Ave B); también en NoMad (11 W 25th).",
+      "id": "r.22",
       "lat": 40.7227,
       "lng": -73.981,
-      "desc": "Cinnamon rolls (10 tipos al día). East Village (29 Ave B); también en NoMad (11 W 25th)."
+      "name": "Sunday Morning"
     },
     {
-      "id": "r.23",
-      "name": "Krispy Kreme",
       "cat": "☕ Café y dulces",
+      "desc": "Times Square (1601 Broadway). Con el cartel rojo 'Hot Light' encendido, donut glaseado recién hecho gratis.",
+      "id": "r.23",
       "lat": 40.7596,
       "lng": -73.9846,
-      "desc": "Times Square (1601 Broadway). Con el cartel rojo 'Hot Light' encendido, donut glaseado recién hecho gratis."
+      "name": "Krispy Kreme"
     },
     {
-      "id": "r.24",
-      "name": "Tim Hortons",
       "cat": "☕ Café y dulces",
+      "desc": "Cadena canadiense (café + donuts). 936 8th Ave; varias en Manhattan (Penn Station, Times Sq).",
+      "id": "r.24",
       "lat": 40.7657,
       "lng": -73.9846,
-      "desc": "Cadena canadiense (café + donuts). 936 8th Ave; varias en Manhattan (Penn Station, Times Sq)."
+      "name": "Tim Hortons"
     },
     {
-      "id": "r.28",
-      "name": "Una Pizza Napoletana",
       "cat": "🍕 Pizza",
+      "desc": "La napolitana top de la ciudad (Anthony Mangieri) — nº1 mundial 2025 según 50 Top Pizza. 175 Orchard St (LES). Solo jue–sáb; reserva por OpenTable con 2 semanas de antelación; cara.",
+      "id": "r.28",
       "lat": 40.7218,
       "lng": -73.9878,
-      "desc": "La napolitana top de la ciudad (Anthony Mangieri) — nº1 mundial 2025 según 50 Top Pizza. 175 Orchard St (LES). Solo jue–sáb; reserva por OpenTable con 2 semanas de antelación; cara."
+      "name": "Una Pizza Napoletana"
     },
     {
-      "id": "r.29",
-      "name": "Song'e Napule (Upper West)",
       "cat": "🍕 Pizza",
+      "desc": "Napolitana premiada (Gambero Rosso), más asequible. 464 Amsterdam Ave (@82-83, UWS); cerca del AMNH (D2).",
+      "id": "r.29",
       "lat": 40.7856,
       "lng": -73.9764,
-      "desc": "Napolitana premiada (Gambero Rosso), más asequible. 464 Amsterdam Ave (@82-83, UWS); cerca del AMNH (D2)."
+      "name": "Song'e Napule (Upper West)"
     },
     {
-      "id": "r.30",
-      "name": "Pizza Studio Tamaki (PST)",
       "cat": "🍕 Pizza",
+      "desc": "Pizza tokio-napolitana de Tsubasa Tamaki (masa 30 h). 123 St. Marks Pl (East Village). Es la CENA del D5 (mié 8) — reserva por SevenRooms, en lista de espera.",
+      "id": "r.30",
       "lat": 40.7277,
       "lng": -73.9835,
-      "desc": "Pizza tokio-napolitana de Tsubasa Tamaki (masa 30 h). 123 St. Marks Pl (East Village). Es la CENA del D5 (mié 8) — reserva por SevenRooms, en lista de espera."
+      "name": "Pizza Studio Tamaki (PST)"
     },
     {
-      "id": "r.31",
-      "name": "Pasquale Jones",
       "cat": "🍕 Pizza",
+      "desc": "Napolitana de horno de leña + platos italianos de temporada, ambiente de restaurante. 187 Mulberry St (Nolita).",
+      "id": "r.31",
       "lat": 40.7211,
       "lng": -73.9968,
-      "desc": "Napolitana de horno de leña + platos italianos de temporada, ambiente de restaurante. 187 Mulberry St (Nolita)."
+      "name": "Pasquale Jones"
     },
     {
-      "id": "r.32",
-      "name": "Square Diner",
       "cat": "🍳 Diners",
+      "desc": "Diner clásico tipo vagón (100+ años) en Finn Square. 33 Leonard St (Tribeca). Desayuno americano de toda la vida.",
+      "id": "r.32",
       "lat": 40.7178,
       "lng": -74.0043,
-      "desc": "Diner clásico tipo vagón (100+ años) en Finn Square. 33 Leonard St (Tribeca). Desayuno americano de toda la vida."
+      "name": "Square Diner"
     },
     {
-      "id": "r.33",
-      "name": "Westway Diner",
       "cat": "🍳 Diners",
+      "desc": "Diner familiar de Hell's Kitchen desde 1988. 614 9th Ave (@43-44), cerca de Times Sq/teatros.",
+      "id": "r.33",
       "lat": 40.7589,
       "lng": -73.9909,
-      "desc": "Diner familiar de Hell's Kitchen desde 1988. 614 9th Ave (@43-44), cerca de Times Sq/teatros."
+      "name": "Westway Diner"
     },
     {
-      "id": "r.34",
-      "name": "Golden Diner",
       "cat": "🍳 Diners",
+      "desc": "Diner moderno con toque asiático del chef Sam Yoo. 123 Madison St (Two Bridges), bajo el puente de Manhattan. Brunch muy top.",
+      "id": "r.34",
       "lat": 40.7124,
       "lng": -73.994,
-      "desc": "Diner moderno con toque asiático del chef Sam Yoo. 123 Madison St (Two Bridges), bajo el puente de Manhattan. Brunch muy top."
+      "name": "Golden Diner"
     },
     {
-      "id": "r.35",
-      "name": "Diner 24 NYC",
       "cat": "🍳 Diners",
+      "desc": "Diner 24 h de smash burgers y batidos. 283 3rd Ave (Gramercy), abierto siempre. (La antigua sede de Chelsea, 8th Ave, ya cerró.)",
+      "id": "r.35",
       "lat": 40.7386,
       "lng": -73.9835,
-      "desc": "Diner 24 h de smash burgers y batidos. 283 3rd Ave (Gramercy), abierto siempre. (La antigua sede de Chelsea, 8th Ave, ya cerró.)"
+      "name": "Diner 24 NYC"
     },
     {
-      "id": "r.36",
-      "name": "Mei Lai Wah",
       "cat": "🥟 Panaderías chinas (Chinatown)",
+      "desc": "Panadería histórica (1968), famosa por los pork buns (bollos de cerdo asado). Se mudó de Bayard St a 41 Mott St. Barato; solo efectivo.",
+      "id": "r.36",
       "lat": 40.7154,
       "lng": -73.9982,
-      "desc": "Panadería histórica (1968), famosa por los pork buns (bollos de cerdo asado). Se mudó de Bayard St a 41 Mott St. Barato; solo efectivo."
+      "name": "Mei Lai Wah"
     },
     {
-      "id": "r.37",
-      "name": "Tai Pan Bakery",
       "cat": "🥟 Panaderías chinas (Chinatown)",
+      "desc": "Panadería china concurrida: egg tarts, pineapple buns, tartas de fruta. 194 Canal St (Chinatown). Solo efectivo.",
+      "id": "r.37",
       "lat": 40.7182,
       "lng": -73.9974,
-      "desc": "Panadería china concurrida: egg tarts, pineapple buns, tartas de fruta. 194 Canal St (Chinatown). Solo efectivo."
+      "name": "Tai Pan Bakery"
     },
     {
+      "cat": "💡 Ideas sueltas",
+      "desc": "Pancakes, huevos, beicon… (Lexington Candy Shop encaja bien).",
       "id": "r.25",
-      "name": "Desayuno americano",
-      "cat": "💡 Ideas sueltas",
-      "desc": "Pancakes, huevos, beicon… (Lexington Candy Shop encaja bien)."
+      "name": "Desayuno americano"
     },
     {
+      "cat": "💡 Ideas sueltas",
+      "desc": "Comprar en un deli/mercado y comer en Central Park, Bryant Park, etc.",
       "id": "r.26",
-      "name": "Picnic en un parque",
-      "cat": "💡 Ideas sueltas",
-      "desc": "Comprar en un deli/mercado y comer en Central Park, Bryant Park, etc."
+      "name": "Picnic en un parque"
     },
     {
+      "cat": "💡 Ideas sueltas",
+      "desc": "Evitar trampas para turistas.",
       "id": "r.27",
-      "name": "Buscar recomendaciones locales",
-      "cat": "💡 Ideas sueltas",
-      "desc": "Evitar trampas para turistas."
+      "name": "Buscar recomendaciones locales"
     }
   ],
-  "cafes": [
-    {
-      "id": "c.1",
-      "name": "Neighborhood Coffee Shop (Neiberhud)",
-      "cat": "☕ SoHo · Nolita · NoHo",
-      "lat": 40.7248,
-      "lng": -74.0032,
-      "desc": "Café de barrio con aire europeo. 107 Thompson St (SoHo)."
-    },
-    {
-      "id": "c.2",
-      "name": "Café Integral",
-      "cat": "☕ SoHo · Nolita · NoHo",
-      "lat": 40.7207,
-      "lng": -73.9955,
-      "desc": "Solo café de Nicaragua, tostado propio. 149 Elizabeth St (Nolita)."
-    },
-    {
-      "id": "c.3",
-      "name": "Milkweed Studio",
-      "cat": "☕ SoHo · Nolita · NoHo",
-      "lat": 40.7188,
-      "lng": -73.9962,
-      "desc": "Micro-tostador de especialidad + espacio creativo. 166 Mott St (Little Italy)."
-    },
-    {
-      "id": "c.4",
-      "name": "PARK at KIMS",
-      "cat": "☕ SoHo · Nolita · NoHo",
-      "lat": 40.7189,
-      "lng": -73.9958,
-      "desc": "Café con tostadores coreanos. 119 Elizabeth St (Nolita)."
-    },
-    {
-      "id": "c.5",
-      "name": "THE ELK on Mott",
-      "cat": "☕ SoHo · Nolita · NoHo",
-      "lat": 40.7233,
-      "lng": -73.9948,
-      "desc": "Cafetería + general store muy fotogénica. 228 Mott St (Nolita). También sede original en West Village (128 Charles St)."
-    },
-    {
-      "id": "c.6",
-      "name": "ENLY",
-      "cat": "☕ SoHo · Nolita · NoHo",
-      "lat": 40.7232,
-      "lng": -73.9945,
-      "desc": "Famoso por el tiramisú latte y el matcha. 227 Mott St (Nolita)."
-    },
-    {
-      "id": "c.7",
-      "name": "Café Lyria",
-      "cat": "☕ SoHo · Nolita · NoHo",
-      "lat": 40.7258,
-      "lng": -73.9955,
-      "desc": "Café acogedor. 166 Crosby St (NoHo)."
-    },
-    {
-      "id": "c.8",
-      "name": "Manjul Coffee & Clothing",
-      "cat": "☕ SoHo · Nolita · NoHo",
-      "lat": 40.719,
-      "lng": -74.0002,
-      "desc": "Café + moda independiente en el mismo espacio. 31 Howard St (SoHo)."
-    },
-    {
-      "id": "c.9",
-      "name": "Fast Times",
-      "cat": "☕ SoHo · Nolita · NoHo",
-      "lat": 40.7212,
-      "lng": -74.0009,
-      "desc": "Café dentro de la tienda Buck Mason. 486 Broadway (SoHo)."
-    },
-    {
-      "id": "c.10",
-      "name": "La Cabra (SoHo)",
-      "cat": "☕ SoHo · Nolita · NoHo",
-      "lat": 40.7237,
-      "lng": -73.9963,
-      "desc": "Tostador nórdico premium + bollería (cardamom bun). 284 Lafayette St (SoHo)."
-    },
-    {
-      "id": "c.11",
-      "name": "% Arabica",
-      "cat": "☕ SoHo · Nolita · NoHo",
-      "lat": 40.7234,
-      "lng": -73.9938,
-      "desc": "Cadena japonesa de especialidad, minimalista. Pin en 8 Prince St (Nolita); varias sedes en NY (Dumbo con vistas al puente, Rockefeller, W 54th)."
-    },
-    {
-      "id": "c.12",
-      "name": "BUDDY BUDDY · Nut Butter Coffee",
-      "cat": "☕ SoHo · Nolita · NoHo",
-      "lat": 40.7255,
-      "lng": -73.9922,
-      "desc": "El primer coffee bar de mantequilla de frutos secos (de Bruselas). 340 Bowery (NoHo)."
-    },
-    {
-      "id": "c.13",
-      "name": "Dark Matter Coffee · ¡Adios Amigos!",
-      "cat": "☕ SoHo · Nolita · NoHo",
-      "lat": 40.7247,
-      "lng": -73.9924,
-      "desc": "Tostador de Chicago; incluye chocolatería Sleep Walk. 1 E 1st St (Bowery)."
-    },
-    {
-      "id": "c.14",
-      "name": "drip coffee makers",
-      "cat": "☕ SoHo · Nolita · NoHo",
-      "lat": 40.7236,
-      "lng": -74.006,
-      "desc": "Tostador de especialidad. Pin en 75 Varick St (Hudson Sq); varias sedes (Tribeca dentro de Shinola, Brooklyn Heights)."
-    },
-    {
-      "id": "c.15",
-      "name": "La Cabra (East Village)",
-      "cat": "☕ East Village · Bowery",
-      "lat": 40.7294,
-      "lng": -73.9868,
-      "desc": "La sede original NY del tostador nórdico + panadería. 152 2nd Ave (East Village)."
-    },
-    {
-      "id": "c.16",
-      "name": "Not As Bitter",
-      "cat": "☕ East Village · Bowery",
-      "lat": 40.7276,
-      "lng": -73.9812,
-      "desc": "Lattes de fruta fresca y cafés-cóctel. 241 E 10th St (East Village)."
-    },
-    {
-      "id": "c.17",
-      "name": "Hidden Grounds Chai & Coffee",
-      "cat": "☕ East Village · Bowery",
-      "lat": 40.73,
-      "lng": -73.9893,
-      "desc": "Tostador con fuerte apuesta por el chai. 36 3rd Ave (East Village)."
-    },
-    {
-      "id": "c.18",
-      "name": "Ludlow Coffee Supply",
-      "cat": "☕ Lower East Side · Chinatown",
-      "lat": 40.7217,
-      "lng": -73.9878,
-      "desc": "Café amplio y luminoso (con barbería). 176 Ludlow St (LES)."
-    },
-    {
-      "id": "c.19",
-      "name": "Mandrake Café",
-      "cat": "☕ Lower East Side · Chinatown",
-      "lat": 40.7217,
-      "lng": -73.9884,
-      "desc": "Café de Ciudad de México, granos de fincas lideradas por mujeres. 190 Orchard St (LES)."
-    },
-    {
-      "id": "c.20",
-      "name": "Silence Please",
-      "cat": "☕ Lower East Side · Chinatown",
-      "lat": 40.7176,
-      "lng": -73.9942,
-      "desc": "Listening bar con vinilos y hi-fi. 132 Bowery, 2ª planta (hay que llamar al timbre). Cierra lunes."
-    },
-    {
-      "id": "c.21",
-      "name": "le gaz",
-      "cat": "☕ Lower East Side · Chinatown",
-      "lat": 40.7148,
-      "lng": -73.9918,
-      "desc": "Café de especialidad dentro de la tienda Fugazi, toque vietnamita. 55 Canal St (Chinatown)."
-    },
-    {
-      "id": "c.22",
-      "name": "Oslo Coffee Roasters",
-      "cat": "☕ West Village · Tribeca",
-      "lat": 40.7339,
-      "lng": -74.0055,
-      "desc": "Tostador clásico de Brooklyn con sede en el West Village. 236 W 10th St."
-    },
-    {
-      "id": "c.23",
-      "name": "Jack's Stir Brew Coffee",
-      "cat": "☕ West Village · Tribeca",
-      "lat": 40.7342,
-      "lng": -74.0018,
-      "desc": "Café orgánico icónico del West Village. 138 W 10th St."
-    },
-    {
-      "id": "c.24",
-      "name": "Do Not Feed Alligators",
-      "cat": "☕ West Village · Tribeca",
-      "lat": 40.7344,
-      "lng": -74.0045,
-      "desc": "Café de especialidad muy fotogénico. 337 Bleecker St (West Village)."
-    },
-    {
-      "id": "c.25",
-      "name": "Rhythm Zero",
-      "cat": "☕ West Village · Tribeca",
-      "lat": 40.7345,
-      "lng": -74.0042,
-      "desc": "Café-tostador con estética cuidada. 328 Bleecker St (West Village)."
-    },
-    {
-      "id": "c.26",
-      "name": "Bedford Studio",
-      "cat": "☕ West Village · Tribeca",
-      "lat": 40.7302,
-      "lng": -74.0046,
-      "desc": "Café + espacio de trabajo colectivo. 62 Bedford St (West Village)."
-    },
-    {
-      "id": "c.27",
-      "name": "Asano",
-      "cat": "☕ West Village · Tribeca",
-      "lat": 40.7313,
-      "lng": -74.0032,
-      "desc": "Café de mañana estilo japonés. 289 Bleecker St (West Village); también en UES (322 E 86th St)."
-    },
-    {
-      "id": "c.28",
-      "name": "Laughing Man Coffee",
-      "cat": "☕ West Village · Tribeca",
-      "lat": 40.7175,
-      "lng": -74.0083,
-      "desc": "El café de Hugh Jackman, pequeño y con encanto. 184 Duane St (Tribeca)."
-    },
-    {
-      "id": "c.29",
-      "name": "Urbana Cafe and Gallery",
-      "cat": "☕ Chelsea · Flatiron · Midtown · UES",
-      "lat": 40.7443,
-      "lng": -74.0058,
-      "desc": "Café con galería de arte. 144 10th Ave (Chelsea), cerca del High Line."
-    },
-    {
-      "id": "c.30",
-      "name": "Foreigner NYC",
-      "cat": "☕ Chelsea · Flatiron · Midtown · UES",
-      "lat": 40.7411,
-      "lng": -73.9924,
-      "desc": "Café de especialidad (de la gente de East of Normal). 64 W 21st St (Flatiron)."
-    },
-    {
-      "id": "c.31",
-      "name": "WatchHouse 5th Ave.",
-      "cat": "☕ Chelsea · Flatiron · Midtown · UES",
-      "lat": 40.7601,
-      "lng": -73.9765,
-      "desc": "Primera sede en EE. UU. de la cadena londinense de especialidad. 660 5th Ave (Midtown)."
-    },
-    {
-      "id": "c.32",
-      "name": "L B Coffee",
-      "cat": "☕ Chelsea · Flatiron · Midtown · UES",
-      "lat": 40.7726,
-      "lng": -73.9497,
-      "desc": "Café de especialidad con toque de Oriente Medio ('albi' = mi corazón). 454 E 84th St (UES)."
-    },
-    {
-      "id": "c.33",
-      "name": "SEY Coffee",
-      "cat": "☕ Brooklyn",
-      "lat": 40.7062,
-      "lng": -73.9336,
-      "desc": "Micro-tostador top (mejor café de EE. UU. 2019, Food & Wine). 18 Grattan St (Bushwick). Merece el viaje a Brooklyn."
-    },
-    {
-      "id": "c.34",
-      "name": "Maru Coffee",
-      "cat": "☕ Brooklyn",
-      "lat": 40.7183,
-      "lng": -73.9629,
-      "desc": "Café minimalista traído de Los Ángeles. 320 Wythe Ave (Williamsburg)."
-    },
-    {
-      "id": "c.35",
-      "name": "PPL",
-      "cat": "☕ Brooklyn",
-      "lat": 40.7145,
-      "lng": -73.9556,
-      "desc": "Café de especialidad. 189 Roebling St (Williamsburg)."
-    },
-    {
-      "id": "c.36",
-      "name": "Apartment Ra'el",
-      "cat": "☕ Brooklyn",
-      "lat": 40.6912,
-      "lng": -73.9557,
-      "desc": "Concept store: café + decoración vintage. 1124 Bedford Ave (Bed-Stuy)."
-    },
-    {
-      "id": "c.37",
-      "name": "Nako",
-      "cat": "☕ Brooklyn",
-      "lat": 40.6931,
-      "lng": -73.9994,
-      "desc": "Café escondido en Willowtown, cerca de Brooklyn Bridge Park. 18 Columbia Pl (Brooklyn Heights)."
-    },
-    {
-      "id": "c.38",
-      "name": "Hungry Ghost Coffee",
-      "cat": "☕ Brooklyn",
-      "lat": 40.6861,
-      "lng": -73.9736,
-      "desc": "Mini-cadena de Brooklyn. Pin en Fort Greene (781 Fulton St); varias sedes (Prospect Heights, Park Slope…)."
-    }
-  ],
-  "discarded": [
-    {
-      "id": "d.2",
-      "name": "Top of the Rock",
-      "lat": 40.7587,
-      "lng": -73.9787,
-      "desc": "Mirador de Rockefeller con la foto clásica del Empire + Central Park.",
-      "reason": "Un solo mirador de pago (SUMMIT); solo si queréis esa foto concreta.",
-      "link": "https://www.rockefellercenter.com/attractions/top-of-the-rock-observation-deck/"
-    },
-    {
-      "id": "d.3",
-      "name": "Coney Island",
-      "lat": 40.5743,
-      "lng": -73.979,
-      "desc": "Paseo marítimo histórico, Luna Park y los perritos de Nathan's.",
-      "reason": "Lejos (~1h en metro); para un día de playa o futuro viaje.",
-      "link": "https://www.coneyisland.com/"
-    },
-    {
-      "id": "d.4",
-      "name": "Governors Island",
-      "lat": 40.6896,
-      "lng": -74.0166,
-      "desc": "Isla-parque peatonal con vistas a la Estatua y el skyline (solo ferry).",
-      "reason": "Requiere medio día; futuro viaje.",
-      "link": "https://www.govisland.com/"
-    },
-    {
-      "id": "d.5",
-      "name": "Prospect Park",
-      "lat": 40.6602,
-      "lng": -73.969,
-      "desc": "El gran parque de Brooklyn (mismos diseñadores que Central Park).",
-      "reason": "Redundante con Central Park y lejos.",
-      "link": "https://www.prospectpark.org/"
-    },
-    {
-      "id": "d.6",
-      "name": "Brooklyn Botanic Garden",
-      "lat": 40.668,
-      "lng": -73.9632,
-      "desc": "Jardín botánico (cerezos, jardín japonés), junto a Prospect Park.",
-      "reason": "De pago (~22 $), lejos y redundante.",
-      "link": "https://www.bbg.org/"
-    },
-    {
-      "id": "d.7",
-      "name": "The Met Cloisters",
-      "lat": 40.8649,
-      "lng": -73.9314,
-      "desc": "Arte medieval en Fort Tryon Park; incluido en la entrada del Met (3 días).",
-      "reason": "Lejísimos al norte (~medio día), aunque la entrada del Met lo incluye.",
-      "link": "https://www.metmuseum.org/visit/plan-your-visit/met-cloisters"
-    },
-    {
-      "id": "d.9",
-      "name": "Rockaway Beach",
-      "lat": 40.5862,
-      "lng": -73.815,
-      "desc": "Playa surfera de Queens con paseo marítimo.",
-      "reason": "Lejos (~1h+); día de playa."
-    },
-    {
-      "id": "d.10",
-      "name": "United Nations HQ",
-      "lat": 40.7489,
-      "lng": -73.968,
-      "desc": "Sede de la ONU junto al East River: banderas, jardines y la escultura del revólver anudado.",
-      "reason": "El D4 ya iba con 11 paradas; no cabía sin recortar Midtown.",
-      "link": "https://www.un.org/"
-    },
-    {
-      "id": "d.11",
-      "name": "Riverside Park",
-      "lat": 40.799,
-      "lng": -73.972,
-      "desc": "Parque ribereño del Upper West Side junto al Hudson.",
-      "reason": "Fuera de ruta; Central Park ya cubre el gran parque."
-    },
-    {
-      "id": "d.12",
-      "name": "Conservatory Garden",
-      "lat": 40.7935,
-      "lng": -73.9519,
-      "desc": "Jardín formal del norte de Central Park (105th St).",
-      "reason": "Extremo norte del parque, fuera de la ruta del D2.",
-      "link": "https://www.centralparknyc.org/locations/conservatory-garden"
-    },
-    {
-      "id": "d.13",
-      "name": "Museum of the City of New York",
-      "lat": 40.7926,
-      "lng": -73.9518,
-      "desc": "Historia de NYC, en la Museum Mile (103rd/5th).",
-      "reason": "Ya hay 5 museos; un 6º recorta el ritmo.",
-      "link": "https://www.mcny.org/"
-    },
-    {
-      "id": "d.14",
-      "name": "Greenpoint (Franklin St + WNYC Transmitter Park)",
-      "lat": 40.7305,
-      "lng": -73.9612,
-      "desc": "Barrio polaco-hipster al norte de Williamsburg, con parque ribereño.",
-      "reason": "Extendería el D8, ya lleno."
-    },
-    {
-      "id": "d.15",
-      "name": "Cobble Hill",
-      "lat": 40.6864,
-      "lng": -73.996,
-      "desc": "Barrio de brownstones de Brooklyn (Court St), junto a Red Hook.",
-      "reason": "Añadiría transbordo al D6; opcional."
-    },
-    {
-      "id": "d.17",
-      "name": "Ford Foundation Atrium",
-      "lat": 40.7497,
-      "lng": -73.9712,
-      "desc": "Atrio-jardín interior gratis cerca de la ONU (43rd St).",
-      "reason": "No es 'de paso': atrio interior con REGISTRO previo (antes de las 17h del día anterior) + ID. Abre L-V 11-18 y sáb 10-16 (en julio NO cierra; los cierres son de finales de junio). Bloqueo real = ruta/horario: está en la 43rd con 2ª Av (Midtown este); el único día por Midtown (D4, mar) solo llega a esa esquina a las 19:05 (ya cerrado) y la tarde va por el oeste; el sábado (D8) va todo por el centro/Brooklyn.",
-      "link": "https://www.fordfoundation.org/"
-    }
-  ]
+  "title": "Nueva York 2026"
 }
