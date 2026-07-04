@@ -26,6 +26,16 @@
         :title="store.showRestaurants ? 'Ocultar restaurantes del mapa' : 'Mostrar restaurantes junto a cada día'"
         @click.stop="emit('toggleRestaurants')"
       >👁</span>
+      <span
+        v-if="tab.id === 'cafes'"
+        class="rest-eye"
+        :class="{ on: store.showCafes }"
+        role="button"
+        :aria-pressed="store.showCafes"
+        :aria-label="store.showCafes ? 'Ocultar cafeterías del mapa' : 'Mostrar cafeterías junto a cada día'"
+        :title="store.showCafes ? 'Ocultar cafeterías del mapa' : 'Mostrar cafeterías junto a cada día'"
+        @click.stop="emit('toggleCafes')"
+      >👁</span>
     </button>
   </div>
 </template>
@@ -35,7 +45,7 @@ import { computed, ref, onBeforeUnmount } from 'vue'
 import { useTripStore } from '../stores/trip.js'
 
 const store = useTripStore()
-const emit = defineEmits(['selectDay', 'toggleRestaurants'])
+const emit = defineEmits(['selectDay', 'toggleRestaurants', 'toggleCafes'])
 
 // Arrastrar con el ratón para hacer scroll horizontal en laptop (el táctil ya
 // usa el scroll nativo; solo interceptamos el puntero de ratón).

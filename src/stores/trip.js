@@ -10,6 +10,7 @@ export const useTripStore = defineStore('trip', () => {
   const activeDay = ref(null)
   const activeMarkerId = ref(null)
   const showRestaurants = ref(false) // overlay de restaurantes sobre cualquier día (UI efímera)
+  const showCafes = ref(false) // overlay de cafeterías sobre cualquier día (UI efímera)
   const tripsIndex = ref([])
   const { initSync, pushEdits, fetchRemote, stopSync, syncing } = useSync()
 
@@ -144,6 +145,7 @@ export const useTripStore = defineStore('trip', () => {
     activeDay.value = trip.value.days[0]?.id ?? null
     activeMarkerId.value = null
     showRestaurants.value = false
+    showCafes.value = false
 
     // Start real-time sync listener
     initSync(tripId, (remoteData) => {
@@ -175,6 +177,10 @@ export const useTripStore = defineStore('trip', () => {
 
   function toggleRestaurants() {
     showRestaurants.value = !showRestaurants.value
+  }
+
+  function toggleCafes() {
+    showCafes.value = !showCafes.value
   }
 
   function updatePlace(dayId, placeId, updates) {
@@ -301,6 +307,7 @@ export const useTripStore = defineStore('trip', () => {
     activeDay,
     activeMarkerId,
     showRestaurants,
+    showCafes,
     tripsIndex,
     // Computed
     currentDay,
@@ -312,6 +319,7 @@ export const useTripStore = defineStore('trip', () => {
     setActiveDay,
     setActiveMarker,
     toggleRestaurants,
+    toggleCafes,
     updatePlace,
     addPlace,
     removePlace,
