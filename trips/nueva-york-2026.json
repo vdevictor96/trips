@@ -1,5 +1,5 @@
 {
-  "_v": 50,
+  "_v": 51,
   "id": "nueva-york-2026",
   "title": "Nueva York 2026",
   "emoji": "🗽",
@@ -1666,6 +1666,86 @@
       "lat": 40.7657,
       "lng": -73.9846,
       "desc": "Cadena canadiense (café + donuts). 936 8th Ave; varias en Manhattan (Penn Station, Times Sq)."
+    },
+    {
+      "id": "r.28",
+      "name": "Una Pizza Napoletana",
+      "cat": "🍕 Pizza",
+      "lat": 40.7218,
+      "lng": -73.9878,
+      "desc": "La napolitana top de la ciudad (Anthony Mangieri) — nº1 mundial 2025 según 50 Top Pizza. 175 Orchard St (LES). Solo jue–sáb; reserva por OpenTable con 2 semanas de antelación; cara."
+    },
+    {
+      "id": "r.29",
+      "name": "Song'e Napule (Upper West)",
+      "cat": "🍕 Pizza",
+      "lat": 40.7856,
+      "lng": -73.9764,
+      "desc": "Napolitana premiada (Gambero Rosso), más asequible. 464 Amsterdam Ave (@82-83, UWS); cerca del AMNH (D2)."
+    },
+    {
+      "id": "r.30",
+      "name": "Pizza Studio Tamaki (PST)",
+      "cat": "🍕 Pizza",
+      "lat": 40.7277,
+      "lng": -73.9835,
+      "desc": "Pizza tokio-napolitana de Tsubasa Tamaki (masa 30 h). 123 St. Marks Pl (East Village). Es la CENA del D5 (mié 8) — reserva por SevenRooms, en lista de espera."
+    },
+    {
+      "id": "r.31",
+      "name": "Pasquale Jones",
+      "cat": "🍕 Pizza",
+      "lat": 40.7211,
+      "lng": -73.9968,
+      "desc": "Napolitana de horno de leña + platos italianos de temporada, ambiente de restaurante. 187 Mulberry St (Nolita)."
+    },
+    {
+      "id": "r.32",
+      "name": "Square Diner",
+      "cat": "🍳 Diners",
+      "lat": 40.7178,
+      "lng": -74.0043,
+      "desc": "Diner clásico tipo vagón (100+ años) en Finn Square. 33 Leonard St (Tribeca). Desayuno americano de toda la vida."
+    },
+    {
+      "id": "r.33",
+      "name": "Westway Diner",
+      "cat": "🍳 Diners",
+      "lat": 40.7589,
+      "lng": -73.9909,
+      "desc": "Diner familiar de Hell's Kitchen desde 1988. 614 9th Ave (@43-44), cerca de Times Sq/teatros."
+    },
+    {
+      "id": "r.34",
+      "name": "Golden Diner",
+      "cat": "🍳 Diners",
+      "lat": 40.7124,
+      "lng": -73.994,
+      "desc": "Diner moderno con toque asiático del chef Sam Yoo. 123 Madison St (Two Bridges), bajo el puente de Manhattan. Brunch muy top."
+    },
+    {
+      "id": "r.35",
+      "name": "Diner 24 NYC",
+      "cat": "🍳 Diners",
+      "lat": 40.7386,
+      "lng": -73.9835,
+      "desc": "Diner 24 h de smash burgers y batidos. 283 3rd Ave (Gramercy), abierto siempre. (La antigua sede de Chelsea, 8th Ave, ya cerró.)"
+    },
+    {
+      "id": "r.36",
+      "name": "Mei Lai Wah",
+      "cat": "🥟 Panaderías chinas (Chinatown)",
+      "lat": 40.7154,
+      "lng": -73.9982,
+      "desc": "Panadería histórica (1968), famosa por los pork buns (bollos de cerdo asado). Se mudó de Bayard St a 41 Mott St. Barato; solo efectivo."
+    },
+    {
+      "id": "r.37",
+      "name": "Tai Pan Bakery",
+      "cat": "🥟 Panaderías chinas (Chinatown)",
+      "lat": 40.7182,
+      "lng": -73.9974,
+      "desc": "Panadería china concurrida: egg tarts, pineapple buns, tartas de fruta. 194 Canal St (Chinatown). Solo efectivo."
     },
     {
       "id": "r.25",
