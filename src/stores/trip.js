@@ -3,6 +3,8 @@ import { ref, computed } from 'vue'
 import { useSync } from '../composables/useSync.js'
 
 const DEFAULT_COLORS = ['#f7b731','#26de81','#fc5c65','#a55eea','#4b7bec','#fd9644','#2bcbba','#eb3b5a']
+// Color fijo del día comodín "Pendientes" (slate, distinto de los colores de día)
+const PENDING_COLOR = '#778ca3'
 
 export const useTripStore = defineStore('trip', () => {
   // State
@@ -97,7 +99,23 @@ export const useTripStore = defineStore('trip', () => {
 
   function _applyDefaults(data) {
     const colors = data.dayColors || DEFAULT_COLORS
-    data.days.forEach((d, i) => { d.color = colors[i % colors.length] })
+    // Día comodín "Pendientes": cosas que no dio tiempo de ver otros días.
+    // Se inyecta en runtime para que exista en todos los viajes sin editar sus JSON.
+    if (!data.days.some(d => d.wildcard || d.id === 'pending')) {
+      data.days.push({
+        id: 'pending',
+        wildcard: true,
+        tab: '🃏 Pendientes',
+        title: 'Pendientes',
+        subtitle: 'Cosas que no dio tiempo de ver otros días. Añádelas aquí como si fuera un día comodín y muévelas cuando encuentres hueco.',
+        places: [],
+      })
+    }
+    // Color por índice solo para días normales; el comodín usa un color fijo.
+    let ci = 0
+    data.days.forEach(d => {
+      d.color = d.wildcard ? PENDING_COLOR : colors[ci++ % colors.length]
+    })
     if (!data.notes) data.notes = []
     // Migrate old text-only notes to new { title, desc, link } model
     data.notes.forEach(n => {

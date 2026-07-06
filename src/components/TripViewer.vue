@@ -60,6 +60,12 @@ const { getPlaceDetails } = useGooglePlaces()
 const mapViewRef = ref(null)
 const sheetRef = ref(null)
 
+// Etiqueta de destino para toasts: "Pendientes" para el comodín, "Día N" para el resto
+function dayLabel(dayId) {
+  const d = store.trip?.days.find(x => x.id === dayId)
+  return d?.wildcard ? 'Pendientes' : `Día ${dayId}`
+}
+
 // Provide map functions to children
 const mapApi = useMap()
 provide('mapApi', mapApi)
@@ -129,7 +135,7 @@ function handlePreviewSearchResult(result) {
       googlePlaceId: result.googlePlaceId,
     }
     store.addPlace(dayId, place)
-    show(`${result.name} añadido a Día ${dayId}`)
+    show(`${result.name} añadido a ${dayLabel(dayId)}`)
     mapApi.clearSearchMarkers()
     rebuildMarkers()
   })
@@ -183,7 +189,7 @@ mapApi.onPoiClick(async (googlePlaceId, latLng) => {
       googlePlaceId,
     }
     store.addPlace(dayId, place)
-    show(`${result.name} añadido a Día ${dayId}`)
+    show(`${result.name} añadido a ${dayLabel(dayId)}`)
     rebuildMarkers()
   })
 })

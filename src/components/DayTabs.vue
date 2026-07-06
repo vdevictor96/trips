@@ -83,7 +83,12 @@ onBeforeUnmount(onPointerUp)
 
 const tabs = computed(() => {
   if (!store.trip) return []
-  const t = store.trip.days.map(d => ({ id: d.id, label: d.tab, color: d.color }))
+  const t = store.trip.days
+    .filter(d => !d.wildcard)
+    .map(d => ({ id: d.id, label: d.tab, color: d.color }))
+  // Pastilla comodín "Pendientes", justo tras los días normales
+  const pending = store.trip.days.find(d => d.wildcard)
+  if (pending) t.push({ id: pending.id, label: pending.tab, color: pending.color })
   t.push({ id: 'info', label: 'ℹ️ Info útil', color: null })
   if (store.trip.restaurants?.length) {
     t.push({ id: 'restaurants', label: '🍴 Restauración', color: null })
