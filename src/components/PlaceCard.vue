@@ -35,7 +35,7 @@
         :style="{ background: d.color, color: 'var(--bg)' }"
         @click="handleMove(d.id)"
       >
-        Día {{ d.id }}
+        {{ d.wildcard ? '🃏 Pendientes' : 'Día ' + d.id }}
       </button>
       <button class="move-day-pill cancel" @click="showMoveMenu = false">✕</button>
     </div>
@@ -91,10 +91,11 @@ function handleMove(targetDayId) {
   const fromIndex = props.index
   const targetDay = store.trip.days.find(d => d.id === targetDayId)
   const movedPlace = { ...props.place }
+  const targetLabel = targetDay.wildcard ? 'Pendientes' : `Día ${targetDayId}`
   store.movePlace(fromDayId, targetDayId, fromIndex, targetDay.places.length)
   showMoveMenu.value = false
   rebuildMarkers?.()
-  showUndo(`"${movedPlace.name}" → Día ${targetDayId}`, () => {
+  showUndo(`"${movedPlace.name}" → ${targetLabel}`, () => {
     const newDay = store.trip.days.find(d => d.id === targetDayId)
     const newIdx = newDay.places.findIndex(p => p.lat === movedPlace.lat && p.lng === movedPlace.lng)
     if (newIdx !== -1) {

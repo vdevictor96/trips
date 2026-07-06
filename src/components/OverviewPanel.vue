@@ -4,7 +4,7 @@
     <p class="day-subtitle">Todos los días del viaje. Toca un día para ver detalles.</p>
 
     <div
-      v-for="d in store.trip.days"
+      v-for="d in normalDays"
       :key="d.id"
       class="place-card overview-card"
       :style="{ borderLeftColor: d.color, cursor: 'pointer' }"
@@ -13,6 +13,17 @@
       <div class="place-time" :style="{ color: d.color }">Día {{ d.id }} · {{ d.places.length }} sitios</div>
       <div class="place-name">{{ d.title }}</div>
       <div class="place-desc" style="color:var(--text-dim)">{{ d.subtitle }}</div>
+    </div>
+
+    <div
+      v-if="pendingDay"
+      class="place-card overview-card"
+      :style="{ borderLeftColor: pendingDay.color, cursor: 'pointer' }"
+      @click="emit('navigate', pendingDay.id)"
+    >
+      <div class="place-time" :style="{ color: pendingDay.color }">🃏 Pendientes · {{ pendingDay.places.length }} sitios</div>
+      <div class="place-name">Comodín: lo que no dio tiempo</div>
+      <div class="place-desc" style="color:var(--text-dim)">Añade aquí planes sueltos y muévelos a un día cuando encuentres hueco.</div>
     </div>
 
     <div
@@ -57,8 +68,12 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import { useTripStore } from '../stores/trip.js'
 
 const store = useTripStore()
 const emit = defineEmits(['navigate'])
+
+const normalDays = computed(() => store.trip.days.filter(d => !d.wildcard))
+const pendingDay = computed(() => store.trip.days.find(d => d.wildcard))
 </script>

@@ -318,6 +318,9 @@ html, body {
   border-color: var(--accent);
 }
 .day-tab[data-day="info"].active { background: var(--blue); border-color: var(--blue); }
+/* Pastilla comodín "Pendientes": borde discontinuo para leerse como día flexible */
+.day-tab[data-day="pending"] { border-style: dashed; }
+.day-tab[data-day="pending"].active { border-style: solid; }
 
 /* Ojo toggle en la pill de Restauración: overlay de restaurantes sobre cualquier día */
 .rest-eye {

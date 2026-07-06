@@ -621,7 +621,7 @@ export function useMap() {
     if (!map.value) return
 
     const dayOptions = days.map(d =>
-      `<option value="${d.id}">Día ${d.id}</option>`
+      `<option value="${d.id}">${d.wildcard ? '🃏 Pendientes' : 'Día ' + d.id}</option>`
     ).join('')
 
     const gmapLink = buildGmapUrl(result, store.trip?.city)
@@ -645,7 +645,9 @@ export function useMap() {
       const select = document.getElementById('iw-day-select')
       if (btn && select) {
         btn.addEventListener('click', () => {
-          const dayId = parseInt(select.value)
+          // Los días normales tienen id numérico; el comodín usa 'pending'
+          const raw = select.value
+          const dayId = /^\d+$/.test(raw) ? parseInt(raw) : raw
           onAdd(dayId)
           infoWindow.close()
         })
