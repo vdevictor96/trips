@@ -129,6 +129,39 @@ export const useTripStore = defineStore('trip', () => {
     return data
   }
 
+  // Meses en español → número (para deducir la fecha de cada día desde su texto)
+  const MONTHS_ES = {
+    enero: 1, febrero: 2, marzo: 3, abril: 4, mayo: 5, junio: 6,
+    julio: 7, agosto: 8, septiembre: 9, setiembre: 9, octubre: 10,
+    noviembre: 11, diciembre: 12,
+  }
+
+  // Deduce 'YYYY-MM-DD' de un día a partir de su subtitle/tab (ej. "Domingo 5 julio").
+  // Lee campos que ya existen en todas las versiones → sin migrar datos.
+  function _dayDateStr(day, year) {
+    const text = `${day.subtitle || ''} ${day.tab || ''}`.toLowerCase()
+    const m = text.match(/(\d{1,2})\s+(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)/)
+    if (!m) return null
+    const dd = parseInt(m[1], 10)
+    const mm = MONTHS_ES[m[2]]
+    if (!mm || dd < 1 || dd > 31) return null
+    return `${year}-${String(mm).padStart(2, '0')}-${String(dd).padStart(2, '0')}`
+  }
+
+  // Día a seleccionar al abrir: el que cae hoy si el viaje está en curso; si no, el primero.
+  function _pickInitialDay(t) {
+    const first = t.days.find(d => !d.wildcard)?.id ?? t.days[0]?.id ?? null
+    const yearMatch = String(t.dates || '').match(/(\d{4})/)
+    const year = yearMatch ? parseInt(yearMatch[1], 10) : new Date().getFullYear()
+    const now = new Date()
+    const todayStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`
+    for (const d of t.days) {
+      if (d.wildcard) continue
+      if (_dayDateStr(d, year) === todayStr) return d.id // primer match = día principal (antes que su ALT)
+    }
+    return first
+  }
+
   async function loadTrip(tripId) {
     // Fetch static JSON (deployed) and Firebase in parallel
     const [remote, staticData] = await Promise.all([
@@ -160,7 +193,7 @@ export const useTripStore = defineStore('trip', () => {
     trip.value = _applyDefaults(source)
     saveEdits() // cache locally
 
-    activeDay.value = trip.value.days[0]?.id ?? null
+    activeDay.value = _pickInitialDay(trip.value)
     activeMarkerId.value = null
     showRestaurants.value = false
     showCafes.value = false
