@@ -41,11 +41,28 @@
 </template>
 
 <script setup>
-import { computed, ref, onBeforeUnmount } from 'vue'
+import { computed, ref, onBeforeUnmount, onMounted, watch, nextTick } from 'vue'
 import { useTripStore } from '../stores/trip.js'
 
 const store = useTripStore()
 const emit = defineEmits(['selectDay', 'toggleRestaurants', 'toggleCafes'])
+
+// Centra la pastilla activa en la fila con scroll horizontal (p. ej. al abrir
+// en el día actual, que puede quedar fuera de vista si es el día 3+).
+function scrollActiveIntoView(smooth = true) {
+  const container = tabsEl.value
+  if (!container) return
+  const el = container.querySelector('.day-tab.active')
+  if (!el) return
+  const cRect = container.getBoundingClientRect()
+  const eRect = el.getBoundingClientRect()
+  const delta = (eRect.left - cRect.left) - (container.clientWidth - el.clientWidth) / 2
+  container.scrollBy({ left: delta, behavior: smooth ? 'smooth' : 'auto' })
+}
+
+onMounted(() => nextTick(() => scrollActiveIntoView(false)))
+// Reaccionar a cambios del día activo (carga inicial / deep link / navegación)
+watch(() => store.activeDay, () => nextTick(() => scrollActiveIntoView()))
 
 // Arrastrar con el ratón para hacer scroll horizontal en laptop (el táctil ya
 // usa el scroll nativo; solo interceptamos el puntero de ratón).
