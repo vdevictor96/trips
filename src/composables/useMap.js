@@ -42,6 +42,12 @@ function buildPopupHtml(place, color, city) {
   return `<div class="iw-custom"><b>${place.name}</b><br><span class="iw-time" style="--iw-time-color:${color}">${place.time || ''}</span>${place.dur ? ' · ' + place.dur : ''}${place.desc ? '<br><span class="iw-desc">' + place.desc + '</span>' : ''}<br><a href="${gmapLink}" target="_blank" class="gmaps-link">📍 Google Maps</a>${place.link ? ' · <a href="' + place.link + '" target="_blank">Más info →</a>' : ''}</div>`
 }
 
+// Timestamp of the last interaction with one of our custom pins. Google may
+// fire a native POI click for an icon sitting underneath a pin right after the
+// pin is tapped; we use this to ignore that click so the pin's popup isn't
+// hijacked and the camera doesn't jump away. See the map 'click' listener.
+let lastMarkerInteractionTs = 0
+
 // HtmlMarker class — created after Google Maps API loads
 let HtmlMarkerClass = null
 
@@ -63,8 +69,15 @@ function ensureHtmlMarkerClass() {
       this._div = document.createElement('div')
       this._div.className = 'gmap-marker-wrapper'
       this._div.innerHTML = this._html
+      // Record the interaction as early as possible (pointerdown fires before
+      // any resulting click), so the map's POI handler can tell that a native
+      // POI click that lands next was really a tap on this pin.
+      this._div.addEventListener('pointerdown', () => {
+        lastMarkerInteractionTs = Date.now()
+      })
       this._div.addEventListener('click', (e) => {
         e.stopPropagation()
+        lastMarkerInteractionTs = Date.now()
         if (this._clickHandler) this._clickHandler()
       })
       if (!this._visible) this._div.style.display = 'none'
@@ -207,6 +220,10 @@ export function useMap() {
       map.value.addListener('click', (e) => {
         if (e.placeId && poiClickHandler) {
           e.stop() // prevent Google's default POI InfoWindow
+          // If the user just tapped one of our custom pins, Google can also
+          // fire a native POI click for an icon underneath it. Ignore it so
+          // the pin's popup stays open and the camera doesn't jump away.
+          if (Date.now() - lastMarkerInteractionTs < 700) return
           poiClickHandler(e.placeId, { lat: e.latLng.lat(), lng: e.latLng.lng() })
           return
         }
