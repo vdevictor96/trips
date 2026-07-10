@@ -21,4 +21,9 @@ export default defineConfig({
   define: {
     __APP_VERSION__: JSON.stringify(buildVersion()),
   },
+  // TEMPORAL (diagnóstico): sin minificar para que el stack de errores del
+  // banner sea legible (nombres de función y módulo). Revertir al cerrar.
+  build: {
+    minify: false,
+  },
 })
