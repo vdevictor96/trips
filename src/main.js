@@ -9,8 +9,12 @@ import './styles/main.css'
 // bug. Toca el banner para copiar / ocultar. Temporal: quitar cuando cerremos.
 function showErrorBanner(label, err) {
   try {
-    const msg = err && err.stack ? err.stack.split('\n').slice(0, 3).join('\n')
-      : (err && err.message) || String(err)
+    // Safari NO incluye el mensaje en err.stack (solo frames), así que lo
+    // mostramos explícito y primero — es lo que de verdad señala la causa.
+    const name = (err && err.name) || ''
+    const message = (err && err.message) || String(err)
+    const stack = err && err.stack ? err.stack.split('\n').slice(0, 4).join('\n') : ''
+    const msg = `${name ? name + ': ' : ''}${message}\n${stack}`
     let el = document.getElementById('debug-error-banner')
     if (!el) {
       el = document.createElement('div')
