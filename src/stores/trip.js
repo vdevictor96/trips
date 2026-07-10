@@ -25,7 +25,7 @@ export const useTripStore = defineStore('trip', () => {
   const allPlaces = computed(() => {
     if (!trip.value) return []
     const places = trip.value.days.flatMap(d =>
-      d.places.map(p => ({ ...p, dayId: d.id, dayTab: d.tab, dayColor: d.color }))
+      (d.places || []).map(p => ({ ...p, dayId: d.id, dayTab: d.tab, dayColor: d.color }))
     )
     if (trip.value.discarded?.length) {
       places.push(...trip.value.discarded.map(p => ({
@@ -112,8 +112,14 @@ export const useTripStore = defineStore('trip', () => {
       })
     }
     // Color por índice solo para días normales; el comodín usa un color fijo.
+    // Además garantizamos que TODO día tenga un array `places`: si Firebase (u
+    // otra edición) dejó un día sin él, `day.places.forEach` en buildMarkers y
+    // `d.places.map` en allPlaces lanzaban, y como buildMarkers construye los
+    // markers de restaurantes/cafés DESPUÉS de los días, el throw abortaba y
+    // esos markers no aparecían; y allPlaces roto tumbaba la búsqueda.
     let ci = 0
     data.days.forEach(d => {
+      if (!Array.isArray(d.places)) d.places = []
       d.color = d.wildcard ? PENDING_COLOR : colors[ci++ % colors.length]
     })
     if (!data.notes) data.notes = []

@@ -266,7 +266,7 @@ export function useMap() {
     // Day markers
     store.trip.days.forEach(day => {
       const dayMarkers = []
-      day.places.forEach((p, idx) => {
+      ;(day.places || []).forEach((p, idx) => {
         const html = `<div class="marker-icon" style="background:${day.color};"><span>${idx + 1}</span></div>`
         const marker = new HtmlMarkerClass({ lat: p.lat, lng: p.lng }, html, p.id)
         marker.onClick(() => {
@@ -382,15 +382,6 @@ export function useMap() {
       // Overlay: visibles en su propia pestaña, o sobre cualquier día/overview si el toggle está activo
       const visible = store.showCafes || dayId === 'cafes'
       cafeMarkers.forEach(m => m.setVisible(visible))
-    }
-
-    // HUD de diagnóstico temporal: refleja en pantalla si los markers están
-    // construidos y cuántos quedan visibles (display != none) tras actualizar.
-    if (typeof window !== 'undefined' && window.__hud) {
-      const r = markersByDay.value['restaurants'] || []
-      const c = markersByDay.value['cafes'] || []
-      const vis = arr => arr.filter(m => m.getElement() && m.getElement().style.display !== 'none').length
-      window.__hud(`day=${dayId} showR=${store.showRestaurants} showC=${store.showCafes} · R build=${r.length} vis=${vis(r)} · C build=${c.length} vis=${vis(c)} · onMap=${!!map.value}`)
     }
   }
 
