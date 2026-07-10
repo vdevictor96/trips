@@ -1,8 +1,15 @@
 <template>
-  <div id="love-footer" @click="handleClick">Powered by love of Víctor &lt;4</div>
+  <div id="love-footer" @click="handleClick">
+    Powered by love of Víctor &lt;4
+    <span class="app-version" title="Versión desplegada">v{{ version }}</span>
+  </div>
 </template>
 
 <script setup>
+// Marcador de versión inyectado en build (SHA de git + fecha). Cambia en cada
+// deploy, así se ve si el dispositivo ya sirve el bundle nuevo o uno cacheado.
+const version = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : 'dev'
+
 const HEART_BURST_COLORS = ['#ff4f8a','#ff6ca7','#ff9f45','#ffd166','#8bd3ff','#8e9bff','#c27bff','#7bd88f']
 let footerClickTimestamps = []
 let lastFooterBurstAt = 0

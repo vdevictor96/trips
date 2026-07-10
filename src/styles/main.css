@@ -743,6 +743,16 @@ html, body {
   color: var(--text);
   border-color: var(--accent);
 }
+#love-footer .app-version {
+  margin-left: 8px;
+  padding-left: 8px;
+  border-left: 1px solid var(--border);
+  font-style: normal;
+  font-size: 0.72rem;
+  letter-spacing: 0;
+  opacity: 0.7;
+  font-variant-numeric: tabular-nums;
+}
 .floating-heart {
   position: fixed;
   left: 0; top: 0;

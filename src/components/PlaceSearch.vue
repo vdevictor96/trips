@@ -94,7 +94,10 @@ let debounceTimer = null
 const localMatches = computed(() => {
   const q = query.value.trim().toLowerCase()
   if (!q) return []
-  return store.allPlaces.filter(p => p.name.toLowerCase().includes(q))
+  // Guarda: un sitio sin `name` (p. ej. añadido/editado desde la app o venido
+  // de Firebase) haría que este computed lanzara en cada tecla, tumbando el
+  // render de la búsqueda y "haciendo desaparecer la barra". Fuera crash.
+  return store.allPlaces.filter(p => (p.name || '').toLowerCase().includes(q))
 })
 
 function setMode(m) {
