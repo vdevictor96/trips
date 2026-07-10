@@ -99,6 +99,19 @@ export const useTripStore = defineStore('trip', () => {
 
   function _applyDefaults(data) {
     const colors = data.dayColors || DEFAULT_COLORS
+
+    // ⚠️ Causa raíz de los bugs de markers/búsqueda: Firebase RTDB NO almacena
+    // arrays vacíos — al guardar `[]` la clave se omite y al releer vuelve como
+    // `undefined`. El día comodín "Pendientes" nace con `places: []`, así que
+    // tras el round-trip a Firebase perdía `places` y `day.places.forEach`
+    // (buildMarkers) / `d.places.map` (allPlaces) lanzaban, abortando la
+    // construcción de los markers de restaurantes/cafés y tumbando la búsqueda.
+    // Normalizamos aquí TODOS los arrays que pueden nacer vacíos para que ningún
+    // acceso (render, buildMarkers, allPlaces, edición) reviente jamás.
+    for (const key of ['restaurants', 'cafes', 'discarded', 'notes']) {
+      if (!Array.isArray(data[key])) data[key] = []
+    }
+
     // Día comodín "Pendientes": cosas que no dio tiempo de ver otros días.
     // Se inyecta en runtime para que exista en todos los viajes sin editar sus JSON.
     if (!data.days.some(d => d.wildcard || d.id === 'pending')) {
@@ -112,17 +125,14 @@ export const useTripStore = defineStore('trip', () => {
       })
     }
     // Color por índice solo para días normales; el comodín usa un color fijo.
-    // Además garantizamos que TODO día tenga un array `places`: si Firebase (u
-    // otra edición) dejó un día sin él, `day.places.forEach` en buildMarkers y
-    // `d.places.map` en allPlaces lanzaban, y como buildMarkers construye los
-    // markers de restaurantes/cafés DESPUÉS de los días, el throw abortaba y
-    // esos markers no aparecían; y allPlaces roto tumbaba la búsqueda.
+    // Garantizamos también que todo día tenga `places` y que cada sitio tenga
+    // `tags` (Firebase también borra los `tags: []` vacíos → 59 sitios en NY).
     let ci = 0
     data.days.forEach(d => {
       if (!Array.isArray(d.places)) d.places = []
+      d.places.forEach(p => { if (!Array.isArray(p.tags)) p.tags = [] })
       d.color = d.wildcard ? PENDING_COLOR : colors[ci++ % colors.length]
     })
-    if (!data.notes) data.notes = []
     // Migrate old text-only notes to new { title, desc, link } model
     data.notes.forEach(n => {
       if (n.text !== undefined && n.title === undefined) {
