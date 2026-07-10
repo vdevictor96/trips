@@ -9,6 +9,7 @@
       autocomplete="off"
       v-model="query"
       @input="onInput"
+      @focus="emit('focusSearch')"
     />
 
     <!-- Mode toggle -->
@@ -77,7 +78,7 @@ import { useGooglePlaces } from '../composables/useGooglePlaces.js'
 const store = useTripStore()
 const { isAvailable, searchPlaces } = useGooglePlaces()
 const mapApi = inject('mapApi')
-const emit = defineEmits(['selectPlace', 'flyTo', 'previewSearchResult'])
+const emit = defineEmits(['selectPlace', 'flyTo', 'previewSearchResult', 'focusSearch'])
 
 const query = ref('')
 const showResults = ref(false)
