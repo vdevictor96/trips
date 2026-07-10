@@ -383,6 +383,15 @@ export function useMap() {
       const visible = store.showCafes || dayId === 'cafes'
       cafeMarkers.forEach(m => m.setVisible(visible))
     }
+
+    // HUD de diagnóstico temporal: refleja en pantalla si los markers están
+    // construidos y cuántos quedan visibles (display != none) tras actualizar.
+    if (typeof window !== 'undefined' && window.__hud) {
+      const r = markersByDay.value['restaurants'] || []
+      const c = markersByDay.value['cafes'] || []
+      const vis = arr => arr.filter(m => m.getElement() && m.getElement().style.display !== 'none').length
+      window.__hud(`day=${dayId} showR=${store.showRestaurants} showC=${store.showCafes} · R build=${r.length} vis=${vis(r)} · C build=${c.length} vis=${vis(c)} · onMap=${!!map.value}`)
+    }
   }
 
   function fitBounds(dayId) {

@@ -7,7 +7,7 @@
     </button>
     <BottomSheet ref="sheetRef">
       <template #search>
-        <PlaceSearch @select-place="handlePlaceSelect" @fly-to="handleFlyTo" @preview-search-result="handlePreviewSearchResult" />
+        <PlaceSearch @select-place="handlePlaceSelect" @fly-to="handleFlyTo" @preview-search-result="handlePreviewSearchResult" @focus-search="handleSearchFocus" />
       </template>
       <template #tabs>
         <DayTabs @select-day="handleDaySelect" @toggle-restaurants="handleToggleRestaurants" @toggle-cafes="handleToggleCafes" />
@@ -78,6 +78,13 @@ function handleDaySelect(dayId) {
   }
   mapApi.updateVisibleLayers(store.activeDay)
   mapApi.fitBounds(store.activeDay)
+  sheetRef.value?.expand()
+}
+
+function handleSearchFocus() {
+  // Al enfocar la búsqueda, el teclado móvil tapa el sheet colapsado (fixed,
+  // bottom:0) y con él la barra. Expandir sube la barra a la parte alta del
+  // sheet, por encima del teclado.
   sheetRef.value?.expand()
 }
 

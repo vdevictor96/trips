@@ -32,6 +32,27 @@ function showErrorBanner(label, err) {
 window.addEventListener('error', (e) => showErrorBanner('error', e.error || e.message))
 window.addEventListener('unhandledrejection', (e) => showErrorBanner('promise', e.reason))
 
+// ── HUD de diagnóstico (temporal): muestra estado en pantalla ────────────────
+// Sirve para ver, en el móvil real, si los markers de restaurantes/cafés están
+// construidos y cuántos son visibles al tocar la pastilla/ojo.
+window.__hud = function (text) {
+  try {
+    let el = document.getElementById('debug-hud')
+    if (!el) {
+      el = document.createElement('div')
+      el.id = 'debug-hud'
+      // Arriba (no abajo): abajo taparía las pastillas del sheet colapsado.
+      el.style.cssText = 'position:fixed;left:0;right:0;top:0;z-index:99998;' +
+        'background:#0b3d91;color:#fff;font:11px/1.4 monospace;padding:6px 10px;' +
+        'white-space:pre-wrap;box-shadow:0 2px 8px rgba(0,0,0,.4)'
+      el.addEventListener('click', () => { el.style.display = 'none' })
+      document.body.appendChild(el)
+    }
+    el.style.display = 'block'
+    el.textContent = '🔎 ' + text + '  (toca para ocultar)'
+  } catch { /* nunca romper por el HUD */ }
+}
+
 const app = createApp(App)
 app.config.errorHandler = (err, instance, info) => {
   showErrorBanner(`vue:${info}`, err)
