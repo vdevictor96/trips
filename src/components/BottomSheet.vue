@@ -51,7 +51,7 @@ onMounted(() => {
   let decidedScroll = false // true = let browser scroll, don't drag
 
   function isInteractive(target) {
-    return target.closest('input, textarea, select, a, button, .drag-handle')
+    return target.closest('input, textarea, select, a, button, [role="button"], .drag-handle')
   }
 
   // --- Touch events (mobile) ---
@@ -71,6 +71,14 @@ onMounted(() => {
 
     if (!dragging) {
       if (Math.abs(dy) < 6) return
+
+      // A real finger drifts a few px when tapping a control or typing. Never
+      // hijack a touch that started on an interactive element (day/restaurant/
+      // café pills, the 👁 overlay toggles, the search input) as a sheet drag:
+      // doing so calls preventDefault() — which cancels the control's click, so
+      // the pills/eye did nothing on tap — and blurs the input, which made the
+      // search bar lose focus (and close the keyboard) on every keypress.
+      if (touchOnInteractive) return
 
       // When collapsed: always drag the sheet (no body scrolling)
       if (!isExpanded) {
