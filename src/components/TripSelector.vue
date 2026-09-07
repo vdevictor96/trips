@@ -12,7 +12,8 @@
         @click="selectTrip(t.id)"
       >
         <div class="trip-card-flag">
-          <img :src="flagUrl(t.emoji)" :alt="t.country" />
+          <img v-if="flagUrl(t.emoji)" :src="flagUrl(t.emoji)" :alt="t.country" />
+          <span v-else class="trip-card-emoji">{{ t.emoji }}</span>
         </div>
         <div class="trip-card-body">
           <div class="trip-card-title">{{ t.title }}</div>
@@ -33,6 +34,10 @@ import { useTripStore } from '../stores/trip.js'
 
 const store = useTripStore()
 
+// Devuelve la URL de la bandera solo si el emoji es un par de indicadores
+// regionales (🇪🇸). Con cualquier otro emoji (🌋) el código salía vacío y se
+// pedía `flagcdn.com/w640/.png`, que da 404 y deja la tarjeta con la imagen
+// rota; en ese caso devolvemos null y la tarjeta pinta el emoji tal cual.
 function flagUrl(emoji) {
   const code = [...emoji]
     .map(c => c.codePointAt(0))
@@ -40,7 +45,7 @@ function flagUrl(emoji) {
     .map(cp => String.fromCharCode(cp - 0x1F1E6 + 65))
     .join('')
     .toLowerCase()
-  return `https://flagcdn.com/w640/${code}.png`
+  return code.length === 2 ? `https://flagcdn.com/w640/${code}.png` : null
 }
 
 async function selectTrip(tripId) {
