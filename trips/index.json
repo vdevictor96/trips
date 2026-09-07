@@ -19,6 +19,16 @@
       "dates": "4-12 julio 2026",
       "days": 9,
       "places": 100
+    },
+    {
+      "id": "tenerife-2026",
+      "title": "Tenerife 2026",
+      "emoji": "🌋",
+      "city": "Tenerife",
+      "country": "España",
+      "dates": "17-26 septiembre 2026",
+      "days": 10,
+      "places": 62
     }
   ]
 }
