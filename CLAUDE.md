@@ -55,13 +55,36 @@ La app carga datos: Firebase → localStorage → JSON estático. Para que los c
 4. Escribir a `trips/{id}.json` y copiar a `public/trips/{id}.json`
 5. **Subir a Firebase directamente** (no esperar al deploy). La escritura ahora **requiere auth** (ver § Protección de escritura), así que primero obtén un token de la cuenta compartida y pásalo como `?auth=`:
    ```bash
+   set -a; . ./.env; set +a   # la contraseña vive en .env como VITE_AUTH_PASSWORD
    ID_TOKEN=$(curl -s "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=$VITE_FIREBASE_API_KEY" \
      -H 'Content-Type: application/json' \
-     -d "{\"email\":\"$VITE_AUTH_EMAIL\",\"password\":\"$AUTH_PASSWORD\",\"returnSecureToken\":true}" | jq -r .idToken)
-   curl -s -X PUT "https://trips-c56f5-default-rtdb.europe-west1.firebasedatabase.app/trips/{id}/data.json?auth=$ID_TOKEN" -d @trips/{id}.json
+     -d "{\"email\":\"$VITE_AUTH_EMAIL\",\"password\":\"$VITE_AUTH_PASSWORD\",\"returnSecureToken\":true}" | jq -r .idToken)
+   curl -s -X PUT "https://trips-c56f5-default-rtdb.europe-west1.firebasedatabase.app/trips/{id}/data.json?auth=$ID_TOKEN" --data-binary @trips/{id}.json
+   curl -s -X PUT "https://trips-c56f5-default-rtdb.europe-west1.firebasedatabase.app/trips/{id}/lastModified.json?auth=$ID_TOKEN" -d '{".sv":"timestamp"}'
    ```
+   ⚠️ **Antes de sobreescribir, LEE el nodo**: si ya tiene datos, es la fuente de verdad
+   (puede llevar ediciones hechas desde la app) y un PUT las destruye. Solo se siembra
+   directo cuando el nodo está vacío (`null`).
    (La lectura del paso 1 sigue siendo pública, no necesita token.)
 6. Commit y push
+
+### ⚠️ Firebase descarta los valores vacíos
+
+Realtime Database **no almacena arrays ni objetos vacíos**: un `"tags": []` en el JSON del
+repo desaparece al escribirlo y vuelve como campo ausente. No rompe nada (todos los
+consumidores usan `place.tags || []`, y `v-for` sobre `undefined` no renderiza), pero hace
+que repo y Firebase **nunca** sean idénticos y ensucia cualquier comparación.
+
+⇒ **No escribas claves con valor vacío en los JSON de viaje.** Omite la clave. Para comprobar
+que un viaje está igualado, compara el JSON del repo con el nodo de Firebase y espera
+igualdad exacta.
+
+### Estado de respaldo (sept 2026)
+
+Los tres viajes están en Firebase con el `_v` sincronizado con el estático, así que
+**Firebase gana al cargar y las ediciones desde la web persisten**. Si `_v` del estático
+supera al de Firebase, el deploy pisa Firebase en la siguiente carga (`loadTrip`): por eso
+hay que bajar Firebase primero al editar desde git.
 
 ### ⚠️ Por qué los cambios desde git "no se ven" en la app (caché) — leer antes de dar por hecho un deploy
 

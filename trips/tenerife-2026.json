@@ -1,5 +1,5 @@
 {
- "_v": 2,
+ "_v": 3,
  "id": "tenerife-2026",
  "title": "Tenerife 2026",
  "emoji": "🇪🇸",
@@ -1309,7 +1309,6 @@
    "lng": -16.56432,
    "desc": "Zoo-acuario más famoso de la isla, en Puerto de la Cruz.",
    "reason": "⛔ TÚ MISMO pusiste «No ir» en la lista. Fuera.",
-   "tags": [],
    "link": "https://www.loroparque.com/"
   },
   {
@@ -1486,8 +1485,7 @@
    "lat": 28.17141,
    "lng": -16.61926,
    "desc": "Formaciones de toba blanca erosionadas en columnas, sobre Vilaflor.",
-   "reason": "🟡 OJO CON ESTO: el Paisaje Lunar de verdad son 4-5h de senderismo ida y vuelta desde Vilaflor, no un mirador de carretera. No cabía en el Día 2 (que ya lleva Roques de García).",
-   "tags": []
+   "reason": "🟡 OJO CON ESTO: el Paisaje Lunar de verdad son 4-5h de senderismo ida y vuelta desde Vilaflor, no un mirador de carretera. No cabía en el Día 2 (que ya lleva Roques de García)."
   },
   {
    "id": "d.18",
@@ -1495,8 +1493,7 @@
    "lat": 28.56194,
    "lng": -16.29115,
    "desc": "Caseríos de Anaga con casas-cueva habitadas, en crestas aisladas.",
-   "reason": "🟡 Anaga da para tres días. Estos dos exigen desvíos largos por carretera de una sola vía; el Día 8 ya va lleno de bosque + playas + Benijo.",
-   "tags": []
+   "reason": "🟡 Anaga da para tres días. Estos dos exigen desvíos largos por carretera de una sola vía; el Día 8 ya va lleno de bosque + playas + Benijo."
   },
   {
    "id": "d.19",
@@ -1504,8 +1501,7 @@
    "lat": 28.2949,
    "lng": -16.75709,
    "desc": "Última erupción de Tenerife (1909). Sendero circular de 6 km fácil entre malpaís y pinar.",
-   "reason": "🟡 Excursión buena y poco masificada, pero está en el noroeste alto y no cae en ninguna ruta. Alternativa al Día 5 si Masca estuviera cerrado por alerta.",
-   "tags": []
+   "reason": "🟡 Excursión buena y poco masificada, pero está en el noroeste alto y no cae en ninguna ruta. Alternativa al Día 5 si Masca estuviera cerrado por alerta."
   },
   {
    "id": "d.20",
@@ -1513,8 +1509,7 @@
    "lat": 28.27019,
    "lng": -16.72677,
    "desc": "Sendero circular de 5 km entre conos volcánicos y arena negra, en el oeste del Parque Nacional.",
-   "reason": "🟡 Muy buena ruta corta del Teide, pero el Día 2 ya lleva Roques de García. Cámbiala si preferís algo menos concurrido.",
-   "tags": []
+   "reason": "🟡 Muy buena ruta corta del Teide, pero el Día 2 ya lleva Roques de García. Cámbiala si preferís algo menos concurrido."
   },
   {
    "id": "d.21",
@@ -1522,8 +1517,7 @@
    "lat": 28.33657,
    "lng": -16.82241,
    "desc": "Laurisilva del macizo de Teno, con senderos entre niebla.",
-   "reason": "🟡 Bosque muy parecido al de Anaga (Día 8) y peor conectado. Redundante.",
-   "tags": []
+   "reason": "🟡 Bosque muy parecido al de Anaga (Día 8) y peor conectado. Redundante."
   },
   {
    "id": "d.22",
@@ -1586,8 +1580,7 @@
    "lat": 28.41083,
    "lng": -16.53528,
    "desc": "Jardín de aclimatación de 1788, con árboles tropicales centenarios. ~3 €.",
-   "reason": "🟡 A 10 min andando de vuestro Airbnb y barato: el mejor relleno si una mañana amanece nublada en el norte.",
-   "tags": []
+   "reason": "🟡 A 10 min andando de vuestro Airbnb y barato: el mejor relleno si una mañana amanece nublada en el norte."
   },
   {
    "id": "d.28",
