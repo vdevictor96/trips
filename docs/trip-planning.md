@@ -85,7 +85,12 @@ Cada archivo `trips/{id}.json` sigue este esquema:
 - Incluir emojis ⭐ en el nombre para sitios obligatorios y 🌅 para miradores
 - `desc`: 1-2 frases breves en español. Incluir horario del sitio si es relevante, notas de opcionalidad, y contexto de comidas/meriendas en sitios adyacentes
 - `link`: web oficial siempre que exista (buscar)
-- `tags`: array de strings — usar: `obligatorio`, `gratis`, `reservar`, `mirador`
+- `tags`: array de strings — usar: `obligatorio`, `gratis`, `reservar`, `mirador`, `playa`
+  - **`playa`** alimenta la sección transversal «Playas y charcos»: es un *índice derivado*,
+    no una lista aparte. El sitio sigue viviendo en su día o en `discarded` y aparece además
+    en esa sección, así que **no se duplica el dato** y editarlo en un sitio lo actualiza en
+    los dos. Marca con él playas, charcos y piscinas naturales.
+  - No escribas `"tags": []`: Firebase descarta los arrays vacíos (ver CLAUDE.md). Omite la clave.
 - `googlePlaceId` (opcional): Place ID de Google para que el botón "📍 Google Maps" seleccione el sitio exacto en vez de adivinar por el nombre (ver § Enlaces Google Maps)
 
 ### Organización por días
@@ -130,6 +135,22 @@ nada por viaje. La usan las cards, los descartados y los InfoWindows del mapa.
 - Estimar ~70m/min caminando en ciudad (ritmo suave de pareja)
 - Añadir 5 min de margen a cada estimación de caminata
 - Los tiempos de metro/tranvía incluyen: caminar a estación + espera (~3 min) + trayecto + caminar desde estación
+
+### Secciones transversales (`restaurants`, `cafes`, playas)
+
+Están definidas en **un solo sitio**: `src/composables/useCollections.js`. Cada entrada del
+registro genera sola su pestaña, su panel, su color, sus markers, su overlay (el ojo 👁) y su
+etiqueta en el buscador. Para añadir una sección nueva basta con añadir una entrada ahí.
+
+Hay dos tipos y la diferencia importa:
+
+| Tipo | Campo | Ejemplo | Dato | Markers |
+|---|---|---|---|---|
+| Colección propia | `key` | `restaurants`, `cafes` | Array propio en el JSON del viaje | Crea los suyos |
+| Índice derivado | `match` | Playas (tag `playa`) | Ninguno: apunta a sitios de días/descartados | Reutiliza los existentes |
+
+Un índice derivado **no** se añade a `allPlaces` (saldría dos veces en el buscador) y **no**
+crea markers (habría dos pines sobre el mismo punto).
 
 ### Colores de días
 - 4 días: `["#f7b731", "#26de81", "#fc5c65", "#a55eea"]`

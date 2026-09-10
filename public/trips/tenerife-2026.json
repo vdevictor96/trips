@@ -1,5 +1,5 @@
 {
- "_v": 3,
+ "_v": 4,
  "id": "tenerife-2026",
  "title": "Tenerife 2026",
  "emoji": "🇪🇸",
@@ -87,7 +87,8 @@
      "desc": "Andando desde casa. Playa de arena rubia de 2 km con el cono de Montaña Roja al fondo. Puesta de sol a las 20:10. Cena tranquila en el paseo del Médano (mucho sitio de tapas y pescado) o en la plaza Príncipe de Asturias. Día 1 sin exprimir: mañana toca Teide.",
      "tags": [
       "gratis",
-      "mirador"
+      "mirador",
+      "playa"
      ]
     }
    ]
@@ -241,7 +242,8 @@
      "desc": "La mejor playa de arena del sur y una de las pocas sin urbanizar: 1 km bajo Montaña Roja. Zona naturista en el extremo sur (la del lado de la montaña). Suele haber viento — es lo normal aquí, por eso la isla entera viene a hacer kite. Chiringuito en el acceso norte para la COMIDA.",
      "tags": [
       "obligatorio",
-      "gratis"
+      "gratis",
+      "playa"
      ]
     },
     {
@@ -262,7 +264,8 @@
      "lng": -16.59077,
      "desc": "A 10 min en coche. Charcos de origen volcánico junto al pueblo pesquero de Los Abrigos, mucho más resguardados del viento que la playa. ⚠️ Comprobad la marea antes de ir: con marea alta y mar de fondo no se bañe nadie. Bañador y escarpines si tenéis (el suelo es lava).",
      "tags": [
-      "gratis"
+      "gratis",
+      "playa"
      ]
     },
     {
@@ -331,7 +334,8 @@
      "lng": -16.72217,
      "desc": "Playa urbana de arena clara y agua muy tranquila (está protegida por diques), ideal para nadar de verdad sin oleaje. Es la opción cómoda con duchas, sombrillas y chiringuitos. Tarde de no hacer nada.",
      "tags": [
-      "gratis"
+      "gratis",
+      "playa"
      ]
     },
     {
@@ -343,7 +347,8 @@
      "lng": -16.64554,
      "desc": "MERIENDA (1h) por aquí. Zona de calas pequeñas y charcos entre lava, mucho más tranquila que Los Cristianos. Playa Amarilla es una cala diminuta de arena dorada encajada entre rocas. Bueno para el último baño del día.",
      "tags": [
-      "gratis"
+      "gratis",
+      "playa"
      ]
     },
     {
@@ -390,7 +395,8 @@
      "lng": -16.84063,
      "desc": "Playa de arena NEGRA volcánica justo al pie del acantilado — la estampa más fotografiada del oeste. Agua transparente y profunda. A 5 min andando, el Charco de Isla Cangrejo es una piscina natural acondicionada sobre la lava, protegida del oleaje: mejor sitio para bañarse si el mar viene movido.",
      "tags": [
-      "gratis"
+      "gratis",
+      "playa"
      ]
     },
     {
@@ -490,7 +496,8 @@
      "lng": -16.74194,
      "desc": "Tarde de descanso puro después del barranco. El Duque es la playa más cuidada de Costa Adeje (arena dorada importada, agua tranquila, hamacas). Fañabé está pegada y las une un paseo marítimo de 5 km. MERIENDA (1h) en cualquiera de los chiringuitos del paseo.",
      "tags": [
-      "gratis"
+      "gratis",
+      "playa"
      ]
     },
     {
@@ -502,7 +509,8 @@
      "lng": -16.76819,
      "desc": "Cala diminuta de un pueblo pesquero que se libró del ladrillo. Tiene colonia estable de TORTUGAS VERDES: con máscara y tubo se ven casi siempre pastando en las praderas de algas, a pocos metros de la orilla. Llevad gafas de bucear. No las toquéis ni les deis de comer.",
      "tags": [
-      "gratis"
+      "gratis",
+      "playa"
      ]
     },
     {
@@ -514,7 +522,8 @@
      "lng": -16.77426,
      "desc": "Puesta a las 20:04 mirando al oeste. La Caleta (junto a El Puertito) es el sitio donde cena la gente de la zona: pescado fresco en el paseo, sin menús plastificados. Vuelta a El Médano ~40 min.",
      "tags": [
-      "mirador"
+      "mirador",
+      "playa"
      ]
     }
    ]
@@ -607,7 +616,8 @@
      "desc": "A 15 min andando. Playa de arena negra con jardines diseñados también por César Manrique y el Roque de Punta Brava en primer plano. Puesta a las 20:02 mirando al mar abierto. MERIENDA/aperitivo por el casco viejo de camino.",
      "tags": [
       "gratis",
-      "mirador"
+      "mirador",
+      "playa"
      ]
     },
     {
@@ -667,7 +677,8 @@
      "lng": -16.18737,
      "desc": "Bajada a la costa (~35 min). Teresitas es la playa donde va la gente de Santa Cruz: arena RUBIA traída del Sáhara en los 70 y un dique que corta el oleaje, así que el agua está en calma (rareza absoluta en la costa norte). Baño tranquilo. COMIDA (2h) en San Andrés, el pueblo pesquero de al lado — es el sitio clásico para pescado y papas arrugadas.",
      "tags": [
-      "gratis"
+      "gratis",
+      "playa"
      ]
     },
     {
@@ -691,7 +702,8 @@
      "lng": -16.20467,
      "desc": "MERIENDA (1h) en uno de los chiringuitos de la carretera — aquí es donde paran los locales. Playa de callaos y arena negra con oleaje fuerte: bañarse solo si el mar está tranquilo y con bandera. Ojo con las corrientes en toda esta costa.",
      "tags": [
-      "gratis"
+      "gratis",
+      "playa"
      ]
     },
     {
@@ -705,7 +717,8 @@
      "tags": [
       "obligatorio",
       "gratis",
-      "mirador"
+      "mirador",
+      "playa"
      ]
     },
     {
@@ -739,7 +752,8 @@
      "lng": -16.65187,
      "desc": "DESAYUNO antes de salir (1h). Desde el apartamento ~25 min por la TF-5 (San Juan de la Rambla). Piscina natural excavada en la lava, con escalera de hierro para bajar al agua: la más bonita del norte y todavía poco conocida. ⚠️ SOLO con marea baja y mar en calma — con oleaje entra el mar por encima y es peligroso. Consultad la tabla de mareas la noche antes. Id temprano: hay sitio para pocos coches.",
      "tags": [
-      "gratis"
+      "gratis",
+      "playa"
      ]
     },
     {
@@ -765,7 +779,8 @@
      "desc": "A 15 min. En 1706 la erupción del volcán Trevejo sepultó el que era el puerto más importante de la isla; la lava al enfriarse en el mar dejó ESTAS piscinas naturales. Bañarse aquí es meterse literalmente dentro de una colada volcánica. Acceso libre con escaleras y socorrista en temporada. COMIDA (2h) en la plaza de Garachico y paseo por el Castillo de San Miguel, único edificio que sobrevivió a la erupción.",
      "tags": [
       "obligatorio",
-      "gratis"
+      "gratis",
+      "playa"
      ]
     },
     {
@@ -1410,7 +1425,8 @@
    "desc": "Playa de arena negra entre acantilados y platanera, a 15 min de Puerto de la Cruz + 15 min andando de bajada.",
    "reason": "🟡 La mejor playa del norte. No cabe porque los días 8 y 9 acaban con puesta de sol fuera. Si un día no salís de Puerto de la Cruz, es ESTE el plan.",
    "tags": [
-    "gratis"
+    "gratis",
+    "playa"
    ]
   },
   {
@@ -1421,7 +1437,8 @@
    "desc": "Playa nudista de arena negra y difícil acceso, al lado de El Bollullo.",
    "reason": "🟡 Misma zona que Bollullo pero con bajada más dura y corrientes. Si vais por allí, Bollullo antes.",
    "tags": [
-    "gratis"
+    "gratis",
+    "playa"
    ]
   },
   {
@@ -1432,7 +1449,8 @@
    "desc": "Piscina natural de lava en La Guancha, con vistas al Teide desde el agua.",
    "reason": "🟡 Alternativa directa al Charco de la Laja del Día 9 (están a 10 min). Si La Laja está con mar o llena, venid aquí.",
    "tags": [
-    "gratis"
+    "gratis",
+    "playa"
    ]
   },
   {
@@ -1443,7 +1461,8 @@
    "desc": "Grandes piscinas naturales de agua de mar al final de la carretera de Anaga, con los roques al lado.",
    "reason": "🟡 Están en el extremo NORTE de Anaga, en la carretera opuesta a la de Taganana/Benijo. Meterlas el Día 8 obligaría a partir el macizo en dos.",
    "tags": [
-    "gratis"
+    "gratis",
+    "playa"
    ]
   },
   {
@@ -1454,7 +1473,8 @@
    "desc": "Piscina y playa a las que se llega por un túnel excavado en el acantilado.",
    "reason": "🟡 Zona Tacoronte otra vez: entre bases, sin ruta que la recoja.",
    "tags": [
-    "gratis"
+    "gratis",
+    "playa"
    ]
   },
   {
@@ -1465,7 +1485,8 @@
    "desc": "Charcos de la Isla Baja (Los Silos / Buenavista), en el sendero costero entre plataneras.",
    "reason": "🟡 Están en la ruta del Día 9 pero ese día ya tiene dos baños (La Laja y El Caletón) + Teno. Sustituto si El Caletón está con mar de fondo.",
    "tags": [
-    "gratis"
+    "gratis",
+    "playa"
    ]
   },
   {
@@ -1476,7 +1497,8 @@
    "desc": "Playa de arena negra en Los Realejos, la de referencia para el surf del norte.",
    "reason": "🟡 Cerca de Puerto de la Cruz pero con oleaje serio casi siempre: se va a surfear o a mirar, no a bañarse tranquilo.",
    "tags": [
-    "gratis"
+    "gratis",
+    "playa"
    ]
   },
   {
@@ -1538,7 +1560,8 @@
    "desc": "Charco y zona de baño en Radazul (El Rosario), en la costa este.",
    "reason": "🟡 Queda en el tramo El Médano→Santa Cruz: es el único hueco donde encajaría (Día 7), pero ese día vais con maletas y agenda.",
    "tags": [
-    "gratis"
+    "gratis",
+    "playa"
    ]
   },
   {
@@ -1560,7 +1583,8 @@
    "desc": "Zona hotelera del suroeste con playas artificiales.",
    "reason": "🟡 Fañabé sí lo tenéis (Día 6). El resto es más de lo mismo con más ladrillo; no aporta sobre El Duque.",
    "tags": [
-    "gratis"
+    "gratis",
+    "playa"
    ]
   },
   {
@@ -1571,7 +1595,8 @@
    "desc": "Calas nudistas y semisalvajes del suroeste, con bajada a pie.",
    "reason": "🟡 Bonitas pero exigen 20-30 min de bajada cada una; el Día 6 ya acaba en El Puertito con las tortugas.",
    "tags": [
-    "gratis"
+    "gratis",
+    "playa"
    ]
   },
   {
@@ -1590,7 +1615,8 @@
    "desc": "Playa virgen de Anaga, solo accesible en barco o con 2h de sendero por cada lado.",
    "reason": "🟡 Preciosa pero es una excursión de día entero por sí sola. Imposible con el resto del plan.",
    "tags": [
-    "gratis"
+    "gratis",
+    "playa"
    ]
   },
   {
@@ -1626,6 +1652,54 @@
     "reservar"
    ],
    "link": "https://www.reservasparquesnacionales.es/"
+  },
+  {
+   "id": "d.32",
+   "name": "Piscina natural de San Telmo",
+   "lat": 28.41753,
+   "lng": -16.54654,
+   "desc": "Piscina natural en el Paseo de San Telmo, a 5 min andando del apartamento de Puerto de la Cruz. Baño rápido de mar sin coger el coche; el oleaje del norte manda, así que se mira antes de bajar.",
+   "reason": "No necesita un hueco propio: la tenéis a la puerta de casa desde el día 7, para colarla cualquier tarde.",
+   "tags": [
+    "playa",
+    "gratis"
+   ]
+  },
+  {
+   "id": "d.33",
+   "name": "Playa de Almáciga",
+   "lat": 28.57192,
+   "lng": -16.19228,
+   "desc": "Playa de arena negra en Anaga, entre el Roque de las Bodegas y Benijo. Corrientes fuertes y sin socorrista — se baña poca gente, es más de pasear.",
+   "reason": "Ya paráis justo al lado el día 8 (8.5 y 8.6); entrar también aquí alarga la tarde sin añadir mucho.",
+   "tags": [
+    "playa",
+    "gratis"
+   ]
+  },
+  {
+   "id": "d.34",
+   "name": "Charco La Vaca",
+   "lat": 28.231,
+   "lng": -16.8418,
+   "desc": "Charco de agua turquesa entre rocas volcánicas, en el extremo norte de Playa de la Arena (Puerto de Santiago). Solo con marea baja y mar en calma; no hay escaleras para bajar.",
+   "reason": "Queda al sur de Los Gigantes y el día 5 ya tenéis Los Guíos y el Charco de Isla Cangrejo en esa misma costa.",
+   "tags": [
+    "playa",
+    "gratis"
+   ]
+  },
+  {
+   "id": "d.35",
+   "name": "Pozos de La Fajana (Punta del Hidalgo)",
+   "lat": 28.57031,
+   "lng": -16.31453,
+   "desc": "Pozos y charcos naturales al final del paseo de Punta del Hidalgo, bajo los roques de Anaga. Mismo tramo de costa que las piscinas de d.13.",
+   "reason": "Se solapa con Punta del Hidalgo / Bajamar (d.13) y queda a desmano de las bases; solo si vais expresamente a esa punta.",
+   "tags": [
+    "playa",
+    "gratis"
+   ]
   }
  ]
 }

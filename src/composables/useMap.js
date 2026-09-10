@@ -1,5 +1,6 @@
 import { ref, watch } from 'vue'
 import { useTripStore } from '../stores/trip.js'
+import { COLLECTIONS, STORED_COLLECTIONS, DERIVED_COLLECTIONS, getCollection, isCollectionId, collectionPlaces, derivedPlaceIds } from './useCollections.js'
 import { loadLibrary, isGoogleAvailable } from './googleLoader.js'
 import { isDark } from './useTheme.js'
 
@@ -299,12 +300,16 @@ export function useMap() {
       markersByDay.value['discarded'] = discardedMarkers
     }
 
-    // Restaurant markers
-    if (store.trip.restaurants?.length) {
-      const restaurantMarkers = []
-      store.trip.restaurants.forEach(p => {
+    // Markers de las secciones con colección propia. Las derivadas (playas) no
+    // crean markers: sus sitios ya tienen el suyo en el día o en descartados, y
+    // duplicarlos pondría dos pines encima del mismo punto.
+    for (const c of STORED_COLLECTIONS) {
+      const items = store.trip[c.key]
+      if (!items?.length) continue
+      const collectionMarkers = []
+      items.forEach(p => {
         if (p.lat == null || p.lng == null) return
-        const html = '<div class="marker-icon" style="background:#e67e22;"><span>🍴</span></div>'
+        const html = `<div class="marker-icon" style="background:${c.color};"><span>${c.emoji}</span></div>`
         const marker = new HtmlMarkerClass({ lat: p.lat, lng: p.lng }, html, p.id)
         marker.onClick(() => {
           const gmapLink = buildGmapUrl(p, store.trip?.city)
@@ -315,30 +320,9 @@ export function useMap() {
           infoWindow.open(map.value)
         })
         marker.setMap(map.value)
-        restaurantMarkers.push(marker)
+        collectionMarkers.push(marker)
       })
-      markersByDay.value['restaurants'] = restaurantMarkers
-    }
-
-    // Cafe markers
-    if (store.trip.cafes?.length) {
-      const cafeMarkers = []
-      store.trip.cafes.forEach(p => {
-        if (p.lat == null || p.lng == null) return
-        const html = '<div class="marker-icon" style="background:#8d6e63;"><span>☕</span></div>'
-        const marker = new HtmlMarkerClass({ lat: p.lat, lng: p.lng }, html, p.id)
-        marker.onClick(() => {
-          const gmapLink = buildGmapUrl(p, store.trip?.city)
-          infoWindow.setContent(
-            `<div class="iw-custom"><b>${p.name}</b>${p.cat ? '<br><span class="iw-desc">' + p.cat + '</span>' : ''}${p.desc ? '<br><span class="iw-desc">' + p.desc + '</span>' : ''}<br><a href="${gmapLink}" target="_blank" class="gmaps-link">📍 Google Maps</a>${p.link ? ' · <a href="' + p.link + '" target="_blank">Web →</a>' : ''}</div>`
-          )
-          infoWindow.setPosition(marker.getPosition())
-          infoWindow.open(map.value)
-        })
-        marker.setMap(map.value)
-        cafeMarkers.push(marker)
-      })
-      markersByDay.value['cafes'] = cafeMarkers
+      markersByDay.value[c.id] = collectionMarkers
     }
   }
 
@@ -357,31 +341,47 @@ export function useMap() {
   function updateVisibleLayers(dayId) {
     if (!map.value || !store.trip) return
 
+    // Índice derivado abierto como pestaña (p. ej. "Playas"): en vez de markers
+    // propios, encendemos los que YA existen en días/descartados.
+    const activeDerived = DERIVED_COLLECTIONS.find(c => c.id === dayId) || null
+    // Índices derivados encendidos como overlay sobre el día actual.
+    const overlaidDerived = DERIVED_COLLECTIONS.filter(c => c.id !== dayId && store.overlays[c.id])
+
+    const idsFor = new Map()
+    for (const c of [...(activeDerived ? [activeDerived] : []), ...overlaidDerived]) {
+      idsFor.set(c.id, derivedPlaceIds(c, store.trip))
+    }
+    const inOverlaidIndex = id => overlaidDerived.some(c => idsFor.get(c.id).has(id))
+
     store.trip.days.forEach(d => {
       const markers = markersByDay.value[d.id]
       if (!markers) return
-      const visible = dayId === null || dayId === 'info' || d.id === dayId
-      markers.forEach(m => m.setVisible(visible))
+      markers.forEach(m => {
+        const base = activeDerived
+          ? idsFor.get(activeDerived.id).has(m._id)
+          : (dayId === null || dayId === 'info' || d.id === dayId)
+        m.setVisible(base || inOverlaidIndex(m._id))
+      })
     })
 
     const discardedMarkers = markersByDay.value['discarded']
     if (discardedMarkers) {
-      const visible = dayId === 'discarded'
-      discardedMarkers.forEach(m => m.setVisible(visible))
+      discardedMarkers.forEach(m => {
+        const base = activeDerived
+          ? idsFor.get(activeDerived.id).has(m._id)
+          : dayId === 'discarded'
+        m.setVisible(base || inOverlaidIndex(m._id))
+      })
     }
 
-    const restaurantMarkers = markersByDay.value['restaurants']
-    if (restaurantMarkers) {
-      // Overlay: visibles en su propia pestaña, o sobre cualquier día/overview si el toggle está activo
-      const visible = store.showRestaurants || dayId === 'restaurants'
-      restaurantMarkers.forEach(m => m.setVisible(visible))
-    }
-
-    const cafeMarkers = markersByDay.value['cafes']
-    if (cafeMarkers) {
-      // Overlay: visibles en su propia pestaña, o sobre cualquier día/overview si el toggle está activo
-      const visible = store.showCafes || dayId === 'cafes'
-      cafeMarkers.forEach(m => m.setVisible(visible))
+    // Secciones con colección propia: visibles en su pestaña, o sobre cualquier
+    // otra si su overlay está activo — también sobre un índice derivado, para
+    // poder mirar dónde comer cerca de las playas.
+    for (const c of STORED_COLLECTIONS) {
+      const markers = markersByDay.value[c.id]
+      if (!markers) continue
+      const visible = store.overlays[c.id] || dayId === c.id
+      markers.forEach(m => m.setVisible(visible))
     }
   }
 
@@ -389,15 +389,14 @@ export function useMap() {
     if (!map.value || !store.trip) return
 
     let places = []
+    const collection = getCollection(dayId)
     if (dayId === null) {
       places = store.trip.days.flatMap(d => d.places)
     } else if (dayId === 'discarded' && store.trip.discarded?.length) {
       places = store.trip.discarded
-    } else if (dayId === 'restaurants' && store.trip.restaurants?.length) {
-      places = store.trip.restaurants.filter(p => p.lat != null && p.lng != null)
-    } else if (dayId === 'cafes' && store.trip.cafes?.length) {
-      places = store.trip.cafes.filter(p => p.lat != null && p.lng != null)
-    } else if (dayId !== 'info' && dayId !== 'discarded' && dayId !== 'notes' && dayId !== 'restaurants' && dayId !== 'cafes') {
+    } else if (collection) {
+      places = collectionPlaces(collection, store.trip).filter(p => p.lat != null && p.lng != null)
+    } else if (dayId !== 'info' && dayId !== 'notes') {
       const day = store.trip.days.find(d => d.id === dayId)
       places = day?.places || []
     }

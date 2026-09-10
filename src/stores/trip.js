@@ -1,6 +1,7 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import { useSync } from '../composables/useSync.js'
+import { COLLECTIONS, STORED_COLLECTIONS } from '../composables/useCollections.js'
 
 const DEFAULT_COLORS = ['#f7b731','#26de81','#fc5c65','#a55eea','#4b7bec','#fd9644','#2bcbba','#eb3b5a']
 // Color fijo del día comodín "Pendientes" (slate, distinto de los colores de día)
@@ -11,8 +12,9 @@ export const useTripStore = defineStore('trip', () => {
   const trip = ref(null)
   const activeDay = ref(null)
   const activeMarkerId = ref(null)
-  const showRestaurants = ref(false) // overlay de restaurantes sobre cualquier día (UI efímera)
-  const showCafes = ref(false) // overlay de cafeterías sobre cualquier día (UI efímera)
+  // Overlays de las secciones sobre cualquier día, por id ('restaurants',
+  // 'cafes', 'beaches'). UI efímera: no se persiste con el viaje.
+  const overlays = ref(Object.fromEntries(COLLECTIONS.map(c => [c.id, false])))
   const tripsIndex = ref([])
   const { initSync, pushEdits, fetchRemote, stopSync, syncing } = useSync()
 
@@ -32,15 +34,15 @@ export const useTripStore = defineStore('trip', () => {
         ...p, dayId: 'discarded', dayTab: 'Descartados', dayColor: '#666'
       })))
     }
-    if (trip.value.restaurants?.length) {
-      places.push(...trip.value.restaurants
+    // Solo las secciones con colección propia: las derivadas (playas) ya están
+    // aquí como sitios de su día o de descartados, y volver a meterlas haría que
+    // el buscador mostrara cada playa dos veces.
+    for (const c of STORED_COLLECTIONS) {
+      const items = trip.value[c.key]
+      if (!items?.length) continue
+      places.push(...items
         .filter(p => p.lat != null && p.lng != null)
-        .map(p => ({ ...p, dayId: 'restaurants', dayTab: 'Restauración', dayColor: '#e67e22' })))
-    }
-    if (trip.value.cafes?.length) {
-      places.push(...trip.value.cafes
-        .filter(p => p.lat != null && p.lng != null)
-        .map(p => ({ ...p, dayId: 'cafes', dayTab: 'Cafeterías', dayColor: '#8d6e63' })))
+        .map(p => ({ ...p, dayId: c.id, dayTab: c.label, dayColor: c.color })))
     }
     return places
   })
@@ -201,8 +203,7 @@ export const useTripStore = defineStore('trip', () => {
 
     activeDay.value = _pickInitialDay(trip.value)
     activeMarkerId.value = null
-    showRestaurants.value = false
-    showCafes.value = false
+    for (const id of Object.keys(overlays.value)) overlays.value[id] = false
 
     // Start real-time sync listener
     initSync(tripId, (remoteData) => {
@@ -232,12 +233,8 @@ export const useTripStore = defineStore('trip', () => {
     activeMarkerId.value = markerId
   }
 
-  function toggleRestaurants() {
-    showRestaurants.value = !showRestaurants.value
-  }
-
-  function toggleCafes() {
-    showCafes.value = !showCafes.value
+  function toggleOverlay(collectionId) {
+    overlays.value[collectionId] = !overlays.value[collectionId]
   }
 
   function updatePlace(dayId, placeId, updates) {
@@ -363,8 +360,8 @@ export const useTripStore = defineStore('trip', () => {
     trip,
     activeDay,
     activeMarkerId,
-    showRestaurants,
-    showCafes,
+    overlays,
+    toggleOverlay,
     tripsIndex,
     // Computed
     currentDay,
@@ -375,8 +372,6 @@ export const useTripStore = defineStore('trip', () => {
     unloadTrip,
     setActiveDay,
     setActiveMarker,
-    toggleRestaurants,
-    toggleCafes,
     updatePlace,
     addPlace,
     removePlace,

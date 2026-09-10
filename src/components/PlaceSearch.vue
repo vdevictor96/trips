@@ -30,7 +30,7 @@
         >
           {{ match.name }}
           <span class="search-result-day" :style="{ color: match.dayColor }">
-            {{ match.dayId === 'discarded' ? 'Descartados' : match.dayId === 'restaurants' ? 'Restauración' : match.dayId === 'cafes' ? 'Cafeterías' : match.dayId === 'pending' ? 'Pendientes' : 'Día ' + match.dayId }}
+            {{ matchLabel(match) }}
           </span>
         </div>
         <div v-if="query && !localMatches.length" class="search-result-item" style="color:var(--text-dim)">
@@ -74,8 +74,17 @@
 import { ref, computed, onMounted, onBeforeUnmount, inject } from 'vue'
 import { useTripStore } from '../stores/trip.js'
 import { useGooglePlaces } from '../composables/useGooglePlaces.js'
+import { getCollection } from '../composables/useCollections.js'
 
 const store = useTripStore()
+
+// De dónde viene cada resultado. Las secciones salen del registro, así que
+// añadir una nueva no obliga a tocar esto.
+function matchLabel(match) {
+  if (match.dayId === 'discarded') return 'Descartados'
+  if (match.dayId === 'pending') return 'Pendientes'
+  return getCollection(match.dayId)?.label || `Día ${match.dayId}`
+}
 const { isAvailable, searchPlaces } = useGooglePlaces()
 const mapApi = inject('mapApi')
 const emit = defineEmits(['selectPlace', 'flyTo', 'previewSearchResult', 'focusSearch'])

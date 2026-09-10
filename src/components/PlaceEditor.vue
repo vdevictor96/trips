@@ -68,6 +68,9 @@ const availableTags = [
   { id: 'gratis', label: '🆓 Gratis' },
   { id: 'reservar', label: '📞 Reservar' },
   { id: 'mirador', label: '🌅 Mirador' },
+  // Alimenta la sección "Playas y charcos": es un índice derivado de este tag,
+  // así que marcar aquí un sitio lo hace aparecer allí sin duplicar el dato.
+  { id: 'playa', label: '🏖️ Playa / charco' },
 ]
 
 function toggleTag(tagId) {

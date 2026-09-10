@@ -17,24 +17,14 @@
     >
       {{ tab.label }}
       <span
-        v-if="tab.id === 'restaurants'"
+        v-if="tab.collection"
         class="rest-eye"
-        :class="{ on: store.showRestaurants }"
+        :class="{ on: store.overlays[tab.id] }"
         role="button"
-        :aria-pressed="store.showRestaurants"
-        :aria-label="store.showRestaurants ? 'Ocultar restaurantes del mapa' : 'Mostrar restaurantes junto a cada día'"
-        :title="store.showRestaurants ? 'Ocultar restaurantes del mapa' : 'Mostrar restaurantes junto a cada día'"
-        @click.stop="emit('toggleRestaurants')"
-      >👁</span>
-      <span
-        v-if="tab.id === 'cafes'"
-        class="rest-eye"
-        :class="{ on: store.showCafes }"
-        role="button"
-        :aria-pressed="store.showCafes"
-        :aria-label="store.showCafes ? 'Ocultar cafeterías del mapa' : 'Mostrar cafeterías junto a cada día'"
-        :title="store.showCafes ? 'Ocultar cafeterías del mapa' : 'Mostrar cafeterías junto a cada día'"
-        @click.stop="emit('toggleCafes')"
+        :aria-pressed="store.overlays[tab.id]"
+        :aria-label="overlayLabel(tab)"
+        :title="overlayLabel(tab)"
+        @click.stop="emit('toggleOverlay', tab.id)"
       >👁</span>
     </button>
   </div>
@@ -43,9 +33,10 @@
 <script setup>
 import { computed, ref, onBeforeUnmount, onMounted, watch, nextTick } from 'vue'
 import { useTripStore } from '../stores/trip.js'
+import { COLLECTIONS, collectionPlaces } from '../composables/useCollections.js'
 
 const store = useTripStore()
-const emit = defineEmits(['selectDay', 'toggleRestaurants', 'toggleCafes'])
+const emit = defineEmits(['selectDay', 'toggleOverlay'])
 
 // Centra la pastilla activa en la fila con scroll horizontal (p. ej. al abrir
 // en el día actual, que puede quedar fuera de vista si es el día 3+).
@@ -107,11 +98,10 @@ const tabs = computed(() => {
   const pending = store.trip.days.find(d => d.wildcard)
   if (pending) t.push({ id: pending.id, label: pending.tab, color: pending.color })
   t.push({ id: 'info', label: 'ℹ️ Info útil', color: null })
-  if (store.trip.restaurants?.length) {
-    t.push({ id: 'restaurants', label: '🍴 Restauración', color: null })
-  }
-  if (store.trip.cafes?.length) {
-    t.push({ id: 'cafes', label: '☕ Cafeterías', color: null })
+  for (const c of COLLECTIONS) {
+    if (collectionPlaces(c, store.trip).length) {
+      t.push({ id: c.id, label: `${c.emoji} ${c.label}`, color: null, collection: c })
+    }
   }
   if (store.trip.discarded?.length) {
     t.push({ id: 'discarded', label: '🗑️ Descartados', color: null })
@@ -121,6 +111,11 @@ const tabs = computed(() => {
   }
   return t
 })
+
+function overlayLabel(tab) {
+  const n = tab.collection.label.toLowerCase()
+  return store.overlays[tab.id] ? `Ocultar ${n} del mapa` : `Mostrar ${n} junto a cada día`
+}
 
 function tabActiveStyle(tab) {
   if (store.activeDay !== tab.id || !tab.color) return {}

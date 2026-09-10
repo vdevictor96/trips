@@ -1,7 +1,7 @@
 <template>
-  <div v-if="store.trip?.restaurants?.length">
-    <h2 class="day-header">Restauración</h2>
-    <p class="day-subtitle">Sitios para comer (ideas del Wanderlog). Toca para verlo en el mapa.</p>
+  <div v-if="places.length">
+    <h2 class="day-header">{{ collection.label }}</h2>
+    <p class="day-subtitle">{{ collection.subtitle }}</p>
 
     <div v-for="group in groups" :key="group.cat" style="margin-bottom:8px;">
       <h3 style="font-size:14px; margin:14px 0 6px; color:var(--text-dim);">{{ group.cat }}</h3>
@@ -9,10 +9,9 @@
         v-for="p in group.items"
         :key="p.id"
         class="place-card"
-        :data-day="'restaurants'"
+        :data-day="collection.id"
         :data-id="p.id"
-        style="border-left-color:#e67e22;"
-        :style="{ cursor: p.lat != null ? 'pointer' : 'default' }"
+        :style="{ borderLeftColor: collection.color, cursor: p.lat != null ? 'pointer' : 'default' }"
         @click="handleClick(p, $event)"
       >
         <div class="place-name">{{ p.name }}</div>
@@ -29,24 +28,30 @@
 <script setup>
 import { computed } from 'vue'
 import { useTripStore } from '../stores/trip.js'
+import { buildGmapUrl } from '../composables/useMap.js'
+import { collectionPlaces } from '../composables/useCollections.js'
 
+const props = defineProps({ collection: { type: Object, required: true } })
 const store = useTripStore()
 const emit = defineEmits(['flyTo'])
 
+const places = computed(() => collectionPlaces(props.collection, store.trip))
+
 const groups = computed(() => {
   const out = []
-  for (const p of store.trip?.restaurants || []) {
-    let g = out.find(x => x.cat === p.cat)
-    if (!g) { g = { cat: p.cat || 'Otros', items: [] }; out.push(g) }
+  for (const p of places.value) {
+    const cat = props.collection.groupBy(p)
+    let g = out.find(x => x.cat === cat)
+    if (!g) { g = { cat, items: [] }; out.push(g) }
     g.items.push(p)
   }
   return out
 })
 
+// El compartido, no una copia local: así respeta `googlePlaceId` y Maps abre el
+// sitio exacto en vez de adivinar por el texto del nombre.
 function gmapUrl(p) {
-  const city = store.trip?.city
-  const q = city ? `${p.name}, ${city}` : p.name
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`
+  return buildGmapUrl(p, store.trip?.city)
 }
 
 function handleClick(p, e) {

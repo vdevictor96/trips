@@ -10,14 +10,13 @@
         <PlaceSearch @select-place="handlePlaceSelect" @fly-to="handleFlyTo" @preview-search-result="handlePreviewSearchResult" @focus-search="handleSearchFocus" />
       </template>
       <template #tabs>
-        <DayTabs @select-day="handleDaySelect" @toggle-restaurants="handleToggleRestaurants" @toggle-cafes="handleToggleCafes" />
+        <DayTabs @select-day="handleDaySelect" @toggle-overlay="handleToggleOverlay" />
       </template>
       <template #body>
         <OverviewPanel v-if="store.activeDay === null" @navigate="handleDaySelect" />
         <InfoPanel v-else-if="store.activeDay === 'info'" />
         <DiscardedPanel v-else-if="store.activeDay === 'discarded'" @fly-to="handleFlyTo" />
-        <RestaurantsPanel v-else-if="store.activeDay === 'restaurants'" @fly-to="handleFlyTo" />
-        <CafesPanel v-else-if="store.activeDay === 'cafes'" @fly-to="handleFlyTo" />
+        <CollectionPanel v-else-if="activeCollection" :collection="activeCollection" @fly-to="handleFlyTo" />
         <NotesPanel v-else-if="store.activeDay === 'notes'" />
         <DayContent
           v-else
@@ -34,7 +33,7 @@
 </template>
 
 <script setup>
-import { ref, nextTick, provide } from 'vue'
+import { ref, computed, nextTick, provide } from 'vue'
 import { useTripStore } from '../stores/trip.js'
 import { useMap } from '../composables/useMap.js'
 import MapView from './MapView.vue'
@@ -44,17 +43,18 @@ import DayTabs from './DayTabs.vue'
 import OverviewPanel from './OverviewPanel.vue'
 import InfoPanel from './InfoPanel.vue'
 import DiscardedPanel from './DiscardedPanel.vue'
-import RestaurantsPanel from './RestaurantsPanel.vue'
-import CafesPanel from './CafesPanel.vue'
+import CollectionPanel from './CollectionPanel.vue'
 import NotesPanel from './NotesPanel.vue'
 import DayContent from './DayContent.vue'
 import ToastNotification from './ToastNotification.vue'
 import { useToast } from '../composables/useToast.js'
 import { useGooglePlaces } from '../composables/useGooglePlaces.js'
+import { getCollection } from '../composables/useCollections.js'
 
 const emit = defineEmits(['back'])
 
 const store = useTripStore()
+const activeCollection = computed(() => getCollection(store.activeDay))
 const { show } = useToast()
 const { getPlaceDetails } = useGooglePlaces()
 const mapViewRef = ref(null)
@@ -120,13 +120,8 @@ function handleActivateMarker(placeId) {
   mapApi.activateMarker(placeId)
 }
 
-function handleToggleRestaurants() {
-  store.toggleRestaurants()
-  mapApi.updateVisibleLayers(store.activeDay)
-}
-
-function handleToggleCafes() {
-  store.toggleCafes()
+function handleToggleOverlay(collectionId) {
+  store.toggleOverlay(collectionId)
   mapApi.updateVisibleLayers(store.activeDay)
 }
 

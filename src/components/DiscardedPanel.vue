@@ -25,14 +25,15 @@
 
 <script setup>
 import { useTripStore } from '../stores/trip.js'
+import { buildGmapUrl } from '../composables/useMap.js'
 
 const store = useTripStore()
 const emit = defineEmits(['flyTo'])
 
+// El compartido, no una copia local: así respeta `googlePlaceId` y Maps abre el
+// sitio exacto en vez de adivinar por el texto del nombre.
 function gmapUrl(p) {
-  const city = store.trip?.city
-  const q = city ? `${p.name}, ${city}` : p.name
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`
+  return buildGmapUrl(p, store.trip?.city)
 }
 
 function handleClick(p, e) {
