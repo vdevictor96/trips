@@ -1,5 +1,5 @@
 {
-  "_v": 6,
+  "_v": 7,
   "id": "tenerife-2026",
   "title": "Tenerife 2026",
   "emoji": "🇪🇸",
@@ -60,7 +60,7 @@
           "name": "🏠 El Médano — base sur (casa del amigo)",
           "lat": 28.04621,
           "lng": -16.53817,
-          "desc": "Desde TFN: TF-5 → TF-1 dirección sur, <strong>~70 km / 55-60 min</strong>. Contad 1h desde que aterrizáis hasta que salís del parking (equipaje + mostrador). Aquí os quedáis hasta el miércoles 23. El Médano es el pueblo más windsurfero de la isla: viento casi garantizado, ambiente relajado y sin mole hotelera. Deshacer maletas y respirar — el primer día va suelto a propósito. 📞 Hoy es el día de cuadrar con Jaume: qué día se viene al avistamiento de cetáceos (sale de Puerto Colón, Costa Adeje) y confirmar que el viernes le encaja el día suave por El Médano.",
+          "desc": "Desde TFN: TF-5 → TF-1 dirección sur, ~70 km / 55-60 min. Contad 1h desde que aterrizáis hasta que salís del parking (equipaje + mostrador). Aquí os quedáis hasta el miércoles 23. El Médano es el pueblo más windsurfero de la isla: viento casi garantizado, ambiente relajado y sin mole hotelera. Deshacer maletas y respirar — el primer día va suelto a propósito. 📞 Hoy es el día de cuadrar con Jaume: qué día se viene al avistamiento de cetáceos (sale de Puerto Colón, Costa Adeje) y confirmar que el viernes le encaja el día suave por El Médano.",
           "tags": [
             "obligatorio"
           ]
@@ -86,7 +86,7 @@
           "name": "🌅 Atardecer y cena en el paseo del Médano",
           "lat": 28.0453,
           "lng": -16.5371,
-          "desc": "Puesta de sol a las <strong>20:10</strong> desde el propio paseo. Cena tranquila en la plaza Príncipe de Asturias o en el paseo marítimo: mucho sitio de tapas y pescado, sin necesidad de reservar un jueves. Mañana toca el día suave por El Médano con Jaume.",
+          "desc": "Puesta de sol a las 20:10 desde el propio paseo. Cena tranquila en la plaza Príncipe de Asturias o en el paseo marítimo: mucho sitio de tapas y pescado, sin necesidad de reservar un jueves. Mañana toca el día suave por El Médano con Jaume.",
           "tags": [
             "gratis",
             "mirador"
@@ -107,7 +107,7 @@
           "name": "☕ Desayuno en El Médano",
           "lat": 28.04621,
           "lng": -16.53817,
-          "desc": "DESAYUNO sin despertador (1h). Día deliberadamente flojo: ayer fue el Teide y el ritmo con vuestro amigo es de estar, no de correr. Cerca tenéis NABI Coffee Roasters, en el Street Market de La Tejita (ver sección ☕)."
+          "desc": "DESAYUNO sin despertador (1h). Día deliberadamente flojo: ayer fue el día de llegada y el ritmo con vuestro amigo es de estar, no de correr. Cerca tenéis NABI Coffee Roasters, en el Street Market de La Tejita (ver sección ☕)."
         },
         {
           "id": "2.2",
@@ -175,39 +175,38 @@
     {
       "id": 3,
       "tab": "Día 3 · Sáb 19",
-      "title": "Los Gigantes 🌊",
-      "subtitle": "Sábado 19 sept · Acantilados, charco y tarde de playa · 🌅 Puesta 20:07",
+      "title": "Abades, Tajao y Montaña Pelada 🌋",
+      "subtitle": "Sábado 19 sept · Con Jaume y todo a menos de 20 min de TFS · playa, pescado y cráter al atardecer · 🌅 Puesta 20:07",
       "places": [
         {
           "id": "3.1",
-          "time": "08:45",
-          "dur": "1h 45min",
-          "name": "☕ Desayuno + subida a Los Gigantes",
-          "lat": 28.05263,
-          "lng": -16.717,
-          "desc": "Desayuno en El Médano y subida por la TF-1 → TF-46 hasta Puerto Santiago (~1h05). Reservad la hora: el mirador de Archipenque se ve mejor por la mañana, antes de que el sol pegue de frente en los acantilados."
+          "time": "09:30",
+          "dur": "1h",
+          "name": "☕ Desayuno en El Médano",
+          "lat": 28.04621,
+          "lng": -16.53817,
+          "desc": "DESAYUNO tranquilo (1h). Día rehecho de cero con la regla de Jaume: mientras estéis con él en El Médano, nada a más de media hora en coche del aeropuerto del sur (TFS). Hoy todo queda a menos de 20 min: baño en Abades, pescado en Tajao, siesta y cráter al atardecer. Los Gigantes estaba a ~40 min y pasa a descartados."
         },
         {
           "id": "3.2",
           "time": "10:45",
-          "dur": "1h 15min",
-          "name": "🌊 Mirador de Archipenque (Los Gigantes)",
-          "lat": 28.24047,
-          "lng": -16.83689,
-          "desc": "DESAYUNO por el camino o en Los Gigantes al llegar (1h). Desde El Médano ~55 min por la TF-1 y TF-47. Balcón directo sobre los acantilados de Los Gigantes: 600 m de pared cayendo a plomo al Atlántico. Los guanches los llamaban «la muralla del infierno». Mejor por la mañana: a esta hora el sol los ilumina de frente.",
+          "dur": "40 min",
+          "name": "🏚️ Sanatorio de Abades (por fuera)",
+          "lat": 28.14686,
+          "lng": -16.43695,
+          "desc": "A 15 min de El Médano por la TF-1. Aparcad en el pueblo de Abades, junto a la playa, y subid andando (~15 min). Es la leprosería que se levantó en los años 40 y nunca llegó a abrir: iglesia, pabellones y calles vacías sobre la costa. La entrada no está prohibida, pero son ruinas con cascotes y las autoridades avisan del riesgo: se ve por fuera, sin meterse en los edificios. Mejor ahora que a mediodía, que no hay ni una sombra.",
           "tags": [
-            "gratis",
-            "mirador"
+            "gratis"
           ]
         },
         {
           "id": "3.3",
-          "time": "12:10",
-          "dur": "1h 40min",
-          "name": "Playa de los Guíos + Charco de Isla Cangrejo",
-          "lat": 28.24725,
-          "lng": -16.84063,
-          "desc": "Playa de arena NEGRA volcánica justo al pie del acantilado — la estampa más fotografiada del oeste. Agua transparente y profunda. A 5 min andando, el Charco de Isla Cangrejo es una piscina natural acondicionada sobre la lava, protegida del oleaje: mejor sitio para bañarse si el mar viene movido.",
+          "time": "11:30",
+          "dur": "2h",
+          "name": "🏖️ Playa de Abades (Los Abriguitos)",
+          "lat": 28.14308,
+          "lng": -16.43887,
+          "desc": "La playa que faltaba cerca de El Médano: una bahía muy resguardada, así que el agua suele estar en calma aunque en El Médano sople. Arena volcánica muy fina, duchas y aparcamiento gratis. Llevad gafas de bucear: es zona de buceo por lo clara que está el agua y hay peces junto a las rocas. Tortugas hay, pero verlas por libre es cuestión de suerte (el sitio seguro para eso es El Puertito, Día 6). Sin socorrista. Si estuviera llena, Playa Grande (El Porís) queda a 10 min en coche: arena clara, más tranquila y más ventosa.",
           "tags": [
             "gratis",
             "playa"
@@ -215,41 +214,55 @@
         },
         {
           "id": "3.4",
-          "time": "14:00",
+          "time": "13:45",
           "dur": "1h 45min",
-          "name": "🍽️ Comida en Los Gigantes / Puerto Santiago",
-          "lat": 28.30483,
-          "lng": -16.84131,
-          "desc": "Comida junto al puerto deportivo, con los acantilados de fondo. Pescado fresco y terrazas con vistas; hay bastante donde elegir sin reserva.",
-          "tags": [
-            "obligatorio"
-          ]
+          "name": "🍽️ Comida en Tajao",
+          "lat": 28.10925,
+          "lng": -16.47079,
+          "desc": "A 7 min. Pueblo pesquero de Arico con fama de tener el mejor pescado de la isla: los restaurantes están pegados al muelle y el pescado del día se elige en la vitrina (vieja, cherne, mero, pulpo) con papas arrugadas y mojo. Por ejemplo Playa Tajao (abre todos los días, reservas 922 16 40 04), Mero Pancho o Rincón del Marinero. Es sábado: reservad."
         },
         {
           "id": "3.5",
-          "time": "16:00",
-          "dur": "2h 45min",
-          "name": "Playa de la Arena + descanso",
-          "lat": 28.22965,
-          "lng": -16.8409,
-          "desc": "Playa de arena negra con bandera azul, muy protegida y con socorrista — la mejor de esta costa para tumbarse sin sobresaltos. En el extremo norte está el Charco La Vaca (ver Descartados): solo con marea baja y mar en calma, no hay escaleras para bajar.",
+          "time": "15:35",
+          "dur": "25 min",
+          "name": "🪨 Arco de Tajao",
+          "lat": 28.11567,
+          "lng": -16.47288,
+          "desc": "A 2 min en coche, saliendo de Tajao hacia la TF-1 (salida 46): aparcamiento de tierra gratis y 150 m andando. Puente de roca de unos 30 × 10 m que el agua ha excavado en la toba volcánica, con unos 200.000 años. Estaba en descartados como «parada de 20 min si os sobra un rato en el sur»: hoy cae de camino.",
           "tags": [
-            "playa",
             "gratis"
           ]
         },
         {
           "id": "3.6",
-          "time": "19:00",
+          "time": "16:15",
+          "dur": "1h 45min",
+          "name": "😴 Siesta + merienda en casa",
+          "lat": 28.04621,
+          "lng": -16.53817,
+          "desc": "Vuelta a El Médano (~12 min) y a descansar. MERIENDA en casa antes de salir: en Montaña Pelada no hay nada."
+        },
+        {
+          "id": "3.7",
+          "time": "18:15",
           "dur": "2h 30min",
-          "name": "🌅 Atardecer en la costa oeste + cena",
-          "lat": 28.29964,
-          "lng": -16.82402,
-          "desc": "La costa oeste mira de frente a La Gomera: el sol se pone justo detrás de la isla (20:07). Cenad por la zona de Puerto Santiago o volved a El Médano (~1h). Vuelta tranquila, mañana toca madrugar poco.",
+          "name": "🌋🌅 Montaña Pelada (atardecer desde el cráter)",
+          "lat": 28.06444,
+          "lng": -16.51994,
+          "desc": "En coche hasta el final de la avenida Juan Carlos I, en Arenas del Mar (5 min; andando desde casa son ~30 por la costa). Volcán nacido de una erupción submarina y hoy Monumento Natural: subid por el camino cómodo de la izquierda (la cara de frente es empinada y da vértigo) y rodead el cráter, de unos 2,5 km de perímetro, con El Médano, Montaña Roja y Las Cañadas delante. A los pies queda la cala de La Pelada (ver descartados). Puesta a las 20:07: empezad a bajar nada más ponerse el sol, con la linterna del móvil a mano, que el crepúsculo dura unos 25 min. Sin sombra ni agua. Ojo con la regla de Jaume: desde arriba hay ~30 min andando hasta el coche.",
           "tags": [
             "gratis",
             "mirador"
           ]
+        },
+        {
+          "id": "3.8",
+          "time": "21:00",
+          "dur": "1h 30min",
+          "name": "🍽️ Cena en El Médano",
+          "lat": 28.0453,
+          "lng": -16.5371,
+          "desc": "Cena tranquila en la plaza Príncipe de Asturias o en el paseo marítimo, a 5 min del aparcamiento."
         }
       ]
     },
@@ -269,18 +282,18 @@
           "time": "09:00",
           "dur": "1h 15min",
           "name": "☕ Desayuno + bajada a Puerto Colón",
-          "lat": 28.05263,
-          "lng": -16.717,
-          "desc": "Desayuno en El Médano y bajada a Puerto Colón, en Costa Adeje (~40 min por la TF-1). Es de donde sale la mayoría de barcos de avistamiento y el que cogéis vosotros. Aparcad en el subterráneo del puerto y estad 30 min antes del embarque."
+          "lat": 28.04621,
+          "lng": -16.53817,
+          "desc": "Desayuno en El Médano y bajada a Puerto Colón, en Costa Adeje (~25 min por la TF-1). Es de donde sale la mayoría de barcos de avistamiento y el que cogéis vosotros. Aparcad en el subterráneo del puerto y estad 30 min antes del embarque."
         },
         {
           "id": "4.2",
           "time": "10:30",
           "dur": "3h",
           "name": "⭐ Avistamiento de cetáceos (Fever) — desde Puerto Colón",
-          "lat": 28.05263,
-          "lng": -16.717,
-          "desc": "La franja Teno-Rasca es Zona de Patrimonio Ballenero: hay calderón tropical y delfín mular residentes todo el año, así que se ven casi siempre. Salida de Puerto Colón (Costa Adeje). ~25 € → <strong>~15 € con tu 40 % de Fever</strong>. Elegid barco pequeño con bandera azul de Barco Azul (respeta las distancias) y evitad los catamaranes-fiesta. Si Jaume se apunta, es el plan más fácil para que venga.",
+          "lat": 28.07826,
+          "lng": -16.73685,
+          "desc": "La franja Teno-Rasca es Zona de Patrimonio Ballenero: hay calderón tropical y delfín mular residentes todo el año, así que se ven casi siempre. Salida de Puerto Colón (Costa Adeje). ~25 € → ~15 € con tu 40 % de Fever. Elegid barco pequeño con bandera azul de Barco Azul (respeta las distancias) y evitad los catamaranes-fiesta. ⚠️ Si Jaume se apunta, ojo con su regla de la media hora: son 2-3h mar adentro y el barco no vuelve antes, así que si le surgiera la emergencia no le daría tiempo a llegar a TFS. Decididlo con él.",
           "tags": [
             "obligatorio",
             "reservar"
@@ -327,8 +340,8 @@
           "time": "20:00",
           "dur": "1h 30min",
           "name": "🌅 Atardecer + cena",
-          "lat": 28.02916,
-          "lng": -16.59077,
+          "lat": 28.03564,
+          "lng": -16.63701,
           "desc": "Puesta a las 20:06. Vuelta hacia el este por la costa y CENA. Opción muy de la zona: Guachinche El Cordero (Guargacho, 10 min) o El Rancho de Nino (Oroteanda) para carne a la brasa y vino de la casa. Guachinche = bodega familiar que sirve comida casera; es LA experiencia gastronómica canaria."
         }
       ]
@@ -349,8 +362,8 @@
           "time": "08:00",
           "dur": "1h",
           "name": "☕ Vilaflor de Chasna — desayuno",
-          "lat": 28.15878,
-          "lng": -16.64728,
+          "lat": 28.15995,
+          "lng": -16.63715,
           "desc": "Salida de El Médano 08:00 (TF-1 → TF-21, ~45 min subiendo). DESAYUNO aquí (1h): Vilaflor es el pueblo más alto de España (1.400 m), entre pinares canarios. Aprovechad para llenar el depósito y coger agua: arriba no hay nada. Ojo, se nota el fresco — llevad forro polar aunque abajo estéis en manga corta (en las Cañadas puede haber 10-12 ºC de diferencia)."
         },
         {
@@ -373,7 +386,7 @@
           "name": "⭐ Teleférico del Teide (La Rambleta 3.555 m)",
           "lat": 28.26225,
           "lng": -16.63236,
-          "desc": "RESERVA OBLIGATORIA en volcanoteide.com (~42 €/adulto ida y vuelta; con reserva de hora). Cogedlo por la MAÑANA: por la tarde suele levantarse viento y lo cierran. Arriba, dos miradores libres sin permiso: La Fortaleza (vistas al norte y a La Palma/La Gomera) y Pico Viejo (al cráter de 800 m). ⚠️ Subir al CRÁTER del Teide (sendero Telesforo Bravo) necesita permiso APARTE: 15 €/persona no residente en 2026, se saca en reservasparquesnacionales.es y vuela con semanas de antelación. Si no lo tenéis, los dos miradores ya merecen muchísimo la pena. Abrigo y calzado cerrado: a 3.555 m hace frío de verdad. 🎟️ La entrada se puede <strong>cambiar de fecha y hora hasta las 18:00 del día anterior</strong>, así que si el parte da viento (cierran el teleférico con rachas fuertes) tenéis margen para moverla sin perderla.",
+          "desc": "RESERVA OBLIGATORIA en volcanoteide.com (~42 €/adulto ida y vuelta; con reserva de hora). Cogedlo por la MAÑANA: por la tarde suele levantarse viento y lo cierran. Arriba, dos miradores libres sin permiso: La Fortaleza (vistas al norte y a La Palma/La Gomera) y Pico Viejo (al cráter de 800 m). ⚠️ Subir al CRÁTER del Teide (sendero Telesforo Bravo) necesita permiso APARTE: 15 €/persona no residente en 2026, se saca en reservasparquesnacionales.es y vuela con semanas de antelación. Si no lo tenéis, los dos miradores ya merecen muchísimo la pena. Abrigo y calzado cerrado: a 3.555 m hace frío de verdad. 🎟️ La entrada se puede cambiar de fecha y hora hasta las 18:00 del día anterior, así que si el parte da viento (cierran el teleférico con rachas fuertes) tenéis margen para moverla sin perderla.",
           "tags": [
             "obligatorio",
             "reservar",
@@ -442,8 +455,8 @@
     {
       "id": 6,
       "tab": "Día 6 · Mar 22",
-      "title": "Barranco del Infierno + Costa Adeje",
-      "subtitle": "Martes 22 sept · Senderismo temprano + playas · 🌅 Puesta 20:04",
+      "title": "Costa Adeje 🐢 + Barranco opcional",
+      "subtitle": "Martes 22 sept · Con Jaume: casco de Adeje, playa y tortugas · Barranco del Infierno opcional y sin él · 🌅 Puesta 20:04",
       "hotel": {
         "lat": 28.04621,
         "lng": -16.53817,
@@ -453,13 +466,12 @@
         {
           "id": "6.1",
           "time": "08:30",
-          "dur": "3h 15min",
-          "name": "⭐ Barranco del Infierno",
-          "lat": 28.15527,
-          "lng": -16.69664,
-          "desc": "🎟️ RESERVA OBLIGATORIA en barrancodelinfierno.es — solo 300 personas/día, entran 20 cada media hora, y se agota. ~15 €/adulto. ⚠️ OJO CON EL HORARIO: el 16 de septiembre cambia al horario de invierno, así que en vuestras fechas la <strong>ventana de entrada es 8:30-11:30</strong> y el barranco <strong>cierra a las 14:30</strong> (en verano era 8:00-10:30). Reservad la primera franja, 8:30: además de que a partir de las 11 pega el sol de lleno, entrar tarde os deja sin margen para acabar. Ruta lineal de 6,5 km ida y vuelta, ~3h, fácil pero pedregosa; casco incluido en la entrada y obligatorio. Acaba en una cascada de 80 m (más chorro que cascada en septiembre, pero el cañón es lo bonito). Desde El Médano ~35 min.",
+          "dur": "3h 15min · opcional",
+          "name": "🔀 OPCIONAL: Barranco del Infierno (sin Jaume)",
+          "lat": 28.12632,
+          "lng": -16.72373,
+          "desc": "🔀 OPCIONAL. No os convence del todo y es un plan sin Jaume, así que por defecto no va: la mañana queda libre en El Médano con él y bajáis juntos a comer a Adeje (salid a las 11:30, ~25 min). Si al final os apetece: reserva en barrancodelinfierno.es — solo 300 personas/día, entran 20 cada media hora, ~15 €/adulto. OJO: desde el 16 de septiembre rige el horario de invierno, con entrada solo de 8:30 a 11:30 y cierre del barranco a las 14:30; coged la franja de las 8:30. Ruta lineal de 6,5 km ida y vuelta, ~3h, fácil pero pedregosa; casco obligatorio (incluido). Acaba en una cascada de 80 m (más chorro que cascada en septiembre, pero el cañón es lo bonito). La entrada está en el propio casco de Adeje (calle Molinos).",
           "tags": [
-            "obligatorio",
             "reservar"
           ],
           "link": "https://www.barrancodelinfierno.es/"
@@ -469,9 +481,9 @@
           "time": "12:00",
           "dur": "2h",
           "name": "🍽️ Casco de Adeje",
-          "lat": 28.13944,
-          "lng": -16.73946,
-          "desc": "COMIDA (2h) en el casco viejo de Adeje, 5 min desde el barranco y mucho mejor que bajar a la zona hotelera: la calle Grande tiene el famoso Otelo (pollo al ajillo) y varias guachinches. Aquí también está Regina Margherita si os apetece pizza napolitana."
+          "lat": 28.12338,
+          "lng": -16.72411,
+          "desc": "COMIDA (2h) en el casco viejo de Adeje. Si hacéis el barranco salís justo aquí; si no, es donde quedáis con Jaume. Mucho mejor que bajar a la zona hotelera: el famoso Otelo (pollo al ajillo) está en la calle Molinos, junto a la entrada del barranco, y en la calle Grande hay varias guachinches. Aquí también está Regina Margherita si os apetece pizza napolitana."
         },
         {
           "id": "6.3",
@@ -480,7 +492,7 @@
           "name": "Playa del Duque + Playa de Fañabé",
           "lat": 28.09085,
           "lng": -16.74194,
-          "desc": "Tarde de descanso puro después del barranco. El Duque es la playa más cuidada de Costa Adeje (arena dorada importada, agua tranquila, hamacas). Fañabé está pegada y las une un paseo marítimo de 5 km. MERIENDA (1h) en cualquiera de los chiringuitos del paseo. 🛎️ Aquí están los dos hoteles del day pass que os gustan (H10 Costa Adeje Palace e Iberostar Anthelia): si ese día apetece piscina y buffet en vez de playa, se compra por la mañana en hoteltreats.com.",
+          "desc": "Tarde de descanso puro. El Duque es la playa más cuidada de Costa Adeje (arena dorada importada, agua tranquila, hamacas). Fañabé está pegada y las une un paseo marítimo de 5 km. MERIENDA (1h) en cualquiera de los chiringuitos del paseo. 🛎️ Aquí están los dos hoteles del day pass que os gustan (H10 Costa Adeje Palace e Iberostar Anthelia): si ese día apetece piscina y buffet en vez de playa, se compra por la mañana en hoteltreats.com.",
           "tags": [
             "gratis",
             "playa"
@@ -503,10 +515,10 @@
           "id": "6.5",
           "time": "19:45",
           "dur": "1h 30min",
-          "name": "🌅 La Caleta / Playa Paraíso + cena",
-          "lat": 28.11878,
-          "lng": -16.77426,
-          "desc": "Puesta a las 20:04 mirando al oeste. La Caleta (junto a El Puertito) es el sitio donde cena la gente de la zona: pescado fresco en el paseo, sin menús plastificados. Vuelta a El Médano ~40 min.",
+          "name": "🌅 La Caleta de Adeje + cena",
+          "lat": 28.10067,
+          "lng": -16.75553,
+          "desc": "Puesta a las 20:04 mirando al oeste. La Caleta (a 10-15 min de El Puertito) es donde cena la gente de la zona: pescado fresco en el paseo, sin menús plastificados. Vuelta a El Médano ~30 min.",
           "tags": [
             "mirador",
             "playa"
@@ -518,7 +530,7 @@
       "id": 7,
       "tab": "Día 7 · Mié 23",
       "title": "Mudanza sur → norte 🧳",
-      "subtitle": "Miércoles 23 sept · Güímar · Candelaria · Santa Cruz · <strong>La Laguna</strong> · La Orotava · check-in PDLC · 🌅 Puesta 20:02",
+      "subtitle": "Miércoles 23 sept · Candelaria · ruta a pie por Santa Cruz · comida y ruta por La Laguna · La Orotava · check-in PDLC · 🌅 Puesta 20:02",
       "hotel": {
         "lat": 28.04621,
         "lng": -16.53817,
@@ -527,77 +539,149 @@
       "places": [
         {
           "id": "7.1",
-          "time": "08:45",
-          "dur": "1h 15min",
-          "name": "Pirámides de Güímar",
-          "lat": 28.322,
-          "lng": -16.41282,
-          "desc": "Salid de El Médano sobre las <strong>08:00</strong> con las maletas (~40 min por la TF-1). Desayunad antes de salir: los 45 min que se adelanta el día son exactamente lo que cuesta meter La Laguna sin cargarse la tarde. Hoy dormís ya en el norte. Seis pirámides escalonadas de piedra volcánica que Thor Heyerdahl (el de la Kon-Tiki) defendió como precolombinas; la tesis mayoritaria hoy es que son majanos agrícolas del s. XIX. Sea como sea, el parque etnográfico está muy bien montado. ~12 €.",
-          "link": "https://www.piramidesdeguimar.es/"
-        },
-        {
-          "id": "7.2",
-          "time": "10:15",
-          "dur": "1h 20min",
+          "time": "09:05",
+          "dur": "45 min",
           "name": "Candelaria — Basílica y los 9 menceyes",
           "lat": 28.35126,
           "lng": -16.36991,
-          "desc": "A 15 min. Es el gran centro de peregrinación de Canarias: la Basílica de la Virgen de la Candelaria, patrona del archipiélago. Delante, en la plaza sobre el mar, están las estatuas de bronce de los NUEVE MENCEYES, los reyes guanches que gobernaban la isla antes de la conquista castellana. Entrada libre a la basílica.",
+          "desc": "Salid de El Médano a las 08:30 con las maletas y desayunados (~31 min por la TF-1); aparcamiento municipal junto a la plaza. Es el gran centro de peregrinación de Canarias: la Basílica de la Virgen de la Candelaria, patrona del archipiélago (entrada libre; de martes a domingo abre a las 8:00). Delante, en la plaza sobre el mar, están las estatuas de bronce de los NUEVE MENCEYES, los reyes guanches que gobernaban la isla antes de la conquista castellana. Hoy no hay Pirámides de Güímar: el tiempo se lo llevan las rutas de Santa Cruz y La Laguna (ver descartados).",
           "tags": [
             "gratis"
           ]
         },
         {
-          "id": "7.3",
-          "time": "11:45",
-          "dur": "1h 30min",
-          "name": "🍽️ Comida en Candelaria",
-          "lat": 28.37698,
-          "lng": -16.3983,
-          "desc": "COMIDA (2h) en el paseo marítimo de Candelaria, con la playa de arena negra al lado. Pueblo real, no turístico: precios normales y mucho pescado."
-        },
-        {
-          "id": "7.4",
-          "time": "13:40",
-          "dur": "50 min",
-          "name": "Auditorio de Tenerife Adán Martín",
+          "id": "7.2",
+          "time": "10:15",
+          "dur": "25 min",
+          "name": "Auditorio de Tenerife + Castillo Negro",
           "lat": 28.45607,
           "lng": -16.25124,
-          "desc": "A 5 min andando del Palmetum. El edificio de Calatrava con la gran ola de hormigón blanco de 60 m, el símbolo moderno de la isla. Con ver el exterior y rodearlo por el paseo marítimo es suficiente (dentro solo se entra con visita guiada o concierto). Sin Palmetum este año: el hueco se lo lleva La Laguna, que es la parada que pediste.",
+          "desc": "A 18 min. Aparcad en el subterráneo del Auditorio (entrada por la avenida de la Constitución, por el acceso al puerto). El edificio de Calatrava (2003) con la gran ola de hormigón blanco, el símbolo moderno de la isla: con verlo por fuera y rodearlo basta. Pegado está el Castillo de San Juan Bautista, el «Castillo Negro» (1641), que solo se ve por fuera.",
           "tags": [
             "gratis"
           ],
           "link": "https://auditoriodetenerife.com/"
         },
         {
-          "id": "7.5",
-          "time": "14:50",
-          "dur": "1h 45min",
-          "name": "⭐ San Cristóbal de La Laguna",
-          "lat": 28.48577,
-          "lng": -16.31594,
-          "desc": "A 9 min de Santa Cruz por la TF-5 — de hecho <strong>La Laguna cae de camino</strong>: Santa Cruz → La Orotava son 26 min directos y 29 min parando aquí. Casco Patrimonio de la Humanidad (UNESCO), la primera ciudad colonial no fortificada, con el trazado en damero que sirvió de modelo a media Latinoamérica. Ruta corta: plaza del Adelantado → calle Obispo Rey Redondo → Catedral → Iglesia de la Concepción → calle San Agustín. Es la ciudad universitaria: ambiente y buen café de especialidad (ver sección ☕). <strong>Aparcad en parking subterráneo</strong>, la calle es zona azul.",
+          "id": "7.3",
+          "time": "10:50",
+          "dur": "30 min",
+          "name": "Mercado de Nuestra Señora de África",
+          "lat": 28.46298,
+          "lng": -16.252,
+          "desc": "Movéis el coche 2 min al Parking El Mercado (subterráneo, pegado al mercado) y desde aquí toda la ruta es a pie. Mercado municipal de 1944, «La Recova», el mejor de la isla para producto local: fruta, pescado, flores, mojos. Abre de lunes a sábado de 6:00 a 14:00, así que va el primero. Buen sitio para un barraquito.",
           "tags": [
-            "obligatorio"
+            "gratis"
+          ]
+        },
+        {
+          "id": "7.4",
+          "time": "11:25",
+          "dur": "25 min",
+          "name": "TEA + Iglesia de la Concepción + calle La Noria",
+          "lat": 28.46442,
+          "lng": -16.24895,
+          "desc": "A 5 min andando. El TEA (Tenerife Espacio de las Artes) es obra de Herzog & de Meuron: con verlo por fuera basta. Al lado, la Iglesia de la Concepción, la matriz de la ciudad, que guarda la Cruz de la Conquista; abre de 8:30 a 13:00 (y de 17:30 a 20:00), así que a esta hora se entra. Pegada, la calle La Noria, con sus casas de colores y sus terrazas.",
+          "tags": [
+            "gratis"
+          ]
+        },
+        {
+          "id": "7.5",
+          "time": "12:00",
+          "dur": "25 min",
+          "name": "Plaza de España + Castillo de San Cristóbal",
+          "lat": 28.46707,
+          "lng": -16.24719,
+          "desc": "A 7 min. La plaza más grande de Canarias, abierta al puerto y con el lago de agua de mar. Debajo está el Centro de Interpretación del Castillo de San Cristóbal (gratis, de lunes a sábado de 10:00 a 18:00): los restos de la muralla del castillo que defendía la ciudad desde el s. XVI y que se derribó en 1928.",
+          "tags": [
+            "gratis"
           ]
         },
         {
           "id": "7.6",
-          "time": "17:00",
-          "dur": "45 min",
+          "time": "12:25",
+          "dur": "25 min",
+          "name": "Plaza de la Candelaria → calle del Castillo → Plaza del Príncipe",
+          "lat": 28.46686,
+          "lng": -16.24841,
+          "desc": "Pegada a la de España, la Plaza de la Candelaria, el corazón de la ciudad: el monumento a la Candelaria y el Palacio de Carta, barroco. De ahí sale la calle del Castillo, la peatonal comercial de siempre, que os deja en la Plaza del Príncipe y la del Chicharro (el mote de los de Santa Cruz). Si vais sobrados, el Parque García Sanabria, el mayor parque urbano de Canarias, queda a 10 min subiendo. Vuelta al Parking El Mercado: ~15 min.",
+          "tags": [
+            "gratis"
+          ]
+        },
+        {
+          "id": "7.7",
+          "time": "13:25",
+          "dur": "1h 30min",
+          "name": "🍽️ Comida en La Laguna",
+          "lat": 28.48856,
+          "lng": -16.31758,
+          "desc": "A 10 min de Santa Cruz. Aparcad en el Parking San Juan (subterráneo, a 3 min de la Catedral), que deja la ruta de la tarde en redondo. Coméis en el casco, por la calle Herradores y alrededores: es ciudad universitaria, hay de todo y a precio normal (y en la sección ☕ tenéis Makika, coffeeURBANroasters y We The North para el café). 👋 Si quedáis con Laura (ver Pendientes), este es el hueco natural."
+        },
+        {
+          "id": "7.8",
+          "time": "15:05",
+          "dur": "15 min",
+          "name": "⭐ La Laguna: Plaza del Adelantado + Palacio de Nava",
+          "lat": 28.48751,
+          "lng": -16.31349,
+          "desc": "Empieza la ruta a pie por el casco, Patrimonio de la Humanidad desde 1999: la primera ciudad colonial no amurallada, con el trazado en damero que sirvió de modelo a media Latinoamérica. En la Plaza del Adelantado: el Palacio de Nava (s. XVI-XVII), el convento de Santa Catalina con su celosía de madera y el Ayuntamiento. La ruta es un lazo de ~2 km que acaba junto al parking.",
+          "tags": [
+            "obligatorio",
+            "gratis"
+          ]
+        },
+        {
+          "id": "7.9",
+          "time": "15:25",
+          "dur": "20 min",
+          "name": "Calle San Agustín — Casa Lercaro",
+          "lat": 28.48969,
+          "lng": -16.31492,
+          "desc": "A 5 min. La calle de las casonas: la Casa Salazar, el antiguo convento de San Agustín (hoy Instituto Cabrera Pinto) y la Casa Lercaro, del s. XVII, que es el Museo de Historia y Antropología (de lunes a sábado de 9:00 a 19:00, 5 €). El patio de madera suele poder verse sin pagar.",
+          "tags": [
+            "gratis"
+          ]
+        },
+        {
+          "id": "7.10",
+          "time": "16:00",
+          "dur": "25 min",
+          "name": "Iglesia de la Concepción + torre",
+          "lat": 28.49043,
+          "lng": -16.32033,
+          "desc": "A 10 min, al final de la calle. La primera parroquia de Tenerife (1511), con una torre de piedra de 28 m a la que se sube para ver el damero entero desde arriba. Según las guías, la torre abre de martes a viernes de 10:00 a 17:00 (1-2 €): por eso va antes que la Catedral.",
+          "tags": [
+            "mirador"
+          ]
+        },
+        {
+          "id": "7.11",
+          "time": "16:35",
+          "dur": "35 min",
+          "name": "Catedral de La Laguna",
+          "lat": 28.48887,
+          "lng": -16.3162,
+          "desc": "A 7 min bajando por la calle Obispo Rey Redondo, «La Carrera», la de las casas coloniales y el Teatro Leal. Catedral de los Remedios: fachada neoclásica e interior neogótico. De lunes a viernes de 9:00 a 18:00; 7 € con audioguía. Al salir, el parking está a 3 min."
+        },
+        {
+          "id": "7.12",
+          "time": "17:45",
+          "dur": "35 min",
           "name": "La Casa de los Balcones (Fever)",
           "lat": 28.38834,
           "lng": -16.52578,
-          "desc": "Casona canaria del XVII con el patio de balcones de tea más fotografiado de la isla. <strong>Abre 08:30-18:30 todos los días</strong>, así que hay que llegar antes de las 17:45. Entrada en taquilla 5 €; en Fever 7-11 € → <strong>~4-7 € con tu 40 %</strong> (suele llevar extras).",
+          "desc": "A 23 min por la TF-5; aparcad en el parking de San Agustín, en el casco. Casona canaria del XVII con el patio de balcones de tea más fotografiado de la isla. Abre de 08:30 a 18:30 todos los días y llegáis sobre las 17:45: si la tarde se ha alargado (o con Laura), es lo primero que se cae — la fachada se ve igual desde la calle. Entrada en taquilla 5 €; en Fever 7-11 € → ~4-7 € con tu 40 % (suele llevar extras).",
           "tags": [
             "reservar"
           ],
           "link": "https://feverup.com/es/tenerife"
         },
         {
-          "id": "7.7",
-          "time": "17:55",
-          "dur": "1h 5min",
+          "id": "7.13",
+          "time": "18:20",
+          "dur": "50 min",
           "name": "⭐ La Orotava — casco histórico + merienda",
           "lat": 28.38988,
           "lng": -16.52357,
@@ -607,26 +691,26 @@
           ]
         },
         {
-          "id": "7.8",
-          "time": "19:15",
-          "dur": "30 min",
+          "id": "7.14",
+          "time": "19:25",
+          "dur": "15 min",
           "name": "🏠 Check-in Puerto de la Cruz (Lago Martiánez)",
           "lat": 28.41936,
           "lng": -16.54391,
-          "desc": "Desde Santa Cruz ~40 min por la TF-5. Aquí dormís las 3 últimas noches. El Airbnb está pegado al Lago Martiánez, el complejo de piscinas de agua salada que diseñó César Manrique en los 70 (el mismo de los Jameos del Agua de Lanzarote): merece la pena entrar al menos una tarde, ~5,5 €. Va <strong>antes</strong> de Playa Jardín a propósito: así no dejáis el equipaje del viaje entero en el coche en un aparcamiento de playa.",
+          "desc": "Desde La Orotava ~10 min. Aquí dormís las 3 últimas noches. El Airbnb está pegado al Lago Martiánez, el complejo de piscinas de agua salada que diseñó César Manrique en los 70 (el mismo de los Jameos del Agua de Lanzarote): merece la pena entrar al menos una tarde, ~5,5 €. Va antes de Playa Jardín a propósito: así no dejáis el equipaje del viaje entero en el coche en un aparcamiento de playa.",
           "tags": [
             "obligatorio"
           ],
           "link": "https://www.costamartianez.com/"
         },
         {
-          "id": "7.9",
-          "time": "19:55",
-          "dur": "45 min",
+          "id": "7.15",
+          "time": "19:50",
+          "dur": "40 min",
           "name": "🌅 Playa Jardín (atardecer)",
           "lat": 28.4126,
           "lng": -16.55982,
-          "desc": "A 15 min andando. Playa de arena negra con jardines diseñados también por César Manrique y el Roque de Punta Brava en primer plano. Puesta a las 20:02 mirando al mar abierto. MERIENDA/aperitivo por el casco viejo de camino. Llegáis a las 19:55 y la puesta es a las <strong>20:02</strong>: es justo, no os entretengáis en el check-in.",
+          "desc": "En coche, 5 min (andando serían ~30: está a 2 km del apartamento). Playa de arena negra con jardines diseñados también por César Manrique y el Roque de Punta Brava en primer plano. Puesta a las 20:02 mirando al mar abierto. Llegáis sobre las 19:50: si vais tarde, id directos desde La Orotava (11 min) aunque sea con las maletas, y el check-in después.",
           "tags": [
             "gratis",
             "mirador",
@@ -634,13 +718,13 @@
           ]
         },
         {
-          "id": "7.10",
-          "time": "20:50",
+          "id": "7.16",
+          "time": "21:00",
           "dur": "1h 30min",
           "name": "🍽️ Cena — Mesón Los Gemelos",
           "lat": 28.41558,
           "lng": -16.5528,
-          "desc": "CENA en el casco de Puerto de la Cruz. Los Gemelos (calle El Peñón, de vuestra lista) es guachinche tradicional en pleno centro: carne de cabra, garbanzas, vino del país. A 10 min andando del apartamento."
+          "desc": "CENA en el casco de Puerto de la Cruz. Los Gemelos (calle El Peñón, de vuestra lista) es guachinche tradicional en pleno centro: carne de cabra, garbanzas, vino del país. Dejad el coche en el apartamento (5 min desde Playa Jardín) y bajad andando: ~15 min."
         }
       ]
     },
@@ -660,7 +744,7 @@
           "name": "🪜 Mirador de los 500 escalones",
           "lat": 28.48982,
           "lng": -16.42631,
-          "desc": "Primera parada del día, y encaja mejor de lo que yo mismo había supuesto: está en la <strong>TF-5 entre Puerto de la Cruz y La Laguna</strong> (20 min desde el apartamento, 26 min de aquí a Cruz del Carmen), o sea justo en el camino de Anaga. Aparcad en <strong>Calle La Jara</strong> (urbanización Jardín del Sol, Tacoronte, en el límite con El Sauzal); no hay cartel ninguno. <strong>Se BAJA</strong>: 20 min de escalones hasta el acantilado de la Costa de Acentejo, y 30-40 min de vuelta cuesta arriba. Total 1h con paradas de foto. Mira al este, así que a esta hora es cuando mejor luce, con el Teide al fondo. Calzado con suela: los escalones resbalan con la humedad del norte. No es plan si vais mal de rodillas.",
+          "desc": "Primera parada del día, y encaja mejor de lo que yo mismo había supuesto: está en la TF-5 entre Puerto de la Cruz y La Laguna (20 min desde el apartamento, 26 min de aquí a Cruz del Carmen), o sea justo en el camino de Anaga. Aparcad en Calle La Jara (urbanización Jardín del Sol, Tacoronte, en el límite con El Sauzal); no hay cartel ninguno. Se BAJA: 20 min de escalones hasta el acantilado de la Costa de Acentejo, y 30-40 min de vuelta cuesta arriba. Total 1h con paradas de foto. Mira al este, así que a esta hora es cuando mejor luce, con el Teide al fondo. Calzado con suela: los escalones resbalan con la humedad del norte. No es plan si vais mal de rodillas.",
           "tags": [
             "mirador",
             "gratis"
@@ -675,7 +759,7 @@
           "name": "⭐ Cruz del Carmen + Sendero de los Sentidos",
           "lat": 28.53069,
           "lng": -16.27991,
-          "desc": "A 26 min de los 500 escalones. Cruz del Carmen es la puerta de Anaga: centro de visitantes, mirador y el arranque del <strong>Sendero de los Sentidos</strong>, tres recorridos cortos (15-45 min), llanos y señalizados, por LAURISILVA — el bosque de niebla subtropical que cubría el Mediterráneo hace 20 millones de años y que solo sobrevive en Macaronesia. Anaga es Reserva de la Biosfera. Llevad chubasquero fino: aquí casi siempre hay bruma. <strong>Desayunad antes de salir de Puerto de la Cruz</strong>, que hoy se madruga.",
+          "desc": "A 26 min de los 500 escalones. Cruz del Carmen es la puerta de Anaga: centro de visitantes, mirador y el arranque del Sendero de los Sentidos, tres recorridos cortos (15-45 min), llanos y señalizados, por LAURISILVA — el bosque de niebla subtropical que cubría el Mediterráneo hace 20 millones de años y que solo sobrevive en Macaronesia. Anaga es Reserva de la Biosfera. Llevad chubasquero fino: aquí casi siempre hay bruma. Desayunad antes de salir de Puerto de la Cruz, que hoy se madruga.",
           "tags": [
             "obligatorio",
             "gratis"
@@ -699,7 +783,7 @@
           "name": "🧚 Túnel de las Hadas",
           "lat": 28.53333,
           "lng": -16.26319,
-          "desc": "A 800 m del mirador del Pico del Inglés: <strong>se va andando desde el mismo aparcamiento</strong> (5-10 min). Es un tramo corto y asfaltado del <strong>camino viejo al Pico del Inglés</strong>, excavado a mano en la roca, que el musgo y las ramas de la laurisilva han convertido en una bóveda verde. Es la foto de Anaga. ⚠️ La TF-114 que sube al mirador es de <strong>sentido único</strong>: comprobad la dirección antes de intentar cruzarlo en coche, y si hay duda dejadlo aparcado y andad, que son cuatro minutos.",
+          "desc": "A 800 m del mirador del Pico del Inglés: se va andando desde el mismo aparcamiento (5-10 min). Es un tramo corto y asfaltado del camino viejo al Pico del Inglés, excavado a mano en la roca, que el musgo y las ramas de la laurisilva han convertido en una bóveda verde. Es la foto de Anaga. ⚠️ La TF-114 que sube al mirador es de sentido único: comprobad la dirección antes de intentar cruzarlo en coche, y si hay duda dejadlo aparcado y andad, que son cuatro minutos.",
           "tags": [
             "gratis",
             "mirador"
@@ -712,7 +796,7 @@
           "name": "🔀 SI SOBRA TIEMPO: Chinamada y Taborno",
           "lat": 28.56194,
           "lng": -16.29115,
-          "desc": "Aquí es donde se decide, sobre la marcha y mirando el reloj. <strong>Lo he medido: el desvío cuesta +1h50 sobre la ruta directa</strong> (Túnel → Chinamada 22 min, Chinamada → Taborno 12 min, Taborno → Las Teresitas 34 min, más las visitas). Con el día ya en 14h, <strong>solo cabe sacrificando algo</strong>: lo más limpio es renunciar a Taganana (16:05) y comer rápido en San Andrés en vez de tumbaros en Las Teresitas. <strong>Chinamada</strong> son casas-cueva habitadas colgadas del barranco; <strong>Taborno</strong> tiene el Mirador del Roque, que es de los mejores del macizo. Los dos se llegan por <strong>carretera de un solo carril</strong> con apartaderos: no es el sitio para ir con prisa. Si el día viene con bruma cerrada en las cumbres, ahorráoslo — no se ve nada.",
+          "desc": "Aquí es donde se decide, sobre la marcha y mirando el reloj. Lo he medido: el desvío cuesta +1h50 sobre la ruta directa (Túnel → Chinamada 22 min, Chinamada → Taborno 12 min, Taborno → Las Teresitas 34 min, más las visitas). Con el día ya en 14h, solo cabe sacrificando algo: lo más limpio es renunciar a Taganana (16:05) y comer rápido en San Andrés en vez de tumbaros en Las Teresitas. Chinamada son casas-cueva habitadas colgadas del barranco; Taborno tiene el Mirador del Roque, que es de los mejores del macizo. Los dos se llegan por carretera de un solo carril con apartaderos: no es el sitio para ir con prisa. Si el día viene con bruma cerrada en las cumbres, ahorráoslo — no se ve nada.",
           "time": "12:10",
           "dur": "+1h 50min opcional",
           "tags": [
@@ -789,13 +873,18 @@
       "tab": "Día 9 · Vie 25",
       "title": "Isla Baja: Garachico, Teno y Masca",
       "subtitle": "Viernes 25 sept · El día más largo del viaje · Rambla de Castro, Teno en guagua y Masca al atardecer · 🌅 Puesta 20:00",
+      "hotel": {
+        "lat": 28.41936,
+        "lng": -16.54391,
+        "name": "Puerto de la Cruz — Airbnb (Lago Martiánez)"
+      },
       "places": [
         {
           "id": "9.1",
           "name": "🌴 Rambla de Castro",
           "lat": 28.39663,
           "lng": -16.59216,
-          "desc": "Sale casi gratis en tiempo de coche: Puerto de la Cruz → Rambla de Castro son 11 min y de aquí a Icod otros 20, contra los 29 min del camino directo. <strong>Aparcad en el Mirador de San Pedro</strong> (TF-5, salida del km 41; aparcamiento pequeño). Versión corta: bajada hasta el <strong>Elevador de la Gordejuela</strong> —las ruinas de la casa de bombas que la Hamilton & Co. levantó en 1903— el fortín de San Fernando y el palmeral, y vuelta. Camino empedrado y de tierra, sin desnivel serio. La ruta completa hasta el Mirador de El Burgado son 4 km y 2-2,5h ida y vuelta: <strong>ese día es este, pero no con Teno y Masca por delante</strong>.",
+          "desc": "Sale casi gratis en tiempo de coche: Puerto de la Cruz → Rambla de Castro son 11 min y de aquí a Icod otros 20, contra los 29 min del camino directo. Aparcad en el Mirador de San Pedro (TF-5, salida del km 41; aparcamiento pequeño). Versión corta: bajada hasta el Elevador de la Gordejuela —las ruinas de la casa de bombas que la Hamilton & Co. levantó en 1903— el fortín de San Fernando y el palmeral, y vuelta. Camino empedrado y de tierra, sin desnivel serio. La ruta completa hasta el Mirador de El Burgado son 4 km y 2-2,5h ida y vuelta: no cabe con Teno y Masca por delante.",
           "tags": [
             "gratis"
           ],
@@ -822,7 +911,7 @@
           "name": "⭐ Garachico — piscinas naturales de El Caletón",
           "lat": 28.37404,
           "lng": -16.76582,
-          "desc": "A 15 min. En 1706 la erupción del volcán Trevejo sepultó el que era el puerto más importante de la isla; la lava al enfriarse en el mar dejó ESTAS piscinas naturales. Bañarse aquí es meterse literalmente dentro de una colada volcánica. Acceso libre con escaleras y socorrista en temporada. COMIDA (2h) en la plaza de Garachico y paseo por el Castillo de San Miguel, único edificio que sobrevivió a la erupción.",
+          "desc": "A 15 min. En 1706 la erupción del volcán Trevejo sepultó el que era el puerto más importante de la isla; la lava al enfriarse en el mar dejó ESTAS piscinas naturales. Bañarse aquí es meterse literalmente dentro de una colada volcánica. Acceso libre con escaleras y socorrista en temporada. Paseo hasta el Castillo de San Miguel, único edificio que sobrevivió a la erupción.",
           "tags": [
             "obligatorio",
             "gratis",
@@ -834,8 +923,8 @@
           "time": "12:40",
           "dur": "1h 25min",
           "name": "🍽️ Comida en Garachico",
-          "lat": 28.3605,
-          "lng": -16.69397,
+          "lat": 28.37316,
+          "lng": -16.76462,
           "desc": "Comer en el casco de Garachico, junto al Caletón, antes de meteros en el bloque de Teno y Masca — a partir de aquí no hay parada de comida decente hasta la noche."
         },
         {
@@ -897,13 +986,9 @@
           "time": "21:00",
           "dur": "1h 30min",
           "name": "🍽️ Cena — Asador Guachinche El Miradero (Icod)",
-          "lat": 28.35235,
-          "lng": -16.81425,
-          "desc": "La vuelta baja por Santiago del Teide y la TF-82, que pasa por Icod: aprovechad para cenar allí (tel. 685 675 531, mejor reservar). Del restaurante a Puerto de la Cruz quedan 25 min. Es una cena tardía, ~20:45; si vais justos, cenad en Puerto de la Cruz sin más.",
-          "tags": [
-            "gratis",
-            "mirador"
-          ]
+          "lat": 28.35548,
+          "lng": -16.68695,
+          "desc": "La vuelta baja por Santiago del Teide y la TF-82, que pasa por Icod: aprovechad para cenar allí (tel. 685 675 534, mejor reservar). Del restaurante a Puerto de la Cruz quedan ~30 min. ⚠️ Confirmad al reservar que el viernes dan cenas: una guía de guachinches lo pone solo de jueves a domingo de 13:00 a 17:00, y una reseña de 2019 añadía el viernes de 19:00 a 22:30. Si no, cenad en Puerto de la Cruz sin más."
         }
       ]
     },
@@ -912,6 +997,11 @@
       "tab": "Día 10 · Sáb 26",
       "title": "Último baño + vuelo ✈️",
       "subtitle": "Sábado 26 sept · Desayuno por el barrio y El Bollullo de camino al aeropuerto · en TFN a las 13:30",
+      "hotel": {
+        "lat": 28.41936,
+        "lng": -16.54391,
+        "name": "Puerto de la Cruz — Airbnb (Lago Martiánez)"
+      },
       "places": [
         {
           "id": "10.1",
@@ -920,14 +1010,14 @@
           "name": "☕ Desayuno y último paseo por el barrio",
           "lat": 28.41936,
           "lng": -16.54391,
-          "desc": "Sin prisa y sin coche, que era la idea de esta mañana: desayuno en Puerto de la Cruz y último paseo por lo de siempre — el <strong>Lago Martiánez</strong> de César Manrique a pie del apartamento, la <strong>piscina natural de San Telmo</strong> o el paseo de la playa. Todo a menos de 15 min andando. Nada nuevo: lo nuevo es el baño de después, y ese pilla de camino al aeropuerto."
+          "desc": "Sin prisa y sin coche, que era la idea de esta mañana: desayuno en Puerto de la Cruz y último paseo por lo de siempre — el Lago Martiánez de César Manrique a pie del apartamento, la piscina natural de San Telmo o el paseo de la playa. Todo a menos de 15 min andando. Nada nuevo: lo nuevo es el baño de después, y ese pilla de camino al aeropuerto."
         },
         {
           "id": "10.2",
           "name": "🏖️ Playa El Bollullo",
           "lat": 28.4186,
           "lng": -16.51853,
-          "desc": "Aquí está la gracia: <strong>El Bollullo cae de camino al aeropuerto</strong> — 11 min desde el apartamento y 23 min de aquí a TFN, contra los 24 min directos. El desvío no cuesta nada. Es la mejor playa del norte: arena negra entre acantilados y platanera. Se aparca arriba y se baja andando <strong>15-20 min por un sendero con escalones y desnivel</strong>; la vuelta son 20-25 min de cuesta. Con eso salís a las 11:45 y estáis en TFN a las 12:10, <strong>1h20 antes de la hora límite</strong>. ⚠️ Dos avisos: es mar abierto, con <strong>olas y corriente</strong> y sin socorrista fijo — bañaos con cabeza el día del vuelo. Y el <strong>acceso en coche se ha restringido</strong> últimamente, con cierres de aparcamientos privados en el camino de bajada: si lo encontráis cortado, plan B a 5 min andando del apartamento (San Telmo o el Lago Martiánez).",
+          "desc": "Aquí está la gracia: El Bollullo cae de camino al aeropuerto — 11 min desde el apartamento y 23 min de aquí a TFN, contra los 24 min directos. El desvío no cuesta nada. Es la mejor playa del norte: arena negra entre acantilados y platanera. Se aparca arriba y se baja andando 15-20 min por un sendero con escalones y desnivel; la vuelta son 20-25 min de cuesta. Con eso salís a las 11:45 y estáis en TFN a las 12:10, 1h20 antes de la hora límite. ⚠️ Dos avisos: es mar abierto, con olas y corriente y sin socorrista fijo — bañaos con cabeza el día del vuelo. Y el acceso en coche se ha restringido últimamente, con cierres de aparcamientos privados en el camino de bajada: si lo encontráis cortado, plan B a 5 min andando del apartamento (San Telmo o el Lago Martiánez).",
           "tags": [
             "gratis",
             "playa"
@@ -942,7 +1032,7 @@
           "name": "✈️ Aeropuerto Tenerife Norte (TFN)",
           "lat": 28.48751,
           "lng": -16.34603,
-          "desc": "Salís de <strong>El Bollullo a las 11:45</strong>: 26 km por la TF-5, <strong>23 min</strong> (menos que desde Puerto de la Cruz, que son 24). Llegáis sobre las <strong>12:10</strong>. Contad el tiempo de devolver el coche de alquiler — hay que estar en el mostrador con margen para llegar a la terminal a las 13:30.",
+          "desc": "Salís de El Bollullo a las 11:45: 26 km por la TF-5, 23 min (menos que desde Puerto de la Cruz, que son 24). Llegáis sobre las 12:10. Contad el tiempo de devolver el coche de alquiler — hay que estar en el mostrador con margen para llegar a la terminal a las 13:30.",
           "tags": [
             "obligatorio"
           ],
@@ -959,7 +1049,7 @@
       },
       {
         "label": "El Médano → Puerto de la Cruz",
-        "value": "~85 km por TF-1 → TF-5, <strong>1h05</strong> directo. El Día 7 lo hacéis con paradas (Güímar, Candelaria, Santa Cruz)."
+        "value": "~85 km por TF-1 → TF-5, <strong>1h05</strong> directo. El Día 7 lo hacéis con paradas (Candelaria, Santa Cruz, La Laguna y La Orotava)."
       },
       {
         "label": "Puerto de la Cruz → TFN (vuelta)",
@@ -1012,9 +1102,9 @@
         "value": "El billete del teleférico <strong>NO</strong> incluye subir al cráter. El sendero Telesforo Bravo (nº 10) cuesta en 2026 <strong>15 €/persona</strong> no residente (antes era gratis) y hay plazas muy limitadas. Decidid pronto: si lo queréis, se saca antes que el teleférico."
       },
       {
-        "label": "🔴 Barranco del Infierno (Día 6, mar 22) — RESERVAR",
+        "label": "🟡 Barranco del Infierno (Día 6, mar 22) — OPCIONAL, sin Jaume",
         "link": "https://www.barrancodelinfierno.es/",
-        "value": "<strong>Solo 300 personas/día</strong>, 20 cada media hora. ~15 €/adulto. Pedid la franja de las <strong>8:30</strong>. ⚠️ En vuestras fechas rige el horario de INVIERNO (desde el 16 sept): <strong>entrada solo de 8:30 a 11:30</strong> y el barranco <strong>cierra a las 14:30</strong>. Casco obligatorio (lo dan)."
+        "value": "Solo si al final decidís hacerlo (por defecto no va). <strong>Solo 300 personas/día</strong>, 20 cada media hora. ~15 €/adulto. Pedid la franja de las <strong>8:30</strong>. ⚠️ En vuestras fechas rige el horario de INVIERNO (desde el 16 sept): <strong>entrada solo de 8:30 a 11:30</strong> y el barranco <strong>cierra a las 14:30</strong>. Casco obligatorio (lo dan)."
       },
       {
         "label": "🟠 Avistamiento de cetáceos (Día 4, dom 20) — Fever",
@@ -1024,11 +1114,11 @@
       {
         "label": "🟢 La Casa de los Balcones (Día 7, mié 23) — Fever",
         "link": "https://feverup.com/es/tenerife",
-        "value": "Entrada en taquilla <strong>5 €</strong>; en Fever 7-11 € → ~4-7 € con tu 40 % (suele llevar extras). <strong>Comparad antes de comprar.</strong> En La Orotava, de camino al apartamento el día de la mudanza. ⏰ <strong>Abre 08:30-18:30 todos los días.</strong> Con La Laguna metida ese día llegáis a las <strong>17:00</strong>, que deja margen de sobra; si La Laguna se os va de las manos, es esto lo que se cae, así que mirad el reloj a las 16:30."
+        "value": "Entrada en taquilla <strong>5 €</strong>; en Fever 7-11 € → ~4-7 € con tu 40 % (suele llevar extras). <strong>Comparad antes de comprar.</strong> En La Orotava, de camino al apartamento el día de la mudanza. ⏰ <strong>Abre 08:30-18:30 todos los días.</strong> Con las rutas a pie de Santa Cruz y La Laguna llegáis sobre las <strong>17:45</strong>: si la tarde se alarga (o quedáis con Laura), es lo primero que se cae, así que mirad el reloj a las 17:00."
       },
       {
-        "label": "🟢 Cenas de fin de semana",
-        "value": "Reservad <strong>Los Abrigos</strong> (<strong>vie 18</strong>) y <strong>El Miradero</strong> en Icod (vie 25, tel. 685 675 534): son pequeños y se llenan."
+        "label": "🟢 Comidas y cenas de fin de semana",
+        "value": "Reservad <strong>Los Abrigos</strong> (<strong>vie 18</strong>), la comida del <strong>sáb 19</strong> en <strong>Tajao</strong> (Playa Tajao, 922 16 40 04) y <strong>El Miradero</strong> en Icod (vie 25, tel. 685 675 534): son pequeños y se llenan. ⚠️ Al llamar a El Miradero, confirmad que el viernes dan cenas: una guía lo pone solo de jueves a domingo de 13:00 a 17:00."
       }
     ],
     "fever": [
@@ -1039,7 +1129,7 @@
       {
         "label": "🕯️ Candlelight — Espacio Mutua Tinerfeña (La Laguna)",
         "link": "https://feverup.com/en/tenerife/candlelight",
-        "value": "Conciertos a la luz de las velas, <strong>21:00</strong>, 60 min, desde 29 € → <strong>~17 € con tu 40 %</strong>. <strong>Comprobad qué hay programado del 17 al 26 de septiembre.</strong> ⚠️ Aviso honesto: con el itinerario nuevo <strong>ya no encaja bien en ningún día</strong> — el miércoles 23 acabáis cenando en Puerto de la Cruz a las 20:50 y La Laguna queda a 30 min de vuelta, y los días 8 y 9 terminan pasadas las 21:30. Si os apetece mucho, el menos malo es el <strong>miércoles 23</strong> cambiando la cena de Puerto de la Cruz por cenar en La Laguna antes del concierto."
+        "value": "Conciertos a la luz de las velas, <strong>21:00</strong>, 60 min, desde 29 € → <strong>~17 € con tu 40 %</strong>. <strong>Comprobad qué hay programado del 17 al 26 de septiembre.</strong> ⚠️ Aviso honesto: con el itinerario nuevo <strong>ya no encaja bien en ningún día</strong> — el miércoles 23 acabáis cenando en Puerto de la Cruz a las 21:00 y La Laguna queda a 30 min de vuelta, y los días 8 y 9 terminan pasadas las 21:30. Si os apetece mucho, el menos malo es el <strong>miércoles 23</strong> cambiando la cena de Puerto de la Cruz por cenar en La Laguna antes del concierto."
       },
       {
         "label": "🌊 Siam Park",
@@ -1086,16 +1176,20 @@
         "value": "De tus pantallazos no he podido confirmar la dirección de <strong>NABI</strong> (parece estar en el Street Market de La Tejita), <strong>BLAM</strong>, <strong>AHUL coffee</strong> y <strong>Matalahúva</strong>. No las he metido para no inventar coordenadas: añádelas desde la app (búsqueda de Google) y quedan clavadas. <strong>Umami Coffee & Matcha</strong> figura como cerrado temporalmente."
       },
       {
+        "label": "🟡 Quedar con Laura",
+        "value": "A ver si la veis. Creéis que vive en <strong>La Laguna</strong> — le escribes por privado. Si es así, el hueco natural es el <strong>Día 7 (mié 23)</strong>: coméis en La Laguna sobre las 13:25 y hacéis la ruta por el casco hasta las 17:10. Si os liais con ella, lo que se cae es la Casa de los Balcones."
+      },
+      {
         "label": "🟡 Plan B si el norte amanece tapado",
         "value": "Los candidatos, por orden: <strong>Charco de la Laja</strong> (a 15 min del apartamento), <strong>Jardín Botánico</strong>, <strong>Playa de Los Patos</strong> y <strong>Mirador de Chipeque</strong> (por encima de las nubes). Están todos en descartados con el motivo. El Bollullo ya no está en esta lista: pasó al <strong>Día 10</strong>."
       },
       {
         "label": "🟡 Ritmo con vuestro amigo",
-        "value": "Los días pensados para ir al ritmo de Jaume (o para que se apunte sin esfuerzo) son el <strong>Día 1 (jue 17, llegada suave en El Médano)</strong>, el <strong>Día 2 (vie 18, El Médano)</strong> y el <strong>Día 4 (dom 20, cetáceos)</strong>. El <strong>Teide va el lunes sin él</strong>. A partir del miércoles ya estáis por vuestra cuenta en el norte, y esos tres días van a <strong>13,6h, 14h y 14,7h</strong>: es mucho, y es a propósito porque tú lo pediste, pero llevad el recorte pensado por si un día no os apetece."
+        "value": "Regla de Jaume: mientras estéis con él en El Médano, <strong>nada a más de media hora en coche del aeropuerto del sur (TFS)</strong>, por si le surge una emergencia y tiene que llegar. Medido con rutas reales, los días con él (<strong>1, 2, 3, 4 y 6</strong>) quedan todos a <strong>26 min o menos</strong> de TFS; el <strong>Día 3 se ha rehecho de cero</strong> porque Los Gigantes estaba a ~40. Dos matices: en las subidas (Montaña Roja el Día 2, Montaña Pelada el Día 3) sumad ~30 min de bajada andando hasta el coche, y el <strong>barco de cetáceos (Día 4)</strong> son 2-3h en el mar sin poder volver antes, así que si Jaume viene, que sea sabiéndolo. Van sin él y quedan fuera de la regla el <strong>Teide (Día 5)</strong> y el <strong>Barranco del Infierno, ahora opcional (Día 6)</strong>. A partir del miércoles ya estáis por vuestra cuenta en el norte y esos tres días van a <strong>unas 14h15, 14h20 y 15h20</strong> de salida a vuelta: es a propósito porque tú lo pediste, pero llevad pensado qué recortar."
       },
       {
         "label": "🟡 Day pass de hotel — decidir allí mismo",
-        "value": "Se compra en <strong>hoteltreats.com</strong> y no hace falta decidirlo desde casa: se puede sacar la misma mañana. Los tres que os gustan: <strong>H10 Costa Adeje Palace</strong> (~50-65 €, piscina 10:00-18:00 y comida en El Jable 13:00-15:00), <strong>Iberostar Anthelia</strong> (~68 €, hamaca + buffet) y <strong>Hacienda del Conde · Meliá Collection</strong>. ⚠️ Ojo a la geografía: los dos primeros están en <strong>Costa Adeje</strong>, así que encajan en el <strong>Día 6 (mar 22)</strong>, que ya estáis allí; el Hacienda del Conde está en <strong>Buenavista del Norte</strong>, que os pilla el <strong>Día 9</strong> — pero ese día va tan cargado que no hay hueco para una piscina."
+        "value": "Se compra en <strong>hoteltreats.com</strong> y no hace falta decidirlo desde casa: se puede sacar la misma mañana. Los tres que os gustan: <strong>H10 Costa Adeje Palace</strong> (~50-65 €, piscina 10:00-18:00 y comida en El Jable 13:00-15:00), <strong>Iberostar Anthelia</strong> (~68 €, hamaca + buffet) y <strong>Hacienda del Conde · Meliá Collection</strong>. ⚠️ Ojo a la geografía: los dos primeros están en <strong>Costa Adeje</strong>, así que encajan en el <strong>Día 6 (mar 22)</strong>, que ya estáis allí y, con el Barranco opcional, tenéis la mañana libre; el Hacienda del Conde está en <strong>Buenavista del Norte</strong>, que os pilla el <strong>Día 9</strong> — pero ese día va tan cargado que no hay hueco para una piscina."
       }
     ]
   },
@@ -1122,7 +1216,7 @@
       "name": "Restaurante «El Guanche» — Alte Schule",
       "lat": 28.30483,
       "lng": -16.84131,
-      "desc": "⭐ TU LISTA · En Masca (Día 5). Antigua escuela de 1971 reformada, terraza con vistas al barranco. Cocido canario, tortilla guanche, papas con mojo. 4,7★."
+      "desc": "⭐ TU LISTA · En Masca (Día 9). Antigua escuela de 1971 reformada, terraza con vistas al barranco. Cocido canario, tortilla guanche, papas con mojo. 4,7★."
     },
     {
       "id": "r.4",
@@ -1130,7 +1224,7 @@
       "name": "Casa Riquelme",
       "lat": 28.30496,
       "lng": -16.83989,
-      "desc": "⭐ TU LISTA · También en Masca (Día 5). Terraza pequeña en la ladera entre flores. Quesos, carnes en salsa y papas. Alternativa a El Guanche si está lleno."
+      "desc": "⭐ TU LISTA · También en Masca (Día 9). Terraza pequeña en la ladera entre flores. Quesos, carnes en salsa y papas. Alternativa a El Guanche si está lleno."
     },
     {
       "id": "r.5",
@@ -1144,9 +1238,9 @@
       "id": "r.6",
       "cat": "🥘 Guachinches y cocina canaria",
       "name": "Asador Guachinche El Miradero",
-      "lat": 28.3605,
-      "lng": -16.69397,
-      "desc": "⭐ TU LISTA · Llanito Perera, parte alta de Icod. Carne a la brasa con vistas al mar y al Teide por menos de 20 €. Cena del Día 9. Pequeño: reservad (685 675 534)."
+      "lat": 28.35548,
+      "lng": -16.68695,
+      "desc": "⭐ TU LISTA · Llanito Perera, parte alta de Icod. Carne a la brasa con vistas al mar y al Teide por menos de 20 €. Cena del Día 9. Pequeño: reservad (685 675 534). ⚠️ Confirmad que el viernes dan cenas (ver Día 9)."
     },
     {
       "id": "r.7",
@@ -1170,7 +1264,7 @@
       "name": "Los Abrigos — calle de la Marina",
       "lat": 28.02916,
       "lng": -16.59077,
-      "desc": "AÑADIDO · Pueblo pesquero a 10 min de El Médano; la calle entera son marisquerías con el pescado del día en la vitrina. Vieja, cherne, sama. Es EL sitio de pescado del sur. Cena del Día 3 — reservad en finde."
+      "desc": "AÑADIDO · Pueblo pesquero a 10 min de El Médano; la calle entera son marisquerías con el pescado del día en la vitrina. Vieja, cherne, sama. Es EL sitio de pescado del sur. Cena del Día 2 — reservad en finde."
     },
     {
       "id": "r.10",
@@ -1184,8 +1278,8 @@
       "id": "r.11",
       "cat": "🐟 Pescado y marisco",
       "name": "La Caleta de Adeje",
-      "lat": 28.11878,
-      "lng": -16.77426,
+      "lat": 28.10109,
+      "lng": -16.75547,
       "desc": "AÑADIDO · Antiguo pueblo de pescadores al lado de El Puertito (Día 6). Donde cena la gente de la zona, sin menús turísticos."
     },
     {
@@ -1218,7 +1312,7 @@
       "name": "Pizzería Manammè",
       "lat": 28.48494,
       "lng": -16.31478,
-      "desc": "AÑADIDO 🍕 · La Laguna. Masa madre de fermentación larga; es la favorita de los italianos del barrio. Encaja el Día 1 (llegada) o el Día 8."
+      "desc": "AÑADIDO 🍕 · La Laguna. Masa madre de fermentación larga; es la favorita de los italianos del barrio. Encaja en la comida del Día 7 en La Laguna."
     },
     {
       "id": "r.16",
@@ -1268,7 +1362,7 @@
       "name": "Kaldi Coffee & Brunch",
       "lat": 28.18104,
       "lng": -16.81531,
-      "desc": "⭐ TU LISTA · 4,9★ (103) · Av. Juan Carlos I 22, Playa San Juan (Guía de Isora). Café de especialidad con toque venezolano (arepas, cachapas). Os pilla de camino el Día 5."
+      "desc": "⭐ TU LISTA · 4,9★ (103) · Av. Juan Carlos I 22, Playa San Juan (Guía de Isora). Café de especialidad con toque venezolano (arepas, cachapas). Este viaje no os pilla de camino."
     },
     {
       "id": "c.6",
@@ -1276,7 +1370,7 @@
       "name": "Huggin a Mug",
       "lat": 28.2439,
       "lng": -16.84104,
-      "desc": "⭐ TU LISTA · 4,9★ (676) · Los Gigantes. Justo donde empezáis el Día 5: desayuno perfecto antes del Mirador de Archipenque."
+      "desc": "⭐ TU LISTA · 4,9★ (676) · Los Gigantes. En Los Gigantes, que este viaje se queda fuera (ver descartados)."
     },
     {
       "id": "c.7",
@@ -1300,7 +1394,7 @@
       "name": "Slow Coffee La Orotava",
       "lat": 28.38989,
       "lng": -16.52441,
-      "desc": "⭐ TU LISTA · 4,8★ (728) · C/ León, La Orotava. Mismo tostador. Es la parada del Día 10 antes del aeropuerto — confirmad el horario del sábado."
+      "desc": "⭐ TU LISTA · 4,8★ (728) · C/ León, La Orotava. Mismo tostador. Encaja en la merienda del Día 7 en La Orotava, si a esa hora sigue abierto."
     },
     {
       "id": "c.10",
@@ -1308,7 +1402,7 @@
       "name": "We The North Specialty Coffee (La Laguna)",
       "lat": 28.4885,
       "lng": -16.31834,
-      "desc": "⭐ TU LISTA · 4,3★ · C/ Núñez de la Peña 15, casco de La Laguna. Uno de los dos locales de tu lista. Día 1."
+      "desc": "⭐ TU LISTA · 4,3★ · C/ Núñez de la Peña 15, casco de La Laguna. Uno de los dos locales de tu lista. Día 7."
     },
     {
       "id": "c.11",
@@ -1316,7 +1410,7 @@
       "name": "We The North Specialty Coffee (Santa Cruz)",
       "lat": 28.46884,
       "lng": -16.24823,
-      "desc": "⭐ TU LISTA · 4,3★ · C/ Emilio Calzadilla 6, Santa Cruz. El segundo local. Encaja el Día 7 tras el Palmetum."
+      "desc": "⭐ TU LISTA · 4,3★ · C/ Emilio Calzadilla 6, Santa Cruz. El segundo local. Encaja el Día 7, en la ruta por Santa Cruz."
     },
     {
       "id": "c.12",
@@ -1324,7 +1418,7 @@
       "name": "coffeeURBANroasters Tenerife",
       "lat": 28.49038,
       "lng": -16.3178,
-      "desc": "⭐ TU LISTA · 4,7★ (289) · C/ San Agustín 65, La Laguna. Espresso bar en pleno casco histórico. Día 1."
+      "desc": "⭐ TU LISTA · 4,7★ (289) · C/ San Agustín 65, La Laguna. Espresso bar en pleno casco histórico. Día 7: está en plena ruta por La Laguna."
     },
     {
       "id": "c.13",
@@ -1407,7 +1501,7 @@
       "lat": 28.37397,
       "lng": -16.46392,
       "desc": "El mirador del MAR DE NUBES por excelencia: a 1.900 m en la TF-24, con el Teide asomando sobre el algodón. A 35 min de Puerto de la Cruz.",
-      "reason": "🟡 La mejor opción si os sobra una tarde en el norte. No lo metí en ruta porque obliga a un desvío de 1h+ de montaña y ya tenéis atardeceres asignados (Benijo, Teno). Plan B ideal si un día se tuerce.",
+      "reason": "🟡 La mejor opción si os sobra una tarde en el norte. No lo metí en ruta porque obliga a un desvío de 1h+ de montaña y ya tenéis atardeceres asignados (Benijo, Cherfe). Plan B ideal si un día se tuerce.",
       "tags": [
         "mirador"
       ]
@@ -1464,7 +1558,7 @@
       "lat": 28.40122,
       "lng": -16.67362,
       "desc": "Piscina natural de lava en La Guancha, con vistas al Teide desde el agua.",
-      "reason": "🟡 Alternativa directa al Charco de la Laja del Día 9 (están a 10 min). Si La Laja está con mar o llena, venid aquí.",
+      "reason": "🟡 Alternativa directa al Charco de la Laja (también en descartados, a 10 min). Si La Laja está con mar o llena, venid aquí.",
       "tags": [
         "gratis",
         "playa"
@@ -1500,7 +1594,7 @@
       "lat": 28.38007,
       "lng": -16.81493,
       "desc": "Charcos de la Isla Baja (Los Silos / Buenavista), en el sendero costero entre plataneras.",
-      "reason": "🟡 Están en la ruta del Día 9 pero ese día ya tiene dos baños (La Laja y El Caletón) + Teno. Sustituto si El Caletón está con mar de fondo.",
+      "reason": "🟡 Están en la ruta del Día 9 pero ese día ya lleva El Caletón, Teno y Masca. Sustituto si El Caletón está con mar de fondo.",
       "tags": [
         "gratis",
         "playa"
@@ -1524,7 +1618,7 @@
       "lat": 28.17141,
       "lng": -16.61926,
       "desc": "Formaciones de toba blanca erosionadas en columnas, sobre Vilaflor.",
-      "reason": "🟡 OJO CON ESTO: el Paisaje Lunar de verdad son 4-5h de senderismo ida y vuelta desde Vilaflor, no un mirador de carretera. No cabía en el Día 2 (que ya lleva Roques de García)."
+      "reason": "🟡 OJO CON ESTO: el Paisaje Lunar de verdad son 4-5h de senderismo ida y vuelta desde Vilaflor, no un mirador de carretera. No cabía en el Día 5 (que ya lleva Roques de García)."
     },
     {
       "id": "d.19",
@@ -1532,7 +1626,7 @@
       "lat": 28.2949,
       "lng": -16.75709,
       "desc": "Última erupción de Tenerife (1909). Sendero circular de 6 km fácil entre malpaís y pinar.",
-      "reason": "🟡 Excursión buena y poco masificada, pero está en el noroeste alto y no cae en ninguna ruta. Alternativa al Día 5 si Masca estuviera cerrado por alerta."
+      "reason": "🟡 Excursión buena y poco masificada, pero está en el noroeste alto y no cae en ninguna ruta. Alternativa al Día 9 si Masca estuviera cerrado por alerta."
     },
     {
       "id": "d.20",
@@ -1540,7 +1634,7 @@
       "lat": 28.27019,
       "lng": -16.72677,
       "desc": "Sendero circular de 5 km entre conos volcánicos y arena negra, en el oeste del Parque Nacional.",
-      "reason": "🟡 Muy buena ruta corta del Teide, pero el Día 2 ya lleva Roques de García. Cámbiala si preferís algo menos concurrido."
+      "reason": "🟡 Muy buena ruta corta del Teide, pero el Día 5 ya lleva Roques de García. Cámbiala si preferís algo menos concurrido."
     },
     {
       "id": "d.21",
@@ -1549,17 +1643,6 @@
       "lng": -16.82241,
       "desc": "Laurisilva del macizo de Teno, con senderos entre niebla.",
       "reason": "🟡 Bosque muy parecido al de Anaga (Día 8) y peor conectado. Redundante."
-    },
-    {
-      "id": "d.22",
-      "name": "Arco de Tajao",
-      "lat": 28.11567,
-      "lng": -16.47288,
-      "desc": "Arco natural de roca en un barranco de Arico, a 20 min de El Médano.",
-      "reason": "🟡 Curioso y a mano, pero es una parada de 20 minutos: solo si os sobra un rato una tarde en el sur.",
-      "tags": [
-        "gratis"
-      ]
     },
     {
       "id": "d.23",
@@ -1571,17 +1654,6 @@
       "tags": [
         "gratis",
         "playa"
-      ]
-    },
-    {
-      "id": "d.24",
-      "name": "Mercado de Nuestra Señora de África",
-      "lat": 28.46359,
-      "lng": -16.25135,
-      "desc": "Mercado modernista de 1944 en Santa Cruz, el mejor de la isla para producto local.",
-      "reason": "🟡 Cierra a las 14:00 y el Día 7 llegáis a Santa Cruz a las 13:40 con Auditorio, La Laguna y Casa de los Balcones por delante. Imposible sin romper el día.",
-      "tags": [
-        "gratis"
       ]
     },
     {
@@ -1642,10 +1714,10 @@
     {
       "id": "d.31",
       "name": "Pico del Teide — cima (sendero Telesforo Bravo)",
-      "lat": 28.2247,
-      "lng": -16.63181,
+      "lat": 28.27269,
+      "lng": -16.64227,
       "desc": "Último tramo desde La Rambleta (3.555 m) hasta el cráter (3.718 m): ~40 min de subida fuerte en altura.",
-      "reason": "🟠 DECISIÓN VUESTRA: necesita permiso APARTE (15 €/persona no residente en 2026) en reservasparquesnacionales.es y vuela con semanas de antelación. Si lo queréis, hay que sacarlo YA y encajarlo con la hora del teleférico del Día 2.",
+      "reason": "🟠 DECISIÓN VUESTRA: necesita permiso APARTE (15 €/persona no residente en 2026) en reservasparquesnacionales.es y vuela con semanas de antelación. Si lo queréis, hay que sacarlo YA y encajarlo con la hora del teleférico del Día 5.",
       "tags": [
         "reservar"
       ],
@@ -1669,7 +1741,7 @@
       "lat": 28.57192,
       "lng": -16.19228,
       "desc": "Playa de arena negra en Anaga, entre el Roque de las Bodegas y Benijo. Corrientes fuertes y sin socorrista — se baña poca gente, es más de pasear.",
-      "reason": "Ya paráis justo al lado el día 8 (8.5 y 8.6); entrar también aquí alarga la tarde sin añadir mucho.",
+      "reason": "Ya paráis justo al lado el día 8 (8.8 y 8.9); entrar también aquí alarga la tarde sin añadir mucho.",
       "tags": [
         "playa",
         "gratis"
@@ -1681,7 +1753,7 @@
       "lat": 28.231,
       "lng": -16.8418,
       "desc": "Charco de agua turquesa entre rocas volcánicas, en el extremo norte de Playa de la Arena (Puerto de Santiago). Solo con marea baja y mar en calma; no hay escaleras para bajar.",
-      "reason": "Queda al sur de Los Gigantes y el día 5 ya tenéis Los Guíos y el Charco de Isla Cangrejo en esa misma costa.",
+      "reason": "Queda en Playa de la Arena, junto a Los Gigantes, que este viaje se cae entero por estar a más de media hora de TFS (ver Archipenque).",
       "tags": [
         "playa",
         "gratis"
@@ -1717,8 +1789,65 @@
       "lat": 28.45288,
       "lng": -16.25624,
       "desc": "A 25 min. La mejor reconversión de la isla: un antiguo VERTEDERO municipal de 12 hectáreas transformado en la colección de palmeras más grande de Europa, con miradores sobre el puerto. Abre 10:00-18:00, última entrada 17:00. ~6 €. Es un jardín botánico de verdad, tranquilo y con sombra.",
-      "reason": "🟡 Estaba el Día 7, pero al entrar La Laguna había que soltar algo y este era lo único del día que no es ni ruta ni imprescindible. Si preferís jardín a casco histórico, es el intercambio directo: quitad La Laguna y devolvedlo a las 13:40.",
+      "reason": "🟡 Estaba el Día 7, pero ya no cabía con La Laguna y con la ruta a pie por Santa Cruz cabe todavía menos: es 1h15 y el día va justo. Está a 5 min andando del Auditorio, por si ese día os sobra tiempo.",
       "link": "https://palmetumsantacruz.com/"
+    },
+    {
+      "id": "d.38",
+      "name": "Pirámides de Güímar",
+      "lat": 28.322,
+      "lng": -16.41282,
+      "desc": "Seis pirámides escalonadas de piedra volcánica que Thor Heyerdahl (el de la Kon-Tiki) defendió como precolombinas; la tesis mayoritaria hoy es que son majanos agrícolas del s. XIX. El parque etnográfico está muy bien montado. ~12 €.",
+      "reason": "🟡 Estaba el Día 7 a primera hora, pero con las rutas a pie por Santa Cruz y La Laguna no cabe: era lo que más tiempo se comía del día (1h15 de visita más el desvío) y, de todo lo que había, lo menos imprescindible.",
+      "link": "https://www.piramidesdeguimar.es/"
+    },
+    {
+      "id": "d.39",
+      "name": "Mirador de Archipenque (Los Gigantes)",
+      "lat": 28.24047,
+      "lng": -16.83689,
+      "desc": "Balcón directo sobre los acantilados de Los Gigantes: 600 m de pared cayendo a plomo al Atlántico. Los guanches los llamaban «la muralla del infierno». Mejor por la mañana, con el sol de frente.",
+      "reason": "🟡 Estaba el Día 3, pero Los Gigantes queda a ~40 min del aeropuerto del sur y los días con Jaume en El Médano no pueden pasar de media hora de TFS. Solo cabría un día sin él: desde Cherfe (Día 9) son 16 min, pero ese día ya es el más largo del viaje.",
+      "tags": [
+        "gratis",
+        "mirador"
+      ]
+    },
+    {
+      "id": "d.40",
+      "name": "Playa de los Guíos + Charco de Isla Cangrejo",
+      "lat": 28.24725,
+      "lng": -16.84063,
+      "desc": "Playa de arena negra volcánica justo al pie del acantilado de Los Gigantes, con agua transparente y profunda. A 5 min andando, el Charco de Isla Cangrejo es una piscina natural acondicionada sobre la lava, protegida del oleaje.",
+      "reason": "🟡 Iba con Archipenque el Día 3 y se cae por lo mismo: Los Gigantes está a ~40 min de TFS.",
+      "tags": [
+        "gratis",
+        "playa"
+      ]
+    },
+    {
+      "id": "d.41",
+      "name": "Playa de la Arena",
+      "lat": 28.22965,
+      "lng": -16.8409,
+      "desc": "Playa de arena negra con bandera azul en Puerto de Santiago, muy protegida y con socorrista: la más cómoda de la costa oeste para tumbarse. En su extremo norte está el Charco La Vaca (también en descartados).",
+      "reason": "🟡 Era la tarde de playa del Día 3 en Los Gigantes; fuera por la regla de la media hora a TFS (está a ~35 min).",
+      "tags": [
+        "gratis",
+        "playa"
+      ]
+    },
+    {
+      "id": "d.42",
+      "name": "Playa de La Pelada",
+      "lat": 28.05808,
+      "lng": -16.52166,
+      "desc": "Cala de arena negra de unos 90 m a los pies de Montaña Pelada, dentro del Monumento Natural: virgen, sin servicios y de tradición naturista. Suele soplar fuerte y hay algo de oleaje, así que es más de estar que de nadar; con calma, el baño es precioso.",
+      "reason": "No necesita hueco propio: el Día 3 pasáis por delante al subir a Montaña Pelada. Si ese día sopla poco, id un par de horas antes para bañaros.",
+      "tags": [
+        "gratis",
+        "playa"
+      ]
     }
   ]
 }
