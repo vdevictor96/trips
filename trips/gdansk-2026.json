@@ -1,5 +1,5 @@
 {
-  "_v": 1,
+  "_v": 2,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -349,21 +349,35 @@
       "id": 3,
       "tab": "Día 3 · Dom 29",
       "title": "Ciudad Vieja, Uphagen y última vuelta al mercadillo ✈️",
-      "subtitle": "Domingo 29 nov · Check-out 11:00 (pedid dejar las maletas) · Salir al aeropuerto 14:00 · Vuelo FR7070 16:05 · Domingo sin comercio: tiendas cerradas, cafés y museos abiertos",
+      "subtitle": "Domingo 29 nov · Maletas en las taquillas de Gdańsk Główny · Bolt al aeropuerto a las 14:00 · Vuelo FR7070 16:05 · Domingo sin comercio: tiendas cerradas, cafés y museos abiertos",
       "places": [
         {
           "id": "3.1",
-          "time": "09:00",
+          "time": "08:40",
+          "dur": "10 min",
+          "name": "🧳 Taquillas de Gdańsk Główny — dejar maletas",
+          "lat": 54.3564654,
+          "lng": 18.6453558,
+          "desc": "Salid del piso a las 8:15 con las maletas y el check-out hecho: ~20–25 min a pie por las murallas, o Bolt 5 min. En Gdańsk Główny hay taquillas automáticas 24 h (web oficial de PKP); una guía da 18 zł la pequeña y 22 zł la grande por 24 h, con tarjeta o efectivo: mirad el precio en la máquina. Dos trolleys de cabina y dos mochilas caben en dos taquillas grandes, o una grande y una pequeña. Si están todas ocupadas, la consigna con personal de la estación abre todos los días 8:30–19:30 (tel. 606 990 490). Si al final el anfitrión os deja las maletas en el piso, saltaos esta tarjeta.",
+          "tags": [
+            "obligatorio"
+          ],
+          "link": "https://www.pkp.pl/pl/dworce/gdansk-glowny-informacje-dla-podroznych",
+          "mapsQuery": "Gdańsk Główny"
+        },
+        {
+          "id": "3.2",
+          "time": "09:05",
           "dur": "55 min",
           "name": "☕ Cafe Luis — desayuno",
           "lat": 54.3546392,
           "lng": 18.6543422,
-          "desc": "Desde el piso ~20 min: pasáis de día por Targ Węglowy y la calle Pańska (de tu lista), que habéis visto de noche. Café de especialidad, domingo 9–19. meteoblue da el domingo despejado: buen día para ver la Ciudad Vieja con sol.",
+          "desc": "Desde la estación ~15 min, ya sin maletas. Café de especialidad, domingo 9–19. meteoblue da el domingo despejado: buen día para ver la Ciudad Vieja con sol. Por el camino, la calle Pańska (de tu lista).",
           "mapsQuery": "Cafe Luis, Gdańsk"
         },
         {
-          "id": "3.2",
-          "time": "10:00",
+          "id": "3.3",
+          "time": "10:05",
           "dur": "10 min",
           "name": "Gran Molino (Wielki Młyn)",
           "lat": 54.3540323,
@@ -375,21 +389,21 @@
           "mapsQuery": "Wielki Młyn, Gdańsk"
         },
         {
-          "id": "3.3",
-          "time": "10:15",
+          "id": "3.4",
+          "time": "10:20",
           "dur": "10 min",
           "name": "Ayuntamiento Antiguo (Ratusz Staromiejski)",
           "lat": 54.3539639,
           "lng": 18.6480183,
-          "desc": "El «ayuntamiento antiguo» de tu lista: el de la Ciudad Vieja (Korzenna 33/35), renacentista y más pequeño que el de Długa. Por fuera. De aquí a Długa, ~12 min a pie.",
+          "desc": "El «ayuntamiento antiguo» de tu lista: el de la Ciudad Vieja (Korzenna 33/35), renacentista y más pequeño que el de Długa. Por fuera. De aquí a Długa, ~12 min a pie pasando por Targ Węglowy de día.",
           "tags": [
             "gratis"
           ],
           "mapsQuery": "Ratusz Staromiejski, Korzenna 33/35, Gdańsk"
         },
         {
-          "id": "3.4",
-          "time": "10:40",
+          "id": "3.5",
+          "time": "10:45",
           "dur": "45 min",
           "name": "⭐ Casa de Uphagen (Dom Uphagena)",
           "lat": 54.349219,
@@ -402,24 +416,24 @@
           "mapsQuery": "Dom Uphagena, Gdańsk"
         },
         {
-          "id": "3.5",
-          "time": "11:30",
+          "id": "3.6",
+          "time": "11:40",
           "dur": "45 min",
           "name": "🏛️ Ayuntamiento por dentro (Ratusz Głównego Miasta)",
           "lat": 54.3488947,
           "lng": 18.6526425,
-          "desc": "La Sala Roja y las salas de gobierno de la ciudad. Domingo 10:00–16:00, taquilla hasta 45 min antes del cierre, 26 zł. La torre solo abre en verano.",
+          "desc": "La Sala Roja y las salas de gobierno de la ciudad. Domingo 10:00–16:00, taquilla hasta 45 min antes del cierre, 26 zł. La torre solo abre en verano. Si vais justos, es lo primero que se cae.",
           "link": "https://muzeumgdansk.pl/en/oddzialy-muzeum/main-town-hall/",
           "mapsQuery": "Ratusz Głównego Miasta, Gdańsk"
         },
         {
-          "id": "3.6",
-          "time": "12:25",
-          "dur": "1h 15min",
+          "id": "3.7",
+          "time": "12:35",
+          "dur": "50 min",
           "name": "🎄 Tercera vuelta al mercadillo: comida y dulces para casa",
           "lat": 54.3481523,
           "lng": 18.6480323,
-          "desc": "El mercadillo abre a las 12:00 también en domingo y esta zona queda a 2 min del piso: el Rincón del Tren Mágico en Bogusławskiego (comida en vagones-contenedor), el Rincón Teatral con foodcourt junto al Teatro Shakespeare y la Puerta de Adviento. Es el momento de comprar dulces para llevar en los puestos de productos regionales (ver «Qué comer» en Info). Las tiendas están cerradas (domingo sin comercio), pero el mercadillo no.",
+          "desc": "El mercadillo abre a las 12:00 también en domingo: el Rincón del Tren Mágico en Bogusławskiego (comida en vagones-contenedor), el Rincón Teatral con foodcourt junto al Teatro Shakespeare y la Puerta de Adviento. Es el momento de comprar dulces para llevar en los puestos de productos regionales (ver «Qué comer» en Info). Las tiendas están cerradas (domingo sin comercio), pero el mercadillo no. Salid a las 13:25 hacia la estación.",
           "tags": [
             "obligatorio",
             "gratis"
@@ -428,23 +442,23 @@
           "mapsQuery": "Wojciecha Bogusławskiego, Gdańsk"
         },
         {
-          "id": "3.7",
+          "id": "3.8",
           "time": "13:50",
           "dur": "10 min",
-          "name": "🧳 Piso — recoger maletas",
-          "lat": 54.3467771,
-          "lng": 18.6489832,
-          "desc": "A 2 min del mercadillo. El check-out oficial es a las 11:00: escribid al anfitrión para dejar las maletas hasta las 14:00. Si no puede, hay consignas por app (Bounce, Radical Storage) junto a Gdańsk Główny desde ~15 zł/día.",
-          "mapsQuery": "Podwale Przedmiejskie 24, Gdańsk"
+          "name": "🧳 Gdańsk Główny — recoger maletas",
+          "lat": 54.3564654,
+          "lng": 18.6453558,
+          "desc": "Desde Bogusławskiego ~20 min a pie por las murallas (pasáis por la zona del mercadillo del Forum). Pedid el Bolt al aeropuerto desde la estación para las 14:00.",
+          "mapsQuery": "Gdańsk Główny"
         },
         {
-          "id": "3.8",
+          "id": "3.9",
           "time": "14:25",
           "dur": "—",
           "name": "✈️ Aeropuerto de Gdańsk (GDN) — FR7070 16:05",
           "lat": 54.3762064,
           "lng": 18.4744551,
-          "desc": "Bolt o taxi desde el piso a las 14:00, ~25 min (50–90 zł según guías; mirad la app). Llegar sobre las 14:25 deja 1h40 antes del vuelo, de sobra con solo equipaje de mano y Prioridad.",
+          "desc": "Bolt o taxi desde Gdańsk Główny a las 14:00, ~25 min (50–90 zł según guías; mirad la app). Llegar sobre las 14:25 deja 1h40 antes del vuelo, de sobra con solo equipaje de mano y Prioridad.",
           "mapsQuery": "Port Lotniczy Gdańsk im. Lecha Wałęsy"
         }
       ]
@@ -453,31 +467,45 @@
       "id": 4,
       "tab": "Día 3 · Dom 29 · ALT ☀️",
       "title": "☀️ ALT sol · Sopot: playa y muelle",
-      "subtitle": "Domingo 29 nov · SOLO si amanece despejado y sin viento fuerte · SKM 20–30 min desde la estación de al lado del piso · Sustituye a la mañana del Día 3 (Ciudad Vieja, Uphagen y Ayuntamiento)",
+      "subtitle": "Domingo 29 nov · SOLO si amanece despejado y sin viento fuerte · Maletas en Gdańsk Główny y SKM desde allí, 20–30 min · Sustituye a la mañana del Día 3 (Ciudad Vieja, Uphagen y Ayuntamiento)",
       "places": [
         {
           "id": "4.1",
-          "time": "08:30",
-          "dur": "55 min",
-          "name": "☕ Leń — desayuno",
-          "lat": 54.3500891,
-          "lng": 18.6513744,
-          "desc": "Leń abre a las 8:30. Decididlo el sábado por la noche en meteoblue: el 23 nov daba el domingo despejado (7 h de sol) pero a -2 °C y con viento de 21 km/h, que en el muelle se siente como unos -8 °C. Si el viento sube de 25 km/h o se nubla, Día 3 normal.",
-          "mapsQuery": "Leń, Piwna 52/53, Gdańsk"
+          "time": "08:40",
+          "dur": "10 min",
+          "name": "🧳 Taquillas de Gdańsk Główny — dejar maletas",
+          "lat": 54.3564654,
+          "lng": 18.6453558,
+          "desc": "Salid del piso a las 8:15 con las maletas y el check-out hecho: ~20–25 min a pie por las murallas, o Bolt 5 min. En Gdańsk Główny hay taquillas automáticas 24 h (web oficial de PKP); una guía da 18 zł la pequeña y 22 zł la grande por 24 h, con tarjeta o efectivo: mirad el precio en la máquina. Dos trolleys de cabina y dos mochilas caben en dos taquillas grandes, o una grande y una pequeña. Si están todas ocupadas, la consigna con personal de la estación abre todos los días 8:30–19:30 (tel. 606 990 490). Si al final el anfitrión os deja las maletas en el piso, saltaos esta tarjeta.",
+          "tags": [
+            "obligatorio"
+          ],
+          "link": "https://www.pkp.pl/pl/dworce/gdansk-glowny-informacje-dla-podroznych",
+          "mapsQuery": "Gdańsk Główny"
         },
         {
           "id": "4.2",
-          "time": "09:40",
-          "dur": "30 min",
-          "name": "🚆 SKM Gdańsk Śródmieście → Sopot",
-          "lat": 54.3468793,
-          "lng": 18.6443526,
-          "desc": "La estación SKM Gdańsk Śródmieście está a 300 m del piso (~15 min desde Leń). Tren de cercanías a Sopot, 20–30 min.",
-          "mapsQuery": "Gdańsk Śródmieście SKM"
+          "time": "09:05",
+          "dur": "50 min",
+          "name": "☕ Cafe Luis — desayuno",
+          "lat": 54.3546392,
+          "lng": 18.6543422,
+          "desc": "A ~15 min de la estación. Decididlo el sábado por la noche en meteoblue: el 23 nov daba el domingo despejado (7 h de sol) pero a -2 °C y con viento de 21 km/h, que en el muelle se siente como unos -8 °C. Si el viento pasa de 25 km/h o se nubla, Día 3 normal.",
+          "mapsQuery": "Cafe Luis, Gdańsk"
         },
         {
           "id": "4.3",
-          "time": "10:20",
+          "time": "10:10",
+          "dur": "30 min",
+          "name": "🚆 SKM Gdańsk Główny → Sopot",
+          "lat": 54.3564654,
+          "lng": 18.6453558,
+          "desc": "El tren de cercanías SKM sale de la misma estación donde están las maletas. 20–30 min hasta Sopot.",
+          "mapsQuery": "Gdańsk Główny"
+        },
+        {
+          "id": "4.4",
+          "time": "10:40",
           "dur": "15 min",
           "name": "Sopot: Casa Torcida (Krzywy Domek)",
           "lat": 54.4443754,
@@ -489,13 +517,13 @@
           "mapsQuery": "Krzywy Domek, Sopot"
         },
         {
-          "id": "4.4",
-          "time": "10:40",
-          "dur": "1h 10min",
+          "id": "4.5",
+          "time": "11:00",
+          "dur": "50 min",
           "name": "🌊 Muelle de Sopot (Molo) + playa",
           "lat": 54.4474093,
           "lng": 18.5747318,
-          "desc": "La excursión a la playa de tu lista. El muelle de madera entra ~500 m en el Báltico. Con sol y frío seco es precioso; con gris y viento, no compensa. Ropa de esquí: gorro, guantes y algo que corte el viento. Paseo por la arena 20–30 min.",
+          "desc": "La excursión a la playa de tu lista. El muelle de madera entra ~500 m en el Báltico. Con sol y frío seco es precioso; con gris y viento, no compensa. Ropa de esquí: gorro, guantes y algo que corte el viento. Paseo por la arena 20 min.",
           "tags": [
             "playa",
             "mirador"
@@ -503,43 +531,43 @@
           "mapsQuery": "Molo w Sopocie"
         },
         {
-          "id": "4.5",
-          "time": "12:00",
-          "dur": "55 min",
+          "id": "4.6",
+          "time": "12:10",
+          "dur": "50 min",
           "name": "🍽️ Comida en el Monciak",
           "lat": 54.4436754,
           "lng": 18.5653472,
-          "desc": "Comed en Sopot, en la calle Monte Cassino, camino de la estación: no os he fijado sitio. Así no volvéis a Gdańsk con prisa.",
+          "desc": "Comed en Sopot, en la calle Monte Cassino, camino de la estación: no os he fijado sitio.",
           "mapsQuery": "Bohaterów Monte Cassino, Sopot"
         },
         {
-          "id": "4.6",
-          "time": "13:10",
+          "id": "4.7",
+          "time": "13:15",
           "dur": "30 min",
-          "name": "🚆 SKM Sopot → Gdańsk Śródmieście",
+          "name": "🚆 SKM Sopot → Gdańsk Główny",
           "lat": 54.4400569,
           "lng": 18.5623141,
-          "desc": "Tren hacia las 13:10; en Gdańsk Śródmieście estáis a 300 m del piso.",
+          "desc": "Bajaos en Gdańsk Główny, no en Śródmieście: ahí están las maletas.",
           "mapsQuery": "Sopot, stacja SKM"
         },
         {
-          "id": "4.7",
-          "time": "13:45",
-          "dur": "15 min",
-          "name": "🧳 Piso — maletas",
-          "lat": 54.3467771,
-          "lng": 18.6489832,
-          "desc": "Mismo plan que el Día 3: check-out oficial 11:00, pedid dejar las maletas hasta las 14:00. Bolt a las 14:00.",
-          "mapsQuery": "Podwale Przedmiejskie 24, Gdańsk"
+          "id": "4.8",
+          "time": "13:50",
+          "dur": "10 min",
+          "name": "🧳 Gdańsk Główny — recoger maletas",
+          "lat": 54.3564654,
+          "lng": 18.6453558,
+          "desc": "Pedid el Bolt al aeropuerto desde la estación para las 14:00.",
+          "mapsQuery": "Gdańsk Główny"
         },
         {
-          "id": "4.8",
+          "id": "4.9",
           "time": "14:25",
           "dur": "—",
           "name": "✈️ Aeropuerto de Gdańsk (GDN) — FR7070 16:05",
           "lat": 54.3762064,
           "lng": 18.4744551,
-          "desc": "Bolt o taxi desde el piso ~25 min. Llegar sobre las 14:25 deja 1h40 antes del vuelo.",
+          "desc": "Bolt o taxi desde Gdańsk Główny ~25 min. Llegar sobre las 14:25 deja 1h40 antes del vuelo.",
           "mapsQuery": "Port Lotniczy Gdańsk im. Lecha Wałęsy"
         }
       ]
@@ -587,7 +615,7 @@
       },
       {
         "label": "✈️ Vuelta (dom 29)",
-        "value": "FR7070 sale a las <strong>16:05</strong>. Salid del piso a las 14:00 en Bolt o taxi (~25 min)."
+        "value": "FR7070 sale a las <strong>16:05</strong>. Bolt o taxi desde Gdańsk Główny (donde recogéis las maletas) a las 14:00, ~25 min."
       },
       {
         "label": "🪪 ¿Tarjeta turística de Gdańsk?",
@@ -601,7 +629,7 @@
       },
       {
         "label": "🧳 Maletas el domingo",
-        "value": "Pedid al anfitrión dejarlas en el piso hasta las 14:00 (check-out oficial 11:00). Ya os aprobaron la llegada a la 1:00; escribid por Booking."
+        "value": "El plan da por hecho que <strong>no</strong> podéis dejarlas en el piso (check-out 11:00): van a las <strong>taquillas automáticas 24 h de Gdańsk Główny</strong>, que os pillan de camino al desayuno y de donde sale el Bolt al aeropuerto (y la SKM a Sopot). Plan B en la misma estación: consigna con personal, todos los días 8:30–19:30, tel. 606 990 490. Plan C: Bounce o Radical Storage desde ~15 zł/maleta. Si el anfitrión os deja, mejor: preguntadle igualmente."
       },
       {
         "label": "🍽️ Cenas de viernes y sábado",
