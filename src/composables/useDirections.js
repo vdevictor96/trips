@@ -1,11 +1,10 @@
+import { placeQuery } from './useMap.js'
+
 export function useDirections() {
   function makeDirectionsURL(places, city) {
     if (places.length === 0) return ''
-    // Use place names (like individual place buttons) so Google Maps resolves to the actual place
-    const stops = places.map(p => {
-      const q = city ? `${p.name}, ${city}` : p.name
-      return encodeURIComponent(q)
-    }).join('/')
+    // Same text query as each place's own button, so Google Maps resolves the actual place
+    const stops = places.map(p => encodeURIComponent(placeQuery(p, city))).join('/')
     return `https://www.google.com/maps/dir/${stops}/data=!4m2!4m1!3e2`
   }
 
@@ -13,7 +12,7 @@ export function useDirections() {
     if (!places || places.length === 0) return []
     // Prepend hotel as origin so every route starts from the hotel
     const allPoints = hotel
-      ? [{ name: hotel.name || 'Hotel', lat: hotel.lat, lng: hotel.lng }, ...places]
+      ? [{ name: hotel.name || 'Hotel', mapsQuery: hotel.mapsQuery, lat: hotel.lat, lng: hotel.lng }, ...places]
       : places
     // Google Maps web URLs support ~10 waypoints reliably (origin + dest + 8 intermediate)
     const MAX_POINTS = 10

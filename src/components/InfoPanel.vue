@@ -1,33 +1,16 @@
 <template>
   <div v-if="store.trip">
     <h2 class="day-header">Info práctica</h2>
-    <p class="day-subtitle">Por resolver, transporte, Mundial 2026, reservas</p>
+    <p class="day-subtitle">Por resolver, transporte, reservas, temporada, comida y avisos</p>
 
-    <InfoSection
-      v-if="store.trip.info.pendientes?.length"
-      title="🔧 Por resolver (feedback)"
-      section="pendientes"
-      separator=" —"
-    />
-
-    <InfoSection
-      title="🚌 Transporte"
-      section="transport"
-      separator=":"
-    />
-
-    <InfoSection
-      v-if="store.trip.info.mundial?.length"
-      title="⚽ Mundial 2026 (durante el viaje)"
-      section="mundial"
-      separator=" —"
-    />
-
-    <InfoSection
-      title="📞 Reservas pendientes"
-      section="reservas"
-      separator=":"
-    />
+    <template v-for="s in INFO_SECTIONS" :key="s.section">
+      <InfoSection
+        v-if="s.always || store.trip.info[s.section]?.length"
+        :title="s.title"
+        :section="s.section"
+        :separator="s.separator"
+      />
+    </template>
 
     <div class="info-section">
       <h3>📅 Resumen de días</h3>
@@ -70,6 +53,18 @@ import InfoSection from './InfoSection.vue'
 
 const store = useTripStore()
 const showResetModal = ref(false)
+
+// The `info` keys a trip JSON can fill, in display order. `always` sections show
+// even when empty (they carry the "+ Añadir" button); the rest only if the trip has them.
+const INFO_SECTIONS = [
+  { section: 'pendientes', title: '🔧 Por resolver (feedback)', separator: ' —' },
+  { section: 'transport', title: '🚌 Transporte', separator: ':', always: true },
+  { section: 'mundial', title: '⚽ Mundial 2026 (durante el viaje)', separator: ' —' },
+  { section: 'reservas', title: '📞 Reservas pendientes', separator: ':', always: true },
+  { section: 'temporada', title: '🎄 Planes de la temporada', separator: ':' },
+  { section: 'food', title: '🥟 Qué comer', separator: ':' },
+  { section: 'avisos', title: '⚠️ Avisos', separator: ':' },
+]
 
 async function doReset() {
   showResetModal.value = false

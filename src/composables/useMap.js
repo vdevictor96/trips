@@ -27,9 +27,18 @@ const DARK_STYLE = [
   { featureType: 'water', elementType: 'labels.text.fill', stylers: [{ color: '#3d3d3d' }] },
 ]
 
+// Text Google Maps searches for a place. `mapsQuery` (optional, set in the trip
+// JSON) wins over the card name: card names are written for us ("☕ Leń —
+// desayuno") and places outside the trip city (a day trip) would otherwise be
+// searched as "<name>, <trip city>". Shared by the place button and the routes.
+export function placeQuery(place, city) {
+  if (place.mapsQuery) return place.mapsQuery
+  return city ? `${place.name}, ${city}` : place.name
+}
+
 // Shared Google Maps URL builder (exported for PlaceCard etc.)
 export function buildGmapUrl(place, city) {
-  const q = city ? `${place.name}, ${city}` : place.name
+  const q = placeQuery(place, city)
   let url = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`
   // If we have the Google Place ID (places added from the app), pass it so
   // Maps selects the exact place instead of guessing from the text query.
