@@ -1,5 +1,5 @@
 {
-  "_v": 2,
+  "_v": 3,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -232,37 +232,37 @@
     {
       "id": 2,
       "tab": "Día 2 · Sáb 28",
-      "title": "Castillo de Malbork + cantos de Adviento 🏰",
-      "subtitle": "Sábado 28 nov · Tren a Malbork ~9:10 · Castillo 10:15–13:15 · 🌅 Puesta 15:28 junto al castillo · 18, 19 y 20h cantos de Adviento desde las torres · Mercadillo 12–21h",
+      "title": "Castillo de Malbork + Museo de la II Guerra Mundial 🏰",
+      "subtitle": "Sábado 28 nov · Día cubierto (meteoblue): todo a cubierto · TLK 8:43 a Malbork · Castillo 9:40–12:40 · IC 13:46 de vuelta · Museo de la II Guerra Mundial 14:40–17:40 · Cantos de Adviento 18, 19 y 20h",
       "places": [
         {
           "id": "2.1",
-          "time": "08:00",
-          "dur": "45 min",
-          "name": "🥣 Bar Mleczny Biała Mewa — desayuno polaco",
-          "lat": 54.3511519,
-          "lng": 18.6549343,
-          "desc": "Plan autóctono: un bar mleczny («bar de leche») es la cantina barata de comida casera polaca de toda la vida. Abre 8–20 (calle Szeroka, ~15 min del piso). El café no es de especialidad: si lo echáis de menos, Drukarnia abre a las 8:00 a 3 min. Salid a las 8:45 hacia la estación (~20 min).",
-          "mapsQuery": "Bar Mleczny Biała Mewa, Szeroka, Gdańsk"
+          "time": "07:30",
+          "dur": "40 min",
+          "name": "🥐 Pellowski (Długa) — desayuno temprano",
+          "lat": 54.3486194,
+          "lng": 18.6524521,
+          "desc": "De tu lista: la pastelería de Gdańsk de toda la vida, a 5 min del piso. Abre todos los días a las 7:00 (según OpenStreetMap), cuando todo lo demás sigue cerrado. Hoy toca madrugar para que quepan el castillo y el museo. Salid a las 8:10 hacia la estación (~20 min).",
+          "mapsQuery": "Pellowski, Długa, Gdańsk"
         },
         {
           "id": "2.2",
-          "time": "09:05",
-          "dur": "1h",
-          "name": "🚆 Gdańsk Główny → Malbork",
+          "time": "08:30",
+          "dur": "15 min",
+          "name": "🚆 Gdańsk Główny → Malbork (TLK 8:43)",
           "lat": 54.3564345,
           "lng": 18.6441946,
-          "desc": "Objetivo: un tren entre las 9:00 y las 9:20. Los rápidos (IC/TLK/Pendolino) tardan ~25–35 min; los regionales Polregio ~50–60 min y son los más baratos (~20 zł). Mirad el horario exacto en la app Koleo o PKP la víspera y comprad allí. Desde la estación de Malbork al castillo: ~1,3 km, 20 min a pie.",
+          "desc": "Horario real del sábado 28 en Koleo: TLK 8:43 → 9:20 (37 min). Si queréis más margen, el IC de las 8:07 llega a las 8:41. Billete en la app Koleo o en la taquilla. Desde la estación de Malbork al castillo: ~1,3 km, 20 min a pie.",
           "mapsQuery": "Gdańsk Główny"
         },
         {
           "id": "2.3",
-          "time": "10:15",
+          "time": "09:40",
           "dur": "3h",
           "name": "🏰 ⭐ Castillo de Malbork — Ruta Histórica",
           "lat": 54.0400178,
           "lng": 19.0278182,
-          "desc": "Sede de la Orden Teutónica, el castillo de ladrillo más grande del mundo: la otra cosa «fuera de la ciudad» del viaje, y a cubierto, así que funciona llueva o no. Temporada otoño-invierno: Ruta Histórica mar–dom 9:00–16:00, ÚLTIMO ACCESO 12:45, los interiores cierran a las 15:00. Entrada normal 80 zł; comprad online. Contad ~3 h. Hay taquillas para mochilas junto a las taquillas de entrada (Starościńska 1). Después, comida en Malbork (13:15–14:45): no os he fijado sitio, elegid en Google Maps al salir.",
+          "desc": "Sede de la Orden Teutónica, el castillo de ladrillo más grande del mundo. Todo a cubierto: ideal para el sábado, que meteoblue da cubierto. Temporada otoño-invierno: Ruta Histórica mar–dom 9:00–16:00, último acceso 12:45, interiores hasta las 15:00. Entrada normal 80 zł; comprad online. Contad ~3 h. Hay taquillas para mochilas junto a las taquillas de entrada (Starościńska 1). Al salir, comida rápida en Malbork (12:40–13:15): no os he fijado sitio. A las 13:15 salid hacia la estación (~20 min) para el IC de las 13:46. La foto clásica del castillo es desde la orilla de enfrente del río Nogat, si os sobran 10 min.",
           "tags": [
             "obligatorio",
             "reservar"
@@ -272,35 +272,37 @@
         },
         {
           "id": "2.4",
-          "time": "14:50",
-          "dur": "40 min",
-          "name": "🌅 Paseo exterior + estación de Malbork",
+          "time": "13:40",
+          "dur": "35 min",
+          "name": "🚆 Malbork → Gdańsk Główny (IC 13:46)",
           "lat": 54.0359714,
           "lng": 19.0431501,
-          "desc": "Antes del tren, vuelta por fuera del castillo con la última luz (puesta 15:28): la foto clásica es desde la orilla de enfrente del río Nogat. meteoblue da el sábado cubierto (0 h de sol): no esperéis colores, pero la mole de ladrillo con luz gris también impresiona. Tren de vuelta hacia las 15:30–15:45; mirad la hora en Koleo.",
-          "tags": [
-            "mirador"
-          ],
+          "desc": "Horario real del sábado 28 en Koleo: IC 13:46 → 14:14 (28 min, 19 zł). Si lo perdéis: PR 13:49 → 14:37 (16 zł), que deja menos museo. Si vais muy bien de tiempo, EIP 13:37 → 14:01 (más caro).",
           "mapsQuery": "Malbork, dworzec PKP"
         },
         {
           "id": "2.5",
-          "time": "16:50",
-          "dur": "55 min",
-          "name": "🍩 Dobra Pączkarnia — merienda",
-          "lat": 54.3530949,
-          "lng": 18.651549,
-          "desc": "De la lista: pączki, el dónut polaco relleno (plan autóctono). ~15 min a pie desde Gdańsk Główny. Horario sin confirmar: si estuviera cerrada, Pellowski (pastelería de tu lista) tiene local a 1 min, en Podwale Staromiejskie 81-82.",
-          "mapsQuery": "Dobra Pączkarnia, Gdańsk"
+          "time": "14:40",
+          "dur": "3h",
+          "name": "⭐ Museo de la Segunda Guerra Mundial",
+          "lat": 54.3559415,
+          "lng": 18.6611212,
+          "desc": "Imprescindible para Maitena. Desde Gdańsk Główny ~1,1 km, unos 20 min a pie. Sábado 10:00–18:00 y la taquilla cierra a las 17:00: hoy entráis a las 14:40 y tenéis ~3 h, lo que pide la exposición principal. Entrada normal 32 zł (tarifa oficial de 2025); comprad online en bilety.muzeum1939.pl para no hacer cola. Cierra los lunes.",
+          "tags": [
+            "obligatorio",
+            "reservar"
+          ],
+          "link": "https://muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/opening-hours",
+          "mapsQuery": "Muzeum II Wojny Światowej, Gdańsk"
         },
         {
           "id": "2.6",
-          "time": "17:55",
-          "dur": "1h 05min",
-          "name": "🎄 Mercadillo, segunda vuelta + cantos de Adviento",
+          "time": "18:05",
+          "dur": "1h",
+          "name": "🎄 Merienda en el mercadillo + cantos de Adviento",
           "lat": 54.3500222,
           "lng": 18.6490434,
-          "desc": "Hoy, 28 nov, el programa del mercadillo anuncia cantos de Adviento desde las torres a las 18:00, 19:00 y 20:00. Calle Tkacka (iluminaciones), el tramo nuevo de Garbary y Ogarna y la parte de la calle Długa. Grzaniec (vino caliente) en la taza de fianza y lo que veáis en los puestos de productos regionales. Sábado: es la hora más llena de la semana, así que sin prisas. Por la noche baja a -5 °C: hay zonas cubiertas y con calefacción para descansar.",
+          "desc": "Del museo al mercadillo ~20–25 min por la ribera: oiréis seguro los de las 19:00 y las 20:00. Hoy, 28 nov, el programa del mercadillo anuncia cantos de Adviento desde las torres a las 18:00, 19:00 y 20:00. La merienda de hoy es en los puestos (grzaniec, pierniki). Calle Tkacka (iluminaciones), el tramo nuevo de Garbary y Ogarna y la parte de la calle Długa. Grzaniec (vino caliente) en la taza de fianza y lo que veáis en los puestos de productos regionales. Sábado: es la hora más llena de la semana, así que sin prisas. Por la noche baja a -5 °C: hay zonas cubiertas y con calefacción para descansar.",
           "tags": [
             "obligatorio",
             "gratis"
@@ -580,8 +582,8 @@
         "value": "Previsión: <strong>vie 27</strong> 1/-3 °C, parcialmente nublado, seco, 3 h de sol (previsibilidad alta) · <strong>sáb 28</strong> 0/-5 °C, cubierto, seco, 0 h de sol (alta) · <strong>dom 29</strong> -2/-5 °C, despejado, 7 h de sol, viento 21 km/h (media). <strong>Mi recomendación: Sopot el domingo por la mañana (Día 3 ALT ☀️)</strong>, porque es el único día de sol y la playa con sol y frío seco merece la pena. Pero a -2 °C y con 21 km/h el muelle se siente como unos -8 °C: confirmadlo el sábado por la noche y, si el viento pasa de 25 km/h o se nubla, Día 3 normal. Con Sopot os perdéis Uphagen y el Ayuntamiento por dentro."
       },
       {
-        "label": "🏰 ¿Por qué Malbork el sábado?",
-        "value": "Es casi todo interior y el sábado es el día cubierto (0 h de sol): ese día no se pierde nada estando dentro. Es además la excursión más valorada desde Gdańsk. La playa depende del sol, que meteoblue solo da el domingo."
+        "label": "🏰 ¿Por qué Malbork y el museo de la guerra el sábado?",
+        "value": "Los dos son interior y el sábado es el día cubierto (0 h de sol): ese día no se pierde nada estando dentro. Con los trenes reales del 28 (TLK 8:43 de ida, IC 13:46 de vuelta) caben el castillo por la mañana y unas 3 h de museo por la tarde. Así el domingo queda libre para Sopot si sale el sol, que meteoblue solo da ese día."
       },
       {
         "label": "⛵ Barco por el Motława",
@@ -619,7 +621,7 @@
       },
       {
         "label": "🪪 ¿Tarjeta turística de Gdańsk?",
-        "value": "<strong>No compensa.</strong> El paquete Premium de 72 h cuesta 120–130 zł por persona (la web oficial da dos cifras). Con este plan pagáis Artus, Uphagen y el Ayuntamiento (26 zł cada uno, web del Museo de Gdańsk) y el ECS: unos 80–100 zł, y la tarjeta no cubre todos. Malbork (80 zł) y la torre de Santa María (20 zł) van aparte."
+        "value": "<strong>No compensa.</strong> El paquete Premium de 72 h cuesta 120–130 zł por persona (la web oficial da dos cifras). Según las fuentes, el paquete cubre Uphagen y Artus (52 zł en entradas sueltas) y quizá el ECS. Para amortizarlo tendría que cubrir también el Ayuntamiento (26 zł) y el Museo de la II Guerra Mundial (32 zł), y eso no lo he podido confirmar. Malbork (80 zł) y la torre de Santa María (20 zł) van aparte."
       }
     ],
     "reservas": [
@@ -637,7 +639,7 @@
       },
       {
         "label": "🕐 Horarios comprobados (23 nov, webs oficiales)",
-        "value": "<strong>Museo de Gdańsk</strong> (Artus, Uphagen, Ayuntamiento): lun 10–16 gratis, <strong>mar cerrado</strong>, mié 10–16, jue 10–18, vie–dom 10–16; Artus cerrada el sáb 28. · <strong>Santa María</strong>: laborables 8:30–17:30, domingo 11–12 y 13–17:30; torre 10–18. · <strong>Grúa Żuraw</strong>: jue–dom 9–17. · <strong>ECS</strong>: exposición vie 10–17 y sáb–dom 10–18 (cierra mar); biblioteca vie 11–16, sáb 11–15, dom cerrada. · <strong>Malbork</strong>: Ruta Histórica mar–dom 9–16, último acceso 12:45. · <strong>Goldwasser</strong>: vie–dom 11–22. · <strong>Mercadillo</strong>: vie–sáb 12–21, dom 12–20."
+        "value": "<strong>Museo de Gdańsk</strong> (Artus, Uphagen, Ayuntamiento): lun 10–16 gratis, <strong>mar cerrado</strong>, mié 10–16, jue 10–18, vie–dom 10–16; Artus cerrada el sáb 28. · <strong>Santa María</strong>: laborables 8:30–17:30, domingo 11–12 y 13–17:30; torre 10–18. · <strong>Grúa Żuraw</strong>: jue–dom 9–17. · <strong>ECS</strong>: exposición vie 10–17 y sáb–dom 10–18 (cierra mar); biblioteca vie 11–16, sáb 11–15, dom cerrada. · <strong>Malbork</strong>: Ruta Histórica mar–dom 9–16, último acceso 12:45. · <strong>Museo de la II Guerra Mundial</strong>: mié–dom 10–18 (taquilla hasta las 17:00), mar 10–16, lun cerrado. · <strong>Goldwasser</strong>: vie–dom 11–22. · <strong>Mercadillo</strong>: vie–sáb 12–21, dom 12–20."
       }
     ],
     "temporada": [
@@ -669,7 +671,7 @@
     "food": [
       {
         "label": "🥟 Qué probar",
-        "value": "<strong>Pierogi</strong> (Mandu, Stary Młyn) · <strong>żurek</strong> (sopa agria de centeno) · <strong>czernina</strong>, sopa casubia de pato (Kubicki) · <strong>arenque a la casubia</strong> (śledź po kaszubsku; Tawerna Mestwin) · <strong>grzaniec</strong>, vino caliente del mercadillo · y en un <strong>bar mleczny</strong>, la cantina barata de siempre (Biała Mewa, desayuno del sábado)."
+        "value": "<strong>Pierogi</strong> (Mandu, Stary Młyn) · <strong>żurek</strong> (sopa agria de centeno) · <strong>czernina</strong>, sopa casubia de pato (Kubicki) · <strong>arenque a la casubia</strong> (śledź po kaszubsku; Tawerna Mestwin) · <strong>grzaniec</strong>, vino caliente del mercadillo · y en un <strong>bar mleczny</strong>, la cantina barata de siempre (Biała Mewa, en Restauración)."
       },
       {
         "label": "🍬 Dulces típicos",
@@ -677,7 +679,7 @@
       },
       {
         "label": "🛍️ Dónde comprarlos",
-        "value": "<strong>Dobra Pączkarnia</strong> (de vuestra lista): pączki, merienda del sábado. <strong>Pellowski</strong> (de vuestra lista): pastelería de Gdańsk con locales por el centro. <strong>Goldwasser</strong> (Długie Pobrzeże 22, vie–dom 11–22): botellas y estuches de regalo con bombones; la botella también está en supermercados. <strong>Mercadillo</strong>: puestos de productos regionales y de Pomerania, para pierniki y dulces para llevar. ⚠️ El <strong>domingo las tiendas cierran</strong>: compradlo viernes o sábado, o el domingo en el mercadillo."
+        "value": "<strong>Dobra Pączkarnia</strong> (de vuestra lista): pączki, junto a la calle Pańska. <strong>Pellowski</strong> (de vuestra lista): pastelería de Gdańsk con locales por el centro; desayuno del sábado en la de Długa. <strong>Goldwasser</strong> (Długie Pobrzeże 22, vie–dom 11–22): botellas y estuches de regalo con bombones; la botella también está en supermercados. <strong>Mercadillo</strong>: puestos de productos regionales y de Pomerania, para pierniki y dulces para llevar. ⚠️ El <strong>domingo las tiendas cierran</strong>: compradlo viernes o sábado, o el domingo en el mercadillo."
       }
     ],
     "avisos": [
@@ -700,6 +702,15 @@
     ]
   },
   "restaurants": [
+    {
+      "id": "r.6",
+      "cat": "🥟 Polaca / pierogi",
+      "name": "Bar Mleczny Biała Mewa",
+      "lat": 54.3511519,
+      "lng": 18.6549343,
+      "desc": "Plan autóctono: un bar mleczny es la cantina barata de comida casera polaca de toda la vida (calle Szeroka, abre 8–20 según OpenStreetMap). Salió del sábado porque el tren a Malbork sale a las 8:43. Buena opción para una comida rápida cualquier día.",
+      "mapsQuery": "Bar Mleczny Biała Mewa, Szeroka, Gdańsk"
+    },
     {
       "id": "r.3",
       "cat": "🍕 Otros de la lista",
@@ -770,13 +781,13 @@
       "desc": "Piwna 1/2, café-bar de culto con barra de mármol, abre hasta tarde (vie–sáb hasta las 4). Para una copa tranquila después del mercadillo."
     },
     {
-      "id": "c.4",
+      "id": "c.6",
       "cat": "🍰 Pastelerías",
-      "name": "Pellowski (Ruta Real)",
-      "lat": 54.3486469,
-      "lng": 18.6523362,
-      "desc": "⭐ TU LISTA (el de la lista es el del túnel de la estación central; este es el de la Ruta Real, de paso). Pastelería-panadería de Gdańsk con locales por toda la ciudad.",
-      "mapsQuery": "Pellowski, Długa, Gdańsk"
+      "name": "Dobra Pączkarnia",
+      "lat": 54.3530949,
+      "lng": 18.651549,
+      "desc": "⭐ TU LISTA · Pączki, el dónut polaco relleno. Ya no cabe como merienda del sábado (ese hueco es del museo): pasad cuando os pille de camino, está junto a la calle Pańska. Horario sin confirmar.",
+      "mapsQuery": "Dobra Pączkarnia, Gdańsk"
     },
     {
       "id": "c.5",
@@ -784,7 +795,7 @@
       "name": "Pellowski (Podwale Staromiejskie)",
       "lat": 54.3535749,
       "lng": 18.6535933,
-      "desc": "Plan B de la merienda del sábado si Dobra Pączkarnia estuviera cerrada: a 1 min.",
+      "desc": "Otra Pellowski en el centro (Podwale Staromiejskie 81-82), sáb 7:00–18:00 y dom 7:00–17:00 según OpenStreetMap.",
       "mapsQuery": "Pellowski, Podwale Staromiejskie 81, Gdańsk"
     }
   ],
@@ -797,16 +808,6 @@
       "desc": "Parque de iluminaciones navideñas en el parque Faktoria de Pruszcz Gdański; la cartelera de trojmiasto.pl lo da del 23 oct 2026 al 14 feb 2027.",
       "reason": "Está a 25–30 min del centro, no he podido confirmar horarios ni precios y las tardes ya son para el mercadillo de Gdańsk, que es mejor plan de Navidad. Para otro viaje con más días.",
       "mapsQuery": "Faktoria, Pruszcz Gdański"
-    },
-    {
-      "id": "d.1",
-      "name": "Museo de la Segunda Guerra Mundial",
-      "lat": 54.3559415,
-      "lng": 18.6611212,
-      "desc": "Uno de los mejores museos de la ciudad, muy intenso. Dom 10–18, taquilla hasta las 17:00, ~32 zł.",
-      "reason": "Pide 3 h largas y no cabe sin quitar Malbork o el mercadillo. Es el cambio natural del domingo por la mañana si preferís historia grande a Uphagen y el Ayuntamiento.",
-      "link": "https://muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/opening-hours",
-      "mapsQuery": "Muzeum II Wojny Światowej, Gdańsk"
     },
     {
       "id": "d.2",
