@@ -1,5 +1,5 @@
 {
-  "_v": 4,
+  "_v": 5,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -27,13 +27,13 @@
     {
       "id": 1,
       "tab": "Día 1 · Vie 27",
-      "title": "Ruta Real, Motława y primer mercadillo 🎄",
-      "subtitle": "Viernes 27 nov · Llegáis al piso a la 1:00 → arranque tranquilo a las 9:00 · Luz 7:35–15:29 · 🌅 Puesta 15:29 · Mercadillo 12–21h",
+      "title": "Ruta Real, galeón al atardecer y primer mercadillo 🎄",
+      "subtitle": "Viernes 27 nov · Llegáis al piso a la 1:00 → arranque tranquilo a las 9:00 · Luz 7:35–15:29 · 🌅 Puesta 15:29 desde el galeón (15:00–16:20) · Mercadillo 12–21h",
       "places": [
         {
           "id": "1.1",
           "time": "09:00",
-          "dur": "1h",
+          "dur": "55 min",
           "name": "☕ Leń — desayuno",
           "lat": 54.3500891,
           "lng": 18.6513744,
@@ -44,7 +44,22 @@
         {
           "id": "1.2",
           "time": "10:00",
-          "dur": "15 min",
+          "dur": "50 min",
+          "name": "⭐ Basílica de Santa María + torre-mirador",
+          "lat": 54.3498079,
+          "lng": 18.6530094,
+          "desc": "A 2 min de Leń. La torre abre a las 10:00: subid con la luz de la mañana (400 y pico escalones, 20 zł; cierra si hay tormenta). La puesta de sol de hoy la veis desde el barco, por eso la torre va ahora. Basílica laborables 8:30–17:30. Al salir, la Capilla Real (de tu lista) está pegada, en la calle Św. Ducha.",
+          "tags": [
+            "obligatorio",
+            "mirador"
+          ],
+          "link": "https://bazylikamariacka.gdansk.pl/bazylika/informacja-dla-turystow",
+          "mapsQuery": "Bazylika Mariacka, Gdańsk"
+        },
+        {
+          "id": "1.3",
+          "time": "10:55",
+          "dur": "10 min",
           "name": "⭐ Puerta Dorada — inicio de la Ruta Real",
           "lat": 54.3496712,
           "lng": 18.6480207,
@@ -56,13 +71,13 @@
           "mapsQuery": "Złota Brama, Gdańsk"
         },
         {
-          "id": "1.3",
-          "time": "10:15",
-          "dur": "15 min",
+          "id": "1.4",
+          "time": "11:05",
+          "dur": "10 min",
           "name": "⭐ Calle Długa + Ayuntamiento (Ratusz Głównego Miasta)",
           "lat": 54.3488947,
           "lng": 18.6526425,
-          "desc": "Fachadas de la calle Długa hasta el Ayuntamiento de la Ciudad Principal («Gdańsk City Hall» en tu lista). La torre-mirador solo abre en verano. El interior (Sala Roja) lo veis el domingo.",
+          "desc": "Fachadas de la calle Długa hasta el Ayuntamiento de la Ciudad Principal («Gdańsk City Hall» en tu lista). El interior (Sala Roja) lo veis el sábado.",
           "tags": [
             "obligatorio",
             "gratis"
@@ -71,13 +86,13 @@
           "mapsQuery": "Ratusz Głównego Miasta, Gdańsk"
         },
         {
-          "id": "1.4",
-          "time": "10:30",
-          "dur": "10 min",
+          "id": "1.5",
+          "time": "11:15",
+          "dur": "5 min",
           "name": "⭐ Długi Targ + Fuente de Neptuno",
           "lat": 54.3485464,
           "lng": 18.653228,
-          "desc": "La plaza mayor alargada de Gdańsk. Neptuno (1633) delante de la Corte de Artus, que veréis por dentro a las 12:35.",
+          "desc": "La plaza mayor alargada de Gdańsk. Neptuno (1633) delante de la Corte de Artus, que veis ahora por dentro.",
           "tags": [
             "obligatorio",
             "gratis"
@@ -85,33 +100,8 @@
           "mapsQuery": "Fontanna Neptuna, Gdańsk"
         },
         {
-          "id": "1.5",
-          "time": "10:40",
-          "dur": "1h 50min",
-          "name": "⛵ Puerta Verde + galeón por el Motława (si sale)",
-          "lat": 54.3479575,
-          "lng": 18.655744,
-          "desc": "Fin de la Ruta Real. Desde aquí, en Długie Pobrzeże junto a la puerta, salen los barcos («paseo en barco» de Maitena). Ojo: los barcos turísticos son de temporada (mayo–septiembre) y la mayoría no sale en noviembre. El galeón Czarna Perła anuncia salidas de invierno «si el tiempo lo permite» a las 11:00, 13:00 y 15:00, 90 min ida y vuelta a Westerplatte, pero NO he podido confirmarlo para estas fechas: preguntad aquí a las 10:40. Si sale: astilleros y Westerplatte desde el agua; abrigaos de verdad, la cubierta del Báltico en noviembre es fría. Si NO sale (lo más probable): plan B en la tarjeta siguiente, el ECS con su biblioteca. Si SÍ sale, el ECS pasa al domingo, pero la biblioteca cierra en domingo.",
-          "link": "https://www.trojmiasto.pl/Galeon-Czarna-Perla-o36493.html",
-          "mapsQuery": "Brama Zielona, Gdańsk"
-        },
-        {
           "id": "1.6",
-          "time": "10:45",
-          "dur": "1h 35min",
-          "name": "🏛️ Plan B sin barco: Centro Europeo de la Solidaridad (ECS) + astilleros",
-          "lat": 54.3613609,
-          "lng": 18.6494189,
-          "desc": "Si no sale el barco. Desde la Puerta Verde ~25–30 min a pie por la ribera. Se entra por la histórica Puerta n.º 2 de los astilleros («Stocznia Gdańska» de tu lista), con el monumento a los obreros de 1970 enfrente. Tu «biblioteca bonita moderna» abre lun, mié, jue, vie y sáb (hoy 11:00–16:00) y cierra el domingo: por eso va hoy. Exposición permanente sobre Solidarność, vie 10:00–17:00, de pago: aquí en versión corta, ~1 h. Mirador en la azotea si el tiempo lo permite. Vuelta a Długi Targ ~25 min: salid a las 12:20.",
-          "tags": [
-            "obligatorio"
-          ],
-          "link": "https://ecs.gda.pl/en/plan-your-visit/opening-hours/",
-          "mapsQuery": "Europejskie Centrum Solidarności, Gdańsk"
-        },
-        {
-          "id": "1.7",
-          "time": "12:45",
+          "time": "11:20",
           "dur": "35 min",
           "name": "⭐ Corte de Artus (Dwór Artusa)",
           "lat": 54.3487673,
@@ -124,36 +114,13 @@
           "mapsQuery": "Dwór Artusa, Gdańsk"
         },
         {
-          "id": "1.8",
-          "time": "13:20",
-          "dur": "10 min",
-          "name": "Ribera de día: Długie Pobrzeże + Brama Chlebnicka («Bread Bridge»)",
-          "lat": 54.3486741,
-          "lng": 18.6561737,
-          "desc": "Primera mitad de tu «paseo del río, de día y de noche». La Brama Chlebnicka (Puerta del Pan) es lo que el Wanderlog llama «Bread Bridge»; la ubico en la puerta porque no he podido confirmar a qué pasarela se refiere el nombre del puente de los candados. Seguid 100 m al norte y cruzad a la Isla de los Graneros por la pasarela Św. Ducha.",
-          "tags": [
-            "gratis"
-          ],
-          "mapsQuery": "Brama Chlebnicka, Gdańsk"
-        },
-        {
-          "id": "1.9",
-          "time": "13:35",
-          "dur": "1h 15min",
-          "name": "🍽️ Słony Spichlerz — comida",
-          "lat": 54.3490425,
-          "lng": 18.6577299,
-          "desc": "De la lista. En la Isla de los Graneros (Chmielna 10), con la ribera enfrente. Abre dom–jue 8–23 y vie–sáb 8–01. Comida larga y caliente: la tarde sigue con torre y mercadillo.",
-          "mapsQuery": "Słony Spichlerz, Chmielna 10, Gdańsk"
-        },
-        {
-          "id": "1.10",
-          "time": "14:55",
-          "dur": "10 min",
-          "name": "⭐ Grúa del puerto (Żuraw) — por fuera",
+          "id": "1.7",
+          "time": "12:00",
+          "dur": "15 min",
+          "name": "Puerta Verde + ribera de día hasta la Grúa",
           "lat": 54.3505596,
           "lng": 18.6574831,
-          "desc": "Volved por la pasarela Św. Ducha: la grúa medieval queda a 2 min. El interior (Museo Marítimo) lo veis el domingo con calma. Esta noche no la veis iluminada; el sábado, sí.",
+          "desc": "Primera mitad de tu «paseo del río, de día y de noche»: Puerta Verde, Długie Pobrzeże, la Brama Chlebnicka (la «Bread Bridge» de tu lista; no he podido confirmar a qué pasarela se refiere el nombre) y la Grúa medieval (Żuraw) por fuera. Seguid por la orilla hacia los astilleros.",
           "tags": [
             "obligatorio",
             "gratis"
@@ -161,36 +128,62 @@
           "mapsQuery": "Żuraw, Szeroka 67/68, Gdańsk"
         },
         {
-          "id": "1.11",
-          "time": "15:05",
-          "dur": "55 min",
-          "name": "🌅 ⭐ Basílica de Santa María + torre-mirador",
-          "lat": 54.3498079,
-          "lng": 18.6530094,
-          "desc": "Por la calle Mariacka hasta la basílica (~5 min). Subid nada más llegar: 400 y pico escalones, arriba sobre las 15:20 para la puesta de las 15:29 (meteoblue da el viernes parcialmente nublado y seco). Torre 10:00–18:00 fuera de verano, 20 zł; cierra si hay tormenta. Basílica laborables 8:30–17:30. Al salir, la Capilla Real (de tu lista) está pegada, en la calle Św. Ducha.",
+          "id": "1.8",
+          "time": "12:40",
+          "dur": "40 min",
+          "name": "⭐ Centro Europeo de la Solidaridad (ECS) + astilleros",
+          "lat": 54.3613609,
+          "lng": 18.6494189,
+          "desc": "Desde la Grúa ~25 min a pie por la orilla del Motława y el canal. Se entra por la histórica Puerta n.º 2 de los astilleros («Stocznia Gdańska» de tu lista), con el monumento a los obreros de 1970 enfrente. Hoy toca la parte gratuita: el edificio, tu «biblioteca bonita moderna» (vie 11:00–16:00; cierra el domingo) y el mirador de la azotea si el tiempo lo permite. La exposición permanente (de pago, ~1,5–2 h) no cabe con el barco: si os engancha, quedaos y cambiad la comida por algo rápido.",
           "tags": [
             "obligatorio",
-            "mirador"
+            "gratis"
           ],
-          "link": "https://bazylikamariacka.gdansk.pl/bazylika/informacja-dla-turystow",
-          "mapsQuery": "Bazylika Mariacka, Gdańsk"
+          "link": "https://ecs.gda.pl/en/plan-your-visit/opening-hours/",
+          "mapsQuery": "Europejskie Centrum Solidarności, Gdańsk"
         },
         {
-          "id": "1.12",
-          "time": "16:10",
-          "dur": "1h",
+          "id": "1.9",
+          "time": "13:25",
+          "dur": "50 min",
+          "name": "🍽️ Montownia Food Hall — comida",
+          "lat": 54.3596176,
+          "lng": 18.6541806,
+          "desc": "De tu lista. Antigua nave del astillero convertida en food hall, al lado del ECS; abre todos los días desde las 7:00. A las 14:15 salid hacia el barco (~25 min a pie por la orilla) para llegar con margen al embarque.",
+          "mapsQuery": "Montownia Food Hall, Lisia Grobla 7, Gdańsk"
+        },
+        {
+          "id": "1.10",
+          "time": "14:40",
+          "dur": "1h 40min",
+          "name": "⛵ Galeón por el Motława hasta Westerplatte (15:00)",
+          "lat": 54.3491099,
+          "lng": 18.6564232,
+          "desc": "El «paseo en barco» de Maitena. Galeón Czarna Perła, salida 15:00 desde Długie Pobrzeże 11, junto al restaurante Gdański Bowke: llegad hacia las 14:40 (piden embarcar 30 min antes para coger buen sitio). 80 min por el puerto, los astilleros y la fortaleza de Wisłoujście hasta Westerplatte, con comentario en directo (también en inglés) a la ida, música en directo a la vuelta y bar a bordo. La puesta es a las 15:29: la ida con luz y atardecer, la vuelta con la ciudad iluminada. Ida y vuelta sin bajar, 106,22 zł por adulto. Las entradas online se cambian en la taquilla por la versión en papel. Abrigaos de verdad: noviembre en el Báltico.",
+          "tags": [
+            "obligatorio",
+            "reservar",
+            "mirador"
+          ],
+          "link": "https://perlalew.pl/kup-online/",
+          "mapsQuery": "Gdański Bowke, Długie Pobrzeże 11, Gdańsk"
+        },
+        {
+          "id": "1.11",
+          "time": "16:30",
+          "dur": "55 min",
           "name": "☕ Drukarnia — merienda en la calle Mariacka",
           "lat": 54.349628,
           "lng": 18.6559459,
-          "desc": "Merienda en el café de especialidad más citado de la ciudad (Mariacka 36). Vie–sáb 8:00–21:30. Al salir ya es de noche: la calle Mariacka (de tu lista) con sus escalinatas y gárgolas iluminadas.",
+          "desc": "A 3 min del embarcadero. El café de especialidad más citado de la ciudad (Mariacka 36), vie–sáb 8:00–21:30. Ya es de noche: la calle Mariacka (de tu lista) con sus escalinatas y gárgolas iluminadas.",
           "tags": [
             "obligatorio"
           ],
           "mapsQuery": "Drukarnia, Mariacka 36, Gdańsk"
         },
         {
-          "id": "1.13",
-          "time": "17:25",
+          "id": "1.12",
+          "time": "17:35",
           "dur": "30 min",
           "name": "🎄 Gran Arsenal (Wielka Zbrojownia) — mercadillo a cubierto",
           "lat": 54.3506998,
@@ -204,9 +197,9 @@
           "mapsQuery": "Wielka Zbrojownia, Gdańsk"
         },
         {
-          "id": "1.14",
-          "time": "17:55",
-          "dur": "1h 10min",
+          "id": "1.13",
+          "time": "18:05",
+          "dur": "1h",
           "name": "🎄 Mercadillo: Targ Węglowy + árbol del Forum",
           "lat": 54.3511475,
           "lng": 18.6480111,
@@ -218,7 +211,7 @@
           "mapsQuery": "Targ Węglowy, Gdańsk"
         },
         {
-          "id": "1.15",
+          "id": "1.14",
           "time": "19:15",
           "dur": "1h 15min",
           "name": "🥟 Pierogarnia Mandu — cena",
@@ -420,7 +413,7 @@
           "name": "⭐ Grúa del puerto (Żuraw) por dentro",
           "lat": 54.3505596,
           "lng": 18.6574831,
-          "desc": "La grúa medieval del puerto con su mecanismo de ruedas, parte del Museo Marítimo. Jue–dom 9:00–17:00 (el 1 de diciembre cierra por obras, a vosotros no os afecta). ~20 zł según guías. Si el viernes salió el barco y no visteis el ECS, cambiad esta tarjeta por el ECS (domingo 10:00–18:00; la biblioteca cierra en domingo).",
+          "desc": "La grúa medieval del puerto con su mecanismo de ruedas, parte del Museo Marítimo. Jue–dom 9:00–17:00 (el 1 de diciembre cierra por obras, a vosotros no os afecta). ~20 zł según guías.",
           "link": "https://nmm.pl/en/visit/opening-hours",
           "mapsQuery": "Żuraw, Szeroka 67/68, Gdańsk"
         },
@@ -595,8 +588,8 @@
         "value": "Lo quitasteis tras hacer la balanza: costaba la mañana entera del sábado, madrugar, comer con prisa y empujar Uphagen y el Ayuntamiento al domingo. Ahora el sábado (el día cubierto) es de interiores con calma: Uphagen, Ayuntamiento, bar mleczny y el Museo de la II Guerra Mundial. El domingo, Sopot solo os quita la Grúa por dentro y la última vuelta al mercadillo."
       },
       {
-        "label": "⛵ Barco por el Motława",
-        "value": "La temporada normal es mayo–septiembre. El galeón Czarna Perła anuncia salidas de invierno «si el tiempo lo permite» (11:00, 13:00, 15:00) que no he podido confirmar: está el viernes a las 10:40. El viernes sale seco y con 15 km/h, así que el tiempo no debería impedirlo. Si no sale, plan B: el ECS con su biblioteca. Existe un velero privado de invierno con cabina con calefacción, 2 h para 2 personas, 999 zł (Prezentokracja): caro, solo si os hace mucha ilusión."
+        "label": "⛵ Galeón: por qué a las 15:00 del viernes y sin bajar",
+        "value": "Salidas confirmadas en su web el viernes a las 11:00, 13:00 y 15:00. <strong>15:00</strong>: la puesta es a las 15:29, así que tenéis luz, atardecer en el agua y la vuelta con la ciudad iluminada. El viernes es además el único día parcialmente despejado con buena previsibilidad; el sábado sale cubierto y el domingo os vais a las 14:00. <strong>Sin bajar en Westerplatte</strong>: bajarse obliga a esperar otro barco, el monumento al aire libre se ve a oscuras a partir de las 15:30 y os come la tarde del mercadillo. <strong>La lancha nocturna</strong>, descartada: no aporta nada que no dé ya la vuelta del galeón de noche, y el galeón es el plan con historia."
       },
       {
         "label": "❓ 3 sitios de la captura que no he podido leer",
@@ -630,6 +623,10 @@
       }
     ],
     "reservas": [
+      {
+        "label": "⛵ Galeón Czarna Perła (vie 27, 15:00)",
+        "value": "Comprad online en <a href=\"https://perlalew.pl/kup-online/\" target=\"_blank\">perlalew.pl</a>: ida y vuelta 106,22 zł por adulto. Embarque 30 min antes en Długie Pobrzeże 11 (Gdański Bowke); cambiad la entrada online por la de papel en la taquilla, sin hacer cola."
+      },
       {
         "label": "🏛️ Museo de la II Guerra Mundial (sáb 28)",
         "value": "Comprad online en <a href=\"https://bilety.muzeum1939.pl\" target=\"_blank\">bilety.muzeum1939.pl</a>: 32 zł normal (tarifa oficial de 2025), entrada a las 13:50. La taquilla cierra a las 17:00."
@@ -717,13 +714,13 @@
       "mapsQuery": "Ostro Pizza Napoletana, Gdańsk"
     },
     {
-      "id": "r.4",
+      "id": "r.7",
       "cat": "🍕 Otros de la lista",
-      "name": "Montownia Food Hall",
-      "lat": 54.3596176,
-      "lng": 18.6541806,
-      "desc": "⭐ TU LISTA · Antigua nave del astillero convertida en food hall, abre todos los días desde las 7:00. Al lado del ECS: alternativa a la comida del domingo si no queréis volver al mercadillo.",
-      "mapsQuery": "Montownia Food Hall, Lisia Grobla 7, Gdańsk"
+      "name": "Słony Spichlerz",
+      "lat": 54.3490425,
+      "lng": 18.6577299,
+      "desc": "⭐ TU LISTA · En la Isla de los Graneros (Chmielna 10), con la ribera enfrente; dom–jue 8–23 y vie–sáb 8–01 según OpenStreetMap. Salió de la comida del viernes, que ahora es junto al ECS para llegar al barco.",
+      "mapsQuery": "Słony Spichlerz, Chmielna 10, Gdańsk"
     },
     {
       "id": "r.5",
