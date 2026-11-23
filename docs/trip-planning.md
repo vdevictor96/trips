@@ -93,10 +93,11 @@ Cada archivo `trips/{id}.json` sigue este esquema:
 - `desc`: 1-2 frases breves en español. Incluir horario del sitio si es relevante, notas de opcionalidad, y contexto de comidas/meriendas en sitios adyacentes
 - `link`: web oficial siempre que exista (buscar)
 - `tags`: array de strings — usar: `obligatorio`, `gratis`, `reservar`, `mirador`, `playa`
-  - **`playa`** alimenta la sección transversal «Playas y charcos»: es un *índice derivado*,
+  - **`playa`** alimenta la sección transversal «Playas»: es un *índice derivado*,
     no una lista aparte. El sitio sigue viviendo en su día o en `discarded` y aparece además
     en esa sección, así que **no se duplica el dato** y editarlo en un sitio lo actualiza en
-    los dos. Marca con él playas, charcos y piscinas naturales.
+    los dos. Marca con él playas y sitios de baño (en Tenerife, también charcos y piscinas naturales).
+    El nombre de la sección es común a todos los viajes: que no dependa de un destino.
   - No escribas `"tags": []`: Firebase descarta los arrays vacíos (ver CLAUDE.md). Omite la clave.
 - `googlePlaceId` (opcional): Place ID de Google para que el botón "📍 Google Maps" seleccione el sitio exacto en vez de adivinar por el nombre (ver § Enlaces Google Maps)
 

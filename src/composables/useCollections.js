@@ -45,12 +45,12 @@ export const COLLECTIONS = [
   {
     id: 'beaches',
     match: p => (p.tags || []).includes('playa'),
-    label: 'Playas y charcos',
+    label: 'Playas',
     emoji: '🏖️',
     color: '#0abde3',
     countLabel: 'sitios',
-    blurb: 'Dónde bañarse, de día y de descartados',
-    subtitle: 'Todos los sitios de baño del viaje: playas, charcos y piscinas naturales. Siguen estando en su día o en descartados — esto es solo un índice para localizarlos de un vistazo.',
+    blurb: 'Playas del viaje, de los días y de descartados',
+    subtitle: 'Todas las playas y sitios de baño del viaje. Siguen estando en su día o en descartados — esto es solo un índice para localizarlos de un vistazo.',
     groupBy: p => p._from || 'Otros',
   },
 ]
