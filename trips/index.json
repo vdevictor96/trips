@@ -29,6 +29,16 @@
       "dates": "17-26 septiembre 2026",
       "days": 10,
       "places": 62
+    },
+    {
+      "id": "gdansk-2026",
+      "title": "Gdańsk 2026",
+      "emoji": "🇵🇱",
+      "city": "Gdańsk",
+      "country": "Polonia",
+      "dates": "26-29 noviembre 2026",
+      "days": 3,
+      "places": 40
     }
   ]
 }

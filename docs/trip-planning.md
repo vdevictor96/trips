@@ -4,11 +4,18 @@
 
 Preferencias transversales del viajero — aplican a **todos los viajes** salvo que se indique lo contrario.
 
-- **En pareja, ritmo suave y relajado.**
-- **Walking-first**: priorizar ir a pie; transporte público solo si es imprescindible (detalle en § Planificación de rutas).
-- **Horario del día**: salir 8:30-9:00h, volver 21:00-22:00h.
+- **En pareja (Víctor y Maitena), ritmo suave y relajado.** Quieren ver bastante, pero sin llenar el día a tope.
+- **Walking-first**: priorizar ir a pie; transporte público solo si es imprescindible (detalle en § Planificación de rutas). Con el transporte, tiempos realistas y nada de enlaces justos.
+- **Horario del día**: salir 8:30-9:00h, volver 21:00-22:00h. No les importa madrugar si el día lo pide (excursión, poca luz).
+- **Desayuno y merienda con tiempo, en café de especialidad.** Es parte del viaje, no un trámite.
+- **Invierno**: anochece pronto, así que el día se aprovecha desde temprano; cenar pronto y acostarse pronto está bien.
+- **Planes autóctonos**: Maitena siempre pide incluirlos (comida típica, cantina local, eventos de esas fechas, barco si opera).
+- **Playa fuera de temporada**: Víctor la ve mala idea con gris, viento o frío; Maitena tiene ganas. Se decide con el parte: va como día ALT ☀️, no como plan fijo.
 - **Miradores → siempre al atardecer.**
 - **Regla día/noche**: todo lo exterior que se vea de noche debe revisitarse de día en otro momento del viaje. No aplica a miradores (son para atardecer), sitios interiores ni tiendas.
+
+El método completo para crear un viaje (qué leer del correo, qué preguntar, qué investigar) está en
+`.claude/commands/new-trip.md` (`/new-trip`).
 
 ## Esquema JSON de un viaje
 
@@ -157,9 +164,17 @@ crea markers (habría dos pines sobre el mismo punto).
 - 5+ días: añadir de `["#4b7bec", "#fd9644", "#2bcbba", "#eb3b5a"]`
 
 ### Info práctica
+Solo se muestran en la app las claves de `info` que lista `INFO_SECTIONS` en `InfoPanel.vue`; cualquier otra se guarda pero no se ve:
+- `pendientes`: decisiones abiertas y cosas sin confirmar («Por resolver»)
 - `transport`: cómo llegar del aeropuerto y moverse por la ciudad
-- `food`: comida típica local que probar
+- `mundial`: específico de NY 2026
 - `reservas`: sitios que requieren reserva con enlaces y fechas
+- `temporada`: planes propios de las fechas (mercadillos de Navidad, fiestas, eventos)
+- `food`: comida típica y dulces, y dónde comprarlos
+- `avisos`: luz, clima, cierres, dinero
+
+### Enlaces a Google Maps: `mapsQuery`
+El botón «📍 Google Maps» y las rutas buscan por texto `"<name>, <city>"`. Si el nombre de la tarjeta es descriptivo («☕ Leń — desayuno») o el sitio está fuera de la ciudad del viaje (una excursión), pon `mapsQuery` con el nombre real que Google entiende («Leń, Piwna 52/53, Gdańsk», «Zamek w Malborku»). También vale en `hotel`.
 
 ### Verificar horarios
 - Antes de finalizar una ruta, verificar horarios de apertura de tiendas, museos y restaurantes via web search
