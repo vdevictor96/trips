@@ -1,5 +1,5 @@
 {
-  "_v": 5,
+  "_v": 6,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -471,7 +471,7 @@
       "id": 4,
       "tab": "Día 3 · Dom 29 · ALT ☀️",
       "title": "☀️ ALT sol · Sopot: playa y muelle",
-      "subtitle": "Domingo 29 nov · SOLO si amanece despejado y sin viento fuerte · Maletas en Gdańsk Główny y SKM desde allí, 20–30 min · Sustituye a la mañana del Día 3: solo os perdéis la Grúa por dentro y la última vuelta al mercadillo",
+      "subtitle": "Domingo 29 nov · SOLO si amanece despejado y sin viento fuerte · Maletas en Gdańsk Główny y tren desde allí, 12–19 min · Sustituye a la mañana del Día 3: solo os perdéis la Grúa por dentro y la última vuelta al mercadillo",
       "places": [
         {
           "id": "4.1",
@@ -504,7 +504,7 @@
           "name": "🚆 SKM Gdańsk Główny → Sopot",
           "lat": 54.3564654,
           "lng": 18.6453558,
-          "desc": "El tren de cercanías SKM sale de la misma estación donde están las maletas. 20–30 min hasta Sopot y otro tanto de vuelta; con el paseo de la estación al muelle, ~1 h 30 de trayectos en total.",
+          "desc": "Sale de la misma estación donde están las maletas. Domingo 29 en Koleo: trenes cada ~10 min, 12–19 min hasta Sopot, 8 zł (SKM y regionales PR; cualquiera vale). Con el paseo de la estación al muelle, ~1 h 15 de trayectos en total, ida y vuelta.",
           "mapsQuery": "Gdańsk Główny"
         },
         {
@@ -584,6 +584,10 @@
         "value": "Previsión: <strong>vie 27</strong> 1/-3 °C, parcialmente nublado, seco, 3 h de sol (previsibilidad alta) · <strong>sáb 28</strong> 0/-5 °C, cubierto, seco, 0 h de sol (alta) · <strong>dom 29</strong> -2/-5 °C, despejado, 7 h de sol, viento 21 km/h (media). <strong>Mi recomendación: Sopot el domingo por la mañana (Día 3 ALT ☀️)</strong>, porque es el único día de sol y la playa con sol y frío seco merece la pena. Pero a -2 °C y con 21 km/h el muelle se siente como unos -8 °C: confirmadlo el sábado por la noche y, si el viento pasa de 25 km/h o se nubla, Día 3 normal. Con Sopot os perdéis Uphagen y el Ayuntamiento por dentro."
       },
       {
+        "label": "🏖️ ¿Qué playa? Sopot frente a las otras",
+        "value": "<strong>Sopot</strong> (la elegida): tren 12–19 min + ~20 min a pie; el muelle de madera más largo de Europa, el paseo del Monciak y dónde comer y tomar café. <strong>Orłowo</strong> (Gdynia): tren 15–26 min + ~20 min a pie; la más bonita según las guías, con el acantilado (Klif Orłowski) y un muelle pequeño, y más tranquila; menos ambiente para comer. Si preferís naturaleza a pueblo, es la alternativa: mismo tiempo de trayecto. <strong>Brzeźno y Jelitkowo</strong> (Gdańsk): tranvía ~30 min; playa urbana con muelle corto, menos interesante que Sopot. <strong>Stogi</strong> (Gdańsk): playa ancha con dunas y bosque, muy bien valorada, pero tranvía de 40–50 min y nada alrededor: en invierno, lejos y expuesta al viento. Ir andando por la costa de Orłowo a Sopot (~3,5 km) es precioso, pero con -2 °C, viento y el vuelo a las 16:05 no cabe."
+      },
+      {
         "label": "🏰 Sin Malbork (decidido el 23 nov)",
         "value": "Lo quitasteis tras hacer la balanza: costaba la mañana entera del sábado, madrugar, comer con prisa y empujar Uphagen y el Ayuntamiento al domingo. Ahora el sábado (el día cubierto) es de interiores con calma: Uphagen, Ayuntamiento, bar mleczny y el Museo de la II Guerra Mundial. El domingo, Sopot solo os quita la Grúa por dentro y la última vuelta al mercadillo."
       },
@@ -611,7 +615,7 @@
       },
       {
         "label": "🌊 Sopot (ALT dom 29)",
-        "value": "SKM desde Gdańsk Główny (donde dejáis las maletas), 20–30 min por trayecto. Con el paseo de la estación de Sopot al muelle, ~1 h 30 de trayectos y unas 4 h en total."
+        "value": "Tren desde Gdańsk Główny (donde dejáis las maletas): el domingo 29 sale uno cada ~10 min y tarda 12–19 min, 8 zł (Koleo). Con el paseo de la estación de Sopot al muelle (~20 min), ~1 h 15 de trayectos ida y vuelta y unas 4 h en total."
       },
       {
         "label": "✈️ Vuelta (dom 29)",
