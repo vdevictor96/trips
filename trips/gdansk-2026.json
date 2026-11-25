@@ -1,5 +1,5 @@
 {
-  "_v": 11,
+  "_v": 12,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -36,7 +36,7 @@
           "name": "☕ Leń — desayuno",
           "lat": 54.3500891,
           "lng": 18.6513744,
-          "desc": "Desde el piso ~10 min a pie (Podwale Przedmiejskie → Targ Węglowy → calle Piwna, que es la de tu lista). Café de especialidad (V60, flat white), vie–sáb 9:00–19:00 según Google Maps (4,8 con más de 2.000 reseñas). Anoche llegasteis a la 1:00: hoy el día empieza aquí, con calma.",
+          "desc": "Desde el piso ~10 min a pie (Podwale Przedmiejskie → Targ Węglowy → calle Piwna, que es la de tu lista). Café de especialidad (V60, flat white), vie–sáb 9:00–19:00 según Google Maps (4,8 con más de 2.000 reseñas). Anoche llegasteis a la 1:00: hoy el día empieza aquí, con calma. De vuestra lista de cafés.",
           "link": "https://lenistwo.com",
           "mapsQuery": "Leń, Piwna 52/53, Gdańsk"
         },
@@ -163,16 +163,16 @@
         },
         {
           "id": "1.11",
-          "time": "16:15",
+          "time": "15:50",
           "dur": "50 min",
-          "name": "☕ Drukarnia — merienda en la calle Mariacka",
-          "lat": 54.349628,
-          "lng": 18.6559459,
-          "desc": "Desde el ECS ~25 min a pie por la ribera. El café de especialidad más citado de la ciudad (Mariacka 36), vie–sáb 8:00–21:30. Ya es de noche: la calle Mariacka (de tu lista) con sus escalinatas y gárgolas iluminadas.",
+          "name": "☕ kompozyt cafe — merienda",
+          "lat": 54.3631351,
+          "lng": 18.6478161,
+          "desc": "De vuestra lista de cafés: 4,9 con 373 reseñas en Google. Stefana Jaracza 14, a ~4 min a pie del ECS; el viernes abre de 9:00 a 19:00 (Google). Luego, ~26 min a pie hasta el Gran Arsenal cruzando la Ciudad Vieja ya iluminada.",
           "tags": [
             "obligatorio"
           ],
-          "mapsQuery": "Drukarnia, Mariacka 36, Gdańsk"
+          "mapsQuery": "kompozyt cafe, Stefana Jaracza 14, Gdańsk"
         },
         {
           "id": "1.12",
@@ -228,7 +228,7 @@
           "name": "☕ Drukarnia — desayuno",
           "lat": 54.349628,
           "lng": 18.6559459,
-          "desc": "Desde el piso ~12 min. El café de especialidad más citado de la ciudad (Mariacka 36), abre a las 8:00. Hoy toca aprovechar la mañana con sol.",
+          "desc": "Desde el piso ~12 min. El café de especialidad más citado de la ciudad (Mariacka 36), abre a las 8:00. Está en la calle Mariacka (de tu lista), la de las escalinatas y gárgolas. Hoy toca aprovechar la mañana con sol. De vuestra lista de cafés.",
           "mapsQuery": "Drukarnia, Mariacka 36, Gdańsk",
           "tags": [
             "obligatorio"
@@ -316,13 +316,16 @@
         },
         {
           "id": "2.8",
-          "time": "17:00",
+          "time": "16:45",
           "dur": "50 min",
-          "name": "🍩 Dobra Pączkarnia — merienda",
-          "lat": 54.3530949,
-          "lng": 18.651549,
-          "desc": "De tu lista: pączki, el dónut polaco relleno. Está en el edificio del mercado cubierto (Plac Dominikański 1), ~20 min a pie desde el museo; todos los días 8:00–18:00 y 4,6 con 1.382 reseñas en Google. Justo al lado, la iglesia de Santa Catalina: allí empiezan los cantos a las 18:00.",
-          "mapsQuery": "Dobra Pączkarnia, Gdańsk"
+          "name": "☕ zavod coffee & matcha — merienda",
+          "lat": 54.3567918,
+          "lng": 18.664869,
+          "desc": "De vuestra lista de cafés: 5,0 con 72 reseñas en Google. Stępkarska 7, a ~5 min a pie del museo; todos los días de 9:00 a 18:00 (Google). Salid a las 17:35: hay ~17 min a pie hasta Santa Catalina para los cantos de las 18:00.",
+          "tags": [
+            "obligatorio"
+          ],
+          "mapsQuery": "zavod coffee & matcha, Stępkarska 7, Gdańsk"
         },
         {
           "id": "2.9",
@@ -419,7 +422,7 @@
           "name": "☕ Cafe Luis — desayuno",
           "lat": 54.3546392,
           "lng": 18.6543422,
-          "desc": "Desde la estación ~15 min, ya sin maletas. Café de especialidad, domingo 8:00–20:00 y 4,8 con 907 reseñas en Google (Olejarna 2).",
+          "desc": "Desde la estación ~15 min, ya sin maletas. Café de especialidad, domingo 8:00–20:00 y 4,8 con 907 reseñas en Google (Olejarna 2). De vuestra lista de cafés. A 2 min, CZULE Piekarnia (también de la lista; 4,8, domingo 8:00–15:00 según Google) por si queréis pan o bollería para el viaje.",
           "mapsQuery": "Cafe Luis, Gdańsk"
         },
         {
@@ -469,7 +472,7 @@
           "name": "🍽️ Hala Targowa Enjoy — comida a cubierto",
           "lat": 54.3527484,
           "lng": 18.6518247,
-          "desc": "De tu lista. Zona de comida dentro del mercado cubierto (Plac Dominikański 1), junto a Santa Catalina; domingo 9:00–23:00 y 4,3 con 1.547 reseñas en Google. Comida caliente y bajo techo antes de ir a por las maletas. Salid a las 13:15.",
+          "desc": "De tu lista. Zona de comida dentro del mercado cubierto (Plac Dominikański 1), junto a Santa Catalina; domingo 9:00–23:00 y 4,3 con 1.547 reseñas en Google. Comida caliente y bajo techo antes de ir a por las maletas. De postre o para el avión, pączki de Dobra Pączkarnia (de tu lista), en el mismo edificio: abre todos los días de 8:00 a 18:00 según Google. Salid a las 13:15.",
           "mapsQuery": "Hala Targowa Enjoy, Gdańsk"
         },
         {
@@ -565,7 +568,7 @@
       },
       {
         "label": "🕐 Horarios comprobados (webs oficiales)",
-        "value": "<strong>Museo de Gdańsk</strong> (Artus, Uphagen, Ayuntamiento): lun 10–16 gratis, <strong>mar cerrado</strong>, mié 10–16, jue 10–18, vie–dom 10–16; Artus cerrada el sáb 28. · <strong>Santa María</strong>: laborables 8:30–17:30, domingo 11–12 y 13–17:30; torre 10–18. · <strong>Grúa Żuraw</strong>: jue–dom 9–17. · <strong>ECS</strong>: exposición vie 10–17 y sáb–dom 10–18 (cierra mar); biblioteca vie 11–16, sáb 11–15, dom cerrada. · <strong>Museo de la II Guerra Mundial</strong>: mié–dom 10–18 (taquilla hasta las 17:00), mar 10–16, lun cerrado. · <strong>Goldwasser</strong>: vie–dom 11–22. · <strong>Mercadillo</strong>: vie–sáb 12–21, dom 12–20. · <strong>Cafés y restaurantes (Google Maps, 25 nov)</strong>: Leń vie–sáb 9–19; Drukarnia vie–sáb 8–21:30, dom 8–20; Cafe Luis dom 8–20; Dobra Pączkarnia 8–18; Biała Mewa 8–20; Montownia desde las 7; Mandu 11–22; Kubicki sáb 12–23; Hala Targowa Enjoy dom 9–23; AmberSky sáb 10–24; Hevelianum dom 10–18; torre de Santa María 10–18."
+        "value": "<strong>Museo de Gdańsk</strong> (Artus, Uphagen, Ayuntamiento): lun 10–16 gratis, <strong>mar cerrado</strong>, mié 10–16, jue 10–18, vie–dom 10–16; Artus cerrada el sáb 28. · <strong>Santa María</strong>: laborables 8:30–17:30, domingo 11–12 y 13–17:30; torre 10–18. · <strong>Grúa Żuraw</strong>: jue–dom 9–17. · <strong>ECS</strong>: exposición vie 10–17 y sáb–dom 10–18 (cierra mar); biblioteca vie 11–16, sáb 11–15, dom cerrada. · <strong>Museo de la II Guerra Mundial</strong>: mié–dom 10–18 (taquilla hasta las 17:00), mar 10–16, lun cerrado. · <strong>Goldwasser</strong>: vie–dom 11–22. · <strong>Mercadillo</strong>: vie–sáb 12–21, dom 12–20. · <strong>Cafés y restaurantes (Google Maps, 25 nov)</strong>: Leń vie–sáb 9–19; Drukarnia vie–sáb 8–21:30, dom 8–20; Cafe Luis dom 8–20; Dobra Pączkarnia 8–18; kompozyt vie 9–19; zavod 9–18; Biała Mewa 8–20; Montownia desde las 7; Mandu 11–22; Kubicki sáb 12–23; Hala Targowa Enjoy dom 9–23; AmberSky sáb 10–24; Hevelianum dom 10–18; torre de Santa María 10–18."
       }
     ],
     "temporada": [
@@ -605,7 +608,7 @@
       },
       {
         "label": "🛍️ Dónde comprarlos",
-        "value": "<strong>Dobra Pączkarnia</strong> (de vuestra lista): pączki, en el edificio del mercado cubierto (Plac Dominikański 1), 8–18. <strong>Goldwasser</strong> (Długie Pobrzeże 22, vie–dom 11–22): botellas y estuches de regalo con bombones; la botella también está en supermercados. <strong>Mercadillo</strong>: puestos de productos regionales y de Pomerania, para pierniki y dulces para llevar. ⚠️ El <strong>domingo las tiendas cierran</strong>: compradlo viernes o sábado, o el domingo en el mercadillo."
+        "value": "<strong>Dobra Pączkarnia</strong> (de vuestra lista): pączki, en el edificio del mercado cubierto (Plac Dominikański 1), 8–18: la tenéis al lado en la comida del domingo. <strong>Goldwasser</strong> (Długie Pobrzeże 22, vie–dom 11–22): botellas y estuches de regalo con bombones; la botella también está en supermercados. <strong>Mercadillo</strong>: puestos de productos regionales y de Pomerania, para pierniki y dulces para llevar. ⚠️ El <strong>domingo las tiendas cierran</strong>: compradlo viernes o sábado, o el domingo en el mercadillo."
       }
     ],
     "avisos": [
@@ -675,12 +678,111 @@
   ],
   "cafes": [
     {
+      "id": "c.9",
+      "cat": "☕ Ciudad Principal",
+      "name": "Sips.Gdansk",
+      "lat": 54.3505039,
+      "lng": 18.6516405,
+      "desc": "⭐ LISTA DE CAFÉS · Św. Ducha 38, a 2 min de la basílica. 4,8 con 389 reseñas; todos los días 9:00–18:00 (Google).",
+      "mapsQuery": "Sips.Gdansk, Świętego Ducha 38"
+    },
+    {
+      "id": "c.10",
+      "cat": "☕ Ciudad Principal",
+      "name": "1505 kawiarnia",
+      "lat": 54.3510709,
+      "lng": 18.6524107,
+      "desc": "⭐ LISTA DE CAFÉS · Złotników 7. 4,8 con 466 reseñas; vie–sáb 9:00–21:00, dom 9:00–20:00 (Google). Abre hasta las 21:00: vale para un café después de cenar.",
+      "mapsQuery": "1505 kawiarnia, Złotników 7, Gdańsk"
+    },
+    {
+      "id": "c.11",
+      "cat": "☕ Ciudad Principal",
+      "name": "Ratuszowa Caffe Cocktails",
+      "lat": 54.3487903,
+      "lng": 18.6526543,
+      "desc": "⭐ LISTA DE CAFÉS · En el edificio del Ayuntamiento (Długa 46): café de día y cócteles de noche. 4,8 con 803 reseñas; vie–sáb 10:00–22:00, dom 10:00–21:00 (Google).",
+      "mapsQuery": "Ratuszowa Caffe Cocktails, Długa 46, Gdańsk"
+    },
+    {
+      "id": "c.12",
+      "cat": "☕ Ciudad Vieja",
+      "name": "CZULE Piekarnia",
+      "lat": 54.3538575,
+      "lng": 18.6559229,
+      "desc": "⭐ LISTA DE CAFÉS · Panadería en Podwale Staromiejskie 62/68A, a 2 min de Cafe Luis. 4,8 con 238 reseñas; vie 7:00–15:00, sáb–dom 8:00–15:00 (Google).",
+      "mapsQuery": "CZULE Piekarnia, Podwale Staromiejskie, Gdańsk"
+    },
+    {
+      "id": "c.13",
+      "cat": "☕ Sur, cerca del piso",
+      "name": "OCHRA",
+      "lat": 54.343,
+      "lng": 18.646517,
+      "desc": "⭐ LISTA DE CAFÉS · Rzeźnicka 47b, ~8 min a pie del piso. 4,8 con 156 reseñas; vie 7:15–17:00, sáb 9:00–16:00, dom 10:00–16:00 (Google).",
+      "mapsQuery": "OCHRA, Rzeźnicka 47b, Gdańsk"
+    },
+    {
+      "id": "c.14",
+      "cat": "☕ Sur, cerca del piso",
+      "name": "Kawiarnia PUBLICZNA",
+      "lat": 54.3416873,
+      "lng": 18.6608402,
+      "desc": "⭐ LISTA DE CAFÉS · Łąkowa 35/38, en Dolne Miasto, al otro lado del Motława. 4,7 con 489 reseñas; vie–sáb 9:00–18:00, dom 10:00–18:00 (Google). Fuera de vuestras rutas.",
+      "mapsQuery": "Kawiarnia PUBLICZNA, Łąkowa 35, Gdańsk"
+    },
+    {
+      "id": "c.15",
+      "cat": "☕ Astilleros",
+      "name": "Plenum",
+      "lat": 54.36464,
+      "lng": 18.6483043,
+      "desc": "⭐ LISTA DE CAFÉS · En Elektryków, a 3 min de kompozyt. 4,3 con 1.048 reseñas; 9:00–18:00 (Google).",
+      "mapsQuery": "Plenum, Elektryków, Gdańsk"
+    },
+    {
+      "id": "c.16",
+      "cat": "☕ Wrzeszcz (lejos)",
+      "name": "Lang.fuhr",
+      "lat": 54.3819579,
+      "lng": 18.6125595,
+      "desc": "⭐ LISTA DE CAFÉS · Aldony 6, en el barrio de Wrzeszcz. 4,7 con 1.223 reseñas en Google. Fuera de vuestras rutas.",
+      "mapsQuery": "Lang.fuhr, Aldony 6, Gdańsk"
+    },
+    {
+      "id": "c.17",
+      "cat": "☕ Wrzeszcz (lejos)",
+      "name": "Kolonia Artystów",
+      "lat": 54.3769193,
+      "lng": 18.6118669,
+      "desc": "⭐ LISTA DE CAFÉS · Café y coworking en Al. Grunwaldzka 51, Wrzeszcz. 4,7 con 475 reseñas; 10:00–20:00 (Google). Fuera de vuestras rutas.",
+      "mapsQuery": "Kolonia Artystów, Grunwaldzka 51, Gdańsk"
+    },
+    {
+      "id": "c.18",
+      "cat": "☕ Wrzeszcz (lejos)",
+      "name": "Mimosa Wajdeloty",
+      "lat": 54.3815354,
+      "lng": 18.6096191,
+      "desc": "⭐ LISTA DE CAFÉS · Panadería en Wajdeloty 17, la calle de Wrzeszcz de tu Wanderlog. 4,6 con 155 reseñas en Google. Fuera de vuestras rutas.",
+      "mapsQuery": "Mimosa Wajdeloty, Wajdeloty 17, Gdańsk"
+    },
+    {
+      "id": "c.19",
+      "cat": "🍰 Pastelerías",
+      "name": "Dobra Pączkarnia",
+      "lat": 54.3530949,
+      "lng": 18.651549,
+      "desc": "⭐ TU LISTA · Pączki, el dónut polaco relleno, en el edificio del mercado cubierto (Plac Dominikański 1); todos los días 8:00–18:00 y 4,6 con 1.382 reseñas en Google. Os pilla en la comida del domingo, en el mismo edificio.",
+      "mapsQuery": "Dobra Pączkarnia, Gdańsk"
+    },
+    {
       "id": "c.1",
       "cat": "☕ Ciudad Principal",
       "name": "Retro",
       "lat": 54.3502671,
       "lng": 18.6500841,
-      "desc": "Piwna 5/6, todos los días 10:00–22:00, 4,7 con 3.416 reseñas en Google. En la misma calle que Leń: alternativa si Leń está lleno."
+      "desc": "No está en vuestra lista de cafés. Piwna 5/6, todos los días 10:00–22:00, 4,7 con 3.416 reseñas en Google. En la misma calle que Leń: alternativa si Leń está lleno."
     },
     {
       "id": "c.3",
@@ -688,7 +790,7 @@
       "name": "Józef K.",
       "lat": 54.350352,
       "lng": 18.6497238,
-      "desc": "Piwna 1/2, café-bar de culto con barra de mármol: vie–sáb 10:00–2:30 según Google (4,7 con 4.806 reseñas). Para una copa tranquila después del mercadillo."
+      "desc": "No está en vuestra lista de cafés. Piwna 1/2, café-bar de culto con barra de mármol: vie–sáb 10:00–2:30 según Google (4,7 con 4.806 reseñas). Para una copa tranquila después del mercadillo."
     },
     {
       "id": "c.7",
