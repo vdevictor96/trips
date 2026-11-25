@@ -13,6 +13,7 @@ Preferencias transversales del viajero — aplican a **todos los viajes** salvo 
 - **Playa fuera de temporada**: Víctor la ve mala idea con gris, viento o frío; Maitena tiene ganas. Se decide con el parte: va como día ALT ☀️, no como plan fijo.
 - **Miradores → siempre al atardecer.**
 - **Regla día/noche**: todo lo exterior que se vea de noche debe revisitarse de día en otro momento del viaje. No aplica a miradores (son para atardecer), sitios interiores ni tiendas.
+- **Sitios iluminados o navideños** (calles con farolas o luces, mercadillos, árboles, neones, el casco histórico): de noche sí o sí, y a ser posible también de día. No se pierden por encajar una cafetería: si chocan, se mueve el café.
 
 El método completo para crear un viaje (qué leer del correo, qué preguntar, qué investigar) está en
 `.claude/commands/new-trip.md` (`/new-trip`).

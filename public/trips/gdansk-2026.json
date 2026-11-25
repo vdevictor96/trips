@@ -1,5 +1,5 @@
 {
-  "_v": 12,
+  "_v": 13,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -62,7 +62,7 @@
           "name": "⭐ Puerta Dorada — inicio de la Ruta Real",
           "lat": 54.3496712,
           "lng": 18.6480207,
-          "desc": "Aquí arranca la Ruta Real (Droga Królewska), tu nota «de la Puerta Dorada a la Puerta Verde»: Brama Wyżynna → Przedbramie (Katownia y Wieża Więzienna, las de tu lista, por fuera) → Złota Brama → calle Długa → Długi Targ → Puerta Verde. Son ~700 m que hoy hacéis de día y esta noche y el sábado volveréis a cruzar con el mercadillo encendido.",
+          "desc": "Aquí arranca la Ruta Real (Droga Królewska), tu nota «de la Puerta Dorada a la Puerta Verde»: Brama Wyżynna → Przedbramie (Katownia y Wieża Więzienna, las de tu lista, por fuera) → Złota Brama → calle Długa → Długi Targ → Puerta Verde. Son ~700 m que hoy hacéis de día; el sábado por la noche bajáis otra vez por Długa hasta el Długi Targ con el mercadillo encendido.",
           "tags": [
             "obligatorio",
             "gratis"
@@ -196,7 +196,7 @@
           "name": "🎄 Mercadillo: Targ Węglowy + árbol del Forum",
           "lat": 54.3511475,
           "lng": 18.6480111,
-          "desc": "Escenario, carruseles y la zona principal; Papá Noel recibe aquí cada día de 15:00 a 18:00. Cruzad las murallas hasta la plaza del Forum Gdańsk para ver el gran árbol de Navidad, que es otra de las zonas del mercadillo. Vino caliente (grzaniec) en taza de porcelana con 30 zł de fianza (se devuelve en Targ Węglowy o en ul. Zbytki). La mayoría de puestos aceptan tarjeta, no todos: llevad algo de efectivo. Cajero en la esquina de la Katownia.",
+          "desc": "Escenario, carruseles y la zona principal; Papá Noel recibe aquí cada día de 15:00 a 18:00. Acercaos también, a ~6 min, al Rincón del Tren Mágico (calle Bogusławskiego) y a la Puerta de Adviento, junto al Teatro Shakespeare: así los veis de noche; el domingo volvéis de día. Cruzad las murallas hasta la plaza del Forum Gdańsk para ver el gran árbol de Navidad, que es otra de las zonas del mercadillo. Vino caliente (grzaniec) en taza de porcelana con 30 zł de fianza (se devuelve en Targ Węglowy o en ul. Zbytki). La mayoría de puestos aceptan tarjeta, no todos: llevad algo de efectivo. Cajero en la esquina de la Katownia.",
           "tags": [
             "obligatorio",
             "gratis"
@@ -360,17 +360,31 @@
         {
           "id": "2.11",
           "time": "19:25",
-          "dur": "15 min",
+          "dur": "10 min",
+          "name": "✨ Calle Mariacka de noche",
+          "lat": 54.3496313,
+          "lng": 18.6552801,
+          "desc": "La calle Mariacka de tu lista, ahora de noche y con las farolas encendidas (por la mañana la habéis visto de día desayunando en Drukarnia). Del Długi Targ a la basílica, donde empieza, hay ~3 min; desde allí bajáis sus ~180 m de escalinatas y gárgolas hasta la Puerta de Santa María (Brama Mariacka), que da al río. Goldwasser está a 1 min de la puerta.",
+          "tags": [
+            "gratis",
+            "obligatorio"
+          ],
+          "mapsQuery": "Mariacka, Gdańsk"
+        },
+        {
+          "id": "2.12",
+          "time": "19:40",
+          "dur": "10 min",
           "name": "🥃 Goldwasser — el licor de Gdańsk",
           "lat": 54.3501219,
           "lng": 18.6571304,
-          "desc": "Plan autóctono de camino a la cena (Długie Pobrzeże 22). El Goldwasser es el licor de hierbas con láminas de oro de Gdańsk. Restaurante y tienda, vie–dom 11:00–22:00 (web oficial): un chupito o el estuche de regalo con bombones. Si queréis una botella, compradla hoy: el domingo los súper cierran.",
+          "desc": "Plan autóctono de camino a la cena (Długie Pobrzeże 22), a 1 min de la Puerta de Santa María. El Goldwasser es el licor de hierbas con láminas de oro de Gdańsk. Restaurante y tienda, vie–dom 11:00–22:00 (web oficial): un chupito o el estuche de regalo con bombones. Si queréis una botella, compradla hoy: el domingo los súper cierran.",
           "link": "https://goldwasser.pl/en/",
           "mapsQuery": "Goldwasser, Długie Pobrzeże 22, Gdańsk"
         },
         {
-          "id": "2.12",
-          "time": "19:50",
+          "id": "2.13",
+          "time": "20:00",
           "dur": "1h 15min",
           "name": "🍽️ Kubicki — cena de cocina de Gdańsk",
           "lat": 54.353717,
@@ -380,8 +394,8 @@
           "mapsQuery": "Restauracja Kubicki, Wartka 5, Gdańsk"
         },
         {
-          "id": "2.13",
-          "time": "21:10",
+          "id": "2.14",
+          "time": "21:20",
           "dur": "20 min",
           "name": "✨ Neón «Gdańsk» en la isla de Ołowianka",
           "lat": 54.3529362,
@@ -564,7 +578,7 @@
       },
       {
         "label": "🍽️ Cenas de viernes y sábado",
-        "value": "Fin de semana de mercadillo con el centro lleno: reservad <strong>Pierogarnia Mandu</strong> (vie 19:15) y <strong>Kubicki</strong> (sáb 19:50) si podéis, o id puntuales."
+        "value": "Fin de semana de mercadillo con el centro lleno: reservad <strong>Pierogarnia Mandu</strong> (vie 19:15) y <strong>Kubicki</strong> (sáb 20:00) si podéis, o id puntuales."
       },
       {
         "label": "🕐 Horarios comprobados (webs oficiales)",

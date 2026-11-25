@@ -69,6 +69,9 @@ Las reglas de ritmo, comidas, miradores, día/noche y walking-first están en
 - **Comprueba cada tramo a pie** con distancia real: haversine × 1,3 a 70 m/min + 5 min. Si un tramo
   no cabe en el hueco, mueve horas; no lo dejes «justo».
 - **Puesta de sol**: un mirador por día como mucho, y el que mejor caiga en la ruta.
+- **Repaso de noche**: haz la lista de sitios iluminados o navideños y comprueba que cada uno tiene
+  su rato de noche y, si se puede, otro de día (perfil en `docs/trip-planning.md`). En Gdańsk, cambiar
+  la merienda a otro café dejó la calle Mariacka sin su visita de noche.
 - **Lo que depende del tiempo o de algo sin confirmar** (barco, noria, playa) lleva su plan B escrito
   en la misma tarjeta o en la siguiente.
 - **Días ALT**: un día alternativo es otra entrada en `days` con `id` nuevo y tab
