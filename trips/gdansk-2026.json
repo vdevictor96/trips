@@ -1,5 +1,5 @@
 {
-  "_v": 14,
+  "_v": 15,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -47,7 +47,7 @@
           "name": "⭐ Basílica de Santa María + torre-mirador",
           "lat": 54.3498079,
           "lng": 18.6530094,
-          "desc": "A 2 min de Leń. La torre abre a las 10:00 (400 y pico escalones, 20 zł). La web de la basílica y Google la dan 10:00–18:00; alguna guía da 10:00–16:00 en invierno y la cierran con tormenta, viento fuerte o helada: a las 10:00 vais bien: la vista de los tejados y el río es la mejor de la ciudad. Basílica laborables 8:30–17:30. Al salir, la Capilla Real (de tu lista) está pegada, en la calle Św. Ducha. Si la torre está cerrada por el hielo, tenéis vistas de noche desde la noria AmberSky el sábado (junto al neón) y de día desde Góra Gradowa el domingo.",
+          "desc": "A 2 min de Leń. La torre abre a las 10:00 (400 y pico escalones, 20 zł). La web de la basílica y Google la dan 10:00–18:00; alguna guía da 10:00–16:00 en invierno y la cierran con tormenta, viento fuerte o helada: a las 10:00 vais bien: la vista de los tejados y el río es la mejor de la ciudad. Basílica laborables 8:30–17:30. Al salir, la Capilla Real (de tu lista) está pegada, en la calle Św. Ducha. Si la torre está cerrada por el hielo, tenéis vistas de noche desde la noria AmberSky el sábado al atardecer y de día desde Góra Gradowa el domingo.",
           "tags": [
             "obligatorio",
             "mirador"
@@ -140,7 +140,7 @@
         {
           "id": "1.9",
           "time": "13:30",
-          "dur": "45 min",
+          "dur": "40 min",
           "name": "🍽️ Montownia Food Hall — comida",
           "lat": 54.3596176,
           "lng": 18.6541806,
@@ -150,11 +150,11 @@
         {
           "id": "1.10",
           "time": "14:20",
-          "dur": "1h 25min",
+          "dur": "1h 10min",
           "name": "⭐ Centro Europeo de la Solidaridad (ECS) completo + astilleros",
           "lat": 54.3613609,
           "lng": 18.6494189,
-          "desc": "A 5 min de Montownia. Se entra por la histórica Puerta n.º 2 de los astilleros («Stocznia Gdańska» de tu lista), con el monumento a los obreros de 1970 enfrente. Tu «biblioteca bonita moderna» (vie 11:00–16:00, así que id primero a ella; cierra el domingo) y la exposición permanente sobre Solidarność (vie 10:00–17:00, de pago; comprad online): con el día nublado, mejor dentro. Mirador de la azotea si el tiempo lo permite.",
+          "desc": "El Centro Europeo de la Solidaridad (ECS): museo y centro cultural en los astilleros donde en agosto de 1980 empezaron las huelgas de las que salió Solidarność, el primer sindicato libre del bloque soviético, con Lech Wałęsa al frente; nueve años después, Polonia salía del comunismo. Se entra por la Puerta n.º 2 de los astilleros («Stocznia Gdańska» de tu lista), con el monumento a los obreros caídos en 1970 enfrente. Dentro, tu «biblioteca bonita moderna» (vie 11:00–16:00: id primero a ella) y la exposición permanente (vie 10:00–17:00, de pago; comprad online): siete salas que la web calcula en unas 2 h; a vuestro ritmo, con 1 h veis lo principal. A 5 min de Montownia.",
           "tags": [
             "obligatorio"
           ],
@@ -163,25 +163,12 @@
         },
         {
           "id": "1.11",
-          "time": "15:50",
-          "dur": "50 min",
-          "name": "☕ kompozyt cafe — merienda",
-          "lat": 54.3631351,
-          "lng": 18.6478161,
-          "desc": "De vuestra lista de cafés: 4,9 con 373 reseñas en Google. Stefana Jaracza 14, a ~4 min a pie del ECS; el viernes abre de 9:00 a 19:00 (Google). Luego, ~26 min a pie hasta el Gran Arsenal cruzando la Ciudad Vieja ya iluminada.",
-          "tags": [
-            "obligatorio"
-          ],
-          "mapsQuery": "kompozyt cafe, Stefana Jaracza 14, Gdańsk"
-        },
-        {
-          "id": "1.12",
-          "time": "17:20",
+          "time": "16:00",
           "dur": "30 min",
           "name": "🎄 Gran Arsenal (Wielka Zbrojownia) — mercadillo a cubierto",
           "lat": 54.3506998,
           "lng": 18.6490454,
-          "desc": "Primera vuelta al mercadillo de Navidad (20 nov–23 dic, vie–sáb 12–21h, entrada libre). El Gran Arsenal («La Gran Armería» y «Academy of Fine Arts» de tu lista: es el mismo edificio) tiene dentro los puestos de artesanos, a cubierto.",
+          "desc": "Desde el ECS ~22 min a pie por la Ciudad Vieja, ya de noche. Primera vuelta al mercadillo de Navidad (20 nov–23 dic, vie–sáb 12–21h, entrada libre). El Gran Arsenal («La Gran Armería» y «Academy of Fine Arts» de tu lista: es el mismo edificio) tiene dentro los puestos de artesanos, a cubierto.",
           "tags": [
             "obligatorio",
             "gratis"
@@ -190,9 +177,22 @@
           "mapsQuery": "Wielka Zbrojownia, Gdańsk"
         },
         {
+          "id": "1.12",
+          "time": "16:35",
+          "dur": "30 min",
+          "name": "☕ Sips — merienda",
+          "lat": 54.3505039,
+          "lng": 18.6516405,
+          "desc": "De vuestra lista de cafés: 4,8 con 389 reseñas en Google. Św. Ducha 38, a ~3 min del Gran Arsenal; todos los días 9:00–18:00 (Google). Media hora y de vuelta al mercadillo, a ~5 min.",
+          "tags": [
+            "obligatorio"
+          ],
+          "mapsQuery": "Sips.Gdansk, Świętego Ducha 38"
+        },
+        {
           "id": "1.13",
-          "time": "17:55",
-          "dur": "1h 10min",
+          "time": "17:15",
+          "dur": "1h 35min",
           "name": "🎄 Mercadillo: Targ Węglowy + árbol del Forum",
           "lat": 54.3511475,
           "lng": 18.6480111,
@@ -205,7 +205,7 @@
         },
         {
           "id": "1.14",
-          "time": "19:15",
+          "time": "19:00",
           "dur": "1h 15min",
           "name": "🥟 Pierogarnia Mandu — cena",
           "lat": 54.353753,
@@ -219,7 +219,7 @@
       "id": 2,
       "tab": "Día 2 · Sáb 28",
       "title": "Galeón con sol, Museo de la II Guerra Mundial y cantos de Adviento ⛵",
-      "subtitle": "Sábado 28 nov · meteoblue: -2/-7 °C, seco, la mañana más despejada y sin viento del viaje → galeón a las 11:00 · Museo de la II Guerra Mundial 13:40–16:40 · Cantos de Adviento 18:00 Santa Catalina y 19:00 Ayuntamiento · Artus cerrada hoy",
+      "subtitle": "Sábado 28 nov · meteoblue: -2/-7 °C, seco, la mañana más despejada y sin viento del viaje → galeón a las 11:00 · Museo de la II Guerra Mundial 13:20–15:20 · Puesta de sol desde la noria · Cantos de Adviento 18:00 en Santa Catalina · Artus cerrada hoy",
       "places": [
         {
           "id": "2.1",
@@ -292,7 +292,7 @@
         {
           "id": "2.6",
           "time": "12:30",
-          "dur": "50 min",
+          "dur": "35 min",
           "name": "🥣 Bar Mleczny Biała Mewa — comida polaca",
           "lat": 54.3511519,
           "lng": 18.6549343,
@@ -301,12 +301,12 @@
         },
         {
           "id": "2.7",
-          "time": "13:40",
-          "dur": "3h",
+          "time": "13:20",
+          "dur": "2h",
           "name": "⭐ Museo de la Segunda Guerra Mundial",
           "lat": 54.3559415,
           "lng": 18.6611212,
-          "desc": "Imprescindible para Maitena. Desde Szeroka ~15 min a pie por la ribera. Sábado 10:00–18:00 y la taquilla cierra a las 17:00: con 3 h tenéis lo que pide la exposición principal, mientras fuera se nubla y anochece. Las entradas van por franja de entrada: comprad la de 13:00–14:00 (hay que entrar dentro de esa hora y luego os podéis quedar hasta el cierre). 33 zł normal en la web oficial; el 25 nov esa franja tenía más de 99 entradas libres online. Cierra los lunes.",
+          "desc": "Imprescindible para Maitena. Desde Szeroka ~15 min a pie por la ribera. Sábado 10:00–18:00 y la taquilla cierra a las 17:00: con 2 h, a vuestro ritmo, veis lo principal de la exposición permanente. Salid a las 15:20 para coger la puesta desde la noria. Las entradas van por franja de entrada: comprad la de 13:00–14:00 (hay que entrar dentro de esa hora y luego os podéis quedar hasta el cierre). 33 zł normal en la web oficial; el 25 nov esa franja tenía más de 99 entradas libres online. Cierra los lunes.",
           "tags": [
             "obligatorio",
             "reservar"
@@ -316,40 +316,38 @@
         },
         {
           "id": "2.8",
-          "time": "16:45",
-          "dur": "50 min",
-          "name": "☕ zavod coffee & matcha — merienda",
-          "lat": 54.3567918,
-          "lng": 18.664869,
-          "desc": "De vuestra lista de cafés: 5,0 con 72 reseñas en Google. Stępkarska 7, a ~5 min a pie del museo; todos los días de 9:00 a 18:00 (Google). Salid a las 17:35: hay ~17 min a pie hasta Santa Catalina para los cantos de las 18:00.",
+          "time": "15:30",
+          "dur": "25 min",
+          "name": "🎡 Noria AmberSky — la puesta de sol desde arriba",
+          "lat": 54.3527237,
+          "lng": 18.6616097,
+          "desc": "El mirador del viaje, en el día despejado y sin viento: la puesta es a las 15:29 y desde arriba se ven el río, la Grúa y la Ciudad Principal con la última luz. Está en la isla de Ołowianka, a ~7 min a pie del museo. Google la da sáb 10:00–24:00; ~42 zł por persona en 2026. Si hay mucha cola, el muelle de delante, junto al neón «Gdańsk», da la misma puesta desde abajo, con la Ciudad Principal a contraluz.",
           "tags": [
-            "obligatorio"
+            "mirador"
           ],
-          "mapsQuery": "zavod coffee & matcha, Stępkarska 7, Gdańsk"
+          "mapsQuery": "AmberSky Gdańsk Koło Widokowe"
         },
         {
           "id": "2.9",
-          "time": "18:00",
-          "dur": "20 min",
-          "name": "🎶 Cantos de Adviento desde la torre de Santa Catalina (18:00)",
-          "lat": 54.3540696,
-          "lng": 18.6512994,
-          "desc": "Programa oficial del Museo de Gdańsk para hoy, 28 nov: carillón, trompetas y percusión con chorales protestantes y canciones de Adviento polacas, a las 18:00 desde la torre de Santa Catalina, a las 19:00 desde la del Ayuntamiento y a las 20:00 junto a la Puerta de Adviento (Teatro Shakespeare). Gratis; se escucha desde la calle. Entre concierto y concierto, recreadores históricos hacen un paseo por el centro.",
+          "time": "16:10",
+          "dur": "30 min",
+          "name": "☕ 1505 kawiarnia — merienda",
+          "lat": 54.3510709,
+          "lng": 18.6524107,
+          "desc": "De vuestra lista de cafés: 4,8 con 466 reseñas en Google. Złotników 7, a ~12 min a pie de la noria cruzando el río; sáb 9:00–21:00 (Google). Media hora y al mercadillo, que empieza a ~5 min.",
           "tags": [
-            "obligatorio",
-            "gratis"
+            "obligatorio"
           ],
-          "link": "https://muzeumgdansk.pl/wydarzenia/szczegoly/news/adwentowe-piesni-z-wiez-2026/",
-          "mapsQuery": "Kościół św. Katarzyny, Gdańsk"
+          "mapsQuery": "1505 kawiarnia, Złotników 7, Gdańsk"
         },
         {
           "id": "2.10",
-          "time": "18:30",
-          "dur": "45 min",
-          "name": "🎄 Mercadillo + cantos desde la torre del Ayuntamiento (19:00)",
+          "time": "16:45",
+          "dur": "1h",
+          "name": "🎄 Segunda vuelta al mercadillo: Tkacka, Garbary y Długa",
           "lat": 54.3500222,
           "lng": 18.6490434,
-          "desc": "Segunda vuelta al mercadillo bajando hacia Długa: calle Tkacka (iluminaciones), el tramo nuevo de Garbary y Ogarna y la parte de la calle Długa. A las 19:00, el segundo concierto, desde la torre del Ayuntamiento: escuchadlo desde el Długi Targ. Mirad ya los dulces para llevar; el domingo hay otra vuelta. Grzaniec (vino caliente) en la taza de fianza. Por la noche baja a -6/-7 °C (sensación -12): hay zonas cubiertas y con calefacción para descansar.",
+          "desc": "Segunda vuelta al mercadillo bajando hacia Długa: calle Tkacka (iluminaciones), el tramo nuevo de Garbary y Ogarna y la parte de la calle Długa. A las 17:45, a Santa Catalina (~9 min) para los cantos de las 18:00. Mirad ya los dulces para llevar; el domingo hay otra vuelta. Grzaniec (vino caliente) en la taza de fianza. Por la noche baja a -6/-7 °C (sensación -12): hay zonas cubiertas y con calefacción para descansar.",
           "tags": [
             "obligatorio",
             "gratis"
@@ -359,12 +357,27 @@
         },
         {
           "id": "2.11",
-          "time": "19:25",
+          "time": "18:00",
+          "dur": "30 min",
+          "name": "🎶 Cantos de Adviento desde la torre de Santa Catalina (18:00)",
+          "lat": 54.3540696,
+          "lng": 18.6512994,
+          "desc": "Programa oficial del Museo de Gdańsk para hoy, 28 nov: carillón, trompetas y percusión con chorales protestantes y canciones de Adviento polacas, a las 18:00 desde la torre de Santa Catalina, a las 19:00 desde la del Ayuntamiento y a las 20:00 junto a la Puerta de Adviento (Teatro Shakespeare). Gratis; se escucha desde la calle. Entre concierto y concierto, recreadores históricos hacen un paseo por el centro. Al acabar, el Gran Molino y el Puente del Pan, que habéis visto por la mañana, están a 1–3 min: vedlos iluminados.",
+          "tags": [
+            "obligatorio",
+            "gratis"
+          ],
+          "link": "https://muzeumgdansk.pl/wydarzenia/szczegoly/news/adwentowe-piesni-z-wiez-2026/",
+          "mapsQuery": "Kościół św. Katarzyny, Gdańsk"
+        },
+        {
+          "id": "2.12",
+          "time": "18:50",
           "dur": "10 min",
           "name": "✨ Calle Mariacka de noche",
           "lat": 54.3496313,
           "lng": 18.6552801,
-          "desc": "La calle Mariacka de tu lista, ahora de noche y con las farolas encendidas (por la mañana la habéis visto de día desayunando en Drukarnia). Del Długi Targ a la basílica, donde empieza, hay ~3 min; desde allí bajáis sus ~180 m de escalinatas y gárgolas hasta la Puerta de Santa María (Brama Mariacka), que da al río. Goldwasser está a 1 min de la puerta.",
+          "desc": "La calle Mariacka de tu lista, ahora de noche y con las farolas encendidas (por la mañana la habéis visto de día desayunando en Drukarnia). Desde Santa Catalina ~10 min a pie hasta la basílica, donde empieza; desde allí bajáis sus ~180 m de escalinatas y gárgolas hasta la Puerta de Santa María (Brama Mariacka), que da al río. Goldwasser está a 1 min de la puerta. A las 19:00 suena el segundo concierto, desde la torre del Ayuntamiento: si queréis verlo, el Długi Targ está a ~3 min de la basílica.",
           "tags": [
             "gratis",
             "obligatorio"
@@ -372,8 +385,8 @@
           "mapsQuery": "Mariacka, Gdańsk"
         },
         {
-          "id": "2.12",
-          "time": "19:40",
+          "id": "2.13",
+          "time": "19:05",
           "dur": "10 min",
           "name": "🥃 Goldwasser — el licor de Gdańsk",
           "lat": 54.3501219,
@@ -383,8 +396,8 @@
           "mapsQuery": "Goldwasser, Długie Pobrzeże 22, Gdańsk"
         },
         {
-          "id": "2.13",
-          "time": "20:00",
+          "id": "2.14",
+          "time": "19:30",
           "dur": "1h 15min",
           "name": "🍽️ Kubicki — cena de cocina de Gdańsk",
           "lat": 54.353717,
@@ -394,13 +407,13 @@
           "mapsQuery": "Restauracja Kubicki, Wartka 5, Gdańsk"
         },
         {
-          "id": "2.14",
-          "time": "21:20",
+          "id": "2.15",
+          "time": "20:50",
           "dur": "20 min",
           "name": "✨ Neón «Gdańsk» en la isla de Ołowianka",
           "lat": 54.3529362,
           "lng": 18.6599285,
-          "desc": "El «Gdansk Inscription Neon» de tu lista: el gran letrero luminoso «Gdańsk» junto al río, iluminado toda la noche (4,7 con 3.067 reseñas en Google). Desde Kubicki es cruzar la pasarela levadiza: ~2 min. La Grúa iluminada queda enfrente y la noria AmberSky a 150 m (funciona todo el año; Google la da sáb 10:00–24:00; ~42 zł por persona en 2026), si os apetece subir. A esa hora meteoblue da -6 °C con sensación de -12: luego, directos al piso (~20 min).",
+          "desc": "El «Gdansk Inscription Neon» de tu lista: el gran letrero luminoso «Gdańsk» junto al río, iluminado toda la noche (4,7 con 3.067 reseñas en Google). Desde Kubicki es cruzar la pasarela levadiza: ~2 min. La Grúa iluminada queda enfrente y la noria de esta tarde, a 150 m. A esa hora meteoblue da -6 °C con sensación de -12: luego, directos al piso (~20 min).",
           "tags": [
             "gratis",
             "mirador"
@@ -578,11 +591,11 @@
       },
       {
         "label": "🍽️ Cenas de viernes y sábado",
-        "value": "Fin de semana de mercadillo con el centro lleno: reservad <strong>Pierogarnia Mandu</strong> (vie 19:15) y <strong>Kubicki</strong> (sáb 20:00) si podéis, o id puntuales."
+        "value": "Fin de semana de mercadillo con el centro lleno: reservad <strong>Pierogarnia Mandu</strong> (vie 19:00) y <strong>Kubicki</strong> (sáb 19:30) si podéis, o id puntuales."
       },
       {
         "label": "🕐 Horarios comprobados (webs oficiales)",
-        "value": "<strong>Museo de Gdańsk</strong> (Artus, Uphagen, Ayuntamiento): lun 10–16 gratis, <strong>mar cerrado</strong>, mié 10–16, jue 10–18, vie–dom 10–16; Artus cerrada el sáb 28. · <strong>Santa María</strong>: laborables 8:30–17:30, domingo 11–12 y 13–17:30; torre 10–18. · <strong>Grúa Żuraw</strong>: jue–dom 9–17. · <strong>ECS</strong>: exposición vie 10–17 y sáb–dom 10–18 (cierra mar); biblioteca vie 11–16, sáb 11–15, dom cerrada. · <strong>Museo de la II Guerra Mundial</strong>: mié–dom 10–18 (taquilla hasta las 17:00), mar 10–16, lun cerrado. · <strong>«Sołdek»</strong> (barco-museo): jue–dom 10–16. · <strong>Goldwasser</strong>: vie–dom 11–22. · <strong>Mercadillo</strong>: vie–sáb 12–21, dom 12–20. · <strong>Cafés y restaurantes (Google Maps, 25 nov)</strong>: Leń vie–sáb 9–19; Drukarnia vie–sáb 8–21:30, dom 8–20; Cafe Luis dom 8–20; Dobra Pączkarnia 8–18; kompozyt vie 9–19; zavod 9–18; Biała Mewa 8–20; Montownia desde las 7; Mandu 11–22; Kubicki sáb 12–23; Hala Targowa Enjoy dom 9–23; AmberSky sáb 10–24; Hevelianum dom 10–18; torre de Santa María 10–18."
+        "value": "<strong>Museo de Gdańsk</strong> (Artus, Uphagen, Ayuntamiento): lun 10–16 gratis, <strong>mar cerrado</strong>, mié 10–16, jue 10–18, vie–dom 10–16; Artus cerrada el sáb 28. · <strong>Santa María</strong>: laborables 8:30–17:30, domingo 11–12 y 13–17:30; torre 10–18. · <strong>Grúa Żuraw</strong>: jue–dom 9–17. · <strong>ECS</strong>: exposición vie 10–17 y sáb–dom 10–18 (cierra mar); biblioteca vie 11–16, sáb 11–15, dom cerrada. · <strong>Museo de la II Guerra Mundial</strong>: mié–dom 10–18 (taquilla hasta las 17:00), mar 10–16, lun cerrado. · <strong>«Sołdek»</strong> (barco-museo): jue–dom 10–16. · <strong>Goldwasser</strong>: vie–dom 11–22. · <strong>Mercadillo</strong>: vie–sáb 12–21, dom 12–20. · <strong>Cafés y restaurantes (Google Maps, 25 nov)</strong>: Leń vie–sáb 9–19; Drukarnia vie–sáb 8–21:30, dom 8–20; Cafe Luis dom 8–20; Dobra Pączkarnia 8–18; Sips 9–18; 1505 sáb 9–21; Biała Mewa 8–20; Montownia desde las 7; Mandu 11–22; Kubicki sáb 12–23; Hala Targowa Enjoy dom 9–23; AmberSky sáb 10–24; Hevelianum dom 10–18; torre de Santa María 10–18."
       }
     ],
     "temporada": [
@@ -692,22 +705,22 @@
   ],
   "cafes": [
     {
-      "id": "c.9",
-      "cat": "☕ Ciudad Principal",
-      "name": "Sips.Gdansk",
-      "lat": 54.3505039,
-      "lng": 18.6516405,
-      "desc": "⭐ LISTA DE CAFÉS · Św. Ducha 38, a 2 min de la basílica. 4,8 con 389 reseñas; todos los días 9:00–18:00 (Google).",
-      "mapsQuery": "Sips.Gdansk, Świętego Ducha 38"
+      "id": "c.20",
+      "cat": "☕ Astilleros",
+      "name": "kompozyt cafe",
+      "lat": 54.3631351,
+      "lng": 18.6478161,
+      "desc": "⭐ LISTA DE CAFÉS · Stefana Jaracza 14, a ~4 min del ECS. 4,9 con 373 reseñas; vie 9:00–19:00 (Google). Por si al salir del ECS os apetece un café antes de ir al centro.",
+      "mapsQuery": "kompozyt cafe, Stefana Jaracza 14, Gdańsk"
     },
     {
-      "id": "c.10",
-      "cat": "☕ Ciudad Principal",
-      "name": "1505 kawiarnia",
-      "lat": 54.3510709,
-      "lng": 18.6524107,
-      "desc": "⭐ LISTA DE CAFÉS · Złotników 7. 4,8 con 466 reseñas; vie–sáb 9:00–21:00, dom 9:00–20:00 (Google). Abre hasta las 21:00: vale para un café después de cenar.",
-      "mapsQuery": "1505 kawiarnia, Złotników 7, Gdańsk"
+      "id": "c.21",
+      "cat": "☕ Cerca del Museo de la II GM",
+      "name": "zavod coffee & matcha",
+      "lat": 54.3567918,
+      "lng": 18.664869,
+      "desc": "⭐ LISTA DE CAFÉS · Stępkarska 7, a ~5 min del Museo de la II Guerra Mundial. 5,0 con 72 reseñas; todos los días 9:00–18:00 (Google). Por si al salir del museo preferís café antes que la noria.",
+      "mapsQuery": "zavod coffee & matcha, Stępkarska 7, Gdańsk"
     },
     {
       "id": "c.11",

@@ -7,7 +7,9 @@ Preferencias transversales del viajero — aplican a **todos los viajes** salvo 
 - **En pareja (Víctor y Maitena), ritmo suave y relajado.** Quieren ver bastante, pero sin llenar el día a tope.
 - **Walking-first**: priorizar ir a pie; transporte público solo si es imprescindible (detalle en § Planificación de rutas). Con el transporte, tiempos realistas y nada de enlaces justos.
 - **Horario del día**: salir 8:30-9:00h, volver 21:00-22:00h. No les importa madrugar si el día lo pide (excursión, poca luz).
-- **Desayuno y merienda con tiempo, en café de especialidad.** Es parte del viaje, no un trámite.
+- **Desayuno con tiempo, en café de especialidad** (50–60 min): es parte del viaje, no un trámite.
+- **Merienda corta**: ~30 min en el sitio, más lo que cueste llegar. Mejor un café de su lista que caiga en la ruta que uno que obligue a desviarse.
+- **Museos a ritmo ágil**: no alargan las visitas. Cuenta unos dos tercios del tiempo que dan la web o las guías (en Gdańsk, el Museo de la II Guerra Mundial a 2 h en vez de 3).
 - **Invierno**: anochece pronto, así que el día se aprovecha desde temprano; cenar pronto y acostarse pronto está bien.
 - **Planes autóctonos**: Maitena siempre pide incluirlos (comida típica, cantina local, eventos de esas fechas, barco si opera).
 - **Playa fuera de temporada**: Víctor la ve mala idea con gris, viento o frío; Maitena tiene ganas. Se decide con el parte: va como día ALT ☀️, no como plan fijo.
