@@ -1,5 +1,5 @@
 {
-  "_v": 8,
+  "_v": 9,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -36,7 +36,7 @@
           "name": "☕ Leń — desayuno",
           "lat": 54.3500891,
           "lng": 18.6513744,
-          "desc": "Desde el piso ~10 min a pie (Podwale Przedmiejskie → Targ Węglowy → calle Piwna, que es la de tu lista). Café de especialidad (V60, flat white), abre todos los días 8:30–20:00. Anoche llegasteis a la 1:00: hoy el día empieza aquí, con calma.",
+          "desc": "Desde el piso ~10 min a pie (Podwale Przedmiejskie → Targ Węglowy → calle Piwna, que es la de tu lista). Café de especialidad (V60, flat white), vie–sáb 9:00–19:00 según Google Maps (4,8 con más de 2.000 reseñas). Anoche llegasteis a la 1:00: hoy el día empieza aquí, con calma.",
           "link": "https://lenistwo.com",
           "mapsQuery": "Leń, Piwna 52/53, Gdańsk"
         },
@@ -47,7 +47,7 @@
           "name": "⭐ Basílica de Santa María + torre-mirador",
           "lat": 54.3498079,
           "lng": 18.6530094,
-          "desc": "A 2 min de Leń. La torre abre a las 10:00 (400 y pico escalones, 20 zł; cierra si hay tormenta): la vista de los tejados y el río es la mejor de la ciudad. Basílica laborables 8:30–17:30. Al salir, la Capilla Real (de tu lista) está pegada, en la calle Św. Ducha.",
+          "desc": "A 2 min de Leń. La torre abre a las 10:00 (400 y pico escalones, 20 zł). La web de la basílica y Google la dan 10:00–18:00; alguna guía da 10:00–16:00 en invierno y la cierran con tormenta, viento fuerte o helada: a las 10:00 vais bien: la vista de los tejados y el río es la mejor de la ciudad. Basílica laborables 8:30–17:30. Al salir, la Capilla Real (de tu lista) está pegada, en la calle Św. Ducha.",
           "tags": [
             "obligatorio",
             "mirador"
@@ -119,7 +119,7 @@
           "name": "Puerta Verde + ribera de día hasta la Grúa",
           "lat": 54.3479575,
           "lng": 18.655744,
-          "desc": "Primera mitad de tu «paseo del río, de día y de noche»: Puerta Verde, Długie Pobrzeże y la Brama Chlebnicka (la «Bread Bridge» de tu lista; no he podido confirmar a qué pasarela se refiere el nombre) hasta la Grúa, que veis por dentro ahora mismo.",
+          "desc": "Primera mitad de tu «paseo del río, de día y de noche»: Puerta Verde, Długie Pobrzeże y la Brama Chlebnicka (Puerta del Pan) hasta la Grúa, que veis por dentro ahora mismo.",
           "tags": [
             "obligatorio",
             "gratis"
@@ -219,7 +219,7 @@
       "id": 2,
       "tab": "Día 2 · Sáb 28",
       "title": "Galeón con sol, Museo de la II Guerra Mundial y cantos de Adviento ⛵",
-      "subtitle": "Sábado 28 nov · meteoblue: -2/-7 °C, seco, la mañana más despejada y sin viento del viaje → galeón a las 11:00 · Museo de la II Guerra Mundial 13:40–16:40 · Cantos de Adviento 18, 19 y 20h · Artus cerrada hoy",
+      "subtitle": "Sábado 28 nov · meteoblue: -2/-7 °C, seco, la mañana más despejada y sin viento del viaje → galeón a las 11:00 · Museo de la II Guerra Mundial 13:40–16:40 · Cantos de Adviento 18:00 Santa Catalina y 19:00 Ayuntamiento · Artus cerrada hoy",
       "places": [
         {
           "id": "2.1",
@@ -249,6 +249,19 @@
         },
         {
           "id": "2.3",
+          "time": "10:00",
+          "dur": "5 min",
+          "name": "Puente del Pan (Most Chlebowy) — «Bread Bridge»",
+          "lat": 54.3536853,
+          "lng": 18.6484927,
+          "desc": "El «Bread Bridge – Bridge of Love» de tu lista: el puentecito sobre el canal Radunia, entre el Gran Molino y el Ayuntamiento Antiguo, con los candados de enamorados (están prohibidos, pero los siguen poniendo). Se llama así porque junto a él vendían pan los panaderos medievales.",
+          "tags": [
+            "gratis"
+          ],
+          "mapsQuery": "Most Chlebowy, Gdańsk"
+        },
+        {
+          "id": "2.4",
           "time": "10:05",
           "dur": "7 min",
           "name": "Ayuntamiento Antiguo (Ratusz Staromiejski)",
@@ -261,7 +274,7 @@
           "mapsQuery": "Ratusz Staromiejski, Korzenna 33/35, Gdańsk"
         },
         {
-          "id": "2.4",
+          "id": "2.5",
           "time": "10:30",
           "dur": "1h 55min",
           "name": "⛵ Galeón por el Motława hasta Westerplatte (11:00)",
@@ -277,17 +290,17 @@
           "mapsQuery": "Gdański Bowke, Długie Pobrzeże 11, Gdańsk"
         },
         {
-          "id": "2.5",
+          "id": "2.6",
           "time": "12:30",
           "dur": "50 min",
           "name": "🥣 Bar Mleczny Biała Mewa — comida polaca",
           "lat": 54.3511519,
           "lng": 18.6549343,
-          "desc": "A 5 min del embarcadero. Plan autóctono: un bar mleczny («bar de leche») es la cantina barata de comida casera polaca de toda la vida: pierogi, sopas, chuletas. Calle Szeroka, 8–20 según OpenStreetMap. Se sirve rápido.",
+          "desc": "A 5 min del embarcadero. Plan autóctono: un bar mleczny («bar de leche») es la cantina barata de comida casera polaca de toda la vida: pierogi, sopas, chuletas. Tandeta 1, junto a la calle Szeroka; todos los días 8:00–20:00 y 4,7 con 1.200 reseñas en Google. Se sirve rápido. Si está lleno, el clásico Bar Turystyczny (Szeroka 8/10) está a 5 min.",
           "mapsQuery": "Bar Mleczny Biała Mewa, Szeroka, Gdańsk"
         },
         {
-          "id": "2.6",
+          "id": "2.7",
           "time": "13:40",
           "dur": "3h",
           "name": "⭐ Museo de la Segunda Guerra Mundial",
@@ -302,23 +315,38 @@
           "mapsQuery": "Muzeum II Wojny Światowej, Gdańsk"
         },
         {
-          "id": "2.7",
+          "id": "2.8",
           "time": "17:00",
-          "dur": "45 min",
+          "dur": "50 min",
           "name": "🍩 Dobra Pączkarnia — merienda",
           "lat": 54.3530949,
           "lng": 18.651549,
-          "desc": "De tu lista: pączki, el dónut polaco relleno. Desde el museo ~20 min. Horario sin confirmar: si estuviera cerrada, Pellowski (también de tu lista) tiene local a 1 min, en Podwale Staromiejskie 81-82, abierto hasta las 18:00.",
+          "desc": "De tu lista: pączki, el dónut polaco relleno. Está en el edificio del mercado cubierto (Plac Dominikański 1), ~20 min a pie desde el museo; todos los días 8:00–18:00 y 4,6 con 1.382 reseñas en Google. Justo al lado, la iglesia de Santa Catalina: allí empiezan los cantos a las 18:00.",
           "mapsQuery": "Dobra Pączkarnia, Gdańsk"
         },
         {
-          "id": "2.8",
-          "time": "17:55",
-          "dur": "1h 05min",
-          "name": "🎄 Mercadillo + cantos de Adviento + dulces para casa",
+          "id": "2.9",
+          "time": "18:00",
+          "dur": "20 min",
+          "name": "🎶 Cantos de Adviento desde la torre de Santa Catalina (18:00)",
+          "lat": 54.3540696,
+          "lng": 18.6512994,
+          "desc": "Programa oficial del Museo de Gdańsk para hoy, 28 nov: carillón, trompetas y percusión con chorales protestantes y canciones de Adviento polacas, a las 18:00 desde la torre de Santa Catalina, a las 19:00 desde la del Ayuntamiento y a las 20:00 junto a la Puerta de Adviento (Teatro Shakespeare). Gratis; se escucha desde la calle. Entre concierto y concierto, recreadores históricos hacen un paseo por el centro.",
+          "tags": [
+            "obligatorio",
+            "gratis"
+          ],
+          "link": "https://muzeumgdansk.pl/wydarzenia/szczegoly/news/adwentowe-piesni-z-wiez-2026/",
+          "mapsQuery": "Kościół św. Katarzyny, Gdańsk"
+        },
+        {
+          "id": "2.10",
+          "time": "18:30",
+          "dur": "45 min",
+          "name": "🎄 Mercadillo + cantos desde la torre del Ayuntamiento (19:00)",
           "lat": 54.3500222,
           "lng": 18.6490434,
-          "desc": "A 10 min de la merienda: llegáis para los cantos de las 18:00 y los de las 19:00. Hoy, 28 nov, el programa del mercadillo anuncia cantos de Adviento desde las torres a las 18:00, 19:00 y 20:00. Calle Tkacka (iluminaciones), el tramo nuevo de Garbary y Ogarna y la parte de la calle Długa. Mirad ya los dulces para llevar; el domingo hay otra vuelta. Grzaniec (vino caliente) en la taza de fianza y lo que veáis en los puestos de productos regionales. Sábado: es la hora más llena de la semana, así que sin prisas. Por la noche baja a -6/-7 °C (sensación -12): hay zonas cubiertas y con calefacción para descansar.",
+          "desc": "Segunda vuelta al mercadillo bajando hacia Długa: calle Tkacka (iluminaciones), el tramo nuevo de Garbary y Ogarna y la parte de la calle Długa. A las 19:00, el segundo concierto, desde la torre del Ayuntamiento: escuchadlo desde el Długi Targ. Mirad ya los dulces para llevar; el domingo hay otra vuelta. Grzaniec (vino caliente) en la taza de fianza. Por la noche baja a -6/-7 °C (sensación -12): hay zonas cubiertas y con calefacción para descansar.",
           "tags": [
             "obligatorio",
             "gratis"
@@ -327,8 +355,8 @@
           "mapsQuery": "Tkacka, Gdańsk"
         },
         {
-          "id": "2.9",
-          "time": "19:15",
+          "id": "2.11",
+          "time": "19:25",
           "dur": "15 min",
           "name": "🥃 Goldwasser — el licor de Gdańsk",
           "lat": 54.3501219,
@@ -338,24 +366,24 @@
           "mapsQuery": "Goldwasser, Długie Pobrzeże 22, Gdańsk"
         },
         {
-          "id": "2.10",
-          "time": "19:45",
+          "id": "2.12",
+          "time": "19:50",
           "dur": "1h 15min",
           "name": "🍽️ Kubicki — cena de cocina de Gdańsk",
           "lat": 54.353717,
           "lng": 18.6592615,
-          "desc": "Plan autóctono: restaurante clásico junto al río (Wartka 5), de los más antiguos de Gdańsk (las guías lo datan en 1918). Es el sitio para la czernina (sopa casubia de pato) y los platos de toda la vida. Abre desde las 12:00 (cierre 22–23h según la fuente). Sábado: reservad.",
+          "desc": "Plan autóctono: restaurante clásico junto al río (Wartka 5), de los más antiguos de Gdańsk (las guías lo datan en 1918). Es el sitio para la czernina (sopa casubia de pato) y los platos de toda la vida. Sábado 12:00–23:00 y 4,5 con 2.239 reseñas en Google. Sábado: reservad. El concierto de las 20:00 en la Puerta de Adviento os pilla cenando.",
           "link": "https://www.inyourpocket.com/gdansk/kubicki_15997v",
           "mapsQuery": "Restauracja Kubicki, Wartka 5, Gdańsk"
         },
         {
-          "id": "2.11",
-          "time": "21:05",
+          "id": "2.13",
+          "time": "21:10",
           "dur": "40 min",
           "name": "🌙 Ribera de noche: isla de Ołowianka (opcional)",
           "lat": 54.3527237,
           "lng": 18.6616097,
-          "desc": "Segunda mitad del «paseo del río de día y de noche»: desde Kubicki, la pasarela levadiza a Ołowianka con la Grúa iluminada enfrente y la noria AmberSky (el mercadillo la incluye como «Rincón Navideño con AmberSky»). A esa hora meteoblue da -6 °C con sensación de -12: si os pilla el frío, de Kubicki directos al piso (~20 min); la ribera ya la habéis visto de día desde el barco.",
+          "desc": "Segunda mitad del «paseo del río de día y de noche»: desde Kubicki, la pasarela levadiza a Ołowianka con la Grúa iluminada enfrente y la noria AmberSky (funciona todo el año; Google la da sáb 10:00–24:00; ~42 zł por persona en 2026). A esa hora meteoblue da -6 °C con sensación de -12: si os pilla el frío, de Kubicki directos al piso (~20 min); la ribera ya la habéis visto de día desde el barco.",
           "tags": [
             "mirador"
           ],
@@ -366,7 +394,7 @@
     {
       "id": 3,
       "tab": "Día 3 · Dom 29",
-      "title": "Uphagen, Ayuntamiento, último mercadillo y mirador ✈️",
+      "title": "Uphagen, Ayuntamiento, último mercadillo y comida a cubierto ✈️",
       "subtitle": "Domingo 29 nov · meteoblue: -4/-8 °C, viento del sur 20–35 km/h, sensación -11 a -15 → interiores por la mañana · Maletas en las taquillas de Gdańsk Główny · Bolt al aeropuerto a las 14:00 · Vuelo FR7070 16:05 · Domingo sin comercio",
       "places": [
         {
@@ -390,7 +418,7 @@
           "name": "☕ Cafe Luis — desayuno",
           "lat": 54.3546392,
           "lng": 18.6543422,
-          "desc": "Desde la estación ~15 min, ya sin maletas. Café de especialidad, domingo 9–19.",
+          "desc": "Desde la estación ~15 min, ya sin maletas. Café de especialidad, domingo 8:00–20:00 y 4,8 con 907 reseñas en Google (Olejarna 2).",
           "mapsQuery": "Cafe Luis, Gdańsk"
         },
         {
@@ -420,12 +448,12 @@
         },
         {
           "id": "3.5",
-          "time": "12:05",
-          "dur": "45 min",
-          "name": "🎄 Última vuelta al mercadillo: comida y dulces",
+          "time": "12:00",
+          "dur": "25 min",
+          "name": "🎄 Última vuelta al mercadillo: dulces para llevar",
           "lat": 54.3481523,
           "lng": 18.6480323,
-          "desc": "A 10 min del Ayuntamiento. El mercadillo abre a las 12:00 también en domingo: el Rincón del Tren Mágico en Bogusławskiego (comida en vagones-contenedor), el Rincón Teatral con foodcourt junto al Teatro Shakespeare y la Puerta de Adviento. Comida y últimos dulces para llevar en los puestos (las tiendas están cerradas: domingo sin comercio). A las 12:50 subid al mirador (~20–25 min cuesta arriba).",
+          "desc": "A 5 min del Ayuntamiento. El mercadillo abre a las 12:00 también en domingo: el Rincón del Tren Mágico en Bogusławskiego, el Rincón Teatral junto al Teatro Shakespeare y la Puerta de Adviento. Últimos dulces para llevar en los puestos (las tiendas están cerradas: domingo sin comercio). A mediodía meteoblue da sensación de -11 °C con viento: la comida, mejor a cubierto.",
           "tags": [
             "obligatorio",
             "gratis"
@@ -435,12 +463,22 @@
         },
         {
           "id": "3.6",
-          "time": "13:15",
-          "dur": "15 min",
-          "name": "🌅 Góra Gradowa — mirador sobre la ciudad",
+          "time": "12:35",
+          "dur": "40 min",
+          "name": "🍽️ Hala Targowa Enjoy — comida a cubierto",
+          "lat": 54.3527484,
+          "lng": 18.6518247,
+          "desc": "De tu lista. Zona de comida dentro del mercado cubierto (Plac Dominikański 1), junto a Santa Catalina; domingo 9:00–23:00 y 4,3 con 1.547 reseñas en Google. Comida caliente y bajo techo antes de ir a por las maletas. Salid a las 13:15.",
+          "mapsQuery": "Hala Targowa Enjoy, Gdańsk"
+        },
+        {
+          "id": "3.7",
+          "time": "13:32",
+          "dur": "10 min",
+          "name": "🌅 Góra Gradowa — mirador sobre la ciudad (opcional)",
           "lat": 54.357641,
           "lng": 18.6402587,
-          "desc": "La colina con el fuerte justo encima de la estación: vista de toda la ciudad y, con el día claro que da meteoblue, de la bahía. ~20–25 min desde Bogusławskiego, cuesta arriba. Es el «Crane Hill» de tu lista, si lo leí bien. El recinto del Hevelianum tiene horario propio, que no he podido confirmar; según las guías, la subida y los fuertes se recorren libremente. Bajáis a la estación en 5–8 min.",
+          "desc": "La colina con el fuerte justo encima de la estación: vista de toda la ciudad y, con el día claro que da meteoblue, de la bahía. Desde la Hala ~17 min cuesta arriba y de aquí a la estación ~6 min cuesta abajo. Arriba está el Hevelianum (domingo 10:00–18:00 según Google; 4,5 con 1.985 reseñas). Si vais justos de hora, id directos a la estación.",
           "mapsQuery": "Góra Gradowa, Gdańsk",
           "tags": [
             "mirador",
@@ -448,8 +486,8 @@
           ]
         },
         {
-          "id": "3.7",
-          "time": "13:40",
+          "id": "3.8",
+          "time": "13:50",
           "dur": "10 min",
           "name": "🧳 Gdańsk Główny — recoger maletas",
           "lat": 54.3564654,
@@ -458,7 +496,7 @@
           "mapsQuery": "Gdańsk Główny"
         },
         {
-          "id": "3.8",
+          "id": "3.9",
           "time": "14:25",
           "dur": "—",
           "name": "✈️ Aeropuerto de Gdańsk (GDN) — FR7070 16:05",
@@ -485,8 +523,8 @@
         "value": "Salidas confirmadas en su web el viernes y el sábado a las 11:00, 13:00 y 15:00. La idea era la de las 15:00 del viernes para la puesta, pero con la previsión del 25 nov el viernes sale nublado todo el día (nubes bajas al 70 % a las 15:00 en Open-Meteo, 2 h de sol en todo el día en meteoblue): la puesta no se vería y la vuelta sería de noche, sin ver el puerto. El <strong>sábado a las 11:00</strong> es la ventana más despejada y en calma del viaje: se ven el puerto, los astilleros y Westerplatte con sol. <strong>Sin bajar en Westerplatte</strong>: bajarse obliga a esperar otro barco y os come el museo de la tarde. <strong>La lancha nocturna</strong>, descartada: el galeón es el plan con historia."
       },
       {
-        "label": "❓ 3 sitios de la captura que no he podido leer",
-        "value": "La captura del Wanderlog es pequeña y hay tres nombres que no identifico: uno que acaba en «…House» (debajo de Artus Court), un restaurante que empieza por «GRO…» y otro sitio que acaba en «…cania» (el último de la lista). Pasádmelos escritos y los coloco."
+        "label": "❓ 3 sitios de la captura que siguen sin identificar",
+        "value": "Resuelto: «Bread Bridge» es el Puente del Pan (Most Chlebowy) sobre el canal Radunia, ya en el sábado. Siguen sin identificar: uno que acaba en «…House» (debajo de Artus Court), un restaurante que empieza por «GRO…» y el último de la lista, que acaba en «…cania». Además, la «Crane Hill» que creí leer no existe en ninguna búsqueda; el mirador de Góra Gradowa del domingo va por su cuenta, no porque sea ese sitio. Pasádmelos escritos y los coloco."
       }
     ],
     "transport": [
@@ -526,11 +564,11 @@
       },
       {
         "label": "🍽️ Cenas de viernes y sábado",
-        "value": "Fin de semana de mercadillo con el centro lleno: reservad <strong>Pierogarnia Mandu</strong> (vie 19:15) y <strong>Kubicki</strong> (sáb 19:45) si podéis, o id puntuales."
+        "value": "Fin de semana de mercadillo con el centro lleno: reservad <strong>Pierogarnia Mandu</strong> (vie 19:15) y <strong>Kubicki</strong> (sáb 19:50) si podéis, o id puntuales."
       },
       {
         "label": "🕐 Horarios comprobados (webs oficiales)",
-        "value": "<strong>Museo de Gdańsk</strong> (Artus, Uphagen, Ayuntamiento): lun 10–16 gratis, <strong>mar cerrado</strong>, mié 10–16, jue 10–18, vie–dom 10–16; Artus cerrada el sáb 28. · <strong>Santa María</strong>: laborables 8:30–17:30, domingo 11–12 y 13–17:30; torre 10–18. · <strong>Grúa Żuraw</strong>: jue–dom 9–17. · <strong>ECS</strong>: exposición vie 10–17 y sáb–dom 10–18 (cierra mar); biblioteca vie 11–16, sáb 11–15, dom cerrada. · <strong>Museo de la II Guerra Mundial</strong>: mié–dom 10–18 (taquilla hasta las 17:00), mar 10–16, lun cerrado. · <strong>Goldwasser</strong>: vie–dom 11–22. · <strong>Mercadillo</strong>: vie–sáb 12–21, dom 12–20."
+        "value": "<strong>Museo de Gdańsk</strong> (Artus, Uphagen, Ayuntamiento): lun 10–16 gratis, <strong>mar cerrado</strong>, mié 10–16, jue 10–18, vie–dom 10–16; Artus cerrada el sáb 28. · <strong>Santa María</strong>: laborables 8:30–17:30, domingo 11–12 y 13–17:30; torre 10–18. · <strong>Grúa Żuraw</strong>: jue–dom 9–17. · <strong>ECS</strong>: exposición vie 10–17 y sáb–dom 10–18 (cierra mar); biblioteca vie 11–16, sáb 11–15, dom cerrada. · <strong>Museo de la II Guerra Mundial</strong>: mié–dom 10–18 (taquilla hasta las 17:00), mar 10–16, lun cerrado. · <strong>Goldwasser</strong>: vie–dom 11–22. · <strong>Mercadillo</strong>: vie–sáb 12–21, dom 12–20. · <strong>Cafés y restaurantes (Google Maps, 25 nov)</strong>: Leń vie–sáb 9–19; Drukarnia vie–sáb 8–21:30, dom 8–20; Cafe Luis dom 8–20; Dobra Pączkarnia 8–18; Biała Mewa 8–20; Montownia desde las 7; Mandu 11–22; Kubicki sáb 12–23; Hala Targowa Enjoy dom 9–23; AmberSky sáb 10–24; Hevelianum dom 10–18; torre de Santa María 10–18."
       }
     ],
     "temporada": [
@@ -544,7 +582,7 @@
       },
       {
         "label": "🎶 Sábado 28: cantos de Adviento",
-        "value": "Según la guía del mercadillo de InfoSerwis Gdańsk, el 28 de noviembre a las 18:00, 19:00 y 20:00 suenan cantos de Adviento desde las torres."
+        "value": "Programa oficial del Museo de Gdańsk: el 28 nov, a las 18:00 desde la torre de Santa Catalina, a las 19:00 desde la del Ayuntamiento y a las 20:00 junto a la Puerta de Adviento. Carillón, trompetas y percusión; gratis. <a href=\"https://muzeumgdansk.pl/wydarzenia/szczegoly/news/adwentowe-piesni-z-wiez-2026/\" target=\"_blank\">Ver programa</a>."
       },
       {
         "label": "🌲 Árbol de Navidad",
@@ -562,7 +600,7 @@
     "food": [
       {
         "label": "🥟 Qué probar",
-        "value": "<strong>Pierogi</strong> (Mandu, Stary Młyn) · <strong>żurek</strong> (sopa agria de centeno) · <strong>czernina</strong>, sopa casubia de pato (Kubicki) · <strong>arenque a la casubia</strong> (śledź po kaszubsku; Tawerna Mestwin) · <strong>grzaniec</strong>, vino caliente del mercadillo · y en un <strong>bar mleczny</strong>, la cantina barata de siempre (Biała Mewa, en Restauración)."
+        "value": "<strong>Pierogi</strong> (Mandu, Stary Młyn) · <strong>żurek</strong> (sopa agria de centeno) · <strong>czernina</strong>, sopa casubia de pato (Kubicki) · <strong>arenque a la casubia</strong> (śledź po kaszubsku) · <strong>grzaniec</strong>, vino caliente del mercadillo · y en un <strong>bar mleczny</strong>, la cantina barata de siempre (Biała Mewa, en Restauración)."
       },
       {
         "label": "🍬 Dulces típicos",
@@ -570,7 +608,7 @@
       },
       {
         "label": "🛍️ Dónde comprarlos",
-        "value": "<strong>Dobra Pączkarnia</strong> (de vuestra lista): pączki, junto a la calle Pańska. <strong>Pellowski</strong> (de vuestra lista): pastelería de Gdańsk con locales por el centro; tiene local en la calle Długa. <strong>Goldwasser</strong> (Długie Pobrzeże 22, vie–dom 11–22): botellas y estuches de regalo con bombones; la botella también está en supermercados. <strong>Mercadillo</strong>: puestos de productos regionales y de Pomerania, para pierniki y dulces para llevar. ⚠️ El <strong>domingo las tiendas cierran</strong>: compradlo viernes o sábado, o el domingo en el mercadillo."
+        "value": "<strong>Dobra Pączkarnia</strong> (de vuestra lista): pączki, en el edificio del mercado cubierto (Plac Dominikański 1), 8–18. <strong>Pellowski</strong> (de vuestra lista): pastelería de Gdańsk con locales por el centro; tiene local en la calle Długa. <strong>Goldwasser</strong> (Długie Pobrzeże 22, vie–dom 11–22): botellas y estuches de regalo con bombones; la botella también está en supermercados. <strong>Mercadillo</strong>: puestos de productos regionales y de Pomerania, para pierniki y dulces para llevar. ⚠️ El <strong>domingo las tiendas cierran</strong>: compradlo viernes o sábado, o el domingo en el mercadillo."
       }
     ],
     "avisos": [
@@ -599,7 +637,7 @@
       "name": "OSTRO Pizza Napoletana",
       "lat": 54.3496494,
       "lng": 18.6568951,
-      "desc": "⭐ TU LISTA · Pizza napolitana junto a la ribera, abre 12–22. La cena del sábado pasó a Kubicki para tener cocina de Gdańsk; si preferís pizza, cambiadla.",
+      "desc": "⭐ TU LISTA · Pizza napolitana en Długie Pobrzeże 15, junto a la ribera; vie–sáb 11:00–23:00, 4,6 con 7.253 reseñas en Google. La cena del sábado es Kubicki para tener cocina de Gdańsk; si preferís pizza, cambiadla.",
       "mapsQuery": "Ostro Pizza Napoletana, Gdańsk"
     },
     {
@@ -608,17 +646,8 @@
       "name": "Słony Spichlerz",
       "lat": 54.3490425,
       "lng": 18.6577299,
-      "desc": "⭐ TU LISTA · En la Isla de los Graneros (Chmielna 10), con la ribera enfrente; dom–jue 8–23 y vie–sáb 8–01 según OpenStreetMap. Salió de la comida del viernes, que ahora es junto al ECS para llegar al barco.",
+      "desc": "⭐ TU LISTA · En la Isla de los Graneros (Chmielna 10), con la ribera enfrente; vie–sáb 12:00–24:00 y dom 12:00–22:00, 4,6 con 5.909 reseñas en Google.",
       "mapsQuery": "Słony Spichlerz, Chmielna 10, Gdańsk"
-    },
-    {
-      "id": "r.5",
-      "cat": "🥟 Polaca / pierogi",
-      "name": "Tawerna Mestwin",
-      "lat": 54.3522042,
-      "lng": 18.6562213,
-      "desc": "Cocina casubia en un interior de casa de campo (Straganiarska 20/23); las reseñas destacan el arenque a la casubia. Horario sin confirmar. Alternativa típica a Kubicki.",
-      "mapsQuery": "Tawerna Mestwin, Straganiarska 20, Gdańsk"
     },
     {
       "id": "r.2",
@@ -626,15 +655,16 @@
       "name": "Pierogarnia Stary Młyn",
       "lat": 54.3501302,
       "lng": 18.654567,
-      "desc": "⭐ TU LISTA · Św. Ducha 64, abre a las 11:00. Alternativa a Mandu para cualquier comida o cena en la Ciudad Principal."
+      "desc": "⭐ TU LISTA · Św. Ducha 64; abre a las 8:00 (también desayunos) y cierra hacia las 23:00 según Google. Alternativa a Mandu para cualquier comida en la Ciudad Principal."
     },
     {
-      "id": "r.1",
-      "cat": "🛒 Mercado",
-      "name": "Hala Targowa Enjoy",
-      "lat": 54.3527422,
-      "lng": 18.652026,
-      "desc": "⭐ TU LISTA · Zona de comida dentro del mercado cubierto del casco antiguo, junto a Santa Catalina. No la he metido en ningún día porque no tengo su horario confirmado: buena alternativa de comida el viernes o la cena del sábado."
+      "id": "r.8",
+      "cat": "🥟 Polaca / pierogi",
+      "name": "Bar Turystyczny (bar mleczny)",
+      "lat": 54.3517247,
+      "lng": 18.6504073,
+      "desc": "El bar mleczny clásico del centro (Szeroka 8/10): 4,4 con casi 10.000 reseñas en Google, todos los días 8:00–18:00. Alternativa a Biała Mewa si está lleno.",
+      "mapsQuery": "Bar Turystyczny, Szeroka 8, Gdańsk"
     }
   ],
   "cafes": [
@@ -644,15 +674,7 @@
       "name": "Retro",
       "lat": 54.3502671,
       "lng": 18.6500841,
-      "desc": "Piwna 5/6, abre 10–22. Café de especialidad en la misma calle que Leń: alternativa si Leń está lleno."
-    },
-    {
-      "id": "c.2",
-      "cat": "☕ Ciudad Principal",
-      "name": "Cafe Kamienica",
-      "lat": 54.3496456,
-      "lng": 18.6557067,
-      "desc": "Mariacka 37/39, frente a Drukarnia. Una guía de 2022 la llama el mejor café de la Ciudad Principal. Horario sin confirmar."
+      "desc": "Piwna 5/6, todos los días 10:00–22:00, 4,7 con 3.416 reseñas en Google. En la misma calle que Leń: alternativa si Leń está lleno."
     },
     {
       "id": "c.3",
@@ -660,7 +682,7 @@
       "name": "Józef K.",
       "lat": 54.350352,
       "lng": 18.6497238,
-      "desc": "Piwna 1/2, café-bar de culto con barra de mármol, abre hasta tarde (vie–sáb hasta las 4). Para una copa tranquila después del mercadillo."
+      "desc": "Piwna 1/2, café-bar de culto con barra de mármol: vie–sáb 10:00–2:30 según Google (4,7 con 4.806 reseñas). Para una copa tranquila después del mercadillo."
     },
     {
       "id": "c.5",
@@ -744,7 +766,7 @@
       "lat": 54.3645619,
       "lng": 18.6483279,
       "desc": "Patio con food trucks y bar en el antiguo astillero.",
-      "reason": "Solo abre jue–sáb desde las 16:00. Si el viernes o el sábado os apetece una copa después de cenar, está a 15 min del centro."
+      "reason": "Según Google solo abre viernes y sábado de 20:00 a 4:00: es plan de fiesta nocturna, no de cena. Si os apetece salir después de cenar el viernes, está a 15 min del centro."
     },
     {
       "id": "d.8",
@@ -754,6 +776,16 @@
       "desc": "La tercera ciudad del Tricity, moderna y portuaria, a 35 min en SKM.",
       "reason": "Si hacéis playa, Sopot da más en menos tiempo. Gdynia no aporta lo suficiente para una mañana de invierno.",
       "mapsQuery": "Skwer Kościuszki, Gdynia"
+    },
+    {
+      "id": "d.12",
+      "name": "Museo Nacional (Juicio Final de Memling)",
+      "lat": 54.3455536,
+      "lng": 18.6469034,
+      "desc": "Su gran obra es el tríptico del Juicio Final de Hans Memling, a 5 min del piso.",
+      "reason": "El tríptico está fuera de exposición por estudio y conservación desde febrero de 2025, y su vuelta se ha retrasado al primer trimestre de 2027. Sin él no compensa frente a lo que ya tenéis.",
+      "link": "https://www.mng.gda.pl/",
+      "mapsQuery": "Muzeum Narodowe w Gdańsku, Toruńska 1"
     }
   ]
 }
