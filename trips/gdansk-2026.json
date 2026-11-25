@@ -1,5 +1,5 @@
 {
-  "_v": 6,
+  "_v": 7,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -28,7 +28,7 @@
       "id": 1,
       "tab": "Día 1 · Vie 27",
       "title": "Ruta Real, galeón al atardecer y primer mercadillo 🎄",
-      "subtitle": "Viernes 27 nov · Llegáis al piso a la 1:00 → arranque tranquilo a las 9:00 · Luz 7:35–15:29 · 🌅 Puesta 15:29 desde el galeón (15:00–16:20) · Mercadillo 12–21h",
+      "subtitle": "Viernes 27 nov · Llegáis al piso a la 1:00 → arranque tranquilo a las 9:00 · Luz 7:35–15:29 · 🌅 Puesta 15:29 desde el galeón (15:00–16:20) · Mercadillo 12–21h · meteoblue: 1/-4 °C, seco, sensación -5 a -9",
       "places": [
         {
           "id": "1.1",
@@ -159,7 +159,7 @@
           "name": "⛵ Galeón por el Motława hasta Westerplatte (15:00)",
           "lat": 54.3491099,
           "lng": 18.6564232,
-          "desc": "El «paseo en barco» de Maitena. Galeón Czarna Perła, salida 15:00 desde Długie Pobrzeże 11, junto al restaurante Gdański Bowke: llegad hacia las 14:40 (piden embarcar 30 min antes para coger buen sitio). 80 min por el puerto, los astilleros y la fortaleza de Wisłoujście hasta Westerplatte, con comentario en directo (también en inglés) a la ida, música en directo a la vuelta y bar a bordo. La puesta es a las 15:29: la ida con luz y atardecer, la vuelta con la ciudad iluminada. Ida y vuelta sin bajar, 106,22 zł por adulto. Las entradas online se cambian en la taquilla por la versión en papel. Abrigaos de verdad: noviembre en el Báltico.",
+          "desc": "El «paseo en barco» de Maitena. Galeón Czarna Perła, salida 15:00 desde Długie Pobrzeże 11, junto al restaurante Gdański Bowke: llegad hacia las 14:40 (piden embarcar 30 min antes para coger buen sitio). 80 min por el puerto, los astilleros y la fortaleza de Wisłoujście hasta Westerplatte, con comentario en directo (también en inglés) a la ida, música en directo a la vuelta y bar a bordo. La puesta es a las 15:29: la ida con luz y atardecer, la vuelta con la ciudad iluminada. Ida y vuelta sin bajar, 106,22 zł por adulto. Las entradas online se cambian en la taquilla por la versión en papel. Abrigaos de verdad: noviembre en el Báltico. Previsión a las 15:00 (meteoblue, 25 nov): 0 °C, sensación -5, viento flojo del este y seco.",
           "tags": [
             "obligatorio",
             "reservar",
@@ -226,7 +226,7 @@
       "id": 2,
       "tab": "Día 2 · Sáb 28",
       "title": "Museos con calma + mercadillo con cantos de Adviento 🎶",
-      "subtitle": "Sábado 28 nov · Día cubierto (meteoblue): día de interiores sin prisa · Uphagen y Ayuntamiento por la mañana · Museo de la II Guerra Mundial 13:50–16:50 · Cantos de Adviento 18, 19 y 20h · Artus cerrada hoy",
+      "subtitle": "Sábado 28 nov · Día de interiores sin prisa (meteoblue: -2/-7 °C, seco, sensación -7 a -13) · Uphagen y Ayuntamiento por la mañana · Museo de la II Guerra Mundial 13:50–16:50 · Cantos de Adviento 18, 19 y 20h · Artus cerrada hoy",
       "places": [
         {
           "id": "2.1",
@@ -331,7 +331,7 @@
           "name": "🎄 Mercadillo + cantos de Adviento + dulces para casa",
           "lat": 54.3500222,
           "lng": 18.6490434,
-          "desc": "A 10 min de la merienda: llegáis con los cantos de las 18:00 empezados y oís enteros los de las 19:00. Hoy, 28 nov, el programa del mercadillo anuncia cantos de Adviento desde las torres a las 18:00, 19:00 y 20:00. Calle Tkacka (iluminaciones), el tramo nuevo de Garbary y Ogarna y la parte de la calle Długa. Comprad hoy los dulces para llevar, por si el domingo os vais a Sopot. Grzaniec (vino caliente) en la taza de fianza y lo que veáis en los puestos de productos regionales. Sábado: es la hora más llena de la semana, así que sin prisas. Por la noche baja a -5 °C: hay zonas cubiertas y con calefacción para descansar.",
+          "desc": "A 10 min de la merienda: llegáis con los cantos de las 18:00 empezados y oís enteros los de las 19:00. Hoy, 28 nov, el programa del mercadillo anuncia cantos de Adviento desde las torres a las 18:00, 19:00 y 20:00. Calle Tkacka (iluminaciones), el tramo nuevo de Garbary y Ogarna y la parte de la calle Długa. Comprad hoy los dulces para llevar, por si el domingo os vais a Sopot. Grzaniec (vino caliente) en la taza de fianza y lo que veáis en los puestos de productos regionales. Sábado: es la hora más llena de la semana, así que sin prisas. Por la noche baja a -6/-7 °C (sensación -12): hay zonas cubiertas y con calefacción para descansar.",
           "tags": [
             "obligatorio",
             "gratis"
@@ -368,7 +368,7 @@
           "name": "🌙 Ribera de noche: isla de Ołowianka (AmberSky)",
           "lat": 54.3527237,
           "lng": 18.6616097,
-          "desc": "Segunda mitad del «paseo del río de día y de noche». Desde Kubicki cruzad la pasarela levadiza a Ołowianka: la Grúa iluminada queda enfrente. Allí está la noria AmberSky (de tu lista); el programa del mercadillo la incluye como «Rincón Navideño con AmberSky», así que lo normal es que gire, pero confirmadlo al llegar. Vuelta al piso ~20 min a pie.",
+          "desc": "Segunda mitad del «paseo del río de día y de noche». Desde Kubicki cruzad la pasarela levadiza a Ołowianka: la Grúa iluminada queda enfrente. Allí está la noria AmberSky (de tu lista); el programa del mercadillo la incluye como «Rincón Navideño con AmberSky», así que lo normal es que gire, pero confirmadlo al llegar. Vuelta al piso ~20 min a pie. A esa hora meteoblue da -6 °C con sensación de -12: si os pilla el frío, de Kubicki directos al piso (~20 min); la ribera la veis de día el domingo.",
           "tags": [
             "mirador"
           ],
@@ -380,7 +380,7 @@
       "id": 3,
       "tab": "Día 3 · Dom 29",
       "title": "Grúa, ribera de día y última vuelta al mercadillo ✈️",
-      "subtitle": "Domingo 29 nov · Maletas en las taquillas de Gdańsk Główny · Bolt al aeropuerto a las 14:00 · Vuelo FR7070 16:05 · Domingo sin comercio: tiendas cerradas, cafés y museos abiertos",
+      "subtitle": "Domingo 29 nov · meteoblue: -4/-8 °C, despejado, viento del sur 20–35 km/h, sensación -11 a -15 · Maletas en las taquillas de Gdańsk Główny · Bolt al aeropuerto a las 14:00 · Vuelo FR7070 16:05 · Domingo sin comercio: tiendas cerradas, cafés y museos abiertos",
       "places": [
         {
           "id": "3.1",
@@ -403,7 +403,7 @@
           "name": "☕ Drukarnia — desayuno",
           "lat": 54.349628,
           "lng": 18.6559459,
-          "desc": "Desde la estación ~20–25 min, ya sin maletas. El café de especialidad más citado de la ciudad (Mariacka 36), domingo 8:00–20:00. meteoblue da el domingo despejado: si queréis playa, este día es el ALT ☀️ de Sopot.",
+          "desc": "Desde la estación ~20–25 min, ya sin maletas. El café de especialidad más citado de la ciudad (Mariacka 36), domingo 8:00–20:00. meteoblue da el domingo despejado pero muy frío (sensación -11 a -15) y con viento: por eso el plan por defecto es este, sin playa.",
           "mapsQuery": "Drukarnia, Mariacka 36, Gdańsk"
         },
         {
@@ -471,7 +471,7 @@
       "id": 4,
       "tab": "Día 3 · Dom 29 · ALT ☀️",
       "title": "☀️ ALT sol · Sopot: playa y muelle",
-      "subtitle": "Domingo 29 nov · SOLO si amanece despejado y sin viento fuerte · Maletas en Gdańsk Główny y tren desde allí, 12–19 min · Sustituye a la mañana del Día 3: solo os perdéis la Grúa por dentro y la última vuelta al mercadillo",
+      "subtitle": "Domingo 29 nov · SOLO si amanece despejado y sin viento fuerte (con la previsión del 25 nov, no la recomiendo) · Maletas en Gdańsk Główny y tren desde allí, 12–19 min · Sustituye a la mañana del Día 3: solo os perdéis la Grúa por dentro y la última vuelta al mercadillo",
       "places": [
         {
           "id": "4.1",
@@ -494,7 +494,7 @@
           "name": "☕ Cafe Luis — desayuno",
           "lat": 54.3546392,
           "lng": 18.6543422,
-          "desc": "A ~15 min de la estación. Decididlo el sábado por la noche en meteoblue: el 23 nov daba el domingo despejado (7 h de sol) pero a -2 °C y con viento de 21 km/h, que en el muelle se siente como unos -8 °C. Si el viento pasa de 25 km/h o se nubla, Día 3 normal.",
+          "desc": "A ~15 min de la estación. Decididlo el sábado por la noche en meteoblue: el 25 nov daba el domingo despejado (5 h de sol) pero a -6/-4 °C por la mañana, viento del sur de 20–35 km/h y sensación de -14 a -11. Solo merece la pena si el viento baja de 20 km/h y la sensación sube de -8 °C; si no, Día 3 normal.",
           "mapsQuery": "Cafe Luis, Gdańsk"
         },
         {
@@ -580,8 +580,8 @@
   "info": {
     "pendientes": [
       {
-        "label": "🏖️ ¿Playa sí o no? (meteoblue, 23 nov)",
-        "value": "Previsión: <strong>vie 27</strong> 1/-3 °C, parcialmente nublado, seco, 3 h de sol (previsibilidad alta) · <strong>sáb 28</strong> 0/-5 °C, cubierto, seco, 0 h de sol (alta) · <strong>dom 29</strong> -2/-5 °C, despejado, 7 h de sol, viento 21 km/h (media). <strong>Mi recomendación: Sopot el domingo por la mañana (Día 3 ALT ☀️)</strong>, porque es el único día de sol y la playa con sol y frío seco merece la pena. Pero a -2 °C y con 21 km/h el muelle se siente como unos -8 °C: confirmadlo el sábado por la noche y, si el viento pasa de 25 km/h o se nubla, Día 3 normal. Con Sopot os perdéis Uphagen y el Ayuntamiento por dentro."
+        "label": "🏖️ ¿Playa sí o no? (meteoblue, 25 nov)",
+        "value": "Previsión del 25 nov (previsibilidad muy alta viernes y sábado, alta el domingo): <strong>vie 27</strong> 1/-4 °C, seco, viento flojo del este · <strong>sáb 28</strong> -2/-7 °C, seco, 4 h de sol · <strong>dom 29</strong> -4/-8 °C, despejado (5 h de sol), viento del sur de 20–35 km/h y sensación de -14 a -11 entre las 9:00 y las 12:00. <strong>Con esto mi recomendación cambia: Día 3 normal, sin Sopot.</strong> Es justo lo que no queríais (frío con viento), y en el muelle, sin edificios que corten el aire, se nota más. Si el sábado por la noche el parte del domingo baja de 20 km/h y la sensación sube de -8 °C, Sopot vuelve a tener sentido. No hay aviso de temporal: el único aviso de IMGW en la zona era de hielo en el suelo, hasta la mañana del 25."
       },
       {
         "label": "🏖️ ¿Qué playa? Sopot frente a las otras",
@@ -593,7 +593,7 @@
       },
       {
         "label": "⛵ Galeón: por qué a las 15:00 del viernes y sin bajar",
-        "value": "Salidas confirmadas en su web el viernes a las 11:00, 13:00 y 15:00. <strong>15:00</strong>: la puesta es a las 15:29, así que tenéis luz, atardecer en el agua y la vuelta con la ciudad iluminada. El viernes es además el único día parcialmente despejado con buena previsibilidad; el sábado sale cubierto y el domingo os vais a las 14:00. <strong>Sin bajar en Westerplatte</strong>: bajarse obliga a esperar otro barco, el monumento al aire libre se ve a oscuras a partir de las 15:30 y os come la tarde del mercadillo. <strong>La lancha nocturna</strong>, descartada: no aporta nada que no dé ya la vuelta del galeón de noche, y el galeón es el plan con historia."
+        "value": "Salidas confirmadas en su web el viernes a las 11:00, 13:00 y 15:00. <strong>15:00</strong>: la puesta es a las 15:29, así que tenéis luz, atardecer en el agua y la vuelta con la ciudad iluminada. El viernes sale seco y a las 15:00 meteoblue da 0 °C con viento flojo del este (14–15 km/h): buen día para el barco. El domingo, con más viento y más frío, sería peor, y además os vais a las 14:00. <strong>Sin bajar en Westerplatte</strong>: bajarse obliga a esperar otro barco, el monumento al aire libre se ve a oscuras a partir de las 15:30 y os come la tarde del mercadillo. <strong>La lancha nocturna</strong>, descartada: no aporta nada que no dé ya la vuelta del galeón de noche, y el galeón es el plan con historia."
       },
       {
         "label": "❓ 3 sitios de la captura que no he podido leer",
@@ -694,8 +694,8 @@
         "value": "Amanece a las 7:35 y anochece a las 15:29: lo de fuera, por la mañana y a primera hora de la tarde. Museos, cafés y mercadillo, después de oscurecer."
       },
       {
-        "label": "🥶 Frío bajo cero",
-        "value": "meteoblue (23 nov): máximas de -2 a 1 °C y mínimas de hasta -5 °C, seco los tres días. Lunes y martes llueve y luego hiela: <strong>cuidado con el adoquín helado</strong>, calzado que agarre. Gorro, guantes, capas y algo que corte el viento del Báltico."
+        "label": "🥶 Frío bajo cero (meteoblue, 25 nov)",
+        "value": "Seco los tres días, sin temporal, pero <strong>bajo cero casi todo el tiempo</strong>. Sensación térmica: viernes -5 a -9 °C, sábado -7 a -13 °C, domingo -11 a -15 °C (viento del sur de 20–35 km/h). Ropa de nieve: abrigo largo o plumas, capa térmica debajo, gorro, guantes, bufanda o braga para el cuello, calcetines gruesos y calzado que agarre: las calles venían de llover y helar, <strong>cuidado con el adoquín helado</strong>. Haced las pausas dentro: museos, cafés y las zonas cubiertas y con calefacción del mercadillo."
       },
       {
         "label": "🛍️ Domingo sin comercio",
