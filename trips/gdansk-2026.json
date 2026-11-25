@@ -1,5 +1,5 @@
 {
-  "_v": 9,
+  "_v": 10,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -280,7 +280,7 @@
           "name": "⛵ Galeón por el Motława hasta Westerplatte (11:00)",
           "lat": 54.3491099,
           "lng": 18.6564232,
-          "desc": "El «paseo en barco» de Maitena, a la hora con más sol del viaje: meteoblue y Open-Meteo dan el sábado por la mañana despejado y casi sin viento (-3 °C, sensación -6). Galeón Czarna Perła, salida 11:00 desde Długie Pobrzeże 11, junto al restaurante Gdański Bowke: llegad a las 10:30 (piden embarcar 30 min antes para coger buen sitio). 80 min por el puerto, los astilleros y la fortaleza de Wisłoujście hasta Westerplatte, con comentario en directo (también en inglés) a la ida, música en directo a la vuelta y bar a bordo. Ida y vuelta sin bajar, 106,22 zł por adulto. Las entradas online se cambian en la taquilla por la versión en papel. Abrigaos de verdad.",
+          "desc": "El «paseo en barco» de Maitena, a la hora con más sol del viaje: meteoblue y Open-Meteo dan el sábado por la mañana despejado y casi sin viento (-3 °C, sensación -6). Galeón Czarna Perła, salida 11:00 desde Długie Pobrzeże 11, junto al restaurante Gdański Bowke: llegad a las 10:30 (piden embarcar 30 min antes para coger buen sitio). 80 min por el puerto, los astilleros y la fortaleza de Wisłoujście hasta Westerplatte, con comentario en directo (también en inglés) a la ida, música en directo a la vuelta y bar a bordo. Ida y vuelta sin bajar, 106,22 zł por adulto. Las entradas online se cambian en la taquilla por la versión en papel. Abrigaos de verdad. A la venta en Ekobilet (la web no indica plazas libres) y también en la taquilla del embarcadero; su ficha no dice qué pasa si se cancela por mal tiempo.",
           "tags": [
             "obligatorio",
             "reservar",
@@ -306,7 +306,7 @@
           "name": "⭐ Museo de la Segunda Guerra Mundial",
           "lat": 54.3559415,
           "lng": 18.6611212,
-          "desc": "Imprescindible para Maitena. Desde Szeroka ~15 min a pie por la ribera. Sábado 10:00–18:00 y la taquilla cierra a las 17:00: con 3 h tenéis lo que pide la exposición principal, mientras fuera se nubla y anochece. Entrada normal 32 zł (tarifa oficial de 2025); comprad online en bilety.muzeum1939.pl para no hacer cola. Cierra los lunes.",
+          "desc": "Imprescindible para Maitena. Desde Szeroka ~15 min a pie por la ribera. Sábado 10:00–18:00 y la taquilla cierra a las 17:00: con 3 h tenéis lo que pide la exposición principal, mientras fuera se nubla y anochece. Las entradas van por franja de entrada: comprad la de 13:00–14:00 (hay que entrar dentro de esa hora y luego os podéis quedar hasta el cierre). 33 zł normal en la web oficial; el 25 nov esa franja tenía más de 99 entradas libres online. Cierra los lunes.",
           "tags": [
             "obligatorio",
             "reservar"
@@ -552,11 +552,11 @@
     "reservas": [
       {
         "label": "⛵ Galeón Czarna Perła (sáb 28, 11:00)",
-        "value": "Comprad online en <a href=\"https://perlalew.pl/kup-online/\" target=\"_blank\">perlalew.pl</a>: ida y vuelta 106,22 zł por adulto, salida del sábado a las 11:00. Embarque 30 min antes en Długie Pobrzeże 11 (Gdański Bowke); cambiad la entrada online por la de papel en la taquilla, sin hacer cola."
+        "value": "Comprad online en <a href=\"https://perlalew.pl/kup-online/\" target=\"_blank\">perlalew.pl</a> (vende Ekobilet): ida y vuelta 106,22 zł por adulto, salida del sábado a las 11:00. El 25 nov estaba a la venta sin indicar plazas libres; también hay taquilla en el embarcadero. Embarque 30 min antes en Długie Pobrzeże 11 (Gdański Bowke); cambiad la entrada online por la de papel en la taquilla, sin hacer cola. No he encontrado qué hacen si se cancela por mal tiempo."
       },
       {
         "label": "🏛️ Museo de la II Guerra Mundial (sáb 28)",
-        "value": "Comprad online en <a href=\"https://bilety.muzeum1939.pl\" target=\"_blank\">bilety.muzeum1939.pl</a>: 32 zł normal (tarifa oficial de 2025), entrada a las 13:40. La taquilla cierra a las 17:00."
+        "value": "Comprad online en <a href=\"https://bilety.muzeum1939.pl\" target=\"_blank\">bilety.muzeum1939.pl</a> la franja de entrada de <strong>13:00–14:00</strong> del sábado: 33 zł normal. El 25 nov había más de 99 entradas libres online en todas las franjas del sábado; parte del cupo solo se vende en taquilla (abierta hasta las 17:00)."
       },
       {
         "label": "🧳 Maletas el domingo",
