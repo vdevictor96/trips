@@ -1,5 +1,5 @@
 {
-  "_v": 10,
+  "_v": 11,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -379,15 +379,16 @@
         {
           "id": "2.13",
           "time": "21:10",
-          "dur": "40 min",
-          "name": "🌙 Ribera de noche: isla de Ołowianka (opcional)",
-          "lat": 54.3527237,
-          "lng": 18.6616097,
-          "desc": "Segunda mitad del «paseo del río de día y de noche»: desde Kubicki, la pasarela levadiza a Ołowianka con la Grúa iluminada enfrente y la noria AmberSky (funciona todo el año; Google la da sáb 10:00–24:00; ~42 zł por persona en 2026). A esa hora meteoblue da -6 °C con sensación de -12: si os pilla el frío, de Kubicki directos al piso (~20 min); la ribera ya la habéis visto de día desde el barco.",
+          "dur": "20 min",
+          "name": "✨ Neón «Gdańsk» en la isla de Ołowianka",
+          "lat": 54.3529362,
+          "lng": 18.6599285,
+          "desc": "El «Gdansk Inscription Neon» de tu lista: el gran letrero luminoso «Gdańsk» junto al río, iluminado toda la noche (4,7 con 3.067 reseñas en Google). Desde Kubicki es cruzar la pasarela levadiza: ~2 min. La Grúa iluminada queda enfrente y la noria AmberSky a 150 m (funciona todo el año; Google la da sáb 10:00–24:00; ~42 zł por persona en 2026), si os apetece subir. A esa hora meteoblue da -6 °C con sensación de -12: luego, directos al piso (~20 min).",
           "tags": [
+            "gratis",
             "mirador"
           ],
-          "mapsQuery": "AmberSky, Ołowianka 1, Gdańsk"
+          "mapsQuery": "Gdansk Inscription Neon"
         }
       ]
     },
@@ -521,10 +522,6 @@
       {
         "label": "⛵ Galeón: por qué el sábado a las 11:00 y sin bajar",
         "value": "Salidas confirmadas en su web el viernes y el sábado a las 11:00, 13:00 y 15:00. La idea era la de las 15:00 del viernes para la puesta, pero con la previsión del 25 nov el viernes sale nublado todo el día (nubes bajas al 70 % a las 15:00 en Open-Meteo, 2 h de sol en todo el día en meteoblue): la puesta no se vería y la vuelta sería de noche, sin ver el puerto. El <strong>sábado a las 11:00</strong> es la ventana más despejada y en calma del viaje: se ven el puerto, los astilleros y Westerplatte con sol. <strong>Sin bajar en Westerplatte</strong>: bajarse obliga a esperar otro barco y os come el museo de la tarde. <strong>La lancha nocturna</strong>, descartada: el galeón es el plan con historia."
-      },
-      {
-        "label": "❓ 3 sitios de la captura que siguen sin identificar",
-        "value": "Resuelto: «Bread Bridge» es el Puente del Pan (Most Chlebowy) sobre el canal Radunia, ya en el sábado. Siguen sin identificar: uno que acaba en «…House» (debajo de Artus Court), un restaurante que empieza por «GRO…» y el último de la lista, que acaba en «…cania». Además, la «Crane Hill» que creí leer no existe en ninguna búsqueda; el mirador de Góra Gradowa del domingo va por su cuenta, no porque sea ese sitio. Pasádmelos escritos y los coloco."
       }
     ],
     "transport": [
@@ -608,7 +605,7 @@
       },
       {
         "label": "🛍️ Dónde comprarlos",
-        "value": "<strong>Dobra Pączkarnia</strong> (de vuestra lista): pączki, en el edificio del mercado cubierto (Plac Dominikański 1), 8–18. <strong>Pellowski</strong> (de vuestra lista): pastelería de Gdańsk con locales por el centro; tiene local en la calle Długa. <strong>Goldwasser</strong> (Długie Pobrzeże 22, vie–dom 11–22): botellas y estuches de regalo con bombones; la botella también está en supermercados. <strong>Mercadillo</strong>: puestos de productos regionales y de Pomerania, para pierniki y dulces para llevar. ⚠️ El <strong>domingo las tiendas cierran</strong>: compradlo viernes o sábado, o el domingo en el mercadillo."
+        "value": "<strong>Dobra Pączkarnia</strong> (de vuestra lista): pączki, en el edificio del mercado cubierto (Plac Dominikański 1), 8–18. <strong>Goldwasser</strong> (Długie Pobrzeże 22, vie–dom 11–22): botellas y estuches de regalo con bombones; la botella también está en supermercados. <strong>Mercadillo</strong>: puestos de productos regionales y de Pomerania, para pierniki y dulces para llevar. ⚠️ El <strong>domingo las tiendas cierran</strong>: compradlo viernes o sábado, o el domingo en el mercadillo."
       }
     ],
     "avisos": [
@@ -665,6 +662,15 @@
       "lng": 18.6504073,
       "desc": "El bar mleczny clásico del centro (Szeroka 8/10): 4,4 con casi 10.000 reseñas en Google, todos los días 8:00–18:00. Alternativa a Biała Mewa si está lleno.",
       "mapsQuery": "Bar Turystyczny, Szeroka 8, Gdańsk"
+    },
+    {
+      "id": "r.9",
+      "cat": "🏭 Astilleros",
+      "name": "100cznia",
+      "lat": 54.3637864,
+      "lng": 18.6450695,
+      "desc": "⭐ TU LISTA · Recinto de comida, bares y música en contenedores en los astilleros (Popiełuszki 5), a 5 min del ECS. Según Google: vie–sáb 10:00–1:00, dom 10:00–20:00; 4,8 con 10.567 reseñas. Alternativa a Montownia para la comida del viernes, o para una copa por la noche.",
+      "mapsQuery": "100cznia, Księdza Jerzego Popiełuszki 5, Gdańsk"
     }
   ],
   "cafes": [
@@ -685,13 +691,22 @@
       "desc": "Piwna 1/2, café-bar de culto con barra de mármol: vie–sáb 10:00–2:30 según Google (4,7 con 4.806 reseñas). Para una copa tranquila después del mercadillo."
     },
     {
-      "id": "c.5",
+      "id": "c.7",
       "cat": "🍰 Pastelerías",
-      "name": "Pellowski (Podwale Staromiejskie)",
-      "lat": 54.3535749,
-      "lng": 18.6535933,
-      "desc": "Otra Pellowski en el centro (Podwale Staromiejskie 81-82), sáb 7:00–18:00 y dom 7:00–17:00 según OpenStreetMap.",
-      "mapsQuery": "Pellowski, Podwale Staromiejskie 81, Gdańsk"
+      "name": "Cukiernia Płończak (túnel de Gdańsk Główny)",
+      "lat": 54.3558944,
+      "lng": 18.645695,
+      "desc": "⭐ TU LISTA · En el túnel de la estación central. Según Google: vie 6:30–18:00, sáb 7:00–14:30 y domingo cerrado; 3,3 con 73 reseñas. No la he metido en ningún día: el domingo, cuando pasáis por la estación, está cerrada.",
+      "mapsQuery": "Cukiernia Płończak Tunel Dworca Głównego Gdańsk"
+    },
+    {
+      "id": "c.8",
+      "cat": "☕ Oliwa",
+      "name": "SŁODKO Gdańsk",
+      "lat": 54.4086802,
+      "lng": 18.5579766,
+      "desc": "⭐ TU LISTA · Cafetería en Oliwa (Stary Rynek Oliwski 3), todos los días 8:00–18:00 y 4,6 con 120 reseñas en Google. Está a ~35 min del centro, junto al parque de Oliwa, que queda descartado: solo si al final vais allí.",
+      "mapsQuery": "SŁODKO Gdańsk, Stary Rynek Oliwski 3"
     }
   ],
   "discarded": [
@@ -740,7 +755,7 @@
       "name": "Parque y catedral de Oliwa",
       "lat": 54.4111282,
       "lng": 18.5625221,
-      "desc": "Parque con naranjal y catedral con órgano famoso, en el norte de la ciudad.",
+      "desc": "Parque con naranjal y catedral con órgano famoso, en el norte de la ciudad. El «Oliwa Park Residence» de tu lista es una casa de huéspedes de allí; vuestra nota apuntaba al naranjal o jardín botánico del parque.",
       "reason": "Unos 35 min en tranvía o SKM por trayecto. En noviembre el parque está pelado y no he encontrado conciertos de órgano en estas fechas (el festival es en verano). No compensa con 2,5 días.",
       "mapsQuery": "Park Oliwski, Gdańsk"
     },
@@ -786,6 +801,15 @@
       "reason": "El tríptico está fuera de exposición por estudio y conservación desde febrero de 2025, y su vuelta se ha retrasado al primer trimestre de 2027. Sin él no compensa frente a lo que ya tenéis.",
       "link": "https://www.mng.gda.pl/",
       "mapsQuery": "Muzeum Narodowe w Gdańsku, Toruńska 1"
+    },
+    {
+      "id": "d.13",
+      "name": "Crane M3 (grúa de los astilleros)",
+      "lat": 54.3642322,
+      "lng": 18.6534018,
+      "desc": "Grúa de los astilleros con plataforma mirador a ~30 m, junto a Ulica Elektryków (4,6 con 820 reseñas en Google). Subida por escaleras abiertas, en grupos de hasta 15, mayores de 15 años.",
+      "reason": "No he podido confirmar que abra esos días: Google da sáb–dom 10:00–18:30, pero una guía dice que solo abre en primavera y verano, las subidas se venden por tandas en Evenea y el horario depende del tiempo. El domingo da viento de 20–35 km/h. Si el sábado pasáis cerca y veis la taquilla abierta, adelante.",
+      "mapsQuery": "Crane M3, Gdańsk"
     }
   ]
 }
