@@ -1,5 +1,5 @@
 {
-  "_v": 15,
+  "_v": 16,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -151,10 +151,10 @@
           "id": "1.10",
           "time": "14:20",
           "dur": "1h 10min",
-          "name": "⭐ Centro Europeo de la Solidaridad (ECS) completo + astilleros",
+          "name": "⭐ Centro Europeo de la Solidaridad (ECS) + astilleros",
           "lat": 54.3613609,
           "lng": 18.6494189,
-          "desc": "El Centro Europeo de la Solidaridad (ECS): museo y centro cultural en los astilleros donde en agosto de 1980 empezaron las huelgas de las que salió Solidarność, el primer sindicato libre del bloque soviético, con Lech Wałęsa al frente; nueve años después, Polonia salía del comunismo. Se entra por la Puerta n.º 2 de los astilleros («Stocznia Gdańska» de tu lista), con el monumento a los obreros caídos en 1970 enfrente. Dentro, tu «biblioteca bonita moderna» (vie 11:00–16:00: id primero a ella) y la exposición permanente (vie 10:00–17:00, de pago; comprad online): siete salas que la web calcula en unas 2 h; a vuestro ritmo, con 1 h veis lo principal. A 5 min de Montownia.",
+          "desc": "El Centro Europeo de la Solidaridad (ECS): museo y centro cultural en los astilleros donde en agosto de 1980 empezaron las huelgas de las que salió Solidarność, el primer sindicato libre del bloque soviético, con Lech Wałęsa al frente; nueve años después, Polonia salía del comunismo. Se entra por la Puerta n.º 2 de los astilleros («Stocznia Gdańska» de tu lista), con el monumento a los obreros caídos en 1970 enfrente. A 5 min de Montownia. Plan A: primero tu «biblioteca bonita moderna» (vie 11:00–16:00) y luego la exposición permanente (vie 10:00–17:00, de pago), siete salas que la web calcula en unas 2 h: a vuestro ritmo, 1 h para lo principal. A las 15:20, subid al mirador de la azotea para la puesta de las 15:30 (la web lo abre vie 10:00–17:00 si el tiempo lo permite). Plan B, si la exposición no os tira: lo gratuito en media hora (puerta, monumento, biblioteca y edificio) y subid a Góra Gradowa, ~17 min a pie cuesta arriba pasando por la estación, para ver la puesta desde el Wysokie Skrzydło Kurkowe, el mirador que el Hevelianum anuncia como la mejor panorámica de la Ciudad Vieja y la Principal. De allí al Gran Arsenal ~16 min: llegáis a las 16:00 igual. Como no lo tenéis claro, comprad la entrada allí, en taquilla.",
           "tags": [
             "obligatorio"
           ],
@@ -509,7 +509,7 @@
           "name": "🌅 Góra Gradowa — mirador sobre la ciudad (opcional)",
           "lat": 54.357641,
           "lng": 18.6402587,
-          "desc": "La colina con el fuerte justo encima de la estación: vista de toda la ciudad y, con el día claro que da meteoblue, de la bahía. Desde la Hala ~17 min cuesta arriba y de aquí a la estación ~6 min cuesta abajo. Arriba está el Hevelianum (domingo 10:00–18:00 según Google; 4,5 con 1.985 reseñas). Si vais justos de hora, id directos a la estación.",
+          "desc": "La colina con el fuerte justo encima de la estación: vista de toda la ciudad y, con el día claro que da meteoblue, de la bahía. Desde la Hala ~17 min cuesta arriba y de aquí a la estación ~6 min cuesta abajo. Arriba está el Hevelianum, un centro de ciencia en el fuerte (domingo 10:00–18:00 según su web; 4,5 con 1.985 reseñas en Google). Si vais justos de hora, o si ya subisteis el viernes con el plan B del ECS, id directos a la estación.",
           "mapsQuery": "Góra Gradowa, Gdańsk",
           "tags": [
             "mirador",
@@ -595,7 +595,7 @@
       },
       {
         "label": "🕐 Horarios comprobados (webs oficiales)",
-        "value": "<strong>Museo de Gdańsk</strong> (Artus, Uphagen, Ayuntamiento): lun 10–16 gratis, <strong>mar cerrado</strong>, mié 10–16, jue 10–18, vie–dom 10–16; Artus cerrada el sáb 28. · <strong>Santa María</strong>: laborables 8:30–17:30, domingo 11–12 y 13–17:30; torre 10–18. · <strong>Grúa Żuraw</strong>: jue–dom 9–17. · <strong>ECS</strong>: exposición vie 10–17 y sáb–dom 10–18 (cierra mar); biblioteca vie 11–16, sáb 11–15, dom cerrada. · <strong>Museo de la II Guerra Mundial</strong>: mié–dom 10–18 (taquilla hasta las 17:00), mar 10–16, lun cerrado. · <strong>«Sołdek»</strong> (barco-museo): jue–dom 10–16. · <strong>Goldwasser</strong>: vie–dom 11–22. · <strong>Mercadillo</strong>: vie–sáb 12–21, dom 12–20. · <strong>Cafés y restaurantes (Google Maps, 25 nov)</strong>: Leń vie–sáb 9–19; Drukarnia vie–sáb 8–21:30, dom 8–20; Cafe Luis dom 8–20; Dobra Pączkarnia 8–18; Sips 9–18; 1505 sáb 9–21; Biała Mewa 8–20; Montownia desde las 7; Mandu 11–22; Kubicki sáb 12–23; Hala Targowa Enjoy dom 9–23; AmberSky sáb 10–24; Hevelianum dom 10–18; torre de Santa María 10–18."
+        "value": "<strong>Museo de Gdańsk</strong> (Artus, Uphagen, Ayuntamiento): lun 10–16 gratis, <strong>mar cerrado</strong>, mié 10–16, jue 10–18, vie–dom 10–16; Artus cerrada el sáb 28. · <strong>Santa María</strong>: laborables 8:30–17:30, domingo 11–12 y 13–17:30; torre 10–18. · <strong>Grúa Żuraw</strong>: jue–dom 9–17. · <strong>ECS</strong>: exposición vie 10–17 y sáb–dom 10–18 (cierra mar); biblioteca vie 11–16, sáb 11–15, dom cerrada; mirador de la azotea vie 10–17 si el tiempo lo permite. · <strong>Hevelianum</strong> (Góra Gradowa): vie 8–16, dom 10–18. · <strong>Museo de la II Guerra Mundial</strong>: mié–dom 10–18 (taquilla hasta las 17:00), mar 10–16, lun cerrado. · <strong>«Sołdek»</strong> (barco-museo): jue–dom 10–16. · <strong>Goldwasser</strong>: vie–dom 11–22. · <strong>Mercadillo</strong>: vie–sáb 12–21, dom 12–20. · <strong>Cafés y restaurantes (Google Maps, 25 nov)</strong>: Leń vie–sáb 9–19; Drukarnia vie–sáb 8–21:30, dom 8–20; Cafe Luis dom 8–20; Dobra Pączkarnia 8–18; Sips 9–18; 1505 sáb 9–21; Biała Mewa 8–20; Montownia desde las 7; Mandu 11–22; Kubicki sáb 12–23; Hala Targowa Enjoy dom 9–23; AmberSky sáb 10–24; torre de Santa María 10–18."
       }
     ],
     "temporada": [
