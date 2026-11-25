@@ -52,9 +52,16 @@ Duración, horas de llegada y salida se sacan de los vuelos. Todo lo demás lo d
   interior el día cubierto y lo que depende del sol (playa, miradores) el día despejado.
 - **Tarjeta turística**: haz la cuenta con las entradas que de verdad hay en el plan.
 
-Fuentes: web oficial primero; OSM para horarios de cafés y restaurantes; blogs solo como último
+Fuentes: web oficial primero; para cafés y restaurantes, **la ficha de Google Maps** abierta en el
+navegador (rechazar cookies; la vista limitada muestra horario semanal, nota y si está «Cerrado
+permanentemente/temporalmente»). OSM sirve para coordenadas, no para horarios: en Gdańsk tenía mal
+el horario de Leń y no sabía que dos sitios de la lista estaban cerrados. Blogs solo como último
 recurso y diciéndolo. Si algo no se puede confirmar, escríbelo así en el `desc` («no he podido
 confirmarlo») en vez de afirmarlo.
+- **Repaso final contra la lista del usuario**: cada sitio de la captura debe estar en un día, en
+  una colección o en descartados con su motivo; los nombres dudosos se buscan, no se adivinan.
+- **Eventos con hora** (conciertos, cantos, desfiles): busca el programa oficial del organizador,
+  no la nota de prensa; los lugares y horas pueden diferir.
 
 ### 4. Organizar por días
 Las reglas de ritmo, comidas, miradores, día/noche y walking-first están en
