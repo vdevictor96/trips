@@ -1,5 +1,5 @@
 {
-  "_v": 13,
+  "_v": 14,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -47,7 +47,7 @@
           "name": "⭐ Basílica de Santa María + torre-mirador",
           "lat": 54.3498079,
           "lng": 18.6530094,
-          "desc": "A 2 min de Leń. La torre abre a las 10:00 (400 y pico escalones, 20 zł). La web de la basílica y Google la dan 10:00–18:00; alguna guía da 10:00–16:00 en invierno y la cierran con tormenta, viento fuerte o helada: a las 10:00 vais bien: la vista de los tejados y el río es la mejor de la ciudad. Basílica laborables 8:30–17:30. Al salir, la Capilla Real (de tu lista) está pegada, en la calle Św. Ducha.",
+          "desc": "A 2 min de Leń. La torre abre a las 10:00 (400 y pico escalones, 20 zł). La web de la basílica y Google la dan 10:00–18:00; alguna guía da 10:00–16:00 en invierno y la cierran con tormenta, viento fuerte o helada: a las 10:00 vais bien: la vista de los tejados y el río es la mejor de la ciudad. Basílica laborables 8:30–17:30. Al salir, la Capilla Real (de tu lista) está pegada, en la calle Św. Ducha. Si la torre está cerrada por el hielo, tenéis vistas de noche desde la noria AmberSky el sábado (junto al neón) y de día desde Góra Gradowa el domingo.",
           "tags": [
             "obligatorio",
             "mirador"
@@ -133,7 +133,7 @@
           "name": "⭐ Grúa del puerto (Żuraw) por dentro",
           "lat": 54.3505596,
           "lng": 18.6574831,
-          "desc": "La grúa medieval del puerto con su mecanismo de ruedas, parte del Museo Marítimo: vie 9:00–17:00, ~20 zł según guías. Después, por la orilla hacia los astilleros (~20 min).",
+          "desc": "La grúa medieval del puerto con su mecanismo de ruedas, parte del Museo Marítimo: vie 9:00–17:00, 23 zł (web del Museo Marítimo). Después, por la orilla hacia los astilleros (~20 min).",
           "mapsQuery": "Żuraw, Szeroka 67/68, Gdańsk",
           "link": "https://nmm.pl/en/visit/opening-hours"
         },
@@ -280,7 +280,7 @@
           "name": "⛵ Galeón por el Motława hasta Westerplatte (11:00)",
           "lat": 54.3491099,
           "lng": 18.6564232,
-          "desc": "El «paseo en barco» de Maitena, a la hora con más sol del viaje: meteoblue y Open-Meteo dan el sábado por la mañana despejado y casi sin viento (-3 °C, sensación -6). Galeón Czarna Perła, salida 11:00 desde Długie Pobrzeże 11, junto al restaurante Gdański Bowke: llegad a las 10:30 (piden embarcar 30 min antes para coger buen sitio). 80 min por el puerto, los astilleros y la fortaleza de Wisłoujście hasta Westerplatte, con comentario en directo (también en inglés) a la ida, música en directo a la vuelta y bar a bordo. Ida y vuelta sin bajar, 106,22 zł por adulto. Las entradas online se cambian en la taquilla por la versión en papel. Abrigaos de verdad. A la venta en Ekobilet (la web no indica plazas libres) y también en la taquilla del embarcadero; su ficha no dice qué pasa si se cancela por mal tiempo.",
+          "desc": "El «paseo en barco» de Maitena, a la hora con más sol del viaje: meteoblue y Open-Meteo dan el sábado por la mañana despejado y casi sin viento (-3 °C, sensación -6). Galeón Czarna Perła, salida 11:00 desde Długie Pobrzeże 11, junto al restaurante Gdański Bowke: llegad a las 10:30 (piden embarcar 30 min antes para coger buen sitio). 80 min por el puerto, los astilleros y la fortaleza de Wisłoujście hasta Westerplatte, con comentario en directo (también en inglés) a la ida, música en directo a la vuelta y bar a bordo. Ida y vuelta sin bajar, 106,22 zł por adulto. Las entradas online se cambian en la taquilla por la versión en papel. Abrigaos de verdad. A la venta en Ekobilet (la web no indica plazas libres) y también en la taquilla del embarcadero; su ficha no dice qué pasa si se cancela por mal tiempo. Plan B si no sale: el «Sołdek», a ~6 min del embarcadero, el barco-museo del Museo Marítimo y primer buque de altura construido en Polonia después de la guerra, con bodegas y sala de máquinas (sáb 10:00–16:00, 23 zł; entradas en el Centro de Cultura Marítima, Tokarska 21/25, junto a la Grúa). La comida y el museo de la tarde siguen igual.",
           "tags": [
             "obligatorio",
             "reservar",
@@ -455,7 +455,7 @@
         },
         {
           "id": "3.4",
-          "time": "11:10",
+          "time": "11:05",
           "dur": "45 min",
           "name": "🏛️ Ayuntamiento por dentro (Ratusz Głównego Miasta)",
           "lat": 54.3488947,
@@ -467,7 +467,7 @@
         {
           "id": "3.5",
           "time": "12:00",
-          "dur": "25 min",
+          "dur": "20 min",
           "name": "🎄 Última vuelta al mercadillo: dulces para llevar",
           "lat": 54.3481523,
           "lng": 18.6480323,
@@ -582,7 +582,7 @@
       },
       {
         "label": "🕐 Horarios comprobados (webs oficiales)",
-        "value": "<strong>Museo de Gdańsk</strong> (Artus, Uphagen, Ayuntamiento): lun 10–16 gratis, <strong>mar cerrado</strong>, mié 10–16, jue 10–18, vie–dom 10–16; Artus cerrada el sáb 28. · <strong>Santa María</strong>: laborables 8:30–17:30, domingo 11–12 y 13–17:30; torre 10–18. · <strong>Grúa Żuraw</strong>: jue–dom 9–17. · <strong>ECS</strong>: exposición vie 10–17 y sáb–dom 10–18 (cierra mar); biblioteca vie 11–16, sáb 11–15, dom cerrada. · <strong>Museo de la II Guerra Mundial</strong>: mié–dom 10–18 (taquilla hasta las 17:00), mar 10–16, lun cerrado. · <strong>Goldwasser</strong>: vie–dom 11–22. · <strong>Mercadillo</strong>: vie–sáb 12–21, dom 12–20. · <strong>Cafés y restaurantes (Google Maps, 25 nov)</strong>: Leń vie–sáb 9–19; Drukarnia vie–sáb 8–21:30, dom 8–20; Cafe Luis dom 8–20; Dobra Pączkarnia 8–18; kompozyt vie 9–19; zavod 9–18; Biała Mewa 8–20; Montownia desde las 7; Mandu 11–22; Kubicki sáb 12–23; Hala Targowa Enjoy dom 9–23; AmberSky sáb 10–24; Hevelianum dom 10–18; torre de Santa María 10–18."
+        "value": "<strong>Museo de Gdańsk</strong> (Artus, Uphagen, Ayuntamiento): lun 10–16 gratis, <strong>mar cerrado</strong>, mié 10–16, jue 10–18, vie–dom 10–16; Artus cerrada el sáb 28. · <strong>Santa María</strong>: laborables 8:30–17:30, domingo 11–12 y 13–17:30; torre 10–18. · <strong>Grúa Żuraw</strong>: jue–dom 9–17. · <strong>ECS</strong>: exposición vie 10–17 y sáb–dom 10–18 (cierra mar); biblioteca vie 11–16, sáb 11–15, dom cerrada. · <strong>Museo de la II Guerra Mundial</strong>: mié–dom 10–18 (taquilla hasta las 17:00), mar 10–16, lun cerrado. · <strong>«Sołdek»</strong> (barco-museo): jue–dom 10–16. · <strong>Goldwasser</strong>: vie–dom 11–22. · <strong>Mercadillo</strong>: vie–sáb 12–21, dom 12–20. · <strong>Cafés y restaurantes (Google Maps, 25 nov)</strong>: Leń vie–sáb 9–19; Drukarnia vie–sáb 8–21:30, dom 8–20; Cafe Luis dom 8–20; Dobra Pączkarnia 8–18; kompozyt vie 9–19; zavod 9–18; Biała Mewa 8–20; Montownia desde las 7; Mandu 11–22; Kubicki sáb 12–23; Hala Targowa Enjoy dom 9–23; AmberSky sáb 10–24; Hevelianum dom 10–18; torre de Santa María 10–18."
       }
     ],
     "temporada": [
@@ -592,7 +592,7 @@
       },
       {
         "label": "🗓️ Vuestras tres vueltas",
-        "value": "<strong>Vie</strong>: Gran Arsenal, Targ Węglowy y el árbol del Forum, al anochecer. <strong>Sáb</strong>: Tkacka, Garbary/Ogarna y Długa con los cantos de Adviento. <strong>Dom</strong>: Bogusławskiego y el Tren Mágico para comer y comprar dulces."
+        "value": "<strong>Vie, de noche</strong>: Gran Arsenal, Targ Węglowy, el Rincón del Tren Mágico y la Puerta de Adviento, y el árbol del Forum. <strong>Sáb, de noche</strong>: Tkacka, Garbary/Ogarna y Długa con los cantos de Adviento. <strong>Dom, de día</strong>: Bogusławskiego y la Puerta de Adviento para los últimos dulces."
       },
       {
         "label": "🎶 Sábado 28: cantos de Adviento",
@@ -844,7 +844,7 @@
       "lat": 54.0400178,
       "lng": 19.0278182,
       "desc": "Sede de la Orden Teutónica, el castillo de ladrillo más grande del mundo, a 25–60 min en tren. En invierno, Ruta Histórica mar–dom 9–16, último acceso 12:45, 80 zł.",
-      "reason": "Lo descartasteis vosotros tras hacer la balanza: costaba la mañana entera del sábado (~6 h 45 min fuera, 2 h de trayectos), madrugar a las 7:30, comer con prisa y empujar Uphagen y el Ayuntamiento al domingo, que es lo que Sopot dejaba sin ver. Sin él, el sábado es de museos con calma y el domingo de playa ya no cuesta casi nada.",
+      "reason": "Lo descartasteis vosotros tras hacer la balanza: costaba la mañana entera del sábado (~6 h 45 min fuera, 2 h de trayectos), madrugar a las 7:30, comer con prisa y empujar Uphagen y el Ayuntamiento al domingo. Sin él, el sábado es del galeón con sol y del Museo de la II Guerra Mundial con calma.",
       "link": "https://zamek.malbork.pl/en/opening-hours/",
       "mapsQuery": "Zamek w Malborku"
     },
@@ -863,7 +863,7 @@
       "lat": 54.3541593,
       "lng": 18.6499976,
       "desc": "Ahora dentro del Gran Molino.",
-      "reason": "Lo pusisteis vosotros: «típico pero no me interesa». Lo veis por fuera el domingo.",
+      "reason": "Lo pusisteis vosotros: «típico pero no me interesa». Lo veis por fuera el sábado por la mañana: está dentro del Gran Molino.",
       "mapsQuery": "Muzeum Bursztynu, Wielki Młyn, Gdańsk"
     },
     {
@@ -881,7 +881,7 @@
       "lat": 54.3488736,
       "lng": 18.643381,
       "desc": "Centro comercial junto a la Puerta Alta.",
-      "reason": "Es un centro comercial. Pasáis al lado camino del mercadillo, y el domingo está cerrado (domingo sin comercio)."
+      "reason": "Es un centro comercial. La plaza de delante, con el gran árbol de Navidad, sí la veis el viernes por la noche; y el domingo está cerrado (domingo sin comercio)."
     },
     {
       "id": "d.5",
