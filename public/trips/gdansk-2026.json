@@ -1,5 +1,5 @@
 {
-  "_v": 18,
+  "_v": 19,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -27,7 +27,7 @@
       "id": 1,
       "tab": "Día 1 · Vie 27",
       "title": "Ruta Real, ECS y Grúa por dentro + primer mercadillo 🎄",
-      "subtitle": "Viernes 27 nov · Llegáis al piso a la 1:00 → arranque tranquilo a las 9:00 · Luz 7:35–15:29 · Previsión del 27 nov: 1/-4 °C y seco; meteoblue lo da nublado todo el día, y ECMWF, GFS y Météo-France despejando a partir de las 15:00 → interiores por la tarde y la puesta, si se abre, desde el ECS · Mercadillo 12–21h",
+      "subtitle": "Viernes 27 nov · Llegáis al piso a la 1:00 → arranque tranquilo a las 9:00 · Luz 7:35–15:29 · Hoy a las 9:00 el aeropuerto da cielo cubierto con nubes bajas a ~430 m, y su previsión lo mantiene así hasta mañana: día gris y seco, 1/-4 °C → interiores por la tarde; la puesta no se verá · Mercadillo 12–21h",
       "places": [
         {
           "id": "1.1",
@@ -219,7 +219,7 @@
       "id": 2,
       "tab": "Día 2 · Sáb 28",
       "title": "Galeón con sol, Museo de la II Guerra Mundial y cantos de Adviento ⛵",
-      "subtitle": "Sábado 28 nov · Previsión del 27 nov: -3/-6 °C, seco y casi sin viento; meteoblue lo da mayormente nublado y sin sol, y ECMWF, GFS y Météo-France despejado todo el día → galeón a las 11:00 · Museo de la II Guerra Mundial 13:15–14:50 · Puesta de sol desde la torre de Santa María (15:29) · Cantos de Adviento 18:00 en Santa Catalina · Artus cerrada hoy",
+      "subtitle": "Sábado 28 nov · Previsión del 27 nov: -3/-6 °C, seco y casi sin viento; meteoblue lo da gris y sin sol; de once modelos, siete abren el cielo por la tarde y cuatro lo dejan gris → galeón a las 11:00 · Museo de la II Guerra Mundial 13:15–14:50 · Puesta de sol desde la torre de Santa María (15:29) · Cantos de Adviento 18:00 en Santa Catalina · Artus cerrada hoy",
       "places": [
         {
           "id": "2.1",
@@ -321,7 +321,7 @@
           "name": "🌅 Torre de Santa María — la puesta de sol desde arriba",
           "lat": 54.3498079,
           "lng": 18.6530094,
-          "desc": "El mirador del viaje, en el día despejado: la previsión del 27 nov no se pone de acuerdo: ECMWF, GFS y Météo-France dan el sábado despejado, y meteoblue e ICON, nubes bajas todo el día. La puesta es a las 15:29. Desde el museo ~15 min a pie; luego 400 y pico escalones, 20 zł. Según la web de la basílica, la torre abre todos los días de 10:00 a 18:00 y cierra con mal tiempo, sobre todo con tormenta. Si al salir del museo está gris, no habrá puesta: quedaos en el museo hasta las 15:15, merendad en 1505 a las 15:30 y subid a la torre a las 16:00, con la ciudad ya encendida (abre hasta las 18:00); al mercadillo llegáis igual a las 16:45. Si la torre estuviera cerrada, la noria AmberSky está a ~12 min y llegáis con la última luz.",
+          "desc": "El mirador del viaje, en el día despejado: la previsión del viernes no se pone de acuerdo: meteoblue da el sábado gris y, de once modelos, siete lo despejan por la tarde y cuatro lo dejan gris. La puesta es a las 15:29. Desde el museo ~15 min a pie; luego 400 y pico escalones, 20 zł. Según la web de la basílica, la torre abre todos los días de 10:00 a 18:00 y cierra con mal tiempo, sobre todo con tormenta. Si al salir del museo está gris, no habrá puesta: quedaos en el museo hasta las 15:15, merendad en 1505 a las 15:30 y subid a la torre a las 16:00, con la ciudad ya encendida (abre hasta las 18:00); al mercadillo llegáis igual a las 16:45. Si la torre estuviera cerrada, la noria AmberSky está a ~12 min y llegáis con la última luz.",
           "tags": [
             "mirador",
             "obligatorio"
