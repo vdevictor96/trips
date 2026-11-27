@@ -1,5 +1,5 @@
 {
-  "_v": 20,
+  "_v": 21,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -140,17 +140,17 @@
         {
           "id": "1.9",
           "time": "14:20",
-          "dur": "35 min",
-          "name": "🍽️ Montownia Food Hall — comida",
+          "dur": "10 min",
+          "name": "🏭 Montownia Food Hall (de paso)",
           "lat": 54.3596176,
           "lng": 18.6541806,
-          "desc": "De tu lista. Antigua nave del astillero convertida en food hall, junto al ECS; abre todos los días desde las 7:00. Comida rápida: el ECS va justo después.",
+          "desc": "De tu lista. Antigua nave del astillero convertida en zona de comida, junto al ECS. Hoy coméis más tarde en Biała Mewa: pasad a verla, o tomad algo si tenéis hambre.",
           "mapsQuery": "Montownia Food Hall, Lisia Grobla 7, Gdańsk"
         },
         {
           "id": "1.10",
           "time": "15:05",
-          "dur": "1h 10min",
+          "dur": "55 min",
           "name": "⭐ Centro Europeo de la Solidaridad (ECS) + astilleros",
           "lat": 54.3613609,
           "lng": 18.6494189,
@@ -163,12 +163,22 @@
         },
         {
           "id": "1.11",
-          "time": "16:40",
-          "dur": "25 min",
+          "time": "16:25",
+          "dur": "45 min",
+          "name": "🥣 Bar Mleczny Biała Mewa — comida polaca",
+          "lat": 54.3511519,
+          "lng": 18.6549343,
+          "desc": "Desde el ECS ~22 min a pie. Plan autóctono: un bar mleczny («bar de leche») es la cantina barata de comida casera polaca de toda la vida: pierogi, sopas, chuletas. Tandeta 1, junto a la calle Szeroka; todos los días 8:00–20:00 y 4,7 con 1.200 reseñas en Google. Se sirve rápido. Si está lleno, el clásico Bar Turystyczny (Szeroka 8/10) está a 5 min. Del bar al Gran Arsenal, ~8 min.",
+          "mapsQuery": "Bar Mleczny Biała Mewa, Szeroka, Gdańsk"
+        },
+        {
+          "id": "1.12",
+          "time": "17:20",
+          "dur": "30 min",
           "name": "🎄 Gran Arsenal (Wielka Zbrojownia) — mercadillo a cubierto",
           "lat": 54.3506998,
           "lng": 18.6490454,
-          "desc": "Desde el ECS ~22 min a pie por la Ciudad Vieja, ya de noche. Primera vuelta al mercadillo de Navidad (20 nov–23 dic, vie–sáb 12–21h, entrada libre). El Gran Arsenal («La Gran Armería» y «Academy of Fine Arts» de tu lista: es el mismo edificio) tiene dentro los puestos de artesanos, a cubierto.",
+          "desc": "Desde Biała Mewa ~8 min a pie, ya de noche. Primera vuelta al mercadillo de Navidad (20 nov–23 dic, vie–sáb 12–21h, entrada libre). El Gran Arsenal («La Gran Armería» y «Academy of Fine Arts» de tu lista: es el mismo edificio) tiene dentro los puestos de artesanos, a cubierto.",
           "tags": [
             "obligatorio",
             "gratis"
@@ -177,41 +187,18 @@
           "mapsQuery": "Wielka Zbrojownia, Gdańsk"
         },
         {
-          "id": "1.12",
-          "time": "17:10",
-          "dur": "30 min",
-          "name": "☕ Sips — merienda",
-          "lat": 54.3505039,
-          "lng": 18.6516405,
-          "desc": "De vuestra lista de cafés: 4,8 con 389 reseñas en Google. Św. Ducha 38, a ~3 min del Gran Arsenal; todos los días 9:00–18:00 (Google). Media hora y de vuelta al mercadillo, a ~5 min.",
-          "tags": [
-            "obligatorio"
-          ],
-          "mapsQuery": "Sips.Gdansk, Świętego Ducha 38"
-        },
-        {
           "id": "1.13",
-          "time": "17:45",
-          "dur": "1h 05min",
-          "name": "🎄 Mercadillo: Targ Węglowy + árbol del Forum",
+          "time": "17:55",
+          "dur": "1h 45min",
+          "name": "🎄 Mercadillo: Targ Węglowy, árbol del Forum y cena en los puestos",
           "lat": 54.3511475,
           "lng": 18.6480111,
-          "desc": "Escenario, carruseles y la zona principal; Papá Noel recibe aquí cada día de 15:00 a 18:00. Acercaos también, a ~6 min, al Rincón del Tren Mágico (calle Bogusławskiego) y a la Puerta de Adviento, junto al Teatro Shakespeare: así los veis de noche; el domingo volvéis de día. Cruzad las murallas hasta la plaza del Forum Gdańsk para ver el gran árbol de Navidad, que es otra de las zonas del mercadillo. Vino caliente (grzaniec) en taza de porcelana con 30 zł de fianza (se devuelve en Targ Węglowy o en ul. Zbytki). La mayoría de puestos aceptan tarjeta, no todos: llevad algo de efectivo. Cajero en la esquina de la Katownia.",
+          "desc": "Cena en el propio mercadillo, entre puestos. Escenario, carruseles y la zona principal; Papá Noel recibe aquí cada día de 15:00 a 18:00. Acercaos también, a ~6 min, al Rincón del Tren Mágico (calle Bogusławskiego) y a la Puerta de Adviento, junto al Teatro Shakespeare: así los veis de noche; el domingo volvéis de día. Cruzad las murallas hasta la plaza del Forum Gdańsk para ver el gran árbol de Navidad, que es otra de las zonas del mercadillo. Vino caliente (grzaniec) en taza de porcelana con 30 zł de fianza (se devuelve en Targ Węglowy o en ul. Zbytki). La mayoría de puestos aceptan tarjeta, no todos: llevad algo de efectivo. Cajero en la esquina de la Katownia. Para cenar, el Rincón del Tren Mágico tiene comida en vagones-contenedor y el Rincón Teatral, junto al Teatro Shakespeare, un foodcourt; hay zonas cubiertas y con calefacción. Del mercadillo al piso, ~5 min.",
           "tags": [
             "obligatorio",
             "gratis"
           ],
           "mapsQuery": "Targ Węglowy, Gdańsk"
-        },
-        {
-          "id": "1.14",
-          "time": "19:00",
-          "dur": "1h 15min",
-          "name": "🥟 Pierogarnia Mandu — cena",
-          "lat": 54.353753,
-          "lng": 18.6467207,
-          "desc": "De la lista. Pierogi de todo tipo (Elżbietańska 4/8), abre 11–22. A 5 min de Targ Węglowy. Viernes de mercadillo: reservad o id puntuales. Vuelta al piso ~12 min a pie.",
-          "mapsQuery": "Pierogarnia Mandu, Elżbietańska 4/8, Gdańsk"
         }
       ]
     },
@@ -219,7 +206,7 @@
       "id": 2,
       "tab": "Día 2 · Sáb 28",
       "title": "Galeón con sol, Museo de la II Guerra Mundial y cantos de Adviento ⛵",
-      "subtitle": "Sábado 28 nov · Previsión del 27 nov: -3/-6 °C, seco y casi sin viento; meteoblue lo da gris y sin sol; de once modelos, siete abren el cielo por la tarde y cuatro lo dejan gris → galeón a las 11:00 · Museo de la II Guerra Mundial 13:15–14:50 · Puesta de sol desde la torre de Santa María (15:29) · Cantos de Adviento 18:00 en Santa Catalina · Artus cerrada hoy",
+      "subtitle": "Sábado 28 nov · Previsión del 27 nov: -3/-6 °C, seco y casi sin viento; meteoblue lo da gris y sin sol; de once modelos, siete abren el cielo por la tarde y cuatro lo dejan gris → galeón a las 11:00 · Museo de la II Guerra Mundial 13:20–14:50 · Puesta de sol desde la torre de Santa María (15:29) · Cantos de Adviento 18:00 en Santa Catalina · Artus cerrada hoy",
       "places": [
         {
           "id": "2.1",
@@ -292,21 +279,24 @@
         {
           "id": "2.6",
           "time": "12:30",
-          "dur": "30 min",
-          "name": "🥣 Bar Mleczny Biała Mewa — comida polaca",
-          "lat": 54.3511519,
-          "lng": 18.6549343,
-          "desc": "A 5 min del embarcadero. Plan autóctono: un bar mleczny («bar de leche») es la cantina barata de comida casera polaca de toda la vida: pierogi, sopas, chuletas. Tandeta 1, junto a la calle Szeroka; todos los días 8:00–20:00 y 4,7 con 1.200 reseñas en Google. Se sirve rápido. Si está lleno, el clásico Bar Turystyczny (Szeroka 8/10) está a 5 min.",
-          "mapsQuery": "Bar Mleczny Biała Mewa, Szeroka, Gdańsk"
+          "dur": "35 min",
+          "name": "🥟 Pierogarnia Stary Młyn — pierogi",
+          "lat": 54.3501302,
+          "lng": 18.654567,
+          "desc": "De tu lista. Pierogi en Św. Ducha 64, a ~4 min del embarcadero; abre a las 8:00 y cierra hacia las 23:00 según Google (4,6 con más de 17.000 reseñas). Sábado a mediodía: id directos al bajar del barco. De aquí al museo, ~15 min.",
+          "tags": [
+            "obligatorio"
+          ],
+          "mapsQuery": "Pierogarnia Stary Młyn, Świętego Ducha 64, Gdańsk"
         },
         {
           "id": "2.7",
-          "time": "13:15",
-          "dur": "1h 35min",
+          "time": "13:20",
+          "dur": "1h 30min",
           "name": "⭐ Museo de la Segunda Guerra Mundial",
           "lat": 54.3559415,
           "lng": 18.6611212,
-          "desc": "Imprescindible para Maitena. Desde Szeroka ~15 min a pie por la ribera. Sábado 10:00–18:00 y la taquilla cierra a las 17:00: con 1h35, a vuestro ritmo, veis lo principal de la exposición permanente. Salid a las 14:50 para subir a la torre de Santa María a la puesta. Las entradas van por franja de entrada: comprad la de 13:00–14:00 (hay que entrar dentro de esa hora y luego os podéis quedar hasta el cierre). 33 zł normal en la web oficial; el 25 nov esa franja tenía más de 99 entradas libres online. Cierra los lunes.",
+          "desc": "Imprescindible para Maitena. Desde Szeroka ~15 min a pie por la ribera. Sábado 10:00–18:00 y la taquilla cierra a las 17:00: con 1h30, a vuestro ritmo, veis lo principal de la exposición permanente. Salid a las 14:50 para subir a la torre de Santa María a la puesta. Las entradas van por franja de entrada: comprad la de 13:00–14:00 (hay que entrar dentro de esa hora y luego os podéis quedar hasta el cierre). 33 zł normal en la web oficial; el 25 nov esa franja tenía más de 99 entradas libres online. Cierra los lunes.",
           "tags": [
             "obligatorio",
             "reservar"
@@ -399,22 +389,24 @@
         {
           "id": "2.14",
           "time": "19:30",
-          "dur": "1h 15min",
-          "name": "🍽️ Kubicki — cena de cocina de Gdańsk",
-          "lat": 54.353717,
-          "lng": 18.6592615,
-          "desc": "Plan autóctono: restaurante clásico junto al río (Wartka 5), de los más antiguos de Gdańsk (las guías lo datan en 1918). Es el sitio para la czernina (sopa casubia de pato) y los platos de toda la vida. Sábado 12:00–23:00 y 4,5 con 2.239 reseñas en Google. Sábado: reservad. El concierto de las 20:00 en la Puerta de Adviento os pilla cenando.",
-          "link": "https://www.inyourpocket.com/gdansk/kubicki_15997v",
-          "mapsQuery": "Restauracja Kubicki, Wartka 5, Gdańsk"
+          "dur": "1h",
+          "name": "🍕 OSTRO — pizza napolitana",
+          "lat": 54.3496494,
+          "lng": 18.6568951,
+          "desc": "De tu lista. Pizza napolitana en Długie Pobrzeże 15, junto a la ribera y a 1 min de Goldwasser; sábado 11:00–23:00 y 4,6 con 7.253 reseñas en Google. Sábado de mercadillo: reservad o id puntuales. El concierto de las 20:00 en la Puerta de Adviento os pilla cenando.",
+          "tags": [
+            "obligatorio"
+          ],
+          "mapsQuery": "Ostro Pizza Napoletana, Gdańsk"
         },
         {
           "id": "2.15",
-          "time": "20:50",
+          "time": "20:45",
           "dur": "20 min",
           "name": "✨ Neón «Gdańsk» en la isla de Ołowianka",
           "lat": 54.3529362,
           "lng": 18.6599285,
-          "desc": "El «Gdansk Inscription Neon» de tu lista: el gran letrero luminoso «Gdańsk» junto al río, iluminado toda la noche (4,7 con 3.067 reseñas en Google). Desde Kubicki es cruzar la pasarela levadiza: ~2 min. La Grúa iluminada queda enfrente y la noria AmberSky a 150 m, si os apetece subir de noche (Google la da sáb 10:00–24:00; ~42 zł por persona en 2026). A esa hora meteoblue da -6 °C con sensación de -12: luego, directos al piso (~20 min).",
+          "desc": "El «Gdansk Inscription Neon» de tu lista: el gran letrero luminoso «Gdańsk» junto al río, iluminado toda la noche (4,7 con 3.067 reseñas en Google). Desde OSTRO, ~10 min por la ribera hasta la pasarela levadiza, junto a Kubicki. La Grúa iluminada queda enfrente y la noria AmberSky a 150 m, si os apetece subir de noche (Google la da sáb 10:00–24:00; ~42 zł por persona en 2026). A esa hora meteoblue da -6 °C con sensación de -12: luego, directos al piso (~20 min).",
           "tags": [
             "gratis",
             "mirador"
@@ -591,8 +583,8 @@
         "value": "El plan da por hecho que <strong>no</strong> podéis dejarlas en el piso (check-out 11:00): van a las <strong>taquillas automáticas 24 h de Gdańsk Główny</strong>, que os pillan de camino al desayuno y justo debajo del mirador de Góra Gradowa; el Bolt al aeropuerto sale de allí. Plan B en la misma estación: consigna con personal, todos los días 8:30–19:30, tel. 606 990 490. Plan C: Bounce o Radical Storage desde ~15 zł/maleta. Si el anfitrión os deja, mejor: preguntadle igualmente."
       },
       {
-        "label": "🍽️ Cenas de viernes y sábado",
-        "value": "Fin de semana de mercadillo con el centro lleno: reservad <strong>Pierogarnia Mandu</strong> (vie 19:00) y <strong>Kubicki</strong> (sáb 19:30) si podéis, o id puntuales."
+        "label": "🍽️ Cena del sábado",
+        "value": "Sábado de mercadillo con el centro lleno: reservad <strong>OSTRO</strong> (pizza napolitana, sáb 19:30) si podéis, o id puntuales. El viernes cenáis en el mercadillo y la comida del sábado es en Stary Młyn, sin reserva."
       },
       {
         "label": "🕐 Horarios comprobados (webs oficiales)",
@@ -628,7 +620,7 @@
     "food": [
       {
         "label": "🥟 Qué probar",
-        "value": "<strong>Pierogi</strong> (Mandu, Stary Młyn) · <strong>żurek</strong> (sopa agria de centeno) · <strong>czernina</strong>, sopa casubia de pato (Kubicki) · <strong>arenque a la casubia</strong> (śledź po kaszubsku) · <strong>grzaniec</strong>, vino caliente del mercadillo · y en un <strong>bar mleczny</strong>, la cantina barata de siempre (Biała Mewa, en Restauración)."
+        "value": "<strong>Pierogi</strong> (Mandu, Stary Młyn) · <strong>żurek</strong> (sopa agria de centeno) · <strong>czernina</strong>, sopa casubia de pato (Kubicki, en Restauración) · <strong>arenque a la casubia</strong> (śledź po kaszubsku) · <strong>grzaniec</strong>, vino caliente del mercadillo · y en un <strong>bar mleczny</strong>, la cantina barata de siempre (Biała Mewa, la comida del viernes)."
       },
       {
         "label": "🍬 Dulces típicos",
@@ -660,15 +652,6 @@
   },
   "restaurants": [
     {
-      "id": "r.3",
-      "cat": "🍕 Otros de la lista",
-      "name": "OSTRO Pizza Napoletana",
-      "lat": 54.3496494,
-      "lng": 18.6568951,
-      "desc": "⭐ TU LISTA · Pizza napolitana en Długie Pobrzeże 15, junto a la ribera; vie–sáb 11:00–23:00, 4,6 con 7.253 reseñas en Google. La cena del sábado es Kubicki para tener cocina de Gdańsk; si preferís pizza, cambiadla.",
-      "mapsQuery": "Ostro Pizza Napoletana, Gdańsk"
-    },
-    {
       "id": "r.7",
       "cat": "🍕 Otros de la lista",
       "name": "Słony Spichlerz",
@@ -676,14 +659,6 @@
       "lng": 18.6577299,
       "desc": "⭐ TU LISTA · En la Isla de los Graneros (Chmielna 10), con la ribera enfrente; vie–sáb 12:00–24:00 y dom 12:00–22:00, 4,6 con 5.909 reseñas en Google.",
       "mapsQuery": "Słony Spichlerz, Chmielna 10, Gdańsk"
-    },
-    {
-      "id": "r.2",
-      "cat": "🥟 Polaca / pierogi",
-      "name": "Pierogarnia Stary Młyn",
-      "lat": 54.3501302,
-      "lng": 18.654567,
-      "desc": "⭐ TU LISTA · Św. Ducha 64; abre a las 8:00 (también desayunos) y cierra hacia las 23:00 según Google. Alternativa a Mandu para cualquier comida en la Ciudad Principal."
     },
     {
       "id": "r.8",
@@ -702,9 +677,36 @@
       "lng": 18.6450695,
       "desc": "⭐ TU LISTA · Recinto de comida, bares y música en contenedores en los astilleros (Popiełuszki 5), a 5 min del ECS. Según Google: vie–sáb 10:00–1:00, dom 10:00–20:00; 4,8 con 10.567 reseñas. Alternativa a Montownia para la comida del viernes, o para una copa por la noche.",
       "mapsQuery": "100cznia, Księdza Jerzego Popiełuszki 5, Gdańsk"
+    },
+    {
+      "id": "r.10",
+      "cat": "🥟 Polaca / pierogi",
+      "name": "Pierogarnia Mandu",
+      "lat": 54.353753,
+      "lng": 18.6467207,
+      "desc": "⭐ TU LISTA · Pierogi de todo tipo (Elżbietańska 4/8), abre 11–22; 4,8 con más de 17.000 reseñas en Google. Era la cena del viernes: al final, cena en el mercadillo.",
+      "mapsQuery": "Pierogarnia Mandu, Elżbietańska 4/8, Gdańsk"
+    },
+    {
+      "id": "r.11",
+      "cat": "🥟 Polaca / pierogi",
+      "name": "Kubicki",
+      "lat": 54.353717,
+      "lng": 18.6592615,
+      "desc": "Restaurante clásico junto al río (Wartka 5), de los más antiguos de Gdańsk según las guías; el sitio para la czernina (sopa casubia de pato). Sábado 12:00–23:00 y 4,5 con 2.239 reseñas en Google.",
+      "mapsQuery": "Restauracja Kubicki, Wartka 5, Gdańsk"
     }
   ],
   "cafes": [
+    {
+      "id": "c.9",
+      "cat": "☕ Ciudad Principal",
+      "name": "Sips.Gdansk",
+      "lat": 54.3505039,
+      "lng": 18.6516405,
+      "desc": "⭐ LISTA DE CAFÉS · Św. Ducha 38, a 2 min de la basílica. 4,8 con 389 reseñas; todos los días 9:00–18:00 (Google).",
+      "mapsQuery": "Sips.Gdansk, Świętego Ducha 38"
+    },
     {
       "id": "c.20",
       "cat": "☕ Astilleros",
