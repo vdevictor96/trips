@@ -1,5 +1,5 @@
 {
-  "_v": 17,
+  "_v": 18,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -27,7 +27,7 @@
       "id": 1,
       "tab": "Día 1 · Vie 27",
       "title": "Ruta Real, ECS y Grúa por dentro + primer mercadillo 🎄",
-      "subtitle": "Viernes 27 nov · Llegáis al piso a la 1:00 → arranque tranquilo a las 9:00 · Luz 7:35–15:29 · meteoblue: 1/-4 °C, nublado y seco, sensación -5 a -9 → día de interiores a partir del mediodía · Mercadillo 12–21h",
+      "subtitle": "Viernes 27 nov · Llegáis al piso a la 1:00 → arranque tranquilo a las 9:00 · Luz 7:35–15:29 · Previsión del 27 nov: 1/-4 °C y seco; meteoblue lo da nublado todo el día, y ECMWF, GFS y Météo-France despejando a partir de las 15:00 → interiores por la tarde y la puesta, si se abre, desde el ECS · Mercadillo 12–21h",
       "places": [
         {
           "id": "1.1",
@@ -219,7 +219,7 @@
       "id": 2,
       "tab": "Día 2 · Sáb 28",
       "title": "Galeón con sol, Museo de la II Guerra Mundial y cantos de Adviento ⛵",
-      "subtitle": "Sábado 28 nov · meteoblue: -2/-7 °C, seco, la mañana más despejada y sin viento del viaje → galeón a las 11:00 · Museo de la II Guerra Mundial 13:15–14:50 · Puesta de sol desde la torre de Santa María (15:29) · Cantos de Adviento 18:00 en Santa Catalina · Artus cerrada hoy",
+      "subtitle": "Sábado 28 nov · Previsión del 27 nov: -3/-6 °C, seco y casi sin viento; meteoblue lo da mayormente nublado y sin sol, y ECMWF, GFS y Météo-France despejado todo el día → galeón a las 11:00 · Museo de la II Guerra Mundial 13:15–14:50 · Puesta de sol desde la torre de Santa María (15:29) · Cantos de Adviento 18:00 en Santa Catalina · Artus cerrada hoy",
       "places": [
         {
           "id": "2.1",
@@ -321,7 +321,7 @@
           "name": "🌅 Torre de Santa María — la puesta de sol desde arriba",
           "lat": 54.3498079,
           "lng": 18.6530094,
-          "desc": "El mirador del viaje, en el día despejado: de los cuatro modelos que he mirado el 27 nov, tres (ECMWF, GFS y Météo-France) dan el sábado sin nubes y casi sin viento, y uno (ICON) da nubes bajas o niebla. La puesta es a las 15:29. Desde el museo ~15 min a pie; luego 400 y pico escalones, 20 zł. Según la web de la basílica, la torre abre todos los días de 10:00 a 18:00 y cierra con mal tiempo, sobre todo con tormenta. Si al salir del museo hay niebla o está cubierto, no compensa: quedaos más en el museo. Si la torre estuviera cerrada, la noria AmberSky está a ~12 min y llegáis con la última luz.",
+          "desc": "El mirador del viaje, en el día despejado: la previsión del 27 nov no se pone de acuerdo: ECMWF, GFS y Météo-France dan el sábado despejado, y meteoblue e ICON, nubes bajas todo el día. La puesta es a las 15:29. Desde el museo ~15 min a pie; luego 400 y pico escalones, 20 zł. Según la web de la basílica, la torre abre todos los días de 10:00 a 18:00 y cierra con mal tiempo, sobre todo con tormenta. Si al salir del museo está gris, no habrá puesta: quedaos en el museo hasta las 15:15, merendad en 1505 a las 15:30 y subid a la torre a las 16:00, con la ciudad ya encendida (abre hasta las 18:00); al mercadillo llegáis igual a las 16:45. Si la torre estuviera cerrada, la noria AmberSky está a ~12 min y llegáis con la última luz.",
           "tags": [
             "mirador",
             "obligatorio"
@@ -427,7 +427,7 @@
       "id": 3,
       "tab": "Día 3 · Dom 29",
       "title": "Uphagen, Ayuntamiento, último mercadillo y comida a cubierto ✈️",
-      "subtitle": "Domingo 29 nov · meteoblue: -4/-8 °C, viento del sur 20–35 km/h, sensación -11 a -15 → interiores por la mañana · Maletas en las taquillas de Gdańsk Główny · Bolt al aeropuerto a las 14:00 · Vuelo FR7070 16:05 · Domingo sin comercio",
+      "subtitle": "Domingo 29 nov · Previsión del 27 nov: -3/-7 °C, el día con más sol según meteoblue (6 h) pero con viento de 15–25 km/h y rachas de 30–50 → interiores por la mañana · Maletas en las taquillas de Gdańsk Główny · Bolt al aeropuerto a las 14:00 · Vuelo FR7070 16:05 · Domingo sin comercio",
       "places": [
         {
           "id": "3.1",
@@ -436,7 +436,7 @@
           "name": "🧳 Taquillas de Gdańsk Główny — dejar maletas",
           "lat": 54.3564654,
           "lng": 18.6453558,
-          "desc": "Salid del piso a las 8:15 con las maletas y el check-out hecho: ~20–25 min a pie por las murallas, o Bolt 5 min. En Gdańsk Główny hay taquillas automáticas 24 h (web oficial de PKP); una guía da 18 zł la pequeña y 22 zł la grande por 24 h, con tarjeta o efectivo: mirad el precio en la máquina. Dos trolleys de cabina y dos mochilas caben en dos taquillas grandes, o una grande y una pequeña. Si están todas ocupadas, la consigna con personal de la estación abre todos los días 8:30–19:30 (tel. 606 990 490). Si al final el anfitrión os deja las maletas en el piso, saltaos esta tarjeta.",
+          "desc": "Salid del piso a las 8:15 con las maletas y el check-out hecho: ~20–25 min a pie por las murallas, o Bolt 5 min: con -10 °C de sensación y viento a esa hora, mejor el Bolt. En Gdańsk Główny hay taquillas automáticas 24 h (web oficial de PKP); una guía da 18 zł la pequeña y 22 zł la grande por 24 h, con tarjeta o efectivo: mirad el precio en la máquina. Dos trolleys de cabina y dos mochilas caben en dos taquillas grandes, o una grande y una pequeña. Si están todas ocupadas, la consigna con personal de la estación abre todos los días 8:30–19:30 (tel. 606 990 490). Si al final el anfitrión os deja las maletas en el piso, saltaos esta tarjeta.",
           "tags": [
             "obligatorio"
           ],
@@ -510,7 +510,7 @@
           "name": "🌅 Góra Gradowa — mirador sobre la ciudad (opcional)",
           "lat": 54.357641,
           "lng": 18.6402587,
-          "desc": "La colina con el fuerte justo encima de la estación: vista de toda la ciudad y, con el día claro que da meteoblue, de la bahía. Desde la Hala ~17 min cuesta arriba y de aquí a la estación ~6 min cuesta abajo. Arriba está el Hevelianum, un centro de ciencia en el fuerte (domingo 10:00–18:00 según su web; 4,5 con 1.985 reseñas en Google). Si vais justos de hora, o si ya subisteis el viernes con el plan B del ECS, id directos a la estación.",
+          "desc": "La colina con el fuerte justo encima de la estación: vista de toda la ciudad y, con el sol que da meteoblue, de la bahía; arriba el viento sopla con rachas de 30–45 km/h, así que solo si os apetece. Desde la Hala ~17 min cuesta arriba y de aquí a la estación ~6 min cuesta abajo. Arriba está el Hevelianum, un centro de ciencia en el fuerte (domingo 10:00–18:00 según su web; 4,5 con 1.985 reseñas en Google). Si vais justos de hora, o si ya subisteis el viernes con el plan B del ECS, id directos a la estación.",
           "mapsQuery": "Góra Gradowa, Gdańsk",
           "tags": [
             "mirador",
@@ -645,8 +645,8 @@
         "value": "Amanece a las 7:35 y anochece a las 15:29: lo de fuera, por la mañana y a primera hora de la tarde. Museos, cafés y mercadillo, después de oscurecer."
       },
       {
-        "label": "🥶 Frío bajo cero (meteoblue, 25 nov)",
-        "value": "Seco los tres días, sin temporal, pero <strong>bajo cero casi todo el tiempo</strong>. Sensación térmica: viernes -5 a -9 °C, sábado -7 a -13 °C, domingo -11 a -15 °C (viento del sur de 20–35 km/h). Ropa de nieve: abrigo largo o plumas, capa térmica debajo, gorro, guantes, bufanda o braga para el cuello, calcetines gruesos y calzado que agarre: las calles venían de llover y helar, <strong>cuidado con el adoquín helado</strong>. Haced las pausas dentro: museos, cafés y las zonas cubiertas y con calefacción del mercadillo."
+        "label": "🥶 Frío bajo cero (previsión del 27 nov)",
+        "value": "Seco los tres días, sin temporal, pero <strong>bajo cero casi todo el tiempo</strong>. Sensación térmica: viernes -2 a -4 °C de día y -6 a -8 °C de noche, sábado -5 a -10 °C, domingo -8 a -13 °C, con rachas de viento de 30–50 km/h. Ropa de nieve: abrigo largo o plumas, capa térmica debajo, gorro, guantes, bufanda o braga para el cuello, calcetines gruesos y calzado que agarre: las calles venían de llover y helar, <strong>cuidado con el adoquín helado</strong>. Haced las pausas dentro: museos, cafés y las zonas cubiertas y con calefacción del mercadillo."
       },
       {
         "label": "🛍️ Domingo sin comercio",
