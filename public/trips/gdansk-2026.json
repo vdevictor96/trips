@@ -1,5 +1,5 @@
 {
-  "_v": 16,
+  "_v": 17,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -32,7 +32,7 @@
         {
           "id": "1.1",
           "time": "09:00",
-          "dur": "55 min",
+          "dur": "1h 05min",
           "name": "☕ Leń — desayuno",
           "lat": 54.3500891,
           "lng": 18.6513744,
@@ -42,12 +42,12 @@
         },
         {
           "id": "1.2",
-          "time": "10:00",
-          "dur": "50 min",
-          "name": "⭐ Basílica de Santa María + torre-mirador",
+          "time": "10:10",
+          "dur": "30 min",
+          "name": "⭐ Basílica de Santa María",
           "lat": 54.3498079,
           "lng": 18.6530094,
-          "desc": "A 2 min de Leń. La torre abre a las 10:00 (400 y pico escalones, 20 zł). La web de la basílica y Google la dan 10:00–18:00; alguna guía da 10:00–16:00 en invierno y la cierran con tormenta, viento fuerte o helada: a las 10:00 vais bien: la vista de los tejados y el río es la mejor de la ciudad. Basílica laborables 8:30–17:30. Al salir, la Capilla Real (de tu lista) está pegada, en la calle Św. Ducha. Si la torre está cerrada por el hielo, tenéis vistas de noche desde la noria AmberSky el sábado al atardecer y de día desde Góra Gradowa el domingo.",
+          "desc": "A 2 min de Leń. Hoy, por dentro (laborables 8:30–17:30 según su web). La torre-mirador la subís el sábado a la puesta de sol, que es cuando los modelos dan el cielo despejado. Al salir, la Capilla Real (de tu lista) está pegada, en la calle Św. Ducha.",
           "tags": [
             "obligatorio",
             "mirador"
@@ -219,7 +219,7 @@
       "id": 2,
       "tab": "Día 2 · Sáb 28",
       "title": "Galeón con sol, Museo de la II Guerra Mundial y cantos de Adviento ⛵",
-      "subtitle": "Sábado 28 nov · meteoblue: -2/-7 °C, seco, la mañana más despejada y sin viento del viaje → galeón a las 11:00 · Museo de la II Guerra Mundial 13:20–15:20 · Puesta de sol desde la noria · Cantos de Adviento 18:00 en Santa Catalina · Artus cerrada hoy",
+      "subtitle": "Sábado 28 nov · meteoblue: -2/-7 °C, seco, la mañana más despejada y sin viento del viaje → galeón a las 11:00 · Museo de la II Guerra Mundial 13:15–14:50 · Puesta de sol desde la torre de Santa María (15:29) · Cantos de Adviento 18:00 en Santa Catalina · Artus cerrada hoy",
       "places": [
         {
           "id": "2.1",
@@ -292,7 +292,7 @@
         {
           "id": "2.6",
           "time": "12:30",
-          "dur": "35 min",
+          "dur": "30 min",
           "name": "🥣 Bar Mleczny Biała Mewa — comida polaca",
           "lat": 54.3511519,
           "lng": 18.6549343,
@@ -301,12 +301,12 @@
         },
         {
           "id": "2.7",
-          "time": "13:20",
-          "dur": "2h",
+          "time": "13:15",
+          "dur": "1h 35min",
           "name": "⭐ Museo de la Segunda Guerra Mundial",
           "lat": 54.3559415,
           "lng": 18.6611212,
-          "desc": "Imprescindible para Maitena. Desde Szeroka ~15 min a pie por la ribera. Sábado 10:00–18:00 y la taquilla cierra a las 17:00: con 2 h, a vuestro ritmo, veis lo principal de la exposición permanente. Salid a las 15:20 para coger la puesta desde la noria. Las entradas van por franja de entrada: comprad la de 13:00–14:00 (hay que entrar dentro de esa hora y luego os podéis quedar hasta el cierre). 33 zł normal en la web oficial; el 25 nov esa franja tenía más de 99 entradas libres online. Cierra los lunes.",
+          "desc": "Imprescindible para Maitena. Desde Szeroka ~15 min a pie por la ribera. Sábado 10:00–18:00 y la taquilla cierra a las 17:00: con 1h35, a vuestro ritmo, veis lo principal de la exposición permanente. Salid a las 14:50 para subir a la torre de Santa María a la puesta. Las entradas van por franja de entrada: comprad la de 13:00–14:00 (hay que entrar dentro de esa hora y luego os podéis quedar hasta el cierre). 33 zł normal en la web oficial; el 25 nov esa franja tenía más de 99 entradas libres online. Cierra los lunes.",
           "tags": [
             "obligatorio",
             "reservar"
@@ -316,25 +316,26 @@
         },
         {
           "id": "2.8",
-          "time": "15:30",
-          "dur": "25 min",
-          "name": "🎡 Noria AmberSky — la puesta de sol desde arriba",
-          "lat": 54.3527237,
-          "lng": 18.6616097,
-          "desc": "El mirador del viaje, en el día despejado y sin viento: la puesta es a las 15:29 y desde arriba se ven el río, la Grúa y la Ciudad Principal con la última luz. Está en la isla de Ołowianka, a ~7 min a pie del museo. Google la da sáb 10:00–24:00; ~42 zł por persona en 2026. Si hay mucha cola, el muelle de delante, junto al neón «Gdańsk», da la misma puesta desde abajo, con la Ciudad Principal a contraluz.",
+          "time": "15:10",
+          "dur": "45 min",
+          "name": "🌅 Torre de Santa María — la puesta de sol desde arriba",
+          "lat": 54.3498079,
+          "lng": 18.6530094,
+          "desc": "El mirador del viaje, en el día despejado: de los cuatro modelos que he mirado el 27 nov, tres (ECMWF, GFS y Météo-France) dan el sábado sin nubes y casi sin viento, y uno (ICON) da nubes bajas o niebla. La puesta es a las 15:29. Desde el museo ~15 min a pie; luego 400 y pico escalones, 20 zł. Según la web de la basílica, la torre abre todos los días de 10:00 a 18:00 y cierra con mal tiempo, sobre todo con tormenta. Si al salir del museo hay niebla o está cubierto, no compensa: quedaos más en el museo. Si la torre estuviera cerrada, la noria AmberSky está a ~12 min y llegáis con la última luz.",
           "tags": [
-            "mirador"
+            "mirador",
+            "obligatorio"
           ],
-          "mapsQuery": "AmberSky Gdańsk Koło Widokowe"
+          "mapsQuery": "Bazylika Mariacka, Gdańsk"
         },
         {
           "id": "2.9",
-          "time": "16:10",
+          "time": "16:00",
           "dur": "30 min",
           "name": "☕ 1505 kawiarnia — merienda",
           "lat": 54.3510709,
           "lng": 18.6524107,
-          "desc": "De vuestra lista de cafés: 4,8 con 466 reseñas en Google. Złotników 7, a ~12 min a pie de la noria cruzando el río; sáb 9:00–21:00 (Google). Media hora y al mercadillo, que empieza a ~5 min.",
+          "desc": "De vuestra lista de cafés: 4,8 con 466 reseñas en Google. Złotników 7, a 2 min de la basílica; sáb 9:00–21:00 (Google). Media hora y al mercadillo, que empieza a ~5 min.",
           "tags": [
             "obligatorio"
           ],
@@ -342,8 +343,8 @@
         },
         {
           "id": "2.10",
-          "time": "16:45",
-          "dur": "1h",
+          "time": "16:40",
+          "dur": "1h 05min",
           "name": "🎄 Segunda vuelta al mercadillo: Tkacka, Garbary y Długa",
           "lat": 54.3500222,
           "lng": 18.6490434,
@@ -413,7 +414,7 @@
           "name": "✨ Neón «Gdańsk» en la isla de Ołowianka",
           "lat": 54.3529362,
           "lng": 18.6599285,
-          "desc": "El «Gdansk Inscription Neon» de tu lista: el gran letrero luminoso «Gdańsk» junto al río, iluminado toda la noche (4,7 con 3.067 reseñas en Google). Desde Kubicki es cruzar la pasarela levadiza: ~2 min. La Grúa iluminada queda enfrente y la noria de esta tarde, a 150 m. A esa hora meteoblue da -6 °C con sensación de -12: luego, directos al piso (~20 min).",
+          "desc": "El «Gdansk Inscription Neon» de tu lista: el gran letrero luminoso «Gdańsk» junto al río, iluminado toda la noche (4,7 con 3.067 reseñas en Google). Desde Kubicki es cruzar la pasarela levadiza: ~2 min. La Grúa iluminada queda enfrente y la noria AmberSky a 150 m, si os apetece subir de noche (Google la da sáb 10:00–24:00; ~42 zł por persona en 2026). A esa hora meteoblue da -6 °C con sensación de -12: luego, directos al piso (~20 min).",
           "tags": [
             "gratis",
             "mirador"
@@ -719,7 +720,7 @@
       "name": "zavod coffee & matcha",
       "lat": 54.3567918,
       "lng": 18.664869,
-      "desc": "⭐ LISTA DE CAFÉS · Stępkarska 7, a ~5 min del Museo de la II Guerra Mundial. 5,0 con 72 reseñas; todos los días 9:00–18:00 (Google). Por si al salir del museo preferís café antes que la noria.",
+      "desc": "⭐ LISTA DE CAFÉS · Stępkarska 7, a ~5 min del Museo de la II Guerra Mundial. 5,0 con 72 reseñas; todos los días 9:00–18:00 (Google). Por si al salir del museo preferís café antes que la torre.",
       "mapsQuery": "zavod coffee & matcha, Stępkarska 7, Gdańsk"
     },
     {
