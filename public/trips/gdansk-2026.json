@@ -1,5 +1,5 @@
 {
-  "_v": 26,
+  "_v": 27,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -206,7 +206,7 @@
       "id": 2,
       "tab": "Día 2 · Sáb 28",
       "title": "Galeón con sol, Museo de la II Guerra Mundial y cantos de Adviento ⛵",
-      "subtitle": "Sábado 28 nov · Niebla por la mañana y gris todo el día (aeropuerto y meteoblue) · Galeón a las 13:00 · Museo de la II Guerra Mundial 15:20–16:35 · Ciudad Vieja iluminada · Cantos 18:00 en Santa Catalina y 19:00 en el Ayuntamiento · Artus cerrada hoy",
+      "subtitle": "Sábado 28 nov · Niebla por la mañana y gris todo el día (aeropuerto y meteoblue) · Galeón a las 13:00 · Comida en Mandu · Museo de la II Guerra Mundial desde las 15:35 (salid a las 17:40 como tarde) · Cantos 18:00 en Santa Catalina · Ciudad Vieja iluminada y 19:00 en el Ayuntamiento · Artus cerrada hoy",
       "places": [
         {
           "id": "2.1",
@@ -252,25 +252,25 @@
         },
         {
           "id": "2.4",
-          "time": "14:25",
+          "time": "14:35",
           "dur": "40 min",
-          "name": "🥟 Pierogarnia Stary Młyn — pierogi",
-          "lat": 54.3501302,
-          "lng": 18.654567,
-          "desc": "De tu lista. Pierogi en Św. Ducha 64, a ~4 min del embarcadero; abre a las 8:00 y cierra hacia las 23:00 según Google (4,6 con más de 17.000 reseñas). De aquí al museo, ~15 min.",
+          "name": "🥟 Pierogarnia Mandu — pierogi",
+          "lat": 54.353753,
+          "lng": 18.6467207,
+          "desc": "De tu lista, y la recomendación de una amiga de Gdańsk. Pierogi de todo tipo en Elżbietańska 4/8; abre 11:00–22:00 según Google, 4,8 con más de 17.000 reseñas. Desde el embarcadero ~15 min a pie; de aquí al museo, ~18 min.",
           "tags": [
             "obligatorio"
           ],
-          "mapsQuery": "Pierogarnia Stary Młyn, Świętego Ducha 64, Gdańsk"
+          "mapsQuery": "Pierogarnia Mandu, Elżbietańska 4/8, Gdańsk"
         },
         {
           "id": "2.5",
-          "time": "15:20",
+          "time": "15:35",
           "dur": "1h 15min",
           "name": "⭐ Museo de la Segunda Guerra Mundial",
           "lat": 54.3559415,
           "lng": 18.6611212,
-          "desc": "Imprescindible para Maitena. Desde Szeroka ~15 min a pie por la ribera. Sábado 10:00–18:00 y la taquilla cierra a las 17:00: con 55 min, a vuestro ritmo, veis lo principal de la exposición permanente. Salid a las 14:30 como tarde hacia el galeón: ~15 min a pie hasta el embarcadero, o un Bolt de ~5 min si vais justos. Las entradas van por franja de entrada: necesitáis la de 15:00–16:00 (hay que entrar dentro de esa hora; luego os podéis quedar hasta el cierre). 33 zł en la web oficial; también hay taquilla hasta las 17:00. Con 1h15, a vuestro ritmo y sin prisa: el museo abre hasta las 18:00. Cierra los lunes.",
+          "desc": "Imprescindible para Maitena. Desde Szeroka ~15 min a pie por la ribera. Sábado 10:00–18:00 y la taquilla cierra a las 17:00: con 55 min, a vuestro ritmo, veis lo principal de la exposición permanente. Salid a las 14:30 como tarde hacia el galeón: ~15 min a pie hasta el embarcadero, o un Bolt de ~5 min si vais justos. Las entradas van por franja de entrada: necesitáis la de 15:00–16:00 (hay que entrar dentro de esa hora; luego os podéis quedar hasta el cierre). 33 zł en la web oficial; también hay taquilla hasta las 17:00. Sin prisa: el museo abre hasta las 18:00. Para los cantos de las 18:00 en Santa Catalina, salid como tarde a las 17:40 (~13 min a pie); si os alargáis, saltaos la merienda. Cierra los lunes.",
           "tags": [
             "obligatorio",
             "reservar"
@@ -280,12 +280,12 @@
         },
         {
           "id": "2.6",
-          "time": "16:50",
+          "time": "17:05",
           "dur": "30 min",
-          "name": "☕ 1505 kawiarnia — merienda",
+          "name": "☕ 1505 kawiarnia — merienda (opcional)",
           "lat": 54.3510709,
           "lng": 18.6524107,
-          "desc": "De vuestra lista de cafés: 4,8 con 466 reseñas en Google. Złotników 7, a 2 min de la basílica; sáb 9:00–21:00 (Google). Desde el museo ~15 min. Media hora y a la Ciudad Vieja, ~7 min.",
+          "desc": "De vuestra lista de cafés: 4,8 con 466 reseñas en Google. Złotników 7, a 2 min de la basílica; sáb 9:00–21:00 (Google). Opcional: si el museo se alarga, saltadla. Desde el museo ~15 min; para los cantos, salid de aquí a las 17:50 como tarde (~6 min a Santa Catalina).",
           "tags": [
             "obligatorio"
           ],
@@ -293,47 +293,8 @@
         },
         {
           "id": "2.7",
-          "time": "17:28",
-          "dur": "12 min",
-          "name": "Gran Molino (Wielki Młyn) + Santa Catalina + calle Pańska",
-          "lat": 54.3540323,
-          "lng": 18.6499042,
-          "desc": "La Ciudad Vieja iluminada, antes de los cantos de Santa Catalina, que está al lado: el molino gótico de ladrillo («The Grand Mill» de tu lista; dentro está ahora el Museo del Ámbar, que no os interesa), la iglesia de Santa Catalina y la calle Pańska (de tu lista). Pączki para mañana en Dobra Pączkarnia, en el mercado cubierto de al lado (cierra a las 18:00).",
-          "tags": [
-            "gratis"
-          ],
-          "mapsQuery": "Wielki Młyn, Gdańsk"
-        },
-        {
-          "id": "2.8",
-          "time": "17:42",
-          "dur": "3 min",
-          "name": "Puente del Pan (Most Chlebowy) — «Bread Bridge»",
-          "lat": 54.3536853,
-          "lng": 18.6484927,
-          "desc": "El «Bread Bridge – Bridge of Love» de tu lista: el puentecito sobre el canal Radunia, entre el Gran Molino y el Ayuntamiento Antiguo, con los candados de enamorados (están prohibidos, pero los siguen poniendo). Se llama así porque junto a él vendían pan los panaderos medievales.",
-          "tags": [
-            "gratis"
-          ],
-          "mapsQuery": "Most Chlebowy, Gdańsk"
-        },
-        {
-          "id": "2.9",
-          "time": "17:46",
-          "dur": "5 min",
-          "name": "Ayuntamiento Antiguo (Ratusz Staromiejski)",
-          "lat": 54.3539639,
-          "lng": 18.6480183,
-          "desc": "El «ayuntamiento antiguo» de tu lista: el de la Ciudad Vieja (Korzenna 33/35), renacentista. Por fuera. De aquí a Santa Catalina ~5 min, para los cantos de las 18:00.",
-          "tags": [
-            "gratis"
-          ],
-          "mapsQuery": "Ratusz Staromiejski, Korzenna 33/35, Gdańsk"
-        },
-        {
-          "id": "2.10",
           "time": "18:00",
-          "dur": "25 min",
+          "dur": "20 min",
           "name": "🎶 Cantos de Adviento desde la torre de Santa Catalina (18:00)",
           "lat": 54.3540696,
           "lng": 18.6512994,
@@ -346,9 +307,48 @@
           "mapsQuery": "Kościół św. Katarzyny, Gdańsk"
         },
         {
+          "id": "2.8",
+          "time": "18:22",
+          "dur": "5 min",
+          "name": "Gran Molino (Wielki Młyn) + Santa Catalina + calle Pańska",
+          "lat": 54.3540323,
+          "lng": 18.6499042,
+          "desc": "La Ciudad Vieja iluminada, al salir de los cantos de Santa Catalina, que está al lado: el molino gótico de ladrillo («The Grand Mill» de tu lista; dentro está ahora el Museo del Ámbar, que no os interesa), la iglesia de Santa Catalina y la calle Pańska (de tu lista).",
+          "tags": [
+            "gratis"
+          ],
+          "mapsQuery": "Wielki Młyn, Gdańsk"
+        },
+        {
+          "id": "2.9",
+          "time": "18:29",
+          "dur": "2 min",
+          "name": "Puente del Pan (Most Chlebowy) — «Bread Bridge»",
+          "lat": 54.3536853,
+          "lng": 18.6484927,
+          "desc": "El «Bread Bridge – Bridge of Love» de tu lista: el puentecito sobre el canal Radunia, entre el Gran Molino y el Ayuntamiento Antiguo, con los candados de enamorados (están prohibidos, pero los siguen poniendo). Se llama así porque junto a él vendían pan los panaderos medievales.",
+          "tags": [
+            "gratis"
+          ],
+          "mapsQuery": "Most Chlebowy, Gdańsk"
+        },
+        {
+          "id": "2.10",
+          "time": "18:32",
+          "dur": "3 min",
+          "name": "Ayuntamiento Antiguo (Ratusz Staromiejski)",
+          "lat": 54.3539639,
+          "lng": 18.6480183,
+          "desc": "El «ayuntamiento antiguo» de tu lista: el de la Ciudad Vieja (Korzenna 33/35), renacentista. Por fuera. De aquí al mercadillo de la calle Tkacka ~8 min.",
+          "tags": [
+            "gratis"
+          ],
+          "mapsQuery": "Ratusz Staromiejski, Korzenna 33/35, Gdańsk"
+        },
+        {
           "id": "2.11",
-          "time": "18:35",
-          "dur": "35 min",
+          "time": "18:45",
+          "dur": "25 min",
           "name": "🎄 Segunda vuelta al mercadillo: Tkacka, Garbary y Długa",
           "lat": 54.3500222,
           "lng": 18.6490434,
@@ -362,8 +362,8 @@
         },
         {
           "id": "2.12",
-          "time": "19:18",
-          "dur": "8 min",
+          "time": "19:20",
+          "dur": "7 min",
           "name": "✨ Calle Mariacka de noche",
           "lat": 54.3496313,
           "lng": 18.6552801,
@@ -418,7 +418,7 @@
       "id": 3,
       "tab": "Día 3 · Dom 29",
       "title": "Uphagen, Ayuntamiento, último mercadillo y comida a cubierto ✈️",
-      "subtitle": "Domingo 29 nov · Previsión del 28 nov: sol por la mañana en todos los modelos, -5/-2 °C, con rachas de viento de 35–50 km/h → la torre de Santa María con sol a las 10:00 y comida en Mandu antes de las maletas · Maletas en las taquillas de Gdańsk Główny · Bolt al aeropuerto a las 14:00 · Vuelo FR7070 16:05 · Domingo sin comercio",
+      "subtitle": "Domingo 29 nov · Previsión del 28 nov: sol por la mañana en todos los modelos, -5/-2 °C, con rachas de viento de 35–50 km/h → la torre de Santa María con sol a las 10:00 y comida en Hala Targowa antes de las maletas · Maletas en las taquillas de Gdańsk Główny · Bolt al aeropuerto a las 14:00 · Vuelo FR7070 16:05 · Domingo sin comercio",
       "places": [
         {
           "id": "3.1",
@@ -502,14 +502,11 @@
           "id": "3.7",
           "time": "12:55",
           "dur": "40 min",
-          "name": "🥟 Pierogarnia Mandu — pierogi",
-          "lat": 54.353753,
-          "lng": 18.6467207,
-          "desc": "De tu lista, y la recomendación de una amiga de Gdańsk. Pierogi de todo tipo en Elżbietańska 4/8; domingo 11:00–22:00 según Google, 4,8 con más de 17.000 reseñas. Desde el mercadillo ~12 min, y de aquí a la estación ~6 min: perfecto antes de recoger las maletas.",
-          "tags": [
-            "obligatorio"
-          ],
-          "mapsQuery": "Pierogarnia Mandu, Elżbietańska 4/8, Gdańsk"
+          "name": "🍽️ Hala Targowa Enjoy — comida a cubierto",
+          "lat": 54.3527484,
+          "lng": 18.6518247,
+          "desc": "De tu lista. Zona de comida dentro del mercado cubierto (Plac Dominikański 1), junto a Santa Catalina; domingo 9:00–23:00 y 4,3 con 1.547 reseñas en Google. De postre o para el avión, pączki de Dobra Pączkarnia (de tu lista), en el mismo edificio: abre todos los días de 8:00 a 18:00 según Google. Desde el mercadillo ~11 min; de aquí a la estación ~11 min: salid a las 13:35.",
+          "mapsQuery": "Hala Targowa Enjoy, Gdańsk"
         },
         {
           "id": "3.8",
@@ -586,7 +583,7 @@
       },
       {
         "label": "🍽️ Cena del sábado",
-        "value": "Sábado de mercadillo con el centro lleno: reservad <strong>OSTRO</strong> (pizza napolitana, sáb 19:30) si podéis, o id puntuales. El viernes cenáis en el mercadillo y la comida del sábado es en Stary Młyn y la del domingo en Mandu, sin reserva."
+        "value": "Sábado de mercadillo con el centro lleno: reservad <strong>OSTRO</strong> (pizza napolitana, sáb 19:30) si podéis, o id puntuales. El viernes cenáis en el mercadillo y la comida del sábado es en Mandu, sin reserva."
       },
       {
         "label": "🕐 Horarios comprobados (webs oficiales)",
@@ -690,13 +687,13 @@
       "mapsQuery": "Restauracja Kubicki, Wartka 5, Gdańsk"
     },
     {
-      "id": "r.12",
-      "cat": "🍽️ Mercado cubierto",
-      "name": "Hala Targowa Enjoy",
-      "lat": 54.3527484,
-      "lng": 18.6518247,
-      "desc": "⭐ TU LISTA · Zona de comida dentro del mercado cubierto (Plac Dominikański 1), junto a Santa Catalina; domingo 9:00–23:00 y 4,3 con 1.547 reseñas en Google. En el mismo edificio, Dobra Pączkarnia (pączki, 8:00–18:00).",
-      "mapsQuery": "Hala Targowa Enjoy, Gdańsk"
+      "id": "r.2",
+      "cat": "🥟 Polaca / pierogi",
+      "name": "Pierogarnia Stary Młyn",
+      "lat": 54.3501302,
+      "lng": 18.654567,
+      "desc": "⭐ TU LISTA · Św. Ducha 64, a ~4 min del embarcadero; abre a las 8:00 y cierra hacia las 23:00 según Google, 4,6 con más de 17.000 reseñas. Alternativa a Mandu si hay mucha cola.",
+      "mapsQuery": "Pierogarnia Stary Młyn, Świętego Ducha 64, Gdańsk"
     }
   ],
   "cafes": [
