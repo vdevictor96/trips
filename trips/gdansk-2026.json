@@ -1,5 +1,5 @@
 {
-  "_v": 24,
+  "_v": 25,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -206,7 +206,7 @@
       "id": 2,
       "tab": "Día 2 · Sáb 28",
       "title": "Galeón con sol, Museo de la II Guerra Mundial y cantos de Adviento ⛵",
-      "subtitle": "Sábado 28 nov · Niebla por la mañana y gris todo el día (aeropuerto y meteoblue) → galeón a las 15:00, que vuelve de noche · Museo de la II Guerra Mundial 13:20–14:35 · Torre de Santa María a mediodía · Cantos 18:00 en Santa Catalina y 19:00 en el Ayuntamiento · Artus cerrada hoy",
+      "subtitle": "Sábado 28 nov · Niebla por la mañana y gris todo el día (aeropuerto y meteoblue) → galeón a las 15:00, que vuelve de noche · Museo de la II Guerra Mundial 13:35–14:30 · Torre de Santa María a mediodía · Cantos 18:00 en Santa Catalina y 19:00 en el Ayuntamiento · Artus cerrada hoy",
       "places": [
         {
           "id": "2.1",
@@ -264,11 +264,11 @@
         {
           "id": "2.5",
           "time": "13:35",
-          "dur": "1h 05min",
+          "dur": "55 min",
           "name": "⭐ Museo de la Segunda Guerra Mundial",
           "lat": 54.3559415,
           "lng": 18.6611212,
-          "desc": "Imprescindible para Maitena. Desde Szeroka ~15 min a pie por la ribera. Sábado 10:00–18:00 y la taquilla cierra a las 17:00: con 1h05, a vuestro ritmo, veis lo principal de la exposición permanente. Salid a las 14:40 hacia el galeón: ~15 min a pie hasta el embarcadero. Las entradas van por franja de entrada: comprad la de 13:00–14:00 (hay que entrar dentro de esa hora y luego os podéis quedar hasta el cierre). 33 zł normal en la web oficial; el 25 nov esa franja tenía más de 99 entradas libres online. Cierra los lunes.",
+          "desc": "Imprescindible para Maitena. Desde Szeroka ~15 min a pie por la ribera. Sábado 10:00–18:00 y la taquilla cierra a las 17:00: con 55 min, a vuestro ritmo, veis lo principal de la exposición permanente. Salid a las 14:30 como tarde hacia el galeón: ~15 min a pie hasta el embarcadero, o un Bolt de ~5 min si vais justos. Las entradas van por franja de entrada: comprad la de 13:00–14:00 (hay que entrar dentro de esa hora y luego os podéis quedar hasta el cierre). 33 zł normal en la web oficial; el 25 nov esa franja tenía más de 99 entradas libres online. Cierra los lunes.",
           "tags": [
             "obligatorio",
             "reservar"
