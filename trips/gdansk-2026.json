@@ -1,5 +1,5 @@
 {
-  "_v": 21,
+  "_v": 22,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -206,16 +206,16 @@
       "id": 2,
       "tab": "Día 2 · Sáb 28",
       "title": "Galeón con sol, Museo de la II Guerra Mundial y cantos de Adviento ⛵",
-      "subtitle": "Sábado 28 nov · Previsión del 27 nov: -3/-6 °C, seco y casi sin viento; meteoblue lo da gris y sin sol; de once modelos, siete abren el cielo por la tarde y cuatro lo dejan gris → galeón a las 11:00 · Museo de la II Guerra Mundial 13:20–14:50 · Puesta de sol desde la torre de Santa María (15:29) · Cantos de Adviento 18:00 en Santa Catalina · Artus cerrada hoy",
+      "subtitle": "Sábado 28 nov · Niebla por la mañana y gris todo el día (aeropuerto y meteoblue) → galeón a las 15:00, que vuelve de noche · Museo de la II Guerra Mundial 13:20–14:35 · Torre de noche · Cantos 18:00 en Santa Catalina y 19:00 en el Ayuntamiento · Artus cerrada hoy",
       "places": [
         {
           "id": "2.1",
-          "time": "08:30",
-          "dur": "55 min",
+          "time": "10:35",
+          "dur": "1h",
           "name": "☕ Drukarnia — desayuno",
           "lat": 54.349628,
           "lng": 18.6559459,
-          "desc": "Desde el piso ~12 min. El café de especialidad más citado de la ciudad (Mariacka 36), abre a las 8:00. Está en la calle Mariacka (de tu lista), la de las escalinatas y gárgolas. Hoy toca aprovechar la mañana con sol. De vuestra lista de cafés.",
+          "desc": "Desde el piso ~12 min. El café de especialidad más citado de la ciudad (Mariacka 36), abre a las 8:00. Está en la calle Mariacka (de tu lista), la de las escalinatas y gárgolas. Hoy ha amanecido con niebla: desayuno largo. De vuestra lista de cafés.",
           "mapsQuery": "Drukarnia, Mariacka 36, Gdańsk",
           "tags": [
             "obligatorio"
@@ -223,12 +223,12 @@
         },
         {
           "id": "2.2",
-          "time": "09:45",
+          "time": "11:50",
           "dur": "15 min",
           "name": "Gran Molino (Wielki Młyn) + Santa Catalina + calle Pańska",
           "lat": 54.3540323,
           "lng": 18.6499042,
-          "desc": "La Ciudad Vieja con el sol de la mañana: el molino gótico de ladrillo («The Grand Mill» de tu lista; dentro está ahora el Museo del Ámbar, que no os interesa), la iglesia de Santa Catalina y la calle Pańska (de tu lista).",
+          "desc": "La Ciudad Vieja de día: el molino gótico de ladrillo («The Grand Mill» de tu lista; dentro está ahora el Museo del Ámbar, que no os interesa), la iglesia de Santa Catalina y la calle Pańska (de tu lista).",
           "tags": [
             "gratis"
           ],
@@ -236,8 +236,8 @@
         },
         {
           "id": "2.3",
-          "time": "10:00",
-          "dur": "5 min",
+          "time": "12:07",
+          "dur": "3 min",
           "name": "Puente del Pan (Most Chlebowy) — «Bread Bridge»",
           "lat": 54.3536853,
           "lng": 18.6484927,
@@ -249,12 +249,12 @@
         },
         {
           "id": "2.4",
-          "time": "10:05",
-          "dur": "7 min",
+          "time": "12:11",
+          "dur": "5 min",
           "name": "Ayuntamiento Antiguo (Ratusz Staromiejski)",
           "lat": 54.3539639,
           "lng": 18.6480183,
-          "desc": "El «ayuntamiento antiguo» de tu lista: el de la Ciudad Vieja (Korzenna 33/35), renacentista. Por fuera. De aquí al embarcadero ~20 min a pie.",
+          "desc": "El «ayuntamiento antiguo» de tu lista: el de la Ciudad Vieja (Korzenna 33/35), renacentista. Por fuera. De aquí a Stary Młyn ~11 min a pie.",
           "tags": [
             "gratis"
           ],
@@ -262,12 +262,40 @@
         },
         {
           "id": "2.5",
-          "time": "10:30",
-          "dur": "1h 55min",
-          "name": "⛵ Galeón por el Motława hasta Westerplatte (11:00)",
+          "time": "12:30",
+          "dur": "35 min",
+          "name": "🥟 Pierogarnia Stary Młyn — pierogi",
+          "lat": 54.3501302,
+          "lng": 18.654567,
+          "desc": "De tu lista. Pierogi en Św. Ducha 64, abre a las 8:00 y cierra hacia las 23:00 según Google (4,6 con más de 17.000 reseñas). Comida ligera, que venís de desayunar. De aquí al museo, ~15 min.",
+          "tags": [
+            "obligatorio"
+          ],
+          "mapsQuery": "Pierogarnia Stary Młyn, Świętego Ducha 64, Gdańsk"
+        },
+        {
+          "id": "2.6",
+          "time": "13:20",
+          "dur": "1h 15min",
+          "name": "⭐ Museo de la Segunda Guerra Mundial",
+          "lat": 54.3559415,
+          "lng": 18.6611212,
+          "desc": "Imprescindible para Maitena. Desde Szeroka ~15 min a pie por la ribera. Sábado 10:00–18:00 y la taquilla cierra a las 17:00: con 1h15, a vuestro ritmo, veis lo principal de la exposición permanente. Salid a las 14:35 hacia el galeón: ~15 min a pie hasta el embarcadero. Las entradas van por franja de entrada: comprad la de 13:00–14:00 (hay que entrar dentro de esa hora y luego os podéis quedar hasta el cierre). 33 zł normal en la web oficial; el 25 nov esa franja tenía más de 99 entradas libres online. Cierra los lunes.",
+          "tags": [
+            "obligatorio",
+            "reservar"
+          ],
+          "link": "https://muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/opening-hours",
+          "mapsQuery": "Muzeum II Wojny Światowej, Gdańsk"
+        },
+        {
+          "id": "2.7",
+          "time": "14:50",
+          "dur": "1h 35min",
+          "name": "⛵ Galeón por el Motława hasta Westerplatte (15:00)",
           "lat": 54.3491099,
           "lng": 18.6564232,
-          "desc": "El «paseo en barco» de Maitena, a la hora con más sol del viaje: meteoblue y Open-Meteo dan el sábado por la mañana despejado y casi sin viento (-3 °C, sensación -6). Galeón Czarna Perła, salida 11:00 desde Długie Pobrzeże 11, junto al restaurante Gdański Bowke: llegad a las 10:30 (piden embarcar 30 min antes para coger buen sitio). 80 min por el puerto, los astilleros y la fortaleza de Wisłoujście hasta Westerplatte, con comentario en directo (también en inglés) a la ida, música en directo a la vuelta y bar a bordo. Ida y vuelta sin bajar, 106,22 zł por adulto. Las entradas online se cambian en la taquilla por la versión en papel. Abrigaos de verdad. A la venta en Ekobilet (la web no indica plazas libres) y también en la taquilla del embarcadero; su ficha no dice qué pasa si se cancela por mal tiempo. Plan B si no sale: el «Sołdek», a ~6 min del embarcadero, el barco-museo del Museo Marítimo y primer buque de altura construido en Polonia después de la guerra, con bodegas y sala de máquinas (sáb 10:00–16:00, 23 zł; entradas en el Centro de Cultura Marítima, Tokarska 21/25, junto a la Grúa). La comida y el museo de la tarde siguen igual.",
+          "desc": "El «paseo en barco» de Maitena. Galeón Czarna Perła, salida de las 15:00 desde Długie Pobrzeże 11, junto al restaurante Gdański Bowke (su web daba salidas a las 11:00, 13:00 y 15:00). 80 min por el puerto, los astilleros y la fortaleza de Wisłoujście hasta Westerplatte, ida y vuelta sin bajar, con comentario en directo (también en inglés) a la ida, música a la vuelta y bar a bordo; 106,22 zł por adulto. Sale justo antes de la puesta (15:29) y vuelve hacia las 16:20, ya de noche, con el puerto y la ciudad iluminados. Si teníais la entrada de las 11:00, preguntad en la taquilla del embarcadero si os la cambian. Abrigaos de verdad: a esa hora, sensación de unos -7 °C. Plan B si no sale: el Museo Marítimo, en los graneros de la isla de enfrente (sáb hasta las 17:00, última entrada a las 16:00).",
           "tags": [
             "obligatorio",
             "reservar",
@@ -277,41 +305,26 @@
           "mapsQuery": "Gdański Bowke, Długie Pobrzeże 11, Gdańsk"
         },
         {
-          "id": "2.6",
-          "time": "12:30",
-          "dur": "35 min",
-          "name": "🥟 Pierogarnia Stary Młyn — pierogi",
-          "lat": 54.3501302,
-          "lng": 18.654567,
-          "desc": "De tu lista. Pierogi en Św. Ducha 64, a ~4 min del embarcadero; abre a las 8:00 y cierra hacia las 23:00 según Google (4,6 con más de 17.000 reseñas). Sábado a mediodía: id directos al bajar del barco. De aquí al museo, ~15 min.",
+          "id": "2.8",
+          "time": "16:35",
+          "dur": "30 min",
+          "name": "☕ 1505 kawiarnia — merienda",
+          "lat": 54.3510709,
+          "lng": 18.6524107,
+          "desc": "De vuestra lista de cafés: 4,8 con 466 reseñas en Google. Złotników 7, a 2 min de la basílica; sáb 9:00–21:00 (Google). Desde el embarcadero ~6 min. Media hora y a la torre, a 2 min.",
           "tags": [
             "obligatorio"
           ],
-          "mapsQuery": "Pierogarnia Stary Młyn, Świętego Ducha 64, Gdańsk"
+          "mapsQuery": "1505 kawiarnia, Złotników 7, Gdańsk"
         },
         {
-          "id": "2.7",
-          "time": "13:20",
-          "dur": "1h 30min",
-          "name": "⭐ Museo de la Segunda Guerra Mundial",
-          "lat": 54.3559415,
-          "lng": 18.6611212,
-          "desc": "Imprescindible para Maitena. Desde Szeroka ~15 min a pie por la ribera. Sábado 10:00–18:00 y la taquilla cierra a las 17:00: con 1h30, a vuestro ritmo, veis lo principal de la exposición permanente. Salid a las 14:50 para subir a la torre de Santa María a la puesta. Las entradas van por franja de entrada: comprad la de 13:00–14:00 (hay que entrar dentro de esa hora y luego os podéis quedar hasta el cierre). 33 zł normal en la web oficial; el 25 nov esa franja tenía más de 99 entradas libres online. Cierra los lunes.",
-          "tags": [
-            "obligatorio",
-            "reservar"
-          ],
-          "link": "https://muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/opening-hours",
-          "mapsQuery": "Muzeum II Wojny Światowej, Gdańsk"
-        },
-        {
-          "id": "2.8",
-          "time": "15:10",
-          "dur": "45 min",
-          "name": "🌅 Torre de Santa María — la puesta de sol desde arriba",
+          "id": "2.9",
+          "time": "17:10",
+          "dur": "35 min",
+          "name": "🌃 Torre de Santa María — la ciudad de noche desde arriba",
           "lat": 54.3498079,
           "lng": 18.6530094,
-          "desc": "El mirador del viaje, en el día despejado: la previsión del viernes no se pone de acuerdo: meteoblue da el sábado gris y, de once modelos, siete lo despejan por la tarde y cuatro lo dejan gris. La puesta es a las 15:29. Desde el museo ~15 min a pie; luego 400 y pico escalones, 20 zł. Según la web de la basílica, la torre abre todos los días de 10:00 a 18:00 y cierra con mal tiempo, sobre todo con tormenta. Si al salir del museo está gris, no habrá puesta: quedaos en el museo hasta las 15:15, merendad en 1505 a las 15:30 y subid a la torre a las 16:00, con la ciudad ya encendida (abre hasta las 18:00); al mercadillo llegáis igual a las 16:45. Si la torre estuviera cerrada, la noria AmberSky está a ~12 min y llegáis con la última luz.",
+          "desc": "Hoy está gris y la puesta no se verá: subid de noche, con la ciudad y el mercadillo encendidos. Según la web de la basílica, la torre abre todos los días de 10:00 a 18:00 (última entrada a las 18:00) y cierra con mal tiempo, sobre todo con tormenta; 400 y pico escalones, 20 zł. Si estuviera cerrada, la noria AmberSky, junto al neón, la tenéis esta noche. De aquí a Santa Catalina ~10 min.",
           "tags": [
             "mirador",
             "obligatorio"
@@ -319,37 +332,9 @@
           "mapsQuery": "Bazylika Mariacka, Gdańsk"
         },
         {
-          "id": "2.9",
-          "time": "16:00",
-          "dur": "30 min",
-          "name": "☕ 1505 kawiarnia — merienda",
-          "lat": 54.3510709,
-          "lng": 18.6524107,
-          "desc": "De vuestra lista de cafés: 4,8 con 466 reseñas en Google. Złotników 7, a 2 min de la basílica; sáb 9:00–21:00 (Google). Media hora y al mercadillo, que empieza a ~5 min.",
-          "tags": [
-            "obligatorio"
-          ],
-          "mapsQuery": "1505 kawiarnia, Złotników 7, Gdańsk"
-        },
-        {
           "id": "2.10",
-          "time": "16:40",
-          "dur": "1h 05min",
-          "name": "🎄 Segunda vuelta al mercadillo: Tkacka, Garbary y Długa",
-          "lat": 54.3500222,
-          "lng": 18.6490434,
-          "desc": "Segunda vuelta al mercadillo bajando hacia Długa: calle Tkacka (iluminaciones), el tramo nuevo de Garbary y Ogarna y la parte de la calle Długa. A las 17:45, a Santa Catalina (~9 min) para los cantos de las 18:00. Mirad ya los dulces para llevar; el domingo hay otra vuelta. Grzaniec (vino caliente) en la taza de fianza. Por la noche baja a -6/-7 °C (sensación -12): hay zonas cubiertas y con calefacción para descansar.",
-          "tags": [
-            "obligatorio",
-            "gratis"
-          ],
-          "link": "https://visitgdansk.com/jarmark",
-          "mapsQuery": "Tkacka, Gdańsk"
-        },
-        {
-          "id": "2.11",
           "time": "18:00",
-          "dur": "30 min",
+          "dur": "25 min",
           "name": "🎶 Cantos de Adviento desde la torre de Santa Catalina (18:00)",
           "lat": 54.3540696,
           "lng": 18.6512994,
@@ -362,13 +347,28 @@
           "mapsQuery": "Kościół św. Katarzyny, Gdańsk"
         },
         {
+          "id": "2.11",
+          "time": "18:35",
+          "dur": "35 min",
+          "name": "🎄 Segunda vuelta al mercadillo: Tkacka, Garbary y Długa",
+          "lat": 54.3500222,
+          "lng": 18.6490434,
+          "desc": "Segunda vuelta al mercadillo bajando hacia Długa: calle Tkacka (iluminaciones), el tramo nuevo de Garbary y Ogarna y la parte de la calle Długa. Acabad en el Długi Targ: a las 19:00 suena el segundo concierto, desde la torre del Ayuntamiento. Mirad ya los dulces para llevar; el domingo hay otra vuelta. Grzaniec (vino caliente) en la taza de fianza. Por la noche baja a -6/-7 °C (sensación -12): hay zonas cubiertas y con calefacción para descansar.",
+          "tags": [
+            "obligatorio",
+            "gratis"
+          ],
+          "link": "https://visitgdansk.com/jarmark",
+          "mapsQuery": "Tkacka, Gdańsk"
+        },
+        {
           "id": "2.12",
-          "time": "18:50",
-          "dur": "10 min",
+          "time": "19:18",
+          "dur": "8 min",
           "name": "✨ Calle Mariacka de noche",
           "lat": 54.3496313,
           "lng": 18.6552801,
-          "desc": "La calle Mariacka de tu lista, ahora de noche y con las farolas encendidas (por la mañana la habéis visto de día desayunando en Drukarnia). Desde Santa Catalina ~10 min a pie hasta la basílica, donde empieza; desde allí bajáis sus ~180 m de escalinatas y gárgolas hasta la Puerta de Santa María (Brama Mariacka), que da al río. Goldwasser está a 1 min de la puerta. A las 19:00 suena el segundo concierto, desde la torre del Ayuntamiento: si queréis verlo, el Długi Targ está a ~3 min de la basílica.",
+          "desc": "La calle Mariacka de tu lista, ahora de noche y con las farolas encendidas (por la mañana la habéis visto de día desayunando en Drukarnia). Del Długi Targ a la basílica, donde empieza, ~3 min; desde allí bajáis sus ~180 m de escalinatas y gárgolas hasta la Puerta de Santa María (Brama Mariacka), que da al río. OSTRO, la cena, está junto a la puerta.",
           "tags": [
             "gratis",
             "obligatorio"
@@ -377,17 +377,6 @@
         },
         {
           "id": "2.13",
-          "time": "19:05",
-          "dur": "10 min",
-          "name": "🥃 Goldwasser — el licor de Gdańsk",
-          "lat": 54.3501219,
-          "lng": 18.6571304,
-          "desc": "Plan autóctono de camino a la cena (Długie Pobrzeże 22), a 1 min de la Puerta de Santa María. El Goldwasser es el licor de hierbas con láminas de oro de Gdańsk. Restaurante y tienda, vie–dom 11:00–22:00 (web oficial): un chupito o el estuche de regalo con bombones. Si queréis una botella, compradla hoy: el domingo los súper cierran.",
-          "link": "https://goldwasser.pl/en/",
-          "mapsQuery": "Goldwasser, Długie Pobrzeże 22, Gdańsk"
-        },
-        {
-          "id": "2.14",
           "time": "19:30",
           "dur": "1h",
           "name": "🍕 OSTRO — pizza napolitana",
@@ -400,13 +389,24 @@
           "mapsQuery": "Ostro Pizza Napoletana, Gdańsk"
         },
         {
+          "id": "2.14",
+          "time": "20:32",
+          "dur": "15 min",
+          "name": "🥃 Goldwasser — el licor de Gdańsk",
+          "lat": 54.3501219,
+          "lng": 18.6571304,
+          "desc": "Plan autóctono después de cenar (Długie Pobrzeże 22), a 1 min de OSTRO. El Goldwasser es el licor de hierbas con láminas de oro de Gdańsk. Restaurante y tienda, vie–dom 11:00–22:00 (web oficial): un chupito o el estuche de regalo con bombones. Si queréis una botella, compradla hoy: el domingo los súper cierran.",
+          "link": "https://goldwasser.pl/en/",
+          "mapsQuery": "Goldwasser, Długie Pobrzeże 22, Gdańsk"
+        },
+        {
           "id": "2.15",
-          "time": "20:45",
+          "time": "21:00",
           "dur": "20 min",
           "name": "✨ Neón «Gdańsk» en la isla de Ołowianka",
           "lat": 54.3529362,
           "lng": 18.6599285,
-          "desc": "El «Gdansk Inscription Neon» de tu lista: el gran letrero luminoso «Gdańsk» junto al río, iluminado toda la noche (4,7 con 3.067 reseñas en Google). Desde OSTRO, ~10 min por la ribera hasta la pasarela levadiza, junto a Kubicki. La Grúa iluminada queda enfrente y la noria AmberSky a 150 m, si os apetece subir de noche (Google la da sáb 10:00–24:00; ~42 zł por persona en 2026). A esa hora meteoblue da -6 °C con sensación de -12: luego, directos al piso (~20 min).",
+          "desc": "El «Gdansk Inscription Neon» de tu lista: el gran letrero luminoso «Gdańsk» junto al río, iluminado toda la noche (4,7 con 3.067 reseñas en Google). Desde Goldwasser, ~8 min por la ribera hasta la pasarela levadiza, junto a Kubicki. La Grúa iluminada queda enfrente y la noria AmberSky a 150 m, si os apetece subir de noche (Google la da sáb 10:00–24:00; ~42 zł por persona en 2026). A esa hora meteoblue da -6 °C con sensación de -12: luego, directos al piso (~20 min).",
           "tags": [
             "gratis",
             "mirador"
@@ -543,8 +543,8 @@
         "value": "Lo quitasteis tras hacer la balanza: costaba la mañana entera del sábado, madrugar, comer con prisa y empujar Uphagen y el Ayuntamiento al domingo. Ese hueco lo ocupan ahora el galeón con sol y el Museo de la II Guerra Mundial."
       },
       {
-        "label": "⛵ Galeón: por qué el sábado a las 11:00 y sin bajar",
-        "value": "Salidas confirmadas en su web el viernes y el sábado a las 11:00, 13:00 y 15:00. La idea era la de las 15:00 del viernes para la puesta, pero con la previsión del 25 nov el viernes sale nublado todo el día (nubes bajas al 70 % a las 15:00 en Open-Meteo, 2 h de sol en todo el día en meteoblue): la puesta no se vería y la vuelta sería de noche, sin ver el puerto. El <strong>sábado a las 11:00</strong> es la ventana más despejada y en calma del viaje: se ven el puerto, los astilleros y Westerplatte con sol. <strong>Sin bajar en Westerplatte</strong>: bajarse obliga a esperar otro barco y os come el museo de la tarde. <strong>La lancha nocturna</strong>, descartada: el galeón es el plan con historia."
+        "label": "⛵ Galeón: por qué a las 15:00 y sin bajar",
+        "value": "El sábado amaneció con niebla y el desayuno se alargó, así que pasó de las 11:00 a las 15:00: sale con la última luz y vuelve de noche, con el puerto iluminado. Sin bajar en Westerplatte: bajarse obliga a esperar otro barco."
       }
     ],
     "transport": [
@@ -571,8 +571,8 @@
     ],
     "reservas": [
       {
-        "label": "⛵ Galeón Czarna Perła (sáb 28, 11:00)",
-        "value": "Comprad online en <a href=\"https://perlalew.pl/kup-online/\" target=\"_blank\">perlalew.pl</a> (vende Ekobilet): ida y vuelta 106,22 zł por adulto, salida del sábado a las 11:00. El 25 nov estaba a la venta sin indicar plazas libres; también hay taquilla en el embarcadero. Embarque 30 min antes en Długie Pobrzeże 11 (Gdański Bowke); cambiad la entrada online por la de papel en la taquilla, sin hacer cola. No he encontrado qué hacen si se cancela por mal tiempo."
+        "label": "⛵ Galeón Czarna Perła (sáb 28, 15:00)",
+        "value": "Comprad online en <a href=\"https://perlalew.pl/kup-online/\" target=\"_blank\">perlalew.pl</a> (vende Ekobilet): ida y vuelta 106,22 zł por adulto, salida del sábado a las 15:00. El 25 nov estaba a la venta sin indicar plazas libres; también hay taquilla en el embarcadero. Embarque 30 min antes en Długie Pobrzeże 11 (Gdański Bowke); cambiad la entrada online por la de papel en la taquilla, sin hacer cola. No he encontrado qué hacen si se cancela por mal tiempo."
       },
       {
         "label": "🏛️ Museo de la II Guerra Mundial (sáb 28)",
