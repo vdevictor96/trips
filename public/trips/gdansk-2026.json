@@ -1,5 +1,5 @@
 {
-  "_v": 22,
+  "_v": 23,
   "id": "gdansk-2026",
   "title": "Gdańsk 2026",
   "emoji": "🇵🇱",
@@ -254,7 +254,7 @@
           "name": "Ayuntamiento Antiguo (Ratusz Staromiejski)",
           "lat": 54.3539639,
           "lng": 18.6480183,
-          "desc": "El «ayuntamiento antiguo» de tu lista: el de la Ciudad Vieja (Korzenna 33/35), renacentista. Por fuera. De aquí a Stary Młyn ~11 min a pie.",
+          "desc": "El «ayuntamiento antiguo» de tu lista: el de la Ciudad Vieja (Korzenna 33/35), renacentista. Por fuera. De aquí a Mandu ~5 min a pie.",
           "tags": [
             "gratis"
           ],
@@ -262,16 +262,16 @@
         },
         {
           "id": "2.5",
-          "time": "12:30",
-          "dur": "35 min",
-          "name": "🥟 Pierogarnia Stary Młyn — pierogi",
-          "lat": 54.3501302,
-          "lng": 18.654567,
-          "desc": "De tu lista. Pierogi en Św. Ducha 64, abre a las 8:00 y cierra hacia las 23:00 según Google (4,6 con más de 17.000 reseñas). Comida ligera, que venís de desayunar. De aquí al museo, ~15 min.",
+          "time": "12:20",
+          "dur": "40 min",
+          "name": "🥟 Pierogarnia Mandu — pierogi",
+          "lat": 54.353753,
+          "lng": 18.6467207,
+          "desc": "De tu lista, y la recomendación de una amiga de Gdańsk. Pierogi de todo tipo en Elżbietańska 4/8, a ~5 min del Ayuntamiento Antiguo; abre 11:00–22:00 y tiene 4,8 con más de 17.000 reseñas en Google. Sábado a mediodía: puede haber cola. Comida ligera, que venís de desayunar. De aquí al museo, ~18 min.",
           "tags": [
             "obligatorio"
           ],
-          "mapsQuery": "Pierogarnia Stary Młyn, Świętego Ducha 64, Gdańsk"
+          "mapsQuery": "Pierogarnia Mandu, Elżbietańska 4/8, Gdańsk"
         },
         {
           "id": "2.6",
@@ -584,7 +584,7 @@
       },
       {
         "label": "🍽️ Cena del sábado",
-        "value": "Sábado de mercadillo con el centro lleno: reservad <strong>OSTRO</strong> (pizza napolitana, sáb 19:30) si podéis, o id puntuales. El viernes cenáis en el mercadillo y la comida del sábado es en Stary Młyn, sin reserva."
+        "value": "Sábado de mercadillo con el centro lleno: reservad <strong>OSTRO</strong> (pizza napolitana, sáb 19:30) si podéis, o id puntuales. El viernes cenáis en el mercadillo y la comida del sábado es en Mandu, sin reserva."
       },
       {
         "label": "🕐 Horarios comprobados (webs oficiales)",
@@ -679,15 +679,6 @@
       "mapsQuery": "100cznia, Księdza Jerzego Popiełuszki 5, Gdańsk"
     },
     {
-      "id": "r.10",
-      "cat": "🥟 Polaca / pierogi",
-      "name": "Pierogarnia Mandu",
-      "lat": 54.353753,
-      "lng": 18.6467207,
-      "desc": "⭐ TU LISTA · Pierogi de todo tipo (Elżbietańska 4/8), abre 11–22; 4,8 con más de 17.000 reseñas en Google. Era la cena del viernes: al final, cena en el mercadillo.",
-      "mapsQuery": "Pierogarnia Mandu, Elżbietańska 4/8, Gdańsk"
-    },
-    {
       "id": "r.11",
       "cat": "🥟 Polaca / pierogi",
       "name": "Kubicki",
@@ -695,6 +686,15 @@
       "lng": 18.6592615,
       "desc": "Restaurante clásico junto al río (Wartka 5), de los más antiguos de Gdańsk según las guías; el sitio para la czernina (sopa casubia de pato). Sábado 12:00–23:00 y 4,5 con 2.239 reseñas en Google.",
       "mapsQuery": "Restauracja Kubicki, Wartka 5, Gdańsk"
+    },
+    {
+      "id": "r.2",
+      "cat": "🥟 Polaca / pierogi",
+      "name": "Pierogarnia Stary Młyn",
+      "lat": 54.3501302,
+      "lng": 18.654567,
+      "desc": "⭐ TU LISTA · Św. Ducha 64; abre a las 8:00 (también desayunos) y cierra hacia las 23:00 según Google, 4,6 con más de 17.000 reseñas. Alternativa a Mandu si hay mucha cola.",
+      "mapsQuery": "Pierogarnia Stary Młyn, Świętego Ducha 64, Gdańsk"
     }
   ],
   "cafes": [
